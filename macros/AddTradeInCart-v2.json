@@ -1,0 +1,174 @@
+{
+  "Name": "AddTradeInCart-v2",
+  "CreationDate": "2024-5-1",
+  "Commands": [
+    {
+      "Command": "store",
+      "Target": "fast",
+      "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/div/div[2]/div/div/div/div[2]/button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"manualSelect-deviceType 智能手機及平板電腦\"]/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//li[2]/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//toko-selection-directive[3]/div/div/div[2]/div[2]/ul/li[2]/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//toko-selection-directive[4]/div/div/div[2]/div[2]/ul/li[3]/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"manualSelect-color\"]/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div[2]/div/ng-tempate/div/div/div[3]/div/div/div/button[2]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div[2]/div/ng-tempate/ng-tempate/div/div[2]/div/div/div/div/div[3]/div[2]/div/div/div[2]/ng-form/input",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return Math.floor(400000000 + Math.random()*400000000)",
+      "Value": "IMEI",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div[2]/div/ng-tempate/ng-tempate/div/div[2]/div/div/div/div/div[3]/div[2]/div/div/div[2]/ng-form/input",
+      "Value": "M${IMEI}",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div[2]/div/ng-tempate/ng-tempate/div/div[3]/div/div/div/ng-container/div/button/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Q1",
+      "Value": "on",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div[2]/div/ng-tempate/div[2]/div/div[2]/div/div/div/div/div/div/form/div/div/div/div[2]/div[4]/div/label/div/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Q2",
+      "Value": "on",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div[2]/div/ng-tempate/div[2]/div/div[2]/div/div/div/div/div/div/form/div/div[2]/div/div[2]/div[5]/div/label/div/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Q3",
+      "Value": "on",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div[2]/div/ng-tempate/div[2]/div/div[2]/div/div/div/div/div/div/form/div/div[3]/div/div[2]/div[8]/div/label/div/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=purchaseFrom",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "select",
+      "Target": "id=purchaseFrom",
+      "Value": "label=自特約零售商或經銷商",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "3000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div[2]/div/ng-tempate/div[2]/div/div[4]/div/div/div/div[3]/button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "3000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=ServiceTermsAndCondition.tradeIn.agreements.agree1",
+      "Value": "on",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=ServiceTermsAndCondition.tradeIn.agreements.agree1",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div[2]/ng-tempate/div/ng-container/div/div/div/div/div[4]/div/button/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

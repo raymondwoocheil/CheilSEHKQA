@@ -1,0 +1,150 @@
+{
+  "Name": "AddTradeIn",
+  "CreationDate": "2024-4-28",
+  "Commands": [
+    {
+      "Command": "comment",
+      "Target": "open // https://www.samsung.com/hk/smartphones/galaxy-s24-ultra/buy/",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementPresent",
+      "Target": "xpath=//*[@id=\"hubble-commontradein-layer\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@an-la=\"trade-in:select device:Smartphone & Tablet\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "100",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"brand\"]/li[2]/a/div/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"model\"]/li[2]/a/div/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"capacity\"]/li/a/div/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"color\"]/li/a/div/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"PurchaseFrom\"]/li/a/div/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"hubble-commontradein-layer\"]/div[2]/div/div[2]/button[2]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=common-trade-imei",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return Math.floor(400000000 + Math.random()*400000000)",
+      "Value": "IMEI",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=common-trade-imei",
+      "Value": "M${IMEI}",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "200",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "xpath=//*[@class=\"text-field-v2__text success\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//button[@an-la=\"trade-in:enter imei:next\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementPresent",
+      "Target": "xpath=//*[@id=\"commonConditionForm\"]/ul/li",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=multi-choice-checkbox0-3",
+      "Value": "None of the above",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=multi-choice-checkbox1-4",
+      "Value": "None of the above",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=multi-choice-checkbox2-7",
+      "Value": "None of the above",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"hubble-commontradein-layer\"]/div[2]/div[3]/div[2]/button[2]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=trade-chk1",
+      "Value": "on",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "100",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@an-la=\"trade-in:apply discount:apply trade in\"]",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

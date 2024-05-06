@@ -1,0 +1,24 @@
+MX,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Assigned,Test Case,,,,,,,,,,3,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,,Verify / AC >>,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,eStore premiums,,,,,Verify / AC >>,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,
+Tester,ID,Manual Cart,Manual Checkout,Auto Cart,Auto Checkout,Model,TYPE,BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-in,Trade-in-type,Verify extra trade-in rebate,SC+,SC-type,"Verify SC+ 
+in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass,,,,"Mother
+end 13/4",,eStore,,,,Array,"Verify Free Premiums in Cart (SKU)
+(Exact Match)",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,Guest Email,Select City,Select District,Select Service,Verify Expected Delivery Date,Verify Delivery Cost,Checkout Page Result,Screencap,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,Extra Trade-In Rebate label,Trade-In Rebate captured,Trade-In Rebate result,SC+ label,SC+ captured,SC+ result,Premium count,Count captured,Premium count result,Failed reason,Items in Cart,SKU 1,,SKU 2,,SKU 3,,SKU 4,,SKU 5,,SKU 6,,SKU 7,,SKU 8,,SKU 9,,SKU 10,,,,Final Result,Test duration (s),,Cart Page Result,Cart Page Result,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,-,-,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,MX-01,,,,,"Galaxy S24 Ultra, 1TB, Titanium Blue",SMP,Y,SM-S9280LBPTGY,https://www.samsung.com/hk/smartphones/galaxy-s24-ultra/buy/?modelCode=SM-S9280LBPTGY,SM-S9280LBPTGY,"12,898","12,398",Guest,,"12,398",Yes,S24 Ultra (512GB / 1TB),800,Yes,S24 Series,998,Use GC,S24 Ultra,500,500,,,,Add to Cart,"12,398",,Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,,,,,,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY","
+●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
+●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+
+"
+,MX-02,,,,,"Galaxy S24+, 512GB, Onyx Black",SMP,Y,SM-S9260ZKGTGY,https://www.samsung.com/hk/smartphones/galaxy-s24/buy/?modelCode=SM-S9260ZKGTGY,SM-S9260ZKGTGY,"8,598","8,098",Guest,,"8,098",Yes,S24+ (512GB),800,Yes,S24 Series,998,Use GC,S24+,500,500,,,,Add to Cart,"8,098",,Z-EP-T6530NBEGGB,,,,,,,,,,Z-EP-T6530NBEGGB,"
+●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+
+"
+,MX-03,,,,,"Galaxy S24, 512GB, Onyx Black",SMP,Y,SM-S9210ZKHTGY,https://www.samsung.com/hk/smartphones/galaxy-s24/buy/?modelCode=SM-S9210ZKHTGY,SM-S9210ZKHTGY,"6,898","6,598",Guest,,"6,598",Yes,S24 (512GB),500,Yes,S24 Series,998,Use GC,S24 base,300,300,,,,Add to Cart,"6,598",,Z-EP-T6530NBEGGB,,,,,,,,,,Z-EP-T6530NBEGGB,"
+●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+
+"

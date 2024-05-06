@@ -1,0 +1,84 @@
+{
+  "Name": "AddTradeUpInCart",
+  "CreationDate": "2024-5-1",
+  "Commands": [
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/div/div/div[2]/div/div[2]/div/div/div/div[2]/div",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//li[3]/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[2]/div[2]/div[2]/ul/li[4]/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/ng-template/div/div/div/div/ng-container/div/button/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=conditionCheckInfoYes",
+      "Value": "on",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/div/div/div[2]/div/div[3]/div/div/div[2]/ul/li/div/label/span[2]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=conditionCheckInfoYes",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/ng-template/div/div/div/div/ng-container/div/button/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=ServiceTermsAndCondition.tradeUp.agreements.agree1",
+      "Value": "on",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=ServiceTermsAndCondition.tradeUp.agreements.agree1",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/ng-template/div/div/div/div/div[3]/div/button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "6000",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

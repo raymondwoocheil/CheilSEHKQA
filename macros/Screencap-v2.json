@@ -1,0 +1,852 @@
+{
+  "Name": "Screencap-v2",
+  "CreationDate": "2024-5-4",
+  "Commands": [
+    {
+      "Command": "comment",
+      "Target": "store // EPP",
+      "Value": "Store",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "fast",
+      "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!errorIgnore",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!Runtime}",
+      "Value": "StartTime",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start of TestCaseMX**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber}",
+      "Value": "green",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Open URL**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${Store}==\"EPP\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "${!COL12}",
+      "Value": "",
+      "Description": "SPP Link"
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "${!COL11}",
+      "Value": "",
+      "Description": "B2C Link"
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "var today = new Date();\nvar date = today.getFullYear() + \"-\" + (today.getMonth() + 1) + \"-\" + today.getDate()\nreturn date;",
+      "Value": "DateToday",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "var today = new Date();\nvar time = today.getFullYear() + \"-\" + (today.getMonth() + 1) + \"-\" + today.getDate() + \" \" + today.getHours() + \":\" + today.getMinutes() + \":\" + today.getSeconds();\nreturn time;",
+      "Value": "DateTimeNow",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${DateTimeNow}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Store Variables**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "-",
+      "Value": "CaseID",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!COL2}",
+      "Value": "CaseID",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${CaseID}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!COL7}",
+      "Value": "ProductName",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!COL10}",
+      "Value": "SKU",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!COL9}",
+      "Value": "BcBuy",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "[${SKU}] Starting Test Case",
+      "Value": "blue",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!COL15}",
+      "Value": "Email",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!COL16}",
+      "Value": "Password",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "pause // 100000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Login EPP**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//*[@data-automation-id=\"epp-login-button\"]",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@data-automation-id=\"epp-login-button\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=iptLgnPlnID",
+      "Value": "cptqaer@gmail.com",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=signInButton",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=iptLgnPlnPD",
+      "Value": "!Cheil2024",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=signInButton",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Screencap Buy Page**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**If BcBuy**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${BcBuy}==\"Y\" && ${Store}!=\"EPP\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "10",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_PAGE_DOWN}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "captureEntirePageScreenshot",
+      "Target": "${!csvReadLineNumber}-BuyPage-${SKU}-${DateTimeNow}.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Verify SKU**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyText",
+      "Target": "xpath=//*[@id=\"deviceSummary\"]/div[contains(@class,\"s-option-summary\")]",
+      "Value": "${SKU}",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${SKU}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${ProductName}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Verify if OOS (Blocked)**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//div[@class=\"hubble-product__total-cta\"]//*[contains(text(),\"立即購買\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@an-la=\"trade-in:no\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "300",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "verifyElementPresent // xpath=//a[@onclick=\"bc_cta.addToCart(); return false;\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@an-la=\"samsung care:none\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "300",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//*[@onclick=\"bc_cta.addToCart(); return false;\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "OOS (Blocked)",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**If SimpleBuy**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Verify SKU**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyText",
+      "Target": "xpath=//*[@class=\"pd-info__sku-code\"]",
+      "Value": "${SKU}",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${SKU}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${ProductName}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "captureScreenshot",
+      "Target": "${!csvReadLineNumber}-BuyPage-${SKU}-${DateTimeNow}.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Verify if OOS (Blocked)**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "verifyElementPresent // xpath=//a[@onclick=\"bc_cta.addToCart(); return false;\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//*[@an-la='pd buying tool:add to cart']",
+      "Value": "",
+      "Description": "xpath=//*[contains(@class, \"js-buy-now\")]"
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//*[@an-la='pd buying tool:add to cart']",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "OOS (Blocked)",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "##########################",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Skip to end if OOS (Blocked)**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${TestResult}!=\"OOS (Blocked)\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Open Cart Page**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${Store}==\"EPP\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://shop.samsung.com/hk/multistore/hkedu/hkeducation/cart",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://shop.samsung.com/hk/cart",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Screencap Cart Page**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "captureEntirePageScreenshot",
+      "Target": "${!csvReadLineNumber}-CartPage-${SKU}-${DateTimeNow}-${TestResult}.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Clear Cart**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//button[@data-variant-sku=\"${SKU}\"]//*[@class=\"icon-remove no-rtl\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "300",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementNotPresent",
+      "Target": "xpath=//div[contains(@class,\"cart-empty-container\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeXpathCount",
+      "Target": "xpath=//*[@class=\"cart-item-top cart-item-top-lg\"]//div[@class=\"cart-top-actions\"]//button[@data-automation-id=\"removeEntry\"]",
+      "Value": "RemoveIconCount",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "\"RemoveIconCount\" = ${RemoveIconCount}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "${RemoveIconCount}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "400",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@class=\"cart-item-top cart-item-top-lg\"]//div[@class=\"cart-top-actions\"]//button[@data-automation-id=\"removeEntry\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Log Final Test Results**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${TestResult}==\"Passed\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "[${CaseID}] [${SKU}] ${ProductName} == ${TestResult}",
+      "Value": "green",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
+      "Target": "${TestResult}==\"Failed\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "[${CaseID}] [${SKU}] ${ProductName} == ${TestResult}",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
+      "Target": "${TestResult}==\"OOS (Blocked)\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "[${CaseID}] [${SKU}] ${ProductName} == ${TestResult}",
+      "Value": "orange",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TestResult}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!Runtime}",
+      "Value": "EndTime",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return Number(${EndTime}.replace(/[^0-9.-]+/g,\"\"))-Number(${StartTime}.replace(/[^0-9.-]+/g,\"\"));",
+      "Value": "TestDuration",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TestDuration}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Test Duration: ${TestDuration}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "csvSave",
+      "Target": "Screencap-Result-${DateToday}.csv",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End of TestCaseMX**",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

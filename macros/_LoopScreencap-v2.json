@@ -1,0 +1,138 @@
+{
+  "Name": "_LoopScreencap-v2",
+  "CreationDate": "2024-5-4",
+  "Commands": [
+    {
+      "Command": "store",
+      "Target": "9",
+      "Value": "startingLineNumber",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "9999999",
+      "Value": "!timeout_macro",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "4",
+      "Value": "!timeout_wait",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "fast",
+      "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "4",
+      "Value": "!timeout_pageload",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "openBrowser // https://www.samsung.com/hk",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "setWindowSize",
+      "Target": "1024x750",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${startingLineNumber}",
+      "Value": "!csvReadLineNumber",
+      "Description": ""
+    },
+    {
+      "Command": "csvRead",
+      "Target": "AllSkuScreencap.csv",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Status = ${!csvReadStatus}, line = ${!csvReadLineNumber}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "while_v2",
+      "Target": "${!csvReadStatus} == \"OK\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "status = ${!csvReadStatus}, line = ${!csvReadLineNumber}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Call subroutine for the actual form filling",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "run // TestCaseMX-v2",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "Screencap-v2",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return Number(${!csvReadLineNumber})+1",
+      "Value": "!csvReadLineNumber",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!errorIgnore",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Reading CSV line No.  ${!csvReadLineNumber} ",
+      "Value": "!errorIgnore",
+      "Description": ""
+    },
+    {
+      "Command": "csvRead",
+      "Target": "AllSkuScreencap.csv",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "false",
+      "Value": "!errorIgnore",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "${!Runtime}",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "Name": "AddTradeUp",
+  "CreationDate": "2024-4-29",
+  "Commands": [
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div/div/div[2]/div/div/ul/li/div[2]/div/button/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div/div/div[2]/div/div/ul/li/div[2]/div/div/div/ul/li[3]/button/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "select",
+      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div/div/div[2]/div/div/ul/li/div[2]/div/select",
+      "Value": "label=56” - 65”",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div/div/div[2]/div/div/ul/li[2]/div[2]/div/button/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div/div/div[2]/div/div/ul/li[2]/div[2]/div/div/div/ul/li[3]/button/span",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "select",
+      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div/div/div[2]/div/div/ul/li[2]/div[2]/div/select",
+      "Value": "label=Samsung",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div/div/div[3]/button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=conditionCheckInfoYes",
+      "Value": "on",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div[2]/div/div[2]/div/div/div[2]/ul/li/div/label/span[2]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=conditionCheckInfoYes",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div[2]/div/div[3]/button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=chkTuTncAgree",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div[3]/div/div[3]/button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "6000",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
