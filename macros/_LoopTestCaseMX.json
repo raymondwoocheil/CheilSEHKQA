@@ -1,5 +1,5 @@
 {
-  "Name": "_LoopTestCaseMX-v2",
+  "Name": "_LoopTestCaseMX",
   "CreationDate": "2024-5-3",
   "Commands": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "Command": "csvRead",
-      "Target": "TestCaseMX-v2.csv",
+      "Target": "TestCaseMX.csv",
       "Value": "",
       "Description": ""
     },
@@ -76,7 +76,7 @@
     },
     {
       "Command": "run",
-      "Target": "TestCaseMX-v2",
+      "Target": "TestCaseMX",
       "Value": "",
       "Description": ""
     },
@@ -100,7 +100,7 @@
     },
     {
       "Command": "csvRead",
-      "Target": "TestCaseMX-v2.csv",
+      "Target": "TestCaseMX.csv",
       "Value": "",
       "Description": ""
     },

@@ -1,5 +1,5 @@
 {
-  "Name": "_LoopScreencap-v2",
+  "Name": "_LoopScreencap",
   "CreationDate": "2024-5-4",
   "Commands": [
     {
@@ -82,13 +82,13 @@
     },
     {
       "Command": "comment",
-      "Target": "run // TestCaseMX-v2",
+      "Target": "run // TestCaseMX",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "run",
-      "Target": "Screencap-v2",
+      "Target": "Screencap",
       "Value": "",
       "Description": ""
     },

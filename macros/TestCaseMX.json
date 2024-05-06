@@ -1,5 +1,5 @@
 {
-  "Name": "TestCaseMX-v2",
+  "Name": "TestCaseMX",
   "CreationDate": "2024-5-3",
   "Commands": [
     {
@@ -1438,7 +1438,7 @@
     },
     {
       "Command": "run",
-      "Target": "AddTradeInCart-v2",
+      "Target": "AddTradeInCart",
       "Value": "",
       "Description": ""
     },

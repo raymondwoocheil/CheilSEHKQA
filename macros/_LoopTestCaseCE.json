@@ -1,5 +1,5 @@
 {
-  "Name": "_LoopTestCaseCE-v2",
+  "Name": "_LoopTestCaseCE",
   "CreationDate": "2024-5-3",
   "Commands": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "Command": "csvRead",
-      "Target": "TestCaseCE-v2.csv",
+      "Target": "TestCaseCE.csv",
       "Value": "",
       "Description": ""
     },
@@ -76,7 +76,7 @@
     },
     {
       "Command": "run",
-      "Target": "TestCaseCE-v2",
+      "Target": "TestCaseCE",
       "Value": "",
       "Description": ""
     },
@@ -100,7 +100,7 @@
     },
     {
       "Command": "csvRead",
-      "Target": "TestCaseCE-v2.csv",
+      "Target": "TestCaseCE.csv",
       "Value": "",
       "Description": ""
     },

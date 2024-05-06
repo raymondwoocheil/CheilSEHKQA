@@ -1,5 +1,5 @@
 {
-  "Name": "_LoopTestCaseEPP-v2",
+  "Name": "_LoopTestCaseEPP",
   "CreationDate": "2024-5-4",
   "Commands": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "Command": "csvRead",
-      "Target": "TestCaseEPPCE-v2.csv",
+      "Target": "TestCaseEPPCE.csv",
       "Value": "",
       "Description": ""
     },
@@ -76,7 +76,7 @@
     },
     {
       "Command": "run",
-      "Target": "TestCaseEPP-v2",
+      "Target": "TestCaseEPP",
       "Value": "",
       "Description": ""
     },
@@ -100,7 +100,7 @@
     },
     {
       "Command": "csvRead",
-      "Target": "TestCaseEPPCE-v2.csv",
+      "Target": "TestCaseEPPCE.csv",
       "Value": "",
       "Description": ""
     },
