@@ -1,6 +1,6 @@
 {
   "Name": "TestCaseMX",
-  "CreationDate": "2024-5-3",
+  "CreationDate": "2024-5-7",
   "Commands": [
     {
       "Command": "store",
@@ -2380,7 +2380,7 @@
     },
     {
       "Command": "csvSave",
-      "Target": "TestCaseMXResults-${DateToday}.csv",
+      "Target": "_Results-MX-${DateToday}.csv",
       "Value": "",
       "Description": ""
     },

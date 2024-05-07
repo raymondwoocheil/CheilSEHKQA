@@ -1,7 +1,55 @@
 {
   "Name": "_LoopTestCaseEPP",
-  "CreationDate": "2024-5-4",
+  "CreationDate": "2024-5-7",
   "Commands": [
+    {
+      "Command": "comment",
+      "Target": "store // TestCaseMXSPP.csv",
+      "Value": "TestCase",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // MX-SPP",
+      "Value": "TestSite",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "TestCaseMXEPP.csv",
+      "Value": "TestCase",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "MX-EPP",
+      "Value": "TestSite",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // TestCaseCESPP.csv",
+      "Value": "TestCase",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // CE-SPP",
+      "Value": "TestSite",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // TestCaseCEEPP.csv",
+      "Value": "TestCase",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // CE-EPP",
+      "Value": "TestSite",
+      "Description": ""
+    },
     {
       "Command": "store",
       "Target": "5",
@@ -46,7 +94,7 @@
     },
     {
       "Command": "csvRead",
-      "Target": "TestCaseEPPCE.csv",
+      "Target": "${TestCase}",
       "Value": "",
       "Description": ""
     },
@@ -100,7 +148,7 @@
     },
     {
       "Command": "csvRead",
-      "Target": "TestCaseEPPCE.csv",
+      "Target": "${TestCase}",
       "Value": "",
       "Description": ""
     },

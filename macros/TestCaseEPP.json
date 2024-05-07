@@ -1,6 +1,6 @@
 {
   "Name": "TestCaseEPP",
-  "CreationDate": "2024-5-4",
+  "CreationDate": "2024-5-7",
   "Commands": [
     {
       "Command": "store",
@@ -2296,7 +2296,7 @@
     },
     {
       "Command": "csvSave",
-      "Target": "TestCaseEPPResults-${DateToday}.csv",
+      "Target": "-Results-${TestSite}-${DateToday}.csv",
       "Value": "",
       "Description": ""
     },
