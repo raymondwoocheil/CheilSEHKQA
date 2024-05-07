@@ -1,6 +1,6 @@
 {
   "Name": "TestCaseMX",
-  "CreationDate": "2024-5-7",
+  "CreationDate": "2024-5-8",
   "Commands": [
     {
       "Command": "store",
@@ -117,14 +117,14 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // ${!COL18}",
+      "Command": "store",
+      "Target": "${!COL18}",
       "Value": "TradeIn",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "\"No\"",
+      "Command": "comment",
+      "Target": "store // \"No\"",
       "Value": "TradeIn",
       "Description": ""
     },
@@ -177,8 +177,8 @@
       "Description": ""
     },
     {
-      "Command": "if_v2",
-      "Target": "${TradeIn}==\"Yes\"",
+      "Command": "comment",
+      "Target": "if_v2 // ${TradeIn}==\"Yes\"",
       "Value": "",
       "Description": ""
     },
@@ -189,20 +189,20 @@
       "Description": ""
     },
     {
-      "Command": "else",
-      "Target": "",
+      "Command": "comment",
+      "Target": "else // ",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "executeScript",
-      "Target": "return Number(${!COL17}.replace(/[^0-9.-]+/g,\"\"));",
+      "Command": "comment",
+      "Target": "executeScript // return Number(${!COL17}.replace(/[^0-9.-]+/g,\"\"));",
       "Value": "ExpectedSKUPrice",
       "Description": ""
     },
     {
-      "Command": "end",
-      "Target": "",
+      "Command": "comment",
+      "Target": "end // ",
       "Value": "",
       "Description": ""
     },
@@ -1546,7 +1546,7 @@
     },
     {
       "Command": "store",
-      "Target": "${SKUPrice}",
+      "Target": "${SKUPriceCart}",
       "Value": "!csvLine",
       "Description": ""
     },
@@ -2212,7 +2212,7 @@
     },
     {
       "Command": "captureEntirePageScreenshot",
-      "Target": "MXCartPage-${SKU}-${DateTimeNow}-${TestResult}.png",
+      "Target": "MX-CartPage-${SKU}-${DateTimeNow}-${TestResult}.png",
       "Value": "",
       "Description": ""
     },

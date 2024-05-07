@@ -1,11 +1,29 @@
 {
-  "Name": "_LoopTestCaseCE",
+  "Name": "_LoopDeliveryMode",
   "CreationDate": "2024-5-8",
   "Commands": [
     {
       "Command": "store",
-      "Target": "5",
+      "Target": "10",
       "Value": "startingLineNumber",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "fast",
+      "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "B2C",
+      "Value": "Store",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // EPP",
+      "Value": "Store",
       "Description": ""
     },
     {
@@ -22,8 +40,8 @@
     },
     {
       "Command": "store",
-      "Target": "fast",
-      "Value": "!replayspeed",
+      "Target": "4",
+      "Value": "!timeout_pageload",
       "Description": ""
     },
     {
@@ -46,7 +64,7 @@
     },
     {
       "Command": "csvRead",
-      "Target": "TestCaseCE.csv",
+      "Target": "AllSku.csv",
       "Value": "",
       "Description": ""
     },
@@ -75,8 +93,14 @@
       "Description": ""
     },
     {
+      "Command": "comment",
+      "Target": "run // TestCaseMX",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "run",
-      "Target": "TestCaseCE",
+      "Target": "TestDeliveryMode",
       "Value": "",
       "Description": ""
     },
@@ -100,7 +124,7 @@
     },
     {
       "Command": "csvRead",
-      "Target": "TestCaseCE.csv",
+      "Target": "AllSku.csv",
       "Value": "",
       "Description": ""
     },

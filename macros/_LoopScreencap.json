@@ -1,11 +1,29 @@
 {
   "Name": "_LoopScreencap",
-  "CreationDate": "2024-5-4",
+  "CreationDate": "2024-5-8",
   "Commands": [
     {
       "Command": "store",
-      "Target": "9",
+      "Target": "5",
       "Value": "startingLineNumber",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "fast",
+      "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "B2C",
+      "Value": "Store",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // EPP",
+      "Value": "Store",
       "Description": ""
     },
     {
@@ -18,12 +36,6 @@
       "Command": "store",
       "Target": "4",
       "Value": "!timeout_wait",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "fast",
-      "Value": "!replayspeed",
       "Description": ""
     },
     {
@@ -52,7 +64,7 @@
     },
     {
       "Command": "csvRead",
-      "Target": "AllSkuScreencap.csv",
+      "Target": "AllSku.csv",
       "Value": "",
       "Description": ""
     },
@@ -112,7 +124,7 @@
     },
     {
       "Command": "csvRead",
-      "Target": "AllSkuScreencap.csv",
+      "Target": "AllSku.csv",
       "Value": "",
       "Description": ""
     },

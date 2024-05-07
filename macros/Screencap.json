@@ -1,13 +1,7 @@
 {
   "Name": "Screencap",
-  "CreationDate": "2024-5-4",
+  "CreationDate": "2024-5-8",
   "Commands": [
-    {
-      "Command": "comment",
-      "Target": "store // EPP",
-      "Value": "Store",
-      "Description": ""
-    },
     {
       "Command": "store",
       "Target": "fast",
@@ -46,15 +40,15 @@
     },
     {
       "Command": "if",
-      "Target": "${Store}==\"EPP\"",
+      "Target": "${Store}==\"B2C\"",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "open",
-      "Target": "${!COL12}",
+      "Target": "${!COL11}",
       "Value": "",
-      "Description": "SPP Link"
+      "Description": "B2C Link"
     },
     {
       "Command": "else",
@@ -64,9 +58,9 @@
     },
     {
       "Command": "open",
-      "Target": "${!COL11}",
+      "Target": "${!COL12}",
       "Value": "",
-      "Description": "B2C Link"
+      "Description": "SPP Link"
     },
     {
       "Command": "end",
@@ -316,7 +310,7 @@
     },
     {
       "Command": "if_v2",
-      "Target": "${BcBuy}==\"Y\" && ${Store}!=\"EPP\"",
+      "Target": "${BcBuy}==\"Y\" && ${Store}==\"B2C\"",
       "Value": "",
       "Description": ""
     },

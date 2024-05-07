@@ -1,6 +1,6 @@
 {
   "Name": "TestCaseCE",
-  "CreationDate": "2024-5-7",
+  "CreationDate": "2024-5-8",
   "Commands": [
     {
       "Command": "store",
@@ -1528,7 +1528,7 @@
     },
     {
       "Command": "captureEntirePageScreenshot",
-      "Target": "CECartPage-${SKU}-${DateTimeNow}-${TestResult}.png",
+      "Target": "CE-CartPage-${SKU}-${DateTimeNow}-${TestResult}.png",
       "Value": "",
       "Description": ""
     },

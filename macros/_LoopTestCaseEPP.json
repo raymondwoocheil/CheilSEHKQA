@@ -1,7 +1,13 @@
 {
   "Name": "_LoopTestCaseEPP",
-  "CreationDate": "2024-5-7",
+  "CreationDate": "2024-5-8",
   "Commands": [
+    {
+      "Command": "store",
+      "Target": "fast",
+      "Value": "!replayspeed",
+      "Description": ""
+    },
     {
       "Command": "comment",
       "Target": "store // TestCaseMXSPP.csv",
@@ -15,26 +21,26 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "TestCaseMXEPP.csv",
+      "Command": "comment",
+      "Target": "store // TestCaseMXEPP.csv",
       "Value": "TestCase",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "MX-EPP",
+      "Command": "comment",
+      "Target": "store // MX-EPP",
       "Value": "TestSite",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // TestCaseCESPP.csv",
+      "Command": "store",
+      "Target": "TestCaseCESPP.csv",
       "Value": "TestCase",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // CE-SPP",
+      "Command": "store",
+      "Target": "CE-SPP",
       "Value": "TestSite",
       "Description": ""
     },
@@ -66,12 +72,6 @@
       "Command": "store",
       "Target": "4",
       "Value": "!timeout_wait",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "fast",
-      "Value": "!replayspeed",
       "Description": ""
     },
     {
