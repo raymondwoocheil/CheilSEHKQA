@@ -33,26 +33,26 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "TestCaseCESPP.csv",
+      "Command": "comment",
+      "Target": "store // TestCaseCESPP.csv",
       "Value": "TestCase",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "CE-SPP",
+      "Command": "comment",
+      "Target": "store // CE-SPP",
       "Value": "TestSite",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // TestCaseCEEPP.csv",
+      "Command": "store",
+      "Target": "TestCaseCEEPP.csv",
       "Value": "TestCase",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // CE-EPP",
+      "Command": "store",
+      "Target": "CE-EPP",
       "Value": "TestSite",
       "Description": ""
     },
