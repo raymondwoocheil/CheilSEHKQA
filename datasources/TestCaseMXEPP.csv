@@ -1,4 +1,4 @@
-EPP MX,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MX EPP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Assigned,Test Case,,,,,,,,,,3,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,,Verify / AC >>,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,EPP store only premiums,,,,,Verify / AC >>,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,
 Tester,ID,Manual Cart,Manual Checkout,Auto Cart,Auto Checkout,Model,TYPE,BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-in,Trade-in-type,Verify extra trade-in rebate,SC+,SC-type,"Verify SC+ 
 in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass,,,,"Mother
@@ -9,7 +9,7 @@ end 13/4",,EPP store only premiums,,,,Array,"Verify Free Premiums in Cart (SKU)
 
 
 "
-,MXE-01,,,,,"Galaxy S24 Ultra, 1TB, Titanium Blue",SMP,N,SM-S9280LBPTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9280LBPTGY,SM-S9280LBPTGY,"$12,898","$10,850",cptqaer+1@gmail.com,!Cheil2024,"10,850",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"10,850",,Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,,,,,,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY","
+,,,,,,"Galaxy S24 Ultra, 1TB, Titanium Blue",SMP,N,SM-S9280LBPTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9280LBPTGY,SM-S9280LBPTGY,"$12,898","$10,850",cptqaer+1@gmail.com,!Cheil2024,"10,850",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"10,850",,Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,,,,,,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY","
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -23,7 +23,7 @@ end 13/4",,EPP store only premiums,,,,Array,"Verify Free Premiums in Cart (SKU)
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ●  1 x  Galaxy Buds2 [Z-SM-R177NZWAASA]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,MXE-02,,,,,"Galaxy S24+, 512GB, Onyx Black",SMP,N,SM-S9260ZKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9260ZKGTGY,SM-S9260ZKGTGY,"$8,598","$7,066",cptqaer+1@gmail.com,!Cheil2024,"7,066",No,S24+ (512GB),-,No,S24 Series,-,N/A,S24+,,-,,,,Add to Cart,"7,066",,Z-EP-T6530NBEGGB,,,,,,Z-SM-R400NZWATGY,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY","
+,,,,,,"Galaxy S24+, 512GB, Onyx Black",SMP,N,SM-S9260ZKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9260ZKGTGY,SM-S9260ZKGTGY,"$8,598","$7,066",cptqaer+1@gmail.com,!Cheil2024,"7,066",No,S24+ (512GB),-,No,S24 Series,-,N/A,S24+,,-,,,,Add to Cart,"7,066",,Z-EP-T6530NBEGGB,,,,,,Z-SM-R400NZWATGY,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY","
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -31,7 +31,7 @@ end 13/4",,EPP store only premiums,,,,Array,"Verify Free Premiums in Cart (SKU)
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds2 [Z-SM-R177NZWAASA]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,MXE-03,,,,,"Galaxy S24, 512GB, Onyx Black",SMP,N,SM-S9210ZKHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9210ZKHTGY,SM-S9210ZKHTGY,"$6,898","$5,770",cptqaer+1@gmail.com,!Cheil2024,"5,770",No,S24 (512GB),-,No,S24 Series,-,N/A,S24 base,,-,,,,Add to Cart,"5,770",,Z-EP-T6530NBEGGB,,,,,,Z-SM-R400NZWATGY,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY","
+,,,,,,"Galaxy S24, 512GB, Onyx Black",SMP,N,SM-S9210ZKHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9210ZKHTGY,SM-S9210ZKHTGY,"$6,898","$5,770",cptqaer+1@gmail.com,!Cheil2024,"5,770",No,S24 (512GB),-,No,S24 Series,-,N/A,S24 base,,-,,,,Add to Cart,"5,770",,Z-EP-T6530NBEGGB,,,,,,Z-SM-R400NZWATGY,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY","
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -144,23 +144,25 @@ end 13/4",,EPP store only premiums,,,,Array,"Verify Free Premiums in Cart (SKU)
 ,,,,,,"Galaxy Watch6 Classic 47mm (LTE), Black",SMP,N,SM-R965FZKATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-R965FZKATGY,SM-R965FZKATGY,"$3,998","$2,599",cptqaer+1@gmail.com,!Cheil2024,"2,599",,,-,No,,-,N/A,,,-,,,,Add to Cart,"2,599",,Z-ITFITPW12,,,,,,,,,,Z-ITFITPW12,"
 ●  1 x  ITFIT Night-Light Wireless Charger [Z-ITFITPW12]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"Galaxy Tab S9, 8GB+128, Graphite",TAB,N,SM-X710NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X710NZAATGY,SM-X710NZAATGY,"$6,288","$4,842",cptqaer+1@gmail.com,!Cheil2024,"4,842",No,Tab S9,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"4,842",,Z-EF-ZX712PWEGWW,Z-SM-R400NZWATGY,,,Z-ITFITEX43,,Z-EF-DX710UBEGWW,,,,"Z-EF-ZX712PWEGWW,Z-SM-R400NZWATGY,Z-ITFITEX43,Z-EF-DX710UBEGWW","
+Automated,MXE-01,,,,,"Galaxy Tab S9, 8GB+128, Graphite",TAB,N,SM-X710NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X710NZAATGY,SM-X710NZAATGY,"$6,288","$4,842",cptqaer+1@gmail.com,!Cheil2024,"4,842",No,Tab S9,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"4,842",,Z-EF-ZX712PWEGWW,Z-SM-R400NZWATGY,Z-EF-BX710PBEGWW,,Z-ITFITEX43,,Z-EF-DX710UBEGWW,,,,"Z-EF-ZX712PWEGWW,Z-SM-R400NZWATGY,Z-EF-BX710PBEGWW,Z-ITFITEX43,Z-EF-DX710UBEGWW","
 ●  1 x  Galaxy Tab S9 NotePaper Screen [Z-EF-ZX712PWEGWW]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
+●  1 x  Galaxy Tab S9 Smart Book Cover [Z-EF-BX710PBEGWW]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ●  1 x  Bookcover Keyboard Slim [Z-EF-DX710UBEGWW]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"Galaxy Tab S9+, 12GB+256, Graphite",TAB,N,SM-X810NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X810NZAATGY,SM-X810NZAATGY,"$7,888","$6,074",cptqaer+1@gmail.com,!Cheil2024,"6,074",No,Tab S9+,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"6,074",,Z-EF-ZX812PWEGWW,Z-SM-R400NZWATGY,,,Z-ITFITEX43,,Z-EF-DX810UBEGWW,,,,"Z-EF-ZX812PWEGWW,Z-SM-R400NZWATGY,Z-ITFITEX43,Z-EF-DX810UBEGWW","
+Automated,MXE-02,,,,,"Galaxy Tab S9+, 12GB+256, Graphite",TAB,N,SM-X810NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X810NZAATGY,SM-X810NZAATGY,"$7,888","$6,074",cptqaer+1@gmail.com,!Cheil2024,"6,074",No,Tab S9+,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"6,074",,Z-EF-ZX812PWEGWW,Z-SM-R400NZWATGY,Z-EF-BX810PBEGWW,,Z-ITFITEX43,,Z-EF-DX810UBEGWW,,,,"Z-EF-ZX812PWEGWW,Z-SM-R400NZWATGY,Z-EF-BX810PBEGWW,Z-ITFITEX43,Z-EF-DX810UBEGWW","
 ●  1 x  Galaxy Tab S9+ NotePaper Screen [Z-EF-ZX812PWEGWW]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
+●  1 x  Galaxy Tab S9+ Smart Book Cover [Z-EF-BX810PBEGWW]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ●  1 x  BookCover Keyboard Slim [Z-EF-DX810UBEGWW]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"Galaxy Tab S9 Ultra, 12GB+256, Graphite",TAB,N,SM-X910NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X910NZAATGY,SM-X910NZAATGY,"$9,688","$7,750",cptqaer+1@gmail.com,!Cheil2024,"7,750",No,Tab S9 Ultra,-,No,Tab S9 Ultra,-,N/A,Tab S9 Series,,-,,,,Add to Cart,"7,750",,Z-SM-R400NZWATGY,Z-EF-ZX912PWEGWW,,,Z-ITFITEX43,Z-EF-DX910UBEGWW,Z-EF-DX910UBEGWW,,,,"Z-SM-R400NZWATGY,Z-EF-ZX912PWEGWW,Z-ITFITEX43,Z-EF-DX910UBEGWW,Z-EF-DX910UBEGWW","
+Automated,MXE-03,,,,,"Galaxy Tab S9 Ultra, 12GB+256, Graphite",TAB,N,SM-X910NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X910NZAATGY,SM-X910NZAATGY,"$9,688","$7,750",cptqaer+1@gmail.com,!Cheil2024,"7,750",No,Tab S9 Ultra,-,No,Tab S9 Ultra,-,N/A,Tab S9 Series,,-,,,,Add to Cart,"7,750",,Z-SM-R400NZWATGY,Z-EF-ZX912PWEGWW,Z-EF-DX910UBEGWW,,Z-ITFITEX43,,Z-EF-DX910UBEGWW,,,,"Z-SM-R400NZWATGY,Z-EF-ZX912PWEGWW,Z-EF-DX910UBEGWW,Z-ITFITEX43,Z-EF-DX910UBEGWW","
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ●  1 x  Galaxy Tab S9 Ultra NotePaper Screen [Z-EF-ZX912PWEGWW]
-●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ●  1 x  Galaxy Tab S9 Ultra Book Cover Keyboard Slim [Z-EF-DX910UBEGWW]
+●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ●  1 x  Galaxy Tab S9 Ultra Book Cover Keyboard Slim [Z-EF-DX910UBEGWW]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,"Galaxy Tab S9 FE, Wi-Fi, MINT",TAB,N,SM-X510NLGATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X510NLGATGY,SM-X510NLGATGY,"$3,588","$2,870",cptqaer+1@gmail.com,!Cheil2024,"2,870",No,Tab S9 FE,-,No,Tab S9 FE,-,N/A,Tab S9 FE series,,-,,,,Add to Cart,"2,870",,Z-ITFITCS9FEGY,Z-ITFITEX27,,,Z-ITFITT10WE,,Z-ITFITEX41,,,,"Z-ITFITCS9FEGY,Z-ITFITEX27,Z-ITFITT10WE,Z-ITFITEX41","
