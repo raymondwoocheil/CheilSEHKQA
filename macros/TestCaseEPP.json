@@ -177,6 +177,12 @@
       "Description": ""
     },
     {
+      "Command": "echo",
+      "Target": "COL44=${!COL44}",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "if_v2",
       "Target": "${!COL44}==\"\"",
       "Value": "",
@@ -216,12 +222,6 @@
       "Command": "end",
       "Target": "",
       "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "executeScript",
-      "Target": "return ${ExpectedPremiumArray}.length",
-      "Value": "ExpectedPremiumCount",
       "Description": ""
     },
     {
