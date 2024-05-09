@@ -1,6 +1,6 @@
 {
   "Name": "TestCaseCE",
-  "CreationDate": "2024-5-8",
+  "CreationDate": "2024-5-9",
   "Commands": [
     {
       "Command": "store",
@@ -568,7 +568,7 @@
     },
     {
       "Command": "pause",
-      "Target": "400",
+      "Target": "1000",
       "Value": "",
       "Description": ""
     },
