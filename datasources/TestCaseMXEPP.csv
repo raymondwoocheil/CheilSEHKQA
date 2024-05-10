@@ -9,27 +9,25 @@ end 13/4",,EPP store only premiums,,,,Array,"Verify Free Premiums in Cart (SKU)
 
 
 "
-Automated,MXE-01,,,,,"Galaxy Tab S9, 8GB+128, Graphite",TAB,N,SM-X710NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X710NZAATGY,SM-X710NZAATGY,"$6,288","$4,842",cptqaer+1@gmail.com,!Cheil2024,"4,842",No,Tab S9,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"4,842",,Z-EF-ZX712PWEGWW,Z-SM-R400NZWATGY,Z-EF-BX710PBEGWW,,Z-ITFITEX43,,Z-EF-DX710UBEGWW,,,,"Z-EF-ZX712PWEGWW,Z-SM-R400NZWATGY,Z-EF-BX710PBEGWW,Z-ITFITEX43,Z-EF-DX710UBEGWW","
+Automated,MXE-01,,,Failed,,"Galaxy Tab S9, 8GB+128, Graphite",TAB,N,SM-X710NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X710NZAATGY,SM-X710NZAATGY,"$6,288","$4,842",cptqaer+1@gmail.com,!Cheil2024,"4,842",No,Tab S9,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"4,842",,Z-EF-ZX712PWEGWW,Z-SM-R400NZWATGY,,,Z-ITFITEX43,,Z-EF-DX710UBEGWW,,,,"Z-EF-ZX712PWEGWW,Z-SM-R400NZWATGY,Z-ITFITEX43,Z-EF-DX710UBEGWW","
 ●  1 x  Galaxy Tab S9 NotePaper Screen [Z-EF-ZX712PWEGWW]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
-●  1 x  Galaxy Tab S9 Smart Book Cover [Z-EF-BX710PBEGWW]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ●  1 x  Bookcover Keyboard Slim [Z-EF-DX710UBEGWW]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Automated,MXE-02,,,,,"Galaxy Tab S9+, 12GB+256, Graphite",TAB,N,SM-X810NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X810NZAATGY,SM-X810NZAATGY,"$7,888","$6,074",cptqaer+1@gmail.com,!Cheil2024,"6,074",No,Tab S9+,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"6,074",,Z-EF-ZX812PWEGWW,Z-SM-R400NZWATGY,Z-EF-BX810PBEGWW,,Z-ITFITEX43,,Z-EF-DX810UBEGWW,,,,"Z-EF-ZX812PWEGWW,Z-SM-R400NZWATGY,Z-EF-BX810PBEGWW,Z-ITFITEX43,Z-EF-DX810UBEGWW","
+",,,,End of Test,,,,,,0,,,,,,,,,10/5/2024 0:15,MXE-01,SM-X710NZAATGY,"Galaxy Tab S9, 8GB+128, Graphite",SKU Price,4842,Passed,Galaxy Credit,0,Passed,SKU Price in Cart,4842,Passed,Extra Trade-In Rebate,,,SC Plus Price,,,Premium Count,4,Failed,Less - Expected 5 / Actual 4,Items in Cart,SM-X710NZAATGY,Passed,Z-EF-DX710UBEGWW,Passed,Z-SM-R400NZWATGY,Passed,Z-EF-ZX712PWEGWW,Passed,Z-ITFITEX43,Passed,,,,,,,,,,,,SM-X710NZAATGYZ-EF-DX710UBEGWWZ-SM-R400NZWATGYZ-EF-ZX712PWEGWWZ-ITFITEX43,Failed,69.41,,Failed,,
+Automated,MXE-02,,,Failed,,"Galaxy Tab S9+, 12GB+256, Graphite",TAB,N,SM-X810NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X810NZAATGY,SM-X810NZAATGY,"$7,888","$6,074",cptqaer+1@gmail.com,!Cheil2024,"6,074",No,Tab S9+,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"6,074",,Z-EF-ZX812PWEGWW,Z-SM-R400NZWATGY,,,Z-ITFITEX43,,Z-EF-DX810UBEGWW,,,,"Z-EF-ZX812PWEGWW,Z-SM-R400NZWATGY,Z-ITFITEX43,Z-EF-DX810UBEGWW","
 ●  1 x  Galaxy Tab S9+ NotePaper Screen [Z-EF-ZX812PWEGWW]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
-●  1 x  Galaxy Tab S9+ Smart Book Cover [Z-EF-BX810PBEGWW]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ●  1 x  BookCover Keyboard Slim [Z-EF-DX810UBEGWW]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Automated,MXE-03,,,,,"Galaxy Tab S9 Ultra, 12GB+256, Graphite",TAB,N,SM-X910NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X910NZAATGY,SM-X910NZAATGY,"$9,688","$7,750",cptqaer+1@gmail.com,!Cheil2024,"7,750",No,Tab S9 Ultra,-,No,Tab S9 Ultra,-,N/A,Tab S9 Series,,-,,,,Add to Cart,"7,750",,Z-SM-R400NZWATGY,Z-EF-ZX912PWEGWW,Z-EF-DX910UBEGWW,,Z-ITFITEX43,,Z-EF-DX910UBEGWW,,,,"Z-SM-R400NZWATGY,Z-EF-ZX912PWEGWW,Z-EF-DX910UBEGWW,Z-ITFITEX43,Z-EF-DX910UBEGWW","
+",,,,End of Test,,,,,,0,,,,,,,,,10/5/2024 0:16,MXE-02,SM-X810NZAATGY,"Galaxy Tab S9+, 12GB+256, Graphite",SKU Price,6074,Passed,Galaxy Credit,0,Passed,SKU Price in Cart,6074,Passed,Extra Trade-In Rebate,,,SC Plus Price,,,Premium Count,4,Failed,Less - Expected 5 / Actual 4,Items in Cart,SM-X810NZAATGY,Passed,Z-EF-DX810UBEGWW,Passed,Z-SM-R400NZWATGY,Passed,Z-ITFITEX43,Passed,Z-EF-ZX812PWEGWW,Passed,,,,,,,,,,,,SM-X810NZAATGYZ-EF-DX810UBEGWWZ-SM-R400NZWATGYZ-ITFITEX43Z-EF-ZX812PWEGWW,Failed,69.41,,Failed,,
+Automated,MXE-03,,,Failed,,"Galaxy Tab S9 Ultra, 12GB+256, Graphite",TAB,N,SM-X910NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X910NZAATGY,SM-X910NZAATGY,"$9,688","$7,750",cptqaer+1@gmail.com,!Cheil2024,"7,750",No,Tab S9 Ultra,-,No,Tab S9 Ultra,-,N/A,Tab S9 Series,,-,,,,Add to Cart,"7,750",,Z-SM-R400NZWATGY,Z-EF-ZX912PWEGWW,Z-EF-DX910UBEGWW,,Z-ITFITEX43,,,,,,"Z-SM-R400NZWATGY,Z-EF-ZX912PWEGWW,Z-EF-DX910UBEGWW,Z-ITFITEX43","
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ●  1 x  Galaxy Tab S9 Ultra NotePaper Screen [Z-EF-ZX912PWEGWW]
 ●  1 x  Galaxy Tab S9 Ultra Book Cover Keyboard Slim [Z-EF-DX910UBEGWW]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ●  1 x  Galaxy Tab S9 Ultra Book Cover Keyboard Slim [Z-EF-DX910UBEGWW]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+",,,,End of Test,,,,,,0,,,,,,,,,10/5/2024 0:17,MXE-03,SM-X910NZAATGY,"Galaxy Tab S9 Ultra, 12GB+256, Graphite",SKU Price,7750,Passed,Galaxy Credit,0,Passed,SKU Price in Cart,7750,Passed,Extra Trade-In Rebate,,,SC Plus Price,,,Premium Count,3,Failed,Less - Expected 5 / Actual 3,Items in Cart,SM-X910NZAATGY,Passed,Z-EF-DX910UBEGWW,Passed,Z-SM-R400NZWATGY,Passed,Z-ITFITEX43,Passed,,,,,,,,,,,,,,SM-X910NZAATGYZ-EF-DX910UBEGWWZ-SM-R400NZWATGYZ-ITFITEX43,Failed,66.11,,Failed,,
 ,,,,,,"Galaxy S24 Ultra, 1TB, Titanium Blue",SMP,N,SM-S9280LBPTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9280LBPTGY,SM-S9280LBPTGY,"$12,898","$10,850",cptqaer+1@gmail.com,!Cheil2024,"10,850",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"10,850",,Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,,,,,,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY","
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
