@@ -1,6 +1,6 @@
 {
   "Name": "TestCaseEPP",
-  "CreationDate": "2024-5-8",
+  "CreationDate": "2024-5-10",
   "Commands": [
     {
       "Command": "store",
@@ -1132,7 +1132,7 @@
     },
     {
       "Command": "pause",
-      "Target": "100",
+      "Target": "1000",
       "Value": "",
       "Description": ""
     },
@@ -1180,7 +1180,7 @@
     },
     {
       "Command": "pause",
-      "Target": "100",
+      "Target": "1000",
       "Value": "",
       "Description": ""
     },
