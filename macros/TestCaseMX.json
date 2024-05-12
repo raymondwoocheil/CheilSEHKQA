@@ -231,6 +231,12 @@
       "Description": ""
     },
     {
+      "Command": "executeScript",
+      "Target": "return 0",
+      "Value": "ExpectedPremiumQty",
+      "Description": ""
+    },
+    {
       "Command": "else",
       "Target": "",
       "Value": "",

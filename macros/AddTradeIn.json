@@ -1,6 +1,6 @@
 {
   "Name": "AddTradeIn",
-  "CreationDate": "2024-4-28",
+  "CreationDate": "2024-5-12",
   "Commands": [
     {
       "Command": "comment",
@@ -70,14 +70,14 @@
     },
     {
       "Command": "executeScript",
-      "Target": "return Math.floor(400000000 + Math.random()*400000000)",
+      "Target": "return Math.floor(12345678901234 + Math.random()*54321678901234)",
       "Value": "IMEI",
       "Description": ""
     },
     {
       "Command": "type",
       "Target": "id=common-trade-imei",
-      "Value": "M${IMEI}",
+      "Value": "${IMEI}",
       "Description": ""
     },
     {
