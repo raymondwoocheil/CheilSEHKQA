@@ -1,10 +1,16 @@
 {
   "Name": "AddTradeInCart",
-  "CreationDate": "2024-5-1",
+  "CreationDate": "2024-5-11",
   "Commands": [
     {
       "Command": "store",
       "Target": "fast",
+      "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
       "Value": "!replayspeed",
       "Description": ""
     },
@@ -58,19 +64,37 @@
     },
     {
       "Command": "executeScript",
-      "Target": "return Math.floor(400000000 + Math.random()*400000000)",
+      "Target": "return Math.floor(12345678901234 + Math.random()*12345678901234)",
       "Value": "IMEI",
       "Description": ""
     },
     {
       "Command": "type",
       "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div[2]/div/ng-tempate/ng-tempate/div/div[2]/div/div/div/div/div[3]/div[2]/div/div/div[2]/ng-form/input",
-      "Value": "M${IMEI}",
+      "Value": "${IMEI}",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "500",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "sendKeys",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div[2]/div/ng-tempate/ng-tempate/div/div[2]/div/div/div/div/div[3]/div[2]/div/div/div[2]/ng-form/input",
+      "Value": "5",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "50",
+      "Value": "",
       "Description": ""
     },
     {
       "Command": "click",
-      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div[2]/div/ng-tempate/ng-tempate/div/div[3]/div/div/div/ng-container/div/button/span",
+      "Target": "xpath=//button[@data-an-la=\"trade-in:enter IMEI:next\"]",
       "Value": "",
       "Description": ""
     },

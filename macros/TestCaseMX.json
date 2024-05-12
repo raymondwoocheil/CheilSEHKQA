@@ -1,6 +1,6 @@
 {
   "Name": "TestCaseMX",
-  "CreationDate": "2024-5-8",
+  "CreationDate": "2024-5-12",
   "Commands": [
     {
       "Command": "store",
@@ -231,6 +231,12 @@
       "Description": ""
     },
     {
+      "Command": "executeScript",
+      "Target": "return 0",
+      "Value": "ExpectedPremiumQty",
+      "Description": ""
+    },
+    {
       "Command": "else",
       "Target": "",
       "Value": "",
@@ -246,6 +252,12 @@
       "Command": "executeScript",
       "Target": "return ${ExpectedPremiumArray}.length",
       "Value": "ExpectedPremiumCount",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!COL45}",
+      "Value": "ExpectedPremiumQty",
       "Description": ""
     },
     {
@@ -573,20 +585,20 @@
       "Description": ""
     },
     {
+      "Command": "comment",
+      "Target": "click // xpath=//*[@an-la=\"trade-in:no\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "click",
-      "Target": "xpath=//*[@an-la=\"trade-in:no\"]",
+      "Target": "xpath=//*[@an-la=\"trade-in:yes\"]",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "click // xpath=//*[@an-la=\"trade-in:yes\"]",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "run // AddTradeIn",
+      "Command": "run",
+      "Target": "AddTradeIn",
       "Value": "",
       "Description": ""
     },
@@ -879,9 +891,33 @@
       "Description": ""
     },
     {
+      "Command": "times",
+      "Target": "53",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "store",
       "Target": "OOS (Blocked)",
       "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "captureScreenshot",
+      "Target": "MX-${!csvReadLineNumber}-OOS-${SKU}-${DateTimeNow}-${TestResult}.png",
+      "Value": "",
       "Description": ""
     },
     {
@@ -1071,14 +1107,14 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "click // xpath=//*[@an-la=\"trade-in:yes\"]",
+      "Command": "click",
+      "Target": "xpath=//*[@an-la=\"trade-in:yes\"]",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "run // AddTradeIn",
+      "Command": "run",
+      "Target": "AddTradeIn",
       "Value": "",
       "Description": ""
     },
@@ -1348,7 +1384,7 @@
     },
     {
       "Command": "times",
-      "Target": "42",
+      "Target": "53",
       "Value": "",
       "Description": ""
     },
@@ -1368,6 +1404,12 @@
       "Command": "store",
       "Target": "OOS (Blocked)",
       "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "captureScreenshot",
+      "Target": "MX-${!csvReadLineNumber}-OOS-${SKU}-${DateTimeNow}-${TestResult}.png",
+      "Value": "",
       "Description": ""
     },
     {
@@ -1431,26 +1473,14 @@
       "Description": ""
     },
     {
-      "Command": "click",
-      "Target": "xpath=//*[@data-an-la=\"add service:trade-in\"]",
+      "Command": "comment",
+      "Target": "click // xpath=//*[@data-an-la=\"add service:trade-in\"]",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "run",
-      "Target": "AddTradeInCart",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "else",
-      "Target": "",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "xpath=//*[@an-la=\"trade-in:no\"]",
+      "Command": "comment",
+      "Target": "run // AddTradeInCart",
       "Value": "",
       "Description": ""
     },
@@ -2033,7 +2063,13 @@
     {
       "Command": "storeText",
       "Target": "xpath=//li[contains(@class,\"cart-row\")][${!times}]//div[@data-automation-id=\"cart-item-sku\"]",
-      "Value": "CartSKU",
+      "Value": "ThisSKU",
+      "Description": ""
+    },
+    {
+      "Command": "storeAttribute",
+      "Target": "xpath=//li[contains(@class,\"cart-row\")][${!times}]//input[@data-automation-id=\"txt-qty\"]@value",
+      "Value": "ThisQty",
       "Description": ""
     },
     {
@@ -2044,13 +2080,25 @@
     },
     {
       "Command": "store",
-      "Target": "${CartSKU}",
+      "Target": "${ThisSKU}",
       "Value": "!csvLine",
       "Description": ""
     },
     {
+      "Command": "store",
+      "Target": "${ThisQty}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "${ThisSKU}: ${ThisQty}",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "comment",
-      "Target": "echo // Check if ${CartSKU} is Expected",
+      "Target": "echo // Check if ${ThisSKU} is Expected",
       "Value": "",
       "Description": ""
     },
@@ -2063,7 +2111,7 @@
     {
       "Command": "executeScript",
       "Target": "return false",
-      "Value": "VerifyCartSKU",
+      "Value": "VerifyThisSKU",
       "Description": ""
     },
     {
@@ -2080,20 +2128,20 @@
     },
     {
       "Command": "comment",
-      "Target": "echo // against ${CartSKU}",
+      "Target": "echo // against ${ThisSKU}",
       "Value": "blue",
       "Description": ""
     },
     {
       "Command": "if_v2",
-      "Target": "${CheckingPremiumSKU}==${CartSKU}",
+      "Target": "${CheckingPremiumSKU}==${ThisSKU}",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "executeScript",
       "Target": "return true",
-      "Value": "VerifyCartSKU",
+      "Value": "VerifyThisSKU",
       "Description": ""
     },
     {
@@ -2110,14 +2158,14 @@
     },
     {
       "Command": "if_v2",
-      "Target": "${SKU}==${CartSKU}",
+      "Target": "${SKU}==${ThisSKU}",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "executeScript",
       "Target": "return true",
-      "Value": "VerifyCartSKU",
+      "Value": "VerifyThisSKU",
       "Description": ""
     },
     {
@@ -2128,13 +2176,13 @@
     },
     {
       "Command": "if_v2",
-      "Target": "${VerifyCartSKU}==true",
+      "Target": "${VerifyThisSKU}==true",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "echo",
-      "Target": "${CartSKU} is Expected",
+      "Target": "${ThisSKU} is Expected",
       "Value": "green",
       "Description": ""
     },
@@ -2152,7 +2200,7 @@
     },
     {
       "Command": "echo",
-      "Target": "${CartSKU} is Not Expected",
+      "Target": "${ThisSKU} is Not Expected",
       "Value": "red",
       "Description": ""
     },
@@ -2171,7 +2219,7 @@
     {
       "Command": "store",
       "Target": "",
-      "Value": "CartSKU",
+      "Value": "ThisSKU",
       "Description": ""
     },
     {
@@ -2182,7 +2230,7 @@
     },
     {
       "Command": "executeScript",
-      "Target": "return 2*(10-${PremiumCount})",
+      "Target": "return 3*(10-${PremiumCount})",
       "Value": "EmptyPremiumCount",
       "Description": ""
     },

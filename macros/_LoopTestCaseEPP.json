@@ -1,11 +1,17 @@
 {
   "Name": "_LoopTestCaseEPP",
-  "CreationDate": "2024-5-9",
+  "CreationDate": "2024-5-12",
   "Commands": [
     {
       "Command": "store",
       "Target": "fast",
       "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "5",
+      "Value": "startingLineNumber",
       "Description": ""
     },
     {
@@ -51,15 +57,18 @@
       "Description": ""
     },
     {
+<<<<<<< HEAD
       "Command": "store",
       "Target": "CE-EPP",
       "Value": "TestSite",
       "Description": ""
     },
     {
+=======
+>>>>>>> master
       "Command": "store",
-      "Target": "5",
-      "Value": "startingLineNumber",
+      "Target": "CE-EPP",
+      "Value": "TestSite",
       "Description": ""
     },
     {
