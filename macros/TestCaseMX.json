@@ -915,6 +915,12 @@
       "Description": ""
     },
     {
+      "Command": "captureScreenshot",
+      "Target": "MX-${!csvReadLineNumber}-OOS-${SKU}-${DateTimeNow}-${TestResult}.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "end",
       "Target": "",
       "Value": "",
@@ -1398,6 +1404,12 @@
       "Command": "store",
       "Target": "OOS (Blocked)",
       "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "captureScreenshot",
+      "Target": "MX-${!csvReadLineNumber}-OOS-${SKU}-${DateTimeNow}-${TestResult}.png",
+      "Value": "",
       "Description": ""
     },
     {

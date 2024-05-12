@@ -855,9 +855,33 @@
       "Description": ""
     },
     {
+      "Command": "times",
+      "Target": "53",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "store",
       "Target": "OOS (Blocked)",
       "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "captureScreenshot",
+      "Target": "${TestSite}-${!csvReadLineNumber}-OOS-${SKU}-${DateTimeNow}-${TestResult}.png",
+      "Value": "",
       "Description": ""
     },
     {
@@ -1318,7 +1342,7 @@
     },
     {
       "Command": "times",
-      "Target": "42",
+      "Target": "53",
       "Value": "",
       "Description": ""
     },
@@ -1338,6 +1362,12 @@
       "Command": "store",
       "Target": "OOS (Blocked)",
       "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "captureScreenshot",
+      "Target": "${TestSite}-${!csvReadLineNumber}-OOS-${SKU}-${DateTimeNow}-${TestResult}.png",
+      "Value": "",
       "Description": ""
     },
     {

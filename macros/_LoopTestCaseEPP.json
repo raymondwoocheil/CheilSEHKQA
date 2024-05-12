@@ -1,11 +1,17 @@
 {
   "Name": "_LoopTestCaseEPP",
-  "CreationDate": "2024-5-10",
+  "CreationDate": "2024-5-12",
   "Commands": [
     {
       "Command": "store",
       "Target": "fast",
       "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "5",
+      "Value": "startingLineNumber",
       "Description": ""
     },
     {
@@ -21,14 +27,14 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "TestCaseMXEPP.csv",
+      "Command": "comment",
+      "Target": "store // TestCaseMXEPP.csv",
       "Value": "TestCase",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "MX-EPP",
+      "Command": "comment",
+      "Target": "store // MX-EPP",
       "Value": "TestSite",
       "Description": ""
     },
@@ -45,21 +51,15 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // TestCaseCEEPP.csv",
+      "Command": "store",
+      "Target": "TestCaseCEEPP.csv",
       "Value": "TestCase",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // CE-EPP",
-      "Value": "TestSite",
-      "Description": ""
-    },
-    {
       "Command": "store",
-      "Target": "7",
-      "Value": "startingLineNumber",
+      "Target": "CE-EPP",
+      "Value": "TestSite",
       "Description": ""
     },
     {

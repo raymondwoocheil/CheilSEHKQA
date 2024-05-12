@@ -1,6 +1,6 @@
 {
   "Name": "TestCaseCE",
-  "CreationDate": "2024-5-9",
+  "CreationDate": "2024-5-12",
   "Commands": [
     {
       "Command": "store",
@@ -672,6 +672,12 @@
       "Command": "store",
       "Target": "OOS (Blocked)",
       "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "captureScreenshot",
+      "Target": "CE-${!csvReadLineNumber}-OOS-${SKU}-${DateTimeNow}-${TestResult}.png",
+      "Value": "",
       "Description": ""
     },
     {
@@ -1558,7 +1564,7 @@
     },
     {
       "Command": "captureEntirePageScreenshot",
-      "Target": "CE-CartPage-${SKU}-${DateTimeNow}-${TestResult}.png",
+      "Target": "CE-${!csvReadLineNumber}-CartPage-${SKU}-${DateTimeNow}-${TestResult}.png",
       "Value": "",
       "Description": ""
     },
@@ -1660,7 +1666,7 @@
     },
     {
       "Command": "echo",
-      "Target": "[${CaseID}] [${SKU}] ${ProductName} == ${TestResult}",
+      "Target": "[${!csvReadLineNumber}] [${CaseID}] [${SKU}] ${ProductName} == ${TestResult}",
       "Value": "green",
       "Description": ""
     },
@@ -1672,7 +1678,7 @@
     },
     {
       "Command": "echo",
-      "Target": "[${CaseID}] [${SKU}] ${ProductName} == ${TestResult}",
+      "Target": "[${!csvReadLineNumber}] [${CaseID}] [${SKU}] ${ProductName} == ${TestResult}",
       "Value": "red",
       "Description": ""
     },
@@ -1684,7 +1690,7 @@
     },
     {
       "Command": "echo",
-      "Target": "[${CaseID}] [${SKU}] ${ProductName} == ${TestResult}",
+      "Target": "[${!csvReadLineNumber}] [${CaseID}] [${SKU}] ${ProductName} == ${TestResult}",
       "Value": "orange",
       "Description": ""
     },
