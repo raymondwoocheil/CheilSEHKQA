@@ -100,7 +100,7 @@
     },
     {
       "Command": "run",
-      "Target": "Screencap",
+      "Target": "Z_Screencap",
       "Value": "",
       "Description": ""
     },
