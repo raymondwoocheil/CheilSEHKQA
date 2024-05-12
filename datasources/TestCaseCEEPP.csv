@@ -1,355 +1,358 @@
-SPP CE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Assigned,Test Case,,,,,,,,,,0,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,,Verify / AC >>,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,EPP store only premiums,,,,,Verify / AC >>,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,
+SPP CE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Assigned,Test Case,,,,,,,,,,0,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,,Verify / AC >>,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,EPP store only premiums,,,,Array,Total,Verify / AC >>,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,
 Tester,ID,Manual Cart,Manual Checkout,Auto Cart,Auto Checkout,Model,TYPE,BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-in,Trade-in-type,Verify extra trade-in rebate,SC+,SC-type,"Verify SC+ 
-in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass,,,,,,EPP store only premiums,,,,Array,"Verify Free Premiums in Cart (SKU)
-(Exact Match)",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,Guest Email,Select City,Select District,Select Service,Verify Expected Delivery Date,Verify Delivery Cost,Checkout Page Result,Screencap,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,Extra Trade-In Rebate label,Trade-In Rebate captured,Trade-In Rebate result,SC+ label,SC+ captured,SC+ result,Premium count,Count captured,Premium count result,Failed reason,Items in Cart,SKU 1,,SKU 2,,SKU 3,,SKU 4,,SKU 5,,SKU 6,,SKU 7,,SKU 8,,SKU 9,,SKU 10,,,,Final Result,Test duration (s),,Cart Page Result,Cart Page Result,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass,,,,,,EPP store only premiums,,,,Array,Total,"Verify Free Premiums in Cart (SKU)
+(Exact Match)",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,Guest Email,Select City,Select District,Select Service,Verify Expected Delivery Date,Verify Delivery Cost,Checkout Page Result,Screencap,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,Extra Trade-In Rebate label,Trade-In Rebate captured,Trade-In Rebate result,SC+ label,SC+ captured,SC+ result,Premium count,Count captured,Premium count result,Failed reason,Items in Cart,SKU 1,Qty,,SKU 2,Qty,,SKU 3,Qty,,SKU 4,Qty,,SKU 5,Qty,,SKU 6,Qty,,SKU 7,Qty,,SKU 8,Qty,,SKU 9,Qty,,SKU 10,Qty,,Qty Total,Qty Total Result,Premium Array,Final Result,Test duration (s),,Cart Page Result,Cart Page Result,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,"
 
 
 "
-,,,,,,The Freestyle 2nd Gen,CTV,N,SP-LFF3CLAXXZK,https://www.samsung.com/hk/multistore/hkevent/pd.SP-LFF3CLAXXZK,SP-LFF3CLAXXZK,"$6,980","$4,485",cptqaer+3@gmail.com,!Cheil2024,"4,485",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"4,485",,Z-VG-FBB3BA/XY,Z-ITFITSD05,,,,,,,,,"Z-VG-FBB3BA/XY,Z-ITFITSD05","
+,,,,,,The Freestyle 2nd Gen,CTV,N,SP-LFF3CLAXXZK,https://www.samsung.com/hk/multistore/hkevent/pd.SP-LFF3CLAXXZK,SP-LFF3CLAXXZK,"$6,980","$4,485",cptqaer+3@gmail.com,!Cheil2024,"4,485",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"4,485",,Z-VG-FBB3BA/XY,Z-ITFITSD05,,,,,,,,,"Z-VG-FBB3BA/XY,Z-ITFITSD05",2,"
 ●  1 x  The Freestyle Battery Base [Z-VG-FBB3BA/XY]
 ●  1 x  Freestyle Projector Stand [Z-ITFITSD05]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,Full Motion Slim Wall Mount WMN-B16FB (2023),TV-ACCY,N,WMN-B16FB/XY,https://www.samsung.com/hk/multistore/hkevent/pd.WMN-B16FBXY,WMN-B16FB/XY,"$1,690","$1,082",cptqaer@gmail.com,!Cheil2024,"1,082",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"1,082",,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,Slim Fit Wall Mount WMN-B50EB (2023),TV-ACCY,N,WMN-B50EB/XY,https://www.samsung.com/hk/multistore/hkevent/pd.WMN-B50EBXY,WMN-B50EB/XY,"$1,290",$826,cptqaer@gmail.com,!Cheil2024,826,No,S24 Ultra (256 GB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,826,,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"27"" Odyssey G5 Curved Gaming Monitor (165Hz)",MON,N,LS27CG552ECXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS27CG552ECXXK,LS27CG552ECXXK,"$2,280","$1,344",cptqaer+1@gmail.com,!Cheil2024,"1,344",No,S24+ (512GB),-,No,S24 Series,-,N/A,S24+,,-,,,,Add to Cart,"1,344",,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"32"" Odyssey G5 Curved Gaming Monitor (165Hz)",MON,N,LS32CG552ECXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS32CG552ECXXK,LS32CG552ECXXK,"$2,680","$1,584",cptqaer@gmail.com,!Cheil2024,"1,584",No,S24 (256 GB),-,No,S24 Series,-,N/A,S24+,,-,,,,Add to Cart,"1,584",,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,32” Odyssey Neo G7 Mini-LED Curved Gaming Monitor (165Hz),MON,N,LS32BG750NCXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS32BG750NCXXK,LS32BG750NCXXK,"$7,980","$4,704",cptqaer+1@gmail.com,!Cheil2024,"4,704",No,S24 (512GB),-,No,S24 Series,-,N/A,S24 base,,-,,,,Add to Cart,"4,704",,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"34"" Odyssey G8 OLED Curved Gaming Monitor (175Hz)",MON,N,LS34BG850SCXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS34BG850SCXXK,LS34BG850SCXXK,"$11,980","$6,704",cptqaer@gmail.com,!Cheil2024,"6,704",No,S24 (256 GB),-,No,S24 Series,-,N/A,S24 base,,-,,,,Add to Cart,"6,704",,Z-STEAMPASS200x3,,,,,,,,,,Z-STEAMPASS200x3,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,Full Motion Slim Wall Mount WMN-B16FB (2023),TV-ACCY,N,WMN-B16FB/XY,https://www.samsung.com/hk/multistore/hkevent/pd.WMN-B16FBXY,WMN-B16FB/XY,"$1,690","$1,082",cptqaer+3@gmail.com,!Cheil2024,"1,082",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"1,082",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,Slim Fit Wall Mount WMN-B50EB (2023),TV-ACCY,N,WMN-B50EB/XY,https://www.samsung.com/hk/multistore/hkevent/pd.WMN-B50EBXY,WMN-B50EB/XY,"$1,290",$826,cptqaer+3@gmail.com,!Cheil2024,826,No,S24 Ultra (256 GB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,826,,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,"27"" Odyssey G5 Curved Gaming Monitor (165Hz)",MON,N,LS27CG552ECXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS27CG552ECXXK,LS27CG552ECXXK,"$2,280","$1,344",cptqaer+3@gmail.com,!Cheil2024,"1,344",No,S24+ (512GB),-,No,S24 Series,-,N/A,S24+,,-,,,,Add to Cart,"1,344",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,"32"" Odyssey G5 Curved Gaming Monitor (165Hz)",MON,N,LS32CG552ECXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS32CG552ECXXK,LS32CG552ECXXK,"$2,680","$1,584",cptqaer+3@gmail.com,!Cheil2024,"1,584",No,S24 (256 GB),-,No,S24 Series,-,N/A,S24+,,-,,,,Add to Cart,"1,584",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,32” Odyssey Neo G7 Mini-LED Curved Gaming Monitor (165Hz),MON,N,LS32BG750NCXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS32BG750NCXXK,LS32BG750NCXXK,"$7,980","$4,704",cptqaer+3@gmail.com,!Cheil2024,"4,704",No,S24 (512GB),-,No,S24 Series,-,N/A,S24 base,,-,,,,Add to Cart,"4,704",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,"34"" Odyssey G8 OLED Curved Gaming Monitor (175Hz)",MON,N,LS34BG850SCXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS34BG850SCXXK,LS34BG850SCXXK,"$11,980","$6,704",cptqaer+3@gmail.com,!Cheil2024,"6,704",No,S24 (256 GB),-,No,S24 Series,-,N/A,S24 base,,-,,,,Add to Cart,"6,704",,Z-STEAMPASS200x3,,,,,,,,,,Z-STEAMPASS200x3,3,"
 ●  1 x  3 x  Steam $200 Gift Card [Z-STEAMPASS200x3]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"49"" Odyssey G9 OLED Curved Gaming Monitor (240Hz)",MON,N,LS49CG954SCXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS49CG954SCXXK,LS49CG954SCXXK,"$16,980","$10,867",cptqaer+1@gmail.com,!Cheil2024,"10,867",No,Z Fold5,-,No,Z Fold5,-,N/A,Fold5,,-,,,,Add to Cart,"10,867",,Z-LS27A700NWCXXK,,,,,,,,,,Z-LS27A700NWCXXK,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"49"" Odyssey G9 OLED Curved Gaming Monitor (240Hz)",MON,N,LS49CG954SCXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS49CG954SCXXK,LS49CG954SCXXK,"$16,980","$10,867",cptqaer+3@gmail.com,!Cheil2024,"10,867",No,Z Fold5,-,No,Z Fold5,-,N/A,Fold5,,-,,,,Add to Cart,"10,867",,Z-LS27A700NWCXXK,,,,,,,,,,Z-LS27A700NWCXXK,1,"
 ●  1 x  27"" A700 UHD 4K Monitor [Z-LS27A700NWCXXK]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"27"" C390 Curved Monitor",MON,N,LS27C390EACXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS27C390EACXXK,LS27C390EACXXK,"$1,780","$1,014",cptqaer@gmail.com,!Cheil2024,"1,014",No,Z Fold5,-,No,Z Fold5,-,N/A,Fold5,,-,,,,Add to Cart,"1,014",,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"32"" C390 Curved Monitor",MON,N,LS32C390EACXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS32C390EACXXK,LS32C390EACXXK,"$2,080","$1,424",cptqaer@gmail.com,!Cheil2024,"1,424",No,Z Fold5,-,No,Z Fold5,-,N/A,Fold5,,-,,,,Add to Cart,"1,424",,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"27"" A700 UHD 4K Monitor",MON,N,LS27A700NWCXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS27A700NWCXXK,LS27A700NWCXXK,"$2,680","$1,344",cptqaer+1@gmail.com,!Cheil2024,"1,344",No,Z Flip5,-,No,Z Flip5,-,N/A,Flip5,,-,,,,Add to Cart,"1,344",,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"32"" A700 UHD 4K Monitor",MON,N,LS32A700NWCXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS32A700NWCXXK,LS32A700NWCXXK,"$2,980","$2,064",cptqaer@gmail.com,!Cheil2024,"2,064",No,Z Flip5,-,No,Z Flip5,-,N/A,Flip5,,-,,,,Add to Cart,"2,064",,Z-ITFITPW16BK,,,,,,,,,,Z-ITFITPW16BK,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"27"" C390 Curved Monitor",MON,N,LS27C390EACXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS27C390EACXXK,LS27C390EACXXK,"$1,780","$1,014",cptqaer+3@gmail.com,!Cheil2024,"1,014",No,Z Fold5,-,No,Z Fold5,-,N/A,Fold5,,-,,,,Add to Cart,"1,014",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,"32"" C390 Curved Monitor",MON,N,LS32C390EACXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS32C390EACXXK,LS32C390EACXXK,"$2,080","$1,424",cptqaer+3@gmail.com,!Cheil2024,"1,424",No,Z Fold5,-,No,Z Fold5,-,N/A,Fold5,,-,,,,Add to Cart,"1,424",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,"27"" A700 UHD 4K Monitor",MON,N,LS27A700NWCXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS27A700NWCXXK,LS27A700NWCXXK,"$2,680","$1,344",cptqaer+3@gmail.com,!Cheil2024,"1,344",No,Z Flip5,-,No,Z Flip5,-,N/A,Flip5,,-,,,,Add to Cart,"1,344",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,"32"" A700 UHD 4K Monitor",MON,N,LS32A700NWCXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS32A700NWCXXK,LS32A700NWCXXK,"$2,980","$2,064",cptqaer+3@gmail.com,!Cheil2024,"2,064",No,Z Flip5,-,No,Z Flip5,-,N/A,Flip5,,-,,,,Add to Cart,"2,064",,Z-ITFITPW16BK,,,,,,,,,,Z-ITFITPW16BK,1,"
 ●  1 x  ITFIT Hand Warmer Powerbank (Black) [Z-ITFITPW16BK]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"34"" ViewFinity S5 Ultra WQHD Monitor",MON,N,LS34C500GACXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS34C500GACXXK,LS34C500GACXXK,"$3,480","$2,464",cptqaer@gmail.com,!Cheil2024,"2,464",No,S23 Ultra,-,No,S23 Series,-,N/A,S23 Ultra,,-,,,,Add to Cart,"2,464",,Z-ITFITPW16BK,,,,,,,,,,Z-ITFITPW16BK,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"34"" ViewFinity S5 Ultra WQHD Monitor",MON,N,LS34C500GACXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS34C500GACXXK,LS34C500GACXXK,"$3,480","$2,464",cptqaer+3@gmail.com,!Cheil2024,"2,464",No,S23 Ultra,-,No,S23 Series,-,N/A,S23 Ultra,,-,,,,Add to Cart,"2,464",,Z-ITFITPW16BK,,,,,,,,,,Z-ITFITPW16BK,1,"
 ●  1 x  ITFIT Hand Warmer Powerbank (Black) [Z-ITFITPW16BK]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"32"" M7 Samsung Smart Monitor (2022)",MON,N,LS32BM702UCXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS32BM702UCXXK,LS32BM702UCXXK,"$3,280","$2,384",cptqaer@gmail.com,!Cheil2024,"2,384",No,S23+,-,No,S23 Series,-,N/A,S23+,,-,,,,Add to Cart,"2,384",,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,RB33J3200S9 2 Door Refrigerator 328L,REF,N,RB33J3200S9/SH,https://www.samsung.com/hk/multistore/hkevent/pd.RB33J3200S9SH,RB33J3200S9/SH,"$5,790","$3,432",cptqaer@gmail.com,!Cheil2024,"3,432",No,S23,-,No,S23 Series,-,N/A,S23 (base),,-,,,,Add to Cart,"3,432",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"32"" M7 Samsung Smart Monitor (2022)",MON,N,LS32BM702UCXXK,https://www.samsung.com/hk/multistore/hkevent/pd.LS32BM702UCXXK,LS32BM702UCXXK,"$3,280","$2,384",cptqaer+3@gmail.com,!Cheil2024,"2,384",No,S23+,-,No,S23 Series,-,N/A,S23+,,-,,,,Add to Cart,"2,384",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,RB33J3200S9 2 Door Refrigerator 328L,REF,N,RB33J3200S9/SH,https://www.samsung.com/hk/multistore/hkevent/pd.RB33J3200S9SH,RB33J3200S9/SH,"$5,790","$3,432",cptqaer+3@gmail.com,!Cheil2024,"3,432",No,S23,-,No,S23 Series,-,N/A,S23 (base),,-,,,,Add to Cart,"3,432",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,"
 ●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,RB33J3200SA 2 door Refrigerator 328L Metal Graphite,REF,N,RB33J3200SA/SH,https://www.samsung.com/hk/multistore/hkevent/pd.RB33J3200SASH,RB33J3200SA/SH,"$5,790","$3,432",cptqaer+1@gmail.com,!Cheil2024,"3,432",No,S23 FE,-,No,S23 FE,-,N/A,S23 FE,,-,,,,Add to Cart,"3,432",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,RB33J3200SA 2 door Refrigerator 328L Metal Graphite,REF,N,RB33J3200SA/SH,https://www.samsung.com/hk/multistore/hkevent/pd.RB33J3200SASH,RB33J3200SA/SH,"$5,790","$3,432",cptqaer+3@gmail.com,!Cheil2024,"3,432",No,S23 FE,-,No,S23 FE,-,N/A,S23 FE,,-,,,,Add to Cart,"3,432",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,"
 ●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,RB34T675FB1 SpaceMax™  2 door refrigerator 340L,REF,N,RB34T675FB1/SH,https://www.samsung.com/hk/multistore/hkevent/pd.RB34T675FB1SH,RB34T675FB1/SH,"$7,490","$4,392",cptqaer+1@gmail.com,!Cheil2024,"4,392",No,A55,-,No,A55,-,N/A,A55,,-,,,,Add to Cart,"4,392",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,RB34T675FB1 SpaceMax™  2 door refrigerator 340L,REF,N,RB34T675FB1/SH,https://www.samsung.com/hk/multistore/hkevent/pd.RB34T675FB1SH,RB34T675FB1/SH,"$7,490","$4,392",cptqaer+3@gmail.com,!Cheil2024,"4,392",No,A55,-,No,A55,-,N/A,A55,,-,,,,Add to Cart,"4,392",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,"
 ●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,RB34T675FS9/SH SpaceMax™ 2 door Refrigerator 340L,REF,N,RB34T675FS9/SH,https://www.samsung.com/hk/multistore/hkevent/pd.RB34T675FS9SH,RB34T675FS9/SH,"$7,290","$4,632",cptqaer+1@gmail.com,!Cheil2024,"4,632",No,A35,-,No,A35,-,N/A,A35,,-,,,,Add to Cart,"4,632",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,RB34T675FS9/SH SpaceMax™ 2 door Refrigerator 340L,REF,N,RB34T675FS9/SH,https://www.samsung.com/hk/multistore/hkevent/pd.RB34T675FS9SH,RB34T675FS9/SH,"$7,290","$4,632",cptqaer+3@gmail.com,!Cheil2024,"4,632",No,A35,-,No,A35,-,N/A,A35,,-,,,,Add to Cart,"4,632",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,"
 ●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,RF48A4000B4 Twin Cooling Plus™ Multi Door Refrigerator 468L,REF,N,RF48A4000B4/SH,https://www.samsung.com/hk/multistore/hkevent/pd.RF48A4000B4SH,RF48A4000B4/SH,"$10,990","$7,192",cptqaer+1@gmail.com,!Cheil2024,"7,192",No,,-,No,,-,N/A,A23,,-,,,,Add to Cart,"7,192",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,RF48A4000B4 Twin Cooling Plus™ Multi Door Refrigerator 468L,REF,N,RF48A4000B4/SH,https://www.samsung.com/hk/multistore/hkevent/pd.RF48A4000B4SH,RF48A4000B4/SH,"$10,990","$7,192",cptqaer+3@gmail.com,!Cheil2024,"7,192",No,,-,No,,-,N/A,A23,,-,,,,Add to Cart,"7,192",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,"
 ●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,RS64R5337B4/SH Side by Side Refrigerator 617L,REF,N,RS64R5337B4/SH,https://www.samsung.com/hk/multistore/hkevent/pd.RS64R5337B4SH,RS64R5337B4/SH,"$15,900","$10,176",cptqaer+1@gmail.com,!Cheil2024,"10,176",No,M34,-,No,M34,-,N/A,M34,,-,,,,Add to Cart,"10,176",,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,WA80CG4545BDSH Ecobubble™ Top Loader without Drain Pump 8kg Versailles Gary,WM,N,WA80CG4545BDSH,https://www.samsung.com/hk/multistore/hkevent/pd.WA80CG4545BDSH,WA80CG4545BDSH,"$4,090","$2,232",cptqaer@gmail.com,!Cheil2024,"2,232",No,,-,No,,-,N/A,,,-,,,,Add to Cart,"2,232",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,RS64R5337B4/SH Side by Side Refrigerator 617L,REF,N,RS64R5337B4/SH,https://www.samsung.com/hk/multistore/hkevent/pd.RS64R5337B4SH,RS64R5337B4/SH,"$15,900","$10,176",cptqaer+3@gmail.com,!Cheil2024,"10,176",No,M34,-,No,M34,-,N/A,M34,,-,,,,Add to Cart,"10,176",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,WA80CG4545BDSH Ecobubble™ Top Loader without Drain Pump 8kg Versailles Gary,WM,N,WA80CG4545BDSH,https://www.samsung.com/hk/multistore/hkevent/pd.WA80CG4545BDSH,WA80CG4545BDSH,"$4,090","$2,232",cptqaer+3@gmail.com,!Cheil2024,"2,232",No,,-,No,,-,N/A,,,-,,,,Add to Cart,"2,232",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,"
 ●  1 x  ITFIT Multi-functional Laundry Basket [Z-ITFITAC05BE]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"WD70TA046BE/SH Hygiene Steam Front Load Washer + Dryer Combo 7/5kg, 1400rpm",WM,N,WD70TA046BE/SH,https://www.samsung.com/hk/multistore/hkevent/pd.WD70TA046BESH,WD70TA046BE/SH,"$6,090","$3,432",cptqaer+1@gmail.com,!Cheil2024,"3,432",No,A15,-,No,A15,-,N/A,A15,,-,,,,Add to Cart,"3,432",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"WD70TA046BE/SH Hygiene Steam Front Load Washer + Dryer Combo 7/5kg, 1400rpm",WM,N,WD70TA046BE/SH,https://www.samsung.com/hk/multistore/hkevent/pd.WD70TA046BESH,WD70TA046BE/SH,"$6,090","$3,432",cptqaer+3@gmail.com,!Cheil2024,"3,432",No,A15,-,No,A15,-,N/A,A15,,-,,,,Add to Cart,"3,432",,Z-ITFITF16,Z-ITFITEX42,,,,,,,,,"Z-ITFITF16,Z-ITFITEX42",2,"
 ●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"WD80T654DBE AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 8/6kg, 1400rpm",WM,N,WD80T654DBE/SH,https://www.samsung.com/hk/multistore/hkevent/pd.WD80T654DBESH,WD80T654DBE/SH,"$7,590","$3,992",cptqaer+1@gmail.com,!Cheil2024,"3,992",No,A25,-,No,A25,-,N/A,A25,,-,,,,Add to Cart,"3,992",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,"
-●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"WW70AG5S21CESH Slim Ecobubble™ Front Load Washing Machine 7kg, 1200rpm",WM,N,WW70AG5S21CESH,https://www.samsung.com/hk/multistore/hkevent/pd.WW70AG5S21CESH,WW70AG5S21CESH,"$5,290","$2,712",cptqaer@gmail.com,!Cheil2024,"2,712",No,,-,No,Watch B1 (RRP <=$2700),-,N/A,,,-,,,,Add to Cart,"2,712",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,"
-●  1 x  ITFIT Multi-functional Laundry Basket [Z-ITFITAC05BE]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"WW80AG6L28BXSH Slim AI Ecobubble™ AI Control Front Load Washing Machine 8kg, 1200 rpm",WM,N,WW80AG6L28BXSH,https://www.samsung.com/hk/multistore/hkevent/pd.WW80AG6L28BXSH,WW80AG6L28BXSH,"$6,190","$3,512",cptqaer@gmail.com,!Cheil2024,"3,512",No,,-,No,Watch B1 (RRP <=$2700),-,N/A,,,-,,,,Add to Cart,"3,512",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,"
 ●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"98"" Neo QLED 4K QN90D",CTV,N,QA98QN90DAJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA98QN90DAJXZK,QA98QN90DAJXZK,"$129,980","$114,382",cptqaer@gmail.com,!Cheil2024,"114,382",No,,-,No,Watch B2 (RRP >=$2701),-,N/A,,,-,,,,Add to Cart,"114,382",,Z-WMN8000SX/XY,Z-SM-S9280ZTGT-CTV,Z-HW-Q700D/ZK,,,,,,,,"Z-WMN8000SX/XY,Z-SM-S9280ZTGT-CTV,Z-HW-Q700D/ZK","
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"WD80T654DBE AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 8/6kg, 1400rpm",WM,N,WD80T654DBE/SH,https://www.samsung.com/hk/multistore/hkevent/pd.WD80T654DBESH,WD80T654DBE/SH,"$7,590","$3,992",cptqaer+3@gmail.com,!Cheil2024,"3,992",No,A25,-,No,A25,-,N/A,A25,,-,,,,Add to Cart,"3,992",,Z-ITFITF16,Z-ITFITEX42,,,,,,,,,"Z-ITFITF16,Z-ITFITEX42",2,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"WW70AG5S21CESH Slim Ecobubble™ Front Load Washing Machine 7kg, 1200rpm",WM,N,WW70AG5S21CESH,https://www.samsung.com/hk/multistore/hkevent/pd.WW70AG5S21CESH,WW70AG5S21CESH,"$5,290","$2,712",cptqaer+3@gmail.com,!Cheil2024,"2,712",No,,-,No,Watch B1 (RRP <=$2700),-,N/A,,,-,,,,Add to Cart,"2,712",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket [Z-ITFITAC05BE]
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"WW80AG6L28BXSH Slim AI Ecobubble™ AI Control Front Load Washing Machine 8kg, 1200 rpm",WM,N,WW80AG6L28BXSH,https://www.samsung.com/hk/multistore/hkevent/pd.WW80AG6L28BXSH,WW80AG6L28BXSH,"$6,190","$3,512",cptqaer+3@gmail.com,!Cheil2024,"3,512",No,,-,No,Watch B1 (RRP <=$2700),-,N/A,,,-,,,,Add to Cart,"3,512",,Z-ITFITEX42,Z-ITFITAC05BE,,,,,,,,,"Z-ITFITEX42,Z-ITFITAC05BE",2,"
+●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+●  1 x  ITFIT Multi-functional Laundry Basket [Z-ITFITAC05BE]
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"98"" Neo QLED 4K QN90D",CTV,N,QA98QN90DAJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA98QN90DAJXZK,QA98QN90DAJXZK,"$129,980","$114,382",cptqaer+3@gmail.com,!Cheil2024,"114,382",No,,-,No,Watch B2 (RRP >=$2701),-,N/A,,,-,,,,Add to Cart,"114,382",,Z-WMN8000SX/XY,Z-SM-S9280ZTGT-CTV,Z-HW-Q700D/ZK,,,,,,,,"Z-WMN8000SX/XY,Z-SM-S9280ZTGT-CTV,Z-HW-Q700D/ZK",3,"
 ●  1 x  TV Wall mount (WMN8000SX) [Z-WMN8000SX/XY]
 ●  1 x  Galaxy S24 Ultra, 256GB, Titanium Gray [Z-SM-S9280ZTGT-CTV]
 ●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"85"" Neo QLED 8K QN900D",CTV,N,QA85QN900DJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA85QN900DJXZK,QA85QN900DJXZK,"$149,980","$105,582",cptqaer@gmail.com,!Cheil2024,"105,582",No,,-,No,,-,N/A,,,-,,,,Add to Cart,"105,582",,Z-WMN-B30FB/RU,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK,,,,,,,,"Z-WMN-B30FB/RU,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK","
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"85"" Neo QLED 8K QN900D",CTV,N,QA85QN900DJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA85QN900DJXZK,QA85QN900DJXZK,"$149,980","$105,582",cptqaer+3@gmail.com,!Cheil2024,"105,582",No,,-,No,,-,N/A,,,-,,,,Add to Cart,"105,582",,Z-WMN-B30FB/RU,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK,,,,,,,,"Z-WMN-B30FB/RU,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK",3,"
 ●  1 x  Full Motion Slim Fit TV Wallmount with installation [Z-WMN-B30FB/RU]
 ●  1 x  Galaxy S24 Ultra, 256GB, Titanium Gray [Z-SM-S9280ZTGT-CTV]
 ●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"83"" OLED S90DAE",CTV,N,QA83S90DAEXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA83S90DAEXZK,QA83S90DAEXZK,"$85,480","$75,222",cptqaer+1@gmail.com,!Cheil2024,"75,222",No,,-,No,,-,N/A,,,-,,,,Add to Cart,"75,222",,Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV,,,,,,,,,"Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV","
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"83"" OLED S90DAE",CTV,N,QA83S90DAEXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA83S90DAEXZK,QA83S90DAEXZK,"$85,480","$75,222",cptqaer+3@gmail.com,!Cheil2024,"75,222",No,,-,No,,-,N/A,,,-,,,,Add to Cart,"75,222",,Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV,,,,,,,,,"Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Galaxy S24+, 256GB, Onyx Black [Z-SM-S9260ZKDT-CTV]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"77"" OLED S90DAE",CTV,N,QA77S90DAEXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA77S90DAEXZK,QA77S90DAEXZK,"$55,480","$47,502",cptqaer+1@gmail.com,!Cheil2024,"47,502",No,,-,No,Watch B1 (RRP <=$2700),-,N/A,,,-,,,,Add to Cart,"47,502",,Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV,,,,,,,,,"Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV","
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"77"" OLED S90DAE",CTV,N,QA77S90DAEXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA77S90DAEXZK,QA77S90DAEXZK,"$55,480","$47,502",cptqaer+3@gmail.com,!Cheil2024,"47,502",No,,-,No,Watch B1 (RRP <=$2700),-,N/A,,,-,,,,Add to Cart,"47,502",,Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV,,,,,,,,,"Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Galaxy S24+, 256GB, Onyx Black [Z-SM-S9260ZKDT-CTV]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"75"" Neo QLED 8K QN900D",CTV,N,QA75QN900DJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA75QN900DJXZK,QA75QN900DJXZK,"$99,980","$70,382",cptqaer@gmail.com,!Cheil2024,"70,382",,,-,No,,-,N/A,,,-,,,,Add to Cart,"70,382",,Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK,,,,,,,,"Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK","
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"75"" Neo QLED 8K QN900D",CTV,N,QA75QN900DJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA75QN900DJXZK,QA75QN900DJXZK,"$99,980","$70,382",cptqaer+3@gmail.com,!Cheil2024,"70,382",,,-,No,,-,N/A,,,-,,,,Add to Cart,"70,382",,Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK,,,,,,,,"Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK",3,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Galaxy S24 Ultra, 256GB, Titanium Gray [Z-SM-S9280ZTGT-CTV]
 ●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"65"" OLED S90DA",CTV,N,QA65S90DAJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA65S90DAJXZK,QA65S90DAJXZK,"$31,480","$21,982",cptqaer@gmail.com,!Cheil2024,"21,982",,,-,No,,-,N/A,,,-,,,,Add to Cart,"21,982",,Z-WMN-B05FB/XY,Z-SM-S9210ZVGT-CTV,,,,,,,,,"Z-WMN-B05FB/XY,Z-SM-S9210ZVGT-CTV","
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"65"" OLED S90DA",CTV,N,QA65S90DAJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA65S90DAJXZK,QA65S90DAJXZK,"$31,480","$21,982",cptqaer+3@gmail.com,!Cheil2024,"21,982",,,-,No,,-,N/A,,,-,,,,Add to Cart,"21,982",,Z-WMN-B05FB/XY,Z-SM-S9210ZVGT-CTV,,,,,,,,,"Z-WMN-B05FB/XY,Z-SM-S9210ZVGT-CTV",2,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
 ●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"65"" Neo QLED 8K QN900D",CTV,N,QA65QN900DJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA65QN900DJXZK,QA65QN900DJXZK,"$49,980","$37,822",cptqaer@gmail.com,!Cheil2024,"37,822",,,-,No,,-,N/A,,,-,,,,Add to Cart,"37,822",,Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,,,,,,,,,"Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV","
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"65"" Neo QLED 8K QN900D",CTV,N,QA65QN900DJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA65QN900DJXZK,QA65QN900DJXZK,"$49,980","$37,822",cptqaer+3@gmail.com,!Cheil2024,"37,822",,,-,No,,-,N/A,,,-,,,,Add to Cart,"37,822",,Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,,,,,,,,,"Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Galaxy S24 Ultra, 256GB, Titanium Gray [Z-SM-S9280ZTGT-CTV]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"55"" OLED S90DA",CTV,N,QA55S90DAJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA55S90DAJXZK,QA55S90DAJXZK,"$21,980","$15,822",cptqaer@gmail.com,!Cheil2024,"15,822",,,-,No,,-,N/A,,,-,,,,Add to Cart,"15,822",,Z-WMN-B05FB/XY,Z-SM-S9210ZVGT-CTV,,,,,,,,,"Z-WMN-B05FB/XY,Z-SM-S9210ZVGT-CTV","
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"55"" OLED S90DA",CTV,N,QA55S90DAJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA55S90DAJXZK,QA55S90DAJXZK,"$21,980","$15,822",cptqaer+3@gmail.com,!Cheil2024,"15,822",,,-,No,,-,N/A,,,-,,,,Add to Cart,"15,822",,Z-WMN-B05FB/XY,Z-SM-S9210ZVGT-CTV,,,,,,,,,"Z-WMN-B05FB/XY,Z-SM-S9210ZVGT-CTV",2,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
 ●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"55"" Neo QLED 4K QN90D",CTV,N,QA55QN90DAJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA55QN90DAJXZK,QA55QN90DAJXZK,"$21,980","$15,822",cptqaer@gmail.com,!Cheil2024,"15,822",,,-,No,,-,N/A,,,-,,,,Add to Cart,"15,822",,Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,,,,,,,,,"Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV","
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"55"" Neo QLED 4K QN90D",CTV,N,QA55QN90DAJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA55QN90DAJXZK,QA55QN90DAJXZK,"$21,980","$15,822",cptqaer+3@gmail.com,!Cheil2024,"15,822",,,-,No,,-,N/A,,,-,,,,Add to Cart,"15,822",,Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,,,,,,,,,"Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"65"" Neo QLED 4K QN95D",CTV,N,QA65QN95DAJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA65QN95DAJXZK,QA65QN95DAJXZK,"$36,980","$26,382",cptqaer@gmail.com,!Cheil2024,"26,382",,,-,No,,-,N/A,,,-,,,,Add to Cart,"26,382",,Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV,Z-HW-Q700D/ZK,,,,,,,,"Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV,Z-HW-Q700D/ZK","
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"65"" Neo QLED 4K QN95D",CTV,N,QA65QN95DAJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA65QN95DAJXZK,QA65QN95DAJXZK,"$36,980","$26,382",cptqaer+3@gmail.com,!Cheil2024,"26,382",,,-,No,,-,N/A,,,-,,,,Add to Cart,"26,382",,Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV,Z-HW-Q700D/ZK,,,,,,,,"Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV,Z-HW-Q700D/ZK",3,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Galaxy S24+, 256GB, Onyx Black [Z-SM-S9260ZKDT-CTV]
 ●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"50"" Neo QLED 4K QN90D",CTV,N,QA50QN90DAJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA50QN90DAJXZK,QA50QN90DAJXZK,"$14,980","$12,302",cptqaer@gmail.com,!Cheil2024,"12,302",,,-,No,,-,N/A,,,-,,,,Add to Cart,"12,302",,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"55"" Neo QLED 4K QN95D",CTV,N,QA55QN95DAJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA55QN95DAJXZK,QA55QN95DAJXZK,"$24,980","$18,462",cptqaer+1@gmail.com,!Cheil2024,"18,462",No,Tab S9,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"18,462",,Z-WMN-B05FB/XY,,Z-HW-Q700D/ZK,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-Q700D/ZK","
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"50"" Neo QLED 4K QN90D",CTV,N,QA50QN90DAJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA50QN90DAJXZK,QA50QN90DAJXZK,"$14,980","$12,302",cptqaer+3@gmail.com,!Cheil2024,"12,302",,,-,No,,-,N/A,,,-,,,,Add to Cart,"12,302",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,"55"" Neo QLED 4K QN95D",CTV,N,QA55QN95DAJXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA55QN95DAJXZK,QA55QN95DAJXZK,"$24,980","$18,462",cptqaer+3@gmail.com,!Cheil2024,"18,462",No,Tab S9,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"18,462",,Z-WMN-B05FB/XY,,Z-HW-Q700D/ZK,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-Q700D/ZK",2,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
 ●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"48"" OLED S90DAE",CTV,N,QA48S90DAEXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA48S90DAEXZK,QA48S90DAEXZK,"$13,480","$10,982",cptqaer+1@gmail.com,!Cheil2024,"10,982",No,Tab S9+,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"10,982",,Z-WMN-B05FB/XY,Z-HW-Q700C/ZK,,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-Q700C/ZK","
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"48"" OLED S90DAE",CTV,N,QA48S90DAEXZK,https://www.samsung.com/hk/multistore/hkevent/pd.QA48S90DAEXZK,QA48S90DAEXZK,"$13,480","$10,982",cptqaer+3@gmail.com,!Cheil2024,"10,982",No,Tab S9+,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"10,982",,Z-WMN-B05FB/XY,Z-HW-Q700C/ZK,,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-Q700C/ZK",2,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
 ●  1 x  Q-series HW-Q700C 3.1.2ch Soundbar [Z-HW-Q700C/ZK]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,Q-series Soundbar HW-Q930D,HTS,N,HW-Q930D/ZK,https://www.samsung.com/hk/multistore/hkevent/pd.HW-Q930DZK,HW-Q930D/ZK,"$8,490","$7,031",cptqaer+1@gmail.com,!Cheil2024,"7,031",No,Tab S9 Ultra,-,No,Tab S9 Ultra,-,N/A,Tab S9 Series,,-,,,,Add to Cart,"7,031",,Z-ITFITEX32,,,,,,,,,,Z-ITFITEX32,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,Q-series Soundbar HW-Q930D,HTS,N,HW-Q930D/ZK,https://www.samsung.com/hk/multistore/hkevent/pd.HW-Q930DZK,HW-Q930D/ZK,"$8,490","$7,031",cptqaer+3@gmail.com,!Cheil2024,"7,031",No,Tab S9 Ultra,-,No,Tab S9 Ultra,-,N/A,Tab S9 Series,,-,,,,Add to Cart,"7,031",,Z-ITFITEX32,,,,,,,,,,Z-ITFITEX32,1,"
 ●  1 x  ITFIT Floor Speaker Stands [Z-ITFITEX32]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,Q-series Soundbar HW-Q700D,HTS,N,HW-Q700D/ZK,https://www.samsung.com/hk/multistore/hkevent/pd.HW-Q700DZK,HW-Q700D/ZK,"$4,590","$4,039",cptqaer+1@gmail.com,!Cheil2024,"4,039",No,Tab S9 FE,-,No,Tab S9 FE,-,N/A,Tab S9 FE series,,-,,,,Add to Cart,"4,039",,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,S-Series HW-S801D Soundbar,HTS,N,HW-S801D/ZK,https://www.samsung.com/hk/multistore/hkevent/pd.HW-S801DZK,HW-S801D/ZK,"$5,390","$2,631",cptqaer+1@gmail.com,!Cheil2024,"2,631",No,Tab S9 FE,-,No,Tab S9 FE+,-,N/A,Tab S9 FE series,,-,,,,Add to Cart,"2,631",,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,S-Series HW-LS60D Music Frame,HTS,N,HW-LS60D/ZK,https://www.samsung.com/hk/multistore/hkevent/pd.HW-LS60DZK,HW-LS60D/ZK,"$3,980","$2,786",cptqaer+1@gmail.com,!Cheil2024,"2,786",No,Tab A9+,-,No,Tab A9+,-,N/A,Tab S9 FE series,,-,,,,Add to Cart,"2,786",,Z-MUSICFRAMEPLATE,Z-MOOV24BIT6MONTH,,,,,,,,,"Z-MUSICFRAMEPLATE,Z-MOOV24BIT6MONTH","
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,Q-series Soundbar HW-Q700D,HTS,N,HW-Q700D/ZK,https://www.samsung.com/hk/multistore/hkevent/pd.HW-Q700DZK,HW-Q700D/ZK,"$4,590","$4,039",cptqaer+3@gmail.com,!Cheil2024,"4,039",No,Tab S9 FE,-,No,Tab S9 FE,-,N/A,Tab S9 FE series,,-,,,,Add to Cart,"4,039",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,S-Series HW-S801D Soundbar,HTS,N,HW-S801D/ZK,https://www.samsung.com/hk/multistore/hkevent/pd.HW-S801DZK,HW-S801D/ZK,"$5,390","$2,631",cptqaer+3@gmail.com,!Cheil2024,"2,631",No,Tab S9 FE,-,No,Tab S9 FE+,-,N/A,Tab S9 FE series,,-,,,,Add to Cart,"2,631",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,S-Series HW-LS60D Music Frame,HTS,N,HW-LS60D/ZK,https://www.samsung.com/hk/multistore/hkevent/pd.HW-LS60DZK,HW-LS60D/ZK,"$3,980","$2,786",cptqaer+3@gmail.com,!Cheil2024,"2,786",No,Tab A9+,-,No,Tab A9+,-,N/A,Tab S9 FE series,,-,,,,Add to Cart,"2,786",,Z-MUSICFRAMEPLATE,Z-MOOV24BIT6MONTH,,,,,,,,,"Z-MUSICFRAMEPLATE,Z-MOOV24BIT6MONTH",2,"
 ●  1 x  Music Frame Art Plate [Z-MUSICFRAMEPLATE]
 ●  1 x  MOOV 6-month [Z-MOOV24BIT6MONTH]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,Tab Active 5,-,N/A,,,-,,,,,,,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,Tab S6 Lite,-,N/A,,,-,,,,,,,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,Book Tier 3: High (RRP $12000-$14999),-,N/A,,,-,,,,,,,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,Book Tier 3: High (RRP $12000-$14999),-,N/A,,,-,,,,,,,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,Book Tier 2: Mid (RRP $7000-11999),-,N/A,,,-,,,,,,,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,,,,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,,,,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,,,,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,Book Tier 3: High (RRP $12000-$14999),-,N/A,,,-,,,,,,,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,Book Tier 2: Mid (RRP $7000-11999),-,N/A,,,-,,,,,,,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,Book Tier 1: Low (RRP <$7000),-,N/A,,,-,,,,,,,,,,,,,,,,,,"
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,Tab Active 5,-,N/A,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,Tab S6 Lite,-,N/A,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,Book Tier 3: High (RRP $12000-$14999),-,N/A,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,Book Tier 3: High (RRP $12000-$14999),-,N/A,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,Book Tier 2: Mid (RRP $7000-11999),-,N/A,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,Book Tier 3: High (RRP $12000-$14999),-,N/A,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,Book Tier 2: Mid (RRP $7000-11999),-,N/A,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,Book Tier 1: Low (RRP <$7000),-,N/A,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
