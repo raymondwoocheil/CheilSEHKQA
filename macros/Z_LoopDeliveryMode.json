@@ -100,7 +100,7 @@
     },
     {
       "Command": "run",
-      "Target": "TestDeliveryMode",
+      "Target": "Z_TestDeliveryMode",
       "Value": "",
       "Description": ""
     },
