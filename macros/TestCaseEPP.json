@@ -1,6 +1,6 @@
 {
   "Name": "TestCaseEPP",
-  "CreationDate": "2024-5-10",
+  "CreationDate": "2024-5-13",
   "Commands": [
     {
       "Command": "store",
@@ -1163,6 +1163,12 @@
     {
       "Command": "comment",
       "Target": "**Verify - Add On**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://shop.samsung.com/hk/multistore/hk_event_channel/hkevent/cart",
       "Value": "",
       "Description": ""
     },
