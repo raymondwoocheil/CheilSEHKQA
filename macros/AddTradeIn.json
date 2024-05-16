@@ -1,10 +1,16 @@
 {
   "Name": "AddTradeIn",
-  "CreationDate": "2024-5-12",
+  "CreationDate": "2024-5-16",
   "Commands": [
     {
       "Command": "comment",
       "Target": "open // https://www.samsung.com/hk/smartphones/galaxy-s24-ultra/buy/",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
       "Value": "",
       "Description": ""
     },
@@ -22,7 +28,7 @@
     },
     {
       "Command": "pause",
-      "Target": "100",
+      "Target": "500",
       "Value": "",
       "Description": ""
     },

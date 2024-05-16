@@ -1,7 +1,13 @@
 {
   "Name": "AddTradeUp",
-  "CreationDate": "2024-4-29",
+  "CreationDate": "2024-5-16",
   "Commands": [
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
     {
       "Command": "click",
       "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div/div/div[2]/div/div/ul/li/div[2]/div/button/span",

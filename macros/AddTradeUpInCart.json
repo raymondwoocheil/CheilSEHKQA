@@ -1,7 +1,13 @@
 {
   "Name": "AddTradeUpInCart",
-  "CreationDate": "2024-5-1",
+  "CreationDate": "2024-5-16",
   "Commands": [
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
     {
       "Command": "click",
       "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/div/div/div[2]/div/div[2]/div/div/div/div[2]/div",
