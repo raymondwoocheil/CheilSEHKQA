@@ -1,5 +1,5 @@
 MX SPP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Assigned,Test Case,,,,,,,,,,14,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,,Verify / AC >>,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,EPP store only premiums,,,,,Total,Verify / AC >>,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,
+Assigned,Test Case,,,,,,,,,,22,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,,Verify / AC >>,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,EPP store only premiums,,,,,Total,Verify / AC >>,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,
 Tester,ID,Manual Cart,Premiunm Qty,Auto Cart,Auto Checkout,Model,TYPE,BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-in,Trade-in-type,Verify extra trade-in rebate,SC+,SC-type,"Verify SC+ 
 in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass,,,,,,EPP store only premiums,,,,Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,Guest Email,Select City,Select District,Select Service,Verify Expected Delivery Date,Verify Delivery Cost,Checkout Page Result,Screencap,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,Extra Trade-In Rebate label,Trade-In Rebate captured,Trade-In Rebate result,SC+ label,SC+ captured,SC+ result,Premium SKU count,Count captured,Premium SKU count result,Failed reason,Items in Cart,SKU 1,Qty,,SKU 2,Qty,,SKU 3,Qty,,SKU 4,Qty,,SKU 5,Qty,,SKU 6,Qty,,SKU 7,Qty,,SKU 8,Qty,,SKU 9,Qty,,SKU 10,Qty,,Qty Total,Qty Total Result,Premium Array,Final Result,Test duration (s),,Cart Page Result,Cart Page Result,
@@ -8,11 +8,11 @@ in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1
 
 
 "
-,MXSYM-03,,Failed,,,"Galaxy S24 Ultra, 1TB, Titanium Blue",SMP,N,SM-S9280LBPTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280LBPTGY,SM-S9280LBPTGY,"$12,898","$10,318",cptqaer@gmail.com,!Cheil2024,"10,318",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"10,318",,Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,,,,,,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
+,,,Failed,,,"Galaxy S24 Ultra, 1TB, Titanium Blue",SMP,N,SM-S9280LBPTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280LBPTGY,SM-S9280LBPTGY,"$12,898","$10,318",raymond.woo@cheilpengtai.com,!Cheil2024,"10,318",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"10,318",,Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,,,,,,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,Failed,,,"Galaxy S24 Ultra, 512GB, Titanium Black",SMP,N,SM-S9280ZKHTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280ZKHTGY,SM-S9280ZKHTGY,"$10,898","$9,090",cptqaer@gmail.com,!Cheil2024,"9,090",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"9,090",,Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,,,,,Z-SM-R177NZWAASA,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,Z-SM-R177NZWAASA",3,"
+Noel,MXS-01,,Failed,,,"Galaxy S24 Ultra, 512GB, Titanium Black",SMP,N,SM-S9280ZKHTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280ZKHTGY,SM-S9280ZKHTGY,"$10,898","$9,090",cptqaer@gmail.com,!Cheil2024,"9,090",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"9,090",,Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,,,,,Z-SM-R177NZWAASA,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,Z-SM-R177NZWAASA",3,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ●  1 x  Galaxy Buds2 [Z-SM-R177NZWAASA]
@@ -22,7 +22,7 @@ in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ●  1 x  Galaxy Buds2 [Z-SM-R177NZWAASA]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,Failed,,,"Galaxy S24+, 512GB, Onyx Black",SMP,N,SM-S9260ZKGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9260ZKGTGY,SM-S9260ZKGTGY,"$8,598","$7,066",cptqaer@gmail.com,!Cheil2024,"7,066",No,S24+ (512GB),-,No,S24 Series,-,N/A,S24+,,-,,,,Add to Cart,"7,066",,Z-EP-T6530NBEGGB,,,,,,Z-SM-R400NZWATGY,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
+Noel,MXS-02,,Failed,,,"Galaxy S24+, 512GB, Onyx Black",SMP,N,SM-S9260ZKGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9260ZKGTGY,SM-S9260ZKGTGY,"$8,598","$7,066",cptqaer@gmail.com,!Cheil2024,"7,066",No,S24+ (512GB),-,No,S24 Series,-,N/A,S24+,,-,,,,Add to Cart,"7,066",,Z-EP-T6530NBEGGB,,,,,,Z-SM-R400NZWATGY,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
@@ -30,7 +30,7 @@ in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds2 [Z-SM-R177NZWAASA]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,Failed,,,"Galaxy S24, 512GB, Onyx Black",SMP,N,SM-S9210ZKHTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9210ZKHTGY,SM-S9210ZKHTGY,"$6,898","$5,770",cptqaer@gmail.com,!Cheil2024,"5,770",No,S24 (512GB),-,No,S24 Series,-,N/A,S24 base,,-,,,,Add to Cart,"5,770",,Z-EP-T6530NBEGGB,,,,,,Z-SM-R400NZWATGY,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
+Noel,MXS-03,,Failed,,,"Galaxy S24, 512GB, Onyx Black",SMP,N,SM-S9210ZKHTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9210ZKHTGY,SM-S9210ZKHTGY,"$6,898","$5,770",cptqaer@gmail.com,!Cheil2024,"5,770",No,S24 (512GB),-,No,S24 Series,-,N/A,S24 base,,-,,,,Add to Cart,"5,770",,Z-EP-T6530NBEGGB,,,,,,Z-SM-R400NZWATGY,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
@@ -38,11 +38,11 @@ in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds2 [Z-SM-R177NZWAASA]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,Failed,,,"Galaxy Z Fold5 1TB, 12GB + 1TB, Black",SMP,N,SM-F9460ZKHTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-F9460ZKHTGY,SM-F9460ZKHTGY,"$16,598","$12,449",cptqaer@gmail.com,!Cheil2024,"12,449",No,Z Fold5,-,No,Z Fold5,-,N/A,Fold5,,-,,,,Add to Cart,"12,449",,Z-EP-T6530NBEGGB,,,,,,Z-SM-R400NZWATGY,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
+Noel,MXS-04,,Failed,,,"Galaxy Z Fold5 1TB, 12GB + 1TB, Black",SMP,N,SM-F9460ZKHTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-F9460ZKHTGY,SM-F9460ZKHTGY,"$16,598","$12,449",cptqaer@gmail.com,!Cheil2024,"12,449",No,Z Fold5,-,No,Z Fold5,-,N/A,Fold5,,-,,,,Add to Cart,"12,449",,Z-EP-T6530NBEGGB,,,,,,Z-SM-R400NZWATGY,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,MXSYM-01,,Failed,,,"Galaxy Z Fold5 512, Gray (eStore)",SMP,N,SM-F9460ZUGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-F9460ZUGTGY,SM-F9460ZUGTGY,"$14,598","$10,219",cptqaer@gmail.com,!Cheil2024,"10,219",No,Z Fold5,-,No,Z Fold5,-,N/A,Fold5,,-,,,,Add to Cart,"10,219",,Z-EP-T6530NBEGGB,,,,,,Z-SM-R400NZWATGY,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
+,,,Failed,,,"Galaxy Z Fold5 512, Gray (eStore)",SMP,N,SM-F9460ZUGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-F9460ZUGTGY,SM-F9460ZUGTGY,"$14,598","$10,219",cptqaer@gmail.com,!Cheil2024,"10,219",No,Z Fold5,-,No,Z Fold5,-,N/A,Fold5,,-,,,,Add to Cart,"10,219",,Z-EP-T6530NBEGGB,,,,,,Z-SM-R400NZWATGY,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
@@ -50,7 +50,7 @@ in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,MXSYM-02,,Failed,,,"Galaxy Z Flip5 512, Yellow (eStore)",SMP,N,SM-F7310ZYETGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-F7310ZYETGY,SM-F7310ZYETGY,"$9,298","$6,509",cptqaer@gmail.com,!Cheil2024,"6,509",No,Z Flip5,-,No,Z Flip5,-,N/A,Flip5,,-,,,,Add to Cart,"6,509",,Z-EP-T6530NBEGGB,Z-EF-ZF731CTEGWW,Z-EP-P5400TWEGGB,,,,Z-SM-R400NZWATGY,,,,"Z-EP-T6530NBEGGB,Z-EF-ZF731CTEGWW,Z-EP-P5400TWEGGB,Z-SM-R400NZWATGY",4,"
+Noel,MXS-05,,Failed,,,"Galaxy Z Flip5 512, Yellow (eStore)",SMP,N,SM-F7310ZYETGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-F7310ZYETGY,SM-F7310ZYETGY,"$9,298","$6,509",cptqaer@gmail.com,!Cheil2024,"6,509",No,Z Flip5,-,No,Z Flip5,-,N/A,Flip5,,-,,,,Add to Cart,"6,509",,Z-EP-T6530NBEGGB,Z-EF-ZF731CTEGWW,Z-EP-P5400TWEGGB,,,,Z-SM-R400NZWATGY,,,,"Z-EP-T6530NBEGGB,Z-EF-ZF731CTEGWW,Z-EP-P5400TWEGGB,Z-SM-R400NZWATGY",4,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Z Flip5 Flipsuit Case [Z-EF-ZF731CTEGWW]
 ●  1 x  15W Wireless Charger Duo Pad P5400 with TA [Z-EP-P5400TWEGGB]
@@ -72,18 +72,20 @@ in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1
 ,,,Failed,,,"Galaxy S23 [256], Cream (Key)",SMP,N,SM-S9110ZEGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9110ZEGTGY,SM-S9110ZEGTGY,"$5,498","$4,673",cptqaer@gmail.com,!Cheil2024,"4,673",No,S23,-,No,S23 Series,-,N/A,S23 (base),,-,,,,Add to Cart,"4,673",,Z-ITFITPW03,,,,,,,,,,Z-ITFITPW03,1,"
 ●  1 x  ITFIT Universal Travel Adapter [Z-ITFITPW03]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,Failed,,,"Galaxy S23 FE 256, Mint",SMP,N,SM-S7110LGGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S7110LGGTGY,SM-S7110LGGTGY,"$5,098","$3,824",cptqaer@gmail.com,!Cheil2024,"3,824",No,S23 FE,-,No,S23 FE,-,N/A,S23 FE,,-,,,,Add to Cart,"3,824",,Z-ITFITPW03,,,,,,Z-SM-R400NZWATGY,Z-EF-QS711CTEGWW,,,"Z-ITFITPW03,Z-SM-R400NZWATGY,Z-EF-QS711CTEGWW",3,"
+Noel,MXS-06,,Failed,,,"Galaxy S23 FE 256, Mint",SMP,N,SM-S7110LGGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S7110LGGTGY,SM-S7110LGGTGY,"$5,098","$3,824",cptqaer@gmail.com,!Cheil2024,"3,824",No,S23 FE,-,No,S23 FE,-,N/A,S23 FE,,-,,,,Add to Cart,"3,824",,Z-ITFITPW03,,,,,,Z-SM-R400NZWATGY,Z-EF-QS711CTEGWW,,,"Z-ITFITPW03,Z-SM-R400NZWATGY,Z-EF-QS711CTEGWW",3,"
 ●  1 x  ITFIT Universal Travel Adapter [Z-ITFITPW03]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ●  1 x  Galaxy S23 FE Clear Case [Z-EF-QS711CTEGWW]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,MXS-01,,Failed,,,Galaxy A55 5G 8GB 128GB Awesome Navy,SMP,N,SM-A5560ZKATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A5560ZKATGY,SM-A5560ZKATGY,"$3,298","$2,902",cptqaer@gmail.com,!Cheil2024,"2,902",No,A55,-,No,A55,-,N/A,A55,,-,,,,Add to Cart,"2,902",,Z-ITFITT10WE,Z-EF-ZA556CBEGWW,,,,,,,,,"Z-ITFITT10WE,Z-EF-ZA556CBEGWW",2,"
+Noel,MXS-07,,Failed,,,Galaxy A55 5G 8GB 128GB Awesome Navy,SMP,N,SM-A5560ZKATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A5560ZKATGY,SM-A5560ZKATGY,"$3,298","$2,902",cptqaer@gmail.com,!Cheil2024,"2,902",No,A55,-,No,A55,-,N/A,A55,,-,,,,Add to Cart,"2,902",,Z-ITFITT10WE,Z-EF-ZA556CBEGWW,,,,,Z-ITFITEX43,,,,"Z-ITFITT10WE,Z-EF-ZA556CBEGWW,Z-ITFITEX43",2,"
 ●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
 ●  1 x  Galaxy A55 5G Smart View Wallet Case [Z-EF-ZA556CBEGWW]
+●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,MXS-02,,Failed,,,Galaxy A35 5G 8GB 128GB Awesome Navy,SMP,N,SM-A3560ZKDTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A3560ZKDTGY,SM-A3560ZKDTGY,"$2,698","$2,293",cptqaer@gmail.com,!Cheil2024,"2,293",No,A35,-,No,A35,-,N/A,A35,,-,,,,Add to Cart,"2,293",,Z-ITFITT10WE,Z-EF-QA356CTEGWW,,,,,,,,,"Z-ITFITT10WE,Z-EF-QA356CTEGWW",2,"
-●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
+Noel,MXS-08,,Failed,,,Galaxy A35 5G 8GB 128GB Awesome Navy,SMP,N,SM-A3560ZKDTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A3560ZKDTGY,SM-A3560ZKDTGY,"$2,698","$2,293",cptqaer@gmail.com,!Cheil2024,"2,293",No,A35,-,No,A35,-,N/A,A35,,-,,,,Add to Cart,"2,293",,,Z-EF-QA356CTEGWW,,,,,Z-ITFITEX43,,Z-SM-R400NZWATGY,,"Z-EF-QA356CTEGWW,Z-ITFITEX43,Z-SM-R400NZWATGY",2,"
 ●  1 x  Galaxy A35 5G Clear Case [Z-EF-QA356CTEGWW]
+●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
+●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
 ,,,Failed,,,"Galaxy A23 5G, Blue",SMP,N,SM-A2360LBWTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A2360LBWTGY,SM-A2360LBWTGY,"$2,498","$1,749",cptqaer@gmail.com,!Cheil2024,"1,749",No,,-,No,,-,N/A,A23,,-,,,,Add to Cart,"1,749",,,,,,,,Z-EB-P3400XUEGWW,,,,Z-EB-P3400XUEGWW,1,"
 ●  1 x  10,000mAh Battery Pack P3400 [Z-EB-P3400XUEGWW]
@@ -92,11 +94,11 @@ in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
 ,,,Passed,,,"Galaxy A14 5G, 4GB + 64GB, Black",SMP,N,SM-A146PZKDTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A146PZKDTGY,SM-A146PZKDTGY,,,cptqaer@gmail.com,!Cheil2024,,No,,-,No,,-,N/A,,,-,,,,Add to Cart,,,,,,,,,,,,,,0,"
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,MXS-03,,Failed,,,"Galaxy A15 5G, Blue Black",SMP,N,SM-A1560ZKGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A1560ZKGTGY,SM-A1560ZKGTGY,"$1,798","$1,402",cptqaer@gmail.com,!Cheil2024,"1,402",No,A15,-,No,A15,-,N/A,A15,,-,,,,Add to Cart,"1,402",,Z-ITFITT10WE,,,,,,Z-EB-P3400XUEGWW,,,,"Z-ITFITT10WE,Z-EB-P3400XUEGWW",2,"
+Noel,MXS-09,,Failed,,,"Galaxy A15 5G, Blue Black",SMP,N,SM-A1560ZKGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A1560ZKGTGY,SM-A1560ZKGTGY,"$1,798","$1,402",cptqaer@gmail.com,!Cheil2024,"1,402",No,A15,-,No,A15,-,N/A,A15,,-,,,,Add to Cart,"1,402",,Z-ITFITT10WE,,,,,,Z-EB-P3400XUEGWW,,,,"Z-ITFITT10WE,Z-EB-P3400XUEGWW",2,"
 ●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
 ●  1 x  10,000mAh Battery Pack P3400 [Z-EB-P3400XUEGWW]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,MXS-04,,Failed,,,"Galaxy A25 5G, Black",SMP,N,SM-A2560ZKDTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A2560ZKDTGY,SM-A2560ZKDTGY,"$2,398","$1,751",cptqaer@gmail.com,!Cheil2024,"1,751",No,A25,-,No,A25,-,N/A,A25,,-,,,,Add to Cart,"1,751",,Z-ITFITT10WE,,,,,,Z-EB-P3400XUEGWW,,,,"Z-ITFITT10WE,Z-EB-P3400XUEGWW",2,"
+Noel,MXS-10,,Failed,,,"Galaxy A25 5G, Black",SMP,N,SM-A2560ZKDTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A2560ZKDTGY,SM-A2560ZKDTGY,"$2,398","$1,751",cptqaer@gmail.com,!Cheil2024,"1,751",No,A25,-,No,A25,-,N/A,A25,,-,,,,Add to Cart,"1,751",,Z-ITFITT10WE,,,,,,Z-EB-P3400XUEGWW,,,,"Z-ITFITT10WE,Z-EB-P3400XUEGWW",2,"
 ●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
 ●  1 x  10,000mAh Battery Pack P3400 [Z-EB-P3400XUEGWW]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
@@ -111,10 +113,10 @@ in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
 ,,,Passed,,,Galaxy Fit3,SMP,N,SM-R390NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-R390NZAATGY,SM-R390NZAATGY,$498,$438,cptqaer@gmail.com,!Cheil2024,438,N/A,,-,No,,-,N/A,,,-,,,,Add to Cart,438,,,,,,,,,,,,,0,"
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Failed,,,"Galaxy Buds2 Pro, Graphite",SMP,N,SM-R510NZAAASA,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-R510NZAAASA,SM-R510NZAAASA,"$1,798","$1,169",cptqaer@gmail.com,!Cheil2024,"1,169",N/A,,-,No,,-,N/A,,,-,,,,Add to Cart,"1,169",,,,,,,,Z-ITFITEX27,,,,Z-ITFITEX27,1,"
+Noel,MXS-11,,Failed,,,"Galaxy Buds2 Pro, Graphite",SMP,N,SM-R510NZAAASA,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-R510NZAAASA,SM-R510NZAAASA,"$1,798","$1,169",cptqaer@gmail.com,!Cheil2024,"1,169",N/A,,-,No,,-,N/A,,,-,,,,Add to Cart,"1,169",,,,,,,,Z-ITFITEX27,,,,Z-ITFITEX27,1,"
 ●  1 x  ITFIT 3-in-1 LED Wireless Charger [Z-ITFITEX27]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,Failed,,,"Galaxy Watch6 40mm (BT), Gold",SMP,N,SM-R930NZEATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-R930NZEATGY,SM-R930NZEATGY,"$2,598","$1,559",cptqaer@gmail.com,!Cheil2024,"1,559",N/A,,-,No,Watch B1 (RRP <=$2700),-,N/A,,,-,,,,Add to Cart,"1,559",,Z-ITFITPW12,,,,,,,,,,Z-ITFITPW12,1,"
+Noel,MXS-12,,Failed,,,"Galaxy Watch6 40mm (BT), Gold",SMP,N,SM-R930NZEATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-R930NZEATGY,SM-R930NZEATGY,"$2,598","$1,559",cptqaer@gmail.com,!Cheil2024,"1,559",N/A,,-,No,Watch B1 (RRP <=$2700),-,N/A,,,-,,,,Add to Cart,"1,559",,Z-ITFITPW12,,,,,,,,,,Z-ITFITPW12,1,"
 ●  1 x  ITFIT Night-Light Wireless Charger [Z-ITFITPW12]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
 ,,,Failed,,,"Galaxy Watch6 40mm (LTE), Gold",SMP,N,SM-R935FZEATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-R935FZEATGY,SM-R935FZEATGY,"$2,998","$1,799",cptqaer@gmail.com,!Cheil2024,"1,799",N/A,,-,No,,-,N/A,,,-,,,,Add to Cart,"1,799",,Z-ITFITPW12,,,,,,,,,,Z-ITFITPW12,1,"
@@ -142,28 +144,31 @@ in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1
 ",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
 ,,,Passed,,,SmartTag2,SMP,N,EI-T5600BBEGWW,https://www.samsung.com/hk/multistore/hkeducation/pd.EI-T5600BBEGWW,EI-T5600BBEGWW,,,cptqaer@gmail.com,!Cheil2024,,N/A,,-,,,-,,,,-,,,,Add to Cart,,,,,,,,,,,,,,0,"
 ",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Failed,,,"Galaxy Tab S9, 8GB+128, Graphite",TAB,N,SM-X710NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X710NZAATGY,SM-X710NZAATGY,"$6,288","$4,842",cptqaer@gmail.com,!Cheil2024,"4,842",No,Tab S9,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"4,842",,Z-EF-ZX712PWEGWW,Z-SM-R400NZWATGY,,,,,Z-EF-DX710UBEGWW,,,,"Z-EF-ZX712PWEGWW,Z-SM-R400NZWATGY,Z-EF-DX710UBEGWW",3,"
+Noel,MXS-13,,Failed,,,"Galaxy Tab S9, 8GB+128, Graphite",TAB,N,SM-X710NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X710NZAATGY,SM-X710NZAATGY,"$6,288","$4,842",cptqaer@gmail.com,!Cheil2024,"4,842",No,Tab S9,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"4,842",,Z-EF-ZX712PWEGWW,Z-SM-R400NZWATGY,,,,,Z-EF-DX710UBEGWW,Z-ITFITEX43,,,"Z-EF-ZX712PWEGWW,Z-SM-R400NZWATGY,Z-EF-DX710UBEGWW,Z-ITFITEX43",3,"
 ●  1 x  Galaxy Tab S9 NotePaper Screen [Z-EF-ZX712PWEGWW]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ●  1 x  Bookcover Keyboard Slim [Z-EF-DX710UBEGWW]
+●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,Failed,,,"Galaxy Tab S9+, 12GB+256, Graphite",TAB,N,SM-X810NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X810NZAATGY,SM-X810NZAATGY,"$7,888","$6,074",cptqaer@gmail.com,!Cheil2024,"6,074",No,Tab S9+,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"6,074",,Z-EF-ZX812PWEGWW,Z-SM-R400NZWATGY,,,,,Z-EF-DX810UBEGWW,,,,"Z-EF-ZX812PWEGWW,Z-SM-R400NZWATGY,Z-EF-DX810UBEGWW",3,"
+Noel,MXS-14,,Failed,,,"Galaxy Tab S9+, 12GB+256, Graphite",TAB,N,SM-X810NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X810NZAATGY,SM-X810NZAATGY,"$7,888","$6,074",cptqaer@gmail.com,!Cheil2024,"6,074",No,Tab S9+,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"6,074",,Z-EF-ZX812PWEGWW,Z-SM-R400NZWATGY,,,,,Z-EF-DX810UBEGWW,Z-ITFITEX43,,,"Z-EF-ZX812PWEGWW,Z-SM-R400NZWATGY,Z-EF-DX810UBEGWW,Z-ITFITEX43",3,"
 ●  1 x  Galaxy Tab S9+ NotePaper Screen [Z-EF-ZX812PWEGWW]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ●  1 x  BookCover Keyboard Slim [Z-EF-DX810UBEGWW]
+●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,Failed,,,"Galaxy Tab S9 Ultra, 12GB+256, Graphite",TAB,N,SM-X910NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X910NZAATGY,SM-X910NZAATGY,"$9,688","$7,266",cptqaer@gmail.com,!Cheil2024,"7,266",No,Tab S9 Ultra,-,No,Tab S9 Ultra,-,N/A,Tab S9 Series,,-,,,,Add to Cart,"7,266",,Z-SM-R400NZWATGY,Z-EF-ZX912PWEGWW,Z-EF-DX910UBEGWW,,,,Z-EF-DX910UBEGWW,,,,"Z-SM-R400NZWATGY,Z-EF-ZX912PWEGWW,Z-EF-DX910UBEGWW,Z-EF-DX910UBEGWW",4,"
+Noel,MXS-15,,Failed,,,"Galaxy Tab S9 Ultra, 12GB+256, Graphite",TAB,N,SM-X910NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X910NZAATGY,SM-X910NZAATGY,"$9,688","$7,266",cptqaer@gmail.com,!Cheil2024,"7,266",No,Tab S9 Ultra,-,No,Tab S9 Ultra,-,N/A,Tab S9 Series,,-,,,,Add to Cart,"7,266",,Z-SM-R400NZWATGY,Z-EF-ZX912PWEGWW,Z-EF-DX910UBEGWW,,,,Z-EF-DX910UBEGWW,Z-ITFITEX43,,,"Z-SM-R400NZWATGY,Z-EF-ZX912PWEGWW,Z-EF-DX910UBEGWW,Z-EF-DX910UBEGWW,Z-ITFITEX43",4,"
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ●  1 x  Galaxy Tab S9 Ultra NotePaper Screen [Z-EF-ZX912PWEGWW]
 ●  1 x  Galaxy Tab S9 Ultra Book Cover Keyboard Slim [Z-EF-DX910UBEGWW]
 ●  1 x  Galaxy Tab S9 Ultra Book Cover Keyboard Slim [Z-EF-DX910UBEGWW]
+●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,MXS-05,,Failed,,,"Galaxy Tab S9 FE, Wi-Fi, MINT",TAB,N,SM-X510NLGATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X510NLGATGY,SM-X510NLGATGY,"$3,588","$2,870",cptqaer@gmail.com,!Cheil2024,"2,870",No,Tab S9 FE,-,No,Tab S9 FE,-,N/A,Tab S9 FE series,,-,,,,Add to Cart,"2,870",,Z-ITFITCS9FEGY,Z-ITFITEX41,,,,,Z-ITFITEX41,,,,"Z-ITFITCS9FEGY,Z-ITFITEX41,Z-ITFITEX41",3,"
+Noel,MXS-16,,Failed,,,"Galaxy Tab S9 FE, Wi-Fi, MINT",TAB,N,SM-X510NLGATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X510NLGATGY,SM-X510NLGATGY,"$3,588","$2,870",cptqaer@gmail.com,!Cheil2024,"2,870",No,Tab S9 FE,-,No,Tab S9 FE,-,N/A,Tab S9 FE series,,-,,,,Add to Cart,"2,870",,Z-ITFITCS9FEGY,Z-ITFITEX41,,,,,Z-ITFITEX41,,,,"Z-ITFITCS9FEGY,Z-ITFITEX41,Z-ITFITEX41",3,"
 ●  1 x  ITFIT Bookcover [Z-ITFITCS9FEGY]
 ●  1 x  ITFIT Travel Kit [Z-ITFITEX41]
 ●  1 x  ITFIT Travel Kit [Z-ITFITEX41]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,MXS-06,,Failed,,,"Galaxy Tab S9 FE+, Wi-Fi, MINT",TAB,N,SM-X610NLGATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X610NLGATGY,SM-X610NLGATGY,"$4,788","$3,830",cptqaer@gmail.com,!Cheil2024,"3,830",No,Tab S9 FE,-,No,Tab S9 FE+,-,N/A,Tab S9 FE series,,-,,,,Add to Cart,"3,830",,Z-ITFITCS9FEPGY,Z-ITFITEX41,,,,,Z-ITFITEX41,,,,"Z-ITFITCS9FEPGY,Z-ITFITEX41,Z-ITFITEX41",3,"
+Noel,MXS-17,,Failed,,,"Galaxy Tab S9 FE+, Wi-Fi, MINT",TAB,N,SM-X610NLGATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X610NLGATGY,SM-X610NLGATGY,"$4,788","$3,830",cptqaer@gmail.com,!Cheil2024,"3,830",No,Tab S9 FE,-,No,Tab S9 FE+,-,N/A,Tab S9 FE series,,-,,,,Add to Cart,"3,830",,Z-ITFITCS9FEPGY,Z-ITFITEX41,,,,,Z-ITFITEX41,,,,"Z-ITFITCS9FEPGY,Z-ITFITEX41,Z-ITFITEX41",3,"
 ●  1 x  ITFIT Bookcover [Z-ITFITCS9FEPGY]
 ●  1 x  ITFIT Travel Kit [Z-ITFITEX41]
 ●  1 x  ITFIT Travel Kit [Z-ITFITEX41]
@@ -174,7 +179,7 @@ in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1
 ,,,Failed,,,Galaxy Tab Active 5,TAB,N,SM-X306BZGATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X306BZGATGY,SM-X306BZGATGY,,,cptqaer@gmail.com,!Cheil2024,,No,,-,No,Tab Active 5,-,N/A,,,-,,,,Add to Cart,,,Z-ITFITPW03,,,,,,,,,,Z-ITFITPW03,1,"
 ●  1 x  ITFIT Universal Travel Adapter [Z-ITFITPW03]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,MXS-07,,Failed,,,Galaxy Tab S6 Lite (2024) Wi-Fi Oxford Gray,TAB,N,SM-P620NZAETGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-P620NZAETGY,SM-P620NZAETGY,"$2,588","$2,277",cptqaer@gmail.com,!Cheil2024,"2,277",No,Tab S6 Lite (2024 edition),-,No,Tab S6 Lite,-,N/A,,,-,,,,Add to Cart,"2,277",,Z-ITFITBKCS6LGY,Z-ITFITEX41,,,,,,,,,"Z-ITFITBKCS6LGY,Z-ITFITEX41",2,"
+Noel,MXS-18,,Failed,,,Galaxy Tab S6 Lite (2024) Wi-Fi Oxford Gray,TAB,N,SM-P620NZAETGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-P620NZAETGY,SM-P620NZAETGY,"$2,588","$2,277",cptqaer@gmail.com,!Cheil2024,"2,277",No,Tab S6 Lite (2024 edition),-,No,Tab S6 Lite,-,N/A,,,-,,,,Add to Cart,"2,277",,Z-ITFITBKCS6LGY,Z-ITFITEX41,,,,,,,,,"Z-ITFITBKCS6LGY,Z-ITFITEX41",2,"
 ●  1 x  ITFIT Book Cover [Z-ITFITBKCS6LGY]
 ●  1 x  ITFIT Travel Kit [Z-ITFITEX41]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
@@ -190,26 +195,26 @@ in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1
 ,,,Failed,,,"Galaxy Book3 360, 15.6""/i5/16GB/512GB, Silver",NPC,N,NP750QFG-KB1HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP750QFG-KB1HK,NP750QFG-KB1HK,"$10,980","$7,137",cptqaer@gmail.com,!Cheil2024,"7,137",No,Book3 360,-,No,Book Tier 2: Mid (RRP $7000-11999),-,N/A,,,-,,,,Add to Cart,"7,137",,,,,,,,Z-SM-T220NZSFTGY,,,,Z-SM-T220NZSFTGY,1,"
 ●  1 x  Galaxy Tab A7 Lite (Wi-Fi) [Z-SM-T220NZSFTGY]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,MXS-08,,Failed,,,"Galaxy Book4 Uitra 16""/i9/64GB/2TB/RTX4070",NPC,N,NP960XGL-XG1HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960XGL-XG1HK,NP960XGL-XG1HK,"$24,980","$21,982",cptqaer@gmail.com,!Cheil2024,"21,982",No,Book4 Ultra,-,No,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,Add to Cart,"21,982",,Z-EF-LPUN6PBEGWW,Z-XBOXCTRLGDSP,Z-GAMEPASSULT3MMX,Z-SM-A1560ZKGTGY,,,Z-ITFITEX43,,,,"Z-EF-LPUN6PBEGWW,Z-XBOXCTRLGDSP,Z-GAMEPASSULT3MMX,Z-SM-A1560ZKGTGY,Z-ITFITEX43",5,"
+Noel,MXS-19,,Failed,,,"Galaxy Book4 Uitra 16""/i9/64GB/2TB/RTX4070",NPC,N,NP960XGL-XG1HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960XGL-XG1HK,NP960XGL-XG1HK,"$24,980","$21,982",cptqaer@gmail.com,!Cheil2024,"21,982",No,Book4 Ultra,-,No,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,Add to Cart,"21,982",,Z-EF-LPUN6PBEGWW,Z-XBOXCTRLGDSP,Z-GAMEPASSULT3MMX,Z-SM-A1560ZKGTGY,,,Z-ITFITEX43,,,,"Z-EF-LPUN6PBEGWW,Z-XBOXCTRLGDSP,Z-GAMEPASSULT3MMX,Z-SM-A1560ZKGTGY,Z-ITFITEX43",5,"
 ●  1 x  Galaxy Book3 Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
 ●  1 x  Xbox Wireless Controller – Gold Shadow Special Edition [Z-XBOXCTRLGDSP]
 ●  1 x  Game Pass Ultimate (3 months)  [Z-GAMEPASSULT3MMX]
 ●  1 x  Galaxy A15 5G, Black [Z-SM-A1560ZKGTGY]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,MXS-09,,Failed,,,"Galaxy Book4 Pro 360 16""/i7/32GB/1TB",NPC,N,NP960QGK-KS3HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960QGK-KS3HK,NP960QGK-KS3HK,"$16,980","$14,942",cptqaer@gmail.com,!Cheil2024,"14,942",No,Book4 Pro 360,-,No,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,Add to Cart,"14,942",,Z-EF-LPUN6PBEGWW,Z-OTH-M365MTH12HK,Z-SM-A1560ZKGTGY,,,,Z-ITFITEX43,,,,"Z-EF-LPUN6PBEGWW,Z-OTH-M365MTH12HK,Z-SM-A1560ZKGTGY,Z-ITFITEX43",4,"
+Noel,MXS-20,,Failed,,,"Galaxy Book4 Pro 360 16""/i7/32GB/1TB",NPC,N,NP960QGK-KS3HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960QGK-KS3HK,NP960QGK-KS3HK,"$16,980","$14,942",cptqaer@gmail.com,!Cheil2024,"14,942",No,Book4 Pro 360,-,No,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,Add to Cart,"14,942",,Z-EF-LPUN6PBEGWW,Z-OTH-M365MTH12HK,Z-SM-A1560ZKGTGY,,,,Z-ITFITEX43,,,,"Z-EF-LPUN6PBEGWW,Z-OTH-M365MTH12HK,Z-SM-A1560ZKGTGY,Z-ITFITEX43",4,"
 ●  1 x  Galaxy Book3 Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
 ●  1 x  Microsoft 365 Personal [Z-OTH-M365MTH12HK]
 ●  1 x  Galaxy A15 5G, Black [Z-SM-A1560ZKGTGY]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,MXS-10,,Failed,,,"Galaxy Book4 Pro 16""/i7/32GB/1TB",NPC,N,NP960XGK-KS5HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960XGK-KS5HK,NP960XGK-KS5HK,"$15,680","$13,798",cptqaer@gmail.com,!Cheil2024,"13,798",No,Book4 Pro,-,No,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,Add to Cart,"13,798",,Z-EF-LPUN6PBEGWW,Z-OTH-M365MTH12HK,Z-SM-A1560ZKGTGY,,,,Z-ITFITEX43,,,,"Z-EF-LPUN6PBEGWW,Z-OTH-M365MTH12HK,Z-SM-A1560ZKGTGY,Z-ITFITEX43",4,"
+Noel,MXS-21,,Failed,,,"Galaxy Book4 Pro 16""/i7/32GB/1TB",NPC,N,NP960XGK-KS5HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960XGK-KS5HK,NP960XGK-KS5HK,"$15,680","$13,798",cptqaer@gmail.com,!Cheil2024,"13,798",No,Book4 Pro,-,No,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,Add to Cart,"13,798",,Z-EF-LPUN6PBEGWW,Z-OTH-M365MTH12HK,Z-SM-A1560ZKGTGY,,,,Z-ITFITEX43,,,,"Z-EF-LPUN6PBEGWW,Z-OTH-M365MTH12HK,Z-SM-A1560ZKGTGY,Z-ITFITEX43",4,"
 ●  1 x  Galaxy Book3 Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
 ●  1 x  Microsoft 365 Personal [Z-OTH-M365MTH12HK]
 ●  1 x  Galaxy A15 5G, Black [Z-SM-A1560ZKGTGY]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,MXS-11,,Failed,,,"Galaxy Book4 Pro 14""/i7/32GB/1TB",NPC,N,NP940XGK-KS3HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP940XGK-KS3HK,NP940XGK-KS3HK,"$14,980","$13,182",cptqaer@gmail.com,!Cheil2024,"13,182",No,Book4 Pro,-,No,Book Tier 3: High (RRP $12000-$14999),-,N/A,,,-,,,,Add to Cart,"13,182",,Z-EF-LPUN4PBEGWW,Z-OTH-M365MTH12HK,Z-SM-A1560ZKGTGY,,,,Z-ITFITEX43,,,,"Z-EF-LPUN4PBEGWW,Z-OTH-M365MTH12HK,Z-SM-A1560ZKGTGY,Z-ITFITEX43",4,"
+Noel,MXS-22,,Failed,,,"Galaxy Book4 Pro 14""/i7/32GB/1TB",NPC,N,NP940XGK-KS3HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP940XGK-KS3HK,NP940XGK-KS3HK,"$14,980","$13,182",cptqaer@gmail.com,!Cheil2024,"13,182",No,Book4 Pro,-,No,Book Tier 3: High (RRP $12000-$14999),-,N/A,,,-,,,,Add to Cart,"13,182",,Z-EF-LPUN4PBEGWW,Z-OTH-M365MTH12HK,Z-SM-A1560ZKGTGY,,,,Z-ITFITEX43,,,,"Z-EF-LPUN4PBEGWW,Z-OTH-M365MTH12HK,Z-SM-A1560ZKGTGY,Z-ITFITEX43",4,"
 ●  1 x  Galaxy Book3 Slim Pouch 14"" [Z-EF-LPUN4PBEGWW]
 ●  1 x  Microsoft 365 Personal [Z-OTH-M365MTH12HK]
 ●  1 x  Galaxy A15 5G, Black [Z-SM-A1560ZKGTGY]
