@@ -1,6 +1,6 @@
 {
   "Name": "TestCaseEPP",
-  "CreationDate": "2024-5-10",
+  "CreationDate": "2024-5-16",
   "Commands": [
     {
       "Command": "store",
@@ -880,7 +880,7 @@
     },
     {
       "Command": "captureScreenshot",
-      "Target": "${TestSite}-${!csvReadLineNumber}-OOS-${SKU}-${DateTimeNow}-${TestResult}.png",
+      "Target": "${TestCat}-${TestSite}-${!csvReadLineNumber}-OOS-${SKU}-${DateTimeNow}-${TestResult}.png",
       "Value": "",
       "Description": ""
     },
@@ -1366,7 +1366,7 @@
     },
     {
       "Command": "captureScreenshot",
-      "Target": "${TestSite}-${!csvReadLineNumber}-OOS-${SKU}-${DateTimeNow}-${TestResult}.png",
+      "Target": "${TestCat}-${TestSite}-${!csvReadLineNumber}-OOS-${SKU}-${DateTimeNow}-${TestResult}.png",
       "Value": "",
       "Description": ""
     },
@@ -1415,6 +1415,42 @@
     {
       "Command": "if_v2",
       "Target": "${TestResult}!=\"OOS (Blocked)\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Open Cart**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${TestSite}==\"SPP\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://shop.samsung.com/hk/multistore/hkedu/hkeducation/cart",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
+      "Target": "${TestSite}==\"EPP\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/cart",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
       "Value": "",
       "Description": ""
     },
@@ -2188,7 +2224,7 @@
     },
     {
       "Command": "captureEntirePageScreenshot",
-      "Target": "${TestSite}-CartPage-${SKU}-${DateTimeNow}-${TestResult}.png",
+      "Target": "${TestCat}-${TestSite}-CartPage-${SKU}-${DateTimeNow}-${TestResult}.png",
       "Value": "",
       "Description": ""
     },
@@ -2356,7 +2392,7 @@
     },
     {
       "Command": "csvSave",
-      "Target": "_Results-${TestSite}-${DateToday}.csv",
+      "Target": "_Results-${TestCat}-${TestSite}-${DateToday}.csv",
       "Value": "",
       "Description": ""
     },
