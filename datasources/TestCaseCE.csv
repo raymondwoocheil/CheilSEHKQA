@@ -7,125 +7,506 @@ Tester,ID,Manual Cart,Manual Checkout,Auto Cart,Auto Checkout,Model,TYPE,BC-Buy,
 
 
 "
-Automated,TU-01,,,,,BESPOKE Bottom Mount Freezer 340L (Panel Not Included),REF,N,RZ24A5470AP/SH,https://www.samsung.com/hk/search/?searchvalue=RZ24A5470AP/SH,RZ24A5470AP/SH,"11,630","11,980",Guest,,11980,Yes,400,400,,,,,,,,,,,Add to Cart,"11,580",,,,,,,,,,,,,0,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-Automated,TU-02,,,,,RT35CG5420S9 SpaceMax™ 2 door Refrigerator 345L,REF,N,RT35CG5420S9SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/rt5300c-top-mount-freezer-spacemax-345l-silver-rt35cg5420s9sh/,RT35CG5420S9SH,"4,990","4,290",Guest,,4290,Yes,50,50,,,,,,,,,,,Add to Cart,"4,240",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-03,,,,,RT31CG5420S9 SpaceMax™ 2 door Refrigerator 301L,REF,N,RT31CG5420S9SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/rt5300c-top-mount-freezer-spacemax-301l-silver-rt31cg5420s9sh/,RT31CG5420S9SH,"4,390","3,790",Guest,,3790,Yes,50,50,,,,,,,,,,,Add to Cart,"3,740",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-04,,,,,RT25M4033S9/SH 2 door Refrigerator 255L Refined Inox,REF,N,RT25M4033S9/SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/255l-refined-inox-rt25m4033s9-sh/,RT25M4033S9/SH,"4,240","3,090",Guest,,3090,Yes,50,50,,,,,,,,,,,Add to Cart,"3,040",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-05,,,,,RT25M4032S8/SH 2 door Refrigerator 255L Elegant Inox,REF,N,RT25M4032S8/SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/255l-elegant-inox-rt25m4032s8-sh/,RT25M4032S8/SH,"4,040","2,990",Guest,,2990,Yes,50,50,,,,,,,,,,,Add to Cart,"2,940",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-06,,,,,RT25M4013S8/SH 2 door Refrigerator 255L Elegant Inox,REF,N,RT25M4013S8/SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/255l-elegant-inox-rt25m4013s8-sh/,RT25M4013S8/SH,"4,040","2,990",Guest,,2990,Yes,50,50,,,,,,,,,,,Add to Cart,"2,940",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-07,,,,,RT22M4033S9/SH 2 door Refrigerator 234L Refined Inox,REF,N,RT22M4033S9/SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/234l-refined-inox-rt22m4033s9-sh/,RT22M4033S9/SH,"3,840","2,890",Guest,,2890,Yes,50,50,,,,,,,,,,,Add to Cart,"2,840",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-08,,,,,RT22M4032S8/SH 2 door Refrigerator 234L Elegant Inox,REF,N,RT22M4032S8/SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/234l-elegant-inox-rt22m4032s8-sh/,RT22M4032S8/SH,"3,690","2,790",Guest,,2790,Yes,50,50,,,,,,,,,,,Add to Cart,"2,740",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-09,,,,,RT22M4013S8/SH 2 door Refrigerator 234L Elegant Inox,REF,N,RT22M4013S8/SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/234l-elegant-inox-rt22m4013s8-sh/,RT22M4013S8/SH,"3,690","2,790",Guest,,2790,Yes,50,50,,,,,,,,,,,Add to Cart,"2,740",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-10,,,,,RT20M3020GS/SH 2 door Refrigerator 203L Grey Silver,REF,N,RT20M3020GS/SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/203l-gray-silver-rt20m3020gs-sh/,RT20M3020GS/SH,"3,140","2,590",Guest,,2590,Yes,50,50,,,,,,,,,,,Add to Cart,"2,540",,,,,,,,,,,,,0,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-Automated,TU-11,,,,,RS64R5337B4/SH Side by Side Refrigerator 617L,REF,N,RS64R5337B4/SH,https://www.samsung.com/hk/refrigerators/side-by-side/617l-gentle-black-matt-rs64r5337b4-sh/,RS64R5337B4/SH,"15,900","15,900",Guest,,15900,Yes,500,500,,,,,,,,,,,Add to Cart,"15,400",,,,,,,,,,,,,0,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-Automated,TU-12,,,,,RS63R5597B4/SH SpaceMax™ Side by Side Refrigerator 630L Black,REF,N,RS63R5597B4/SH,https://www.samsung.com/hk/refrigerators/side-by-side/630l-gentle-black-matt-rs63r5597b4-sh/,RS63R5597B4/SH,"15,500","12,900",Guest,,12900,Yes,400,400,,,,,,,,,,,Add to Cart,"12,500",,,,,,,,,,,,,0,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-Automated,TU-13,,,,,RS62R5007M9 Side By Side Refrigerators 647L,REF,N,RS62R5007M9/SH,https://www.samsung.com/hk/refrigerators/side-by-side/rs5000rc-680l-silver-rs62r5007m9-sh/,RS62R5007M9/SH,"12,990","10,990",Guest,,10990,Yes,400,400,,,,,,,,,,,Add to Cart,"10,590",,,,,,,,,,,,,0,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-Automated,TU-14,,,,,RF48A4000B4 Twin Cooling Plus™ Multi Door Refrigerator 468L,REF,N,RF48A4000B4/SH,https://www.samsung.com/hk/refrigerators/french-door/rf4000tm-468l-black-rf48a4000b4-sh/,RF48A4000B4/SH,"10,990","8,990",Guest,,8990,Yes,300,300,,,,,,,,,,,Add to Cart,"8,690",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-15,,,,,RB34T675FS9/SH SpaceMax™ 2 door Refrigerator 340L,REF,N,RB34T675FS9/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/rb7300t-spacemax-340l-silver-rb34t675fs9-sh/,RB34T675FS9/SH,"7,290","5,790",Guest,,5790,Yes,200,200,,,,,,,,,,,Add to Cart,"5,590",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-16,,,,,RB34T675FB1 SpaceMax™  2 door refrigerator 340L,REF,N,RB34T675FB1/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/rb7300t-spacemax-340l-black-rb34t675fb1-sh/,RB34T675FB1/SH,"7,490","5,490",Guest,,5490,Yes,200,200,,,,,,,,,,,Add to Cart,"5,290",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-17,,,,,RB33R8899SR/SH  SpaceMaxᵀᴹ  2 door Refrigerator 328L Sliver,REF,N,RB33R8899SR/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/328l-real-stainless-rb33r8899sr-sh/,RB33R8899SR/SH,"11,190","11,190",Guest,,11190,Yes,300,300,,,,,,,,,,,Add to Cart,"10,890",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-18,,,,,RB33J3200SA 2 door Refrigerator 328L Metal Graphite,REF,N,RB33J3200SA/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/328l-metal-graphite-rb33j3200sa-sh/,RB33J3200SA/SH,"5,790","4,290",Guest,,4290,Yes,150,150,,,,,,,,,,,Add to Cart,"4,140",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-19,,,,,RB33J3200S9 2 Door Refrigerator 328L,REF,N,RB33J3200S9/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/328l-refined-inox-rb33j3200s9-sh/,RB33J3200S9/SH,"5,790","4,290",Guest,,4290,Yes,150,150,,,,,,,,,,,Add to Cart,"4,140",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-20,,,,,RB30N4180B1/SH 2 door Refrigerator 284L Black Nickel,REF,N,RB30N4180B1/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/284l-black-doi-rb30n4180b1-sh/,RB30N4180B1/SH,"5,590","4,190",Guest,,4190,Yes,50,50,,,,,,,,,,,Add to Cart,"4,140",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-21,,,,,RB30N4050S8/SH 2 door Refrigerator 290L Sliver,REF,N,RB30N4050S8/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/290l-elegant-inox-rb30n4050s8-sh/,RB30N4050S8/SH,"5,190","3,990",Guest,,3990,Yes,50,50,,,,,,,,,,,Add to Cart,"3,940",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-22,,,,,RB30N4050B1/SH 2 door refrigerator 290L Black Nickel,REF,N,RB30N4050B1/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/290l-black-doi-rb30n4050b1-sh/,RB30N4050B1/SH,"5,290","3,790",Guest,,3790,Yes,50,50,,,,,,,,,,,Add to Cart,"3,740",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-23,,,,,RB29FERNCS9 2 door Refrigerator 286L Sliver,REF,N,RB29FERNCS9/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/286l-refined-inox-rb29ferncs9-sh/,RB29FERNCS9/SH,"5,240","4,390",Guest,,4390,Yes,50,50,,,,,,,,,,,Add to Cart,"4,340",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-24,,,,,RB27N4050S8/SH 2 door refrigerator 257L Sliver,REF,N,RB27N4050S8/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/257l-elegant-inox-rb27n4050s8-sh/,RB27N4050S8/SH,"4,890","3,590",Guest,,3590,Yes,50,50,,,,,,,,,,,Add to Cart,"3,540",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-25,,,,,RB27N4050B1/SH 2 door refrigerator 257L Black Nickel,REF,N,RB27N4050B1/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/257l-black-doi-rb27n4050b1-sh/,RB27N4050B1/SH,"4,990","3,690",Guest,,3690,Yes,50,50,,,,,,,,,,,Add to Cart,"3,640",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-26,,,,,1 x  VS20B95993BSH Bespoke Jet Plus 210W  Midnight Blue,VC,N,VS20B95993B/SH,https://www.samsung.com/hk/vacuum-cleaners/stick/bespoke-jet-plus-210w-all-in-one-clean-station-mid-blue-vs20b95993b-sh/,VS20B95993B/SH,"8,990","6,990",Guest,,"6,990",Yes,250,250,,,,,,,,,,,Add to Cart,"6,740",,Z-ITFITAIRKG06SV,Z-VCA-SPW90/VT,Z-VCA-ADB952,Z-VCA-SPA95/GL,,,,,,,"Z-ITFITAIRKG06SV,Z-VCA-SPW90/VT,Z-VCA-ADB952,Z-VCA-SPA95/GL",4,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-27,,,,,1 x  VS20B958F3NSP Bespoke Jet Plus 210W Woody Green,VC,N,VS20B958F3N/SP,https://www.samsung.com/hk/vacuum-cleaners/stick/bespoke-jet-plus-210w-all-in-one-clean-station-mid-green-vs20b958f3n-sp/,VS20B958F3N/SP,"6,990","5,590",Guest,,"5,590",Yes,200,200,,,,,,,,,,,Add to Cart,"5,390",,Z-VCA-TABA95,Z-VCA-ADB952,,,,,,,,,"Z-VCA-TABA95,Z-VCA-ADB952",2,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-28,,,,,1 x  VS20B95843WSH Bespoke Jet Plus 210W Misty White,VC,N,VS20B95843W/SH,https://www.samsung.com/hk/vacuum-cleaners/stick/bespoke-jet-plus-210w-all-in-one-clean-station-mis-white-vs20b95843w-sh/,VS20B95843W/SH,"6,990","5,590",Guest,,"5,590",Yes,200,200,,,,,,,,,,,Add to Cart,"5,390",,Z-VCA-WBA95/GL,Z-VCA-ADB952,,,,,,,,,"Z-VCA-WBA95/GL,Z-VCA-ADB952",2,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-29,,,,,"WW90T654DLE AI Ecobubble™ AI Control Front Load Washing Machine 9kg, 1400rpm",WM,N,WW90T654DLE/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww6500t-front-loading-eco-bubble-ai-control-add-wash-9kg-white-ww90t654dle-sh/,WW90T654DLE/SH,"6,190","4,390",Guest,,4390,Yes,50,50,,,,,,,,,,,Add to Cart,"4,340",,Z-ITFITF16,Z-ITFITEX42,,,,,,,,,"Z-ITFITF16,Z-ITFITEX42",2,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-30,,,,,"WW80T3040BW/SH Slim465 Digital Inverter Front Load Washing Machine 8kg, 1400rpm",WM,N,WW80T3040BW/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww3000tm-digital-inverter-technology-5-0-8kg-white-ww80t3040bw-sh/,WW80T3040BW/SH,"5,290","3,490",Guest,,3490,Yes,50,50,,,,,,,,,,,Add to Cart,"3,440",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-31,,,,,"WW80T3040BS/SH Slim465 Digital Inverter Front Load Washing Machine 8kg, 1400rpm",WM,N,WW80T3040BS/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww3000tm-front-loading-quick-wash-drum-clean-delay-end-8kg-silver-ww80t3040bs-sh/,WW80T3040BS/SH,"5,490","3,590",Guest,,3590,Yes,50,50,,,,,,,,,,,Add to Cart,"3,540",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-32,,,,,"WW80AGAS21AXSH Slim Ecobubble™ Front Load Washing Machine 8kg, 1200rpm",WM,N,WW80AGAS21AXSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww5100a-front-loading-ecobubble-super-speed-aquaprotect-8kg-refined-inox-ww80agas21axsh/,WW80AGAS21AXSH,"5,790","3,890",Guest,,3890,Yes,50,50,,,,,,,,,,,Add to Cart,"3,840",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-33,,,,,"WW80AGAS21AESH Slim Ecobubble™ Front Load Washing Machine 8kg, 1200rpm",WM,N,WW80AGAS21AESH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww5100a-front-loading-ecobubble-super-speed-aquaprotect-8kg-white-ww80agas21aesh/,WW80AGAS21AESH,"5,590","3,790",Guest,,3790,Yes,50,50,,,,,,,,,,,Add to Cart,"3,740",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-34,,,,,"WW80AG6L28BXSH Slim AI Ecobubble™ AI Control Front Load Washing Machine 8kg, 1200 rpm",WM,N,WW80AG6L28BXSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww6100a-front-loading-eco-bubble-ai-control-lagest-capacity-8kg-gray-ww80ag6l28bxsh/,WW80AG6L28BXSH,"6,190","4,390",Guest,,4390,Yes,50,50,,,,,,,,,,,Add to Cart,"4,340",,Z-ITFITEX42,Z-ITFITAC05BE,,,,,,,,,"Z-ITFITEX42,Z-ITFITAC05BE",2,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-35,,,,,"WW70T3020BW/SH Slim440 Digital Inverter Front Load Washing Machine 7kg, 1200rpm",WM,N,WW70T3020BW/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww3000tm-digital-inverter-technology-5-0-7kg-white-ww70t3020bw-sh/,WW70T3020BW/SH,"4,890","3,190",Guest,,3190,Yes,50,50,,,,,,,,,,,Add to Cart,"3,140",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-36,,,,,"WW70T3020BS/SH Slim440 Digital Inverter Front Load Washing Machine 7kg, 1200rpm",WM,N,WW70T3020BS/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww3000tm-front-loading-quick-wash-drum-clean-delay-end-7kg-silver-ww70t3020bs-sh/,WW70T3020BS/SH,"5,090","3,290",Guest,,3290,Yes,50,50,,,,,,,,,,,Add to Cart,"3,240",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-37,,,,,"WW70AG5S21CXSH Slim Ecobubble™ Front Load Washing Machine 7kg, 1200rpm",WM,N,WW70AG5S21CXSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww5100a-front-loading-ecobubble-super-speed-aquaprotect-7kg-refined-inox-ww70ag5s21cxsh/,WW70AG5S21CXSH,"5,490","3,490",Guest,,3490,Yes,50,50,,,,,,,,,,,Add to Cart,"3,440",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-38,,,,,"WW70AG5S21CESH Slim Ecobubble™ Front Load Washing Machine 7kg, 1200rpm",WM,N,WW70AG5S21CESH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww5100a-front-loading-ecobubble-super-speed-aquaprotect-7kg-white-ww70ag5s21cesh/,WW70AG5S21CESH,"5,290","3,390",Guest,,3390,Yes,50,50,,,,,,,,,,,Add to Cart,"3,340",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-39,,,,,"WD80TA546BH AddWash™ Front Load Washing Machine + Dryer Combo 8/6kg, 1400rpm",WM,N,WD80TA546BH/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd5300t-8kg-white-wd80ta546bh-sh/,WD80TA546BH/SH,"5,790","4,790",Guest,,4790,Yes,150,150,,,,,,,,,,,Add to Cart,"4,640",,Z-ITFITF16,Z-ITFITEX42,,,,,,,,,"Z-ITFITF16,Z-ITFITEX42",2,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-40,,,,,"WD80T654DBE AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 8/6kg, 1400rpm",WM,N,WD80T654DBE/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd6500t-front-loading-ai-control-air-wash-bubble-soak-8kg-white-wd80t654dbe-sh/,WD80T654DBE/SH,"7,590","4,990",Guest,,4990,Yes,150,150,,,,,,,,,,,Add to Cart,"4,840",,Z-ITFITF16,Z-ITFITEX42,,,,,,,,,"Z-ITFITF16,Z-ITFITEX42",2,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-41,,,,,"WD70TA046BE/SH Hygiene Steam Front Load Washer + Dryer Combo 7/5kg, 1400rpm",WM,N,WD70TA046BE/SH,https://www.samsung.com/hk/washers-and-dryers/washer-dryer-combo/wd5000t-front-loading-air-wash-drum-clean-bubble-soak-7kg-plus-5kg-white-wd70ta046be-sh/,WD70TA046BE/SH,"6,090","4,290",Guest,,4290,Yes,150,150,,,,,,,,,,,Add to Cart,"4,140",,Z-ITFITF16,Z-ITFITEX42,,,,,,,,,"Z-ITFITF16,Z-ITFITEX42",2,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-42,,,,,"WD70T4046CH Hygiene Steam Front Load Washer + Dryer Combo 7/5kg, 1400rpm",WM,N,WD70T4046CH/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd4000t-front-loading-air-wash-drum-clean-bubble-soak-7kg-white-wd70t4046ch-sh/,WD70T4046CH/SH,"4,690","4,290",Guest,,4290,Yes,150,150,,,,,,,,,,,Add to Cart,"4,140",,Z-ITFITF16,Z-ITFITEX42,,,,,,,,,"Z-ITFITF16,Z-ITFITEX42",2,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-43,,,,,"WD10T754DBH AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 10.5/7kg, 1400rpm",WM,N,WD10T754DBH/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd7500t-front-loading-eco-bubble-quickdrive-ai-control-10-5kg-white-wd10t754dbh-sh/,WD10T754DBH/SH,"7,990","5,590",Guest,,5590,Yes,200,200,,,,,,,,,,,Add to Cart,"5,390",,Z-ITFITF16,Z-ITFITEX42,,,,,,,,,"Z-ITFITF16,Z-ITFITEX42",2,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-44,,,,,WA80CG4545BDSH Ecobubble™ Top Loader without Drain Pump 8kg Versailles Gary,WM,N,WA80CG4545BDSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wa4000c-top-load-ecobubble-digital-inverter-technology-super-speed-8kg-dark-gray-wa80cg4545bdsh/,WA80CG4545BDSH,"4,090","2,790",Guest,,2790,Yes,50,50,,,,,,,,,,,Add to Cart,"2,740",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-45,,,,,WA80C14545BVSH Ecobubble™ Top Loader with Drain Pump 8kg Black Caviar,WM,N,WA80C14545BVSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wa4000c-top-load-ecobubble-digital-inverter-technology-super-speed-8kg-black-caviar-matt-wa80c14545bvsh/,WA80C14545BVSH,"4,290","2,790",Guest,,2790,Yes,50,50,,,,,,,,,,,Add to Cart,"2,740",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-46,,,,,WA10CG4545BDSH Ecobubble™ Top Loader without Drain Pump 10kg Versailles Gary,WM,N,WA10CG4545BDSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wa4000c-top-load-ecobubble-digital-inverter-technology-super-speed-10kg-dark-gray-wa10cg4545bdsh/,WA10CG4545BDSH,"4,690","3,390",Guest,,3390,Yes,50,50,,,,,,,,,,,Add to Cart,"3,340",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-47,,,,,WA10C14545BVSH Ecobubble™ Top Loader with Drain Pump 10kg Black Caviar,WM,N,WA10C14545BVSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wa4000c-top-load-ecobubble-digital-inverter-technology-super-speed-10kg-black-caviar-matt-wa10c14545bvsh/,WA10C14545BVSH,"4,890","3,390",Guest,,3390,Yes,50,50,,,,,,,,,,,Add to Cart,"3,340",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Automated,TU-48,,,,,AI智能魔衣櫥 JetSteam除菌清新,WM,N,DF60A8500CG/SH,https://www.samsung.com/hk/washers-and-dryers/airdresser/df8000nm-silver-mirror-df60a8500cg-sh/,DF60A8500CG/SH,"14,990","10,380",Guest,,10380,Yes,400,400,,,,,,,,,,,Add to Cart,"9,980",,Z-DF-HK,Z-ITFITEX37,,,,,,,,,"Z-DF-HK,Z-ITFITEX37",2,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Kristin,NEW,,,,,"50"" Crystal UHD DU7700",CTV,N,UA50DU7700JXZK,https://www.samsung.com/hk/tvs/uhd-4k-tv/du7000-50-inch-crystal-uhd-4k-tizen-os-smart-tv-ua50du7700jxzk/,UA50DU7700JXZK,"5,480","5,280",,,5280,No,0,0,,,,,,,,,,,Add to Cart,"5,280",,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-Kristin,EU-01,,,,,"98"" Neo QLED 4K QN90D",CTV,N,QA98QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-98-inch-neo-qled-4k-tizen-os-smart-tv-qa98qn90dajxzk/,QA98QN90DAJXZK,"129,980","129,980",Guest,,"129,980",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"127,980",,Z-WMN8000SX/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800B/ZK,,Z-UEFAEURO2024,,,,,"Z-WMN8000SX/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800B/ZK,Z-UEFAEURO2024",5,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Kristin,EU-02,,,,,"85"" Neo QLED 8K QN900D",CTV,N,QA85QN900DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn900d-85-inch-neo-qled-8k-tizen-os-smart-tv-qa85qn900djxzk/,QA85QN900DJXZK,"149,980","119,980",Guest,,119980,Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"117,980",,Z-WMN-B30FB/RU,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK,,,Z-UEFAEURO2024,,,,,"Z-WMN-B30FB/RU,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK,Z-UEFAEURO2024",4,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Kristin,EU-03,,,,,"83"" OLED S90DAE",CTV,N,QA83S90DAEXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-83-inch-oled-4k-tizen-os-smart-tv-qa83s90daexzk/,QA83S90DAEXZK,"85,480","85,480",Guest,,85480,Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"83,480",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-UEFAEURO2024",4,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Kristin,EU-04,,,,,"77"" OLED S95D",CTV,N,QA77S95DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95d-77-inch-oled-4k-tizen-os-smart-tv-qa77s95dajxzk/,QA77S95DAJXZK,"79,480","69,980",Guest,,"69,980",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"67,980",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800B/ZK,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800B/ZK,Z-UEFAEURO2024",5,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Kristin,EU-05,,,,,"77"" OLED S90DAE",CTV,N,QA77S90DAEXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-77-inch-oled-4k-tizen-os-smart-tv-qa77s90daexzk/,QA77S90DAEXZK,"55,480","53,980",Guest,,53980,Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"51,980",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-UEFAEURO2024",4,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,EU-06,,,,,"75"" Neo QLED 8K QN900D",CTV,N,QA75QN900DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn900d-75-inch-neo-qled-8k-tizen-os-smart-tv-qa75qn900djxzk/,QA75QN900DJXZK,"99,980","79,980",Guest,,"79,980",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"77,980",,Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK,,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK,Z-UEFAEURO2024",4,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,EU-07,,,,,"75"" Neo QLED 8K QN800D",CTV,N,QA75QN800DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn800d-75-inch-neo-qled-8k-tizen-os-smart-tv-qa75qn800djxzk/,QA75QN800DJXZK,"85,980","72,980",Guest,,"72,980",Yes,"4,000","4,000",,,,,,,,,,,Add to Cart,"68,980",,Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK,,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK,Z-UEFAEURO2024",4,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,EU-08,,,,,"75"" Lifestyle Frame LS03D",CTV,N,QA75LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-75-inch-black-qa75ls03dajxzk/,QA75LS03DAJXZK,"53,980","49,980",Guest,,49980,Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"47,980",,Z-VG-SCFA75WTBRU,Z-ARTSTORE12MTHS,Z-MOOV24BIT6MONTH,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S801B/ZK,,,,,"Z-VG-SCFA75WTBRU,Z-ARTSTORE12MTHS,Z-MOOV24BIT6MONTH,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S801B/ZK",6,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,EU-09,,,,,"65"" OLED S95D",CTV,N,QA65S95DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95d-65-inch-oled-4k-tizen-os-smart-tv-qa65s95dajxzk/,QA65S95DAJXZK,"36,980","29,980",Guest,,"29,980",Yes,"1,600","1,600",,,,,,,,,,,Add to Cart,"28,380",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800B/ZK,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800B/ZK,Z-UEFAEURO2024",5,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,EU-10,,,,,"65"" OLED S90DA",CTV,N,QA65S90DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-65-inch-oled-4k-tizen-os-smart-tv-qa65s90dajxzk/,QA65S90DAJXZK,"31,480","24,980",Guest,,24980,Yes,"1,200","1,200",,,,,,,,,,,Add to Cart,"23,780",,Z-WMN-B05FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,,,Z-UEFAEURO2024,,,,,"Z-WMN-B05FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-UEFAEURO2024",4,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,EU-11,,,,,"65"" Neo QLED 4K QN95D",CTV,N,QA65QN95DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn95d-65-inch-neo-qled-4k-tizen-os-smart-tv-qa65qn95dajxzk/,QA65QN95DAJXZK,"36,980","29,980",Guest,,"29,980",Yes,"1,500","1,500",,,,,,,,,,,Add to Cart,"28,480",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800B/ZK,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800B/ZK,Z-UEFAEURO2024",5,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,EU-12,,,,,"65"" Neo QLED 8K QN900D",CTV,N,QA65QN900DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn900d-65-inch-neo-qled-8k-tizen-os-smart-tv-qa65qn900djxzk/,QA65QN900DJXZK,"49,980","42,980",Guest,,42980,Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"40,980",,Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,,,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-UEFAEURO2024",3,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,EU-13,,,,,"65"" Neo QLED 4K QN87D",CTV,N,QA65QN87DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn87d-65-inch-neo-qled-4k-tizen-os-smart-tv-qa65qn87dajxzk/,QA65QN87DAJXZK,"27,980","20,980",Guest,,"20,980",Yes,"1,200","1,200",,,,,,,,,,,Add to Cart,"19,780",,Z-WMN-B16FB/XY,,Z-HW-S800B/ZK,,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-HW-S800B/ZK,Z-UEFAEURO2024",3,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,EU-14,,,,,"65"" Neo QLED 8K QN800D",CTV,N,QA65QN800DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn800d-65-inch-neo-qled-8k-tizen-os-smart-tv-qa65qn800djxzk/,QA65QN800DJXZK,"42,980","36,980",Guest,,36980,Yes,"1,800","1,800",,,,,,,,,,,Add to Cart,"35,180",,Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV,,,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV,Z-UEFAEURO2024",3,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,EU-15,,,,,"65"" Lifestyle Frame LS03D",CTV,N,QA65LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-65-inch-black-qa65ls03dajxzk/,QA65LS03DAJXZK,"23,980","19,980",Guest,,"19,980",Yes,"1,000","1,000",,,,,,,,,,,Add to Cart,"18,980",,Z-VG-SCFA65WTB,Z-ARTSTORE12MTHS,Z-MOOV24BIT6MONTH,Z-HW-S801B/ZK,,,,,,,"Z-VG-SCFA65WTB,Z-ARTSTORE12MTHS,Z-MOOV24BIT6MONTH,Z-HW-S801B/ZK",4,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,EU-16,,,,,"55"" OLED S95D",CTV,N,QA55S95DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95d-55-inch-oled-4k-tizen-os-smart-tv-qa55s95dajxzk/,QA55S95DAJXZK,"24,980","20,980",Guest,,20980,Yes,"1,000","1,000",,,,,,,,,,,Add to Cart,"19,980",,Z-WMN-B16FB/XY,Z-HW-S800B/ZK,Z-CESPCOUPONSx10,,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-HW-S800B/ZK,Z-CESPCOUPONSx10,Z-UEFAEURO2024",13,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,EU-17,,,,,"55"" OLED S90DA",CTV,N,QA55S90DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-55-inch-oled-4k-tizen-os-smart-tv-qa55s90dajxzk/,QA55S90DAJXZK,"21,980","17,980",Guest,,17980,Yes,800,800,,,,,,,,,,,Add to Cart,"17,180",,Z-WMN-B05FB/XY,Z-HW-S800B/ZK,Z-CESPCOUPONSx10,,,Z-UEFAEURO2024,,,,,"Z-WMN-B05FB/XY,Z-HW-S800B/ZK,Z-CESPCOUPONSx10,Z-UEFAEURO2024",13,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,EU-18,,,,,"55"" Neo QLED 4K QN95D",CTV,N,QA55QN95DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn95d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn95dajxzk/,QA55QN95DAJXZK,"24,980","20,980",Guest,,"20,980",Yes,"1,000","1,000",,,,,,,,,,,Add to Cart,"19,980",,Z-WMN-B05FB/XY,,Z-HW-S800B/ZK,,,Z-UEFAEURO2024,,,,,"Z-WMN-B05FB/XY,Z-HW-S800B/ZK,Z-UEFAEURO2024",3,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,EU-19,,,,,"55"" Neo QLED 4K QN90D",CTV,N,QA55QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn90dajxzk/,QA55QN90DAJXZK,"21,980","17,980",Guest,,"17,980",Yes,800,800,,,,,,,,,,,Add to Cart,"17,180",,Z-WMN-B16FB/XY,Z-HW-S800B/ZK,Z-CESPCOUPONSx10,,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-HW-S800B/ZK,Z-CESPCOUPONSx10,Z-UEFAEURO2024",13,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,EU-20,,,OOS (Blocked),,"55"" Neo QLED 4K QN87D",CTV,N,QA55QN87DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn87d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn87dajxzk/,QA55QN87DAJXZK,"16,480","14,980",Guest,,"14,980",Yes,700,700,,,,,,,,,,,Add to Cart,"14,280",,Z-WMN-B05FB/XY,,Z-HW-S800B/ZK,Z-CESPCOUPONSx5,,,,,,,"Z-WMN-B05FB/XY,Z-HW-S800B/ZK,Z-CESPCOUPONSx5",7,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,OOS (Blocked),,,OOS (Blocked),,
-Sola,EU-21,,,OOS (Blocked),,"55"" Neo QLED 4K QN85D",CTV,N,QA55QN85DBJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn85d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn85dbjxzk/,QA55QN85DBJXZK,"13,980","12,980",Guest,,"12,980",Yes,600,600,,,,,,,,,,,Add to Cart,"12,380",,Z-WMN-B05FB/XY,,Z-HW-S800B/ZK,Z-CESPCOUPONSx5,,Z-UEFAEURO2024,,,,,"Z-WMN-B05FB/XY,Z-HW-S800B/ZK,Z-CESPCOUPONSx5,Z-UEFAEURO2024",8,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,OOS (Blocked),,,OOS (Blocked),,
-Sola,EU-22,,,,,"55"" Lifestyle Frame LS03D",CTV,N,QA55LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-55-inch-black-qa55ls03dajxzk/,QA55LS03DAJXZK,"15,980","14,980",Guest,,"14,980",Yes,600,600,,,,,,,,,,,Add to Cart,"14,380",,Z-VG-SCFA55WTBRU,Z-ARTSTORE12MTHS,Z-HW-S801B/ZK,,,,,,,,"Z-VG-SCFA55WTBRU,Z-ARTSTORE12MTHS,Z-HW-S801B/ZK",3,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,EU-23,,,,,"50"" Neo QLED 4K QN90D",CTV,N,QA50QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-50-inch-neo-qled-4k-tizen-os-smart-tv-qa50qn90dajxzk/,QA50QN90DAJXZK,"14,980","13,980",Guest,,"13,980",Yes,500,500,,,,,,,,,,,Add to Cart,"13,480",,Z-CESPCOUPONSx5,,,,,Z-UEFAEURO2024,,,,,"Z-CESPCOUPONSx5,Z-UEFAEURO2024",6,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,NEW,,,,,"50"" QLED QE1D",CTV,N,QA50QE1DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qe1d-50-inch-qled-4k-tizen-os-smart-tv-qa50qe1dajxzk/,QA50QE1DAJXZK,"7,480","5,980",,,5980,No,0,0,,,,,,,,,,,Add to Cart,"5,980",,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-Sola,EU-24,,,,,"48"" OLED S90DAE",CTV,N,QA48S90DAEXZK,https://www.samsung.com/hk/tvs/oled-tv/oled-4k-tizen-os-smart-tv-48-inch-qa48s90daexzk/,QA48S90DAEXZK,"13,480","12,480",Guest,,12480,Yes,500,500,,,,,,,,,,,Add to Cart,"11,980",,Z-WMN-B05FB/XY,,,,,Z-UEFAEURO2024,,,,,"Z-WMN-B05FB/XY,Z-UEFAEURO2024",2,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,EU-25,,,,,"43"" Neo QLED 4K QN90D",CTV,N,QA43QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-43-inch-neo-qled-4k-tizen-os-smart-tv-qa43qn90dajxzk/,QA43QN90DAJXZK,"12,490","10,480",Guest,,10480,Yes,100,100,,,,,,,,,,,Add to Cart,"10,380",,,,,,,Z-UEFAEURO2024,,,,,Z-UEFAEURO2024,1,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,NEW,,,,,"43"" QLED Q60D",CTV,N,QA43Q60DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q60d-43-inch-qled-4k-tizen-os-smart-tv-qa43q60dajxzk/,QA43Q60DAJXZK,"6,480","5,980",,,5980,No,0,0,,,,,,,,,,,Add to Cart,"5,980",,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-Sola,EU-26,,,,,S-Series HW-S801D Soundbar,HTS,N,HW-S801D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s801d-white-hw-s801d-zk/,HW-S801D/ZK,"5,390","3,990",,,3990,No,0,0,,,,,,,,,,,Add to Cart,"3,990",,Z-VG-SCFBS8TK/XY,,,,,,,,,,Z-VG-SCFBS8TK/XY,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,EU-27,,,,,S-Series HW-S800D Soundbar,HTS,N,HW-S800D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s800d-black-hw-s800d-zk/,HW-S800D/ZK,"5,390","3,990",Guest,,3990,No,0,0,,,,,,,,,,,Add to Cart,"3,990",,Z-VG-SCFBS8BW/XY,Z-VG-SCFBS8BW/XY,,,,,,,,,"Z-VG-SCFBS8BW/XY,Z-VG-SCFBS8BW/XY",2,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,NEW,,,,,S-Series HW-S701D Soundbar,HTS,N,HW-S701D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s701d-white-hw-s701d-zk/,HW-S701D/ZK,"3,890","3,890",,,3890,No,0,0,,,,,,,,,,,Add to Cart,"3,890",,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-Sola,EU-28,,,,,S-Series HW-LS60D Music Frame,HTS,N,HW-LS60D/ZK,https://www.samsung.com/hk/audio-devices/music-frame/ls60d-black-hw-ls60d-zk/,HW-LS60D/ZK,"3,980","3,980",Guest,,3980,No,0,0,,,,,,,,,,,Add to Cart,"3,980",,Z-MUSICFRAMEPHOTOS,Z-MOOV24BIT6MONTH,,,,,,,,,"Z-MUSICFRAMEPHOTOS,Z-MOOV24BIT6MONTH",2,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,NEW,,,,,B-Series HW-B550 2.1ch Soundbar,HTS,N,HW-B650D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/b650d-black-hw-b650d-zk/,HW-B650D/ZK,"2,290","1,890",,,1890,No,0,0,,,,,,,,,,,Add to Cart,"1,890",,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,,,,"65"" Crystal UHD DU8000",CTV,N,UA65DU8000JXZK,https://www.samsung.com/hk/tvs/uhd-4k-tv/du8000-65-inch-crystal-uhd-4k-tizen-os-smart-tv-ua65du8000jxzk/,UA65DU8000JXZK,"12,980","11,980",Guest,,"11,980",No,0,0,,,,,,,,,,,Add to Cart,"11,980",,Z-UA32T5300AJXZK,,,,,,,,,,Z-UA32T5300AJXZK,1,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,The Freestyle 2nd Gen,CTV,N,SP-LFF3CLAXXZK,https://www.samsung.com/hk/projectors/the-freestyle/lff3c-the-freestyle-2nd-gen-sp-lff3claxxzk/,SP-LFF3CLAXXZK,"6,980","5,980",Guest,,5980,Yes,100,100,,,,,,,,,,,Add to Cart,"5,880",,Z-VG-FBB3BA/XY,Z-ITFITSD05,,,,,,,,,"Z-VG-FBB3BA/XY,Z-ITFITSD05",2,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,"98"" Neo QLED 8K QN990C",CTV,N,QA98QN990CJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn990c-98-inch-neo-qled-8k-smart-tv-qa98qn990cjxzk/,QA98QN990CJXZK,"310,980","279,980",Guest,,279980,Yes,"10,000","10,000",,,,,,,,,,,Add to Cart,"269,980",,Z-WMN8000SX/XY,,,,,,,,,,Z-WMN8000SX/XY,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,"98"" QLED 4K Q80C",CTV,N,QA98Q80CAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q80c-98-inch-qled-4k-smart-tv-qa98q80cajxzk/,QA98Q80CAJXZK,"79,980","79,980",Guest,,79980,Yes,"4,000","4,000",,,,,,,,,,,Add to Cart,"75,980",,Z-WMN8000SX/XY,Z-HW-Q930C/ZK,,,,,,,,,"Z-WMN8000SX/XY,Z-HW-Q930C/ZK",2,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,"77"" OLED 4K S95C",CTV,N,QA77S95CAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95c-77-inch-oled-4k-smart-tv-qa77s95cajxzk/,QA77S95CAJXZK,"64,980","56,980",Guest,,56980,Yes,"3,000","3,000",,,,,,,,,,,Add to Cart,"53,980",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,"75"" QLED Q70D",CTV,N,QA75Q70DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q70d-75-inch-qled-4k-tizen-os-smart-tv-qa75q70dajxzk/,QA75Q70DAJXZK,"30,980","29,980",Guest,,29980,Yes,"1,200","1,200",,,,,,,,,,,Add to Cart,"28,780",,Z-UA32T5300AJXZK,Z-HW-S800B/ZK,,,,,,,,,"Z-UA32T5300AJXZK,Z-HW-S800B/ZK",2,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,"65"" Neo QLED 4K QN85C",CTV,N,QA65QN85CAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn85c-65-inch-neo-qled-4k-smart-tv-qa65qn85cajxzk/,QA65QN85CAJXZK,"26,480","15,980",Guest,,"15,980",Yes,800,800,,,,,,,,,,,Add to Cart,"15,180",,Z-WMN-B16FB/XY,Z-HW-S800B/ZK,,,,,,,,,"Z-WMN-B16FB/XY,Z-HW-S800B/ZK",2,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,"65"" QLED Q70D",CTV,N,QA65Q70DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q70d-65-inch-qled-4k-tizen-os-smart-tv-qa65q70dajxzk/,QA65Q70DAJXZK,"18,980","16,980",Guest,,16980,Yes,800,800,,,,,,,,,,,Add to Cart,"16,180",,Z-UA32T5300AJXZK,Z-HW-C450/ZK,,,,,,,,,"Z-UA32T5300AJXZK,Z-HW-C450/ZK",2,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,"65"" QLED Q60D",CTV,N,QA65Q60DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q60d-65-inch-qled-4k-tizen-os-smart-tv-qa65q60dajxzk/,QA65Q60DAJXZK,"16,480","15,480",Guest,,"15,480",No,0,0,,,,,,,,,,,Add to Cart,"15,480",,Z-UA32T5300AJXZK,Z-HW-C450/ZK,,,,,,,,,"Z-UA32T5300AJXZK,Z-HW-C450/ZK",2,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,"55"" Neo QLED 4K QN90C",CTV,N,QA55QN90CAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90c-55-inch-neo-qled-4k-smart-tv-qa55qn90cajxzk/,QA55QN90CAJXZK,"21,980","12,470",Guest,,"12,470",Yes,700,700,,,,,,,,,,,Add to Cart,"11,770",,Z-WMN-B05FB/XY,Z-HW-Q700C/ZK,,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-Q700C/ZK",2,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,Passed,,"55"" Neo QLED 4K QN85C",CTV,N,QA55QN85CAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn85c-55-inch-neo-qled-4k-smart-tv-qa55qn85cajxzk/,QA55QN85CAJXZK,"16,980","11,850",Guest,,"11,850",Yes,600,600,,,,,,,,,,,Add to Cart,"11,250",,Z-WMN-B05FB/XY,Z-UA32T5300AJXZK,,,,,,,,,"Z-WMN-B05FB/XY,Z-UA32T5300AJXZK",2,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,Passed,,,Passed,,
-,,,,Passed,,"55"" QLED Q70D",CTV,N,QA55Q70DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q70d-55-inch-qled-4k-tizen-os-smart-tv-qa55q70dajxzk/,QA55Q70DAJXZK,"10,980","9,980",Guest,,"9,980",Yes,400,400,,,,,,,,,,,Add to Cart,"9,580",,Z-UA32T5300AJXZK,,,,,,,,,,Z-UA32T5300AJXZK,1,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,Passed,,,Passed,,
-,,,,,,"55"" QLED Q60D",CTV,N,QA55Q60DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q60d-55-inch-qled-4k-tizen-os-smart-tv-qa55q60dajxzk/,QA55Q60DAJXZK,"9,980","8,980",Guest,,8980,No,0,0,,,,,,,,,,,Add to Cart,"8,980",,Z-HW-C450/ZK,,,,,,,,,,Z-HW-C450/ZK,1,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,"50"" QLED Q80D",CTV,N,QA50Q80DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q80d-50-inch-qled-4k-tizen-os-smart-tv-qa50q80dajxzk/,QA50Q80DAJXZK,"9,480","8,480",Guest,,"8,480",Yes,400,400,,,,,,,,,,,Add to Cart,"8,080",,Z-HW-C450/ZK,,,,,,,,,,Z-HW-C450/ZK,1,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,"50"" Lifestyle Frame LS03D",CTV,N,QA50LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-50-inch-black-qa50ls03dajxzk/,QA50LS03DAJXZK,"12,980","11,980",Guest,,"11,980",Yes,500,500,,,,,,,,,,,Add to Cart,"11,480",,Z-VG-SCFA50WTBRU,Z-ARTSTORE6MTHS,,,,,,,,,"Z-VG-SCFA50WTBRU,Z-ARTSTORE6MTHS",2,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,50” The Frame LS03B,CTV,N,QA50LS03BAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03b-50-inch-the-frame-qled-4k-smart-tv-black-qa50ls03bajxzk/,QA50LS03BAJXZK,"12,980","9,980",Guest,,"9,980",Yes,500,500,,,,,,,,,,,Add to Cart,"9,480",,Z-VG-SCFC50SGMXY,Z-HW-S61B/ZK,Z-ARTSTORE6MTHS,,,,,,,,"Z-VG-SCFC50SGMXY,Z-HW-S61B/ZK,Z-ARTSTORE6MTHS",3,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,"43"" Neo QLED 4K QN90C",CTV,N,QA43QN90CAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90c-43-inch-neo-qled-4k-smart-tv-qa43qn90cajxzk/,QA43QN90CAJXZK,"10,980","6,980",Guest,,6980,Yes,100,100,,,,,,,,,,,Add to Cart,"6,880",,Z-HW-C450/ZK,,,,,,,,,,Z-HW-C450/ZK,1,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,"43"" The Sero LS05B 白色",CTV,N,QA43LS05BBJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-sero/ls05bb-43-inch-the-sero-qled-4k-smart-tv-white-qa43ls05bbjxzk/,QA43LS05BBJXZK,"12,980","12,980",Guest,,12980,Yes,100,100,,,,,,,,,,,Add to Cart,"12,880",,Z-VG-SCST43V/ZK,,,,,,,,,,Z-VG-SCST43V/ZK,1,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,"43"" The Sero LS05B",CTV,N,QA43LS05BAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-sero/ls05b-43-inch-the-sero-qled-4k-smart-tv-navy-blue-qa43ls05bajxzk/,QA43LS05BAJXZK,"12,980","12,980",Guest,,12980,Yes,100,100,,,,,,,,,,,Add to Cart,"12,880",,Z-VG-SCST43V/ZK,,,,,,,,,,Z-VG-SCST43V/ZK,1,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,"43"" Lifestyle Frame LS03D",CTV,N,QA43LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-43-inch-black-qa43ls03dajxzk/,QA43LS03DAJXZK,"9,980","9,980",Guest,,9980,Yes,100,100,,,,,,,,,,,Add to Cart,"9,880",,Z-VG-SCFA43WTBRU,Z-ARTSTORE6MTHS,,,,,,,,,"Z-VG-SCFA43WTBRU,Z-ARTSTORE6MTHS",2,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,43” The Frame LS03B,CTV,N,QA43LS03BAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03b-43-inch-the-frame-qled-4k-smart-tv-black-qa43ls03bajxzk/,QA43LS03BAJXZK,"11,980","7,980",Guest,,7980,Yes,100,100,,,,,,,,,,,Add to Cart,"7,880",,Z-VG-SCFC43SGMXY,Z-HW-S61B/ZK,Z-ARTSTORE6MTHS,,,,,,,,"Z-VG-SCFC43SGMXY,Z-HW-S61B/ZK,Z-ARTSTORE6MTHS",3,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,"43"" Lifestyle Serif LS01D",CTV,N,QA43LS01DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-serif/ls01d-43-inch-white-qa43ls01dajxzk/,QA43LS01DAJXZK,"9,980","9,980",Guest,,9980,Yes,100,100,,,,,,,,,,,Add to Cart,"9,880",,,,,,,,,,,,,0,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,,,,"32"" The Frame LS03C",CTV,N,QA32LS03CBJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/32ls03c-32-inch-the-frame-qled-smart-tv-black-qa32ls03cbjxzk/,QA32LS03CBJXZK,"5,980","5,980",Guest,,5980,Yes,100,100,,,,,,,,,,,Add to Cart,"5,880",,Z-VG-SCFC32SGMXY,Z-ARTSTORE6MTHS,,,,,,,,,"Z-VG-SCFC32SGMXY,Z-ARTSTORE6MTHS",2,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,Ultra Slim Soundbar Skin (Teak),HTS,N,VG-SCFBS8TK/XY,https://www.samsung.com/hk/audio-accessories/vg-scfbs8-vg-scfbs8tk-xy/,VG-SCFBS8TK/XY,790,,Guest,,790,No,0,0,,,,,,,,,,,Add to Cart,790,,,,,,,,,,,,,0,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,,,,Ultra Slim Soundbar Skin (Brown),HTS,N,VG-SCFBS8BW/XY,https://www.samsung.com/hk/audio-accessories/vg-scfbs8-vg-scfbs8bw-xy/,VG-SCFBS8BW/XY,790,,Guest,,790,No,0,0,,,,,,,,,,,Add to Cart,790,,,,,,,,,,,,,0,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,,,,S-Series HW-S700D Soundbar,HTS,N,HW-S700D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s700d-black-hw-s700d-zk/,HW-S700D/ZK,"3,890","3,890",Guest,,3890,No,0,0,,,,,,,,,,,Add to Cart,"3,890",,,,,,,,,,,,,0,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,,,,S-Series HW-S61D Soundbar,HTS,N,HW-S61D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s61d-white-hw-s61d-zk/,HW-S61D/ZK,"2,990","2,590",,,2590,No,0,0,,,,,,,,,,,Add to Cart,"2,590",,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,,,,S-Series HW-S61D Soundbar,HTS,N,HW-S61D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s61d-white-hw-s61d-zk/,HW-S61D/ZK,"2,990","2,590",,,2590,No,0,0,,,,,,,,,,,Add to Cart,"2,590",,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,,,,Q-series Soundbar HW-Q990D,HTS,N,HW-Q990D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/q990d-black-hw-q990d-zk/,HW-Q990D/ZK,"11,490","10,490",Guest,,"10,490",No,0,0,,,,,,,,,,,Add to Cart,"10,490",,Z-ITFITEX32,,,,,,,,,,Z-ITFITEX32,1,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,Q-series Soundbar HW-Q930D,HTS,N,HW-Q930D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/q930d-black-hw-q930d-zk/,HW-Q930D/ZK,"8,490","7,990",Guest,,7990,No,0,0,,,,,,,,,,,Add to Cart,"7,990",,Z-ITFITEX32,,,,,,,,,,Z-ITFITEX32,1,,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,Q-series Soundbar HW-Q800D,HTS,N,HW-Q800D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/q800d-black-hw-q800d-zk/,HW-Q800D/ZK,"5,390","5,390",Guest,,5390,No,0,0,,,,,,,,,,,Add to Cart,"5,390",,,,,,,,,,,,,0,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,,,,Q-series Soundbar HW-Q700D,HTS,N,HW-Q700D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/q700d-black-hw-q700d-zk/,HW-Q700D/ZK,"4,590","4,590",Guest,,4590,No,0,0,,,,,,,,,,,Add to Cart,"4,590",,,,,,,,,,,,,0,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,,,,"55"" Odyssey Ark 2<sup>nd</sup> Gen Curved Gaming Monitor (165Hz)",MON,N,LS55CG970NCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-ark-2nd-gen-g97nc-55-inch-165hz-1ms-curved-uhd-4k-ls55cg970ncxxk/,LS55CG970NCXXK,"25,800","25,800",Guest,,25800,Yes,"1,200","1,200",,,,,,,,,,,Add to Cart,"24,600",,Z-LS28AG700NCXXK,,,,,,,,,,Z-LS28AG700NCXXK,1,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,"49"" Odyssey G9 OLED Curved Gaming Monitor (240Hz)",MON,N,LS49CG954SCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-oled-g9-g95sc-49-inch-240hz-curved-dual-qhd-ls49cg954scxxk/,LS49CG954SCXXK,"16,980","16,980",Guest,,16980,Yes,800,800,,,,,,,,,,,Add to Cart,"16,180",,Z-LS27A700NWCXXK,,,,,,,,,,Z-LS27A700NWCXXK,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,"34"" Odyssey G8 OLED Curved Gaming Monitor (175Hz)",MON,N,LS34BG850SCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-oled-g8-g85sb-34-inch-175hz-curved-ultra-wqhd-ls34bg850scxxk/,LS34BG850SCXXK,"11,980","8,380",Guest,,8380,Yes,400,400,,,,,,,,,,,Add to Cart,"7,980",,Z-STEAMPASS200x3,,,,,,,,,,Z-STEAMPASS200x3,#VALUE!,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,#VALUE!,,,,,,,
-,,,,,,32” Odyssey Neo G8 Mini-LED Curved Gaming Monitor (240Hz),MON,N,LS32BG850NCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-neo-g8-g85nb-32-inch-ls32bg850ncxxk/,LS32BG850NCXXK,"10,980","6,480",Guest,,6480,Yes,300,300,,,,,,,,,,,Add to Cart,"6,180",,Z-ITFITPW16BK,,,,,,,,,,Z-ITFITPW16BK,1,,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,"32"" A700 UHD 4K Monitor",MON,N,LS32A700NWCXXK,https://www.samsung.com/hk/monitors/high-resolution/s70a-32-32-inch-uhd-4k-ls32a700nwcxxk/,LS32A700NWCXXK,"2,980","2,580",Guest,,2580,Yes,20,20,,,,,,,,,,,Add to Cart,"2,560",,Z-ITFITPW16BK,,,,,,,,,,Z-ITFITPW16BK,1,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,34” Odyssey G5 Curved Gaming Monitor (165Hz),MON,N,LC34G55TWWCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-g5-34-inch-165hz-curved-ultra-wqhd-lc34g55twwcxxk/,LC34G55TWWCXXK,"3,680","2,999",Guest,,2999,Yes,20,20,,,,,,,,,,,Add to Cart,"2,979",,Z-STEAMPASS200,,,,,,,,,,Z-STEAMPASS200,1,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,1 x  VS20C852FTBSHJet85 Stick VC Midnight Blue,VC,N,VS20C852FTB/SH,https://www.samsung.com/hk/vacuum-cleaners/stick/vs9500al-stick-more-advance-cleaning-performance-hexajet-motor-jet-cyclone-blue-vs20c852ftb-sh/,VS20C852FTB/SH,"4,990","3,990",Guest,,"3,990",No,0,0,,,,,,,,,,,Add to Cart,"3,990",,Z-VCA-TABA95,Z-ITFITSD01,,,,,,,,,"Z-VCA-TABA95,Z-ITFITSD01",2,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,1 x  VS20C852CTNSH Jet85 Stick VC Woody Green1,VC,N,VS20C852CTN/SH,https://www.samsung.com/hk/vacuum-cleaners/stick/vs9500al-stick-more-advance-cleaning-performance-hexajet-motor-jet-cyclone-green-vs20c852ctn-sh/,VS20C852CTN/SH,"4,590","3,490",Guest,,3490,No,0,0,,,,,,,,,,,Add to Cart,"3,490",,Z-VCA-TABA95,Z-ITFITSD01,,,,,,,,,"Z-VCA-TABA95,Z-ITFITSD01",2,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,,,,,VC,N,VCA-SBTA95/VT,https://www.samsung.com/hk/home-appliance-accessories/bespoke-jet-battery-vca-sbta95-vt/,VCA-SBTA95/VT,"1,090",903,Guest,,903,No,0,0,,,,,,,,,,,Add to Cart,903,,,,,,,,,,,,,0,,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+Automated,TU-48,,,,,AI智能魔衣櫥 JetSteam除菌清新,WM,N,DF60A8500CG/SH,https://www.samsung.com/hk/washers-and-dryers/airdresser/df8000nm-silver-mirror-df60a8500cg-sh/,DF60A8500CG/SH,"14,990","10,380",Guest,,10380,Yes,400,400,,,,,,,,,,,Add to Cart,"9,980",,Z-DF-HK,Z-ITFITEX37,,,,,,,,,"Z-DF-HK,Z-ITFITEX37",2,"
+●  1 x  AirDresser Regular Hanger Kit (hand 3 shirts) [Z-DF-HK]
+●  1 x  ITFIT Rechargeable Electric Toothbrush [Z-ITFITEX37]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-47,,,,,WA10C14545BVSH Ecobubble™ Top Loader with Drain Pump 10kg Black Caviar,WM,N,WA10C14545BVSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wa4000c-top-load-ecobubble-digital-inverter-technology-super-speed-10kg-black-caviar-matt-wa10c14545bvsh/,WA10C14545BVSH,"4,890","3,390",Guest,,3390,Yes,50,50,,,,,,,,,,,Add to Cart,"3,340",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket [Z-ITFITAC05BE]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-46,,,,,WA10CG4545BDSH Ecobubble™ Top Loader without Drain Pump 10kg Versailles Gary,WM,N,WA10CG4545BDSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wa4000c-top-load-ecobubble-digital-inverter-technology-super-speed-10kg-dark-gray-wa10cg4545bdsh/,WA10CG4545BDSH,"4,690","3,390",Guest,,3390,Yes,50,50,,,,,,,,,,,Add to Cart,"3,340",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket [Z-ITFITAC05BE]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-45,,,,,WA80C14545BVSH Ecobubble™ Top Loader with Drain Pump 8kg Black Caviar,WM,N,WA80C14545BVSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wa4000c-top-load-ecobubble-digital-inverter-technology-super-speed-8kg-black-caviar-matt-wa80c14545bvsh/,WA80C14545BVSH,"4,290","2,790",Guest,,2790,Yes,50,50,,,,,,,,,,,Add to Cart,"2,740",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket [Z-ITFITAC05BE]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-44,,,,,WA80CG4545BDSH Ecobubble™ Top Loader without Drain Pump 8kg Versailles Gary,WM,N,WA80CG4545BDSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wa4000c-top-load-ecobubble-digital-inverter-technology-super-speed-8kg-dark-gray-wa80cg4545bdsh/,WA80CG4545BDSH,"4,090","2,790",Guest,,2790,Yes,50,50,,,,,,,,,,,Add to Cart,"2,740",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket [Z-ITFITAC05BE]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-43,,,,,"WD10T754DBH AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 10.5/7kg, 1400rpm",WM,N,WD10T754DBH/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd7500t-front-loading-eco-bubble-quickdrive-ai-control-10-5kg-white-wd10t754dbh-sh/,WD10T754DBH/SH,"7,990","5,590",Guest,,5590,Yes,200,200,,,,,,,,,,,Add to Cart,"5,390",,Z-ITFITF16,Z-ITFITEX42,,,,,,,,,"Z-ITFITF16,Z-ITFITEX42",2,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-42,,,,,"WD70T4046CH Hygiene Steam Front Load Washer + Dryer Combo 7/5kg, 1400rpm",WM,N,WD70T4046CH/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd4000t-front-loading-air-wash-drum-clean-bubble-soak-7kg-white-wd70t4046ch-sh/,WD70T4046CH/SH,"4,690","4,290",Guest,,4290,Yes,150,150,,,,,,,,,,,Add to Cart,"4,140",,Z-ITFITF16,Z-ITFITEX42,,,,,,,,,"Z-ITFITF16,Z-ITFITEX42",2,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-41,,,,,"WD70TA046BE/SH Hygiene Steam Front Load Washer + Dryer Combo 7/5kg, 1400rpm",WM,N,WD70TA046BE/SH,https://www.samsung.com/hk/washers-and-dryers/washer-dryer-combo/wd5000t-front-loading-air-wash-drum-clean-bubble-soak-7kg-plus-5kg-white-wd70ta046be-sh/,WD70TA046BE/SH,"6,090","4,290",Guest,,4290,Yes,150,150,,,,,,,,,,,Add to Cart,"4,140",,Z-ITFITF16,Z-ITFITEX42,,,,,,,,,"Z-ITFITF16,Z-ITFITEX42",2,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-40,,,,,"WD80T654DBE AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 8/6kg, 1400rpm",WM,N,WD80T654DBE/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd6500t-front-loading-ai-control-air-wash-bubble-soak-8kg-white-wd80t654dbe-sh/,WD80T654DBE/SH,"7,590","4,990",Guest,,4990,Yes,150,150,,,,,,,,,,,Add to Cart,"4,840",,Z-ITFITF16,Z-ITFITEX42,,,,,,,,,"Z-ITFITF16,Z-ITFITEX42",2,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-39,,,,,"WD80TA546BH AddWash™ Front Load Washing Machine + Dryer Combo 8/6kg, 1400rpm",WM,N,WD80TA546BH/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd5300t-8kg-white-wd80ta546bh-sh/,WD80TA546BH/SH,"5,790","4,790",Guest,,4790,Yes,150,150,,,,,,,,,,,Add to Cart,"4,640",,Z-ITFITF16,Z-ITFITEX42,,,,,,,,,"Z-ITFITF16,Z-ITFITEX42",2,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-38,,,,,"WW70AG5S21CESH Slim Ecobubble™ Front Load Washing Machine 7kg, 1200rpm",WM,N,WW70AG5S21CESH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww5100a-front-loading-ecobubble-super-speed-aquaprotect-7kg-white-ww70ag5s21cesh/,WW70AG5S21CESH,"5,290","3,390",Guest,,3390,Yes,50,50,,,,,,,,,,,Add to Cart,"3,340",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket [Z-ITFITAC05BE]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-37,,,,,"WW70AG5S21CXSH Slim Ecobubble™ Front Load Washing Machine 7kg, 1200rpm",WM,N,WW70AG5S21CXSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww5100a-front-loading-ecobubble-super-speed-aquaprotect-7kg-refined-inox-ww70ag5s21cxsh/,WW70AG5S21CXSH,"5,490","3,490",Guest,,3490,Yes,50,50,,,,,,,,,,,Add to Cart,"3,440",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket [Z-ITFITAC05BE]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-36,,,,,"WW70T3020BS/SH Slim440 Digital Inverter Front Load Washing Machine 7kg, 1200rpm",WM,N,WW70T3020BS/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww3000tm-front-loading-quick-wash-drum-clean-delay-end-7kg-silver-ww70t3020bs-sh/,WW70T3020BS/SH,"5,090","3,290",Guest,,3290,Yes,50,50,,,,,,,,,,,Add to Cart,"3,240",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket [Z-ITFITAC05BE]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-35,,,,,"WW70T3020BW/SH Slim440 Digital Inverter Front Load Washing Machine 7kg, 1200rpm",WM,N,WW70T3020BW/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww3000tm-digital-inverter-technology-5-0-7kg-white-ww70t3020bw-sh/,WW70T3020BW/SH,"4,890","3,190",Guest,,3190,Yes,50,50,,,,,,,,,,,Add to Cart,"3,140",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket [Z-ITFITAC05BE]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-34,,,,,"WW80AG6L28BXSH Slim AI Ecobubble™ AI Control Front Load Washing Machine 8kg, 1200 rpm",WM,N,WW80AG6L28BXSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww6100a-front-loading-eco-bubble-ai-control-lagest-capacity-8kg-gray-ww80ag6l28bxsh/,WW80AG6L28BXSH,"6,190","4,390",Guest,,4390,Yes,50,50,,,,,,,,,,,Add to Cart,"4,340",,Z-ITFITEX42,Z-ITFITAC05BE,,,,,,,,,"Z-ITFITEX42,Z-ITFITAC05BE",2,"
+●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+●  1 x  ITFIT Multi-functional Laundry Basket [Z-ITFITAC05BE]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-33,,,,,"WW80AGAS21AESH Slim Ecobubble™ Front Load Washing Machine 8kg, 1200rpm",WM,N,WW80AGAS21AESH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww5100a-front-loading-ecobubble-super-speed-aquaprotect-8kg-white-ww80agas21aesh/,WW80AGAS21AESH,"5,590","3,790",Guest,,3790,Yes,50,50,,,,,,,,,,,Add to Cart,"3,740",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket [Z-ITFITAC05BE]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-32,,,,,"WW80AGAS21AXSH Slim Ecobubble™ Front Load Washing Machine 8kg, 1200rpm",WM,N,WW80AGAS21AXSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww5100a-front-loading-ecobubble-super-speed-aquaprotect-8kg-refined-inox-ww80agas21axsh/,WW80AGAS21AXSH,"5,790","3,890",Guest,,3890,Yes,50,50,,,,,,,,,,,Add to Cart,"3,840",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket [Z-ITFITAC05BE]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-31,,,,,"WW80T3040BS/SH Slim465 Digital Inverter Front Load Washing Machine 8kg, 1400rpm",WM,N,WW80T3040BS/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww3000tm-front-loading-quick-wash-drum-clean-delay-end-8kg-silver-ww80t3040bs-sh/,WW80T3040BS/SH,"5,490","3,590",Guest,,3590,Yes,50,50,,,,,,,,,,,Add to Cart,"3,540",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket [Z-ITFITAC05BE]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-30,,,,,"WW80T3040BW/SH Slim465 Digital Inverter Front Load Washing Machine 8kg, 1400rpm",WM,N,WW80T3040BW/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww3000tm-digital-inverter-technology-5-0-8kg-white-ww80t3040bw-sh/,WW80T3040BW/SH,"5,290","3,490",Guest,,3490,Yes,50,50,,,,,,,,,,,Add to Cart,"3,440",,Z-ITFITAC05BE,,,,,,,,,,Z-ITFITAC05BE,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket [Z-ITFITAC05BE]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-29,,,,,"WW90T654DLE AI Ecobubble™ AI Control Front Load Washing Machine 9kg, 1400rpm",WM,N,WW90T654DLE/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww6500t-front-loading-eco-bubble-ai-control-add-wash-9kg-white-ww90t654dle-sh/,WW90T654DLE/SH,"6,190","4,390",Guest,,4390,Yes,50,50,,,,,,,,,,,Add to Cart,"4,340",,Z-ITFITF16,Z-ITFITEX42,,,,,,,,,"Z-ITFITF16,Z-ITFITEX42",2,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-28,,,,,1 x  VS20B95843WSH Bespoke Jet Plus 210W Misty White,VC,N,VS20B95843W/SH,https://www.samsung.com/hk/vacuum-cleaners/stick/bespoke-jet-plus-210w-all-in-one-clean-station-mis-white-vs20b95843w-sh/,VS20B95843W/SH,"6,990","5,590",Guest,,"5,590",Yes,200,200,,,,,,,,,,,Add to Cart,"5,390",,Z-VCA-WBA95/GL,Z-VCA-ADB952,,,,,,,,,"Z-VCA-WBA95/GL,Z-VCA-ADB952",2,"
+●  1 x  BESPOKE Jet™ Spray Spinning Sweeper™ [Z-VCA-WBA95/GL]
+●  1 x  BESPOKE Jet™ Clean Station Antibacterial Dust Bag (5ea) [Z-VCA-ADB952]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-27,,,,,1 x  VS20B958F3NSP Bespoke Jet Plus 210W Woody Green,VC,N,VS20B958F3N/SP,https://www.samsung.com/hk/vacuum-cleaners/stick/bespoke-jet-plus-210w-all-in-one-clean-station-mid-green-vs20b958f3n-sp/,VS20B958F3N/SP,"6,990","5,590",Guest,,"5,590",Yes,200,200,,,,,,,,,,,Add to Cart,"5,390",,Z-VCA-TABA95,Z-VCA-ADB952,,,,,,,,,"Z-VCA-TABA95,Z-VCA-ADB952",2,"
+●  1 x  BESPOKE Jet Jet Dual Brush [Z-VCA-TABA95]
+●  1 x  BESPOKE Jet™ Clean Station Antibacterial Dust Bag (5ea) [Z-VCA-ADB952]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-26,,,,,1 x  VS20B95993BSH Bespoke Jet Plus 210W  Midnight Blue,VC,N,VS20B95993B/SH,https://www.samsung.com/hk/vacuum-cleaners/stick/bespoke-jet-plus-210w-all-in-one-clean-station-mid-blue-vs20b95993b-sh/,VS20B95993B/SH,"8,990","6,990",Guest,,"6,990",Yes,250,250,,,,,,,,,,,Add to Cart,"6,740",,Z-ITFITAIRKG06SV,Z-VCA-SPW90/VT,Z-VCA-ADB952,Z-VCA-SPA95/GL,,,,,,,"Z-ITFITAIRKG06SV,Z-VCA-SPW90/VT,Z-VCA-ADB952,Z-VCA-SPA95/GL",4,"
+●  1 x  ITFIT 4 in 1 Air Purifier [Z-ITFITAIRKG06SV]
+●  1 x  Jet™ Microfiber Pad (4ea) [Z-VCA-SPW90/VT]
+●  1 x  BESPOKE Jet™ Clean Station Antibacterial Dust Bag (5ea) [Z-VCA-ADB952]
+●  1 x  BESPOKE Jet™ Sweeper Disposable Wet Pads [Z-VCA-SPA95/GL]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-25,,,,,RB27N4050B1/SH 2 door refrigerator 257L Black Nickel,REF,N,RB27N4050B1/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/257l-black-doi-rb27n4050b1-sh/,RB27N4050B1/SH,"4,990","3,690",Guest,,3690,Yes,50,50,,,,,,,,,,,Add to Cart,"3,640",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-24,,,,,RB27N4050S8/SH 2 door refrigerator 257L Sliver,REF,N,RB27N4050S8/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/257l-elegant-inox-rb27n4050s8-sh/,RB27N4050S8/SH,"4,890","3,590",Guest,,3590,Yes,50,50,,,,,,,,,,,Add to Cart,"3,540",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-23,,,,,RB29FERNCS9 2 door Refrigerator 286L Sliver,REF,N,RB29FERNCS9/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/286l-refined-inox-rb29ferncs9-sh/,RB29FERNCS9/SH,"5,240","4,390",Guest,,4390,Yes,50,50,,,,,,,,,,,Add to Cart,"4,340",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-22,,,,,RB30N4050B1/SH 2 door refrigerator 290L Black Nickel,REF,N,RB30N4050B1/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/290l-black-doi-rb30n4050b1-sh/,RB30N4050B1/SH,"5,290","3,790",Guest,,3790,Yes,50,50,,,,,,,,,,,Add to Cart,"3,740",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-21,,,,,RB30N4050S8/SH 2 door Refrigerator 290L Sliver,REF,N,RB30N4050S8/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/290l-elegant-inox-rb30n4050s8-sh/,RB30N4050S8/SH,"5,190","3,990",Guest,,3990,Yes,50,50,,,,,,,,,,,Add to Cart,"3,940",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-20,,,,,RB30N4180B1/SH 2 door Refrigerator 284L Black Nickel,REF,N,RB30N4180B1/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/284l-black-doi-rb30n4180b1-sh/,RB30N4180B1/SH,"5,590","4,190",Guest,,4190,Yes,50,50,,,,,,,,,,,Add to Cart,"4,140",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-19,,,,,RB33J3200S9 2 Door Refrigerator 328L,REF,N,RB33J3200S9/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/328l-refined-inox-rb33j3200s9-sh/,RB33J3200S9/SH,"5,790","4,290",Guest,,4290,Yes,150,150,,,,,,,,,,,Add to Cart,"4,140",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-18,,,,,RB33J3200SA 2 door Refrigerator 328L Metal Graphite,REF,N,RB33J3200SA/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/328l-metal-graphite-rb33j3200sa-sh/,RB33J3200SA/SH,"5,790","4,290",Guest,,4290,Yes,150,150,,,,,,,,,,,Add to Cart,"4,140",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-17,,,,,RB33R8899SR/SH  SpaceMaxᵀᴹ  2 door Refrigerator 328L Sliver,REF,N,RB33R8899SR/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/328l-real-stainless-rb33r8899sr-sh/,RB33R8899SR/SH,"11,190","11,190",Guest,,11190,Yes,300,300,,,,,,,,,,,Add to Cart,"10,890",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-16,,,,,RB34T675FB1 SpaceMax™  2 door refrigerator 340L,REF,N,RB34T675FB1/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/rb7300t-spacemax-340l-black-rb34t675fb1-sh/,RB34T675FB1/SH,"7,490","5,490",Guest,,5490,Yes,200,200,,,,,,,,,,,Add to Cart,"5,290",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-15,,,,,RB34T675FS9/SH SpaceMax™ 2 door Refrigerator 340L,REF,N,RB34T675FS9/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/rb7300t-spacemax-340l-silver-rb34t675fs9-sh/,RB34T675FS9/SH,"7,290","5,790",Guest,,5790,Yes,200,200,,,,,,,,,,,Add to Cart,"5,590",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-14,,,,,RF48A4000B4 Twin Cooling Plus™ Multi Door Refrigerator 468L,REF,N,RF48A4000B4/SH,https://www.samsung.com/hk/refrigerators/french-door/rf4000tm-468l-black-rf48a4000b4-sh/,RF48A4000B4/SH,"10,990","8,990",Guest,,8990,Yes,300,300,,,,,,,,,,,Add to Cart,"8,690",,Z-ITFITF16,,,,,,,,,,Z-ITFITF16,1,"
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-13,,,,,RS62R5007M9 Side By Side Refrigerators 647L,REF,N,RS62R5007M9/SH,https://www.samsung.com/hk/refrigerators/side-by-side/rs5000rc-680l-silver-rs62r5007m9-sh/,RS62R5007M9/SH,"12,990","10,990",Guest,,10990,Yes,400,400,,,,,,,,,,,Add to Cart,"10,590",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+Automated,TU-12,,,,,RS63R5597B4/SH SpaceMax™ Side by Side Refrigerator 630L Black,REF,N,RS63R5597B4/SH,https://www.samsung.com/hk/refrigerators/side-by-side/630l-gentle-black-matt-rs63r5597b4-sh/,RS63R5597B4/SH,"15,500","12,900",Guest,,12900,Yes,400,400,,,,,,,,,,,Add to Cart,"12,500",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+Automated,TU-11,,,,,RS64R5337B4/SH Side by Side Refrigerator 617L,REF,N,RS64R5337B4/SH,https://www.samsung.com/hk/refrigerators/side-by-side/617l-gentle-black-matt-rs64r5337b4-sh/,RS64R5337B4/SH,"15,900","15,900",Guest,,15900,Yes,500,500,,,,,,,,,,,Add to Cart,"15,400",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+Automated,TU-10,,,,,RT20M3020GS/SH 2 door Refrigerator 203L Grey Silver,REF,N,RT20M3020GS/SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/203l-gray-silver-rt20m3020gs-sh/,RT20M3020GS/SH,"3,140","2,590",Guest,,2590,Yes,50,50,,,,,,,,,,,Add to Cart,"2,540",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+Automated,TU-09,,,,,RT22M4013S8/SH 2 door Refrigerator 234L Elegant Inox,REF,N,RT22M4013S8/SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/234l-elegant-inox-rt22m4013s8-sh/,RT22M4013S8/SH,"3,690","2,790",Guest,,2790,Yes,50,50,,,,,,,,,,,Add to Cart,"2,740",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,"
+●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-08,,,,,RT22M4032S8/SH 2 door Refrigerator 234L Elegant Inox,REF,N,RT22M4032S8/SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/234l-elegant-inox-rt22m4032s8-sh/,RT22M4032S8/SH,"3,690","2,790",Guest,,2790,Yes,50,50,,,,,,,,,,,Add to Cart,"2,740",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,"
+●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-07,,,,,RT22M4033S9/SH 2 door Refrigerator 234L Refined Inox,REF,N,RT22M4033S9/SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/234l-refined-inox-rt22m4033s9-sh/,RT22M4033S9/SH,"3,840","2,890",Guest,,2890,Yes,50,50,,,,,,,,,,,Add to Cart,"2,840",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,"
+●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-06,,,,,RT25M4013S8/SH 2 door Refrigerator 255L Elegant Inox,REF,N,RT25M4013S8/SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/255l-elegant-inox-rt25m4013s8-sh/,RT25M4013S8/SH,"4,040","2,990",Guest,,2990,Yes,50,50,,,,,,,,,,,Add to Cart,"2,940",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,"
+●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-05,,,,,RT25M4032S8/SH 2 door Refrigerator 255L Elegant Inox,REF,N,RT25M4032S8/SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/255l-elegant-inox-rt25m4032s8-sh/,RT25M4032S8/SH,"4,040","2,990",Guest,,2990,Yes,50,50,,,,,,,,,,,Add to Cart,"2,940",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,"
+●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-04,,,,,RT25M4033S9/SH 2 door Refrigerator 255L Refined Inox,REF,N,RT25M4033S9/SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/255l-refined-inox-rt25m4033s9-sh/,RT25M4033S9/SH,"4,240","3,090",Guest,,3090,Yes,50,50,,,,,,,,,,,Add to Cart,"3,040",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,"
+●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-03,,,,,RT31CG5420S9 SpaceMax™ 2 door Refrigerator 301L,REF,N,RT31CG5420S9SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/rt5300c-top-mount-freezer-spacemax-301l-silver-rt31cg5420s9sh/,RT31CG5420S9SH,"4,390","3,790",Guest,,3790,Yes,50,50,,,,,,,,,,,Add to Cart,"3,740",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,"
+●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-02,,,,,RT35CG5420S9 SpaceMax™ 2 door Refrigerator 345L,REF,N,RT35CG5420S9SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/rt5300c-top-mount-freezer-spacemax-345l-silver-rt35cg5420s9sh/,RT35CG5420S9SH,"4,990","4,290",Guest,,4290,Yes,50,50,,,,,,,,,,,Add to Cart,"4,240",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,"
+●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Automated,TU-01,,,,,BESPOKE Bottom Mount Freezer 340L (Panel Not Included),REF,N,RZ24A5470AP/SH,https://www.samsung.com/hk/search/?searchvalue=RZ24A5470AP/SH,RZ24A5470AP/SH,"11,630","11,980",Guest,,11980,Yes,400,400,,,,,,,,,,,Add to Cart,"11,580",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+Kristin,NEW,,,,,"50"" Crystal UHD DU7700",CTV,N,UA50DU7700JXZK,https://www.samsung.com/hk/tvs/uhd-4k-tv/du7000-50-inch-crystal-uhd-4k-tizen-os-smart-tv-ua50du7700jxzk/,UA50DU7700JXZK,"5,480","5,280",,,5280,No,0,0,,,,,,,,,,,Add to Cart,"5,280",,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+Sola,NEW,,,,,"50"" QLED QE1D",CTV,N,QA50QE1DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qe1d-50-inch-qled-4k-tizen-os-smart-tv-qa50qe1dajxzk/,QA50QE1DAJXZK,"7,480","5,980",,,5980,No,0,0,,,,,,,,,,,Add to Cart,"5,980",,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+Sola,NEW,,,,,"43"" QLED Q60D",CTV,N,QA43Q60DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q60d-43-inch-qled-4k-tizen-os-smart-tv-qa43q60dajxzk/,QA43Q60DAJXZK,"6,480","5,980",,,5980,No,0,0,,,,,,,,,,,Add to Cart,"5,980",,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+Sola,NEW,,,,,S-Series HW-S701D Soundbar,HTS,N,HW-S701D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s701d-white-hw-s701d-zk/,HW-S701D/ZK,"3,890","3,890",,,3890,No,0,0,,,,,,,,,,,Add to Cart,"3,890",,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+Sola,NEW,,,,,B-Series HW-B550 2.1ch Soundbar,HTS,N,HW-B650D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/b650d-black-hw-b650d-zk/,HW-B650D/ZK,"2,290","1,890",,,1890,No,0,0,,,,,,,,,,,Add to Cart,"1,890",,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+Sola,EU-28,,,,,S-Series HW-LS60D Music Frame,HTS,N,HW-LS60D/ZK,https://www.samsung.com/hk/audio-devices/music-frame/ls60d-black-hw-ls60d-zk/,HW-LS60D/ZK,"3,980","3,980",Guest,,3980,No,0,0,,,,,,,,,,,Add to Cart,"3,980",,Z-MUSICFRAMEPHOTOS,Z-MOOV24BIT6MONTH,,,,,,,,,"Z-MUSICFRAMEPHOTOS,Z-MOOV24BIT6MONTH",2,"
+●  1 x  Music Frame Photo Prints (5 set) [Z-MUSICFRAMEPHOTOS]
+●  1 x  MOOV 6-month [Z-MOOV24BIT6MONTH]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-27,,,,,S-Series HW-S800D Soundbar,HTS,N,HW-S800D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s800d-black-hw-s800d-zk/,HW-S800D/ZK,"5,390","3,990",Guest,,3990,No,0,0,,,,,,,,,,,Add to Cart,"3,990",,Z-VG-SCFBS8BW/XY,Z-VG-SCFBS8BW/XY,,,,,,,,,"Z-VG-SCFBS8BW/XY,Z-VG-SCFBS8BW/XY",2,"
+●  1 x  Ultra Slim Soundbar Skin (Brown) [Z-VG-SCFBS8BW/XY]
+●  1 x  Ultra Slim Soundbar Skin (Brown) [Z-VG-SCFBS8BW/XY]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-26,,,,,S-Series HW-S801D Soundbar,HTS,N,HW-S801D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s801d-white-hw-s801d-zk/,HW-S801D/ZK,"5,390","3,990",,,3990,No,0,0,,,,,,,,,,,Add to Cart,"3,990",,Z-VG-SCFBS8TK/XY,,,,,,,,,,Z-VG-SCFBS8TK/XY,1,"
+●  1 x  HW-S800/801 Ultra Slim Soundbar Skin (Teak) [Z-VG-SCFBS8TK/XY]
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-25,,,,,"43"" Neo QLED 4K QN90D",CTV,N,QA43QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-43-inch-neo-qled-4k-tizen-os-smart-tv-qa43qn90dajxzk/,QA43QN90DAJXZK,"12,490","10,480",Guest,,10480,Yes,100,100,,,,,,,,,,,Add to Cart,"10,380",,,,,,,Z-UEFAEURO2024,,,,,Z-UEFAEURO2024,1,"
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-24,,,,,"48"" OLED S90DAE",CTV,N,QA48S90DAEXZK,https://www.samsung.com/hk/tvs/oled-tv/oled-4k-tizen-os-smart-tv-48-inch-qa48s90daexzk/,QA48S90DAEXZK,"13,480","12,480",Guest,,12480,Yes,500,500,,,,,,,,,,,Add to Cart,"11,980",,Z-WMN-B05FB/XY,,,,,Z-UEFAEURO2024,,,,,"Z-WMN-B05FB/XY,Z-UEFAEURO2024",2,"
+●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-23,,,,,"50"" Neo QLED 4K QN90D",CTV,N,QA50QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-50-inch-neo-qled-4k-tizen-os-smart-tv-qa50qn90dajxzk/,QA50QN90DAJXZK,"14,980","13,980",Guest,,"13,980",Yes,500,500,,,,,,,,,,,Add to Cart,"13,480",,,,,,,Z-UEFAEURO2024,,,,,Z-UEFAEURO2024,1,"
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-22,,,,,"55"" Lifestyle Frame LS03D",CTV,N,QA55LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-55-inch-black-qa55ls03dajxzk/,QA55LS03DAJXZK,"15,980","14,980",Guest,,"14,980",Yes,600,600,,,,,,,,,,,Add to Cart,"14,380",,Z-VG-SCFA55WTBRU,Z-ARTSTORE12MTHS,Z-HW-S801B/ZK,,,,,,,,"Z-VG-SCFA55WTBRU,Z-ARTSTORE12MTHS,Z-HW-S801B/ZK",3,"
+●  1 x  55"" The Frame Modern type White Bezel [Z-VG-SCFA55WTBRU]
+●  1 x  Art Store 12 months [Z-ARTSTORE12MTHS]
+●  1 x  S-Series HW-S801B 3.1.2ch Soundbar [Z-HW-S801B/ZK]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-21,,,OOS (Blocked),,"55"" Neo QLED 4K QN85D",CTV,N,QA55QN85DBJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn85d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn85dbjxzk/,QA55QN85DBJXZK,"13,980","12,980",Guest,,"12,980",Yes,600,600,,,,,,,,,,,Add to Cart,"12,380",,Z-WMN-B05FB/XY,,Z-HW-S800B/ZK,,,Z-UEFAEURO2024,,,,,"Z-WMN-B05FB/XY,Z-HW-S800B/ZK,Z-UEFAEURO2024",3,"
+●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
+●  1 x  S-Series HW-S800B 3.1.2ch Soundbar [Z-HW-S800B/ZK]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,OOS (Blocked),,,OOS (Blocked),,
+Sola,EU-20,,,OOS (Blocked),,"55"" Neo QLED 4K QN87D",CTV,N,QA55QN87DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn87d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn87dajxzk/,QA55QN87DAJXZK,"16,480","14,980",Guest,,"14,980",Yes,700,700,,,,,,,,,,,Add to Cart,"14,280",,Z-WMN-B05FB/XY,,Z-HW-S800B/ZK,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-S800B/ZK",2,"
+●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
+●  1 x  S-Series HW-S800B 3.1.2ch Soundbar [Z-HW-S800B/ZK]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,OOS (Blocked),,,OOS (Blocked),,
+Sola,EU-19,,,,,"55"" Neo QLED 4K QN90D",CTV,N,QA55QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn90dajxzk/,QA55QN90DAJXZK,"21,980","17,980",Guest,,"17,980",Yes,800,800,,,,,,,,,,,Add to Cart,"17,180",,Z-WMN-B16FB/XY,Z-HW-S800B/ZK,,,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-HW-S800B/ZK,Z-UEFAEURO2024",3,"
+●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  S-Series HW-S800B 3.1.2ch Soundbar [Z-HW-S800B/ZK]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-18,,,,,"55"" Neo QLED 4K QN95D",CTV,N,QA55QN95DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn95d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn95dajxzk/,QA55QN95DAJXZK,"24,980","20,980",Guest,,"20,980",Yes,"1,000","1,000",,,,,,,,,,,Add to Cart,"19,980",,Z-WMN-B05FB/XY,,Z-HW-S800B/ZK,,,Z-UEFAEURO2024,,,,,"Z-WMN-B05FB/XY,Z-HW-S800B/ZK,Z-UEFAEURO2024",3,"
+●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
+●  1 x  S-Series HW-S800B 3.1.2ch Soundbar [Z-HW-S800B/ZK]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-17,,,,,"55"" OLED S90DA",CTV,N,QA55S90DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-55-inch-oled-4k-tizen-os-smart-tv-qa55s90dajxzk/,QA55S90DAJXZK,"21,980","17,980",Guest,,17980,Yes,800,800,,,,,,,,,,,Add to Cart,"17,180",,Z-WMN-B05FB/XY,Z-HW-S800B/ZK,,,,Z-UEFAEURO2024,,,,,"Z-WMN-B05FB/XY,Z-HW-S800B/ZK,Z-UEFAEURO2024",3,"
+●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
+●  1 x  S-Series HW-S800B 3.1.2ch Soundbar [Z-HW-S800B/ZK]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-16,,,,,"55"" OLED S95D",CTV,N,QA55S95DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95d-55-inch-oled-4k-tizen-os-smart-tv-qa55s95dajxzk/,QA55S95DAJXZK,"24,980","20,980",Guest,,20980,Yes,"1,000","1,000",,,,,,,,,,,Add to Cart,"19,980",,Z-WMN-B16FB/XY,Z-HW-S800B/ZK,,,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-HW-S800B/ZK,Z-UEFAEURO2024",3,"
+●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  S-Series HW-S800B 3.1.2ch Soundbar [Z-HW-S800B/ZK]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-15,,,,,"65"" Lifestyle Frame LS03D",CTV,N,QA65LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-65-inch-black-qa65ls03dajxzk/,QA65LS03DAJXZK,"23,980","19,980",Guest,,"19,980",Yes,"1,000","1,000",,,,,,,,,,,Add to Cart,"18,980",,Z-VG-SCFA65WTB,Z-ARTSTORE12MTHS,Z-MOOV24BIT6MONTH,Z-HW-S801B/ZK,,,,,,,"Z-VG-SCFA65WTB,Z-ARTSTORE12MTHS,Z-MOOV24BIT6MONTH,Z-HW-S801B/ZK",4,"
+●  1 x  65"" The Frame Modern type White Bezel [Z-VG-SCFA65WTB]
+●  1 x  Art Store 12 months [Z-ARTSTORE12MTHS]
+●  1 x  MOOV 6-month [Z-MOOV24BIT6MONTH]
+●  1 x  S-Series HW-S801B 3.1.2ch Soundbar [Z-HW-S801B/ZK]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-14,,,,,"65"" Neo QLED 8K QN800D",CTV,N,QA65QN800DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn800d-65-inch-neo-qled-8k-tizen-os-smart-tv-qa65qn800djxzk/,QA65QN800DJXZK,"42,980","36,980",Guest,,36980,Yes,"1,800","1,800",,,,,,,,,,,Add to Cart,"35,180",,Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV,,,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV,Z-UEFAEURO2024",3,"
+●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  Galaxy S24+, 256GB, Onyx Black [Z-SM-S9260ZKDT-CTV]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-13,,,,,"65"" Neo QLED 4K QN87D",CTV,N,QA65QN87DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn87d-65-inch-neo-qled-4k-tizen-os-smart-tv-qa65qn87dajxzk/,QA65QN87DAJXZK,"27,980","20,980",Guest,,"20,980",Yes,"1,200","1,200",,,,,,,,,,,Add to Cart,"19,780",,Z-WMN-B16FB/XY,,Z-HW-S800B/ZK,,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-HW-S800B/ZK,Z-UEFAEURO2024",3,"
+●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  S-Series HW-S800B 3.1.2ch Soundbar [Z-HW-S800B/ZK]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-12,,,,,"65"" Neo QLED 8K QN900D",CTV,N,QA65QN900DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn900d-65-inch-neo-qled-8k-tizen-os-smart-tv-qa65qn900djxzk/,QA65QN900DJXZK,"49,980","42,980",Guest,,42980,Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"40,980",,Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,,,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-UEFAEURO2024",3,"
+●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  Galaxy S24 Ultra, 256GB, Titanium Gray [Z-SM-S9280ZTGT-CTV]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-11,,,,,"65"" Neo QLED 4K QN95D",CTV,N,QA65QN95DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn95d-65-inch-neo-qled-4k-tizen-os-smart-tv-qa65qn95dajxzk/,QA65QN95DAJXZK,"36,980","29,980",Guest,,"29,980",Yes,"1,500","1,500",,,,,,,,,,,Add to Cart,"28,480",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800B/ZK,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800B/ZK,Z-UEFAEURO2024",5,"
+●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
+●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
+●  1 x  S-Series HW-S800B 3.1.2ch Soundbar [Z-HW-S800B/ZK]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-10,,,,,"65"" OLED S90DA",CTV,N,QA65S90DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-65-inch-oled-4k-tizen-os-smart-tv-qa65s90dajxzk/,QA65S90DAJXZK,"31,480","24,980",Guest,,24980,Yes,"1,200","1,200",,,,,,,,,,,Add to Cart,"23,780",,Z-WMN-B05FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,,,Z-UEFAEURO2024,,,,,"Z-WMN-B05FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-UEFAEURO2024",4,"
+●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
+●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
+●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-09,,,,,"65"" OLED S95D",CTV,N,QA65S95DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95d-65-inch-oled-4k-tizen-os-smart-tv-qa65s95dajxzk/,QA65S95DAJXZK,"36,980","29,980",Guest,,"29,980",Yes,"1,600","1,600",,,,,,,,,,,Add to Cart,"28,380",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800B/ZK,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800B/ZK,Z-UEFAEURO2024",5,"
+●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
+●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
+●  1 x  S-Series HW-S800B 3.1.2ch Soundbar [Z-HW-S800B/ZK]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-08,,,,,"75"" Lifestyle Frame LS03D",CTV,N,QA75LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-75-inch-black-qa75ls03dajxzk/,QA75LS03DAJXZK,"53,980","49,980",Guest,,49980,Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"47,980",,Z-VG-SCFA75WTBRU,Z-ARTSTORE12MTHS,Z-MOOV24BIT6MONTH,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S801B/ZK,,,,,"Z-VG-SCFA75WTBRU,Z-ARTSTORE12MTHS,Z-MOOV24BIT6MONTH,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S801B/ZK",6,"
+●  1 x  75"" The Frame Modern type White Bezel [Z-VG-SCFA75WTBRU]
+●  1 x  Art Store 12 months [Z-ARTSTORE12MTHS]
+●  1 x  MOOV 6-month [Z-MOOV24BIT6MONTH]
+●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
+●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
+●  1 x  S-Series HW-S801B 3.1.2ch Soundbar [Z-HW-S801B/ZK]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-07,,,,,"75"" Neo QLED 8K QN800D",CTV,N,QA75QN800DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn800d-75-inch-neo-qled-8k-tizen-os-smart-tv-qa75qn800djxzk/,QA75QN800DJXZK,"85,980","72,980",Guest,,"72,980",Yes,"4,000","4,000",,,,,,,,,,,Add to Cart,"68,980",,Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK,,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK,Z-UEFAEURO2024",4,"
+●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  Galaxy S24 Ultra, 256GB, Titanium Gray [Z-SM-S9280ZTGT-CTV]
+●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,EU-06,,,,,"75"" Neo QLED 8K QN900D",CTV,N,QA75QN900DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn900d-75-inch-neo-qled-8k-tizen-os-smart-tv-qa75qn900djxzk/,QA75QN900DJXZK,"99,980","79,980",Guest,,"79,980",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"77,980",,Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK,,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK,Z-UEFAEURO2024",4,"
+●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  Galaxy S24 Ultra, 256GB, Titanium Gray [Z-SM-S9280ZTGT-CTV]
+●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Kristin,EU-05,,,,,"77"" OLED S90DAE",CTV,N,QA77S90DAEXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-77-inch-oled-4k-tizen-os-smart-tv-qa77s90daexzk/,QA77S90DAEXZK,"55,480","53,980",Guest,,53980,Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"51,980",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-UEFAEURO2024",4,"
+●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
+●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Kristin,EU-04,,,,,"77"" OLED S95D",CTV,N,QA77S95DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95d-77-inch-oled-4k-tizen-os-smart-tv-qa77s95dajxzk/,QA77S95DAJXZK,"79,480","69,980",Guest,,"69,980",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"67,980",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800B/ZK,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800B/ZK,Z-UEFAEURO2024",5,"
+●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
+●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
+●  1 x  S-Series HW-S800B 3.1.2ch Soundbar [Z-HW-S800B/ZK]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Kristin,EU-03,,,,,"83"" OLED S90DAE",CTV,N,QA83S90DAEXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-83-inch-oled-4k-tizen-os-smart-tv-qa83s90daexzk/,QA83S90DAEXZK,"85,480","85,480",Guest,,85480,Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"83,480",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,,,Z-UEFAEURO2024,,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-UEFAEURO2024",4,"
+●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
+●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Kristin,EU-02,,,,,"85"" Neo QLED 8K QN900D",CTV,N,QA85QN900DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn900d-85-inch-neo-qled-8k-tizen-os-smart-tv-qa85qn900djxzk/,QA85QN900DJXZK,"149,980","119,980",Guest,,119980,Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"117,980",,Z-WMN-B30FB/RU,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK,,,Z-UEFAEURO2024,,,,,"Z-WMN-B30FB/RU,Z-SM-S9280ZTGT-CTV,Z-HW-Q930D/ZK,Z-UEFAEURO2024",4,"
+●  1 x  Full Motion Slim Fit TV Wallmount with installation [Z-WMN-B30FB/RU]
+●  1 x  Galaxy S24 Ultra, 256GB, Titanium Gray [Z-SM-S9280ZTGT-CTV]
+●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Kristin,EU-01,,,,,"98"" Neo QLED 4K QN90D",CTV,N,QA98QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-98-inch-neo-qled-4k-tizen-os-smart-tv-qa98qn90dajxzk/,QA98QN90DAJXZK,"129,980","129,980",Guest,,"129,980",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"127,980",,Z-WMN8000SX/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800B/ZK,,Z-UEFAEURO2024,,,,,"Z-WMN8000SX/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800B/ZK,Z-UEFAEURO2024",5,"
+●  1 x  TV Wall mount (WMN8000SX) [Z-WMN8000SX/XY]
+●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
+●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
+●  1 x  S-Series HW-S800B 3.1.2ch Soundbar [Z-HW-S800B/ZK]
+●  1 x  Now TV Mega European Football Competition 2024 Event Pass [Z-UEFAEURO2024]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"65"" Crystal UHD DU8000",CTV,N,UA65DU8000JXZK,https://www.samsung.com/hk/tvs/uhd-4k-tv/du8000-65-inch-crystal-uhd-4k-tizen-os-smart-tv-ua65du8000jxzk/,UA65DU8000JXZK,"12,980","11,980",Guest,,"11,980",No,0,0,,,,,,,,,,,Add to Cart,"11,980",,Z-UA32T5300AJXZK,,,,,,,,,,Z-UA32T5300AJXZK,1,"
+●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,The Freestyle 2nd Gen,CTV,N,SP-LFF3CLAXXZK,https://www.samsung.com/hk/projectors/the-freestyle/lff3c-the-freestyle-2nd-gen-sp-lff3claxxzk/,SP-LFF3CLAXXZK,"6,980","5,980",Guest,,5980,Yes,100,100,,,,,,,,,,,Add to Cart,"5,880",,Z-VG-FBB3BA/XY,Z-ITFITSD05,,,,,,,,,"Z-VG-FBB3BA/XY,Z-ITFITSD05",2,"
+●  1 x  The Freestyle Battery Base [Z-VG-FBB3BA/XY]
+●  1 x  Freestyle Projector Stand [Z-ITFITSD05]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"98"" Neo QLED 8K QN990C",CTV,N,QA98QN990CJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn990c-98-inch-neo-qled-8k-smart-tv-qa98qn990cjxzk/,QA98QN990CJXZK,"310,980","279,980",Guest,,279980,Yes,"10,000","10,000",,,,,,,,,,,Add to Cart,"269,980",,Z-WMN8000SX/XY,,,,,,,,,,Z-WMN8000SX/XY,1,"
+●  1 x  TV Wall mount (WMN8000SX) [Z-WMN8000SX/XY]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"98"" QLED 4K Q80C",CTV,N,QA98Q80CAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q80c-98-inch-qled-4k-smart-tv-qa98q80cajxzk/,QA98Q80CAJXZK,"79,980","79,980",Guest,,79980,Yes,"4,000","4,000",,,,,,,,,,,Add to Cart,"75,980",,Z-WMN8000SX/XY,Z-HW-Q930C/ZK,,,,,,,,,"Z-WMN8000SX/XY,Z-HW-Q930C/ZK",2,"
+●  1 x  TV Wall mount (WMN8000SX) [Z-WMN8000SX/XY]
+●  1 x  Q-series HW-Q930C 9.1.4ch Soundbar [Z-HW-Q930C/ZK]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"77"" OLED 4K S95C",CTV,N,QA77S95CAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95c-77-inch-oled-4k-smart-tv-qa77s95cajxzk/,QA77S95CAJXZK,"64,980","56,980",Guest,,56980,Yes,"3,000","3,000",,,,,,,,,,,Add to Cart,"53,980",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
+●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"75"" QLED Q70D",CTV,N,QA75Q70DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q70d-75-inch-qled-4k-tizen-os-smart-tv-qa75q70dajxzk/,QA75Q70DAJXZK,"30,980","29,980",Guest,,29980,Yes,"1,200","1,200",,,,,,,,,,,Add to Cart,"28,780",,Z-UA32T5300AJXZK,Z-HW-S800B/ZK,,,,,,,,,"Z-UA32T5300AJXZK,Z-HW-S800B/ZK",2,"
+●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
+●  1 x  S-Series HW-S800B 3.1.2ch Soundbar [Z-HW-S800B/ZK]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"65"" Neo QLED 4K QN85C",CTV,N,QA65QN85CAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn85c-65-inch-neo-qled-4k-smart-tv-qa65qn85cajxzk/,QA65QN85CAJXZK,"26,480","15,980",Guest,,"15,980",Yes,800,800,,,,,,,,,,,Add to Cart,"15,180",,Z-WMN-B16FB/XY,Z-HW-S800B/ZK,,,,,,,,,"Z-WMN-B16FB/XY,Z-HW-S800B/ZK",2,"
+●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  S-Series HW-S800B 3.1.2ch Soundbar [Z-HW-S800B/ZK]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"65"" QLED Q70D",CTV,N,QA65Q70DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q70d-65-inch-qled-4k-tizen-os-smart-tv-qa65q70dajxzk/,QA65Q70DAJXZK,"18,980","16,980",Guest,,16980,Yes,800,800,,,,,,,,,,,Add to Cart,"16,180",,Z-UA32T5300AJXZK,Z-HW-C450/ZK,,,,,,,,,"Z-UA32T5300AJXZK,Z-HW-C450/ZK",2,"
+●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
+●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"65"" QLED Q60D",CTV,N,QA65Q60DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q60d-65-inch-qled-4k-tizen-os-smart-tv-qa65q60dajxzk/,QA65Q60DAJXZK,"16,480","15,480",Guest,,"15,480",No,0,0,,,,,,,,,,,Add to Cart,"15,480",,Z-UA32T5300AJXZK,Z-HW-C450/ZK,,,,,,,,,"Z-UA32T5300AJXZK,Z-HW-C450/ZK",2,"
+●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
+●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"55"" Neo QLED 4K QN90C",CTV,N,QA55QN90CAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90c-55-inch-neo-qled-4k-smart-tv-qa55qn90cajxzk/,QA55QN90CAJXZK,"21,980","12,470",Guest,,"12,470",Yes,700,700,,,,,,,,,,,Add to Cart,"11,770",,Z-WMN-B05FB/XY,Z-HW-Q700C/ZK,,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-Q700C/ZK",2,"
+●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
+●  1 x  Q-series HW-Q700C 3.1.2ch Soundbar [Z-HW-Q700C/ZK]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,Passed,,"55"" Neo QLED 4K QN85C",CTV,N,QA55QN85CAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn85c-55-inch-neo-qled-4k-smart-tv-qa55qn85cajxzk/,QA55QN85CAJXZK,"16,980","11,850",Guest,,"11,850",Yes,600,600,,,,,,,,,,,Add to Cart,"11,250",,Z-WMN-B05FB/XY,Z-UA32T5300AJXZK,,,,,,,,,"Z-WMN-B05FB/XY,Z-UA32T5300AJXZK",2,"
+●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
+●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,Passed,,,Passed,,
+,,,,Passed,,"55"" QLED Q70D",CTV,N,QA55Q70DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q70d-55-inch-qled-4k-tizen-os-smart-tv-qa55q70dajxzk/,QA55Q70DAJXZK,"10,980","9,980",Guest,,"9,980",Yes,400,400,,,,,,,,,,,Add to Cart,"9,580",,Z-UA32T5300AJXZK,,,,,,,,,,Z-UA32T5300AJXZK,1,"
+●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,Passed,,,Passed,,
+,,,,,,"55"" QLED Q60D",CTV,N,QA55Q60DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q60d-55-inch-qled-4k-tizen-os-smart-tv-qa55q60dajxzk/,QA55Q60DAJXZK,"9,980","8,980",Guest,,8980,No,0,0,,,,,,,,,,,Add to Cart,"8,980",,Z-HW-C450/ZK,,,,,,,,,,Z-HW-C450/ZK,1,"
+●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"50"" QLED Q80D",CTV,N,QA50Q80DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q80d-50-inch-qled-4k-tizen-os-smart-tv-qa50q80dajxzk/,QA50Q80DAJXZK,"9,480","8,480",Guest,,"8,480",Yes,400,400,,,,,,,,,,,Add to Cart,"8,080",,Z-HW-C450/ZK,,,,,,,,,,Z-HW-C450/ZK,1,"
+●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"50"" Lifestyle Frame LS03D",CTV,N,QA50LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-50-inch-black-qa50ls03dajxzk/,QA50LS03DAJXZK,"12,980","11,980",Guest,,"11,980",Yes,500,500,,,,,,,,,,,Add to Cart,"11,480",,Z-VG-SCFA50WTBRU,Z-ARTSTORE6MTHS,,,,,,,,,"Z-VG-SCFA50WTBRU,Z-ARTSTORE6MTHS",2,"
+●  1 x  50"" The Frame Modern type White Bezel [Z-VG-SCFA50WTBRU]
+●  1 x  Free 6-months Art Store subscription [Z-ARTSTORE6MTHS]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,50” The Frame LS03B,CTV,N,QA50LS03BAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03b-50-inch-the-frame-qled-4k-smart-tv-black-qa50ls03bajxzk/,QA50LS03BAJXZK,"12,980","9,980",Guest,,"9,980",Yes,500,500,,,,,,,,,,,Add to Cart,"9,480",,Z-VG-SCFC50SGMXY,Z-HW-S61B/ZK,Z-ARTSTORE6MTHS,,,,,,,,"Z-VG-SCFC50SGMXY,Z-HW-S61B/ZK,Z-ARTSTORE6MTHS",3,"
+●  1 x  50"" The Frame Beveled Sand Gold Bezel [Z-VG-SCFC50SGMXY]
+●  1 x  S-Series HW-S61B 5ch Soundbar White [Z-HW-S61B/ZK]
+●  1 x  Free 6-months Art Store subscription [Z-ARTSTORE6MTHS]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"43"" Neo QLED 4K QN90C",CTV,N,QA43QN90CAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90c-43-inch-neo-qled-4k-smart-tv-qa43qn90cajxzk/,QA43QN90CAJXZK,"10,980","6,980",Guest,,6980,Yes,100,100,,,,,,,,,,,Add to Cart,"6,880",,Z-HW-C450/ZK,,,,,,,,,,Z-HW-C450/ZK,1,"
+●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"43"" The Sero LS05B 白色",CTV,N,QA43LS05BBJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-sero/ls05bb-43-inch-the-sero-qled-4k-smart-tv-white-qa43ls05bbjxzk/,QA43LS05BBJXZK,"12,980","12,980",Guest,,12980,Yes,100,100,,,,,,,,,,,Add to Cart,"12,880",,Z-VG-SCST43V/ZK,,,,,,,,,,Z-VG-SCST43V/ZK,1,"
+●  1 x  The Sero Wheel VG-SCST43V [Z-VG-SCST43V/ZK]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"43"" The Sero LS05B",CTV,N,QA43LS05BAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-sero/ls05b-43-inch-the-sero-qled-4k-smart-tv-navy-blue-qa43ls05bajxzk/,QA43LS05BAJXZK,"12,980","12,980",Guest,,12980,Yes,100,100,,,,,,,,,,,Add to Cart,"12,880",,Z-VG-SCST43V/ZK,,,,,,,,,,Z-VG-SCST43V/ZK,1,"
+●  1 x  The Sero Wheel VG-SCST43V [Z-VG-SCST43V/ZK]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"43"" Lifestyle Frame LS03D",CTV,N,QA43LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-43-inch-black-qa43ls03dajxzk/,QA43LS03DAJXZK,"9,980","9,980",Guest,,9980,Yes,100,100,,,,,,,,,,,Add to Cart,"9,880",,Z-VG-SCFA43WTBRU,Z-ARTSTORE6MTHS,,,,,,,,,"Z-VG-SCFA43WTBRU,Z-ARTSTORE6MTHS",2,"
+●  1 x  43"" The Frame Modern type White Bezel [Z-VG-SCFA43WTBRU]
+●  1 x  Free 6-months Art Store subscription [Z-ARTSTORE6MTHS]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,43” The Frame LS03B,CTV,N,QA43LS03BAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03b-43-inch-the-frame-qled-4k-smart-tv-black-qa43ls03bajxzk/,QA43LS03BAJXZK,"11,980","7,980",Guest,,7980,Yes,100,100,,,,,,,,,,,Add to Cart,"7,880",,Z-VG-SCFC43SGMXY,Z-HW-S61B/ZK,Z-ARTSTORE6MTHS,,,,,,,,"Z-VG-SCFC43SGMXY,Z-HW-S61B/ZK,Z-ARTSTORE6MTHS",3,"
+●  1 x  43"" The Frame Beveled Sand Gold Bezel [Z-VG-SCFC43SGMXY]
+●  1 x  S-Series HW-S61B 5ch Soundbar White [Z-HW-S61B/ZK]
+●  1 x  Free 6-months Art Store subscription [Z-ARTSTORE6MTHS]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"43"" Lifestyle Serif LS01D",CTV,N,QA43LS01DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-serif/ls01d-43-inch-white-qa43ls01dajxzk/,QA43LS01DAJXZK,"9,980","9,980",Guest,,9980,Yes,100,100,,,,,,,,,,,Add to Cart,"9,880",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,"32"" The Frame LS03C",CTV,N,QA32LS03CBJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/32ls03c-32-inch-the-frame-qled-smart-tv-black-qa32ls03cbjxzk/,QA32LS03CBJXZK,"5,980","5,980",Guest,,5980,Yes,100,100,,,,,,,,,,,Add to Cart,"5,880",,Z-VG-SCFC32SGMXY,Z-ARTSTORE6MTHS,,,,,,,,,"Z-VG-SCFC32SGMXY,Z-ARTSTORE6MTHS",2,"
+●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
+●  1 x  Free 6-months Art Store subscription [Z-ARTSTORE6MTHS]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,Ultra Slim Soundbar Skin (Teak),HTS,N,VG-SCFBS8TK/XY,https://www.samsung.com/hk/audio-accessories/vg-scfbs8-vg-scfbs8tk-xy/,VG-SCFBS8TK/XY,790,,Guest,,790,No,0,0,,,,,,,,,,,Add to Cart,790,,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,Ultra Slim Soundbar Skin (Brown),HTS,N,VG-SCFBS8BW/XY,https://www.samsung.com/hk/audio-accessories/vg-scfbs8-vg-scfbs8bw-xy/,VG-SCFBS8BW/XY,790,,Guest,,790,No,0,0,,,,,,,,,,,Add to Cart,790,,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,S-Series HW-S700D Soundbar,HTS,N,HW-S700D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s700d-black-hw-s700d-zk/,HW-S700D/ZK,"3,890","3,890",Guest,,3890,No,0,0,,,,,,,,,,,Add to Cart,"3,890",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,S-Series HW-S61D Soundbar,HTS,N,HW-S61D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s61d-white-hw-s61d-zk/,HW-S61D/ZK,"2,990","2,590",,,2590,No,0,0,,,,,,,,,,,Add to Cart,"2,590",,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,S-Series HW-S61D Soundbar,HTS,N,HW-S61D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s61d-white-hw-s61d-zk/,HW-S61D/ZK,"2,990","2,590",,,2590,No,0,0,,,,,,,,,,,Add to Cart,"2,590",,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,Q-series Soundbar HW-Q990D,HTS,N,HW-Q990D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/q990d-black-hw-q990d-zk/,HW-Q990D/ZK,"11,490","10,490",Guest,,"10,490",No,0,0,,,,,,,,,,,Add to Cart,"10,490",,Z-ITFITEX32,,,,,,,,,,Z-ITFITEX32,1,"
+●  1 x  ITFIT Floor Speaker Stands [Z-ITFITEX32]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,Q-series Soundbar HW-Q930D,HTS,N,HW-Q930D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/q930d-black-hw-q930d-zk/,HW-Q930D/ZK,"8,490","7,990",Guest,,7990,No,0,0,,,,,,,,,,,Add to Cart,"7,990",,Z-ITFITEX32,,,,,,,,,,Z-ITFITEX32,1,"
+●  1 x  ITFIT Floor Speaker Stands [Z-ITFITEX32]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,Q-series Soundbar HW-Q800D,HTS,N,HW-Q800D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/q800d-black-hw-q800d-zk/,HW-Q800D/ZK,"5,390","5,390",Guest,,5390,No,0,0,,,,,,,,,,,Add to Cart,"5,390",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,Q-series Soundbar HW-Q700D,HTS,N,HW-Q700D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/q700d-black-hw-q700d-zk/,HW-Q700D/ZK,"4,590","4,590",Guest,,4590,No,0,0,,,,,,,,,,,Add to Cart,"4,590",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,"55"" Odyssey Ark 2<sup>nd</sup> Gen Curved Gaming Monitor (165Hz)",MON,N,LS55CG970NCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-ark-2nd-gen-g97nc-55-inch-165hz-1ms-curved-uhd-4k-ls55cg970ncxxk/,LS55CG970NCXXK,"25,800","25,800",Guest,,25800,Yes,"1,200","1,200",,,,,,,,,,,Add to Cart,"24,600",,Z-LS28AG700NCXXK,,,,,,,,,,Z-LS28AG700NCXXK,1,"
+●  1 x  28” Odyssey G7 144Hz UHD Flat Gaming Monitor [Z-LS28AG700NCXXK]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"49"" Odyssey G9 OLED Curved Gaming Monitor (240Hz)",MON,N,LS49CG954SCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-oled-g9-g95sc-49-inch-240hz-curved-dual-qhd-ls49cg954scxxk/,LS49CG954SCXXK,"16,980","16,980",Guest,,16980,Yes,800,800,,,,,,,,,,,Add to Cart,"16,180",,Z-LS27A700NWCXXK,,,,,,,,,,Z-LS27A700NWCXXK,1,"
+●  1 x  27"" A700 UHD 4K Monitor [Z-LS27A700NWCXXK]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"34"" Odyssey G8 OLED Curved Gaming Monitor (175Hz)",MON,N,LS34BG850SCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-oled-g8-g85sb-34-inch-175hz-curved-ultra-wqhd-ls34bg850scxxk/,LS34BG850SCXXK,"11,980","8,380",Guest,,8380,Yes,400,400,,,,,,,,,,,Add to Cart,"7,980",,Z-STEAMPASS200x3,,,,,,,,,,Z-STEAMPASS200x3,#VALUE!,"
+●  1 x  3 x  Steam $200 Gift Card [Z-STEAMPASS200x3]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,#VALUE!,,,,,,,
+,,,,,,32” Odyssey Neo G8 Mini-LED Curved Gaming Monitor (240Hz),MON,N,LS32BG850NCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-neo-g8-g85nb-32-inch-ls32bg850ncxxk/,LS32BG850NCXXK,"10,980","6,480",Guest,,6480,Yes,300,300,,,,,,,,,,,Add to Cart,"6,180",,Z-ITFITPW16BK,,,,,,,,,,Z-ITFITPW16BK,1,"
+●  1 x  ITFIT Hand Warmer Powerbank (Black) [Z-ITFITPW16BK]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,"32"" A700 UHD 4K Monitor",MON,N,LS32A700NWCXXK,https://www.samsung.com/hk/monitors/high-resolution/s70a-32-32-inch-uhd-4k-ls32a700nwcxxk/,LS32A700NWCXXK,"2,980","2,580",Guest,,2580,Yes,20,20,,,,,,,,,,,Add to Cart,"2,560",,Z-ITFITPW16BK,,,,,,,,,,Z-ITFITPW16BK,1,"
+●  1 x  ITFIT Hand Warmer Powerbank (Black) [Z-ITFITPW16BK]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,34” Odyssey G5 Curved Gaming Monitor (165Hz),MON,N,LC34G55TWWCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-g5-34-inch-165hz-curved-ultra-wqhd-lc34g55twwcxxk/,LC34G55TWWCXXK,"3,680","2,999",Guest,,2999,Yes,20,20,,,,,,,,,,,Add to Cart,"2,979",,Z-STEAMPASS200,,,,,,,,,,Z-STEAMPASS200,1,"
+●  1 x  Steam $200 Gift Card [Z-STEAMPASS200]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,1 x  VS20C852FTBSHJet85 Stick VC Midnight Blue,VC,N,VS20C852FTB/SH,https://www.samsung.com/hk/vacuum-cleaners/stick/vs9500al-stick-more-advance-cleaning-performance-hexajet-motor-jet-cyclone-blue-vs20c852ftb-sh/,VS20C852FTB/SH,"4,990","3,990",Guest,,"3,990",No,0,0,,,,,,,,,,,Add to Cart,"3,990",,Z-VCA-TABA95,Z-ITFITSD01,,,,,,,,,"Z-VCA-TABA95,Z-ITFITSD01",2,"
+●  1 x  BESPOKE Jet Jet Dual Brush [Z-VCA-TABA95]
+●  1 x  ITFIT Metal Vacumn Stand (Black) [Z-ITFITSD01]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,1 x  VS20C852CTNSH Jet85 Stick VC Woody Green1,VC,N,VS20C852CTN/SH,https://www.samsung.com/hk/vacuum-cleaners/stick/vs9500al-stick-more-advance-cleaning-performance-hexajet-motor-jet-cyclone-green-vs20c852ctn-sh/,VS20C852CTN/SH,"4,590","3,490",Guest,,3490,No,0,0,,,,,,,,,,,Add to Cart,"3,490",,Z-VCA-TABA95,Z-ITFITSD01,,,,,,,,,"Z-VCA-TABA95,Z-ITFITSD01",2,"
+●  1 x  BESPOKE Jet Jet Dual Brush [Z-VCA-TABA95]
+●  1 x  ITFIT Metal Vacumn Stand (Black) [Z-ITFITSD01]
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,,VC,N,VCA-SBTA95/VT,https://www.samsung.com/hk/home-appliance-accessories/bespoke-jet-battery-vca-sbta95-vt/,VCA-SBTA95/VT,"1,090",903,Guest,,903,No,0,0,,,,,,,,,,,Add to Cart,903,,,,,,,,,,,,,0,"
+",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+Delisted,,,,,,"55"" Neo QLED 4K QN95C",CTV,N,QA55QN95CAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn95c-55-inch-neo-qled-4k-smart-tv-qa55qn95cajxzk/,QA55QN95CAJXZK,"25,980","12,980",Guest,,"12,980",Yes,700,700,,,,,,,,,,,Add to Cart,"12,280",,Z-WMN-B05FB/XY,Z-HW-Q700C/ZK,,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-Q700C/ZK",2,"
+●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
+●  1 x  Q-series HW-Q700C 3.1.2ch Soundbar [Z-HW-Q700C/ZK]
+",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Delisted,,,,,,S-Series HW-S800B 3.1.2ch Soundbar,HTS,N,HW-S800B/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s800b-black-hw-s800b-zk/,HW-S800B/ZK,,,Guest,,,No,0,0,,,,,,,,,,,Add to Cart,0,,Z-VG-SCFBS8BW/XY,,,,,,,,,,Z-VG-SCFBS8BW/XY,1,"
+●  1 x  Ultra Slim Soundbar Skin (Brown) [Z-VG-SCFBS8BW/XY]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Delisted,,,,,,Q-series HW-Q990C 11.1.4ch Soundbar,HTS,N,HW-Q990C/ZK,https://www.samsung.com/hk/audio-devices/soundbar/q990c-black-hw-q990c-zk/,HW-Q990C/ZK,,,Guest,,,No,0,0,,,,,,,,,,,Add to Cart,0,,Z-ITFITEX32,,,,,,,,,,Z-ITFITEX32,1,"
+●  1 x  ITFIT Floor Speaker Stands [Z-ITFITEX32]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Delisted,,,,,,Q-series HW-Q930C 9.1.4ch Soundbar,HTS,N,HW-Q930C/ZK,https://www.samsung.com/hk/audio-devices/soundbar/q930c-black-hw-q930c-zk/,HW-Q930C/ZK,,,Guest,,,No,0,0,,,,,,,,,,,Add to Cart,0,,Z-ITFITEX32,,,,,,,,,,Z-ITFITEX32,1,"
+●  1 x  ITFIT Floor Speaker Stands [Z-ITFITEX32]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Delisted,,,,,,Q-series HW-Q800C 5.1.2ch Soundbar,HTS,N,HW-Q800C/ZK,https://www.samsung.com/hk/audio-devices/soundbar/q800c-black-hw-q800c-zk/,HW-Q800C/ZK,,,Guest,,,No,0,0,,,,,,,,,,,Add to Cart,0,,Z-SWA-9500S/ZK,,,,,,,,,,Z-SWA-9500S/ZK,1,"
+●  1 x  SWA-9500S Wireless Rear Speaker [Z-SWA-9500S/ZK]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Delisted,,,,,,Q-series HW-Q700C 3.1.2ch Soundbar,HTS,N,HW-Q700C/ZK,https://www.samsung.com/hk/audio-devices/soundbar/q700c-black-hw-q700c-zk/,HW-Q700C/ZK,,,Guest,,,No,0,0,,,,,,,,,,,Add to Cart,0,,Z-SWA-9500S/ZK,,,,,,,,,,Z-SWA-9500S/ZK,1,"
+●  1 x  SWA-9500S Wireless Rear Speaker [Z-SWA-9500S/ZK]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Delisted,,,,,,Q-series HW-Q600C 3.1.2ch Soundbar,HTS,N,HW-Q600C/ZK,https://www.samsung.com/hk/audio-devices/soundbar/q600c-black-hw-q600c-zk/,HW-Q600C/ZK,,,Guest,,,No,0,0,,,,,,,,,,,Add to Cart,0,,Z-SWA-9200S/ZK,,,,,,,,,,Z-SWA-9200S/ZK,1,"
+●  1 x  SWA-9200S Wireless Rear Speaker [Z-SWA-9200S/ZK]
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
