@@ -1,6 +1,6 @@
 {
   "Name": "AddTradeUpInCart",
-  "CreationDate": "2024-5-16",
+  "CreationDate": "2024-5-21",
   "Commands": [
     {
       "Command": "pause",
@@ -10,79 +10,162 @@
     },
     {
       "Command": "click",
-      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/div/div/div[2]/div/div[2]/div/div/div/div[2]/div",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div",
       "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div",
+        "xpath=//div[2]/div/div/div/div[2]/div/div/div",
+        "css=#dialogTitle > div > div > div > div > div > div > div.trade-up-scroll > div > div.tradeIn.TradeUp1DeviceSelectionWrapper.js-trade-in-component.active > div:nth-child(1) > div > div:nth-child(1) > div.trade-up__dropdown-wrapper > div.trade-up__select-btn > div:nth-child(1) > div"
+      ],
       "Description": ""
     },
     {
       "Command": "click",
-      "Target": "xpath=//li[3]/span",
+      "Target": "xpath=//*[@id=\"manualSelect-model\"]/span",
       "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"manualSelect-model\"]/span",
+        "xpath=//li/span",
+        "css=#manualSelect-model > span"
+      ],
       "Description": ""
     },
     {
       "Command": "click",
-      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div",
       "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div",
+        "xpath=//div[2]/div[2]/div/div[2]/div",
+        "css=#dialogTitle > div > div > div > div > div > div > div.trade-up-scroll > div > div.tradeIn.TradeUp1DeviceSelectionWrapper.js-trade-in-component.active > div:nth-child(1) > div > div:nth-child(2) > div.trade-up__dropdown-wrapper > div.trade-up__select-btn > div:nth-child(2) > div"
+      ],
       "Description": ""
     },
     {
       "Command": "click",
-      "Target": "xpath=//div[2]/div[2]/div[2]/ul/li[4]/span",
+      "Target": "xpath=//*[@id=\"manualSelect-brand\"]/span",
       "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"manualSelect-brand\"]/span",
+        "xpath=//div[2]/div[2]/div[2]/ul/li/span",
+        "css=#manualSelect-brand > span"
+      ],
       "Description": ""
     },
     {
       "Command": "click",
       "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/ng-template/div/div/div/div/ng-container/div/button/span",
       "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/ng-template/div/div/div/div/ng-container/div/button/span",
+        "xpath=//ng-container/div/button/span",
+        "css=#dialogTitle > div > div > div > div > ng-template > div > div > div > div > ng-container > div > button > span"
+      ],
       "Description": ""
     },
     {
       "Command": "type",
       "Target": "id=conditionCheckInfoYes",
       "Value": "on",
+      "Targets": [
+        "id=conditionCheckInfoYes",
+        "name=conditioncheck",
+        "xpath=//*[@id=\"conditionCheckInfoYes\"]",
+        "xpath=//input[@id='conditionCheckInfoYes']",
+        "xpath=//li/div/input",
+        "css=#conditionCheckInfoYes"
+      ],
       "Description": ""
     },
     {
       "Command": "click",
       "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/div/div/div[2]/div/div[3]/div/div/div[2]/ul/li/div/label/span[2]",
       "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/div/div/div[2]/div/div[3]/div/div/div[2]/ul/li/div/label/span[2]",
+        "xpath=//li/div/label/span[2]",
+        "css=#dialogTitle > div > div > div > div > div > div > div.trade-up-scroll > div > div.tradeIn.TradeUp2AssessmentWrapper.js-trade-in-component.active > div:nth-child(1) > div > div.trade-up-popup__summary-accept.ng-scope > ul > li:nth-child(1) > div > label > span.radio-v2__label-text"
+      ],
       "Description": ""
     },
     {
       "Command": "click",
       "Target": "id=conditionCheckInfoYes",
       "Value": "",
+      "Targets": [
+        "id=conditionCheckInfoYes",
+        "name=conditioncheck",
+        "xpath=//*[@id=\"conditionCheckInfoYes\"]",
+        "xpath=//input[@id='conditionCheckInfoYes']",
+        "xpath=//li/div/input",
+        "css=#conditionCheckInfoYes"
+      ],
       "Description": ""
     },
     {
       "Command": "click",
       "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/ng-template/div/div/div/div/ng-container/div/button/span",
       "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/ng-template/div/div/div/div/ng-container/div/button/span",
+        "xpath=//ng-container/div/button/span",
+        "css=#dialogTitle > div > div > div > div > ng-template > div > div > div > div > ng-container > div > button > span"
+      ],
       "Description": ""
     },
     {
       "Command": "type",
       "Target": "id=ServiceTermsAndCondition.tradeUp.agreements.agree1",
       "Value": "on",
+      "Targets": [
+        "id=ServiceTermsAndCondition.tradeUp.agreements.agree1",
+        "name=ServiceTermsAndCondition.tradeUp.agreements.agree1",
+        "xpath=//*[@id=\"ServiceTermsAndCondition.tradeUp.agreements.agree1\"]",
+        "xpath=//input[@id='ServiceTermsAndCondition.tradeUp.agreements.agree1']",
+        "xpath=//label/input",
+        "css=#ServiceTermsAndCondition.tradeUp.agreements.agree1"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/div/div/div[2]/div/div/div/label/span/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/div/div/div[2]/div/div/div/label/span/span",
+        "xpath=//label/span/span",
+        "css=#dialogTitle > div > div > div > div > div > div > div.trade-up-scroll > div > div.tradeIn.TradeUp3TermsWrapper.js-trade-in-component.active > div:nth-child(1) > label > span.checkbox-label > span"
+      ],
       "Description": ""
     },
     {
       "Command": "click",
       "Target": "id=ServiceTermsAndCondition.tradeUp.agreements.agree1",
       "Value": "",
+      "Targets": [
+        "id=ServiceTermsAndCondition.tradeUp.agreements.agree1",
+        "name=ServiceTermsAndCondition.tradeUp.agreements.agree1",
+        "xpath=//*[@id=\"ServiceTermsAndCondition.tradeUp.agreements.agree1\"]",
+        "xpath=//input[@id='ServiceTermsAndCondition.tradeUp.agreements.agree1']",
+        "xpath=//label/input",
+        "css=#ServiceTermsAndCondition.tradeUp.agreements.agree1"
+      ],
       "Description": ""
     },
     {
       "Command": "click",
-      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/ng-template/div/div/div/div/div[3]/div/button",
+      "Target": "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/ng-template/div/div/div/div/div[3]/div/button/span",
       "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"dialogTitle\"]/div/div/div/div/ng-template/div/div/div/div/div[3]/div/button/span",
+        "xpath=//ng-template/div/div/div/div/div[3]/div/button/span",
+        "css=#dialogTitle > div > div > div > div > ng-template > div > div > div > div > div.row > div > button > span"
+      ],
       "Description": ""
     },
     {
       "Command": "pause",
-      "Target": "6000",
+      "Target": "5000",
       "Value": "",
       "Description": ""
     }
