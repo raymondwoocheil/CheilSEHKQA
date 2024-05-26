@@ -112,7 +112,7 @@
     },
     {
       "Command": "executeScript",
-      "Target": "return Number(${SKU}.replace(/\\//g,\"\"));",
+      "Target": "return ${SKU}.replace(/\\//g,\"\");",
       "Value": "SKUwithoutSlash",
       "Description": ""
     },
