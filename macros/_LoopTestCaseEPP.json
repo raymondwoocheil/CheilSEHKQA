@@ -1,6 +1,6 @@
 {
   "Name": "_LoopTestCaseEPP",
-  "CreationDate": "2024-5-16",
+  "CreationDate": "2024-5-27",
   "Commands": [
     {
       "Command": "store",
@@ -10,19 +10,19 @@
     },
     {
       "Command": "store",
-      "Target": "22",
+      "Target": "6",
       "Value": "startingLineNumber",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "TestCaseMXSPP.csv",
+      "Command": "comment",
+      "Target": "store // TestCaseMXSPP.csv",
       "Value": "TestCase",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // TestCaseMXEPP.csv",
+      "Command": "store",
+      "Target": "TestCaseMXEPP.csv",
       "Value": "TestCase",
       "Description": ""
     },
@@ -51,14 +51,14 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "SPP",
+      "Command": "comment",
+      "Target": "store // SPP",
       "Value": "TestSite",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // EPP",
+      "Command": "store",
+      "Target": "EPP",
       "Value": "TestSite",
       "Description": ""
     },
