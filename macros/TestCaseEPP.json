@@ -1,6 +1,6 @@
 {
   "Name": "TestCaseEPP",
-  "CreationDate": "2024-5-26",
+  "CreationDate": "2024-5-30",
   "Commands": [
     {
       "Command": "store",
@@ -886,7 +886,7 @@
     },
     {
       "Command": "captureScreenshot",
-      "Target": "${TestCat}-${TestSite}-${!csvReadLineNumber}-OOS-${SKUwithoutSlash}-${DateTimeNow}-${TestResult}.png",
+      "Target": "${TestCat}-${TestSite}-${!csvReadLineNumber}-${CaseID}-BuyPage-${SKUwithoutSlash}-${DateTimeNow}-OOS.png",
       "Value": "",
       "Description": ""
     },
@@ -1372,7 +1372,7 @@
     },
     {
       "Command": "captureScreenshot",
-      "Target": "${TestCat}-${TestSite}-${!csvReadLineNumber}-OOS-${SKUwithoutSlash}-${DateTimeNow}-${TestResult}.png",
+      "Target": "${TestCat}-${TestSite}-${!csvReadLineNumber}-${CaseID}-BuyPage-${SKUwithoutSlash}-${DateTimeNow}-OOS.png",
       "Value": "",
       "Description": ""
     },
@@ -2236,7 +2236,7 @@
     },
     {
       "Command": "captureEntirePageScreenshot",
-      "Target": "${TestCat}-${TestSite}-CartPage-${SKUwithoutSlash}-${DateTimeNow}-${TestResult}.png",
+      "Target": "${TestCat}-${TestSite}-${!csvReadLineNumber}-${CaseID}-CartPage-${SKUwithoutSlash}-${DateTimeNow}-${TestResult}.png",
       "Value": "",
       "Description": ""
     },

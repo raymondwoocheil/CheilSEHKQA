@@ -1,6 +1,6 @@
 {
   "Name": "TestCaseCE",
-  "CreationDate": "2024-5-26",
+  "CreationDate": "2024-5-30",
   "Commands": [
     {
       "Command": "store",
@@ -45,7 +45,7 @@
       "Description": ""
     },
     {
-      "Command": "store",
+      "Command": "comment",
       "Target": "Passed",
       "Value": "TestResult",
       "Description": ""
@@ -364,7 +364,7 @@
     },
     {
       "Command": "comment",
-      "Target": "captureEntirePageScreenshot // BuyPage-${SKUwithoutSlash}-${DateTimeNow}.png",
+      "Target": "captureEntirePageScreenshot // CE-${!csvReadLineNumber}-${CaseID}-BuyPage-${SKUwithoutSlash}-${DateTimeNow}.png",
       "Value": "",
       "Description": ""
     },
@@ -682,7 +682,7 @@
     },
     {
       "Command": "captureScreenshot",
-      "Target": "CE-${!csvReadLineNumber}-OOS-${SKUwithoutSlash}-${DateTimeNow}-${TestResult}.png",
+      "Target": "CE-${!csvReadLineNumber}-${CaseID}-BuyPage-${SKUwithoutSlash}-${DateTimeNow}-OOS.png",
       "Value": "",
       "Description": ""
     },
@@ -1576,7 +1576,7 @@
     },
     {
       "Command": "captureEntirePageScreenshot",
-      "Target": "CE-${!csvReadLineNumber}-CartPage-${SKUwithoutSlash}-${DateTimeNow}-${TestResult}.png",
+      "Target": "CE-${!csvReadLineNumber}-${CaseID}-CartPage-${SKUwithoutSlash}-${DateTimeNow}-${TestResult}.png",
       "Value": "",
       "Description": ""
     },
