@@ -1215,104 +1215,104 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "Galaxy Credit",
+      "Command": "comment",
+      "Target": "store // Galaxy Credit",
       "Value": "!csvLine",
       "Description": ""
     },
     {
-      "Command": "pause",
-      "Target": "1000",
+      "Command": "comment",
+      "Target": "pause // 1000",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "verifyElementPresent",
-      "Target": "xpath=//*[@id=\"voucherBalance\"]",
+      "Command": "comment",
+      "Target": "verifyElementPresent // xpath=//*[@id=\"voucherBalance\"]",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "if_v2",
-      "Target": "${!statusOK}==true",
+      "Command": "comment",
+      "Target": "if_v2 // ${!statusOK}==true",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "storeText",
-      "Target": "xpath=//*[@id=\"voucherBalance\"]",
+      "Command": "comment",
+      "Target": "storeText // xpath=//*[@id=\"voucherBalance\"]",
       "Value": "GalaxyCredit",
       "Description": ""
     },
     {
-      "Command": "executeScript",
-      "Target": "return Number(${GalaxyCredit}.replace(/[^0-9.-]+/g,\"\"));",
+      "Command": "comment",
+      "Target": "executeScript // return Number(${GalaxyCredit}.replace(/[^0-9.-]+/g,\"\"));",
       "Value": "GalaxyCredit",
       "Description": ""
     },
     {
-      "Command": "else",
-      "Target": "",
+      "Command": "comment",
+      "Target": "else // ",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "executeScript",
-      "Target": "return Number(0);",
+      "Command": "comment",
+      "Target": "executeScript // return Number(0);",
       "Value": "GalaxyCredit",
       "Description": ""
     },
     {
-      "Command": "end",
-      "Target": "",
+      "Command": "comment",
+      "Target": "end // ",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "${GalaxyCredit}",
+      "Command": "comment",
+      "Target": "store // ${GalaxyCredit}",
       "Value": "!csvLine",
       "Description": ""
     },
     {
-      "Command": "if_v2",
-      "Target": "${ExpectedGalaxyCredit}==${GalaxyCredit}",
+      "Command": "comment",
+      "Target": "if_v2 // ${ExpectedGalaxyCredit}==${GalaxyCredit}",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "Passed",
+      "Command": "comment",
+      "Target": "store // Passed",
       "Value": "!csvLine",
       "Description": ""
     },
     {
-      "Command": "else",
-      "Target": "",
+      "Command": "comment",
+      "Target": "else // ",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "Failed",
+      "Command": "comment",
+      "Target": "store // Failed",
       "Value": "!csvLine",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "Failed",
+      "Command": "comment",
+      "Target": "store // Failed",
       "Value": "TestResult",
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "[${SKU}] Galaxy Credit: ailed - Expected ${ExpectedGalaxyCredit} / Actual ${GalaxyCredit}",
+      "Command": "comment",
+      "Target": "echo // [${SKU}] Galaxy Credit: ailed - Expected ${ExpectedGalaxyCredit} / Actual ${GalaxyCredit}",
       "Value": "red",
       "Description": ""
     },
     {
-      "Command": "end",
-      "Target": "",
+      "Command": "comment",
+      "Target": "end // ",
       "Value": "",
       "Description": ""
     },
@@ -1323,15 +1323,21 @@
       "Description": ""
     },
     {
-      "Command": "click",
-      "Target": "xpath=//*[@an-la=\"evoucher:go to cart\"]",
+      "Command": "comment",
+      "Target": "click // xpath=//*[@an-la=\"evoucher:go to cart\"]",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "clickAndWait",
-      "Target": "xpath=//button[@an-la=\"evoucher:no addition:redeem\"]",
+      "Command": "comment",
+      "Target": "clickAndWait // xpath=//button[@an-la=\"evoucher:no addition:redeem\"]",
       "Value": "500",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End of Verify - Galaxy Credit**",
+      "Value": "",
       "Description": ""
     },
     {
