@@ -1,6 +1,6 @@
 {
   "Name": "_LoopTestCaseEPP",
-  "CreationDate": "2024-5-16",
+  "CreationDate": "2024-5-31",
   "Commands": [
     {
       "Command": "store",
@@ -10,7 +10,7 @@
     },
     {
       "Command": "store",
-      "Target": "22",
+      "Target": "5",
       "Value": "startingLineNumber",
       "Description": ""
     },

@@ -1,6 +1,6 @@
 {
   "Name": "TestCaseMX",
-  "CreationDate": "2024-5-30",
+  "CreationDate": "2024-5-31",
   "Commands": [
     {
       "Command": "store",
@@ -123,15 +123,33 @@
       "Description": ""
     },
     {
+      "Command": "if",
+      "Target": "${globalSkipTradeIn}==\"Yes\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "No",
+      "Value": "TradeIn",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "store",
       "Target": "${!COL18}",
       "Value": "TradeIn",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // \"No\"",
-      "Value": "TradeIn",
+      "Command": "end",
+      "Target": "",
+      "Value": "",
       "Description": ""
     },
     {
@@ -141,9 +159,33 @@
       "Description": ""
     },
     {
+      "Command": "if",
+      "Target": "${globalSkipSC}==\"Yes\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "No",
+      "Value": "SCPlus",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "store",
       "Target": "${!COL21}",
       "Value": "SCPlus",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
       "Description": ""
     },
     {
