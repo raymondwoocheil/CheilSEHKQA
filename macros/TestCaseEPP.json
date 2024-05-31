@@ -1,6 +1,6 @@
 {
   "Name": "TestCaseEPP",
-  "CreationDate": "2024-5-30",
+  "CreationDate": "2024-5-31",
   "Commands": [
     {
       "Command": "store",
@@ -1215,8 +1215,20 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // Galaxy Credit",
+      "Command": "store",
+      "Target": "Galaxy Credit",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
       "Value": "!csvLine",
       "Description": ""
     },
