@@ -1,6 +1,6 @@
 {
   "Name": "AddTradeUpInCart",
-  "CreationDate": "2024-5-21",
+  "CreationDate": "2024-6-3",
   "Commands": [
     {
       "Command": "pause",
@@ -165,7 +165,7 @@
     },
     {
       "Command": "pause",
-      "Target": "5000",
+      "Target": "7000",
       "Value": "",
       "Description": ""
     }
