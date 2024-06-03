@@ -1,6 +1,6 @@
 {
   "Name": "TestCaseEPP",
-  "CreationDate": "2024-5-31",
+  "CreationDate": "2024-6-1",
   "Commands": [
     {
       "Command": "store",
@@ -18,6 +18,12 @@
       "Command": "store",
       "Target": "${!Runtime}",
       "Value": "StartTime",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "0",
+      "Value": "TestDuration",
       "Description": ""
     },
     {
