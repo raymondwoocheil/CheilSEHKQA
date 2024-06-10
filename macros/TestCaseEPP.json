@@ -2109,8 +2109,8 @@
       "Description": ""
     },
     {
-      "Command": "forEach",
-      "Target": "ExpectedPremiumArray",
+      "Command": "comment",
+      "Target": "forEach // ExpectedPremiumArray",
       "Value": "CheckingPremiumSKU",
       "Description": ""
     },
@@ -2127,53 +2127,65 @@
       "Description": ""
     },
     {
-      "Command": "if_v2",
-      "Target": "${CheckingPremiumSKU}==${ThisSKU}",
+      "Command": "comment",
+      "Target": "if_v2 // ${CheckingPremiumSKU}==${ThisSKU}",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "executeScript",
-      "Target": "return true",
+      "Command": "comment",
+      "Target": "executeScript // return true",
       "Value": "VerifyThisSKU",
       "Description": ""
     },
     {
-      "Command": "end",
-      "Target": "",
+      "Command": "comment",
+      "Target": "end // ",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "end",
-      "Target": "",
+      "Command": "comment",
+      "Target": "end // ",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "if_v2",
-      "Target": "${SKU}==${ThisSKU}",
+      "Command": "comment",
+      "Target": "if_v2 // ${SKU}==${ThisSKU}",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "executeScript",
-      "Target": "return true",
+      "Command": "comment",
+      "Target": "executeScript // return true",
       "Value": "VerifyThisSKU",
       "Description": ""
     },
     {
-      "Command": "end",
-      "Target": "",
+      "Command": "comment",
+      "Target": "end // ",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "if_v2",
-      "Target": "${VerifyThisSKU}==true",
+      "Command": "if",
+      "Target": "${ExpectedPremiumStrings}.lastIndexOf(${ThisSKU}) > -1",
       "Value": "",
       "Description": ""
     },
+    {
+      "Command": "comment",
+      "Target": "end // ",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "if_v2 // ${VerifyThisSKU}==true",
+      "Value": "",
+      "Description": ""
+    },   
     {
       "Command": "echo",
       "Target": "${ThisSKU} is Expected",
