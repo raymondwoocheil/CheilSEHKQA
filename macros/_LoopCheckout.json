@@ -1,10 +1,10 @@
 {
-  "Name": "_LoopDeliveryMode",
+  "Name": "_LoopCheckout",
   "CreationDate": "2024-6-16",
   "Commands": [
     {
       "Command": "store",
-      "Target": "510",
+      "Target": "5",
       "Value": "startingLineNumber",
       "Description": ""
     },
@@ -64,7 +64,7 @@
     },
     {
       "Command": "csvRead",
-      "Target": "AllSku.csv",
+      "Target": "TestCaseCheckout.csv",
       "Value": "",
       "Description": ""
     },
@@ -100,7 +100,7 @@
     },
     {
       "Command": "run",
-      "Target": "TestDeliveryMode",
+      "Target": "TestCheckout",
       "Value": "",
       "Description": ""
     },
@@ -124,7 +124,7 @@
     },
     {
       "Command": "csvRead",
-      "Target": "AllSku.csv",
+      "Target": "TestCaseCheckout.csv",
       "Value": "",
       "Description": ""
     },

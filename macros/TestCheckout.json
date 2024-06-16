@@ -1,5 +1,5 @@
 {
-  "Name": "TestDeliveryMode",
+  "Name": "TestCheckout",
   "CreationDate": "2024-6-16",
   "Commands": [
     {
@@ -51,6 +51,12 @@
       "Description": ""
     },
     {
+      "Command": "executeScript",
+      "Target": "return ${!COL9} > 50",
+      "Value": "IsLargeTV",
+      "Description": ""
+    },
+    {
       "Command": "comment",
       "Target": "open // https://www.samsung.com/hk/",
       "Value": "",
@@ -99,6 +105,12 @@
       "Description": ""
     },
     {
+      "Command": "store",
+      "Target": "",
+      "Value": "TestFailedReason",
+      "Description": ""
+    },
+    {
       "Command": "executeScript",
       "Target": "var today = new Date();\nvar date = today.getFullYear() + \"-\" + (today.getMonth() + 1) + \"-\" + today.getDate()\nreturn date;",
       "Value": "DateToday",
@@ -130,13 +142,13 @@
     },
     {
       "Command": "store",
-      "Target": "${!COL1}",
-      "Value": "SKU",
+      "Target": "${!csvReadLineNumber}",
+      "Value": "!csvLine",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "${!COL1}",
+      "Target": "${SKU}",
       "Value": "!csvLine",
       "Description": ""
     },
@@ -219,9 +231,33 @@
       "Description": ""
     },
     {
+      "Command": "times",
+      "Target": "3",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "store",
       "Target": "failed",
       "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TestFailedReason}OOS in Cart",
+      "Value": "TestFailedReason",
       "Description": ""
     },
     {
@@ -251,7 +287,7 @@
     {
       "Command": "type",
       "Target": "id=email",
-      "Value": "cptgaer@gmail.com",
+      "Value": "fakecheil@fake.com",
       "Description": ""
     },
     {
@@ -262,7 +298,7 @@
     },
     {
       "Command": "comment",
-      "Target": "**Select City**",
+      "Target": "**Select HKcity**",
       "Value": "",
       "Description": ""
     },
@@ -298,19 +334,145 @@
     },
     {
       "Command": "pause",
-      "Target": "1000",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "captureScreenshot",
-      "Target": "Checkout-${SKUwithoutSlash}-${DateTimeNow}-city.png",
+      "Target": "4000",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "comment",
-      "Target": "**Select Remote**",
+      "Target": "Check HKcity - start",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementNotPresent",
+      "Target": "xpath=//div[@class=\"deliver-packages\"]//span[contains(@class,\"alert-danger\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//*[@id=\"CHECKOUT_DELIVERY_MODES\"]//div[@ng-if=\"showEDDMessage(deliveryGroup,deliveryMode)\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//*[@id=\"CHECKOUT_DELIVERY_MODES\"]//div[@ng-if=\"showEDDMessage(deliveryGroup,deliveryMode)\"]",
+      "Value": "RDDdate",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return ${RDDdate}.split(\":\")[1].trim();",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//div[contains(@class,\"button-container-calendar\")]",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "failed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TestFailedReason}No RDD for HKcity, ",
+      "Value": "TestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "No RDD for HKcity",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "captureScreenshot // Checkout-${SKUwithoutSlash}-${DateTimeNow}-city.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Check HKcity - end",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Select HKremote**",
       "Value": "",
       "Description": ""
     },
@@ -328,19 +490,157 @@
     },
     {
       "Command": "pause",
-      "Target": "2000",
+      "Target": "4000",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "click",
-      "Target": "id=CHECKOUT_SHIPPING_ADDRESS_hk-shippingDistrictName_field",
+      "Command": "comment",
+      "Target": "Check HKremote - start",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "captureScreenshot",
-      "Target": "Checkout-${SKUwithoutSlash}-${DateTimeNow}-remote.png",
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementNotPresent",
+      "Target": "xpath=//div[@class=\"deliver-packages\"]//span[contains(@class,\"alert-danger\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//*[@id=\"CHECKOUT_DELIVERY_MODES\"]//div[@ng-if=\"showEDDMessage(deliveryGroup,deliveryMode)\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//*[@id=\"CHECKOUT_DELIVERY_MODES\"]//div[@ng-if=\"showEDDMessage(deliveryGroup,deliveryMode)\"]",
+      "Value": "RDDdate",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return ${RDDdate}.split(\":\")[1].trim();",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//div[contains(@class,\"button-container-calendar\")]",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "No RDD for HKremote",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "isLargeTV=false",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "failed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TestFailedReason}No RDD for HKremote, ",
+      "Value": "TestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "captureScreenshot // Checkout-${SKUwithoutSlash}-${DateTimeNow}-city.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Check HKremote - end",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "captureScreenshot // Checkout-${SKUwithoutSlash}-${DateTimeNow}-remote.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
       "Value": "",
       "Description": ""
     },
@@ -382,13 +682,121 @@
     },
     {
       "Command": "pause",
-      "Target": "2000",
+      "Target": "4000",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "captureScreenshot",
-      "Target": "Checkout-${SKUwithoutSlash}-${DateTimeNow}-macau.png",
+      "Command": "comment",
+      "Target": "Check Macau - start",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementNotPresent",
+      "Target": "xpath=//div[@class=\"deliver-packages\"]//span[contains(@class,\"alert-danger\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//*[@id=\"CHECKOUT_DELIVERY_MODES\"]//div[@ng-if=\"showEDDMessage(deliveryGroup,deliveryMode)\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//*[@id=\"CHECKOUT_DELIVERY_MODES\"]//div[@ng-if=\"showEDDMessage(deliveryGroup,deliveryMode)\"]",
+      "Value": "RDDdate",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return ${RDDdate}.split(\":\")[1].trim();",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//div[contains(@class,\"button-container-calendar\")]",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "failed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TestFailedReason}No RDD for Macau, ",
+      "Value": "TestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "No RDD for Macau",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "captureScreenshot // Checkout-${SKUwithoutSlash}-${DateTimeNow}-city.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Check HKremote - end",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "captureScreenshot // Checkout-${SKUwithoutSlash}-${DateTimeNow}-macau.png",
       "Value": "",
       "Description": ""
     },
@@ -562,6 +970,12 @@
     },
     {
       "Command": "store",
+      "Target": "${TestFailedReason}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
       "Target": "${!Runtime}",
       "Value": "EndTime",
       "Description": ""
@@ -586,7 +1000,7 @@
     },
     {
       "Command": "csvSave",
-      "Target": "DeliveryModeCheck-${DateTimeNow}.csv",
+      "Target": "DeliveryModeCheck-${DateToday}.csv",
       "Value": "",
       "Description": ""
     },
