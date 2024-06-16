@@ -1,6 +1,6 @@
 {
   "Name": "TestDeliveryMode",
-  "CreationDate": "2024-5-8",
+  "CreationDate": "2024-6-16",
   "Commands": [
     {
       "Command": "store",
@@ -39,14 +39,56 @@
       "Description": ""
     },
     {
-      "Command": "open",
-      "Target": "https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=${!COL10}&&products[0].quantity=1",
+      "Command": "store",
+      "Target": "${!COL5}",
+      "Value": "SKU",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return ${SKU}.replace(/\\//g,\"\");",
+      "Value": "SKUwithoutSlash",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "open // https://www.samsung.com/hk/",
       "Value": "",
       "Description": ""
     },
     {
+      "Command": "store",
+      "Target": "https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=${SKU}&&products[0].quantity=1",
+      "Value": "SKUurl",
+      "Description": ""
+    },
+    {
       "Command": "open",
-      "Target": "https://shop.samsung.com/hk/cart",
+      "Target": "${SKUurl}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "100",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "TAB=OPEN",
+      "Value": "https://shop.samsung.com/hk/cart",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "TAB=CLOSEALLOTHER",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "open // https://shop.samsung.com/hk/cart",
       "Value": "",
       "Description": ""
     },
@@ -93,12 +135,6 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
-      "Target": "return Number(${SKU}.replace(/[^0-9.-]+/g,\"\"));",
-      "Value": "SKUcleaned",
-      "Description": ""
-    },
-    {
       "Command": "store",
       "Target": "${!COL1}",
       "Value": "!csvLine",
@@ -141,15 +177,15 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "**Proceed to Checkout*",
-      "Value": "",
-      "Description": ""
-    },
-    {
       "Command": "store",
       "Target": "true",
       "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Proceed to Checkout*",
+      "Value": "",
       "Description": ""
     },
     {
@@ -161,6 +197,42 @@
     {
       "Command": "if",
       "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Check OOS block Checkout\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//span[@class=\"alert-desc\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "failed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "captureScreenshot",
+      "Target": "Checkout-${SKUwithoutSlash}-${DateTimeNow}-failed-cart-OOS.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
       "Value": "",
       "Description": ""
     },
@@ -232,7 +304,7 @@
     },
     {
       "Command": "captureScreenshot",
-      "Target": "Checkout-${SKUcleaned}-${DateTimeNow}-city.png",
+      "Target": "Checkout-${SKUwithoutSlash}-${DateTimeNow}-city.png",
       "Value": "",
       "Description": ""
     },
@@ -268,7 +340,7 @@
     },
     {
       "Command": "captureScreenshot",
-      "Target": "Checkout-${SKUcleaned}-${DateTimeNow}-remote.png",
+      "Target": "Checkout-${SKUwithoutSlash}-${DateTimeNow}-remote.png",
       "Value": "",
       "Description": ""
     },
@@ -316,7 +388,13 @@
     },
     {
       "Command": "captureScreenshot",
-      "Target": "Checkout-${SKUcleaned}-${DateTimeNow}-macau.png",
+      "Target": "Checkout-${SKUwithoutSlash}-${DateTimeNow}-macau.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
       "Value": "",
       "Description": ""
     },
@@ -328,13 +406,13 @@
     },
     {
       "Command": "store",
-      "Target": "error",
+      "Target": "OOS",
       "Value": "TestResult",
       "Description": ""
     },
     {
       "Command": "captureScreenshot",
-      "Target": "Cart-${SKUcleaned}-${DateTimeNow}-error.png",
+      "Target": "Cart-${SKUwithoutSlash}-${DateTimeNow}-OOS.png",
       "Value": "",
       "Description": ""
     },
@@ -448,18 +526,6 @@
     },
     {
       "Command": "elseif",
-      "Target": "${TestResult}==\"error\"",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "echo",
-      "Target": "[${SKU}] == ${TestResult}",
-      "Value": "red",
-      "Description": ""
-    },
-    {
-      "Command": "elseif",
       "Target": "${TestResult}==\"OOS\"",
       "Value": "",
       "Description": ""
@@ -468,6 +534,18 @@
       "Command": "echo",
       "Target": "[${SKU}] == ${TestResult}",
       "Value": "orange",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "[${SKU}] == ${TestResult}",
+      "Value": "red",
       "Description": ""
     },
     {
@@ -508,7 +586,7 @@
     },
     {
       "Command": "csvSave",
-      "Target": "DeliveryModeCheck-${DateToday}.csv",
+      "Target": "DeliveryModeCheck-${DateTimeNow}.csv",
       "Value": "",
       "Description": ""
     },

@@ -1,10 +1,10 @@
 {
   "Name": "_LoopDeliveryMode",
-  "CreationDate": "2024-5-8",
+  "CreationDate": "2024-6-16",
   "Commands": [
     {
       "Command": "store",
-      "Target": "10",
+      "Target": "510",
       "Value": "startingLineNumber",
       "Description": ""
     },
@@ -100,7 +100,7 @@
     },
     {
       "Command": "run",
-      "Target": "Z_TestDeliveryMode",
+      "Target": "TestDeliveryMode",
       "Value": "",
       "Description": ""
     },
