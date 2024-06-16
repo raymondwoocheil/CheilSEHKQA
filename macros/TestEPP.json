@@ -1,6 +1,6 @@
 {
-  "Name": "TestCaseEPP",
-  "CreationDate": "2024-6-1",
+  "Name": "TestEPP",
+  "CreationDate": "2024-6-16",
   "Commands": [
     {
       "Command": "store",
@@ -329,7 +329,7 @@
     {
       "Command": "type",
       "Target": "id=iptLgnPlnID",
-      "Value": "cptqaer@gmail.com",
+      "Value": "${TestAccount}",
       "Description": ""
     },
     {
@@ -2185,7 +2185,7 @@
       "Target": "if_v2 // ${VerifyThisSKU}==true",
       "Value": "",
       "Description": ""
-    },   
+    },
     {
       "Command": "echo",
       "Target": "${ThisSKU} is Expected",

@@ -1,0 +1,18 @@
+    {
+      "Command": "comment",
+      "Target": "executeScript // var request = new XMLHttpRequest(); \nrequest.open('GET', ${ThisSKUurl}, false); \nrequest.send(null); \nreturn request.responseText;",
+      "Value": "AddToCartResponse",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "executeScript // var xhr = new XMLHttpRequest();\nxhr.open('POST', 'https://shop.samsung.com/hk/servicesv2/addToCart', false);\nxhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');\nxhr.send('{\"products\":[{\"productCode\":\"NP940XMA-KB1HK\",\"quantity\":1}]}');\nalert(xhr.response);",
+      "Value": "AddToCartResponse",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "executeScript // var xhr = new XMLHttpRequest();\nxhr.open('POST', 'https://shop.samsung.com/hk/servicesv2/addToCart', false);\nxhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');\nxhr.send('{\"products\":[{\"productCode\":\"NP940XMA-KB1HK\",\"quantity\":1}]}');\nalert(xhr.response);",
+      "Value": "AddToCartResponse",
+      "Description": ""
+    },

@@ -1,13 +1,7 @@
 {
-  "Name": "_LoopCheckout",
+  "Name": "_LoopMaster",
   "CreationDate": "2024-6-16",
   "Commands": [
-    {
-      "Command": "store",
-      "Target": "5",
-      "Value": "startingLineNumber",
-      "Description": ""
-    },
     {
       "Command": "store",
       "Target": "fast",
@@ -16,14 +10,80 @@
     },
     {
       "Command": "store",
-      "Target": "B2C",
-      "Value": "Store",
+      "Target": "5",
+      "Value": "startingLineNumber",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "cptqaer+4@gmail.com",
+      "Value": "TestAccount",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // MX",
+      "Value": "TestCat",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // CE",
+      "Value": "TestCat",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Checkout",
+      "Value": "TestCat",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "TestSite",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // SPP",
+      "Value": "TestSite",
       "Description": ""
     },
     {
       "Command": "comment",
       "Target": "store // EPP",
-      "Value": "Store",
+      "Value": "TestSite",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "TestCase${TestCat}${TestSite}.csv",
+      "Value": "TestCase",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${TestSite}==\"\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Test${TestCat}",
+      "Value": "TestMacro",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "TestEPP",
+      "Value": "TestMacro",
       "Description": ""
     },
     {
@@ -33,15 +93,15 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "4",
-      "Value": "!timeout_wait",
+      "Command": "end",
+      "Target": "",
+      "Value": "",
       "Description": ""
     },
     {
       "Command": "store",
       "Target": "4",
-      "Value": "!timeout_pageload",
+      "Value": "!timeout_wait",
       "Description": ""
     },
     {
@@ -64,7 +124,7 @@
     },
     {
       "Command": "csvRead",
-      "Target": "TestCaseCheckout.csv",
+      "Target": "${TestCase}",
       "Value": "",
       "Description": ""
     },
@@ -93,14 +153,8 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "run // TestCaseMX",
-      "Value": "",
-      "Description": ""
-    },
-    {
       "Command": "run",
-      "Target": "TestCheckout",
+      "Target": "${TestMacro}",
       "Value": "",
       "Description": ""
     },
@@ -124,7 +178,7 @@
     },
     {
       "Command": "csvRead",
-      "Target": "TestCaseCheckout.csv",
+      "Target": "${TestCase}",
       "Value": "",
       "Description": ""
     },
