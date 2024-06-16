@@ -88,6 +88,12 @@
     },
     {
       "Command": "store",
+      "Target": "${!csvReadLineNumber}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
       "Target": "-",
       "Value": "CaseID",
       "Description": ""
