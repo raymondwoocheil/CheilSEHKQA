@@ -100,7 +100,7 @@
     },
     {
       "Command": "store",
-      "Target": "passed",
+      "Target": "Passed",
       "Value": "TestResult",
       "Description": ""
     },
@@ -178,7 +178,7 @@
     },
     {
       "Command": "store",
-      "Target": "OOS",
+      "Target": "OOS (Blocked)",
       "Value": "TestResult",
       "Description": ""
     },
@@ -250,7 +250,7 @@
     },
     {
       "Command": "store",
-      "Target": "failed",
+      "Target": "Failed",
       "Value": "TestResult",
       "Description": ""
     },
@@ -262,7 +262,7 @@
     },
     {
       "Command": "captureScreenshot",
-      "Target": "Checkout-${SKUwithoutSlash}-${DateTimeNow}-failed-cart-OOS.png",
+      "Target": "Checkout-${SKUwithoutSlash}-${DateTimeNow}-Failed-cart-OOS.png",
       "Value": "",
       "Description": ""
     },
@@ -412,7 +412,7 @@
     },
     {
       "Command": "store",
-      "Target": "failed",
+      "Target": "Failed",
       "Value": "TestResult",
       "Description": ""
     },
@@ -580,7 +580,7 @@
     },
     {
       "Command": "store",
-      "Target": "failed",
+      "Target": "Failed",
       "Value": "TestResult",
       "Description": ""
     },
@@ -760,7 +760,7 @@
     },
     {
       "Command": "store",
-      "Target": "failed",
+      "Target": "Failed",
       "Value": "TestResult",
       "Description": ""
     },
@@ -814,7 +814,7 @@
     },
     {
       "Command": "store",
-      "Target": "OOS",
+      "Target": "OOS (Blocked)",
       "Value": "TestResult",
       "Description": ""
     },
@@ -910,7 +910,7 @@
     },
     {
       "Command": "if",
-      "Target": "${TestResult}==\"passed\"",
+      "Target": "${TestResult}==\"Passed\"",
       "Value": "",
       "Description": ""
     },
@@ -922,7 +922,7 @@
     },
     {
       "Command": "elseif",
-      "Target": "${TestResult}==\"failed\"",
+      "Target": "${TestResult}==\"Failed\"",
       "Value": "",
       "Description": ""
     },
@@ -934,7 +934,7 @@
     },
     {
       "Command": "elseif",
-      "Target": "${TestResult}==\"OOS\"",
+      "Target": "${TestResult}==\"OOS (Blocked)\"",
       "Value": "",
       "Description": ""
     },
@@ -942,6 +942,24 @@
       "Command": "echo",
       "Target": "[${SKU}] == ${TestResult}",
       "Value": "orange",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "3",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
       "Description": ""
     },
     {
