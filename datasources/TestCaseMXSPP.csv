@@ -8,11 +8,11 @@ in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1
 
 
 "
-Sola,S-SMP-01,Partially passed,Failed,,,"Galaxy S24 Ultra, 1TB, Titanium Blue",SM-S9280,N,SM-S9280LBPTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280LBPTGY,SM-S9280LBPTGY,"$12,898","$10,176",cptqaer@gmail.com,!Cheil2024,"10,176",No,Book3 Pro,-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"10,176",,Z-EP-T6530NBEGGB,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-EB-P4520XUEGWW-M,Z-SM-R400NZWATGY",3,"
+Sola,S-SMP-01,Passed,Failed,,,"Galaxy S24 Ultra, 1TB, Titanium Blue",SM-S9280,N,SM-S9280LBPTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280LBPTGY,SM-S9280LBPTGY,"$12,898","$10,176",cptqaer@gmail.com,!Cheil2024,"10,176",No,Book3 Pro,-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"10,176",,Z-EP-T6530NBEGGB,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-EB-P4520XUEGWW-M,Z-SM-R400NZWATGY",3,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
-",Partially passed,,"Wrong price tag.1TB model price tag shown as $10,176",End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+",Passed,,"Wrong price tag.1TB model price tag shown as $10,176",End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
 Sola,S-SMP-02,Passed,Failed,,,"Galaxy S24 Ultra, 512GB, Titanium Black",SM-S9280,N,SM-S9280ZKHTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280ZKHTGY,SM-S9280ZKHTGY,"$10,898","$8,536",cptqaer@gmail.com,!Cheil2024,"8,536",No,Book3 Pro,-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"8,536",,Z-EP-T6530NBEGGB,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-EB-P4520XUEGWW-M,Z-SM-R400NZWATGY",3,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
@@ -237,9 +237,10 @@ Kristin,S-NPC-03,Passed,Failed,,,"Galaxy Book4 Pro 16""/i7/32GB/1TB",NP960XGKA-E
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ",Passed,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Kristin,S-NPC-04,Partially passed,Failed,,,"Galaxy Book4 Pro 14""/i7/32GB/1TB",NP940XGKA-EXP,N,NP940XGK-KS3HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP940XGK-KS3HK,NP940XGK-KS3HK,"$14,980","$11,984",cptqaer+1@gmail.com,!Cheil2024,"11,984",No,Book3 Pro,-,No,Book Tier 3: High (RRP $12000-$14999),-,N/A,,,-,,,,Add to Cart,"11,984",,Z-EF-LPUN4PBEGWW,Z-OTH-M365MTH12HK,,,,,,Z-ITFITEX43,,,"Z-EF-LPUN4PBEGWW,Z-OTH-M365MTH12HK,Z-ITFITEX43",3,"
+Kristin,S-NPC-04,Partially passed,Failed,,,"Galaxy Book4 Pro 14""/i7/32GB/1TB",NP940XGKA-EXP,N,NP940XGK-KS3HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP940XGK-KS3HK,NP940XGK-KS3HK,"$14,980","$11,984",cptqaer+1@gmail.com,!Cheil2024,"11,984",No,Book3 Pro,-,No,Book Tier 3: High (RRP $12000-$14999),-,N/A,,,-,,,,Add to Cart,"11,984",,Z-EF-LPUN4PBEGWW,Z-OTH-M365MTH12HK,,,Z-EB-P4520XUEGWW-M,,,Z-ITFITEX43,,,"Z-EF-LPUN4PBEGWW,Z-OTH-M365MTH12HK,Z-EB-P4520XUEGWW-M,Z-ITFITEX43",4,"
 ●  1 x  Galaxy Book3 Slim Pouch 14"" [Z-EF-LPUN4PBEGWW]
 ●  1 x  Microsoft 365 Personal [Z-OTH-M365MTH12HK]
+●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ",Partially passed,,"there are total 4 free premiums in cart.
 Z-EB-P4520XUEGWW-M is not mentioned in this excel",End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
