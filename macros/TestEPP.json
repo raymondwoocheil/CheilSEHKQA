@@ -201,8 +201,14 @@
       "Description": ""
     },
     {
+      "Command": "store",
+      "Target": "${SKU}&${!COL44}",
+      "Value": "ExpectedPremiumStrings",
+      "Description": ""
+    },
+    {
       "Command": "if_v2",
-      "Target": "${!COL44}==\"\"",
+      "Target": "${ExpectedPremiumStrings}==\"\"",
       "Value": "",
       "Description": ""
     },
