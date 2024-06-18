@@ -3,102 +3,113 @@ Assigned,Test Case,,,,,,,,,,19,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Ve
 Tester,ID,Manual Cart,Premiunm Qty,Auto Cart,Auto Checkout,Model,BASE SKU,BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-in,Trade-in-type,Verify extra trade-in rebate,SC+,SC-type,"Verify SC+ 
 in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass - 1/6 - 17/6,Mass - 1/6 - 17/6,Mass - 1/6 - 17/6,Mass - 1/6 - 17/6,E-Sum - 18/7 - 8/7,Mass but not EPP,Mass but not EPP,28/5 - 30/6,28/5 - 30/6,,Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,Guest Email,Select City,Select District,Select Service,Verify Expected Delivery Date,Verify Delivery Cost,Checkout Page Result,Screencap,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,Line No.,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,Extra Trade-In Rebate label,Trade-In Rebate captured,Trade-In Rebate result,SC+ label,SC+ captured,SC+ result,Premium SKU count,Count captured,Premium SKU count result,Failed reason,Items in Cart,SKU 1,Qty,,SKU 2,Qty,,SKU 3,Qty,,SKU 4,Qty,,SKU 5,Qty,,SKU 6,Qty,,SKU 7,Qty,,SKU 8,Qty,,SKU 9,Qty,,SKU 10,Qty,,Qty Total,Qty Total Result,Premium Array,Final Result,Test duration (s),,Cart Page Result,Cart Page Result,
-,,,#N/A,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,"ARRAY_CONSTRAIN(ARRAYFORMULA(IF(VALUE(AF4:AF)>=8000,""Z-202406WWTICKET-Dx2"",)),150,1)","ARRAY_CONSTRAIN(ARRAYFORMULA(IF(VALUE(AF4:AF)>=8000,""Z-202406WWTICKET-Dx2"",)),150,1)",#N/A,#N/A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,#N/A,,,,,,,"
+,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,"
 
 
 "
-Sola,S-SMP-01,,Failed,,,"Galaxy S24 Ultra, 1TB, Titanium Blue",SM-S9280,N,SM-S9280LBPTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280LBPTGY,SM-S9280LBPTGY,"$12,898","$10,176",cptqaer@gmail.com,!Cheil2024,"10,176",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"10,176",,,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R400NZWATGY,,,"Z-EB-P4520XUEGWW-M,Z-SM-R400NZWATGY",2,"
+Sola,S-SMP-01,Passed,Failed,,,"Galaxy S24 Ultra, 1TB, Titanium Blue",SM-S9280,N,SM-S9280LBPTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280LBPTGY,SM-S9280LBPTGY,"$12,898","$10,176",cptqaer@gmail.com,!Cheil2024,"10,176",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"10,176",,,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R400NZWATGY,,Z-202406WWTICKET-Dx2,"Z-EB-P4520XUEGWW-M,Z-SM-R400NZWATGY,Z-202406WWTICKET-Dx2",4,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,S-SMP-02,,Failed,,,"Galaxy S24 Ultra, 512GB, Titanium Black",SM-S9280,N,SM-S9280ZKHTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280ZKHTGY,SM-S9280ZKHTGY,"$10,898","$8,536",cptqaer@gmail.com,!Cheil2024,"8,536",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"8,536",,,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R400NZWATGY,,,"Z-EB-P4520XUEGWW-M,Z-SM-R400NZWATGY",2,"
+●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
+",Passed,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,S-SMP-02,Passed,Failed,,,"Galaxy S24 Ultra, 512GB, Titanium Black",SM-S9280,N,SM-S9280ZKHTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280ZKHTGY,SM-S9280ZKHTGY,"$10,898","$8,536",cptqaer@gmail.com,!Cheil2024,"8,536",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"8,536",,,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R400NZWATGY,,Z-202406WWTICKET-Dx2,"Z-EB-P4520XUEGWW-M,Z-SM-R400NZWATGY,Z-202406WWTICKET-Dx2",4,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,S-SMP-03,,Failed,,,"Galaxy S24 Ultra, 256GB, Titanium Black",SM-S9280,N,SM-S9280ZKGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280ZKGTGY,SM-S9280ZKGTGY,"$9,898","$7,716",cptqaer@gmail.com,!Cheil2024,"7,716",No,S24 Ultra (256 GB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"7,716",,,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R400NZWATGY,,,"Z-EB-P4520XUEGWW-M,Z-SM-R400NZWATGY",2,"
+●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
+",Passed,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,S-SMP-03,Passed,Failed,,,"Galaxy S24 Ultra, 256GB, Titanium Black",SM-S9280,N,SM-S9280ZKGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280ZKGTGY,SM-S9280ZKGTGY,"$9,898","$7,716",cptqaer@gmail.com,!Cheil2024,"7,716",No,S24 Ultra (256 GB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"7,716",,,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R400NZWATGY,,,"Z-EB-P4520XUEGWW-M,Z-SM-R400NZWATGY",2,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,S-SMP-04,,Failed,,,"Galaxy S24+, 512GB, Onyx Black",SM-S9260,N,SM-S9260ZKGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9260ZKGTGY,SM-S9260ZKGTGY,"$8,598","$6,750",cptqaer@gmail.com,!Cheil2024,"6,750",No,S24+ (512GB),-,No,S24 Series,-,N/A,S24+,,-,,,,Add to Cart,"6,750",,,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R400NZWATGY,,,"Z-EB-P4520XUEGWW-M,Z-SM-R400NZWATGY",2,"
+",Passed,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,S-SMP-04,Passed,Failed,,,"Galaxy S24+, 512GB, Onyx Black",SM-S9260,N,SM-S9260ZKGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9260ZKGTGY,SM-S9260ZKGTGY,"$8,598","$6,750",cptqaer@gmail.com,!Cheil2024,"6,750",No,S24+ (512GB),-,No,S24 Series,-,N/A,S24+,,-,,,,Add to Cart,"6,750",,,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R400NZWATGY,,,"Z-EB-P4520XUEGWW-M,Z-SM-R400NZWATGY",2,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,S-SMP-05,,Failed,,,"Galaxy S24+, 256GB, Onyx Black",SM-S9260,N,SM-S9260ZKDTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9260ZKDTGY,SM-S9260ZKDTGY,"$7,598","$5,930",cptqaer@gmail.com,!Cheil2024,"5,930",No,S24+ (256 GB),-,No,S24 Series,-,N/A,S24+,,-,,,,Add to Cart,"5,930",,,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R400NZWATGY,,,"Z-EB-P4520XUEGWW-M,Z-SM-R400NZWATGY",2,"
+",Passed,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,S-SMP-05,Passed,Failed,,,"Galaxy S24+, 256GB, Onyx Black",SM-S9260,N,SM-S9260ZKDTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9260ZKDTGY,SM-S9260ZKDTGY,"$7,598","$5,930",cptqaer@gmail.com,!Cheil2024,"5,930",No,S24+ (256 GB),-,No,S24 Series,-,N/A,S24+,,-,,,,Add to Cart,"5,930",,,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R400NZWATGY,,,"Z-EB-P4520XUEGWW-M,Z-SM-R400NZWATGY",2,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,S-SMP-08,,Failed,,,"Galaxy Z Fold5 1TB, Icy Blue",SM-F9460,N,SM-F9460LBHTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-F9460LBHTGY,SM-F9460LBHTGY,"$16,598","$12,449",cptqaer@gmail.com,!Cheil2024,"12,449",No,Z Fold5,-,No,Z Fold5,-,N/A,Fold5,,-,,,,Add to Cart,"12,449",,,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R510NZAAASAMX,Z-ITFITCA05,,"Z-EB-P4520XUEGWW-M,Z-SM-R510NZAAASAMX,Z-ITFITCA05",3,"
+",Passed,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,S-SMP-08,Passed,Failed,,,"Galaxy Z Fold5 1TB, Icy Blue",SM-F9460,N,SM-F9460LBHTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-F9460LBHTGY,SM-F9460LBHTGY,"$16,598","$12,449",cptqaer@gmail.com,!Cheil2024,"12,449",No,Z Fold5,-,No,Z Fold5,-,N/A,Fold5,,-,,,,Add to Cart,"12,449",,,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R510NZAAASAMX,Z-ITFITCA05,Z-202406WWTICKET-Dx2,"Z-EB-P4520XUEGWW-M,Z-SM-R510NZAAASAMX,Z-ITFITCA05,Z-202406WWTICKET-Dx2",5,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Buds2 Pro, Graphite [Z-SM-R510NZAAASAMX]
 ●  1 x  ITFIT 8"" Wi-Fi Digital Photo Frame [Z-ITFITCA05]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,S-SMP-09,,Failed,,,"Galaxy Z Fold5 512, Gray (eStore)",SM-F9460,N,SM-F9460ZUGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-F9460ZUGTGY,SM-F9460ZUGTGY,"$14,598","$10,949",cptqaer@gmail.com,!Cheil2024,"10,949",No,Z Fold5,-,No,Z Fold5,-,N/A,Fold5,,-,,,,Add to Cart,"10,949",,,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R510NZAAASAMX,Z-ITFITCA05,,"Z-EB-P4520XUEGWW-M,Z-SM-R510NZAAASAMX,Z-ITFITCA05",3,"
+●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
+",Passed,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,S-SMP-09,Passed,Failed,,,"Galaxy Z Fold5 512, Gray (eStore)",SM-F9460,N,SM-F9460ZUGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-F9460ZUGTGY,SM-F9460ZUGTGY,"$14,598","$10,949",cptqaer@gmail.com,!Cheil2024,"10,949",No,Z Fold5,-,No,Z Fold5,-,N/A,Fold5,,-,,,,Add to Cart,"10,949",,,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R510NZAAASAMX,Z-ITFITCA05,Z-202406WWTICKET-Dx2,"Z-EB-P4520XUEGWW-M,Z-SM-R510NZAAASAMX,Z-ITFITCA05,Z-202406WWTICKET-Dx2",5,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Buds2 Pro, Graphite [Z-SM-R510NZAAASAMX]
 ●  1 x  ITFIT 8"" Wi-Fi Digital Photo Frame [Z-ITFITCA05]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,S-SMP-10,,Failed,,,"Galaxy Z Fold5 256, 12GB + 256GB, Black",SM-F9460,N,SM-F9460ZKDTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-F9460ZKDTGY,SM-F9460ZKDTGY,"$13,598","$10,199",cptqaer@gmail.com,!Cheil2024,"10,199",No,Z Flip5,-,No,Z Fold5,-,N/A,Fold5,,-,,,,Add to Cart,"10,199",,,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R510NZAAASAMX,,,"Z-EB-P4520XUEGWW-M,Z-SM-R510NZAAASAMX",2,"
+●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
+",Passed,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,S-SMP-10,Passed,Failed,,,"Galaxy Z Fold5 256, 12GB + 256GB, Black",SM-F9460,N,SM-F9460ZKDTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-F9460ZKDTGY,SM-F9460ZKDTGY,"$13,598","$10,199",cptqaer@gmail.com,!Cheil2024,"10,199",No,Z Flip5,-,No,Z Fold5,-,N/A,Fold5,,-,,,,Add to Cart,"10,199",,,,,,Z-EB-P4520XUEGWW-M,,,Z-SM-R510NZAAASAMX,,Z-202406WWTICKET-Dx2,"Z-EB-P4520XUEGWW-M,Z-SM-R510NZAAASAMX,Z-202406WWTICKET-Dx2",4,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Buds2 Pro, Graphite [Z-SM-R510NZAAASAMX]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,S-SMP-11,,Failed,,,"Galaxy Z Flip5 512, Yellow (eStore)",SM-F7310,N,SM-F7310ZYETGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-F7310ZYETGY,SM-F7310ZYETGY,"$9,298","$6,974",cptqaer@gmail.com,!Cheil2024,"6,974",No,Z Flip5,-,No,Z Flip5,-,N/A,Flip5,,-,,,,Add to Cart,"6,974",,,Z-EF-ZF731CTEGWW,Z-EP-P5400TWEGGB,,Z-EB-P4520XUEGWW-M,,,Z-SM-R510NZAAASAMX,,,"Z-EF-ZF731CTEGWW,Z-EP-P5400TWEGGB,Z-EB-P4520XUEGWW-M,Z-SM-R510NZAAASAMX",4,"
+●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
+",Passed,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,S-SMP-11,Passed,Failed,,,"Galaxy Z Flip5 512, Yellow (eStore)",SM-F7310,N,SM-F7310ZYETGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-F7310ZYETGY,SM-F7310ZYETGY,"$9,298","$6,974",cptqaer@gmail.com,!Cheil2024,"6,974",No,Z Flip5,-,No,Z Flip5,-,N/A,Flip5,,-,,,,Add to Cart,"6,974",,,Z-EF-ZF731CTEGWW,Z-EP-P5400TWEGGB,,Z-EB-P4520XUEGWW-M,,,Z-SM-R510NZAAASAMX,,,"Z-EF-ZF731CTEGWW,Z-EP-P5400TWEGGB,Z-EB-P4520XUEGWW-M,Z-SM-R510NZAAASAMX",4,"
 ●  1 x  Galaxy Z Flip5 Flipsuit Case [Z-EF-ZF731CTEGWW]
 ●  1 x  15W Wireless Charger Duo Pad P5400 with TA [Z-EP-P5400TWEGGB]
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Buds2 Pro, Graphite [Z-SM-R510NZAAASAMX]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,S-SMP-12,,Failed,,,"Galaxy Z Flip5 256, 8GB + 256GB, Cream",SM-F7310,N,SM-F7310ZEATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-F7310ZEATGY,SM-F7310ZEATGY,"$8,298","$6,224",cptqaer@gmail.com,!Cheil2024,"6,224",No,Z Flip5,-,No,Z Flip5,-,N/A,Flip5,,-,,,,Add to Cart,"6,224",,,Z-EF-ZF731CTEGWW,Z-EP-P5400TWEGGB,,Z-EB-P4520XUEGWW-M,,,Z-SM-R510NZAAASAMX,,,"Z-EF-ZF731CTEGWW,Z-EP-P5400TWEGGB,Z-EB-P4520XUEGWW-M,Z-SM-R510NZAAASAMX",4,"
+",Passed,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,S-SMP-12,Passed,Failed,,,"Galaxy Z Flip5 256, 8GB + 256GB, Cream",SM-F7310,N,SM-F7310ZEATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-F7310ZEATGY,SM-F7310ZEATGY,"$8,298","$6,224",cptqaer@gmail.com,!Cheil2024,"6,224",No,Z Flip5,-,No,Z Flip5,-,N/A,Flip5,,-,,,,Add to Cart,"6,224",,,Z-EF-ZF731CTEGWW,Z-EP-P5400TWEGGB,,Z-EB-P4520XUEGWW-M,,,Z-SM-R510NZAAASAMX,,,"Z-EF-ZF731CTEGWW,Z-EP-P5400TWEGGB,Z-EB-P4520XUEGWW-M,Z-SM-R510NZAAASAMX",4,"
 ●  1 x  Galaxy Z Flip5 Flipsuit Case [Z-EF-ZF731CTEGWW]
 ●  1 x  15W Wireless Charger Duo Pad P5400 with TA [Z-EP-P5400TWEGGB]
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Buds2 Pro, Graphite [Z-SM-R510NZAAASAMX]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,S-TAB-01,,Failed,,,"Galaxy Tab S9, 8GB+128, Graphite",SM-X710,N,SM-X710NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X710NZAATGY,SM-X710NZAATGY,"$6,288","$4,842",cptqaer@gmail.com,!Cheil2024,"4,842",No,Tab S9,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"4,842",,Z-ITFITEX43,Z-ITFITE01,,Z-EB-P4520XUEGWW-M,Z-EJ-B3400UBEGWW-M,,,Z-EF-DX710UBEGWW,,,"Z-ITFITEX43,Z-ITFITE01,Z-EB-P4520XUEGWW-M,Z-EJ-B3400UBEGWW-M,Z-EF-DX710UBEGWW",5,"
+",Passed,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,S-TAB-01,Passed,Failed,,,"Galaxy Tab S9, 8GB+128, Graphite",SM-X710,N,SM-X710NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X710NZAATGY,SM-X710NZAATGY,"$6,288","$4,842",cptqaer@gmail.com,!Cheil2024,"4,842",No,Tab S9,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"4,842",,Z-ITFITEX43,Z-ITFITE01,,Z-EB-P4520XUEGWW-M,Z-EJ-B3400UBEGWW-M,,,Z-EF-DX710UBEGWW,,,"Z-ITFITEX43,Z-ITFITE01,Z-EB-P4520XUEGWW-M,Z-EJ-B3400UBEGWW-M,Z-EF-DX710UBEGWW",5,"
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Smart Keyboard Trio 500 [Z-EJ-B3400UBEGWW-M]
 ●  1 x  Bookcover Keyboard Slim [Z-EF-DX710UBEGWW]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,S-TAB-02,,Failed,,,"Galaxy Tab S9+, 12GB+256, Graphite",SM-X810,N,SM-X810NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X810NZAATGY,SM-X810NZAATGY,"$7,888","$6,074",cptqaer@gmail.com,!Cheil2024,"6,074",No,Tab S9+,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"6,074",,Z-ITFITEX43,Z-ITFITE01,,Z-EB-P4520XUEGWW-M,Z-EJ-B3400UBEGWW-M,,,Z-EF-DX810UBEGWW,,,"Z-ITFITEX43,Z-ITFITE01,Z-EB-P4520XUEGWW-M,Z-EJ-B3400UBEGWW-M,Z-EF-DX810UBEGWW",5,"
+",Passed,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,S-TAB-02,Partially passed,Failed,,,"Galaxy Tab S9+, 12GB+256, Graphite",SM-X810,N,SM-X810NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X810NZAATGY,SM-X810NZAATGY,"$7,888","$6,074",cptqaer@gmail.com,!Cheil2024,"6,074",No,Tab S9+,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"6,074",,Z-ITFITEX43,Z-ITFITE01,,Z-EB-P4520XUEGWW-M,Z-EJ-B3400UBEGWW-M,,,Z-EF-DX810UBEGWW,,,"Z-ITFITEX43,Z-ITFITE01,Z-EB-P4520XUEGWW-M,Z-EJ-B3400UBEGWW-M,Z-EF-DX810UBEGWW",5,"
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Smart Keyboard Trio 500 [Z-EJ-B3400UBEGWW-M]
 ●  1 x  BookCover Keyboard Slim [Z-EF-DX810UBEGWW]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,S-TAB-02B,,Failed,,,"Galaxy Tab S9+ (5G), 12GB+256, Graphite",SM-X816B,N,SM-X816BZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X816BZAATGY,SM-X816BZAATGY,"$8,988","$6,921",cptqaer@gmail.com,!Cheil2024,"6,921",No,Tab S9+,-,No,,-,,,,-,,,,Add to Cart,"6,921",,,Z-ITFITE01,,Z-EB-P4520XUEGWW-M,Z-EJ-B3400UBEGWW-M,,,,,,"Z-ITFITE01,Z-EB-P4520XUEGWW-M,Z-EJ-B3400UBEGWW-M",3,"
+",Partially passed,,Missng massage gun.,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,S-TAB-02B,OOS (Blocked),Failed,,,"Galaxy Tab S9+ (5G), 12GB+256, Graphite",SM-X816B,N,SM-X816BZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X816BZAATGY,SM-X816BZAATGY,"$8,988","$6,921",cptqaer@gmail.com,!Cheil2024,"6,921",No,Tab S9+,-,No,,-,,,,-,,,,Add to Cart,"6,921",,,Z-ITFITE01,,Z-EB-P4520XUEGWW-M,Z-EJ-B3400UBEGWW-M,,,,,,"Z-ITFITE01,Z-EB-P4520XUEGWW-M,Z-EJ-B3400UBEGWW-M",3,"
 ●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Smart Keyboard Trio 500 [Z-EJ-B3400UBEGWW-M]
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,S-TAB-03,,Failed,,,"Galaxy Tab S9 Ultra, 12GB+256, Graphite",SM-X910,N,SM-X910NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X910NZAATGY,SM-X910NZAATGY,"$9,688","$6,782",cptqaer@gmail.com,!Cheil2024,"6,782",No,Tab S9 Ultra,-,No,Tab S9 Ultra,-,N/A,Tab S9 Series,,-,,,,Add to Cart,"6,782",,,Z-ITFITE01,,Z-EB-P4520XUEGWW-M,Z-EJ-B3400UBEGWW-M,,,Z-EF-DX910UBEGWW,,,"Z-ITFITE01,Z-EB-P4520XUEGWW-M,Z-EJ-B3400UBEGWW-M,Z-EF-DX910UBEGWW",4,"
+",OOS (Blocked),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,S-TAB-03,Passed,Failed,,,"Galaxy Tab S9 Ultra, 12GB+256, Graphite",SM-X910,N,SM-X910NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X910NZAATGY,SM-X910NZAATGY,"$9,688","$6,782",cptqaer@gmail.com,!Cheil2024,"6,782",No,Tab S9 Ultra,-,No,Tab S9 Ultra,-,N/A,Tab S9 Series,,-,,,,Add to Cart,"6,782",,,Z-ITFITE01,,Z-EB-P4520XUEGWW-M,Z-EJ-B3400UBEGWW-M,,,Z-EF-DX910UBEGWW,,,"Z-ITFITE01,Z-EB-P4520XUEGWW-M,Z-EJ-B3400UBEGWW-M,Z-EF-DX910UBEGWW",4,"
 ●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Smart Keyboard Trio 500 [Z-EJ-B3400UBEGWW-M]
 ●  1 x  Galaxy Tab S9 Ultra Book Cover Keyboard Slim [Z-EF-DX910UBEGWW]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,S-NPC-01,,Failed,,,"Galaxy Book4 Uitra 16""/i9/64GB/2TB/RTX4070",NP960XGLZ-EXP,N,NP960XGL-XG1HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960XGL-XG1HK,NP960XGL-XG1HK,"$24,980","$19,984",cptqaer@gmail.com,!Cheil2024,"19,984",No,Book4 Ultra,-,No,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,Add to Cart,"19,984",,,,Z-GAMEPASSULT3MMX,,Z-EB-P4520XUEGWW-M,,,Z-ITFITEX43,,,"Z-GAMEPASSULT3MMX,Z-EB-P4520XUEGWW-M,Z-ITFITEX43",3,"
+",Passed,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,S-NPC-01,Passed,Failed,,,"Galaxy Book4 Uitra 16""/i9/64GB/2TB/RTX4070",NP960XGLZ-EXP,N,NP960XGL-XG1HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960XGL-XG1HK,NP960XGL-XG1HK,"$24,980","$19,984",cptqaer@gmail.com,!Cheil2024,"19,984",No,Book4 Ultra,-,No,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,Add to Cart,"19,984",,,,Z-GAMEPASSULT3MMX,,Z-EB-P4520XUEGWW-M,,,Z-ITFITEX43,,Z-202406WWTICKET-Dx2,"Z-GAMEPASSULT3MMX,Z-EB-P4520XUEGWW-M,Z-ITFITEX43,Z-202406WWTICKET-Dx2",5,"
 ●  1 x  Game Pass Ultimate (3 months) [Z-GAMEPASSULT3MMX]
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,S-NPC-02,,Failed,,,"Galaxy Book4 Pro 360 16""/i7/32GB/1TB",NP960QGKA-EXP,N,NP960QGK-KS3HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960QGK-KS3HK,NP960QGK-KS3HK,"$16,980","$13,584",cptqaer@gmail.com,!Cheil2024,"13,584",No,Book4 Pro 360,-,No,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,Add to Cart,"13,584",,,,,,Z-EB-P4520XUEGWW-M,,,Z-ITFITEX43,,,"Z-EB-P4520XUEGWW-M,Z-ITFITEX43",2,"
+●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
+",Passed,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,S-NPC-02,Passed,Failed,,,"Galaxy Book4 Pro 360 16""/i7/32GB/1TB",NP960QGKA-EXP,N,NP960QGK-KS3HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960QGK-KS3HK,NP960QGK-KS3HK,"$16,980","$13,584",cptqaer@gmail.com,!Cheil2024,"13,584",No,Book4 Pro 360,-,No,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,Add to Cart,"13,584",,,,,,Z-EB-P4520XUEGWW-M,,,Z-ITFITEX43,,Z-202406WWTICKET-Dx2,"Z-EB-P4520XUEGWW-M,Z-ITFITEX43,Z-202406WWTICKET-Dx2",4,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,S-NPC-03,,Failed,,,"Galaxy Book4 Pro 16""/i7/32GB/1TB",NP960XGKA-EXP,N,NP960XGK-KS5HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960XGK-KS5HK,NP960XGK-KS5HK,"$15,680","$12,544",cptqaer@gmail.com,!Cheil2024,"12,544",No,Book4 Pro,-,No,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,Add to Cart,"12,544",,,,,,Z-EB-P4520XUEGWW-M,,,Z-ITFITEX43,,,"Z-EB-P4520XUEGWW-M,Z-ITFITEX43",2,"
+●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
+",Passed,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,S-NPC-03,Passed,Failed,,,"Galaxy Book4 Pro 16""/i7/32GB/1TB",NP960XGKA-EXP,N,NP960XGK-KS5HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960XGK-KS5HK,NP960XGK-KS5HK,"$15,680","$12,544",cptqaer@gmail.com,!Cheil2024,"12,544",No,Book4 Pro,-,No,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,Add to Cart,"12,544",,,,,,Z-EB-P4520XUEGWW-M,,,Z-ITFITEX43,,Z-202406WWTICKET-Dx2,"Z-EB-P4520XUEGWW-M,Z-ITFITEX43,Z-202406WWTICKET-Dx2",4,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,S-NPC-04,,Failed,,,"Galaxy Book4 Pro 14""/i7/32GB/1TB",NP940XGKA-EXP,N,NP940XGK-KS3HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP940XGK-KS3HK,NP940XGK-KS3HK,"$14,980","$11,984",cptqaer@gmail.com,!Cheil2024,"11,984",No,Book4 Pro,-,No,Book Tier 3: High (RRP $12000-$14999),-,N/A,,,-,,,,Add to Cart,"11,984",,Z-EF-LPUN4PBEGWW,Z-OTH-M365MTH12HK,,,Z-EB-P4520XUEGWW-M,,,Z-ITFITEX43,,,"Z-EF-LPUN4PBEGWW,Z-OTH-M365MTH12HK,Z-EB-P4520XUEGWW-M,Z-ITFITEX43",4,"
+●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
+",Passed,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,S-NPC-04,Partially passed,Failed,,,"Galaxy Book4 Pro 14""/i7/32GB/1TB",NP940XGKA-EXP,N,NP940XGK-KS3HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP940XGK-KS3HK,NP940XGK-KS3HK,"$14,980","$11,984",cptqaer@gmail.com,!Cheil2024,"11,984",No,Book4 Pro,-,No,Book Tier 3: High (RRP $12000-$14999),-,N/A,,,-,,,,Add to Cart,"11,984",,Z-EF-LPUN4PBEGWW,Z-OTH-M365MTH12HK,,,Z-EB-P4520XUEGWW-M,,,Z-ITFITEX43,,Z-202406WWTICKET-Dx2,"Z-EF-LPUN4PBEGWW,Z-OTH-M365MTH12HK,Z-EB-P4520XUEGWW-M,Z-ITFITEX43,Z-202406WWTICKET-Dx2",6,"
 ●  1 x  Galaxy Book3 Slim Pouch 14"" [Z-EF-LPUN4PBEGWW]
 ●  1 x  Microsoft 365 Personal [Z-OTH-M365MTH12HK]
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Sola,S-NPC-05,,Failed,,,"Galaxy Book4 360 15.6""/i7/16GB/1TB",NP750QGKA-EXP,N,NP750QGK-KS1HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP750QGK-KS1HK,NP750QGK-KS1HK,"$11,580","$9,264",cptqaer@gmail.com,!Cheil2024,"9,264",No,Book4 360,-,No,Book Tier 2: Mid (RRP $7000-11999),-,N/A,,,-,,,,Add to Cart,"9,264",,,Z-EJ-M3400DBEGWW,Z-SM-R400NZWATGY,,,,,Z-ITFITEX43,,,"Z-EJ-M3400DBEGWW,Z-SM-R400NZWATGY,Z-ITFITEX43",3,"
+●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
+",Partially passed,,"Missing 365 personal, slim pouch 14.",End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+Sola,S-NPC-05,Passed,Failed,,,"Galaxy Book4 360 15.6""/i7/16GB/1TB",NP750QGKA-EXP,N,NP750QGK-KS1HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP750QGK-KS1HK,NP750QGK-KS1HK,"$11,580","$9,264",cptqaer@gmail.com,!Cheil2024,"9,264",No,Book4 360,-,No,Book Tier 2: Mid (RRP $7000-11999),-,N/A,,,-,,,,Add to Cart,"9,264",,,Z-EJ-M3400DBEGWW,Z-SM-R400NZWATGY,,,,,Z-ITFITEX43,,Z-202406WWTICKET-Dx2,"Z-EJ-M3400DBEGWW,Z-SM-R400NZWATGY,Z-ITFITEX43,Z-202406WWTICKET-Dx2",5,"
 ●  1 x  Bluetooth Mouse Slim [Z-EJ-M3400DBEGWW]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
-",,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
+",Passed,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
