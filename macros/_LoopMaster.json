@@ -1,6 +1,6 @@
 {
   "Name": "_LoopMaster",
-  "CreationDate": "2024-6-16",
+  "CreationDate": "2024-7-16",
   "Commands": [
     {
       "Command": "store",
@@ -10,8 +10,20 @@
     },
     {
       "Command": "store",
-      "Target": "5",
+      "Target": "290",
       "Value": "startingLineNumber",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "false",
+      "Value": "runTesterLinesOnly",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "runActiveOnly",
       "Description": ""
     },
     {
@@ -27,14 +39,14 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // CE",
+      "Command": "store",
+      "Target": "CE",
       "Value": "TestCat",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "Checkout",
+      "Command": "comment",
+      "Target": "store // Checkout",
       "Value": "TestCat",
       "Description": ""
     },
@@ -153,8 +165,116 @@
       "Description": ""
     },
     {
+      "Command": "if",
+      "Target": "${runTesterLinesOnly}==\"true\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!COL1}!=\"\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${runActiveOnly}==\"true\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!COL8}==\"Active\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "run",
       "Target": "${TestMacro}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "${TestMacro}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${runActiveOnly}==\"true\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!COL9}==\"Active\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "${TestMacro}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "${TestMacro}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
       "Value": "",
       "Description": ""
     },
