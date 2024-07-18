@@ -1,6 +1,6 @@
 {
   "Name": "_LoopMaster",
-  "CreationDate": "2024-7-16",
+  "CreationDate": "2024-7-18",
   "Commands": [
     {
       "Command": "store",
@@ -23,7 +23,7 @@
     {
       "Command": "store",
       "Target": "true",
-      "Value": "runActiveOnly",
+      "Value": "skipEOL",
       "Description": ""
     },
     {
@@ -178,13 +178,13 @@
     },
     {
       "Command": "if",
-      "Target": "${runActiveOnly}==\"true\"",
+      "Target": "${skipEOL}==\"true\"",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "if",
-      "Target": "${!COL8}==\"Active\"",
+      "Target": "${!COL8}!=\"EOL\"",
       "Value": "",
       "Description": ""
     },
@@ -232,13 +232,13 @@
     },
     {
       "Command": "if",
-      "Target": "${runActiveOnly}==\"true\"",
+      "Target": "${skipEOL}==\"true\"",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "if",
-      "Target": "${!COL9}==\"Active\"",
+      "Target": "${!COL9}!=\"EOL\"",
       "Value": "",
       "Description": ""
     },
