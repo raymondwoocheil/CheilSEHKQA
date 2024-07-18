@@ -1,6 +1,6 @@
 {
   "Name": "TestEPP",
-  "CreationDate": "2024-7-18",
+  "CreationDate": "2024-7-19",
   "Commands": [
     {
       "Command": "store",
@@ -1180,7 +1180,7 @@
     },
     {
       "Command": "click",
-      "Target": "xpath=//*[@an-la='pd buying tool:add to cart']",
+      "Target": "xpath=//*[contains(@class, \"js-buy-now\")]",
       "Value": "",
       "Description": ""
     },

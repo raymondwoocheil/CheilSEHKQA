@@ -1258,7 +1258,7 @@
     },
     {
       "Command": "click",
-      "Target": "xpath=//*[@an-la='pd buying tool:add to cart']",
+      "Target": "xpath=//*[contains(@class, \"js-buy-now\")]",
       "Value": "",
       "Description": ""
     },

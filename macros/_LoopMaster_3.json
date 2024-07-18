@@ -130,7 +130,7 @@
     },
     {
       "Command": "setWindowSize",
-      "Target": "1024x750",
+      "Target": "1200x750",
       "Value": "",
       "Description": ""
     },

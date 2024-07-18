@@ -592,7 +592,7 @@
     },
     {
       "Command": "click",
-      "Target": "xpath=//*[@class='pd-buying-price__cta']/a",
+      "Target": "xpath=//*[contains(@class, \"js-buy-now\")]",
       "Value": "",
       "Description": ""
     },
