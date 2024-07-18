@@ -1,5 +1,5 @@
 {
-  "Name": "_LoopMaster",
+  "Name": "_LoopMaster_3",
   "CreationDate": "2024-7-18",
   "Commands": [
     {
@@ -10,7 +10,13 @@
     },
     {
       "Command": "store",
-      "Target": "290",
+      "Target": "3",
+      "Value": "loopStream",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "5",
       "Value": "startingLineNumber",
       "Description": ""
     },

@@ -1,6 +1,6 @@
 {
   "Name": "TestCheckout",
-  "CreationDate": "2024-6-16",
+  "CreationDate": "2024-7-18",
   "Commands": [
     {
       "Command": "store",
@@ -1018,7 +1018,7 @@
     },
     {
       "Command": "csvSave",
-      "Target": "DeliveryModeCheck-${DateToday}.csv",
+      "Target": "DeliveryModeCheck-${DateToday}-${loopStream}.csv",
       "Value": "",
       "Description": ""
     },

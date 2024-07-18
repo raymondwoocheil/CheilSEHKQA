@@ -1,6 +1,6 @@
 {
-  "Name": "TestCaseCE",
-  "CreationDate": "2024-6-3",
+  "Name": "TestCE",
+  "CreationDate": "2024-7-18",
   "Commands": [
     {
       "Command": "store",
@@ -1521,7 +1521,6 @@
       "Description": ""
     },
     {
-
       "Command": "echo",
       "Target": "${ThisSKU} is Expected",
       "Value": "green",
@@ -1775,7 +1774,7 @@
     },
     {
       "Command": "csvSave",
-      "Target": "_Results-CE-${DateToday}.csv",
+      "Target": "_Results-CE-${DateToday}-${loopStream}.csv",
       "Value": "",
       "Description": ""
     },
