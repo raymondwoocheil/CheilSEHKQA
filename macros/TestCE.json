@@ -1288,7 +1288,7 @@
     },
     {
       "Command": "if_v2",
-      "Target": "${ExpectedPremiumQty}==${PremiumCount}",
+      "Target": "${ExpectedPremiumCount}==${PremiumCount}",
       "Value": "",
       "Description": ""
     },
@@ -1306,7 +1306,7 @@
     },
     {
       "Command": "elseif",
-      "Target": "${PremiumCount}>${ExpectedPremiumQty}",
+      "Target": "${PremiumCount}>${ExpectedPremiumCount}",
       "Value": "",
       "Description": ""
     },
@@ -1318,7 +1318,7 @@
     },
     {
       "Command": "store",
-      "Target": "More - Expected ${ExpectedPremiumQty} / Actual ${PremiumCount}",
+      "Target": "More - Expected ${ExpectedPremiumCount} / Actual ${PremiumCount}",
       "Value": "!csvLine",
       "Description": ""
     },
@@ -1330,13 +1330,13 @@
     },
     {
       "Command": "echo",
-      "Target": "${SKU} - Premium Count: Failed - more - Expected ${ExpectedPremiumQty} / Actual ${PremiumCount}",
+      "Target": "${SKU} - Premium Count: Failed - more - Expected ${ExpectedPremiumCount} / Actual ${PremiumCount}",
       "Value": "red",
       "Description": ""
     },
     {
       "Command": "elseif",
-      "Target": "${PremiumCount}<${ExpectedPremiumQty}",
+      "Target": "${PremiumCount}<${ExpectedPremiumCount}",
       "Value": "",
       "Description": ""
     },
@@ -1348,7 +1348,7 @@
     },
     {
       "Command": "store",
-      "Target": "Less - Expected ${ExpectedPremiumQty} / Actual ${PremiumCount}",
+      "Target": "Less - Expected ${ExpectedPremiumCount} / Actual ${PremiumCount}",
       "Value": "!csvLine",
       "Description": ""
     },
@@ -1360,7 +1360,7 @@
     },
     {
       "Command": "echo",
-      "Target": "[${SKU}] Premium Count: Failed - less - Expected ${ExpectedPremiumQty} / Actual ${PremiumCount}",
+      "Target": "[${SKU}] Premium Count: Failed - less - Expected ${ExpectedPremiumCount} / Actual ${PremiumCount}",
       "Value": "red",
       "Description": ""
     },
