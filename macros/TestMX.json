@@ -274,20 +274,20 @@
     },
     {
       "Command": "store",
-      "Target": "${SKU}&${!COL44}",
+      "Target": "${SKU},${!COL44}",
       "Value": "ExpectedPremiumStrings",
       "Description": ""
     },
     {
-      "Command": "if_v2",
-      "Target": "${ExpectedPremiumStrings}==\"\"",
-      "Value": "",
+      "Command": "executeScript",
+      "Target": "return ${ExpectedPremiumStrings}.split(',')",
+      "Value": "ExpectedPremiumArray",
       "Description": ""
     },
     {
-      "Command": "executeScript",
-      "Target": "return [\"\"]",
-      "Value": "ExpectedPremiumArray",
+      "Command": "if_v2",
+      "Target": "${!COL44}==\"\"",
+      "Value": "",
       "Description": ""
     },
     {
@@ -310,13 +310,7 @@
     },
     {
       "Command": "executeScript",
-      "Target": "return ${ExpectedPremiumStrings}.split(',')",
-      "Value": "ExpectedPremiumArray",
-      "Description": ""
-    },
-    {
-      "Command": "executeScript",
-      "Target": "return ${ExpectedPremiumArray}.length",
+      "Target": "return ${ExpectedPremiumArray}.length-1",
       "Value": "ExpectedPremiumCount",
       "Description": ""
     },
