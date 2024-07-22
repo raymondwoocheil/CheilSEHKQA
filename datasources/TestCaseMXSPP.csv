@@ -1,5 +1,5 @@
 MX SPP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Assigned,Test Case,,,,,,,,,,19,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,,Verify / AC >>,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,,EPP store only premiums,,,,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,
+Assigned,Test Case,,,,,,,,,,8,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,,Verify / AC >>,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,,EPP store only premiums,,,,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,
 Tester,ID,Manual Cart,Premiunm Qty,Auto Cart,Auto Checkout,Model,BASE SKU,BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-in,Trade-in-type,Verify extra trade-in rebate,SC+,SC-type,"Verify SC+ 
 in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Product Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass - 1/6 - 17/6,Mass - 1/6 - 17/6,Mass - 1/6 - 17/6,Mass - 1/6 - 17/6,E-Sum - 18/7 - 8/7,Mass but not EPP,Mass but not EPP,1/7- 31/7,1/7- 31/7,,Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)","Verify Expired Premiums 
@@ -9,37 +9,37 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 
 
 "
-19/7,S-SMP-01,,Failed,,,"Galaxy S24 Ultra, 1TB, Titanium Yellow","SM-S9280, 1TB",N,SM-S9280ZYPTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280ZYPTGY,SM-S9280ZYPTGY,"$12,898","$10,576",cptqaer@gmail.com,!Cheil2024,"10,576",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"10,576",,Z-EP-T6530NBEGGB,,,,Z-ITAC13-M,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-ITAC13-M,Z-SM-R400NZWATGY",3,"
+,S-SMP-01,,Failed,,,"Galaxy S24 Ultra, 1TB, Titanium Yellow","SM-S9280, 1TB",N,SM-S9280ZYPTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280ZYPTGY,SM-S9280ZYPTGY,"$12,898","$10,576",cptqaer@gmail.com,!Cheil2024,"10,576",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"10,576",,Z-EP-T6530NBEGGB,,,,Z-ITAC13-M,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-ITAC13-M,Z-SM-R400NZWATGY",3,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",2 x Water World tickets,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-19/7,S-SMP-02,,Failed,,,"Galaxy S24 Ultra, 512GB, Titanium Black","SM-S9280, 512GB",N,SM-S9280ZKHTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280ZKHTGY,SM-S9280ZKHTGY,"$10,898","$8,936",cptqaer@gmail.com,!Cheil2024,"8,936",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"8,936",,Z-EP-T6530NBEGGB,,,,Z-ITAC13-M,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-ITAC13-M,Z-SM-R400NZWATGY",3,"
+,S-SMP-02,,Failed,,,"Galaxy S24 Ultra, 512GB, Titanium Black","SM-S9280, 512GB",N,SM-S9280ZKHTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280ZKHTGY,SM-S9280ZKHTGY,"$10,898","$8,936",cptqaer@gmail.com,!Cheil2024,"8,936",No,S24 Ultra (512GB / 1TB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"8,936",,Z-EP-T6530NBEGGB,,,,Z-ITAC13-M,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-ITAC13-M,Z-SM-R400NZWATGY",3,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-19/7,S-SMP-03,,Failed,,,"Galaxy S24 Ultra, 256GB, Titanium Black","SM-S9280, 256GB",N,SM-S9280ZKGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280ZKGTGY,SM-S9280ZKGTGY,"$9,898","$8,116",cptqaer@gmail.com,!Cheil2024,"8,116",No,S24 Ultra (256 GB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"8,116",,Z-EP-T6530NBEGGB,,,,Z-ITAC13-M,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-ITAC13-M,Z-SM-R400NZWATGY",3,"
+,S-SMP-03,,Failed,,,"Galaxy S24 Ultra, 256GB, Titanium Black","SM-S9280, 256GB",N,SM-S9280ZKGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9280ZKGTGY,SM-S9280ZKGTGY,"$9,898","$8,116",cptqaer@gmail.com,!Cheil2024,"8,116",No,S24 Ultra (256 GB),-,No,S24 Series,-,N/A,S24 Ultra,,-,,,,Add to Cart,"8,116",,Z-EP-T6530NBEGGB,,,,Z-ITAC13-M,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-ITAC13-M,Z-SM-R400NZWATGY",3,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-19/7,S-SMP-04,,Failed,,,"Galaxy S24+, 512GB, Onyx Black","SM-S9260, 512GB",N,SM-S9260ZKGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9260ZKGTGY,SM-S9260ZKGTGY,"$8,598","$7,050",cptqaer@gmail.com,!Cheil2024,"7,050",No,S24+ (512GB),-,No,S24 Series,-,N/A,S24+,,-,,,,Add to Cart,"7,050",,Z-EP-T6530NBEGGB,,,,Z-ITAC13-M,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-ITAC13-M,Z-SM-R400NZWATGY",3,"
+,S-SMP-04,,Failed,,,"Galaxy S24+, 512GB, Onyx Black","SM-S9260, 512GB",N,SM-S9260ZKGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9260ZKGTGY,SM-S9260ZKGTGY,"$8,598","$7,050",cptqaer@gmail.com,!Cheil2024,"7,050",No,S24+ (512GB),-,No,S24 Series,-,N/A,S24+,,-,,,,Add to Cart,"7,050",,Z-EP-T6530NBEGGB,,,,Z-ITAC13-M,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-ITAC13-M,Z-SM-R400NZWATGY",3,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-19/7,S-SMP-05,,Failed,,,"Galaxy S24+, 256GB, Onyx Black","SM-S9260, 256GB",N,SM-S9260ZKDTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9260ZKDTGY,SM-S9260ZKDTGY,"$7,598","$6,230",cptqaer@gmail.com,!Cheil2024,"6,230",No,S24+ (256 GB),-,No,S24 Series,-,N/A,S24+,,-,,,,Add to Cart,"6,230",,Z-EP-T6530NBEGGB,,,,Z-ITAC13-M,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-ITAC13-M,Z-SM-R400NZWATGY",3,"
+,S-SMP-05,,Failed,,,"Galaxy S24+, 256GB, Onyx Black","SM-S9260, 256GB",N,SM-S9260ZKDTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9260ZKDTGY,SM-S9260ZKDTGY,"$7,598","$6,230",cptqaer@gmail.com,!Cheil2024,"6,230",No,S24+ (256 GB),-,No,S24 Series,-,N/A,S24+,,-,,,,Add to Cart,"6,230",,Z-EP-T6530NBEGGB,,,,Z-ITAC13-M,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-ITAC13-M,Z-SM-R400NZWATGY",3,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-19/7,S-SMP-06,,Failed,,,"Galaxy S24, 512GB, Onyx Black","SM-S9210, 512GB",N,SM-S9210ZKHTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9210ZKHTGY,SM-S9210ZKHTGY,"$6,898","$5,656",cptqaer@gmail.com,!Cheil2024,"5,656",No,S24 (512GB),-,No,S24 Series,-,N/A,S24 base,,-,,,,Add to Cart,"5,656",,Z-EP-T6530NBEGGB,,,,Z-ITAC13-M,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-ITAC13-M,Z-SM-R400NZWATGY",3,"
+,S-SMP-06,,Failed,,,"Galaxy S24, 512GB, Onyx Black","SM-S9210, 512GB",N,SM-S9210ZKHTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9210ZKHTGY,SM-S9210ZKHTGY,"$6,898","$5,656",cptqaer@gmail.com,!Cheil2024,"5,656",No,S24 (512GB),-,No,S24 Series,-,N/A,S24 base,,-,,,,Add to Cart,"5,656",,Z-EP-T6530NBEGGB,,,,Z-ITAC13-M,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-ITAC13-M,Z-SM-R400NZWATGY",3,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-19/7,S-SMP-07,,Failed,,,"Galaxy S24, 256GB, Onyx Black","SM-S9210, 256GB",N,SM-S9210ZKGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9210ZKGTGY,SM-S9210ZKGTGY,"$5,898","$4,836",cptqaer@gmail.com,!Cheil2024,"4,836",No,S24 (256 GB),-,No,S24 Series,-,N/A,S24 base,,-,,,,Add to Cart,"4,836",,Z-EP-T6530NBEGGB,,,,Z-ITAC13-M,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-ITAC13-M,Z-SM-R400NZWATGY",3,"
+,S-SMP-07,,Failed,,,"Galaxy S24, 256GB, Onyx Black","SM-S9210, 256GB",N,SM-S9210ZKGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S9210ZKGTGY,SM-S9210ZKGTGY,"$5,898","$4,836",cptqaer@gmail.com,!Cheil2024,"4,836",No,S24 (256 GB),-,No,S24 Series,-,N/A,S24 base,,-,,,,Add to Cart,"4,836",,Z-EP-T6530NBEGGB,,,,Z-ITAC13-M,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-ITAC13-M,Z-SM-R400NZWATGY",3,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
@@ -104,28 +104,28 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ●  1 x  ITFIT Universal Travel Adapter [Z-ITFITPW03]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-19/7,S-SMP-22,,Failed,,,"Galaxy S23 FE 256, Mint","SM-S7110, 256GB",N,SM-S7110LGGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S7110LGGTGY,SM-S7110LGGTGY,"$5,098","$3,824",cptqaer@gmail.com,!Cheil2024,"3,824",No,S23 FE,-,No,S23 FE,-,N/A,S23 FE,,-,,,,Add to Cart,"3,824",,Z-ITFITPW03,,,,Z-ITAC13-M,,,Z-SM-R400NZWATGY,Z-EF-QS711CTEGWW,,"Z-ITFITPW03,Z-ITAC13-M,Z-SM-R400NZWATGY,Z-EF-QS711CTEGWW",4,"
+,S-SMP-22,,Failed,,,"Galaxy S23 FE 256, Mint","SM-S7110, 256GB",N,SM-S7110LGGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-S7110LGGTGY,SM-S7110LGGTGY,"$5,098","$3,824",cptqaer@gmail.com,!Cheil2024,"3,824",No,S23 FE,-,No,S23 FE,-,N/A,S23 FE,,-,,,,Add to Cart,"3,824",,Z-ITFITPW03,,,,Z-ITAC13-M,,,Z-SM-R400NZWATGY,Z-EF-QS711CTEGWW,,"Z-ITFITPW03,Z-ITAC13-M,Z-SM-R400NZWATGY,Z-EF-QS711CTEGWW",4,"
 ●  1 x  ITFIT Universal Travel Adapter [Z-ITFITPW03]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ●  1 x  Galaxy S23 FE Clear Case [Z-EF-QS711CTEGWW]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-19/7,S-SMP-23,,Failed,,,Galaxy A55 5G 12GB 256GB Awesome Iceblue,"SM-A5560, 256GB",N,SM-A5560LBDTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A5560LBDTGY,SM-A5560LBDTGY,"$3,698","$2,958",cptqaer@gmail.com,!Cheil2024,"2,958",No,A55,-,No,,-,,,,-,,,,Add to Cart,"2,958",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,,,Z-EB-P3400XUEGWW,,,"Z-ITFITT10WE,Z-ITFITPW28-M,Z-EB-P3400XUEGWW",3,"
+Price drop 15/7,S-SMP-23,,Failed,,,Galaxy A55 5G 12GB 256GB Awesome Iceblue,"SM-A5560, 256GB",N,SM-A5560LBDTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A5560LBDTGY,SM-A5560LBDTGY,"$3,698","$2,958",cptqaer@gmail.com,!Cheil2024,"2,958",No,A55,-,No,,-,,,,-,,,,Add to Cart,"2,958",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,,,Z-EB-P3400XUEGWW,,,"Z-ITFITT10WE,Z-ITFITPW28-M,Z-EB-P3400XUEGWW",3,"
 ●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-M]
 ●  1 x  10,000mAh Battery Pack P3400 [Z-EB-P3400XUEGWW]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-19/7,S-SMP-24,,Failed,,,Galaxy A55 5G 8GB 128GB Awesome Navy,"SM-A5560, ",N,SM-A5560ZKATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A5560ZKATGY,SM-A5560ZKATGY,"$3,298","$2,638",cptqaer@gmail.com,!Cheil2024,"2,638",No,A55,-,No,A55,-,N/A,A55,,-,,,,Add to Cart,"2,638",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,,,Z-EB-P3400XUEGWW,,,"Z-ITFITT10WE,Z-ITFITPW28-M,Z-EB-P3400XUEGWW",3,"
+Price drop 15/7,S-SMP-24,,Failed,,,Galaxy A55 5G 8GB 128GB Awesome Navy,"SM-A5560, ",N,SM-A5560ZKATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A5560ZKATGY,SM-A5560ZKATGY,"$3,298","$2,638",cptqaer@gmail.com,!Cheil2024,"2,638",No,A55,-,No,A55,-,N/A,A55,,-,,,,Add to Cart,"2,638",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,,,Z-EB-P3400XUEGWW,,,"Z-ITFITT10WE,Z-ITFITPW28-M,Z-EB-P3400XUEGWW",3,"
 ●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-M]
 ●  1 x  10,000mAh Battery Pack P3400 [Z-EB-P3400XUEGWW]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-19/7,S-SMP-25,,Failed,,,Galaxy A35 5G 8GB 256GB Awesome Lilac,"SM-A3560, 256GB",N,SM-A3560LVGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A3560LVGTGY,SM-A3560LVGTGY,"$2,998","$2,398",cptqaer@gmail.com,!Cheil2024,"2,398",No,A35,-,No,,-,,,,-,,,,Add to Cart,"2,398",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,,,Z-EB-P3400XUEGWW,,,"Z-ITFITT10WE,Z-ITFITPW28-M,Z-EB-P3400XUEGWW",3,"
+Price drop 15/7,S-SMP-25,,Failed,,,Galaxy A35 5G 8GB 256GB Awesome Lilac,"SM-A3560, 256GB",N,SM-A3560LVGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A3560LVGTGY,SM-A3560LVGTGY,"$2,998","$2,398",cptqaer@gmail.com,!Cheil2024,"2,398",No,A35,-,No,,-,,,,-,,,,Add to Cart,"2,398",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,,,Z-EB-P3400XUEGWW,,,"Z-ITFITT10WE,Z-ITFITPW28-M,Z-EB-P3400XUEGWW",3,"
 ●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-M]
 ●  1 x  10,000mAh Battery Pack P3400 [Z-EB-P3400XUEGWW]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-19/7,S-SMP-26,,Failed,,,Galaxy A35 5G 8GB 256GB Awesome Iceblue,"SM-A3560, 256GB",N,SM-A3560LBGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A3560LBGTGY,SM-A3560LBGTGY,"$2,998","$2,398",cptqaer@gmail.com,!Cheil2024,"2,398",No,A35,-,No,A35,-,N/A,A35,,-,,,,Add to Cart,"2,398",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,,,Z-EB-P3400XUEGWW,,,"Z-ITFITT10WE,Z-ITFITPW28-M,Z-EB-P3400XUEGWW",3,"
+Price drop 15/7,S-SMP-26,,Failed,,,Galaxy A35 5G 8GB 256GB Awesome Iceblue,"SM-A3560, 256GB",N,SM-A3560LBGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A3560LBGTGY,SM-A3560LBGTGY,"$2,998","$2,398",cptqaer@gmail.com,!Cheil2024,"2,398",No,A35,-,No,A35,-,N/A,A35,,-,,,,Add to Cart,"2,398",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,,,Z-EB-P3400XUEGWW,,,"Z-ITFITT10WE,Z-ITFITPW28-M,Z-EB-P3400XUEGWW",3,"
 ●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-M]
 ●  1 x  10,000mAh Battery Pack P3400 [Z-EB-P3400XUEGWW]
@@ -210,24 +210,24 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
 ,S-SMP-55,,Passed,,,SmartTag2,"EI-T5600, ",N,EI-T5600BBEGWW,https://www.samsung.com/hk/multistore/hkeducation/pd.EI-T5600BBEGWW,EI-T5600BBEGWW,,,cptqaer@gmail.com,!Cheil2024,,No,,-,No,,-,,,,-,,,,Add to Cart,,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-19/7,S-TAB-01,,Failed,,,"Galaxy Tab S9, 8GB+128, Graphite","SM-X710, ",N,SM-X710NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X710NZAATGY,SM-X710NZAATGY,"$6,288","$4,590",cptqaer@gmail.com,!Cheil2024,"4,590",No,Tab S9,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"4,590",,,,,,Z-ITAC13-M,,,Z-EF-DX710UBEGWW,,,"Z-ITAC13-M,Z-EF-DX710UBEGWW",2,"
+,S-TAB-01,,Failed,,,"Galaxy Tab S9, 8GB+128, Graphite","SM-X710, ",N,SM-X710NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X710NZAATGY,SM-X710NZAATGY,"$6,288","$4,590",cptqaer@gmail.com,!Cheil2024,"4,590",No,Tab S9,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"4,590",,,,,,Z-ITAC13-M,,,Z-EF-DX710UBEGWW,,,"Z-ITAC13-M,Z-EF-DX710UBEGWW",2,"
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ●  1 x  Bookcover Keyboard Slim [Z-EF-DX710UBEGWW]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-19/7,S-TAB-02,,Failed,,,"Galaxy Tab S9+, 12GB+256, Graphite","SM-X810, 256GB",N,SM-X810NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X810NZAATGY,SM-X810NZAATGY,"$7,888","$5,758",cptqaer@gmail.com,!Cheil2024,"5,758",No,Tab S9+,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"5,758",,,,,,Z-ITAC13-M,,,Z-EF-DX810UBEGWW,,,"Z-ITAC13-M,Z-EF-DX810UBEGWW",2,"
+,S-TAB-02,,Failed,,,"Galaxy Tab S9+, 12GB+256, Graphite","SM-X810, 256GB",N,SM-X810NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X810NZAATGY,SM-X810NZAATGY,"$7,888","$5,758",cptqaer@gmail.com,!Cheil2024,"5,758",No,Tab S9+,-,No,"Tab S9, S9+",-,N/A,Tab S9 Series,,-,,,,Add to Cart,"5,758",,,,,,Z-ITAC13-M,,,Z-EF-DX810UBEGWW,,,"Z-ITAC13-M,Z-EF-DX810UBEGWW",2,"
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ●  1 x  BookCover Keyboard Slim [Z-EF-DX810UBEGWW]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-19/7,S-TAB-03,,Failed,,,"Galaxy Tab S9 Ultra, 12GB+256, Graphite","SM-X910, 256GB",N,SM-X910NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X910NZAATGY,SM-X910NZAATGY,"$9,688","$6,782",cptqaer@gmail.com,!Cheil2024,"6,782",No,Tab S9 Ultra,-,No,Tab S9 Ultra,-,N/A,Tab S9 Series,,-,,,,Add to Cart,"6,782",,,,,,Z-ITAC13-M,,,Z-EF-DX910UBEGWW,,,"Z-ITAC13-M,Z-EF-DX910UBEGWW",2,"
+,S-TAB-03,,Failed,,,"Galaxy Tab S9 Ultra, 12GB+256, Graphite","SM-X910, 256GB",N,SM-X910NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X910NZAATGY,SM-X910NZAATGY,"$9,688","$6,782",cptqaer@gmail.com,!Cheil2024,"6,782",No,Tab S9 Ultra,-,No,Tab S9 Ultra,-,N/A,Tab S9 Series,,-,,,,Add to Cart,"6,782",,,,,,Z-ITAC13-M,,,Z-EF-DX910UBEGWW,,,"Z-ITAC13-M,Z-EF-DX910UBEGWW",2,"
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ●  1 x  Galaxy Tab S9 Ultra Book Cover Keyboard Slim [Z-EF-DX910UBEGWW]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-19/7,S-TAB-04,,Failed,,,"Galaxy Tab S9 FE, Wi-Fi, MINT","SM-X510, ",N,SM-X510NLGATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X510NLGATGY,SM-X510NLGATGY,"$3,588","$2,691",cptqaer@gmail.com,!Cheil2024,"2,691",No,Tab S9 FE,-,No,Tab S9 FE,-,N/A,Tab S9 FE series,,-,,,,Add to Cart,"2,691",,Z-ITFITCS9FEGY,,Z-ITFITT10WE,,Z-ITAC13-M,,,,,,"Z-ITFITCS9FEGY,Z-ITFITT10WE,Z-ITAC13-M",3,"
+,S-TAB-04,,Failed,,,"Galaxy Tab S9 FE, Wi-Fi, MINT","SM-X510, ",N,SM-X510NLGATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X510NLGATGY,SM-X510NLGATGY,"$3,588","$2,691",cptqaer@gmail.com,!Cheil2024,"2,691",No,Tab S9 FE,-,No,Tab S9 FE,-,N/A,Tab S9 FE series,,-,,,,Add to Cart,"2,691",,Z-ITFITCS9FEGY,,Z-ITFITT10WE,,Z-ITAC13-M,,,,,,"Z-ITFITCS9FEGY,Z-ITFITT10WE,Z-ITAC13-M",3,"
 ●  1 x  ITFIT Bookcover [Z-ITFITCS9FEGY]
 ●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-19/7,S-TAB-05,,Failed,,,"Galaxy Tab S9 FE+, Wi-Fi, MINT","SM-X610, ",N,SM-X610NLGATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X610NLGATGY,SM-X610NLGATGY,"$4,788","$3,591",cptqaer@gmail.com,!Cheil2024,"3,591",No,Tab S9 FE +,-,No,Tab S9 FE+,-,N/A,Tab S9 FE series,,-,,,,Add to Cart,"3,591",,Z-ITFITCS9FEPGY,,Z-ITFITT10WE,,Z-ITAC13-M,,,,,,"Z-ITFITCS9FEPGY,Z-ITFITT10WE,Z-ITAC13-M",3,"
+,S-TAB-05,,Failed,,,"Galaxy Tab S9 FE+, Wi-Fi, MINT","SM-X610, ",N,SM-X610NLGATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X610NLGATGY,SM-X610NLGATGY,"$4,788","$3,591",cptqaer@gmail.com,!Cheil2024,"3,591",No,Tab S9 FE +,-,No,Tab S9 FE+,-,N/A,Tab S9 FE series,,-,,,,Add to Cart,"3,591",,Z-ITFITCS9FEPGY,,Z-ITFITT10WE,,Z-ITAC13-M,,,,,,"Z-ITFITCS9FEPGY,Z-ITFITT10WE,Z-ITAC13-M",3,"
 ●  1 x  ITFIT Bookcover [Z-ITFITCS9FEPGY]
 ●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
@@ -238,30 +238,29 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ,S-TAB-07,,Failed,,,Galaxy Tab Active 5,"SM-X306B, ",N,SM-X306BZGATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X306BZGATGY,SM-X306BZGATGY,,,cptqaer@gmail.com,!Cheil2024,,No,,-,No,Tab Active 5,-,N/A,,,-,,,,Add to Cart,,,Z-ITFITPW03,,,,,,,,,,Z-ITFITPW03,1,"
 ●  1 x  ITFIT Universal Travel Adapter [Z-ITFITPW03]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-TAB-08,,Failed,,,Galaxy Tab S6 Lite (2024) Wi-Fi Oxford Gray,"SM-P620, ",N,SM-P620NZAETGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-P620NZAETGY,SM-P620NZAETGY,"$2,588","$2,200",cptqaer@gmail.com,!Cheil2024,"2,200",No,Tab S6 Lite (2024 edition),-,No,Tab S6 Lite,-,N/A,,,-,,,,Add to Cart,"2,200",,Z-ITFITBKCS6LGY,Z-ITFITS6LCGY1,Z-ITFITEX41,,,,,,,,"Z-ITFITBKCS6LGY,Z-ITFITS6LCGY1,Z-ITFITEX41",3,"
+,S-TAB-08,,Failed,,,Galaxy Tab S6 Lite (2024) Wi-Fi Oxford Gray,"SM-P620, ",N,SM-P620NZAETGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-P620NZAETGY,SM-P620NZAETGY,"$2,588","$2,200",cptqaer@gmail.com,!Cheil2024,"2,200",No,Tab S6 Lite (2024 edition),-,No,Tab S6 Lite,-,N/A,,,-,,,,Add to Cart,"2,200",,Z-ITFITBKCS6LGY,,Z-ITFITEX41,,,,,,,,"Z-ITFITBKCS6LGY,Z-ITFITEX41",2,"
 ●  1 x  ITFIT Book Cover [Z-ITFITBKCS6LGY]
-●  1 x  S6 Lite Multi-Fold Book Cover [Z-ITFITS6LCGY1]
 ●  1 x  ITFIT Travel Kit [Z-ITFITEX41]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-NPC-01,,Failed,,,"Galaxy Book4 Uitra 16""/i9/64GB/2TB/RTX4070","NP960XGLZ-EXP, ",N,NP960XGL-XG1HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960XGL-XG1HK,NP960XGL-XG1HK,"$24,980","$19,984",cptqaer@gmail.com,!Cheil2024,"19,984",No,Book4 Ultra,-,No,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,Add to Cart,"19,984",,Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X510NLGATGY-M,,,,,Z-ITFITEX43,,,"Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X510NLGATGY-M,Z-ITFITEX43",4,"
+Premium 15/7,S-NPC-01,,Failed,,,"Galaxy Book4 Uitra 16""/i9/64GB/2TB/RTX4070","NP960XGLZ-EXP, ",N,NP960XGL-XG1HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960XGL-XG1HK,NP960XGL-XG1HK,"$24,980","$19,984",cptqaer@gmail.com,!Cheil2024,"19,984",No,Book4 Ultra,-,No,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,Add to Cart,"19,984",,Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X510NLGATGY-M,,,,,Z-ITFITEX43,,,"Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X510NLGATGY-M,Z-ITFITEX43",4,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Book3 Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
 ●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-M]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-NPC-02,,Failed,,,"Galaxy Book4 Pro 360 16""/i7/32GB/1TB","NP960QGKA-EXP, 1TB",N,NP960QGK-KS3HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960QGK-KS3HK,NP960QGK-KS3HK,"$16,980","$13,584",cptqaer@gmail.com,!Cheil2024,"13,584",No,Book4 Pro 360,-,No,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,Add to Cart,"13,584",,Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X510NLGATGY-M,,,,,Z-ITFITEX43,,,"Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X510NLGATGY-M,Z-ITFITEX43",4,"
+Premium 15/7,S-NPC-02,,Failed,,,"Galaxy Book4 Pro 360 16""/i7/32GB/1TB","NP960QGKA-EXP, 1TB",N,NP960QGK-KS3HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960QGK-KS3HK,NP960QGK-KS3HK,"$16,980","$13,584",cptqaer@gmail.com,!Cheil2024,"13,584",No,Book4 Pro 360,-,No,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,Add to Cart,"13,584",,Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X510NLGATGY-M,,,,,Z-ITFITEX43,,,"Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X510NLGATGY-M,Z-ITFITEX43",4,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Book3 Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
 ●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-M]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-NPC-03,,Failed,,,"Galaxy Book4 Pro 16""/i7/32GB/1TB","NP960XGKA-EXP, 1TB",N,NP960XGK-KS5HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960XGK-KS5HK,NP960XGK-KS5HK,"$15,680","$12,544",cptqaer@gmail.com,!Cheil2024,"12,544",No,Book4 Pro,-,No,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,Add to Cart,"12,544",,Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X210NZAATGY,,,,,Z-ITFITEX43,,,"Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X210NZAATGY,Z-ITFITEX43",4,"
+Premium 15/7,S-NPC-03,,Failed,,,"Galaxy Book4 Pro 16""/i7/32GB/1TB","NP960XGKA-EXP, 1TB",N,NP960XGK-KS5HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960XGK-KS5HK,NP960XGK-KS5HK,"$15,680","$12,544",cptqaer@gmail.com,!Cheil2024,"12,544",No,Book4 Pro,-,No,Book Tier 4: Premium (RRP >=$15000),-,N/A,,,-,,,,Add to Cart,"12,544",,Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X210NZAATGY,,,,,Z-ITFITEX43,,,"Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X210NZAATGY,Z-ITFITEX43",4,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Book3 Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
 ●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZAATGY]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-NPC-04,,Failed,,,"Galaxy Book4 Pro 14""/i7/32GB/1TB","NP940XGKA-EXP, 1TB",N,NP940XGK-KS3HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP940XGK-KS3HK,NP940XGK-KS3HK,"$14,980","$11,984",cptqaer@gmail.com,!Cheil2024,"11,984",No,Book4 Pro,-,No,Book Tier 3: High (RRP $12000-$14999),-,N/A,,,-,,,,Add to Cart,"11,984",,Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X210NZAATGY,,,,,Z-ITFITEX43,,,"Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X210NZAATGY,Z-ITFITEX43",4,"
+Premium 15/7,S-NPC-04,,Failed,,,"Galaxy Book4 Pro 14""/i7/32GB/1TB","NP940XGKA-EXP, 1TB",N,NP940XGK-KS3HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP940XGK-KS3HK,NP940XGK-KS3HK,"$14,980","$11,984",cptqaer@gmail.com,!Cheil2024,"11,984",No,Book4 Pro,-,No,Book Tier 3: High (RRP $12000-$14999),-,N/A,,,-,,,,Add to Cart,"11,984",,Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X210NZAATGY,,,,,Z-ITFITEX43,,,"Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X210NZAATGY,Z-ITFITEX43",4,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Book3 Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
 ●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZAATGY]
@@ -275,12 +274,12 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-19/7,S-NPC-07,,Failed,,,"Galaxy Book4 Edge, 16""/X1E-84/16GB/1TB, Sapphire Blue","NP960XMBA-EXP, 1TB",N,NP960XMB-KB1HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960XMB-KB1HK,NP960XMB-KB1HK,"$14,680","$12,918",cptqaer@gmail.com,!Cheil2024,"12,918",No,Book4 Edge,-,No,,-,,,,-,,,,Add to Cart,"12,918",,Z-SM-A1560ZKGTGY,,,,Z-ITAC13-M,,,Z-ITFITEX43,,,"Z-SM-A1560ZKGTGY,Z-ITAC13-M,Z-ITFITEX43",3,"
+,S-NPC-07,,Failed,,,"Galaxy Book4 Edge, 16""/X1E-84/16GB/1TB, Sapphire Blue","NP960XMBA-EXP, 1TB",N,NP960XMB-KB1HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP960XMB-KB1HK,NP960XMB-KB1HK,"$14,680","$12,918",cptqaer@gmail.com,!Cheil2024,"12,918",No,Book4 Edge,-,No,,-,,,,-,,,,Add to Cart,"12,918",,Z-SM-A1560ZKGTGY,,,,Z-ITAC13-M,,,Z-ITFITEX43,,,"Z-SM-A1560ZKGTGY,Z-ITAC13-M,Z-ITFITEX43",3,"
 ●  1 x  Galaxy A15 5G, Black [Z-SM-A1560ZKGTGY]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-19/7,S-NPC-08,,Failed,,,"Galaxy Book4 Edge, 14""/X1E-80/16GB/512GB, Sapphire Blue","NP940XMAA-EXP, 512GB",N,NP940XMA-KB1HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP940XMA-KB1HK,NP940XMA-KB1HK,"$11,980","$10,542",cptqaer@gmail.com,!Cheil2024,"10,542",No,Book4 Edge,-,No,,-,,,,-,,,,Add to Cart,"10,542",,Z-SM-A1560ZKGTGY,,,,Z-ITAC13-M,,,Z-ITFITEX43,,,"Z-SM-A1560ZKGTGY,Z-ITAC13-M,Z-ITFITEX43",3,"
+,S-NPC-08,,Failed,,,"Galaxy Book4 Edge, 14""/X1E-80/16GB/512GB, Sapphire Blue","NP940XMAA-EXP, 512GB",N,NP940XMA-KB1HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP940XMA-KB1HK,NP940XMA-KB1HK,"$11,980","$10,542",cptqaer@gmail.com,!Cheil2024,"10,542",No,Book4 Edge,-,No,,-,,,,-,,,,Add to Cart,"10,542",,Z-SM-A1560ZKGTGY,,,,Z-ITAC13-M,,,Z-ITFITEX43,,,"Z-SM-A1560ZKGTGY,Z-ITAC13-M,Z-ITFITEX43",3,"
 ●  1 x  Galaxy A15 5G, Black [Z-SM-A1560ZKGTGY]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ●  1 x  ITFIT Pocket-sized Massage Gun [Z-ITFITEX43]
@@ -304,95 +303,3 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ,S-NPC-13,,Failed,,,"Galaxy Book3 360, 15.6""/i5/16GB/512GB, Silver","NP750QFGA-EXP, 512GB",N,NP750QFG-KB1HK,https://www.samsung.com/hk/multistore/hkeducation/pd.NP750QFG-KB1HK,NP750QFG-KB1HK,,,cptqaer@gmail.com,!Cheil2024,,No,Book3 360,-,No,Book Tier 2: Mid (RRP $7000-11999),-,N/A,,,-,,,,Add to Cart,,,Z-SM-R177NZWAASA,,,,,,,,,,Z-SM-R177NZWAASA,1,"
 ●  1 x  Galaxy Buds2 [Z-SM-R177NZWAASA]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,,,Passed,,,,,,,,,,,,,,,,-,,,-,,,,-,,,,,,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
