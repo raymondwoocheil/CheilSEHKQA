@@ -1,12 +1,12 @@
 CE SPP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Assigned,Test Case,,,,,,,,,,38,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,,,,,,,,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,,eStore premiums,,,,Total,Verify / AC >>,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,
+Assigned,Test Case,,,,,,,,,,67,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,,,,,,,,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,,eStore premiums,,,,Total,Verify / AC >>,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,
 Tester,ID,Manual Cart,Manual Checkout,Auto Cart,Auto Checkout,Model,FAMILY,BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-up,Trade-up-discount,Verify trade-up discount,,,,,,,,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,,,,,,,,eStore premiums,,,Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,Guest Email,Select City,Select District,Select Service,Verify Expected Delivery Date,Verify Delivery Cost,Checkout Page Result,Screencap,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,Line No.,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,Extra Trade-In Rebate label,Trade-In Rebate captured,Trade-In Rebate result,SC+ label,SC+ captured,SC+ result,Premium SKU count,Count captured,Premium SKU count result,Failed reason,Items in Cart,SKU 1,Qty,,SKU 2,Qty,,SKU 3,Qty,,SKU 4,Qty,,SKU 5,Qty,,SKU 6,Qty,,SKU 7,Qty,,SKU 8,Qty,,SKU 9,Qty,,SKU 10,Qty,,Qty Total,Qty Total Result,Premium Array,Final Result,Test duration (s),,Cart Page Result,Cart Page Result,
 0,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,eStore premiums,,,eStore premiums,#N/A,#N/A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,#N/A,,,,,,,"
 
 
 "
-,S-CTV-01,,,,,"32"" The Frame LS03C",The Frame LS03D,N,QA32LS03CBJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA32LS03CBJXZK,QA32LS03CBJXZK,"5,980","5,263",cptqaer+2@gmail.com,!Cheil2024,5263,No,100,0,,,,,,,,,,,Add to Cart,"5,263",,Z-VG-SCFC32SGMXY,Z-ARTSTORE6MTHS,,,,,,,,,"Z-VG-SCFC32SGMXY,Z-ARTSTORE6MTHS",2,"
+TV,S-CTV-01,,,,,"32"" The Frame LS03C",The Frame LS03D,N,QA32LS03CBJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA32LS03CBJXZK,QA32LS03CBJXZK,"5,980","5,263",cptqaer+2@gmail.com,!Cheil2024,5263,No,100,0,,,,,,,,,,,Add to Cart,"5,263",,Z-VG-SCFC32SGMXY,Z-ARTSTORE6MTHS,,,,,,,,,"Z-VG-SCFC32SGMXY,Z-ARTSTORE6MTHS",2,"
 ●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
 ●  1 x  Free 6-months Art Store subscription [Z-ARTSTORE6MTHS]
 ",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
@@ -20,7 +20,7 @@ Tester,ID,Manual Cart,Manual Checkout,Auto Cart,Auto Checkout,Model,FAMILY,BC-Bu
 ,S-CTV-04,,,,,"43"" The Sero LS05B",The Sero 2022,EOL,QA43LS05BAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA43LS05BAJXZK,QA43LS05BAJXZK,"12,980","11,423",cptqaer+2@gmail.com,!Cheil2024,"11,423",No,0,0,,,,,,,,,,,Add to Cart,"11,423",,Z-VG-SCST43V/ZK,,,,,,,,,,Z-VG-SCST43V/ZK,1,"
 ●  1 x  The Sero Wheel VG-SCST43V [Z-VG-SCST43V/ZK]
 ",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-CTV-05,,,,,"43"" The Sero LS05B 白色",The Sero LS05BB,N,QA43LS05BBJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA43LS05BBJXZK,QA43LS05BBJXZK,"12,980","11,423",cptqaer+2@gmail.com,!Cheil2024,"11,423",No,100,0,,,,,,,,,,,Add to Cart,"11,423",,Z-VG-SCST43V/ZK,,,,,,,,,,Z-VG-SCST43V/ZK,1,"
+TV,S-CTV-05,,,,,"43"" The Sero LS05B 白色",The Sero LS05BB,N,QA43LS05BBJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA43LS05BBJXZK,QA43LS05BBJXZK,"12,980","11,423",cptqaer+2@gmail.com,!Cheil2024,"11,423",No,100,0,,,,,,,,,,,Add to Cart,"11,423",,Z-VG-SCST43V/ZK,,,,,,,,,,Z-VG-SCST43V/ZK,1,"
 ●  1 x  The Sero Wheel VG-SCST43V [Z-VG-SCST43V/ZK]
 ",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
 ,S-CTV-06,,,,,"43"" QLED 4K Q60C",QLED 4K Q60C,EOL,QA43Q60CAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA43Q60CAJXZK,QA43Q60CAJXZK,"5,980","4,207",cptqaer+2@gmail.com,!Cheil2024,4207,No,0,0,,,,,,,,,,,Add to Cart,"4,207",,,,,,,,,,,,,0,"
@@ -127,14 +127,14 @@ Tester,ID,Manual Cart,Manual Checkout,Auto Cart,Auto Checkout,Model,FAMILY,BC-Bu
 ●  1 x  Full Motion Slim Fit TV Wallmount with installation [Z-WMN-B30FB/RU]
 ●  1 x  Q-series HW-Q700C 3.1.2ch Soundbar [Z-HW-Q700C/ZK]
 ",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-CTV-35,,,,,"98"" QLED 4K Q80C",QLED 4K Q80C,N,QA98Q80CAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA98Q80CAJXZK,QA98Q80CAJXZK,"79,980","70,383",cptqaer+2@gmail.com,!Cheil2024,"70,383",No,"4,000",0,,,,,,,,,,,Add to Cart,"70,383",,Z-WMN8000SX/XY,Z-HW-Q930C/ZK,,,,,,,,,"Z-WMN8000SX/XY,Z-HW-Q930C/ZK",2,"
+TV,S-CTV-35,,,,,"98"" QLED 4K Q80C",QLED 4K Q80C,N,QA98Q80CAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA98Q80CAJXZK,QA98Q80CAJXZK,"79,980","70,383",cptqaer+2@gmail.com,!Cheil2024,"70,383",No,"4,000",0,,,,,,,,,,,Add to Cart,"70,383",,Z-WMN8000SX/XY,Z-HW-Q930C/ZK,,,,,,,,,"Z-WMN8000SX/XY,Z-HW-Q930C/ZK",2,"
 ●  1 x  TV Wall mount (WMN8000SX) [Z-WMN8000SX/XY]
 ●  1 x  Q-series HW-Q930C 9.1.4ch Soundbar [Z-HW-Q930C/ZK]
 ",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-CTV-36,,,,,"98"" Neo QLED 8K QN990C",Neo QLED 8K QN900C,N,QA98QN990CJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA98QN990CJXZK,QA98QN990CJXZK,"310,980","246,383",cptqaer+2@gmail.com,!Cheil2024,246383,No,"10,000",0,,,,,,,,,,,Add to Cart,"246,383",,Z-WMN8000SX/XY,,,,,,,,,,Z-WMN8000SX/XY,1,"
+TV,S-CTV-36,,,,,"98"" Neo QLED 8K QN990C",Neo QLED 8K QN900C,N,QA98QN990CJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA98QN990CJXZK,QA98QN990CJXZK,"310,980","246,383",cptqaer+2@gmail.com,!Cheil2024,246383,No,"10,000",0,,,,,,,,,,,Add to Cart,"246,383",,Z-WMN8000SX/XY,,,,,,,,,,Z-WMN8000SX/XY,1,"
 ●  1 x  TV Wall mount (WMN8000SX) [Z-WMN8000SX/XY]
 ",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-CTV-37,,,,,"32"" T5300 FHD Smart TV",FHD Smart TV T5300,N,UA32T5300AJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA32T5300AJXZK,UA32T5300AJXZK,"3,580","2,309",cptqaer+2@gmail.com,!Cheil2024,2309,No,50,0,,,,,,,,,,,Add to Cart,"2,309",,,,,,,,,,,,,0,"
+TV,S-CTV-37,,,,,"32"" T5300 FHD Smart TV",FHD Smart TV T5300,N,UA32T5300AJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA32T5300AJXZK,UA32T5300AJXZK,"3,580","2,309",cptqaer+2@gmail.com,!Cheil2024,2309,No,50,0,,,,,,,,,,,Add to Cart,"2,309",,,,,,,,,,,,,0,"
 ",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
 ,S-CTV-38,,,,,"43"" Crystal UHD CU7700",Crystal UHD 4K CU7700,EOL,UA43CU7700JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA43CU7700JXZK,UA43CU7700JXZK,"4,980","3,503",cptqaer+2@gmail.com,!Cheil2024,3503,No,0,0,,,,,,,,,,,Add to Cart,"3,503",,,,,,,,,,,,,0,"
 ",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
@@ -154,7 +154,7 @@ Tester,ID,Manual Cart,Manual Checkout,Auto Cart,Auto Checkout,Model,FAMILY,BC-Bu
 ",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
 ,S-CTV-46,,,,,"65"" Crystal UHD CU8000",Crystal UHD 4K CU8000,EOL,UA65CU8000JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA65CU8000JXZK,UA65CU8000JXZK,"14,980","10,543",cptqaer+2@gmail.com,!Cheil2024,"10,543",No,0,0,,,,,,,,,,,Add to Cart,"10,543",,,,,,,,,,,,,0,"
 ",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,S-CTV-47,,,,,The Freestyle 2nd Gen,The Freestyle 2nd Gen.,N,SP-LFF3CLAXXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.SP-LFF3CLAXXZK,SP-LFF3CLAXXZK,"6,980","4,784",cptqaer+2@gmail.com,!Cheil2024,4784,No,100,0,,,,,,,,,,,Add to Cart,"4,784",,Z-VG-FBB3BA/XY,Z-ITFITSD05,,,,,,,,,"Z-VG-FBB3BA/XY,Z-ITFITSD05",2,"
+TV,S-CTV-47,,,,,The Freestyle 2nd Gen,The Freestyle 2nd Gen.,N,SP-LFF3CLAXXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.SP-LFF3CLAXXZK,SP-LFF3CLAXXZK,"6,980","4,784",cptqaer+2@gmail.com,!Cheil2024,4784,No,100,0,,,,,,,,,,,Add to Cart,"4,784",,Z-VG-FBB3BA/XY,Z-ITFITSD05,,,,,,,,,"Z-VG-FBB3BA/XY,Z-ITFITSD05",2,"
 ●  1 x  The Freestyle Battery Base [Z-VG-FBB3BA/XY]
 ●  1 x  Freestyle Projector Stand [Z-ITFITSD05]
 ",,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
@@ -292,9 +292,8 @@ Tester,ID,Manual Cart,Manual Checkout,Auto Cart,Auto Checkout,Model,FAMILY,BC-Bu
 ",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
 ,S-HTS-13,,,,,SWA-9200S 無線後置喇叭,,N,SWA-9200S/ZK,https://www.samsung.com/hk/multistore/hkeducation/pd.SWA-9200SZK,SWA-9200S/ZK,"1,090",845,cptqaer+2@gmail.com,!Cheil2024,845,N/A,0,0,,,,,,,,,,,Add to Cart,845,,,,,,,,,,,,,0,"
 ",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,S-HTS-14,,,,,SWA-9500S 無線後置喇叭,,N,SWA-9500S/ZK,https://www.samsung.com/hk/multistore/hkeducation/pd.SWA-9500SZK,SWA-9500S/ZK,"2,190","1,697",cptqaer+2@gmail.com,!Cheil2024,1697,N/A,0,0,,,,,,,,,,,Add to Cart,"1,697",,Z-HW-S800B/ZK,,,,,,,,,,Z-HW-S800B/ZK,1,"
-●  1 x  S-Series HW-S800B 3.1.2ch Soundbar [Z-HW-S800B/ZK]
-",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
+,S-HTS-14,,,,,SWA-9500S 無線後置喇叭,,N,SWA-9500S/ZK,https://www.samsung.com/hk/multistore/hkeducation/pd.SWA-9500SZK,SWA-9500S/ZK,"2,190","1,697",cptqaer+2@gmail.com,!Cheil2024,1697,N/A,0,0,,,,,,,,,,,Add to Cart,"1,697",,,,,,,,,,,,,0,"
+",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
 ,S-MON-01,,,,,"27"" Odyssey G5 Curved Gaming Monitor (165Hz)",,N,LS27CG552ECXXK,https://www.samsung.com/hk/multistore/hkeducation/pd.LS27CG552ECXXK,LS27CG552ECXXK,"2,280","1,546",cptqaer+2@gmail.com,!Cheil2024,1546,N/A,0,0,,,,,,,,,,,Add to Cart,"1,546",,,,,,,,,,,,,0,"
 ",,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
 ,S-MON-02,,,,,"32"" Odyssey G5 Curved Gaming Monitor (165Hz)",,N,LS32CG552ECXXK,https://www.samsung.com/hk/multistore/hkeducation/pd.LS32CG552ECXXK,LS32CG552ECXXK,"2,680","1,822",cptqaer+2@gmail.com,!Cheil2024,1822,N/A,0,0,,,,,,,,,,,Add to Cart,"1,822",,,,,,,,,,,,,0,"
@@ -444,10 +443,10 @@ Tester,ID,Manual Cart,Manual Checkout,Auto Cart,Auto Checkout,Model,FAMILY,BC-Bu
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul8,S-REF-23,,,,,RS63R5597B4/SH SpaceMax™ Side by Side Refrigerator 630L Black,,N,RS63R5597B4/SH,https://www.samsung.com/hk/multistore/hkeducation/pd.RS63R5597B4SH,RS63R5597B4/SH,"15,500","11,951",cptqaer+2@gmail.com,!Cheil2024,"11,951",,400,0,,,,,,,,,,,Add to Cart,"11,951",,Z-VS20C852CTN/SH-C,,,,,,,,,,Z-VS20C852CTN/SH-C,1,"
+,S-REF-23,,,,,RS63R5597B4/SH SpaceMax™ Side by Side Refrigerator 630L Black,,N,RS63R5597B4/SH,https://www.samsung.com/hk/multistore/hkeducation/pd.RS63R5597B4SH,RS63R5597B4/SH,"15,500","11,951",cptqaer+2@gmail.com,!Cheil2024,"11,951",,400,0,,,,,,,,,,,Add to Cart,"11,951",,Z-VS20C852CTN/SH-C,,,,,,,,,,Z-VS20C852CTN/SH-C,1,"
 ●  1 x  VS20C852CTNSH Jet85 Stick VC Woody Green1 [Z-VS20C852CTN/SH-C]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul8,S-REF-24,,,,,RS64R5337B4/SH Side by Side Refrigerator 617L,,N,RS64R5337B4/SH,https://www.samsung.com/hk/multistore/hkeducation/pd.RS64R5337B4SH,RS64R5337B4/SH,"15,900","14,628",cptqaer+2@gmail.com,!Cheil2024,"14,628",,500,0,,,,,,,,,,,Add to Cart,"14,628",,Z-VS20C852CTN/SH-C,,,,,,,,,,Z-VS20C852CTN/SH-C,1,"
+,S-REF-24,,,,,RS64R5337B4/SH Side by Side Refrigerator 617L,,N,RS64R5337B4/SH,https://www.samsung.com/hk/multistore/hkeducation/pd.RS64R5337B4SH,RS64R5337B4/SH,"15,900","14,628",cptqaer+2@gmail.com,!Cheil2024,"14,628",,500,0,,,,,,,,,,,Add to Cart,"14,628",,Z-VS20C852CTN/SH-C,,,,,,,,,,Z-VS20C852CTN/SH-C,1,"
 ●  1 x  VS20C852CTNSH Jet85 Stick VC Woody Green1 [Z-VS20C852CTN/SH-C]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
 ,S-REF-25,,,,,BESPOKE Bottom Mount Freezer 340L (Panel Not Included),,N,RZ24A5470AP/SH,https://www.samsung.com/hk/multistore/hkeducation/pd.RZ24A5470APSH,RZ24A5470AP/SH,"11,630","11,022",cptqaer+2@gmail.com,!Cheil2024,"11,022",,0,0,,,,,,,,,,,Add to Cart,"11,022",,,,,,,,,,,,,0,"
@@ -610,147 +609,147 @@ Brief-Jul8,S-REF-24,,,,,RS64R5337B4/SH Side by Side Refrigerator 617L,,N,RS64R53
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
 ,S-VCA-06,,,,,BESPOKE Jet™ Clean Station Antibacterial Dust Bag (5ea),,N,VCA-ADB952,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-ADB952,VCA-ADB952,200,184,cptqaer+2@gmail.com,!Cheil2024,184,,0,0,,,,,,,,,,,Add to Cart,184,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,S-CTV-48,,,,,"98"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA98QN90DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA98QN90DAJXZK,QA98QN90DAJXZK,"129,980","114,383",cptqaer+2@gmail.com,!Cheil2024,"114,383",,"2,000",0,,,,,,,,,,,Add to Cart,"114,383",,Z-WMN8000SX/XY,Z-QA43LS01BAJXZK,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN8000SX/XY,Z-QA43LS01BAJXZK,ZG-FREE1YRWAREXT",3,"
+TV,S-CTV-48,,,,,"98"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA98QN90DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA98QN90DAJXZK,QA98QN90DAJXZK,"129,980","114,383",cptqaer+2@gmail.com,!Cheil2024,"114,383",,"2,000",0,,,,,,,,,,,Add to Cart,"114,383",,Z-WMN8000SX/XY,Z-QA43LS01BAJXZK,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN8000SX/XY,Z-QA43LS01BAJXZK,ZG-FREE1YRWAREXT",3,"
 ●  1 x  TV Wall mount (WMN8000SX) [Z-WMN8000SX/XY]
 ●  1 x  43” The Serif LS01B [Z-QA43LS01BAJXZK]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-CTV-49,,,,,"85"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA85QN900DJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA85QN900DJXZK,QA85QN900DJXZK,"149,980","105,583",cptqaer+2@gmail.com,!Cheil2024,"105,583",,"2,000",0,,,,,,,,,,,Add to Cart,"105,583",,Z-WMN-B30FB/RU,Z-SM-S9280ZTGT-CTV,Z-QA43LS01BAJXZK,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B30FB/RU,Z-SM-S9280ZTGT-CTV,Z-QA43LS01BAJXZK,ZG-FREE1YRWAREXT",4,"
+TV,S-CTV-49,,,,,"85"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA85QN900DJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA85QN900DJXZK,QA85QN900DJXZK,"149,980","105,583",cptqaer+2@gmail.com,!Cheil2024,"105,583",,"2,000",0,,,,,,,,,,,Add to Cart,"105,583",,Z-WMN-B30FB/RU,Z-SM-S9280ZTGT-CTV,Z-QA43LS01BAJXZK,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B30FB/RU,Z-SM-S9280ZTGT-CTV,Z-QA43LS01BAJXZK,ZG-FREE1YRWAREXT",4,"
 ●  1 x  Full Motion Slim Fit TV Wallmount with installation [Z-WMN-B30FB/RU]
 ●  1 x  Galaxy S24 Ultra, 256GB, Titanium Gray [Z-SM-S9280ZTGT-CTV]
 ●  1 x  43” The Serif LS01B [Z-QA43LS01BAJXZK]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-50,,,,,"83"" OLED S90DAE",OLED 4K S90D,N,QA83S90DAEXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA83S90DAEXZK,QA83S90DAEXZK,"85,480","75,223",cptqaer+2@gmail.com,!Cheil2024,"75,223",,"2,000",0,,,,,,,,,,,Add to Cart,"75,223",,Z-WMN-B16FB/XY,Z-QA43LS01BAJXZK,Z-SM-S9210ZVGT-CTV,,,,,,,,"Z-WMN-B16FB/XY,Z-QA43LS01BAJXZK,Z-SM-S9210ZVGT-CTV",3,"
+TV,S-CTV-50,,,,,"83"" OLED S90DAE",OLED 4K S90D,N,QA83S90DAEXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA83S90DAEXZK,QA83S90DAEXZK,"85,480","75,223",cptqaer+2@gmail.com,!Cheil2024,"75,223",,"2,000",0,,,,,,,,,,,Add to Cart,"75,223",,Z-WMN-B16FB/XY,Z-QA43LS01BAJXZK,Z-SM-S9210ZVGT-CTV,,,,,,,,"Z-WMN-B16FB/XY,Z-QA43LS01BAJXZK,Z-SM-S9210ZVGT-CTV",3,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  43” The Serif LS01B [Z-QA43LS01BAJXZK]
 ●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-51,,,,,"77"" OLED S95D",OLED 4K S95D,N,QA77S95DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA77S95DAJXZK,QA77S95DAJXZK,"79,480","61,583",cptqaer+2@gmail.com,!Cheil2024,"61,583",,"2,000",0,,,,,,,,,,,Add to Cart,"61,583",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-SM-S9210ZVGT-CTV,,,,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-SM-S9210ZVGT-CTV",4,"
+TV,S-CTV-51,,,,,"77"" OLED S95D",OLED 4K S95D,N,QA77S95DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA77S95DAJXZK,QA77S95DAJXZK,"79,480","61,583",cptqaer+2@gmail.com,!Cheil2024,"61,583",,"2,000",0,,,,,,,,,,,Add to Cart,"61,583",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-SM-S9210ZVGT-CTV,,,,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-SM-S9210ZVGT-CTV",4,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
 ●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
 ●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-52,,,,,"77"" OLED S90DAE",OLED 4K S90D,N,QA77S90DAEXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA77S90DAEXZK,QA77S90DAEXZK,"55,480","47,503",cptqaer+2@gmail.com,!Cheil2024,"47,503",,"2,000",0,,,,,,,,,,,Add to Cart,"47,503",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-SM-S9210ZVGT-CTV,,,,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-SM-S9210ZVGT-CTV",4,"
+TV,S-CTV-52,,,,,"77"" OLED S90DAE",OLED 4K S90D,N,QA77S90DAEXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA77S90DAEXZK,QA77S90DAEXZK,"55,480","47,503",cptqaer+2@gmail.com,!Cheil2024,"47,503",,"2,000",0,,,,,,,,,,,Add to Cart,"47,503",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-SM-S9210ZVGT-CTV,,,,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-SM-S9210ZVGT-CTV",4,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
 ●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
 ●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-CTV-53,,,,,"75"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA75QN900DJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA75QN900DJXZK,QA75QN900DJXZK,"99,980","70,383",cptqaer+2@gmail.com,!Cheil2024,"70,383",,"2,000",0,,,,,,,,,,,Add to Cart,"70,383",,Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-QA43LS01BAJXZK,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-QA43LS01BAJXZK,ZG-FREE1YRWAREXT",4,"
+TV,S-CTV-53,,,,,"75"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA75QN900DJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA75QN900DJXZK,QA75QN900DJXZK,"99,980","70,383",cptqaer+2@gmail.com,!Cheil2024,"70,383",,"2,000",0,,,,,,,,,,,Add to Cart,"70,383",,Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-QA43LS01BAJXZK,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-QA43LS01BAJXZK,ZG-FREE1YRWAREXT",4,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Galaxy S24 Ultra, 256GB, Titanium Gray [Z-SM-S9280ZTGT-CTV]
 ●  1 x  43” The Serif LS01B [Z-QA43LS01BAJXZK]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul15,S-CTV-54,,,,,"75"" Lifestyle Frame LS03D",The Frame LS03D,N,QA75LS03DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA75LS03DAJXZK,QA75LS03DAJXZK,"53,980","39,583",cptqaer+2@gmail.com,!Cheil2024,"39,583",,"2,000",0,,,,,,,,,,,Add to Cart,"39,583",,Z-VG-SCFA75WTBRU,Z-HW-S801D/ZK,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,,,,,,,"Z-VG-SCFA75WTBRU,Z-HW-S801D/ZK,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK",4,"
+TV,S-CTV-54,,,,,"75"" Lifestyle Frame LS03D",The Frame LS03D,N,QA75LS03DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA75LS03DAJXZK,QA75LS03DAJXZK,"53,980","39,583",cptqaer+2@gmail.com,!Cheil2024,"39,583",,"2,000",0,,,,,,,,,,,Add to Cart,"39,583",,Z-VG-SCFA75WTBRU,Z-HW-S801D/ZK,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,,,,,,,"Z-VG-SCFA75WTBRU,Z-HW-S801D/ZK,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK",4,"
 ●  1 x  75"" The Frame Modern type White Bezel [Z-VG-SCFA75WTBRU]
 ●  1 x  S-Series HW-S801D Soundbar [Z-HW-S801D/ZK]
 ●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
 ●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-55,,,,,"65"" OLED S95D",OLED 4K S95D,N,QA65S95DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65S95DAJXZK,QA65S95DAJXZK,"36,980","25,855",cptqaer+2@gmail.com,!Cheil2024,"25,855",,"1,600",0,,,,,,,,,,,Add to Cart,"25,855",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800D/ZK,,,,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800D/ZK",4,"
+TV,S-CTV-55,,,,,"65"" OLED S95D",OLED 4K S95D,N,QA65S95DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65S95DAJXZK,QA65S95DAJXZK,"36,980","25,855",cptqaer+2@gmail.com,!Cheil2024,"25,855",,"1,600",0,,,,,,,,,,,Add to Cart,"25,855",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800D/ZK,,,,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800D/ZK",4,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
 ●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
 ●  1 x  S-Series HW-S800D Soundbar [Z-HW-S800D/ZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-CTV-56,,,,,"65"" OLED S90DA",OLED 4K S90D,N,QA65S90DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65S90DAJXZK,QA65S90DAJXZK,"31,480","20,223",cptqaer+2@gmail.com,!Cheil2024,"20,223",,"1,200",0,,,,,,,,,,,Add to Cart,"20,223",,Z-WMN-B05FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-SM-X210NZA-TV,,,,,,,"Z-WMN-B05FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-SM-X210NZA-TV",4,"
+TV,S-CTV-56,,,,,"65"" OLED S90DA",OLED 4K S90D,N,QA65S90DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65S90DAJXZK,QA65S90DAJXZK,"31,480","20,223",cptqaer+2@gmail.com,!Cheil2024,"20,223",,"1,200",0,,,,,,,,,,,Add to Cart,"20,223",,Z-WMN-B05FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-SM-X210NZA-TV,,,,,,,"Z-WMN-B05FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-SM-X210NZA-TV",4,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
 ●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
 ●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
 ●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-57,,,,,"65"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA65QN900DJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65QN900DJXZK,QA65QN900DJXZK,"49,980","35,183",cptqaer+2@gmail.com,!Cheil2024,"35,183",,"2,000",0,,,,,,,,,,,Add to Cart,"35,183",,Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-HW-S800D/ZK,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-HW-S800D/ZK,ZG-FREE1YRWAREXT",4,"
+TV,S-CTV-57,,,,,"65"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA65QN900DJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65QN900DJXZK,QA65QN900DJXZK,"49,980","35,183",cptqaer+2@gmail.com,!Cheil2024,"35,183",,"2,000",0,,,,,,,,,,,Add to Cart,"35,183",,Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-HW-S800D/ZK,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-HW-S800D/ZK,ZG-FREE1YRWAREXT",4,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Galaxy S24 Ultra, 256GB, Titanium Gray [Z-SM-S9280ZTGT-CTV]
 ●  1 x  S-Series HW-S800D Soundbar [Z-HW-S800D/ZK]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-CTV-58,,,,,"75"" Neo QLED 8K QN800D",Neo QLED 8K QN800D,N,QA75QN800DJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA75QN800DJXZK,QA75QN800DJXZK,"85,980","64,223",cptqaer+2@gmail.com,!Cheil2024,"64,223",,"2,000",0,,,,,,,,,,,Add to Cart,"64,223",,Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-QA43LS01BAJXZK,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-QA43LS01BAJXZK,ZG-FREE1YRWAREXT",4,"
+TV,S-CTV-58,,,,,"75"" Neo QLED 8K QN800D",Neo QLED 8K QN800D,N,QA75QN800DJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA75QN800DJXZK,QA75QN800DJXZK,"85,980","64,223",cptqaer+2@gmail.com,!Cheil2024,"64,223",,"2,000",0,,,,,,,,,,,Add to Cart,"64,223",,Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-QA43LS01BAJXZK,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-QA43LS01BAJXZK,ZG-FREE1YRWAREXT",4,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Galaxy S24 Ultra, 256GB, Titanium Gray [Z-SM-S9280ZTGT-CTV]
 ●  1 x  43” The Serif LS01B [Z-QA43LS01BAJXZK]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-59,,,,,"65"" Neo QLED 8K QN800D",Neo QLED 8K QN800D,N,QA65QN800DJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65QN800DJXZK,QA65QN800DJXZK,"42,980","30,783",cptqaer+2@gmail.com,!Cheil2024,"30,783",,"1,800",0,,,,,,,,,,,Add to Cart,"30,783",,Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV,Z-HW-S800D/ZK,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV,Z-HW-S800D/ZK,ZG-FREE1YRWAREXT",4,"
+TV,S-CTV-59,,,,,"65"" Neo QLED 8K QN800D",Neo QLED 8K QN800D,N,QA65QN800DJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65QN800DJXZK,QA65QN800DJXZK,"42,980","30,783",cptqaer+2@gmail.com,!Cheil2024,"30,783",,"1,800",0,,,,,,,,,,,Add to Cart,"30,783",,Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV,Z-HW-S800D/ZK,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV,Z-HW-S800D/ZK,ZG-FREE1YRWAREXT",4,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Galaxy S24+, 256GB, Onyx Black [Z-SM-S9260ZKDT-CTV]
 ●  1 x  S-Series HW-S800D Soundbar [Z-HW-S800D/ZK]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-60,,,,,"65"" Lifestyle Frame LS03D",The Frame LS03D,N,QA65LS03DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65LS03DAJXZK,QA65LS03DAJXZK,"23,980","16,703",cptqaer+2@gmail.com,!Cheil2024,"16,703",,"1,000",0,,,,,,,,,,,Add to Cart,"16,703",,Z-VG-SCFA65WTB,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,,,,,,,,"Z-VG-SCFA65WTB,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK",3,"
+TV,S-CTV-60,,,,,"65"" Lifestyle Frame LS03D",The Frame LS03D,N,QA65LS03DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65LS03DAJXZK,QA65LS03DAJXZK,"23,980","16,703",cptqaer+2@gmail.com,!Cheil2024,"16,703",,"1,000",0,,,,,,,,,,,Add to Cart,"16,703",,Z-VG-SCFA65WTB,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,,,,,,,,"Z-VG-SCFA65WTB,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK",3,"
 ●  1 x  65"" The Frame Modern type White Bezel [Z-VG-SCFA65WTB]
 ●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
 ●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-61,,,,,"55"" OLED S95D",OLED 4K S95D,N,QA55S95DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55S95DAJXZK,QA55S95DAJXZK,"24,980","18,463",cptqaer+2@gmail.com,!Cheil2024,"18,463",,"1,000",0,,,,,,,,,,,Add to Cart,"18,463",,Z-WMN-B16FB/XY,Z-HW-S800D/ZK,Z-CESPCOUPONSx10,,,,,,,,"Z-WMN-B16FB/XY,Z-HW-S800D/ZK,Z-CESPCOUPONSx10",12,"
+TV,S-CTV-61,,,,,"55"" OLED S95D",OLED 4K S95D,N,QA55S95DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55S95DAJXZK,QA55S95DAJXZK,"24,980","18,463",cptqaer+2@gmail.com,!Cheil2024,"18,463",,"1,000",0,,,,,,,,,,,Add to Cart,"18,463",,Z-WMN-B16FB/XY,Z-HW-S800D/ZK,Z-CESPCOUPONSx10,,,,,,,,"Z-WMN-B16FB/XY,Z-HW-S800D/ZK,Z-CESPCOUPONSx10",12,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  S-Series HW-S800D Soundbar [Z-HW-S800D/ZK]
 ●  10 x  Supermarket coupon (HK$100) [Z-CESPCOUPONSx10]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-62,,,,,"55"" OLED S90DA",OLED 4K S90D,N,QA55S90DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55S90DAJXZK,QA55S90DAJXZK,"21,980","14,063",cptqaer+2@gmail.com,!Cheil2024,"14,063",,800,0,,,,,,,,,,,Add to Cart,"14,063",,Z-WMN-B05FB/XY,Z-SM-X210NZA-TV,Z-HW-S800D/ZK,Z-CESPCOUPONSx10,,,,,,,"Z-WMN-B05FB/XY,Z-SM-X210NZA-TV,Z-HW-S800D/ZK,Z-CESPCOUPONSx10",13,"
+TV,S-CTV-62,,,,,"55"" OLED S90DA",OLED 4K S90D,N,QA55S90DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55S90DAJXZK,QA55S90DAJXZK,"21,980","14,063",cptqaer+2@gmail.com,!Cheil2024,"14,063",,800,0,,,,,,,,,,,Add to Cart,"14,063",,Z-WMN-B05FB/XY,Z-SM-X210NZA-TV,Z-HW-S800D/ZK,Z-CESPCOUPONSx10,,,,,,,"Z-WMN-B05FB/XY,Z-SM-X210NZA-TV,Z-HW-S800D/ZK,Z-CESPCOUPONSx10",13,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
 ●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
 ●  1 x  S-Series HW-S800D Soundbar [Z-HW-S800D/ZK]
 ●  10 x  Supermarket coupon (HK$100) [Z-CESPCOUPONSx10]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-63,,,,,"65"" Neo QLED 4K QN87D",Neo QLED 4K QN87D,N,QA65QN87DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65QN87DAJXZK,QA65QN87DAJXZK,"27,980","15,823",cptqaer+2@gmail.com,!Cheil2024,"15,823",,800,0,,,,,,,,,,,Add to Cart,"15,823",,Z-WMN-B16FB/XY,Z-HW-S800D/ZK,,,,,,,,,"Z-WMN-B16FB/XY,Z-HW-S800D/ZK",2,"
+TV,S-CTV-63,,,,,"65"" Neo QLED 4K QN87D",Neo QLED 4K QN87D,N,QA65QN87DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65QN87DAJXZK,QA65QN87DAJXZK,"27,980","15,823",cptqaer+2@gmail.com,!Cheil2024,"15,823",,800,0,,,,,,,,,,,Add to Cart,"15,823",,Z-WMN-B16FB/XY,Z-HW-S800D/ZK,,,,,,,,,"Z-WMN-B16FB/XY,Z-HW-S800D/ZK",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  S-Series HW-S800D Soundbar [Z-HW-S800D/ZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-64,,,,,"55"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA55QN90DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55QN90DAJXZK,QA55QN90DAJXZK,"21,980","14,063",cptqaer+2@gmail.com,!Cheil2024,"14,063",,800,0,,,,,,,,,,,Add to Cart,"14,063",,Z-WMN-B05FB/XY,Z-UA32T5300AJXZK,Z-SM-X210NZA-TV,Z-CESPCOUPONSx5,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B05FB/XY,Z-UA32T5300AJXZK,Z-SM-X210NZA-TV,Z-CESPCOUPONSx5,ZG-FREE1YRWAREXT",9,"
+TV,S-CTV-64,,,,,"55"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA55QN90DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55QN90DAJXZK,QA55QN90DAJXZK,"21,980","14,063",cptqaer+2@gmail.com,!Cheil2024,"14,063",,800,0,,,,,,,,,,,Add to Cart,"14,063",,Z-WMN-B05FB/XY,Z-UA32T5300AJXZK,Z-SM-X210NZA-TV,Z-CESPCOUPONSx5,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B05FB/XY,Z-UA32T5300AJXZK,Z-SM-X210NZA-TV,Z-CESPCOUPONSx5,ZG-FREE1YRWAREXT",9,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
 ●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
 ●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
 ●  5 x  Supermarket coupon (HK$100) [Z-CESPCOUPONSx5]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-65,,,,,"55"" Neo QLED 4K QN87D",Neo QLED 4K QN87D,N,QA55QN87DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55QN87DAJXZK,QA55QN87DAJXZK,"16,480","11,863",cptqaer+2@gmail.com,!Cheil2024,"11,863",,700,0,,,,,,,,,,,Add to Cart,"11,863",,Z-WMN-B05FB/XY,,Z-UA32T5300AJXZK,Z-CESPCOUPONSx5,,,,,,,"Z-WMN-B05FB/XY,Z-UA32T5300AJXZK,Z-CESPCOUPONSx5",7,"
+TV,S-CTV-65,,,,,"55"" Neo QLED 4K QN87D",Neo QLED 4K QN87D,N,QA55QN87DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55QN87DAJXZK,QA55QN87DAJXZK,"16,480","11,863",cptqaer+2@gmail.com,!Cheil2024,"11,863",,700,0,,,,,,,,,,,Add to Cart,"11,863",,Z-WMN-B05FB/XY,,Z-UA32T5300AJXZK,Z-CESPCOUPONSx5,,,,,,,"Z-WMN-B05FB/XY,Z-UA32T5300AJXZK,Z-CESPCOUPONSx5",7,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
 ●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
 ●  5 x  Supermarket coupon (HK$100) [Z-CESPCOUPONSx5]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-66,,,,,"55"" Neo QLED 4K QN85D",Neo QLED 4K QN85D,N,QA55QN85DBJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55QN85DBJXZK,QA55QN85DBJXZK,"13,980","10,543",cptqaer+2@gmail.com,!Cheil2024,"10,543",,600,0,,,,,,,,,,,Add to Cart,"10,543",,Z-WMN-B05FB/XY,,Z-UA32T5300AJXZK,Z-CESPCOUPONSx5,,,,,,,"Z-WMN-B05FB/XY,Z-UA32T5300AJXZK,Z-CESPCOUPONSx5",7,"
+TV,S-CTV-66,,,,,"55"" Neo QLED 4K QN85D",Neo QLED 4K QN85D,N,QA55QN85DBJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55QN85DBJXZK,QA55QN85DBJXZK,"13,980","10,543",cptqaer+2@gmail.com,!Cheil2024,"10,543",,600,0,,,,,,,,,,,Add to Cart,"10,543",,Z-WMN-B05FB/XY,,Z-UA32T5300AJXZK,Z-CESPCOUPONSx5,,,,,,,"Z-WMN-B05FB/XY,Z-UA32T5300AJXZK,Z-CESPCOUPONSx5",7,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
 ●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
 ●  5 x  Supermarket coupon (HK$100) [Z-CESPCOUPONSx5]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-67,,,,,"65"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA65QN95DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65QN95DAJXZK,QA65QN95DAJXZK,"36,980","24,623",cptqaer+2@gmail.com,!Cheil2024,"24,623",,"1,500",0,,,,,,,,,,,Add to Cart,"24,623",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800D/ZK,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800D/ZK,ZG-FREE1YRWAREXT",5,"
+TV,S-CTV-67,,,,,"65"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA65QN95DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65QN95DAJXZK,QA65QN95DAJXZK,"36,980","24,623",cptqaer+2@gmail.com,!Cheil2024,"24,623",,"1,500",0,,,,,,,,,,,Add to Cart,"24,623",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800D/ZK,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-S800D/ZK,ZG-FREE1YRWAREXT",5,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
 ●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
 ●  1 x  S-Series HW-S800D Soundbar [Z-HW-S800D/ZK]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-68,,,,,"55"" Lifestyle Frame LS03D",The Frame LS03D,N,QA55LS03DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55LS03DAJXZK,QA55LS03DAJXZK,"15,980","11,863",cptqaer+2@gmail.com,!Cheil2024,"11,863",,600,0,,,,,,,,,,,Add to Cart,"11,863",,Z-VG-SCFA55WTBRU,,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,,,,,,,"Z-VG-SCFA55WTBRU,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK",3,"
+TV,S-CTV-68,,,,,"55"" Lifestyle Frame LS03D",The Frame LS03D,N,QA55LS03DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55LS03DAJXZK,QA55LS03DAJXZK,"15,980","11,863",cptqaer+2@gmail.com,!Cheil2024,"11,863",,600,0,,,,,,,,,,,Add to Cart,"11,863",,Z-VG-SCFA55WTBRU,,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,,,,,,,"Z-VG-SCFA55WTBRU,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK",3,"
 ●  1 x  55"" The Frame Modern type White Bezel [Z-VG-SCFA55WTBRU]
 ●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
 ●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-CTV-69,,,,,"50"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA50QN90DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA50QN90DAJXZK,QA50QN90DAJXZK,"14,980","9,223",cptqaer+2@gmail.com,!Cheil2024,"9,223",,500,0,,,,,,,,,,,Add to Cart,"9,223",,,,,Z-CESPCOUPONSx5,,,,,,,Z-CESPCOUPONSx5,5,"
+TV,S-CTV-69,,,,,"50"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA50QN90DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA50QN90DAJXZK,QA50QN90DAJXZK,"14,980","9,223",cptqaer+2@gmail.com,!Cheil2024,"9,223",,500,0,,,,,,,,,,,Add to Cart,"9,223",,,,,Z-CESPCOUPONSx5,,,,,,,Z-CESPCOUPONSx5,5,"
 ●  5 x  Supermarket coupon (HK$100) [Z-CESPCOUPONSx5]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul15,S-CTV-70,,,,,"55"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA55QN95DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55QN95DAJXZK,QA55QN95DAJXZK,"24,980","17,583",cptqaer+2@gmail.com,!Cheil2024,"17,583",,"1,000",0,,,,,,,,,,,Add to Cart,"17,583",,Z-WMN-B05FB/XY,,Z-HW-S800B/ZK,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B05FB/XY,Z-HW-S800B/ZK,ZG-FREE1YRWAREXT",3,"
+TV,S-CTV-70,,,,,"55"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA55QN95DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55QN95DAJXZK,QA55QN95DAJXZK,"24,980","17,583",cptqaer+2@gmail.com,!Cheil2024,"17,583",,"1,000",0,,,,,,,,,,,Add to Cart,"17,583",,Z-WMN-B05FB/XY,,Z-HW-S800B/ZK,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B05FB/XY,Z-HW-S800B/ZK,ZG-FREE1YRWAREXT",3,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
 ●  1 x  S-Series HW-S800B 3.1.2ch Soundbar [Z-HW-S800B/ZK]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-71,,,,,"50"" Lifestyle Frame LS03D",The Frame LS03D,N,QA50LS03DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA50LS03DAJXZK,QA50LS03DAJXZK,"12,980","9,663",cptqaer+2@gmail.com,!Cheil2024,"9,663",,500,0,,,,,,,,,,,Add to Cart,"9,663",,Z-VG-SCFA50WTBRU,,Z-HW-S701D/ZK,,,,,,,,"Z-VG-SCFA50WTBRU,Z-HW-S701D/ZK",2,"
+TV,S-CTV-71,,,,,"50"" Lifestyle Frame LS03D",The Frame LS03D,N,QA50LS03DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA50LS03DAJXZK,QA50LS03DAJXZK,"12,980","9,663",cptqaer+2@gmail.com,!Cheil2024,"9,663",,500,0,,,,,,,,,,,Add to Cart,"9,663",,Z-VG-SCFA50WTBRU,,Z-HW-S701D/ZK,,,,,,,,"Z-VG-SCFA50WTBRU,Z-HW-S701D/ZK",2,"
 ●  1 x  50"" The Frame Modern type White Bezel [Z-VG-SCFA50WTBRU]
 ●  1 x  S-Series HW-S701D Soundbar [Z-HW-S701D/ZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-72,,,,,"48"" OLED S90DAE",OLED 4K S90D,N,QA48S90DAEXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA48S90DAEXZK,QA48S90DAEXZK,"13,480","8,704",cptqaer+2@gmail.com,!Cheil2024,"8,704",,500,0,,,,,,,,,,,Add to Cart,"8,704",,Z-WMN-B05FB/XY,Z-SM-X210NZA-TV,,,,,,,,,"Z-WMN-B05FB/XY,Z-SM-X210NZA-TV",2,"
+TV,S-CTV-72,,,,,"48"" OLED S90DAE",OLED 4K S90D,N,QA48S90DAEXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA48S90DAEXZK,QA48S90DAEXZK,"13,480","8,704",cptqaer+2@gmail.com,!Cheil2024,"8,704",,500,0,,,,,,,,,,,Add to Cart,"8,704",,Z-WMN-B05FB/XY,Z-NETFLIX500GC-Cx3,,,,,,,,,"Z-WMN-B05FB/XY,Z-NETFLIX500GC-Cx3",4,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
-●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
+●  3 x  Netflix coupon (HK$500) [Z-NETFLIX500GC-Cx3]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-CTV-73,,,,,"43"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA43QN90DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA43QN90DAJXZK,QA43QN90DAJXZK,"12,490","7,463",cptqaer+2@gmail.com,!Cheil2024,"7,463",,400,0,,,,,,,,,,,Add to Cart,"7,463",,Z-HW-C450/ZK,,,,,,,,,,Z-HW-C450/ZK,1,"
+TV,S-CTV-73,,,,,"43"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA43QN90DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA43QN90DAJXZK,QA43QN90DAJXZK,"12,490","7,463",cptqaer+2@gmail.com,!Cheil2024,"7,463",,400,0,,,,,,,,,,,Add to Cart,"7,463",,Z-HW-C450/ZK,,,,,,,,,,Z-HW-C450/ZK,1,"
 ●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-CTV-74,,,,,"43"" Lifestyle Serif LS01D",The Serif LS01D,N,QA43LS01DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA43LS01DAJXZK,QA43LS01DAJXZK,"9,980","8,783",cptqaer+2@gmail.com,!Cheil2024,"8,783",,100,0,,,,,,,,,,,Add to Cart,"8,783",,,,,,,,,,,,,0,"
+TV,S-CTV-74,,,,,"43"" Lifestyle Serif LS01D",The Serif LS01D,N,QA43LS01DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA43LS01DAJXZK,QA43LS01DAJXZK,"9,980","8,783",cptqaer+2@gmail.com,!Cheil2024,"8,783",,100,0,,,,,,,,,,,Add to Cart,"8,783",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-Brief-Jul15,S-CTV-75,,,,,"43"" Lifestyle Frame LS03D",The Frame LS03D,N,QA43LS03DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA43LS03DAJXZK,QA43LS03DAJXZK,"9,980","7,903",cptqaer+2@gmail.com,!Cheil2024,"7,903",,100,0,,,,,,,,,,,Add to Cart,"7,903",,Z-VG-SCFA43WTBRU,,Z-HW-S701D/ZK,,,,,,,,"Z-VG-SCFA43WTBRU,Z-HW-S701D/ZK",2,"
+TV,S-CTV-75,,,,,"43"" Lifestyle Frame LS03D",The Frame LS03D,N,QA43LS03DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA43LS03DAJXZK,QA43LS03DAJXZK,"9,980","7,903",cptqaer+2@gmail.com,!Cheil2024,"7,903",,100,0,,,,,,,,,,,Add to Cart,"7,903",,Z-VG-SCFA43WTBRU,,Z-HW-S701D/ZK,,,,,,,,"Z-VG-SCFA43WTBRU,Z-HW-S701D/ZK",2,"
 ●  1 x  43"" The Frame Modern type White Bezel [Z-VG-SCFA43WTBRU]
 ●  1 x  S-Series HW-S701D Soundbar [Z-HW-S701D/ZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
@@ -783,61 +782,61 @@ Brief-Jul15,S-CTV-75,,,,,"43"" Lifestyle Frame LS03D",The Frame LS03D,N,QA43LS03
 ,S-HTS-26,,,,,S-Series HW-LS60D Music Frame,,N,HW-LS60D/ZK,https://www.samsung.com/hk/multistore/hkeducation/pd.HW-LS60DZK,HW-LS60D/ZK,"3,980","3,239",cptqaer+2@gmail.com,!Cheil2024,"3,239",,100,0,,,,,,,,,,,Add to Cart,"3,239",,Z-MUSICFRAMEPHOTOS,,,,,,,,,,Z-MUSICFRAMEPHOTOS,1,"
 ●  1 x  Music Frame Photo Prints (5 set) [Z-MUSICFRAMEPHOTOS]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-76,,,,,"85"" QLED Q70D",QLED 4K Q70D,N,QA85Q70DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA85Q70DAJXZK,QA85Q70DAJXZK,"52,480","41,343",cptqaer+2@gmail.com,!Cheil2024,"41,343",,"2,000",0,,,,,,,,,,,Add to Cart,"41,343",,Z-WMN-B30FB/RU,Z-HW-S800D/ZK,,,,,,,,,"Z-WMN-B30FB/RU,Z-HW-S800D/ZK",2,"
+TV,S-CTV-76,,,,,"85"" QLED Q70D",QLED 4K Q70D,N,QA85Q70DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA85Q70DAJXZK,QA85Q70DAJXZK,"52,480","41,343",cptqaer+2@gmail.com,!Cheil2024,"41,343",,"2,000",0,,,,,,,,,,,Add to Cart,"41,343",,Z-WMN-B30FB/RU,Z-HW-S800D/ZK,,,,,,,,,"Z-WMN-B30FB/RU,Z-HW-S800D/ZK",2,"
 ●  1 x  Full Motion Slim Fit TV Wallmount with installation [Z-WMN-B30FB/RU]
 ●  1 x  S-Series HW-S800D Soundbar [Z-HW-S800D/ZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-77,,,,,"75"" QLED Q70D",QLED 4K Q70D,N,QA75Q70DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA75Q70DAJXZK,QA75Q70DAJXZK,"30,980","23,743",cptqaer+2@gmail.com,!Cheil2024,"23,743",,"1,200",0,,,,,,,,,,,Add to Cart,"23,743",,Z-SM-S9210ZVGT-CTV,,,,,,,,,,Z-SM-S9210ZVGT-CTV,1,"
+TV,S-CTV-77,,,,,"75"" QLED Q70D",QLED 4K Q70D,N,QA75Q70DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA75Q70DAJXZK,QA75Q70DAJXZK,"30,980","23,743",cptqaer+2@gmail.com,!Cheil2024,"23,743",,"1,200",0,,,,,,,,,,,Add to Cart,"23,743",,Z-SM-S9210ZVGT-CTV,,,,,,,,,,Z-SM-S9210ZVGT-CTV,1,"
 ●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-CTV-78,,,,,"75"" Crystal UHD DU8000",Crystal UHD 4K DU8000,N,UA75DU8000JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA75DU8000JXZK,UA75DU8000JXZK,"19,980","14,943",cptqaer+2@gmail.com,!Cheil2024,"14,943",,50,0,,,,,,,,,,,Add to Cart,"14,943",,,,,,,,,,,,,0,"
+TV,S-CTV-78,,,,,"75"" Crystal UHD DU8000",Crystal UHD 4K DU8000,N,UA75DU8000JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA75DU8000JXZK,UA75DU8000JXZK,"19,980","14,943",cptqaer+2@gmail.com,!Cheil2024,"14,943",,50,0,,,,,,,,,,,Add to Cart,"14,943",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,S-CTV-79,,,,,"65"" QLED Q70D",QLED 4K Q70D,N,QA65Q70DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65Q70DAJXZK,QA65Q70DAJXZK,"18,980","13,183",cptqaer+2@gmail.com,!Cheil2024,"13,183",,800,0,,,,,,,,,,,Add to Cart,"13,183",,Z-UA32T5300AJXZK,Z-HW-C450/ZK,,,,,,,,,"Z-UA32T5300AJXZK,Z-HW-C450/ZK",2,"
+TV,S-CTV-79,,,,,"65"" QLED Q70D",QLED 4K Q70D,N,QA65Q70DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65Q70DAJXZK,QA65Q70DAJXZK,"18,980","13,183",cptqaer+2@gmail.com,!Cheil2024,"13,183",,800,0,,,,,,,,,,,Add to Cart,"13,183",,Z-UA32T5300AJXZK,Z-HW-C450/ZK,,,,,,,,,"Z-UA32T5300AJXZK,Z-HW-C450/ZK",2,"
 ●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
 ●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-CTV-80,,,,,"65"" QLED Q60D",QLED 4K Q60D,N,QA65Q60DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65Q60DAJXZK,QA65Q60DAJXZK,"16,480","11,863",cptqaer+2@gmail.com,!Cheil2024,"11,863",,500,0,,,,,,,,,,,Add to Cart,"11,863",,Z-UA32T5300AJXZK,Z-HW-C450/ZK,,,,,,,,,"Z-UA32T5300AJXZK,Z-HW-C450/ZK",2,"
+TV,S-CTV-80,,,,,"65"" QLED Q60D",QLED 4K Q60D,N,QA65Q60DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65Q60DAJXZK,QA65Q60DAJXZK,"16,480","11,863",cptqaer+2@gmail.com,!Cheil2024,"11,863",,500,0,,,,,,,,,,,Add to Cart,"11,863",,Z-UA32T5300AJXZK,Z-HW-C450/ZK,,,,,,,,,"Z-UA32T5300AJXZK,Z-HW-C450/ZK",2,"
 ●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
 ●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul10,S-CTV-81,,,,,"65"" Crystal UHD DU8000",Crystal UHD 4K DU8000,N,UA65DU8000JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA65DU8000JXZK,UA65DU8000JXZK,"12,980","8,783",cptqaer+2@gmail.com,!Cheil2024,"8,783",,50,0,,,,,,,,,,,Add to Cart,"8,783",,Z-HW-C450/ZK,,,,,,,,,,Z-HW-C450/ZK,1,"
+TV,S-CTV-81,,,,,"65"" Crystal UHD DU8000",Crystal UHD 4K DU8000,N,UA65DU8000JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA65DU8000JXZK,UA65DU8000JXZK,"12,980","8,783",cptqaer+2@gmail.com,!Cheil2024,"8,783",,50,0,,,,,,,,,,,Add to Cart,"8,783",,Z-HW-C450/ZK,,,,,,,,,,Z-HW-C450/ZK,1,"
 ●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-Brief-Jul15,S-CTV-82,,,,,"55"" QLED Q70D",QLED 4K Q70D,N,QA55Q70DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55Q70DAJXZK,QA55Q70DAJXZK,"10,980","6,784",cptqaer+2@gmail.com,!Cheil2024,"6,784",,400,0,,,,,,,,,,,Add to Cart,"6,784",,Z-WMN-B50EB/XY,Z-HW-C450/ZK,,,,,,,,,"Z-WMN-B50EB/XY,Z-HW-C450/ZK",2,"
+TV,S-CTV-82,,,,,"55"" QLED Q70D",QLED 4K Q70D,N,QA55Q70DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55Q70DAJXZK,QA55Q70DAJXZK,"10,980","6,784",cptqaer+2@gmail.com,!Cheil2024,"6,784",,400,0,,,,,,,,,,,Add to Cart,"6,784",,Z-WMN-B50EB/XY,Z-HW-C450/ZK,,,,,,,,,"Z-WMN-B50EB/XY,Z-HW-C450/ZK",2,"
 ●  1 x  Slim Fit Wall Mount WMN-B50EB (2023) [Z-WMN-B50EB/XY]
 ●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-CTV-83,,,,,"55"" QLED Q60D",QLED 4K Q60D,N,QA55Q60DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55Q60DAJXZK,QA55Q60DAJXZK,"9,980","7,023",cptqaer+2@gmail.com,!Cheil2024,"7,023",,400,0,,,,,,,,,,,Add to Cart,"7,023",,Z-WMN-B50EB/XY,,,,,,,,,,Z-WMN-B50EB/XY,1,"
+TV,S-CTV-83,,,,,"55"" QLED Q60D",QLED 4K Q60D,N,QA55Q60DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55Q60DAJXZK,QA55Q60DAJXZK,"9,980","7,023",cptqaer+2@gmail.com,!Cheil2024,"7,023",,400,0,,,,,,,,,,,Add to Cart,"7,023",,Z-WMN-B50EB/XY,,,,,,,,,,Z-WMN-B50EB/XY,1,"
 ●  1 x  Slim Fit Wall Mount WMN-B50EB (2023) [Z-WMN-B50EB/XY]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-CTV-84,,,,,"55"" QLED QE1D",QLED 4K QE1D,N,QA55QE1DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55QE1DAJXZK,QA55QE1DAJXZK,"9,480","6,143",cptqaer+2@gmail.com,!Cheil2024,"6,143",,300,0,,,,,,,,,,,Add to Cart,"6,143",,Z-WMN-B50EB/XY,,,,,,,,,,Z-WMN-B50EB/XY,1,"
+TV,S-CTV-84,,,,,"55"" QLED QE1D",QLED 4K QE1D,N,QA55QE1DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA55QE1DAJXZK,QA55QE1DAJXZK,"9,480","6,143",cptqaer+2@gmail.com,!Cheil2024,"6,143",,300,0,,,,,,,,,,,Add to Cart,"6,143",,Z-WMN-B50EB/XY,,,,,,,,,,Z-WMN-B50EB/XY,1,"
 ●  1 x  Slim Fit Wall Mount WMN-B50EB (2023) [Z-WMN-B50EB/XY]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-CTV-85,,,,,"55"" Crystal UHD DU8000",Crystal UHD 4K DU8000,N,UA55DU8000JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA55DU8000JXZK,UA55DU8000JXZK,"7,480","5,263",cptqaer+2@gmail.com,!Cheil2024,"5,263",,50,0,,,,,,,,,,,Add to Cart,"5,263",,,,,,,,,,,,,0,"
+TV,S-CTV-85,,,,,"55"" Crystal UHD DU8000",Crystal UHD 4K DU8000,N,UA55DU8000JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA55DU8000JXZK,UA55DU8000JXZK,"7,480","5,263",cptqaer+2@gmail.com,!Cheil2024,"5,263",,50,0,,,,,,,,,,,Add to Cart,"5,263",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,S-CTV-86,,,,,"55"" Crystal UHD DU7700",Crystal UHD 4K DU7000 ,N,UA55DU7700JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA55DU7700JXZK,UA55DU7700JXZK,"6,880","4,647",cptqaer+2@gmail.com,!Cheil2024,"4,647",,50,0,,,,,,,,,,,Add to Cart,"4,647",,,,,,,,,,,,,0,"
+TV,S-CTV-86,,,,,"55"" Crystal UHD DU7700",Crystal UHD 4K DU7000 ,N,UA55DU7700JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA55DU7700JXZK,UA55DU7700JXZK,"6,880","4,647",cptqaer+2@gmail.com,!Cheil2024,"4,647",,50,0,,,,,,,,,,,Add to Cart,"4,647",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,S-CTV-87,,,,,"50"" QLED Q80D",QLED 4K Q80D,N,QA50Q80DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA50Q80DAJXZK,QA50Q80DAJXZK,"9,480","7,463",cptqaer+2@gmail.com,!Cheil2024,"7,463",,400,0,,,,,,,,,,,Add to Cart,"7,463",,Z-WMN-B05FB/XY,Z-HW-C450/ZK,,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-C450/ZK",2,"
+TV,S-CTV-87,,,,,"50"" QLED Q80D",QLED 4K Q80D,N,QA50Q80DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA50Q80DAJXZK,QA50Q80DAJXZK,"9,480","7,463",cptqaer+2@gmail.com,!Cheil2024,"7,463",,400,0,,,,,,,,,,,Add to Cart,"7,463",,Z-WMN-B05FB/XY,Z-HW-C450/ZK,,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-C450/ZK",2,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
 ●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Failed,,,,,,,
-,S-CTV-88,,,,,"50"" QLED Q60D",QLED 4K Q60D,N,QA50Q60DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA50Q60DAJXZK,QA50Q60DAJXZK,"7,980","5,703",cptqaer+2@gmail.com,!Cheil2024,"5,703",,300,0,,,,,,,,,,,Add to Cart,"5,703",,,,,,,,,,,,,0,"
+TV,S-CTV-88,,,,,"50"" QLED Q60D",QLED 4K Q60D,N,QA50Q60DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA50Q60DAJXZK,QA50Q60DAJXZK,"7,980","5,703",cptqaer+2@gmail.com,!Cheil2024,"5,703",,300,0,,,,,,,,,,,Add to Cart,"5,703",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,S-CTV-89,,,,,"50"" QLED QE1D",QLED 4K QE1D,N,QA50QE1DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA50QE1DAJXZK,QA50QE1DAJXZK,"7,480","5,263",cptqaer+2@gmail.com,!Cheil2024,"5,263",,300,0,,,,,,,,,,,Add to Cart,"5,263",,,,,,,,,,,,,0,"
+TV,S-CTV-89,,,,,"50"" QLED QE1D",QLED 4K QE1D,N,QA50QE1DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA50QE1DAJXZK,QA50QE1DAJXZK,"7,480","5,263",cptqaer+2@gmail.com,!Cheil2024,"5,263",,300,0,,,,,,,,,,,Add to Cart,"5,263",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,S-CTV-90,,,,,"50"" Crystal UHD DU8000",Crystal UHD 4K DU8000,N,UA50DU8000JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA50DU8000JXZK,UA50DU8000JXZK,"5,980","4,383",cptqaer+2@gmail.com,!Cheil2024,"4,383",,50,0,,,,,,,,,,,Add to Cart,"4,383",,,,,,,,,,,,,0,"
+TV,S-CTV-90,,,,,"50"" Crystal UHD DU8000",Crystal UHD 4K DU8000,N,UA50DU8000JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA50DU8000JXZK,UA50DU8000JXZK,"5,980","4,383",cptqaer+2@gmail.com,!Cheil2024,"4,383",,50,0,,,,,,,,,,,Add to Cart,"4,383",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,S-CTV-91,,,,,"50"" Crystal UHD DU7700",Crystal UHD 4K DU7000 ,N,UA50DU7700JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA50DU7700JXZK,UA50DU7700JXZK,"5,480","3,943",cptqaer+2@gmail.com,!Cheil2024,"3,943",,50,0,,,,,,,,,,,Add to Cart,"3,943",,,,,,,,,,,,,0,"
+TV,S-CTV-91,,,,,"50"" Crystal UHD DU7700",Crystal UHD 4K DU7000 ,N,UA50DU7700JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA50DU7700JXZK,UA50DU7700JXZK,"5,480","3,943",cptqaer+2@gmail.com,!Cheil2024,"3,943",,50,0,,,,,,,,,,,Add to Cart,"3,943",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,S-CTV-92,,,,,"43"" QLED Q61D",QLED 4K Q60D,N,QA43Q61DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA43Q61DAJXZK,QA43Q61DAJXZK,"6,480","4,823",cptqaer+2@gmail.com,!Cheil2024,"4,823",,100,0,,,,,,,,,,,Add to Cart,"4,823",,,,,,,,,,,,,0,"
+TV,S-CTV-92,,,,,"43"" QLED Q61D",QLED 4K Q60D,N,QA43Q61DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA43Q61DAJXZK,QA43Q61DAJXZK,"6,480","4,823",cptqaer+2@gmail.com,!Cheil2024,"4,823",,100,0,,,,,,,,,,,Add to Cart,"4,823",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,S-CTV-93,,,,,"43"" QLED Q60D",QLED 4K Q60D,N,QA43Q60DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA43Q60DAJXZK,QA43Q60DAJXZK,"6,480","4,384",cptqaer+2@gmail.com,!Cheil2024,"4,384",,200,0,,,,,,,,,,,Add to Cart,"4,384",,,,,,,,,,,,,0,"
+TV,S-CTV-93,,,,,"43"" QLED Q60D",QLED 4K Q60D,N,QA43Q60DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA43Q60DAJXZK,QA43Q60DAJXZK,"6,480","4,384",cptqaer+2@gmail.com,!Cheil2024,"4,384",,200,0,,,,,,,,,,,Add to Cart,"4,384",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,S-CTV-94,,,,,"43"" Crystal UHD DU8500",Crystal UHD 4K DU8500,N,UA43DU8500JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA43DU8500JXZK,UA43DU8500JXZK,"5,780","4,471",cptqaer+2@gmail.com,!Cheil2024,"4,471",,50,0,,,,,,,,,,,Add to Cart,"4,471",,,,,,,,,,,,,0,"
+TV,S-CTV-94,,,,,"43"" Crystal UHD DU8500",Crystal UHD 4K DU8500,N,UA43DU8500JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA43DU8500JXZK,UA43DU8500JXZK,"5,780","4,471",cptqaer+2@gmail.com,!Cheil2024,"4,471",,50,0,,,,,,,,,,,Add to Cart,"4,471",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,S-CTV-95,,,,,"43"" Crystal UHD DU8000",Crystal UHD 4K DU8000,N,UA43DU8000JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA43DU8000JXZK,UA43DU8000JXZK,"4,980","3,855",cptqaer+2@gmail.com,!Cheil2024,"3,855",,50,0,,,,,,,,,,,Add to Cart,"3,855",,,,,,,,,,,,,0,"
+TV,S-CTV-95,,,,,"43"" Crystal UHD DU8000",Crystal UHD 4K DU8000,N,UA43DU8000JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA43DU8000JXZK,UA43DU8000JXZK,"4,980","3,855",cptqaer+2@gmail.com,!Cheil2024,"3,855",,50,0,,,,,,,,,,,Add to Cart,"3,855",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
-,S-CTV-96,,,,,"43"" Crystal UHD DU7700",Crystal UHD 4K DU7000 ,N,UA43DU7700JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA43DU7700JXZK,UA43DU7700JXZK,"4,480","3,327",cptqaer+2@gmail.com,!Cheil2024,"3,327",,50,0,,,,,,,,,,,Add to Cart,"3,327",,,,,,,,,,,,,0,"
+TV,S-CTV-96,,,,,"43"" Crystal UHD DU7700",Crystal UHD 4K DU7000 ,N,UA43DU7700JXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.UA43DU7700JXZK,UA43DU7700JXZK,"4,480","3,327",cptqaer+2@gmail.com,!Cheil2024,"3,327",,50,0,,,,,,,,,,,Add to Cart,"3,327",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
 ,S-VC-15,,,,,,,N,VS35D979FQK/SP,https://www.samsung.com/hk/multistore/hkeducation/pd.VS35D979FQKSP,VS35D979FQK/SP,,0,cptqaer+2@gmail.com,!Cheil2024,0,,0,0,,,,,,,,,,,Add to Cart,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
@@ -893,3 +892,13 @@ Brief-Jul15,S-CTV-82,,,,,"55"" QLED Q70D",QLED 4K Q70D,N,QA55Q70DAJXZK,https://w
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
 ,S-MON-34,,,,,"24"" S33GC Essential Monitor",,N,LS24C330GACXXK,https://www.samsung.com/hk/multistore/hkeducation/pd.LS24C330GACXXK,LS24C330GACXXK,980,819,cptqaer+2@gmail.com,!Cheil2024,819,,0,0,,,,,,,,,,,Add to Cart,819,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,Passed,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
