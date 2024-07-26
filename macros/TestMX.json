@@ -1,6 +1,6 @@
 {
   "Name": "TestMX",
-  "CreationDate": "2024-7-18",
+  "CreationDate": "2024-7-24",
   "Commands": [
     {
       "Command": "store",
@@ -712,7 +712,13 @@
     },
     {
       "Command": "click",
-      "Target": "xpath=//*[@id=\"care-rdo${SCPlusOptionCount}\"]",
+      "Target": "xpath=//*[@id=\"care-rdo0\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "click // xpath=//*[@id=\"care-rdo${SCPlusOptionCount}\"]",
       "Value": "",
       "Description": ""
     },
