@@ -1,6 +1,6 @@
 {
   "Name": "TestCE",
-  "CreationDate": "2024-7-18",
+  "CreationDate": "2024-8-5",
   "Commands": [
     {
       "Command": "store",
@@ -737,6 +737,12 @@
     {
       "Command": "if_v2",
       "Target": "${TestResult}!=\"OOS (Blocked)\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://shop.samsung.com/hk/cart",
       "Value": "",
       "Description": ""
     },
