@@ -1,6 +1,6 @@
 {
-  "Name": "_LoopMaster",
-  "CreationDate": "2024-7-18",
+  "Name": "_LoopMaster_1",
+  "CreationDate": "2024-7-27",
   "Commands": [
     {
       "Command": "store",
@@ -16,13 +16,13 @@
     },
     {
       "Command": "store",
-      "Target": "5",
+      "Target": "75",
       "Value": "startingLineNumber",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "false",
+      "Target": "true",
       "Value": "runTesterLinesOnly",
       "Description": ""
     },
@@ -39,14 +39,14 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // MX",
+      "Command": "store",
+      "Target": "MX",
       "Value": "TestCat",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "CE",
+      "Command": "comment",
+      "Target": "store // CE",
       "Value": "TestCat",
       "Description": ""
     },
@@ -63,8 +63,8 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // SPP",
+      "Command": "store",
+      "Target": "SPP",
       "Value": "TestSite",
       "Description": ""
     },
