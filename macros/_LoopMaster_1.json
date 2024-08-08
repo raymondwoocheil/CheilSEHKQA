@@ -1,6 +1,6 @@
 {
-  "Name": "_LoopMaster",
-  "CreationDate": "2024-7-18",
+  "Name": "_LoopMaster_1",
+  "CreationDate": "2024-8-8",
   "Commands": [
     {
       "Command": "store",
@@ -18,6 +18,12 @@
       "Command": "store",
       "Target": "5",
       "Value": "startingLineNumber",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "240",
+      "Value": "endingLineNumber",
       "Description": ""
     },
     {
@@ -154,7 +160,7 @@
     },
     {
       "Command": "while_v2",
-      "Target": "${!csvReadStatus} == \"OK\"",
+      "Target": "${!csvReadLineNumber} <= ${endingLineNumber}",
       "Value": "",
       "Description": ""
     },
