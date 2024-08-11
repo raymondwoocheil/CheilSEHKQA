@@ -160,7 +160,7 @@
     },
     {
       "Command": "while_v2",
-      "Target": "${!csvReadStatus} == \"OK\" && ${!csvReadLineNumber} <= ${endingLineNumber}",
+      "Target": "${!csvReadStatus} == \"OK\" && ${!csvReadLineNumber} <= Number(${endingLineNumber})",
       "Value": "",
       "Description": ""
     },
