@@ -1,6 +1,6 @@
 {
     "Name": "_LoopMaster_2",
-    "CreationDate": "2024-8-8",
+    "CreationDate": "2024-8-9",
     "Commands":
     [
         {
@@ -29,7 +29,7 @@
         },
         {
             "Command": "store",
-            "Target": "false",
+            "Target": "true",
             "Value": "runTesterLinesOnly",
             "Description": ""
         },
@@ -41,7 +41,7 @@
         },
         {
             "Command": "store",
-            "Target": "cptqaer+4@gmail.com",
+            "Target": "cptqaer@gmail.com",
             "Value": "TestAccount",
             "Description": ""
         },
@@ -161,7 +161,7 @@
         },
         {
             "Command": "while_v2",
-            "Target": "${!csvReadLineNumber} <= ${endingLineNumber}",
+            "Target": "${!csvReadStatus} == \"OK\" && ${!csvReadLineNumber} <= ${endingLineNumber}",
             "Value": "",
             "Description": ""
         },
