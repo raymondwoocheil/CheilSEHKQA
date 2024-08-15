@@ -64,7 +64,7 @@
     },
     {
       "Command": "executeScript",
-      "Target": "var today = new Date();\nvar time = today.getFullYear() + \"-\" + (today.getMonth() + 1) + \"-\" + today.getDate() + \" \" + today.getHours() + \":\" + today.getMinutes() + \":\" + today.getSeconds();\nreturn time;",
+      "Target": "var today = new Date();\nvar time = today.getFullYear() + \"-\" + (today.getMonth() + 1) + \"-\" + today.getDate() + \" \" + today.getHours() + \"-\" + today.getMinutes() + \"-\" + today.getSeconds();\nreturn time;",
       "Value": "DateTimeNow",
       "Description": ""
     },
@@ -394,7 +394,7 @@
     },
     {
       "Command": "comment",
-      "Target": "captureEntirePageScreenshot // BuyPage-${SKUwithoutSlash}-${DateTimeNow}.png",
+      "Target": "captureEntirePageScreenshot // BuyPage ${SKUwithoutSlash} ${DateTimeNow}.png",
       "Value": "",
       "Description": ""
     },
@@ -898,7 +898,7 @@
     },
     {
       "Command": "captureScreenshot",
-      "Target": "${TestCat}-${TestSite}-${!csvReadLineNumber}-${CaseID}-BuyPage-${SKUwithoutSlash}-${DateTimeNow}-OOS.png",
+      "Target": "${TestCat} ${TestSite} ${!csvReadLineNumber} ${CaseID} BuyPage ${SKUwithoutSlash} ${DateTimeNow} OOS.png",
       "Value": "",
       "Description": ""
     },
@@ -1402,7 +1402,7 @@
     },
     {
       "Command": "captureScreenshot",
-      "Target": "${TestCat}-${TestSite}-${!csvReadLineNumber}-${CaseID}-BuyPage-${SKUwithoutSlash}-${DateTimeNow}-OOS.png",
+      "Target": "${TestCat} ${TestSite} ${!csvReadLineNumber} ${CaseID} BuyPage ${SKUwithoutSlash} ${DateTimeNow} OOS.png",
       "Value": "",
       "Description": ""
     },
@@ -2278,7 +2278,7 @@
     },
     {
       "Command": "captureEntirePageScreenshot",
-      "Target": "${TestCat}-${TestSite}-${!csvReadLineNumber}-${CaseID}-CartPage-${SKUwithoutSlash}-${DateTimeNow}-${TestResult}.png",
+      "Target": "${TestCat} ${TestSite} ${!csvReadLineNumber} ${CaseID} CartPage ${SKUwithoutSlash} ${DateTimeNow} ${TestResult}.png",
       "Value": "",
       "Description": ""
     },

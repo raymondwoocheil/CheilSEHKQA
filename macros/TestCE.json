@@ -64,7 +64,7 @@
     },
     {
       "Command": "executeScript",
-      "Target": "var today = new Date();\nvar time = today.getFullYear() + \"-\" + (today.getMonth() + 1) + \"-\" + today.getDate() + \" \" + today.getHours() + \":\" + today.getMinutes() + \":\" + today.getSeconds();\nreturn time;",
+      "Target": "var today = new Date();\nvar time = today.getFullYear() + \"-\" + (today.getMonth() + 1) + \"-\" + today.getDate() + \" \" + today.getHours() + \"-\" + today.getMinutes() + \"-\" + today.getSeconds();\nreturn time;",
       "Value": "DateTimeNow",
       "Description": ""
     },
@@ -376,7 +376,7 @@
     },
     {
       "Command": "comment",
-      "Target": "captureEntirePageScreenshot // CE-${!csvReadLineNumber}-${CaseID}-BuyPage-${SKUwithoutSlash}-${DateTimeNow}.png",
+      "Target": "captureEntirePageScreenshot // CE ${!csvReadLineNumber} ${CaseID} BuyPage ${SKUwithoutSlash} ${DateTimeNow}.png",
       "Value": "",
       "Description": ""
     },
@@ -694,7 +694,7 @@
     },
     {
       "Command": "captureScreenshot",
-      "Target": "CE-${!csvReadLineNumber}-${CaseID}-BuyPage-${SKUwithoutSlash}-${DateTimeNow}-OOS.png",
+      "Target": "CE ${!csvReadLineNumber} ${CaseID} BuyPage ${SKUwithoutSlash} ${DateTimeNow} OOS.png",
       "Value": "",
       "Description": ""
     },
@@ -1606,7 +1606,7 @@
     },
     {
       "Command": "captureEntirePageScreenshot",
-      "Target": "CE-${!csvReadLineNumber}-${CaseID}-CartPage-${SKUwithoutSlash}-${DateTimeNow}-${TestResult}.png",
+      "Target": "CE ${!csvReadLineNumber} ${CaseID} CartPage ${SKUwithoutSlash} ${DateTimeNow} ${TestResult}.png",
       "Value": "",
       "Description": ""
     },

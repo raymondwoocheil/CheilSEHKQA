@@ -262,7 +262,7 @@
     },
     {
       "Command": "captureScreenshot",
-      "Target": "Checkout-${SKUwithoutSlash}-${DateTimeNow}-Failed-cart-OOS.png",
+      "Target": "Checkout ${SKUwithoutSlash} ${DateTimeNow} Failed cart OOS.png",
       "Value": "",
       "Description": ""
     },
@@ -436,7 +436,7 @@
     },
     {
       "Command": "comment",
-      "Target": "captureScreenshot // Checkout-${SKUwithoutSlash}-${DateTimeNow}-city.png",
+      "Target": "captureScreenshot // Checkout ${SKUwithoutSlash} ${DateTimeNow} city.png",
       "Value": "",
       "Description": ""
     },
@@ -604,7 +604,7 @@
     },
     {
       "Command": "comment",
-      "Target": "captureScreenshot // Checkout-${SKUwithoutSlash}-${DateTimeNow}-city.png",
+      "Target": "captureScreenshot // Checkout ${SKUwithoutSlash} ${DateTimeNow} city.png",
       "Value": "",
       "Description": ""
     },
@@ -616,7 +616,7 @@
     },
     {
       "Command": "comment",
-      "Target": "captureScreenshot // Checkout-${SKUwithoutSlash}-${DateTimeNow}-remote.png",
+      "Target": "captureScreenshot // Checkout ${SKUwithoutSlash} ${DateTimeNow} remote.png",
       "Value": "",
       "Description": ""
     },
@@ -784,7 +784,7 @@
     },
     {
       "Command": "comment",
-      "Target": "captureScreenshot // Checkout-${SKUwithoutSlash}-${DateTimeNow}-city.png",
+      "Target": "captureScreenshot // Checkout ${SKUwithoutSlash} ${DateTimeNow} city.png",
       "Value": "",
       "Description": ""
     },
@@ -796,7 +796,7 @@
     },
     {
       "Command": "comment",
-      "Target": "captureScreenshot // Checkout-${SKUwithoutSlash}-${DateTimeNow}-macau.png",
+      "Target": "captureScreenshot // Checkout ${SKUwithoutSlash} ${DateTimeNow} macau.png",
       "Value": "",
       "Description": ""
     },
@@ -820,7 +820,7 @@
     },
     {
       "Command": "captureScreenshot",
-      "Target": "Cart-${SKUwithoutSlash}-${DateTimeNow}-OOS.png",
+      "Target": "Cart ${SKUwithoutSlash} ${DateTimeNow} OOS.png",
       "Value": "",
       "Description": ""
     },
