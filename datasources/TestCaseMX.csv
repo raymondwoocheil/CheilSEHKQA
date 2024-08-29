@@ -1,8 +1,8 @@
 MX,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Assigned,Test Case,,,,,,,,,,1,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,,Verify / AC >>,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,Summer 19/7 - 29/8,,,,,,Array,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Last Updated,,
+Assigned,Test Case,,,,,,,,,,24,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,,Verify / AC >>,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,Summer 19/7 - 29/8,,,,,,Array,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Last Updated,,
 Tester,ID,Manual Cart,Premiunm Qty,Auto Cart,Auto Checkout,Model,Bsse SKU + STORAGE,BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-in,Trade-in-type,Verify extra trade-in rebate,"SC+ 
 (Hong Kong)",SC-type,"Verify SC+ 
-in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Product Price in Cart after Discount (Not total price in cart),Verify pre-order or back-order delivery date,Mass - 1/8- 31/8,Mass - 1/8- 31/8,Mass - 1/8- 31/8,Mass - 1/8- 31/8,eStore Summer 5/8 - 31/8,Mass but not EPP,Mass but not EPP,Summer 19/7 - 31/8 but not EPP,,,Array,Total,"Verify Free Premiums in Cart (SKU)
+in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Product Price in Cart after Discount (Not total price in cart),Verify pre-order or back-order delivery date,Mass - 1/8- 31/8,Mass - 1/8- 31/8,Mass - 1/8- 31/8,Mass - 1/8- 31/8,eStore Summer 5/8 - 31/8,Mass but not EPP,Summer 19/7 - 29/8 but not EPP,Summer 19/7 - 29/8 but not EPP,,,Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)","Verify Expired Premiums 
 NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,Guest Email,Select City,Select District,Select Service,Verify Expected Delivery Date,Verify Delivery Cost,Checkout Page Result,Screencap,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,Line No.,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,Extra Trade-In Rebate label,Trade-In Rebate captured,Trade-In Rebate result,SC+ label,SC+ captured,SC+ result,Premium SKU count,Count captured,Premium SKU count result,Failed reason,Items in Cart,SKU 1,Qty,,SKU 2,Qty,,SKU 3,Qty,,SKU 4,Qty,,SKU 5,Qty,,SKU 6,Qty,,SKU 7,Qty,,SKU 8,Qty,,SKU 9,Qty,,SKU 10,Qty,,Qty Total,Qty Total Result,Premium Array,Final Result,Test duration (s),,Cart Page Result,Last Updated,,
 ,,,,,,,,,,,,,,,,,,,0,,,0,,,-,-,,,,,,,,,,,,,,,,,,0,"
@@ -10,76 +10,64 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 
 
 "
-,SMP-08,,,,,"Galaxy Z Fold6, 1TB+12GB, Crafted Black","SM-F9560, 1TB",Y,SM-F9560AKHTGY,https://www.samsung.com/hk/smartphones/galaxy-z-fold6/buy/?modelCode=SM-F9560AKHTGY,SM-F9560AKHTGY,"17,398",,Guest,,"17,398",Yes,Z Fold6,800,Yes,Z Fold6,"1,798",Use GC,Z Fold6,500,500,,,,Add to Cart,"17,398",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,,Z-202406WWTICKET-D,,,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-202406WWTICKET-D",3,"
+ENDSUM,SMP-08,,,,,"Galaxy Z Fold6, 1TB+12GB, Crafted Black","SM-F9560, 1TB",Y,SM-F9560AKHTGY,https://www.samsung.com/hk/smartphones/galaxy-z-fold6/buy/?modelCode=SM-F9560AKHTGY,SM-F9560AKHTGY,"17,398",,Guest,,"17,398",Yes,Z Fold6,800,Yes,Z Fold6,"1,798",Use GC,Z Fold6,500,500,,,,Add to Cart,"17,398",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,Z-SM-X110NZAATGY,,,,,,,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-SM-X110NZAATGY",3,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  15W Wireless Charger Pad P2400 with TA [Z-EP-P2400TWEGGB]
-●  1 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-D]
+●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-09,,,,,"Galaxy Z Fold6, 512GB+12GB, Crafted Black","SM-F9560, 512GB",Y,SM-F9560AKGTGY,https://www.samsung.com/hk/smartphones/galaxy-z-fold6/buy/?modelCode=SM-F9560AKGTGY,SM-F9560AKGTGY,"15,398",,Guest,,"15,398",No,Z Fold6,0,Yes,Z Fold6,"1,798",Check GC amount then Skip,Z Fold6,500,500,,,,Add to Cart,"15,398",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,,,,,Z-202406WWTICKET-D,,,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,Z-202406WWTICKET-D",4,"
-●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
-●  1 x  15W Wireless Charger Pad P2400 with TA [Z-EP-P2400TWEGGB]
-●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
-●  1 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-D]
-",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-10,,,,,"Galaxy Z Fold6, 256GB+12GB, Crafted Black","SM-F9560, 256GB",Y,SM-F9560AKDTGY,https://www.samsung.com/hk/smartphones/galaxy-z-fold6/buy/?modelCode=SM-F9560AKDTGY,SM-F9560AKDTGY,"14,398",,Guest,,"14,398",No,Z Fold6,0,No,Z Fold6,0,Check GC amount then Skip,Z Fold6,500,500,,,,Add to Cart,"14,398",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,,,,,Z-202406WWTICKET-D,,,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,Z-202406WWTICKET-D",4,"
+ENDSUM,SMP-09,,,,,"Galaxy Z Fold6, 512GB+12GB, Crafted Black","SM-F9560, 512GB",Y,SM-F9560AKGTGY,https://www.samsung.com/hk/smartphones/galaxy-z-fold6/buy/?modelCode=SM-F9560AKGTGY,SM-F9560AKGTGY,"15,398",,Guest,,"15,398",No,Z Fold6,0,Yes,Z Fold6,"1,798",Check GC amount then Skip,Z Fold6,500,500,,,,Add to Cart,"15,398",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,Z-SM-X110NZAATGY,,,,,,,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,Z-SM-X110NZAATGY",4,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  15W Wireless Charger Pad P2400 with TA [Z-EP-P2400TWEGGB]
 ●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
-●  1 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-D]
+●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-11,,,,,"Galaxy Z Flip6, 512GB+12GB, Crafted Black","SM-F7410, 512GB",Y,SM-F7410AKETGY,https://www.samsung.com/hk/smartphones/galaxy-z-flip6/buy/?modelCode=SM-F7410AKETGY,SM-F7410AKETGY,"9,698",,Guest,,"9,698",Yes,Z Flip6,800,Yes,Z Flip6,998,Use GC,Z Flip6,400,400,,,,Add to Cart,"9,698",,Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,,,,,,Z-202406WWTICKET-D,,,"Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,Z-202406WWTICKET-D",3,"
+ENDSUM,SMP-10,,,,,"Galaxy Z Fold6, 256GB+12GB, Crafted Black","SM-F9560, 256GB",Y,SM-F9560AKDTGY,https://www.samsung.com/hk/smartphones/galaxy-z-fold6/buy/?modelCode=SM-F9560AKDTGY,SM-F9560AKDTGY,"14,398",,Guest,,"14,398",No,Z Fold6,0,No,Z Fold6,0,Check GC amount then Skip,Z Fold6,500,500,,,,Add to Cart,"14,398",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,Z-SM-X110NZAATGY,,,,,,,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,Z-SM-X110NZAATGY",4,"
+●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
+●  1 x  15W Wireless Charger Pad P2400 with TA [Z-EP-P2400TWEGGB]
+●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
+●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+ENDSUM,SMP-11,,,,,"Galaxy Z Flip6, 512GB+12GB, Crafted Black","SM-F7410, 512GB",Y,SM-F7410AKETGY,https://www.samsung.com/hk/smartphones/galaxy-z-flip6/buy/?modelCode=SM-F7410AKETGY,SM-F7410AKETGY,"9,698",,Guest,,"9,698",Yes,Z Flip6,800,Yes,Z Flip6,998,Use GC,Z Flip6,400,400,,,,Add to Cart,"9,698",,Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,,,,,,,,,"Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Z Flip6 Flipsuit Case [Z-EF-ZF741CWEGWW-M]
-●  1 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-D]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-12,,,,,"Galaxy Z Flip6, 256GB+12GB, Crafted Black","SM-F7410, 256GB",Y,SM-F7410AKATGY,https://www.samsung.com/hk/smartphones/galaxy-z-flip6/buy/?modelCode=SM-F7410AKATGY,SM-F7410AKATGY,"8,698",,Guest,,"8,698",No,Z Flip6,0,No,Z Flip6,0,Check GC amount then Skip,Z Flip6,400,400,,,,Add to Cart,"8,698",,Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,Z-ITFITE01,,,,,Z-202406WWTICKET-D,,,"Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,Z-ITFITE01,Z-202406WWTICKET-D",4,"
+ENDSUM,SMP-12,,,,,"Galaxy Z Flip6, 256GB+12GB, Crafted Black","SM-F7410, 256GB",Y,SM-F7410AKATGY,https://www.samsung.com/hk/smartphones/galaxy-z-flip6/buy/?modelCode=SM-F7410AKATGY,SM-F7410AKATGY,"8,698",,Guest,,"8,698",No,Z Flip6,0,No,Z Flip6,0,Check GC amount then Skip,Z Flip6,400,400,,,,Add to Cart,"8,698",,Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,Z-ITFITE01,,,,,,,,"Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,Z-ITFITE01",3,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Z Flip6 Flipsuit Case [Z-EF-ZF741CWEGWW-M]
 ●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
-●  1 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-D]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-13,,,,,"Galaxy Z Flip6 Limited Edition, 512GB+12GB,  Doreamon Special Edition",GP-FPF741HIH,Y,GP-FPF741HIHLW,https://www.samsung.com/hk/mobile-accessories/galaxy-z-flip6-doraemon-special-edition/buy/?modelCode=GP-FPF741HIHLW,GP-FPF741HIHLW,"10,698",,Guest,,"10,698",N/A,Z Flip6,0,N/A,,0,Use GC,Z Flip6,400,400,,,,Add to Cart,"10,698",,Z-SM-F7410LBETGY-M,Z-DORAEAMONBAG-M,Z-EP-T6530NBEGGB-D,Z-EF-ZF741CWEGWW-D,,Z-ITFITE01,,Z-202406WWTICKET-D,,,"Z-SM-F7410LBETGY-M,Z-DORAEAMONBAG-M,Z-EP-T6530NBEGGB-D,Z-EF-ZF741CWEGWW-D,Z-ITFITE01,Z-202406WWTICKET-D",6,"
+,SMP-13,,,,,"Galaxy Z Flip6 Limited Edition, 512GB+12GB,  Doreamon Special Edition",GP-FPF741HIH,N,GP-FPF741HIHLW,https://www.samsung.com0,GP-FPF741HIHLW,"10,698",,Guest,,"10,698",N/A,Z Flip6,0,N/A,,0,Use GC,Z Flip6,400,400,,,,Add to Cart,"10,698",,Z-SM-F7410LBETGY-M,Z-DORAEAMONBAG-M,Z-EP-T6530NBEGGB-D,Z-EF-ZF741CWEGWW-D,,Z-ITFITE01,,,,,"Z-SM-F7410LBETGY-M,Z-DORAEAMONBAG-M,Z-EP-T6530NBEGGB-D,Z-EF-ZF741CWEGWW-D,Z-ITFITE01",5,"
 ●  1 x  Galaxy Z Flip6 512GB Blue [Z-SM-F7410LBETGY-M]
 ●  1 x  Doraemon Special Edition Tote Bag [Z-DORAEAMONBAG-M]
 ●  1 x  65W Power Adapter Trio [Z-EP-T6530NBEGGB-D]
 ●  1 x  Galaxy Z Flip6 Flipsuit Case [Z-EF-ZF741CWEGWW-D]
 ●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
-●  1 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-D]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-01,,,,,"Galaxy S24 Ultra, 1TB, Titanium Orange","SM-S9280, 1TB",Y,SM-S9280ZOPTGY,https://www.samsung.com/hk/smartphones/galaxy-s24-ultra/buy/?modelCode=SM-S9280ZOPTGY,SM-S9280ZOPTGY,"12,898","12,398",Guest,,"12,398",No,Galaxy S24 Ultra,0,Yes,S24 Series,998,Yes,S24 Ultra,500,500,,,,Add to Cart,"12,398",,Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,,,,,,Z-202406WWTICKET-D,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,Z-202406WWTICKET-D",3,"
+ENDSUM,SMP-01,,,,,"Galaxy S24 Ultra, 1TB, Titanium Orange","SM-S9280, 1TB",Y,SM-S9280ZOPTGY,https://www.samsung.com/hk/smartphones/galaxy-s24-ultra/buy/?modelCode=SM-S9280ZOPTGY,SM-S9280ZOPTGY,"12,898","12,398",Guest,,"12,398",No,Galaxy S24 Ultra,0,Yes,S24 Series,998,Yes,S24 Ultra,500,500,,,,Add to Cart,"12,398",,Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,,,,,,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
-●  1 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-D]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-02,,,,,"Galaxy S24 Ultra, 512GB, Titanium Black","SM-S9280, 512GB",Y,SM-S9280ZKHTGY,https://www.samsung.com/hk/smartphones/galaxy-s24-ultra/buy/?modelCode=SM-S9280ZKHTGY,SM-S9280ZKHTGY,"10,898","10,398",Guest,,"10,398",No,Galaxy S24 Ultra,0,Yes,S24 Series,998,Check GC amount then Skip,S24 Ultra,500,500,,,,Add to Cart,"10,398",,Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,,,,,,Z-202406WWTICKET-D,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,Z-202406WWTICKET-D",3,"
+ENDSUM,SMP-02,,,,,"Galaxy S24 Ultra, 512GB, Titanium Black","SM-S9280, 512GB",Y,SM-S9280ZKHTGY,https://www.samsung.com/hk/smartphones/galaxy-s24-ultra/buy/?modelCode=SM-S9280ZKHTGY,SM-S9280ZKHTGY,"10,898","10,398",Guest,,"10,398",No,Galaxy S24 Ultra,0,Yes,S24 Series,998,Check GC amount then Skip,S24 Ultra,500,500,,,,Add to Cart,"10,398",,Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,,,,,,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
-●  1 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-D]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-03,,,,,"Galaxy S24 Ultra, 256GB, Titanium Black","SM-S9280, 256GB",Y,SM-S9280ZKGTGY,https://www.samsung.com/hk/smartphones/galaxy-s24-ultra/buy/?modelCode=SM-S9280ZKGTGY,SM-S9280ZKGTGY,"9,898","9,398",Guest,,"9,398",No,Galaxy S24 Ultra,0,Yes,S24 Series,998,Check GC amount then Skip,S24 Ultra,500,500,,,,Add to Cart,"9,398",,Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,,,,,,Z-202406WWTICKET-D,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,Z-202406WWTICKET-D",3,"
+ENDSUM,SMP-03,,,,,"Galaxy S24 Ultra, 256GB, Titanium Black","SM-S9280, 256GB",Y,SM-S9280ZKGTGY,https://www.samsung.com/hk/smartphones/galaxy-s24-ultra/buy/?modelCode=SM-S9280ZKGTGY,SM-S9280ZKGTGY,"9,898","9,398",Guest,,"9,398",No,Galaxy S24 Ultra,0,Yes,S24 Series,998,Check GC amount then Skip,S24 Ultra,500,500,,,,Add to Cart,"9,398",,Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,,,,,,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
-●  1 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-D]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-04,,,,,"Galaxy S24+, 512GB, Onyx Black","SM-S9260, 512GB",Y,SM-S9260ZKGTGY,https://www.samsung.com/hk/smartphones/galaxy-s24/buy/?modelCode=SM-S9260ZKGTGY,SM-S9260ZKGTGY,"8,598","8,298",Guest,,"8,298",No,Galaxy S24+,0,Yes,S24 Series,998,Use GC,S24+,500,500,,,,Add to Cart,"8,298",,Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,,,,,,Z-202406WWTICKET-D,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,Z-202406WWTICKET-D",3,"
+ENDSUM,SMP-04,,,,,"Galaxy S24+, 512GB, Onyx Black","SM-S9260, 512GB",Y,SM-S9260ZKGTGY,https://www.samsung.com/hk/smartphones/galaxy-s24/buy/?modelCode=SM-S9260ZKGTGY,SM-S9260ZKGTGY,"8,598","8,298",Guest,,"8,298",No,Galaxy S24+,0,Yes,S24 Series,998,Use GC,S24+,500,500,,,,Add to Cart,"8,298",,Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,,,,,,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
-●  1 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-D]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-05,,,,,"Galaxy S24+, 256GB, Marble Gray","SM-S9260, 256GB",Y,SM-S9260ZADTGY,https://www.samsung.com/hk/smartphones/galaxy-s24/buy/?modelCode=SM-S9260ZADTGY,SM-S9260ZADTGY,"7,598","7,298",Guest,,"7,298",No,Galaxy S24+,0,Yes,S24 Series,998,Check GC amount then Skip,S24+,500,500,,,,Add to Cart,"7,298",,Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,,,,,,Z-202406WWTICKET-D,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,Z-202406WWTICKET-D",3,"
+ENDSUM,SMP-05,,,,,"Galaxy S24+, 256GB, Marble Gray","SM-S9260, 256GB",Y,SM-S9260ZADTGY,https://www.samsung.com/hk/smartphones/galaxy-s24/buy/?modelCode=SM-S9260ZADTGY,SM-S9260ZADTGY,"7,598","7,298",Guest,,"7,298",No,Galaxy S24+,0,Yes,S24 Series,998,Check GC amount then Skip,S24+,500,500,,,,Add to Cart,"7,298",,Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,,,,,,,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
-●  1 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-D]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-06,,,,,"Galaxy S24, 512GB, Onyx Black","SM-S9210, 512GB",Y,SM-S9210ZKHTGY,https://www.samsung.com/hk/smartphones/galaxy-s24/buy/?modelCode=SM-S9210ZKHTGY,SM-S9210ZKHTGY,"6,898",,Guest,,"6,898",No,Galaxy S24,0,Yes,S24 Series,998,Check GC amount then Skip,S24 base,0,0,,,,Add to Cart,"6,898",,Z-EP-T6530NBEGGB,,,,,GP-FPS921SBKYW / GP-FPS921SBKRW,,Z-202406WWTICKET-D,,,"Z-EP-T6530NBEGGB,GP-FPS921SBKYW / GP-FPS921SBKRW,Z-202406WWTICKET-D",3,"
+ENDSUM,SMP-06,,,,,"Galaxy S24, 512GB, Onyx Black","SM-S9210, 512GB",Y,SM-S9210ZKHTGY,https://www.samsung.com/hk/smartphones/galaxy-s24/buy/?modelCode=SM-S9210ZKHTGY,SM-S9210ZKHTGY,"6,898",,Guest,,"6,898",No,Galaxy S24,0,Yes,S24 Series,998,Check GC amount then Skip,S24 base,0,0,,,,Add to Cart,"6,898",,Z-EP-T6530NBEGGB,,,,,,,,,,Z-EP-T6530NBEGGB,1,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
-●  1 x  S24 Free gifts (GP-FPS921SBKYW / GP-FPS921SBKRW) [GP-FPS921SBKYW / GP-FPS921SBKRW]
-●  1 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-D]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-07,,,,,"Galaxy S24, 256GB, Onyx Black","SM-S9210, 256GB",Y,SM-S9210ZKGTGY,https://www.samsung.com/hk/smartphones/galaxy-s24/buy/?modelCode=SM-S9210ZKGTGY,SM-S9210ZKGTGY,"5,898",,Guest,,"5,898",No,Galaxy S24,0,Yes,S24 Series,998,Check GC amount then Skip,S24 base,0,0,,,,Add to Cart,"5,898",,Z-EP-T6530NBEGGB,,,,,GP-FPS921SBKYW / GP-FPS921SBKRW,,Z-202406WWTICKET-D,,,"Z-EP-T6530NBEGGB,GP-FPS921SBKYW / GP-FPS921SBKRW,Z-202406WWTICKET-D",3,"
+ENDSUM,SMP-07,,,,,"Galaxy S24, 256GB, Onyx Black","SM-S9210, 256GB",Y,SM-S9210ZKGTGY,https://www.samsung.com/hk/smartphones/galaxy-s24/buy/?modelCode=SM-S9210ZKGTGY,SM-S9210ZKGTGY,"5,898",,Guest,,"5,898",No,Galaxy S24,0,Yes,S24 Series,998,Check GC amount then Skip,S24 base,0,0,,,,Add to Cart,"5,898",,Z-EP-T6530NBEGGB,,,,,,,,,,Z-EP-T6530NBEGGB,1,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
-●  1 x  S24 Free gifts (GP-FPS921SBKYW / GP-FPS921SBKRW) [GP-FPS921SBKYW / GP-FPS921SBKRW]
-●  1 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-D]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,SMP-14,,,,,"Galaxy Z Fold5 1TB, Cream (eStore)","SM-F9460, 1TB",Y,SM-F9460ZEHTGY,https://www.samsung.com/hk/smartphones/galaxy-z-fold5/buy/?modelCode=SM-F9460ZEHTGY,SM-F9460ZEHTGY,"16,598","13,498",Guest,,"13,498",Yes,Z Fold5,0,Yes,Z Fold5,"1,798",Use GC,Fold5,500,500,,,,Add to Cart,"13,498",,Z-EP-T6530NBEGGB,,,,,,,,,,Z-EP-T6530NBEGGB,1,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
@@ -90,11 +78,11 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ,SMP-16,,,,,"Galaxy Z Fold5 256, 12GB + 256GB, Black","SM-F9460, 256GB",Y,SM-F9460ZKDTGY,https://www.samsung.com/hk/smartphones/galaxy-z-fold5/buy/?modelCode=SM-F9460ZKDTGY,SM-F9460ZKDTGY,"13,598","10,798",Guest,,"10,798",Yes,Z Fold5,0,Yes,Z Fold5,"1,798",Check GC amount then Skip,Fold5,500,500,,,,Add to Cart,"10,798",,Z-EP-T6530NBEGGB,,,,,,,,,,Z-EP-T6530NBEGGB,1,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-17,,,,,"Galaxy Z Flip5 512, 8GB + 512GB, Cream (eStore)","SM-F7310, 512GB",Y,SM-F7310ZEETGY,https://www.samsung.com/hk/smartphones/galaxy-z-flip5/buy/?modelCode=SM-F7310ZEETGY,SM-F7310ZEETGY,"9,298","5,898",Guest,,"5,898",Yes,Z Flip5,0,Yes,Z Flip5,998,Check GC amount then Skip,Flip5 512GB,500,500,,,,Add to Cart,"5,898",,Z-EP-T6530NBEGGB,Z-EF-ZF731CTEGWW,,,,,,,,,"Z-EP-T6530NBEGGB,Z-EF-ZF731CTEGWW",2,"
+,SMP-17,,,,,"Galaxy Z Flip5 512, 8GB + 512GB, Cream (eStore)","SM-F7310, 512GB",N,SM-F7310ZEETGY,https://www.samsung.com0,SM-F7310ZEETGY,"9,298","5,898",Guest,,"5,898",Yes,Z Flip5,0,Yes,Z Flip5,998,Check GC amount then Skip,Flip5 512GB,500,500,,,,Add to Cart,"5,898",,Z-EP-T6530NBEGGB,Z-EF-ZF731CTEGWW,,,,,,,,,"Z-EP-T6530NBEGGB,Z-EF-ZF731CTEGWW",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Z Flip5 Flipsuit Case [Z-EF-ZF731CTEGWW]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-18,,,,,"Galaxy Z Flip5 256, 8GB + 256GB, Cream","SM-F7310, 256GB",Y,SM-F7310ZEATGY,https://www.samsung.com/hk/smartphones/galaxy-z-flip5/buy/?modelCode=SM-F7310ZEATGY,SM-F7310ZEATGY,"8,298","5,398",Guest,,"5,398",Yes,Z Flip5,0,Yes,Z Flip5,998,Use GC,Flip5 256GB,500,500,,,,Add to Cart,"5,398",,Z-EP-T6530NBEGGB,Z-EF-ZF731CTEGWW,,,,,,,,,"Z-EP-T6530NBEGGB,Z-EF-ZF731CTEGWW",2,"
+,SMP-18,,,,,"Galaxy Z Flip5 256, 8GB + 256GB, Cream","SM-F7310, 256GB",N,SM-F7310ZEATGY,https://www.samsung.com0,SM-F7310ZEATGY,"8,298","5,398",Guest,,"5,398",Yes,Z Flip5,0,Yes,Z Flip5,998,Use GC,Flip5 256GB,500,500,,,,Add to Cart,"5,398",,Z-EP-T6530NBEGGB,Z-EF-ZF731CTEGWW,,,,,,,,,"Z-EP-T6530NBEGGB,Z-EF-ZF731CTEGWW",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Z Flip5 Flipsuit Case [Z-EF-ZF731CTEGWW]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
@@ -104,10 +92,9 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,SMP-21,,,,,"Galaxy S23 [512], 8+512GB, Green","SM-S9110, 512GB",Y,SM-S9110ZGHTGY,https://www.samsung.com/hk/smartphones/galaxy-s23/buy/?modelCode=SM-S9110ZGHTGY,SM-S9110ZGHTGY,"6,498","5,398",Guest,,"5,398",Yes,S23,0,Yes,S23 Series,998,Check GC amount then Skip,S23 (base),200,200,,,,Add to Cart,"5,398",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-22,,,,,"Galaxy S23 FE 256, Mint","SM-S7110, 256GB",Y,SM-S7110LGGTGY,https://www.samsung.com/hk/smartphones/galaxy-s23-fe/buy/?modelCode=SM-S7110LGGTGY,SM-S7110LGGTGY,"5,098","3,868",Guest,,"3,868",Yes,S23 FE,0,Yes,S23 FE,398,Use GC,S23 FE,200,200,,,,Add to Cart,"3,868",,Z-ITFITPW03,Z-EF-QS711CTEGWW,,,,,,Z-202406WWTICKET-D,,,"Z-ITFITPW03,Z-EF-QS711CTEGWW,Z-202406WWTICKET-D",3,"
+ENDSUM,SMP-22,,,,,"Galaxy S23 FE 256, Mint","SM-S7110, 256GB",Y,SM-S7110LGGTGY,https://www.samsung.com/hk/smartphones/galaxy-s23-fe/buy/?modelCode=SM-S7110LGGTGY,SM-S7110LGGTGY,"5,098",,Guest,,"5,098",Yes,S23 FE,0,Yes,S23 FE,398,Use GC,S23 FE,200,200,,,,Add to Cart,"5,098",,Z-ITFITPW03,Z-EF-QS711CTEGWW,,,,,,,,,"Z-ITFITPW03,Z-EF-QS711CTEGWW",2,"
 ●  1 x  ITFIT Universal Travel Adapter [Z-ITFITPW03]
 ●  1 x  Galaxy S23 FE Clear Case [Z-EF-QS711CTEGWW]
-●  1 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-D]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,SMP-23,,,,,Galaxy A55 5G 8GB 128GB Awesome Navy,"SM-A5560, 128GB",N,SM-A5560ZKATGY,https://www.samsung.com/hk/smartphones/galaxy-a/galaxy-a55-5g-awesome-navy-128gb-sm-a5560zkatgy/buy/,SM-A5560ZKATGY,"3,298",,Guest,,"3,298",Yes,A55,0,Yes,A55,398,Check GC amount then Skip,A55,300,300,,,,Add to Cart,"3,298",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,,,,,,"Z-ITFITT10WE,Z-ITFITPW28-M",2,"
 ●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
@@ -175,9 +162,8 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ,SMP-36,,,,,"Galaxy Watch7 44mm (LTE), Green",SM-L315F,N,SM-L315FZGATGY,https://www.samsung.com/hk/watches/galaxy-watch/galaxy-watch7-44mm-green-lte-sm-l315fzgatgy/buy/,SM-L315FZGATGY,"2,998",,Guest,,"2,998",No,,0,Yes,Watch B2 (RRP >=$2701),598,N/A,,0,0,,,,Add to Cart,"2,998",,Z-ET-SVL31LNEGWW-M,,,,,,,,,,Z-ET-SVL31LNEGWW-M,1,"
 ●  1 x  Fabric Band [Z-ET-SVL31LNEGWW-M]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-32,,,,,"Galaxy Watch Ultra, Titanium Gray",SM-L705F,N,SM-L705FDAATGY,https://www.samsung.com/hk/watches/galaxy-watch/galaxy-watch-ultra-titanium-gray-lte-sm-l705fdaatgy/buy/,SM-L705FDAATGY,"5,098",,Guest,,"5,098",No,,0,Yes,Watch Ultra,798,N/A,,0,0,,,,Add to Cart,"5,098",,Z-ET-SVL70MBEGWW-M,,,,Z-ITAC13-M,,,,,,"Z-ET-SVL70MBEGWW-M,Z-ITAC13-M",2,"
+ENDSUM,SMP-32,,,,,"Galaxy Watch Ultra, Titanium Gray",SM-L705F,N,SM-L705FDAATGY,https://www.samsung.com/hk/watches/galaxy-watch/galaxy-watch-ultra-titanium-gray-lte-sm-l705fdaatgy/buy/,SM-L705FDAATGY,"5,098",,Guest,,"5,098",No,,0,Yes,Watch Ultra,798,N/A,,0,0,,,,Add to Cart,"5,098",,Z-ET-SVL70MBEGWW-M,,,,,,,,,,Z-ET-SVL70MBEGWW-M,1,"
 ●  1 x  Trail Band [Z-ET-SVL70MBEGWW-M]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,SMP-37,,,,,"Galaxy Watch FE (BT), Black",SM-R861,N,SM-R861NZKATGY,https://www.samsung.com/hk/watches/galaxy-watch/galaxy-watch-fe-40mm-black-bluetooth-sm-r861nzkatgy/buy/,SM-R861NZKATGY,"1,598",,Guest,,"1,598",No,,0,Yes,Watch B1 (RRP <=$2700),448,N/A,,0,0,,,,Add to Cart,"1,598",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
@@ -185,43 +171,40 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,SMP-43,,,,,"Galaxy Buds2 Pro, Graphite",SM-R510,N,SM-R510NZAAASA,https://www.samsung.com/hk/audio-sound/galaxy-buds/galaxy-buds2-pro-graphite-sm-r510nzaaasa/,SM-R510NZAAASA,"1,798","1,198",Guest,,"1,198",N/A,,0,N/A,,0,N/A,,0,0,,,,Add to Cart,"1,198",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-52,,,,,"Galaxy Buds3 Pro, Silver",SM-R630,N,SM-R630NZAATGY,https://www.samsung.com/hk/audio-sound/galaxy-buds/galaxy-buds3-pro-silver-sm-r630nzaatgy/,SM-R630NZAATGY,"1,998",,Guest,,"1,998",N/A,,0,No,,0,N/A,,0,0,,,,Add to Cart,"1,998",,Z-GP-FPR630HICBW-M,,,,Z-ITAC13-M,,,,,,"Z-GP-FPR630HICBW-M,Z-ITAC13-M",2,"
+ENDSUM,SMP-52,,,,,"Galaxy Buds3 Pro, Silver",SM-R630,N,SM-R630NZAATGY,https://www.samsung.com/hk/audio-sound/galaxy-buds/galaxy-buds3-pro-silver-sm-r630nzaatgy/,SM-R630NZAATGY,"1,998",,Guest,,"1,998",N/A,,0,No,,0,Use GC,Buds3 Pro,100,100,,,,Add to Cart,"1,998",,Z-GP-FPR630HICBW-M,,,,,,,,,,Z-GP-FPR630HICBW-M,1,"
 ●  1 x  Clip Case [Z-GP-FPR630HICBW-M]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-53,,,,,"Galaxy Buds3, Silver",SM-R530,N,SM-R530NZAATGY,https://www.samsung.com/hk/audio-sound/galaxy-buds/galaxy-buds3-silver-sm-r530nzaatgy/,SM-R530NZAATGY,"1,398",,Guest,,"1,398",N/A,,0,No,,0,N/A,,0,0,,,,Add to Cart,"1,398",,,,,,,,,,,,,0,"
+BUDS3GC,SMP-53,,,,,"Galaxy Buds3, Silver",SM-R530,N,SM-R530NZAATGY,https://www.samsung.com/hk/audio-sound/galaxy-buds/galaxy-buds3-silver-sm-r530nzaatgy/,SM-R530NZAATGY,"1,398",,Guest,,"1,398",N/A,,0,No,,0,Use GC,Buds3,100,100,,,,Add to Cart,"1,398",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,SMP-54,,,,,Galaxy Buds FE,SM-R400N,N,SM-R400NZAATGY,https://www.samsung.com/hk/audio-sound/galaxy-buds/galaxy-buds-fe-graphite-sm-r400nzaatgy/,SM-R400NZAATGY,898,718,Guest,,718,N/A,,0,No,,0,N/A,,0,0,,,,Add to Cart,718,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,SMP-55,,,,,SmartTag2,EI-T5600,N,EI-T5600BBEGWW,https://www.samsung.com/hk/mobile-accessories/galaxy-smarttag2-black-ei-t5600bbegww/,EI-T5600BBEGWW,238,,Guest,,238,N/A,,0,No,,0,N/A,,0,0,,,,Add to Cart,238,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,TAB-01,,,,,"Galaxy Tab S9, 8GB+128, Graphite",SM-X710,Y,SM-X710NZAATGY,https://www.samsung.com/hk/tablets/galaxy-tab-s9/buy/?modelCode=SM-X710NZAATGY,SM-X710NZAATGY,"6,288","5,488",Guest,,"5,488",Yes,Tab S9,"1,500",Yes - 1year,"Tab S9, S9+",0,Use GC,Tab S9 Series,200,200,,,,Add to Cart,"5,488",,Z-EF-BX710PBEGWW,,,,,,,Z-ITAC13-M,,,"Z-EF-BX710PBEGWW,Z-ITAC13-M",2,"
+ENDSUM,TAB-01,,,,,"Galaxy Tab S9, 8GB+128, Graphite",SM-X710,Y,SM-X710NZAATGY,https://www.samsung.com/hk/tablets/galaxy-tab-s9/buy/?modelCode=SM-X710NZAATGY,SM-X710NZAATGY,"6,288","5,488",Guest,,"5,488",Yes,Tab S9,"1,500",Yes - 1year,"Tab S9, S9+",0,Use GC,Tab S9 Series,200,200,,,,Add to Cart,"5,488",,Z-EF-BX710PBEGWW,,,,,,,,,,Z-EF-BX710PBEGWW,1,"
 ●  1 x  Galaxy Tab S9 Smart Book Cover [Z-EF-BX710PBEGWW]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,TAB-02,,,,,"Galaxy Tab S9 (5G), 8GB+128, Graphite (NSP)",SM-X716B,Y,SM-X716BZAATGY,https://www.samsung.com/hk/tablets/galaxy-tab-s9/buy/?modelCode=SM-X716BZAATGY,SM-X716BZAATGY,"7,388","6,588",Guest,,"6,588",Yes,Tab S9,"1,500",Yes - 1year,"Tab S9, S9+",0,Use GC,Tab S9 Series,200,200,,,,Add to Cart,"6,588",,Z-EF-BX710PBEGWW,,,,,,,Z-ITAC13-M,,,"Z-EF-BX710PBEGWW,Z-ITAC13-M",2,"
+ENDSUM,TAB-02,,,,,"Galaxy Tab S9 (5G), 8GB+128, Graphite (NSP)",SM-X716B,Y,SM-X716BZAATGY,https://www.samsung.com/hk/tablets/galaxy-tab-s9/buy/?modelCode=SM-X716BZAATGY,SM-X716BZAATGY,"7,388","6,588",Guest,,"6,588",Yes,Tab S9,"1,500",Yes - 1year,"Tab S9, S9+",0,Use GC,Tab S9 Series,200,200,,,,Add to Cart,"6,588",,Z-EF-BX710PBEGWW,,,,,,,,,,Z-EF-BX710PBEGWW,1,"
 ●  1 x  Galaxy Tab S9 Smart Book Cover [Z-EF-BX710PBEGWW]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,TAB-03,,,,,"Galaxy Tab S9+, 12GB+256, Graphite",SM-X810,Y,SM-X810NZAATGY,https://www.samsung.com/hk/tablets/galaxy-tab-s9/buy/?modelCode=SM-X810NZAATGY,SM-X810NZAATGY,"7,888","6,379",Guest,,"6,379",Yes,Tab S9+,"1,800",Yes - 1year,"Tab S9, S9+",0,Use GC,Tab S9 Series,200,200,,,,Add to Cart,"6,379",,Z-EF-BX810PBEGWW,,,,Z-202406WWTICKET-Dx2,,,Z-ITAC13-M,,,"Z-EF-BX810PBEGWW,Z-202406WWTICKET-Dx2,Z-ITAC13-M",4,"
+ENDSUM,TAB-03,,,,,"Galaxy Tab S9+, 12GB+256, Graphite",SM-X810,Y,SM-X810NZAATGY,https://www.samsung.com/hk/tablets/galaxy-tab-s9/buy/?modelCode=SM-X810NZAATGY,SM-X810NZAATGY,"7,888","6,379",Guest,,"6,379",Yes,Tab S9+,"1,800",Yes - 1year,"Tab S9, S9+",0,Use GC,Tab S9 Series,200,200,,,,Add to Cart,"6,379",,Z-EF-BX810PBEGWW,Z-202406WWTICKET-Dx2,,,,,Z-202406WWTICKET-Dx2,,,,"Z-EF-BX810PBEGWW,Z-202406WWTICKET-Dx2,Z-202406WWTICKET-Dx2",5,"
 ●  1 x  Galaxy Tab S9+ Smart Book Cover [Z-EF-BX810PBEGWW]
 ●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
+●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,TAB-04,,,,,"Galaxy Tab S9+ (5G), 12GB+256, Graphite",SM-X816B,Y,SM-X816BZAATGY,https://www.samsung.com/hk/tablets/galaxy-tab-s9/buy/?modelCode=SM-X816BZAATGY,SM-X816BZAATGY,"8,988","7,369",Guest,,"7,369",Yes,Tab S9+,"1,800",Yes - 1year,"Tab S9, S9+",0,Use GC,Tab S9 Series,200,200,,,,Add to Cart,"7,369",,Z-EF-BX810PBEGWW,,,,Z-202406WWTICKET-Dx2,,,Z-ITAC13-M,,,"Z-EF-BX810PBEGWW,Z-202406WWTICKET-Dx2,Z-ITAC13-M",4,"
+ENDSUM,TAB-04,,,,,"Galaxy Tab S9+ (5G), 12GB+256, Graphite",SM-X816B,Y,SM-X816BZAATGY,https://www.samsung.com/hk/tablets/galaxy-tab-s9/buy/?modelCode=SM-X816BZAATGY,SM-X816BZAATGY,"8,988","7,369",Guest,,"7,369",Yes,Tab S9+,"1,800",Yes - 1year,"Tab S9, S9+",0,Use GC,Tab S9 Series,200,200,,,,Add to Cart,"7,369",,Z-EF-BX810PBEGWW,Z-202406WWTICKET-Dx2,,,,,Z-202406WWTICKET-Dx2,,,,"Z-EF-BX810PBEGWW,Z-202406WWTICKET-Dx2,Z-202406WWTICKET-Dx2",5,"
 ●  1 x  Galaxy Tab S9+ Smart Book Cover [Z-EF-BX810PBEGWW]
 ●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
+●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,TAB-05,,,,,"Galaxy Tab S9 Ultra, 12GB+256, Graphite",SM-X910,Y,SM-X910NZAATGY,https://www.samsung.com/hk/tablets/galaxy-tab-s9/buy/?modelCode=SM-X910NZAATGY,SM-X910NZAATGY,"9,688","7,819",Guest,,"7,819",Yes,Tab S9 Ultra,"2,500",Yes - 1year,Tab S9 Ultra,0,Use GC,Tab S9 Series,200,200,,,,Add to Cart,"7,819",,Z-EF-BX910PBEGWW,,,,Z-202406WWTICKET-Dx2,,,Z-ITAC13-M,,,"Z-EF-BX910PBEGWW,Z-202406WWTICKET-Dx2,Z-ITAC13-M",4,"
+ENDSUM,TAB-05,,,,,"Galaxy Tab S9 Ultra, 12GB+256, Graphite",SM-X910,Y,SM-X910NZAATGY,https://www.samsung.com/hk/tablets/galaxy-tab-s9/buy/?modelCode=SM-X910NZAATGY,SM-X910NZAATGY,"9,688","7,819",Guest,,"7,819",Yes,Tab S9 Ultra,"2,500",Yes - 1year,Tab S9 Ultra,0,Use GC,Tab S9 Series,200,200,,,,Add to Cart,"7,819",,Z-EF-BX910PBEGWW,Z-202406WWTICKET-Dx2,,,,,Z-202406WWTICKET-Dx2,,,,"Z-EF-BX910PBEGWW,Z-202406WWTICKET-Dx2,Z-202406WWTICKET-Dx2",5,"
 ●  1 x  Galaxy Tab S9 Ultra Smart Book Cover [Z-EF-BX910PBEGWW]
 ●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
+●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,TAB-06,,,,,"Galaxy Tab S9 Ultra (5G), 12GB+512, Graphite",SM-X916B,Y,SM-X916BZAETGY,https://www.samsung.com/hk/tablets/galaxy-tab-s9/buy/?modelCode=SM-X916BZAETGY,SM-X916BZAETGY,"11,688","9,619",Guest,,"9,619",Yes,Tab S9 Ultra,"2,500",Yes - 1year,Tab S9 Ultra,0,Use GC,Tab S9 Series,200,200,,,,Add to Cart,"9,619",,Z-EF-BX910PBEGWW,,,,Z-202406WWTICKET-Dx2,,,Z-ITAC13-M,,,"Z-EF-BX910PBEGWW,Z-202406WWTICKET-Dx2,Z-ITAC13-M",4,"
+ENDSUM,TAB-06,,,,,"Galaxy Tab S9 Ultra (5G), 12GB+512, Graphite",SM-X916B,Y,SM-X916BZAETGY,https://www.samsung.com/hk/tablets/galaxy-tab-s9/buy/?modelCode=SM-X916BZAETGY,SM-X916BZAETGY,"11,688","9,619",Guest,,"9,619",Yes,Tab S9 Ultra,"2,500",Yes - 1year,Tab S9 Ultra,0,Use GC,Tab S9 Series,200,200,,,,Add to Cart,"9,619",,Z-EF-BX910PBEGWW,Z-202406WWTICKET-Dx2,,,,,Z-202406WWTICKET-Dx2,,,,"Z-EF-BX910PBEGWW,Z-202406WWTICKET-Dx2,Z-202406WWTICKET-Dx2",5,"
 ●  1 x  Galaxy Tab S9 Ultra Smart Book Cover [Z-EF-BX910PBEGWW]
 ●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
+●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,TAB-07,,,,,"Galaxy Tab S9 FE, Wi-Fi, MINT",SM-X510,Y,SM-X510NLGATGY,https://www.samsung.com/hk/tablets/galaxy-tab-s9-fe/buy/?modelCode=SM-X510NLGATGY,SM-X510NLGATGY,"3,588","3,088",Guest,,"3,088",Yes,Tab S9 FE,"1,000",Yes,Tab S9 FE,498,Use GC,Tab S9 FE series,200,200,,,,Add to Cart,"3,088",,Z-ITFITCS9FEGY,,,,,,,,,,Z-ITFITCS9FEGY,1,"
 ●  1 x  ITFIT Bookcover [Z-ITFITCS9FEGY]
@@ -257,17 +240,17 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ,TAB-17,,,,,Galaxy Tab A8 (LTE),SM-X205,N,SM-X205NZSETGY,https://www.samsung.com/hk/tablets/galaxy-tab-a/galaxy-tab-a8-lte-silver-64gb-sm-x205nzsetgy/buy/,SM-X205NZSETGY,"2,588","2,200",Guest,,"2,200",Yes,,0,Yes,Tab A8,298,N/A,,0,0,,,,Add to Cart,"2,200",,Z-ITFITBKCA8GY,,,,,,,,,,Z-ITFITBKCA8GY,1,"
 ●  1 x  ITFIT Tab A8 Book Cover [Z-ITFITBKCA8GY]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,NPC-01,,,,,"Galaxy Book4 Uitra 16""/i9/64GB/2TB/RTX4070",NP960XGLZ-EXP,Y,NP960XGL-XG1HK,https://www.samsung.com/hk/computers/galaxy-book/galaxy-book4-ultra/buy/?modelCode=NP960XGL-XG1HK,NP960XGL-XG1HK,"24,980","22,482",Guest,,"22,482",Yes,Book4 Ultra,"3,000",Yes,Book Tier 4: Premium (RRP >=$15000),"1,679",N/A,,0,0,,,,Add to Cart,"22,482",,Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,,,Z-202406WWTICKET-Dx2,Z-SM-X510NLGATGY-M,,,,,"Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-202406WWTICKET-Dx2,Z-SM-X510NLGATGY-M",5,"
+,NPC-01,,,,,"Galaxy Book4 Uitra 16""/i9/64GB/2TB/RTX4070",NP960XGLZ-EXP,Y,NP960XGL-XG1HK,https://www.samsung.com/hk/computers/galaxy-book/galaxy-book4-ultra/buy/?modelCode=NP960XGL-XG1HK,NP960XGL-XG1HK,"24,980","22,482",Guest,,"22,482",Yes,Book4 Ultra,"3,000",Yes,Book Tier 4: Premium (RRP >=$15000),"1,679",N/A,,0,0,,,,Add to Cart,"22,482",,Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,,,,Z-SM-X510NLGATGY-M,Z-202406WWTICKET-Dx2,,,,"Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X510NLGATGY-M,Z-202406WWTICKET-Dx2",5,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Book3 Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
-●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
 ●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-M]
+●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,NPC-02,,,,,"Galaxy Book4 Pro 360 16""/i7/32GB/1TB",NP960QGKA-EXP,Y,NP960QGK-KS3HK,https://www.samsung.com/hk/computers/galaxy-book/galaxy-book4-pro360/buy/?modelCode=NP960QGK-KS3HK,NP960QGK-KS3HK,"16,980","15,282",Guest,,"15,282",Yes,Book4 Pro 360,"2,500",Yes,Book Tier 4: Premium (RRP >=$15000),"1,679",N/A,,0,0,,,,Add to Cart,"15,282",,Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,,,Z-202406WWTICKET-Dx2,Z-SM-X510NLGATGY-M,,,,,"Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-202406WWTICKET-Dx2,Z-SM-X510NLGATGY-M",5,"
+,NPC-02,,,,,"Galaxy Book4 Pro 360 16""/i7/32GB/1TB",NP960QGKA-EXP,Y,NP960QGK-KS3HK,https://www.samsung.com/hk/computers/galaxy-book/galaxy-book4-pro360/buy/?modelCode=NP960QGK-KS3HK,NP960QGK-KS3HK,"16,980","15,282",Guest,,"15,282",Yes,Book4 Pro 360,"2,500",Yes,Book Tier 4: Premium (RRP >=$15000),"1,679",N/A,,0,0,,,,Add to Cart,"15,282",,Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,,,,Z-SM-X510NLGATGY-M,Z-202406WWTICKET-Dx2,,,,"Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X510NLGATGY-M,Z-202406WWTICKET-Dx2",5,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Book3 Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
-●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
 ●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-M]
+●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,NPC-03,,,,,"Galaxy Book4 Pro 16""/i7/32GB/1TB",NP960XGKA-EXP,Y,NP960XGK-KS5HK,https://www.samsung.com/hk/computers/galaxy-book/galaxy-book4-ultra/buy/?modelCode=NP960XGK-KS5HK,NP960XGK-KS5HK,"15,680",,Guest,,"15,680",Yes,Book4 Pro,"2,000",Yes,Book Tier 4: Premium (RRP >=$15000),"1,679",N/A,,0,0,,,,Add to Cart,"15,680",,Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,,,,Z-SM-X210NZAATGY,,,,,"Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X210NZAATGY",3,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
@@ -279,19 +262,17 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ●  1 x  Galaxy Book3 Slim Pouch 14"" [Z-EF-LPUN4PBEGWW]
 ●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZAATGY]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,NPC-05,,,,,"Galaxy Book4 Edge, 16""/X1E-84/16GB/1TB, Sapphire Blue",NP960XMBA-EXP,Y,NP960XMB-KB1HK,https://www.samsung.com/hk/computers/galaxy-book/galaxy-book4-edge/buy/?modelCode=NP960XMB-KB1HK,NP960XMB-KB1HK,"14,680",,Guest,,"14,680",Yes,Book4 Edge,"2,000",Yes,Book Tier 3: High (RRP $12000-$14999),"1,539",N/A,,0,0,,,,Add to Cart,"14,680",,Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,,,Z-ITAC13-M,Z-SM-X210NZAATGY,,,,,"Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-ITAC13-M,Z-SM-X210NZAATGY",4,"
+ENDSUM,NPC-05,,,,,"Galaxy Book4 Edge, 16""/X1E-84/16GB/1TB, Sapphire Blue",NP960XMBA-EXP,Y,NP960XMB-KB1HK,https://www.samsung.com/hk/computers/galaxy-book/galaxy-book4-edge/buy/?modelCode=NP960XMB-KB1HK,NP960XMB-KB1HK,"14,680",,Guest,,"14,680",Yes,Book4 Edge,"2,000",Yes,Book Tier 3: High (RRP $12000-$14999),"1,539",N/A,,0,0,,,,Add to Cart,"14,680",,Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,,,,Z-SM-X210NZAATGY,,,,,"Z-EB-P4520XUEGWW-M,Z-EF-LPUN6PBEGWW,Z-SM-X210NZAATGY",3,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Book3 Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZAATGY]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,NPC-06,,,,,"Galaxy Book4 Edge, 14""/X1E-80/16GB/512GB, Sapphire Blue",NP940XMAA-EXP,Y,NP940XMA-KB1HK,https://www.samsung.com/hk/computers/galaxy-book/galaxy-book4-edge/buy/?modelCode=NP940XMA-KB1HK,NP940XMA-KB1HK,"11,980",,Guest,,"11,980",Yes,Book4 Edge,"2,000",Yes,Book Tier 2: Mid (RRP $7000-11999),"1,049",N/A,,0,0,,,,Add to Cart,"11,980",,Z-EB-P4520XUEGWW-M,Z-EF-LPUN4PBEGWW,,,Z-ITAC13-M,Z-SM-X210NZAATGY,,,,,"Z-EB-P4520XUEGWW-M,Z-EF-LPUN4PBEGWW,Z-ITAC13-M,Z-SM-X210NZAATGY",4,"
+ENDSUM,NPC-06,,,,,"Galaxy Book4 Edge, 14""/X1E-80/16GB/512GB, Sapphire Blue",NP940XMAA-EXP,Y,NP940XMA-KB1HK,https://www.samsung.com/hk/computers/galaxy-book/galaxy-book4-edge/buy/?modelCode=NP940XMA-KB1HK,NP940XMA-KB1HK,"11,980",,Guest,,"11,980",Yes,Book4 Edge,"2,000",Yes,Book Tier 2: Mid (RRP $7000-11999),"1,049",N/A,,0,0,,,,Add to Cart,"11,980",,Z-EB-P4520XUEGWW-M,Z-EF-LPUN4PBEGWW,,,,Z-SM-X210NZAATGY,,,,,"Z-EB-P4520XUEGWW-M,Z-EF-LPUN4PBEGWW,Z-SM-X210NZAATGY",3,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Book3 Slim Pouch 14"" [Z-EF-LPUN4PBEGWW]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZAATGY]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-COMEXPO,NPC-07,,,,,"Galaxy Book4 360 15.6""/i7/16GB/1TB",NP750QGKA-EXP,Y,NP750QGK-KS1HK,https://www.samsung.com/hk/computers/galaxy-book/galaxy-book4-pro360/buy/?modelCode=NP750QGK-KS1HK,NP750QGK-KS1HK,"11,580",,Guest,,"11,580",Yes,Book4 360,0,Yes,Book Tier 2: Mid (RRP $7000-11999),"1,049",N/A,,0,0,,,,Add to Cart,"11,580",,Z-EB-P4520XUEGWW-M,,,,Z-202406WWTICKET-Dx2,,,,,,"Z-EB-P4520XUEGWW-M,Z-202406WWTICKET-Dx2",3,"
+,NPC-07,,,,,"Galaxy Book4 360 15.6""/i7/16GB/1TB",NP750QGKA-EXP,Y,NP750QGK-KS1HK,https://www.samsung.com/hk/computers/galaxy-book/galaxy-book4-pro360/buy/?modelCode=NP750QGK-KS1HK,NP750QGK-KS1HK,"11,580","8,685",Guest,,"8,685",Yes,Book4 360,0,Yes,Book Tier 2: Mid (RRP $7000-11999),"1,049",N/A,,0,0,,,,Add to Cart,"8,685",,Z-EB-P4520XUEGWW-M,,,,,,Z-202406WWTICKET-Dx2,,,,"Z-EB-P4520XUEGWW-M,Z-202406WWTICKET-Dx2",3,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Dx2]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,

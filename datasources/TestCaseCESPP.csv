@@ -1,5 +1,5 @@
 CE SPP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Assigned,Test Case,,,,,,,,,,6,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,,,,,,,,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,,EPP only,EPP only,EPP only,,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,
+Assigned,Test Case,,,,,,,,,,19,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,,,,,,,,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,,EPP only,EPP only,EPP only,,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,
 Tester,ID,Manual Cart,Manual Checkout,Auto Cart,Auto Checkout,Model,FAMILY,BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-up,Trade-up-discount,Verify trade-up discount,,,,,,,,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass,Mass,Mass,Mass,Mass,Mass,Warrenty,EPP,EPP,EPP,Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)","Verify Expired Premiums 
 NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,Guest Email,Select City,Select District,Select Service,Verify Expected Delivery Date,Verify Delivery Cost,Checkout Page Result,Screencap,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,Line No.,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,Extra Trade-In Rebate label,Trade-In Rebate captured,Trade-In Rebate result,SC+ label,SC+ captured,SC+ result,Premium SKU count,Count captured,Premium SKU count result,Failed reason,Items in Cart,SKU 1,Qty,,SKU 2,Qty,,SKU 3,Qty,,SKU 4,Qty,,SKU 5,Qty,,SKU 6,Qty,,SKU 7,Qty,,SKU 8,Qty,,SKU 9,Qty,,SKU 10,Qty,,Qty Total,Qty Total Result,Premium Array,Final Result,Test duration (s),,Cart Page Result,Cart Page Result,
@@ -108,11 +108,13 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
 ●  1 x  Slim Fit Wall Mount with free installion included with The Frame TV [ZG-FRAMESLIMFITINSTALL]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-CTV-25,,,,,"65"" QLED Q60D",QLED 4K Q60D,N,QA65Q60DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65Q60DAJXZK,QA65Q60DAJXZK,"16,480","11,863",cptqaer+3@gmail.com,!Cheil2024,"11,863",No,500,0,,,,,,,,,,,Add to Cart,"11,863",,Z-UA32T5300AJXZK,Z-HW-C450/ZK,,,,,,,,,"Z-UA32T5300AJXZK,Z-HW-C450/ZK",2,"
+WALLM,S-CTV-25,,,,,"65"" QLED Q60D",QLED 4K Q60D,N,QA65Q60DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65Q60DAJXZK,QA65Q60DAJXZK,"16,480","11,863",cptqaer+3@gmail.com,!Cheil2024,"11,863",No,500,0,,,,,,,,,,,Add to Cart,"11,863",,Z-WMN-B50EB/XY,Z-UA32T5300AJXZK,Z-HW-C450/ZK,,,,,,,,"Z-WMN-B50EB/XY,Z-UA32T5300AJXZK,Z-HW-C450/ZK",3,"
+●  1 x  Slim Fit Wall Mount WMN-B50EB (2023) [Z-WMN-B50EB/XY]
 ●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
 ●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-CTV-26,,,,,"65"" QLED Q70D",QLED 4K Q70D,N,QA65Q70DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65Q70DAJXZK,QA65Q70DAJXZK,"18,980","11,984",cptqaer+3@gmail.com,!Cheil2024,"11,984",No,800,0,,,,,,,,,,,Add to Cart,"11,984",,Z-UA32T5300AJXZK,Z-HW-C450/ZK,,,,,,,,,"Z-UA32T5300AJXZK,Z-HW-C450/ZK",2,"
+WALLM,S-CTV-26,,,,,"65"" QLED Q70D",QLED 4K Q70D,N,QA65Q70DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA65Q70DAJXZK,QA65Q70DAJXZK,"18,980","11,984",cptqaer+3@gmail.com,!Cheil2024,"11,984",No,800,0,,,,,,,,,,,Add to Cart,"11,984",,Z-WMN-B50EB/XY,Z-UA32T5300AJXZK,Z-HW-C450/ZK,,,,,,,,"Z-WMN-B50EB/XY,Z-UA32T5300AJXZK,Z-HW-C450/ZK",3,"
+●  1 x  Slim Fit Wall Mount WMN-B50EB (2023) [Z-WMN-B50EB/XY]
 ●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
 ●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
@@ -177,10 +179,10 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
 ●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-CTV-38,,,,,"77"" OLED S95D",OLED 4K S95D,N,QA77S95DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA77S95DAJXZK,QA77S95DAJXZK,"79,480","50,384",cptqaer+3@gmail.com,!Cheil2024,"50,384",No,"2,000",0,,,,,,,,,,,Add to Cart,"50,384",,Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,Z-SM-S9210ZVGT-CTV,,,,,,,,"Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,Z-SM-S9210ZVGT-CTV",3,"
+,S-CTV-38,,,,,"77"" OLED S95D",OLED 4K S95D,N,QA77S95DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA77S95DAJXZK,QA77S95DAJXZK,"79,480","50,384",cptqaer+3@gmail.com,!Cheil2024,"50,384",No,"2,000",0,,,,,,,,,,,Add to Cart,"50,384",,Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,Z-HW-Q930D/ZK,,,,,,,,"Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,Z-HW-Q930D/ZK",3,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
-●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
+●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,S-CTV-39,,,,,"83"" OLED S90DAE",OLED 4K S90D,N,QA83S90DAEXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.QA83S90DAEXZK,QA83S90DAEXZK,"85,480","70,383",cptqaer+3@gmail.com,!Cheil2024,"70,383",No,"2,000",0,,,,,,,,,,,Add to Cart,"70,383",,Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,Z-QA43LS05BAJXZK-C,,,,,,,,"Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,Z-QA43LS05BAJXZK-C",3,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
@@ -237,8 +239,8 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ●  1 x  Freestyle Battery Base [Z-VG-FBB3BA]
 ●  1 x  Freestyle Projector Stand [Z-ITFITSD05]
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-PRO-02,,,,,"130"" LPU9D The Premiere 4K Smart Triple Laser Projector (2024)",,N,SP-LPU9DSAXXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.SP-LPU9DSAXXZK,SP-LPU9DSAXXZK,"59,990","52,792",cptqaer+3@gmail.com,!Cheil2024,"52,792",No,0,0,,,,,,,,,,,Add to Cart,"52,792",,Z-Y24EPL12MPASS-C,,,,,,,,,,Z-Y24EPL12MPASS-C,1,"
-●  1 x  Now TV Soccer Pack (Premier League & LALIGA EA SPORTS) 12-month Pass [Z-Y24EPL12MPASS-C]
+AU27,S-PRO-02,,,,,"130"" LPU9D The Premiere 4K Smart Triple Laser Projector (2024)",,N,SP-LPU9DSAXXZK,https://www.samsung.com/hk/multistore/hkeducation/pd.SP-LPU9DSAXXZK,SP-LPU9DSAXXZK,"59,990","52,792",cptqaer+3@gmail.com,!Cheil2024,"52,792",No,0,0,,,,,,,,,,,Add to Cart,"52,792",,Z-SM-X210NZA-TV,,,,,,,,,,Z-SM-X210NZA-TV,1,"
+●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,S-HTS-01,,,,,C-Series HW-C450 2.1ch Soundbar,,N,HW-C450/ZK,https://www.samsung.com/hk/multistore/hkeducation/pd.HW-C450ZK,HW-C450/ZK,"2,190","1,928",cptqaer+3@gmail.com,!Cheil2024,"1,928",No,0,0,,,,,,,,,,,Add to Cart,"1,928",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
@@ -352,6 +354,24 @@ COMEXPO,S-MON-32,,,,,"49"" Odyssey G9 OLED Curved Gaming Monitor (240Hz)",,N,LS4
 COMEXPO,S-MON-33,,,,,"34"" Odyssey G8 OLED Curved Gaming Monitor (175Hz)",,N,LS34DG852SCXXK,https://www.samsung.com/hk/multistore/hkeducation/pd.LS34DG852SCXXK,LS34DG852SCXXK,"11,980","11,022",cptqaer+3@gmail.com,!Cheil2024,"11,022",No,400 (1-30Sep),0,,,,,,,,,,,Add to Cart,"11,022",,Z-STEAMPASS200x3,,,,,,,,,,Z-STEAMPASS200x3,3,"
 ●  3 x  Steam $200 Gift Card [Z-STEAMPASS200x3]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+NEWMON,S-MON-34,,,,,"49"" ViewFinity S9 S95UC LS49C950UACXXK",,N,LS49C950UACXXK,https://www.samsung.com/hk/multistore/hkeducation/pd.LS49C950UACXXK,LS49C950UACXXK,"8,980","8,262",cptqaer+3@gmail.com,!Cheil2024,"8,262",No,0,0,,,,,,,,,,,Add to Cart,"8,262",,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+NEWMON,S-MON-35,,,,,"32"" ViewFinity S8 S80UD UHD Monitor",,N,LS32D804UACXXK,https://www.samsung.com/hk/multistore/hkeducation/pd.LS32D804UACXXK,LS32D804UACXXK,"3,480","3,202",cptqaer+3@gmail.com,!Cheil2024,"3,202",No,0,0,,,,,,,,,,,Add to Cart,"3,202",,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+NEWMON,S-MON-36,,,,,LS27D804UACXXK,,N,LS27D804UACXXK,https://www.samsung.com/hk/multistore/hkeducation/pd.LS27D804UACXXK,LS27D804UACXXK,"3,080","2,834",cptqaer+3@gmail.com,!Cheil2024,"2,834",No,0,0,,,,,,,,,,,Add to Cart,"2,834",,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+NEWMON,S-MON-37,,,,,"34"" ViewFinity S6 S65UC Curved Monitor",,N,LS34C652UACXXK,https://www.samsung.com/hk/multistore/hkeducation/pd.LS34C652UACXXK,LS34C652UACXXK,"3,680","3,386",cptqaer+3@gmail.com,!Cheil2024,"3,386",No,0,0,,,,,,,,,,,Add to Cart,"3,386",,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+NEWMON,S-MON-38,,,,,"32"" ViewFinity S6 S60UD QHD Monitor",,N,LS32D606UACXXK,https://www.samsung.com/hk/multistore/hkeducation/pd.LS32D606UACXXK,LS32D606UACXXK,"3,080","2,834",cptqaer+3@gmail.com,!Cheil2024,"2,834",No,0,0,,,,,,,,,,,Add to Cart,"2,834",,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+NEWMON,S-MON-39,,,,,"27"" ViewFinity S6 S60UD QHD Monitor",,N,LS27D606UACXXK,https://www.samsung.com/hk/multistore/hkeducation/pd.LS27D606UACXXK,LS27D606UACXXK,"2,880","2,650",cptqaer+3@gmail.com,!Cheil2024,"2,650",No,0,0,,,,,,,,,,,Add to Cart,"2,650",,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+NEWMON,S-MON-40,,,,,"24"" ViewFinity S6 S60UD QHD Monitor",,N,LS24D604UACXXK,https://www.samsung.com/hk/multistore/hkeducation/pd.LS24D604UACXXK,LS24D604UACXXK,"2,380","2,190",cptqaer+3@gmail.com,!Cheil2024,"2,190",No,0,0,,,,,,,,,,,Add to Cart,"2,190",,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+NEWMON2,S-MON-41,,,,,"24"" Odyssey G3 Gaming Monitor (180Hz)",,N,LS24DG302ECXXK,https://www.samsung.com/hk/multistore/hkeducation/pd.LS24DG302ECXXK,LS24DG302ECXXK,"1,280","1,178",cptqaer+3@gmail.com,!Cheil2024,"1,178",No,0,0,,,,,,,,,,,Add to Cart,"1,178",,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+NEWMON2,S-MON-42,,,,,"27"" Odyssey G3 Gaming Monitor (180Hz)",,N,LS27DG302ECXXK,https://www.samsung.com/hk/multistore/hkeducation/pd.LS27DG302ECXXK,LS27DG302ECXXK,"1,480","1,362",cptqaer+3@gmail.com,!Cheil2024,"1,362",No,0,0,,,,,,,,,,,Add to Cart,"1,362",,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,S-REF-01,,,,,RT20M3020GS/SH 2 door Refrigerator 203L Grey Silver,,N,RT20M3020GS/SH,https://www.samsung.com/hk/multistore/hkeducation/pd.RT20M3020GSSH,RT20M3020GS/SH,"3,140","2,475",cptqaer+3@gmail.com,!Cheil2024,"2,475",No,0,0,,,,,,,,,,,Add to Cart,"2,475",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,"
 ●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
@@ -417,7 +437,7 @@ COMEXPO,S-MON-33,,,,,"34"" Odyssey G8 OLED Curved Gaming Monitor (175Hz)",,N,LS3
 ,S-REF-26,,,,,BESPOKE Bottom Mount Freezer 340L (Panel Not Included),,N,RB34A7B4FAP/SH,https://www.samsung.com/hk/multistore/hkeducation/pd.RB34A7B4FAPSH,RB34A7B4FAP/SH,"10,230","7,158",cptqaer+3@gmail.com,!Cheil2024,"7,158",No,300,0,,,,,,,,,,,Add to Cart,"7,158",,Z-VS20B958F3N/SP-C,,,,,,,,,,Z-VS20B958F3N/SP-C,1,"
 ●  1 x  BESPOKE Jet™ Plus Premium Vacuum Cleaner (Woody Green)  [Z-VS20B958F3N/SP-C]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-REFA-01,,,,,BESPOKE Bottom Glass Panel (Clean White),,N,RA-B23EBB12GM,https://www.samsung.com/hk/multistore/hkeducation/pd.RA-B23EBB12GM,RA-B23EBB12GM,"1,200",847,cptqaer+3@gmail.com,!Cheil2024,847,No,0,0,,,,,,,,,,,Add to Cart,847,,,,,,,,,,,,,0,"
+,S-REFA-01,,,,,BESPOKE Bottom Glass Panel (Clean White),,N,RA-B23EBB12GM,https://www.samsung.com/hk/multistore/hkeducation/pd.RA-B23EBB12GM,RA-B23EBB12GM,"1,200",920,cptqaer+3@gmail.com,!Cheil2024,920,No,0,0,,,,,,,,,,,Add to Cart,920,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,S-VC-01,,,,,Samsung Jet 75 Battery VCA-SBT90,,N,VCA-SBT90,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-SBT90,VCA-SBT90,"1,325","1,219",cptqaer+3@gmail.com,!Cheil2024,"1,219",No,0,0,,,,,,,,,,,Add to Cart,"1,219",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
@@ -451,23 +471,23 @@ COMEXPO,S-MON-33,,,,,"34"" Odyssey G8 OLED Curved Gaming Monitor (175Hz)",,N,LS3
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,S-VC-08,,,,,Jet Spinning Sweeper VCA-WB650<br>,,N,VCA-WB650/GL,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-WB650GL,VCA-WB650/GL,825,669,cptqaer+3@gmail.com,!Cheil2024,669,No,0,0,,,,,,,,,,,Add to Cart,669,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-VC-09,,,,,BESPOKE Jet™ Battery Pack (25.2V),,N,VCA-SAPA95/VEU,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-SAPA95VEU,VCA-SAPA95/VEU,"1,290","1,187",cptqaer+3@gmail.com,!Cheil2024,"1,187",No,0,0,,,,,,,,,,,Add to Cart,"1,187",,,,,,,,,,,,,0,"
+,S-VC-09,,,,,BESPOKE Jet™ Battery Pack (25.2V),,N,VCA-SAPA95/VEU,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-SAPA95VEU,VCA-SAPA95/VEU,"1,290","1,187",,,"1,187",No,0,0,,,,,,,,,,,Add to Cart,"1,187",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-VC-10,,,,,BESPOKE Jet™ Spray Spinning Sweeper™,,N,VCA-WBA95/GL,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-WBA95GL,VCA-WBA95/GL,"1,090","1,003",cptqaer+3@gmail.com,!Cheil2024,"1,003",No,0,0,,,,,,,,,,,Add to Cart,"1,003",,,,,,,,,,,,,0,"
+,S-VC-10,,,,,BESPOKE Jet™ Spray Spinning Sweeper™,,N,VCA-WBA95/GL,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-WBA95GL,VCA-WBA95/GL,"1,090","1,003",,,"1,003",No,0,0,,,,,,,,,,,Add to Cart,"1,003",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-VC-11,,,,,BESPOKE Jet™ Sweeper Microfiber Pads (4ea),,N,VCA-SPW95/VT,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-SPW95VT,VCA-SPW95/VT,150,138,cptqaer+3@gmail.com,!Cheil2024,138,No,0,0,,,,,,,,,,,Add to Cart,138,,,,,,,,,,,,,0,"
+,S-VC-11,,,,,BESPOKE Jet™ Sweeper Microfiber Pads (4ea),,N,VCA-SPW95/VT,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-SPW95VT,VCA-SPW95/VT,150,138,,,138,No,0,0,,,,,,,,,,,Add to Cart,138,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-VC-12,,,,,BESPOKE Jet™ Sweeper Disposable Wet Pads,,N,VCA-SPA95/GL,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-SPA95GL,VCA-SPA95/GL,100,92,cptqaer+3@gmail.com,!Cheil2024,92,No,0,0,,,,,,,,,,,Add to Cart,92,,,,,,,,,,,,,0,"
+,S-VC-12,,,,,BESPOKE Jet™ Sweeper Disposable Wet Pads,,N,VCA-SPA95/GL,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-SPA95GL,VCA-SPA95/GL,100,92,,,92,No,0,0,,,,,,,,,,,Add to Cart,92,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-VC-13,,,,,BESPOKE Jet™ Clean Station Antibacterial Dust Bag (5ea),,N,VCA-ADB952,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-ADB952,VCA-ADB952,200,184,cptqaer+3@gmail.com,!Cheil2024,184,No,0,0,,,,,,,,,,,Add to Cart,184,,,,,,,,,,,,,0,"
+,S-VC-13,,,,,BESPOKE Jet™ Clean Station Antibacterial Dust Bag (5ea),,N,VCA-ADB952,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-ADB952,VCA-ADB952,200,184,,,184,No,0,0,,,,,,,,,,,Add to Cart,184,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-VC-14,,,,,VS9500 VC ACC BATTERY VCA-SBTA95VT,,N,VCA-SBTA95/VT,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-SBTA95VT,VCA-SBTA95/VT,"1,090","1,003",cptqaer+3@gmail.com,!Cheil2024,"1,003",No,0,0,,,,,,,,,,,Add to Cart,"1,003",,,,,,,,,,,,,0,"
+,S-VC-14,,,,,VS9500 VC ACC BATTERY VCA-SBTA95VT,,N,VCA-SBTA95/VT,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-SBTA95VT,VCA-SBTA95/VT,"1,090","1,003",,,"1,003",No,0,0,,,,,,,,,,,Add to Cart,"1,003",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-VC-15,,,,,BESPOKE Jet™ Jet Dual Brush,,N,VCA-TABA95,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-TABA95,VCA-TABA95,990,911,cptqaer+3@gmail.com,!Cheil2024,911,No,0,0,,,,,,,,,,,Add to Cart,911,,,,,,,,,,,,,0,"
+,S-VC-15,,,,,BESPOKE Jet™ Jet Dual Brush,,N,VCA-TABA95,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-TABA95,VCA-TABA95,990,911,,,911,No,0,0,,,,,,,,,,,Add to Cart,911,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-VC-16,,,,,,,N,VCA-SABC95,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-SABC95,VCA-SABC95,,,cptqaer+3@gmail.com,!Cheil2024,,No,0,0,,,,,,,,,,,Add to Cart,0,,,,,,,,,,,,,0,"
+,S-VC-16,,,,,,,N,VCA-SABC95,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-SABC95,VCA-SABC95,,,,,,No,0,0,,,,,,,,,,,Add to Cart,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-VC-17,,,,,BESPOKE Jet™ Pet Tool+ ,,N,VCA-PTB95,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-PTB95,VCA-PTB95,590,543,cptqaer+3@gmail.com,!Cheil2024,543,No,0,0,,,,,,,,,,,Add to Cart,543,,,,,,,,,,,,,0,"
+,S-VC-17,,,,,BESPOKE Jet™ Pet Tool+ ,,N,VCA-PTB95,https://www.samsung.com/hk/multistore/hkeducation/pd.VCA-PTB95,VCA-PTB95,590,543,,,543,No,0,0,,,,,,,,,,,Add to Cart,543,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,S-FAB-01,,,,,AI AirDresser with JetSteam Refresh & Sanitize Cycle,,N,DF60A8500CG/SH,https://www.samsung.com/hk/multistore/hkeducation/pd.DF60A8500CGSH,DF60A8500CG/SH,"14,990","9,550",,,"9,550",No,400,0,,,,,,,,,,,Add to Cart,"9,550",,Z-DF-HK,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,,,,,,,"Z-DF-HK,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C",4,"
 ●  1 x  AirDresser Regular Hanger Kit (hand 3 shirts) [Z-DF-HK]
@@ -537,7 +557,10 @@ COMEXPO,S-MON-33,,,,,"34"" Odyssey G8 OLED Curved Gaming Monitor (175Hz)",,N,LS3
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,S-WM-22,,,,,"WW80AGAS21AESH Slim Ecobubble™ Front Load Washing Machine 8kg, 1200rpm",,N,WW80AGAS21AESH,https://www.samsung.com/hk/multistore/hkeducation/pd.WW80AGAS21AESH,WW80AGAS21AESH,"5,590","3,487",,,"3,487",No,50,0,,,,,,,,,,,Add to Cart,"3,487",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-WM-23,,,,,"WW80AGAS21AXSH Slim Ecobubble™ Front Load Washing Machine 8kg, 1200rpm",,N,WW80AGAS21AXSH,https://www.samsung.com/hk/multistore/hkeducation/pd.WW80AGAS21AXSH,WW80AGAS21AXSH,"5,790","3,579",,,"3,579",No,50,0,,,,,,,,,,,Add to Cart,"3,579",,,,,,,,,,,,,0,"
+AU24,S-WM-23,,,,,"WW80AGAS21AXSH Slim Ecobubble™ Front Load Washing Machine 8kg, 1200rpm",,N,WW80AGAS21AXSH,https://www.samsung.com/hk/multistore/hkeducation/pd.WW80AGAS21AXSH,WW80AGAS21AXSH,"5,790","3,579",,,"3,579",No,50,0,,,,,,,,,,,Add to Cart,"3,579",,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,,,,,,,,"Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C",3,"
+●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
+●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
+●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,S-CTA-01,,,,,"32"" The Frame Modern Brown Bezel (2023)",,N,VG-SCFC32BWBXY,https://www.samsung.com/hk/multistore/hkeducation/pd.VG-SCFC32BWBXY,VG-SCFC32BWBXY,790,696,,,696,No,0,0,,,,,,,,,,,Add to Cart,696,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,No,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
@@ -635,17 +658,17 @@ COMEXPO,S-MON-33,,,,,"34"" Odyssey G8 OLED Curved Gaming Monitor (175Hz)",,N,LS3
 ",,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,S-CWM-06,,,,,TV Wall mount (WMN8000SX),,N,WMN8000SX/XY,https://www.samsung.com/hk/multistore/hkeducation/pd.WMN8000SXXY,WMN8000SX/XY,"2,090","1,840",,,"1,840",No,0,0,,,,,,,,,,,Add to Cart,"1,840",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-REFA-02,,,,,BESPOKE Bottom Glass Panel (Clean Peach),,N,RA-B23EBB3KGM,https://www.samsung.com/hk/multistore/hkeducation/pd.RA-B23EBB3KGM,RA-B23EBB3KGM,"1,200",847,,,847,No,0,0,,,,,,,,,,,Add to Cart,847,,,,,,,,,,,,,0,"
+,S-REFA-02,,,,,BESPOKE Bottom Glass Panel (Clean Peach),,N,RA-B23EBB3KGM,https://www.samsung.com/hk/multistore/hkeducation/pd.RA-B23EBB3KGM,RA-B23EBB3KGM,"1,200",920,,,920,No,0,0,,,,,,,,,,,Add to Cart,920,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-REFA-03,,,,,BESPOKE Bottom Glass Panel (Glam Navy),,N,RA-B23EBB41GM,https://www.samsung.com/hk/multistore/hkeducation/pd.RA-B23EBB41GM,RA-B23EBB41GM,"1,200",847,,,847,No,0,0,,,,,,,,,,,Add to Cart,847,,,,,,,,,,,,,0,"
+,S-REFA-03,,,,,BESPOKE Bottom Glass Panel (Glam Navy),,N,RA-B23EBB41GM,https://www.samsung.com/hk/multistore/hkeducation/pd.RA-B23EBB41GM,RA-B23EBB41GM,"1,200",920,,,920,No,0,0,,,,,,,,,,,Add to Cart,920,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-REFA-04,,,,,BESPOKE Bottom Glass Panel (Satin Sky Blue),,N,RA-B23EBB48GM,https://www.samsung.com/hk/multistore/hkeducation/pd.RA-B23EBB48GM,RA-B23EBB48GM,"1,200",847,,,847,No,0,0,,,,,,,,,,,Add to Cart,847,,,,,,,,,,,,,0,"
+,S-REFA-04,,,,,BESPOKE Bottom Glass Panel (Satin Sky Blue),,N,RA-B23EBB48GM,https://www.samsung.com/hk/multistore/hkeducation/pd.RA-B23EBB48GM,RA-B23EBB48GM,"1,200",920,,,920,No,0,0,,,,,,,,,,,Add to Cart,920,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-REFA-05,,,,,BESPOKE Top Glass Panel (Clean White),,N,RA-B23EUU12GM,https://www.samsung.com/hk/multistore/hkeducation/pd.RA-B23EUU12GM,RA-B23EUU12GM,"1,520","1,016",,,"1,016",No,0,0,,,,,,,,,,,Add to Cart,"1,016",,,,,,,,,,,,,0,"
+,S-REFA-05,,,,,BESPOKE Top Glass Panel (Clean White),,N,RA-B23EUU12GM,https://www.samsung.com/hk/multistore/hkeducation/pd.RA-B23EUU12GM,RA-B23EUU12GM,"1,520","1,104",,,"1,104",No,0,0,,,,,,,,,,,Add to Cart,"1,104",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-REFA-06,,,,,BESPOKE Top Glass Panel (Clean Peach),,N,RA-B23EUU3KGM,https://www.samsung.com/hk/multistore/hkeducation/pd.RA-B23EUU3KGM,RA-B23EUU3KGM,"1,520","1,016",,,"1,016",No,0,0,,,,,,,,,,,Add to Cart,"1,016",,,,,,,,,,,,,0,"
+,S-REFA-06,,,,,BESPOKE Top Glass Panel (Clean Peach),,N,RA-B23EUU3KGM,https://www.samsung.com/hk/multistore/hkeducation/pd.RA-B23EUU3KGM,RA-B23EUU3KGM,"1,520","1,104",,,"1,104",No,0,0,,,,,,,,,,,Add to Cart,"1,104",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-REFA-07,,,,,BESPOKE Top Glass Panel (Glam Navy),,N,RA-B23EUU41GM,https://www.samsung.com/hk/multistore/hkeducation/pd.RA-B23EUU41GM,RA-B23EUU41GM,"1,520","1,016",,,"1,016",No,0,0,,,,,,,,,,,Add to Cart,"1,016",,,,,,,,,,,,,0,"
+,S-REFA-07,,,,,BESPOKE Top Glass Panel (Glam Navy),,N,RA-B23EUU41GM,https://www.samsung.com/hk/multistore/hkeducation/pd.RA-B23EUU41GM,RA-B23EUU41GM,"1,520","1,104",,,"1,104",No,0,0,,,,,,,,,,,Add to Cart,"1,104",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,S-REFA-08,,,,,BESPOKE  1-Door Glass Panel (Glam Navy),,N,RA-M17DAA41GG,https://www.samsung.com/hk/multistore/hkeducation/pd.RA-M17DAA41GG,RA-M17DAA41GG,"1,320",847,,,847,No,0,0,,,,,,,,,,,Add to Cart,847,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
