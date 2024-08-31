@@ -1,8 +1,6 @@
 CE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Assigned,Test Case,,,,,,,,,,19,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,,,,,,,,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,,B2C only,B2C only,B2C only,,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,,
-Tester,ID,Manual Cart,Manual Checkout,Auto Cart,Auto Checkout,Model,FAMILY,Active,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-up,Trade-up-discount,Verify trade-up discount,,,,,,,,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass,Mass,Mass,Mass,Mass,Mass,Warrenty,"Comp
-23-31/8","Comp
-23-31/8",Summer 31/8 ,Array,Total,"Verify Free Premiums in Cart (SKU)
+Assigned,Test Case,,,,,,,,,,43,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,,,,,,,,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,,B2C only,B2C only,B2C only,,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,,
+Tester,ID,Manual Cart,Manual Checkout,Auto Cart,Auto Checkout,Model,FAMILY,Active,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-up,Trade-up-discount,Verify trade-up discount,,,,,,,,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass,Mass,Mass,Mass,Mass,Mass,Warrenty,,,Swap gift,Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)","Verify Expired Premiums 
 NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,Guest Email,Select City,Select District,Select Service,Verify Expected Delivery Date,Verify Delivery Cost,Checkout Page Result,Screencap,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,Line No.,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,Extra Trade-In Rebate label,Trade-In Rebate captured,Trade-In Rebate result,SC+ label,SC+ captured,SC+ result,Premium SKU count,Count captured,Premium SKU count result,Failed reason,Items in Cart,SKU 1,Qty,,SKU 2,Qty,,SKU 3,Qty,,SKU 4,Qty,,SKU 5,Qty,,SKU 6,Qty,,SKU 7,Qty,,SKU 8,Qty,,SKU 9,Qty,,SKU 10,Qty,,Qty Total,Qty Total Result,Premium Array,Final Result,Test duration (s),,Cart Page Result,Cart Page Result,,
 ,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
@@ -17,8 +15,8 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-02,,,,,"43"" Lifestyle Serif LS01D",The Serif LS01D,N,QA43LS01DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-serif/ls01d-43-inch-white-qa43ls01dajxzk/,QA43LS01DAJXZK,"9,980","9,980",,,"9,980",No,100,0,,,,,,,,,,,Add to Cart,"9,980",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-03,,,,,"43"" Lifestyle Frame LS03D",The Frame LS03D,N,QA43LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-43-inch-black-qa43ls03dajxzk/,QA43LS03DAJXZK,"9,980","8,980",,,"8,980",No,100,0,,,,,,,,,,,Add to Cart,"8,980",,Z-HW-S701D/ZK,Z-VG-SCFA43WTBRU,,,,,ZG-FRAMESLIMFITINSTALL,,,,"Z-HW-S701D/ZK,Z-VG-SCFA43WTBRU,ZG-FRAMESLIMFITINSTALL",3,"
-●  1 x  S-Series HW-S701D Soundbar [Z-HW-S701D/ZK]
+Kristin,CTV-03,,,,,"43"" Lifestyle Frame LS03D",The Frame LS03D,N,QA43LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-43-inch-black-qa43ls03dajxzk/,QA43LS03DAJXZK,"9,980","8,980",,,"8,980",Yes,100,100,,,,,,,,,,,Add to Cart,"8,880",,Z-HW-S61D/ZK-C,Z-VG-SCFA43WTBRU,,,,,ZG-FRAMESLIMFITINSTALL,,,,"Z-HW-S61D/ZK-C,Z-VG-SCFA43WTBRU,ZG-FRAMESLIMFITINSTALL",3,"
+●  1 x  HW-S61D Soundbar [Z-HW-S61D/ZK-C]
 ●  1 x  43"" The Frame Modern type White Bezel [Z-VG-SCFA43WTBRU]
 ●  1 x  Slim Fit Wall Mount with free installion included with The Frame TV [ZG-FRAMESLIMFITINSTALL]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
@@ -29,27 +27,25 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-06,,,,,"43"" QLED Q61D",QLED 4K Q60D,N,QA43Q61DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q60d-43-inch-qled-4k-tizen-os-smart-tv-qa43q61dajxzk/,QA43Q61DAJXZK,"6,480","5,480",,,"5,480",No,100,0,,,,,,,,,,,Add to Cart,"5,480",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-07,,,,,"43"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA43QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-43-inch-neo-qled-4k-tizen-os-smart-tv-qa43qn90dajxzk/,QA43QN90DAJXZK,"12,490","8,480",,,"8,480",No,400,0,,,,,,,,,,,Add to Cart,"8,480",,Z-HW-S700D/ZK,,,,,,,,,,Z-HW-S700D/ZK,1,"
-●  1 x  S-Series HW-S700D Soundbar [Z-HW-S700D/ZK]
-",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-08,,,,,"48"" OLED S90DAE",OLED 4K S90D,N,QA48S90DAEXZK,https://www.samsung.com/hk/tvs/oled-tv/oled-4k-tizen-os-smart-tv-48-inch-qa48s90daexzk/,QA48S90DAEXZK,"13,480","10,380",,,"10,380",No,500,0,,,,,,,,,,,Add to Cart,"10,380",,Z-WMN-B05FB/XY,Z-HW-C450/ZK,,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-C450/ZK",2,"
-●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
+Kristin,CTV-07,,,,,"43"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA43QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-43-inch-neo-qled-4k-tizen-os-smart-tv-qa43qn90dajxzk/,QA43QN90DAJXZK,"12,490","8,480",,,"8,480",Yes,400,400,,,,,,,,,,,Add to Cart,"8,080",,Z-HW-C450/ZK,,,,,,,,,,Z-HW-C450/ZK,1,"
 ●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-09,,,,,"50"" Lifestyle Frame LS03D",The Frame LS03D,N,QA50LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-50-inch-black-qa50ls03dajxzk/,QA50LS03DAJXZK,"12,980","10,980",,,"10,980",No,500,0,,,,,,,,,,,Add to Cart,"10,980",,Z-VG-SCFA50WTBRU,Z-HW-S701D/ZK,,,,,ZG-FRAMESLIMFITINSTALL,,,,"Z-VG-SCFA50WTBRU,Z-HW-S701D/ZK,ZG-FRAMESLIMFITINSTALL",3,"
+Sola,CTV-08,,,,,"48"" OLED S90DAE",OLED 4K S90D,N,QA48S90DAEXZK,https://www.samsung.com/hk/tvs/oled-tv/oled-4k-tizen-os-smart-tv-48-inch-qa48s90daexzk/,QA48S90DAEXZK,"13,480","10,380",,,"10,380",Yes,500,500,,,,,,,,,,,Add to Cart,"9,880",,Z-HW-C450/ZK,,,,,,,,,,Z-HW-C450/ZK,1,"
+●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+Sola,CTV-09,,,,,"50"" Lifestyle Frame LS03D",The Frame LS03D,N,QA50LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-50-inch-black-qa50ls03dajxzk/,QA50LS03DAJXZK,"12,980","10,980",,,"10,980",Yes,500,500,,,,,,,,,,,Add to Cart,"10,480",,Z-VG-SCFA50WTBRU,Z-HW-S701D/ZK,,,,,ZG-FRAMESLIMFITINSTALL,,,,"Z-VG-SCFA50WTBRU,Z-HW-S701D/ZK,ZG-FRAMESLIMFITINSTALL",3,"
 ●  1 x  50"" The Frame Modern type White Bezel [Z-VG-SCFA50WTBRU]
 ●  1 x  S-Series HW-S701D Soundbar [Z-HW-S701D/ZK]
 ●  1 x  Slim Fit Wall Mount with free installion included with The Frame TV [ZG-FRAMESLIMFITINSTALL]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-10,,,,,"50"" QLED Q60D",QLED 4K Q60D,N,QA50Q60DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q60d-50-inch-qled-4k-tizen-os-smart-tv-qa50q60dajxzk/,QA50Q60DAJXZK,"7,980","6,480",,,"6,480",No,300,0,,,,,,,,,,,Add to Cart,"6,480",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-11,,,,,"50"" QLED Q80D",QLED 4K Q80D,N,QA50Q80DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q80d-50-inch-qled-4k-tizen-os-smart-tv-qa50q80dajxzk/,QA50Q80DAJXZK,"9,480","7,980",,,"7,980",No,400,0,,,,,,,,,,,Add to Cart,"7,980",,Z-WMN-B05FB/XY,Z-HW-C450/ZK,,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-C450/ZK",2,"
-●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
+Sola,CTV-11,,,,,"50"" QLED Q80D",QLED 4K Q80D,N,QA50Q80DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q80d-50-inch-qled-4k-tizen-os-smart-tv-qa50q80dajxzk/,QA50Q80DAJXZK,"9,480","7,980",,,"7,980",Yes,400,400,,,,,,,,,,,Add to Cart,"7,580",,Z-HW-C450/ZK,,,,,,,,,,Z-HW-C450/ZK,1,"
 ●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-12,,,,,"50"" QLED QE1D",QLED 4K QE1D,N,QA50QE1DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qe1d-50-inch-qled-4k-tizen-os-smart-tv-qa50qe1dajxzk/,QA50QE1DAJXZK,"7,480","5,980",,,"5,980",No,300,0,,,,,,,,,,,Add to Cart,"5,980",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-13,,,,,"50"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA50QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-50-inch-neo-qled-4k-tizen-os-smart-tv-qa50qn90dajxzk/,QA50QN90DAJXZK,"14,980","10,480",,,"10,480",No,500,0,,,,,,,,,,,Add to Cart,"10,480",,Z-CESPCOUPONSx5,,,,,,,,,,Z-CESPCOUPONSx5,5,"
+Sola,CTV-13,,,,,"50"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA50QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-50-inch-neo-qled-4k-tizen-os-smart-tv-qa50qn90dajxzk/,QA50QN90DAJXZK,"14,980","10,480",,,"10,480",Yes,500,500,,,,,,,,,,,Add to Cart,"9,980",,Z-CESPCOUPONSx5,,,,,,,,,,Z-CESPCOUPONSx5,5,"
 ●  5 x  Supermarket coupon (HK$100) [Z-CESPCOUPONSx5]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-14,,,,,"55"" Lifestyle Frame LS03D",The Frame LS03D,N,QA55LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-55-inch-black-qa55ls03dajxzk/,QA55LS03DAJXZK,"15,980","13,480",,,"13,480",No,600,0,,,,,,,,,,,Add to Cart,"13,480",,Z-VG-SCFA55WTBRU,Z-QA32LS03CBJXZK,Z-VG-SCFC32SGMXY,,,,ZG-FRAMESLIMFITINSTALL,,,,"Z-VG-SCFA55WTBRU,Z-QA32LS03CBJXZK,Z-VG-SCFC32SGMXY,ZG-FRAMESLIMFITINSTALL",4,"
@@ -68,176 +64,133 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ,CTV-17,,,,,"55"" QLED QE1D",QLED 4K QE1D,N,QA55QE1DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qe1d-55-inch-qled-4k-tizen-os-smart-tv-qa55qe1dajxzk/,QA55QE1DAJXZK,"9,480","6,980",,,"6,980",No,300,0,,,,,,,,,,,Add to Cart,"6,980",,Z-WMN-B50EB/XY,,,,,,,,,,Z-WMN-B50EB/XY,1,"
 ●  1 x  Slim Fit Wall Mount WMN-B50EB (2023) [Z-WMN-B50EB/XY]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-18,,,,,"55"" Neo QLED 4K QN85D",Neo QLED 4K QN85D,N,QA55QN85DBJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn85d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn85dbjxzk/,QA55QN85DBJXZK,"13,980","11,980",,,"11,980",No,600,0,,,,,,,,,,,Add to Cart,"11,980",,Z-WMN-B05FB/XY,Z-HW-S800D/ZK,Z-Y24EPL12MPASS-C,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-S800D/ZK,Z-Y24EPL12MPASS-C",3,"
+Sola,CTV-18,,,,,"55"" Neo QLED 4K QN85D",Neo QLED 4K QN85D,N,QA55QN85DBJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn85d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn85dbjxzk/,QA55QN85DBJXZK,"13,980","11,980",,,"11,980",Yes,600,600,,,,,,,,,,,Add to Cart,"11,380",,Z-WMN-B05FB/XY,Z-HW-S800D/ZK,,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-S800D/ZK",2,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
 ●  1 x  S-Series HW-S800D Soundbar [Z-HW-S800D/ZK]
-●  1 x  Now TV Soccer Pack (Premier League & LALIGA EA SPORTS) 12-month Pass [Z-Y24EPL12MPASS-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-19,,,,,"55"" Neo QLED 4K QN87D",Neo QLED 4K QN87D,N,QA55QN87DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn87d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn87dajxzk/,QA55QN87DAJXZK,"16,480","12,980",,,"12,980",No,700,0,,,,,,,,,,,Add to Cart,"12,980",,Z-WMN-B05FB/XY,Z-HW-S800D/ZK,Z-Y24EPL12MPASS-C,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-S800D/ZK,Z-Y24EPL12MPASS-C",3,"
+Sola,CTV-19,,,,,"55"" Neo QLED 4K QN87D",Neo QLED 4K QN87D,N,QA55QN87DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn87d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn87dajxzk/,QA55QN87DAJXZK,"16,480","12,980",,,"12,980",Yes,700,700,,,,,,,,,,,Add to Cart,"12,280",,Z-WMN-B05FB/XY,Z-HW-S800D/ZK,,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-S800D/ZK",2,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
 ●  1 x  S-Series HW-S800D Soundbar [Z-HW-S800D/ZK]
-●  1 x  Now TV Soccer Pack (Premier League & LALIGA EA SPORTS) 12-month Pass [Z-Y24EPL12MPASS-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-20,,,,,"55"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA55QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn90dajxzk/,QA55QN90DAJXZK,"21,980","15,980",,,"15,980",No,800,0,,,,,,,,,,,Add to Cart,"15,980",,Z-WMN-B05FB/XY,Z-UA32T5300AJXZK,Z-SM-X210NZA-TV,Z-Y24EPL12MPASS-C,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B05FB/XY,Z-UA32T5300AJXZK,Z-SM-X210NZA-TV,Z-Y24EPL12MPASS-C,ZG-FREE1YRWAREXT",5,"
+Sola,CTV-20,,,,,"55"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA55QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn90dajxzk/,QA55QN90DAJXZK,"21,980","15,980",,,"15,980",Yes,800,800,,,,,,,,,,,Add to Cart,"15,180",,Z-WMN-B05FB/XY,Z-UA32T5300AJXZK,Z-CESPCOUPONSx5,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B05FB/XY,Z-UA32T5300AJXZK,Z-CESPCOUPONSx5,ZG-FREE1YRWAREXT",8,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
 ●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
-●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
-●  1 x  Now TV Soccer Pack (Premier League & LALIGA EA SPORTS) 12-month Pass [Z-Y24EPL12MPASS-C]
+●  5 x  Supermarket coupon (HK$100) [Z-CESPCOUPONSx5]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-21,,,,,"55"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA55QN95DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn95d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn95dajxzk/,QA55QN95DAJXZK,"24,980","19,980",,,"19,980",No,"1,000",0,,,,,,,,,,,Add to Cart,"19,980",,Z-WMN-B05FB/XY,Z-QA32LS03CBJXZK,Z-VG-SCFC32SGMXY,Z-CESPCOUPONSx5,Z-Y24EPL12MPASS-C,,ZG-FREE1YRWAREXT,,,Z-202406WWTICKET-Cx2,"Z-WMN-B05FB/XY,Z-QA32LS03CBJXZK,Z-VG-SCFC32SGMXY,Z-CESPCOUPONSx5,Z-Y24EPL12MPASS-C,ZG-FREE1YRWAREXT,Z-202406WWTICKET-Cx2",12,"
+Sola,CTV-21,,,,,"55"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA55QN95DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn95d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn95dajxzk/,QA55QN95DAJXZK,"24,980","19,980",,,"19,980",Yes,"1,000","1,000",,,,,,,,,,,Add to Cart,"18,980",,Z-WMN-B05FB/XY,Z-UA32T5300AJXZK,Z-CESPCOUPONSx5,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B05FB/XY,Z-UA32T5300AJXZK,Z-CESPCOUPONSx5,ZG-FREE1YRWAREXT",8,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
-●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
-●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
+●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
+●  5 x  Supermarket coupon (HK$100) [Z-CESPCOUPONSx5]
+●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+Sola,CTV-22,,,,,"55"" OLED S90DA",OLED 4K S90D,N,QA55S90DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-55-inch-oled-4k-tizen-os-smart-tv-qa55s90dajxzk/,QA55S90DAJXZK,"21,980","15,980",,,"15,980",Yes,800,800,,,,,,,,,,,Add to Cart,"15,180",,Z-WMN-B05FB/XY,Z-CESPCOUPONSx5,Z-Y24EPL12MPASS-C,Z-UA32T5300AJXZK,,,,,,,"Z-WMN-B05FB/XY,Z-CESPCOUPONSx5,Z-Y24EPL12MPASS-C,Z-UA32T5300AJXZK",8,"
+●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
 ●  5 x  Supermarket coupon (HK$100) [Z-CESPCOUPONSx5]
 ●  1 x  Now TV Soccer Pack (Premier League & LALIGA EA SPORTS) 12-month Pass [Z-Y24EPL12MPASS-C]
-●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
-●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx2]
+●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-22,,,,,"55"" OLED S90DA",OLED 4K S90D,N,QA55S90DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-55-inch-oled-4k-tizen-os-smart-tv-qa55s90dajxzk/,QA55S90DAJXZK,"21,980","15,980",,,"15,980",No,800,0,,,,,,,,,,,Add to Cart,"15,980",,Z-WMN-B05FB/XY,Z-SM-X210NZA-TV,Z-CESPCOUPONSx5,Z-HW-S800D/ZK,,,,,,Z-202406WWTICKET-Cx2,"Z-WMN-B05FB/XY,Z-SM-X210NZA-TV,Z-CESPCOUPONSx5,Z-HW-S800D/ZK,Z-202406WWTICKET-Cx2",10,"
-●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
-●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
-●  5 x  Supermarket coupon (HK$100) [Z-CESPCOUPONSx5]
-●  1 x  S-Series HW-S800D Soundbar [Z-HW-S800D/ZK]
-●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx2]
-",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-23,,,,,"55"" OLED S95D",OLED 4K S95D,N,QA55S95DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95d-55-inch-oled-4k-tizen-os-smart-tv-qa55s95dajxzk/,QA55S95DAJXZK,"24,980","20,980",,,"20,980",No,"1,000",0,,,,,,,,,,,Add to Cart,"20,980",,Z-WMN-B16FB/XY,Z-QA32LS03CBJXZK,Z-VG-SCFC32SGMXY,Z-CESPCOUPONSx5,,,,,,Z-202406WWTICKET-Cx2,"Z-WMN-B16FB/XY,Z-QA32LS03CBJXZK,Z-VG-SCFC32SGMXY,Z-CESPCOUPONSx5,Z-202406WWTICKET-Cx2",10,"
+Sola,CTV-23,,,,,"55"" OLED S95D",OLED 4K S95D,N,QA55S95DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95d-55-inch-oled-4k-tizen-os-smart-tv-qa55s95dajxzk/,QA55S95DAJXZK,"24,980","20,980",,,"20,980",Yes,"1,000","1,000",,,,,,,,,,,Add to Cart,"19,980",,Z-WMN-B16FB/XY,Z-UA32T5300AJXZK,Z-Y24EPL12MPASS-C,Z-CESPCOUPONSx5,,,,,,,"Z-WMN-B16FB/XY,Z-UA32T5300AJXZK,Z-Y24EPL12MPASS-C,Z-CESPCOUPONSx5",8,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
-●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
+●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
+●  1 x  Now TV Soccer Pack (Premier League & LALIGA EA SPORTS) 12-month Pass [Z-Y24EPL12MPASS-C]
 ●  5 x  Supermarket coupon (HK$100) [Z-CESPCOUPONSx5]
-●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx2]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-24,,,,,"65"" Lifestyle Frame LS03D",The Frame LS03D,N,QA65LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-65-inch-black-qa65ls03dajxzk/,QA65LS03DAJXZK,"23,980","18,980",,,"18,980",No,"1,000",0,,,,,,,,,,,Add to Cart,"18,980",,Z-VG-SCFA65WTB,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,,,,ZG-FRAMESLIMFITINSTALL,,,Z-202406WWTICKET-Cx2,"Z-VG-SCFA65WTB,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,ZG-FRAMESLIMFITINSTALL,Z-202406WWTICKET-Cx2",6,"
+,CTV-24,,,,,"65"" Lifestyle Frame LS03D",The Frame LS03D,N,QA65LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-65-inch-black-qa65ls03dajxzk/,QA65LS03DAJXZK,"23,980","18,980",,,"18,980",No,"1,000",0,,,,,,,,,,,Add to Cart,"18,980",,Z-VG-SCFA65WTB,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,,,,ZG-FRAMESLIMFITINSTALL,,,,"Z-VG-SCFA65WTB,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,ZG-FRAMESLIMFITINSTALL",4,"
 ●  1 x  65"" The Frame Modern type White Bezel [Z-VG-SCFA65WTB]
 ●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
 ●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
 ●  1 x  Slim Fit Wall Mount with free installion included with The Frame TV [ZG-FRAMESLIMFITINSTALL]
-●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx2]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-WALLM,CTV-25,,,,,"65"" QLED Q60D",QLED 4K Q60D,N,QA65Q60DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q60d-65-inch-qled-4k-tizen-os-smart-tv-qa65q60dajxzk/,QA65Q60DAJXZK,"16,480","13,480",,,"13,480",No,500,0,,,,,,,,,,,Add to Cart,"13,480",,Z-WMN-B50EB/XY,Z-UA32T5300AJXZK,Z-HW-C450/ZK,,,,,,,,"Z-WMN-B50EB/XY,Z-UA32T5300AJXZK,Z-HW-C450/ZK",3,"
+Sola,CTV-25,,,,,"65"" QLED Q60D",QLED 4K Q60D,N,QA65Q60DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q60d-65-inch-qled-4k-tizen-os-smart-tv-qa65q60dajxzk/,QA65Q60DAJXZK,"16,480","13,480",,,"13,480",Yes,500,500,,,,,,,,,,,Add to Cart,"12,980",,Z-WMN-B50EB/XY,Z-UA32T5300AJXZK,,,,,,,,,"Z-WMN-B50EB/XY,Z-UA32T5300AJXZK",2,"
 ●  1 x  Slim Fit Wall Mount WMN-B50EB (2023) [Z-WMN-B50EB/XY]
 ●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
-●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-WALLM,CTV-26,,,,,"65"" QLED Q70D",QLED 4K Q70D,N,QA65Q70DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q70d-65-inch-qled-4k-tizen-os-smart-tv-qa65q70dajxzk/,QA65Q70DAJXZK,"18,980","14,980",,,"14,980",No,800,0,,,,,,,,,,,Add to Cart,"14,980",,Z-WMN-B50EB/XY,Z-UA32T5300AJXZK,Z-HW-C450/ZK,,,,,,,,"Z-WMN-B50EB/XY,Z-UA32T5300AJXZK,Z-HW-C450/ZK",3,"
+Noel,CTV-26,,,,,"65"" QLED Q70D",QLED 4K Q70D,N,QA65Q70DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q70d-65-inch-qled-4k-tizen-os-smart-tv-qa65q70dajxzk/,QA65Q70DAJXZK,"18,980","14,980",,,"14,980",Yes,800,800,,,,,,,,,,,Add to Cart,"14,180",,Z-WMN-B50EB/XY,Z-UA32T5300AJXZK,,,,,,,,,"Z-WMN-B50EB/XY,Z-UA32T5300AJXZK",2,"
 ●  1 x  Slim Fit Wall Mount WMN-B50EB (2023) [Z-WMN-B50EB/XY]
 ●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
-●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-27,,,,,"65"" Neo QLED 8K QN800D",Neo QLED 8K QN800D,N,QA65QN800DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn800d-65-inch-neo-qled-8k-tizen-os-smart-tv-qa65qn800djxzk/,QA65QN800DJXZK,"42,980","34,980",,,34980,No,"1,800",0,,,,,,,,,,,Add to Cart,"34,980",,Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV,Z-HW-S800D/ZK,Z-Y24EPL12MPASS-C,,,ZG-FREE1YRWAREXT,,,Z-202406WWTICKET-Cx2,"Z-WMN-B16FB/XY,Z-SM-S9260ZKDT-CTV,Z-HW-S800D/ZK,Z-Y24EPL12MPASS-C,ZG-FREE1YRWAREXT,Z-202406WWTICKET-Cx2",7,"
-●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-●  1 x  Galaxy S24+, 256GB, Onyx Black [Z-SM-S9260ZKDT-CTV]
-●  1 x  S-Series HW-S800D Soundbar [Z-HW-S800D/ZK]
-●  1 x  Now TV Soccer Pack (Premier League & LALIGA EA SPORTS) 12-month Pass [Z-Y24EPL12MPASS-C]
-●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
-●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx2]
-",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-28,,,,,"65"" Neo QLED 4K QN87D",Neo QLED 4K QN87D,N,QA65QN87DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn87d-65-inch-neo-qled-4k-tizen-os-smart-tv-qa65qn87dajxzk/,QA65QN87DAJXZK,"27,980","17,980",,,"17,980",No,800,0,,,,,,,,,,,Add to Cart,"17,980",,Z-WMN-B16FB/XY,Z-UA32T5300AJXZK,Z-Y24EPL12MPASS-C,,,,,,,Z-202406WWTICKET-Cx2,"Z-WMN-B16FB/XY,Z-UA32T5300AJXZK,Z-Y24EPL12MPASS-C,Z-202406WWTICKET-Cx2",5,"
-●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-●  1 x  32"" T5300 FHD Smart TV [Z-UA32T5300AJXZK]
-●  1 x  Now TV Soccer Pack (Premier League & LALIGA EA SPORTS) 12-month Pass [Z-Y24EPL12MPASS-C]
-●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx2]
-",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-29,,,,,"65"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA65QN900DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn900d-65-inch-neo-qled-8k-tizen-os-smart-tv-qa65qn900djxzk/,QA65QN900DJXZK,"49,980","39,980",,,"39,980",No,"2,000",0,,,,,,,,,,,Add to Cart,"39,980",,Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-Y24EPL12MPASS-C,,,,ZG-FREE1YRWAREXT,,,Z-202406WWTICKET-Cx2,"Z-WMN-B16FB/XY,Z-SM-S9280ZTGT-CTV,Z-Y24EPL12MPASS-C,ZG-FREE1YRWAREXT,Z-202406WWTICKET-Cx2",6,"
-●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-●  1 x  Galaxy S24 Ultra, 256GB, Titanium Gray [Z-SM-S9280ZTGT-CTV]
-●  1 x  Now TV Soccer Pack (Premier League & LALIGA EA SPORTS) 12-month Pass [Z-Y24EPL12MPASS-C]
-●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
-●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx2]
-",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-30,,,,,"65"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA65QN95DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn95d-65-inch-neo-qled-4k-tizen-os-smart-tv-qa65qn95dajxzk/,QA65QN95DAJXZK,"36,980","27,980",,,"27,980",No,"1,500",0,,,,,,,,,,,Add to Cart,"27,980",,Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,Z-Y24EPL12MPASS-C,,,,ZG-FREE1YRWAREXT,,,Z-202406WWTICKET-Cx2,"Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,Z-Y24EPL12MPASS-C,ZG-FREE1YRWAREXT,Z-202406WWTICKET-Cx2",6,"
+Noel,CTV-27,,,,,"65"" Neo QLED 8K QN800D",Neo QLED 8K QN800D,N,QA65QN800DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn800d-65-inch-neo-qled-8k-tizen-os-smart-tv-qa65qn800djxzk/,QA65QN800DJXZK,"42,980","34,980",,,34980,Yes,"1,800","1,800",,,,,,,,,,,Add to Cart,"33,180",,Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,ZG-FREE1YRWAREXT",3,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
-●  1 x  Now TV Soccer Pack (Premier League & LALIGA EA SPORTS) 12-month Pass [Z-Y24EPL12MPASS-C]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
-●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx2]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-31,,,,,"65"" OLED S90DA",OLED 4K S90D,N,QA65S90DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-65-inch-oled-4k-tizen-os-smart-tv-qa65s90dajxzk/,QA65S90DAJXZK,"31,480","22,980",,,"22,980",No,"1,200",0,,,,,,,,,,,Add to Cart,"22,980",,Z-WMN-B05FB/XY,Z-SM-X210NZA-TV,Z-CESPCOUPONSx20,,,,,,,Z-202406WWTICKET-Cx2,"Z-WMN-B05FB/XY,Z-SM-X210NZA-TV,Z-CESPCOUPONSx20,Z-202406WWTICKET-Cx2",24,"
-●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
+Noel,CTV-28,,,,,"65"" Neo QLED 4K QN87D",Neo QLED 4K QN87D,N,QA65QN87DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn87d-65-inch-neo-qled-4k-tizen-os-smart-tv-qa65qn87dajxzk/,QA65QN87DAJXZK,"27,980","17,980",,,"17,980",Yes,800,800,,,,,,,,,,,Add to Cart,"17,180",,Z-WMN-B16FB/XY,Z-SM-X210NZA-TV,,,,,,,,,"Z-WMN-B16FB/XY,Z-SM-X210NZA-TV",2,"
+●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
-●  20 x  Supermarket coupon (HK$100) [Z-CESPCOUPONSx20]
-●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx2]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-32,,,,,"65"" OLED S95D",OLED 4K S95D,N,QA65S95DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95d-65-inch-oled-4k-tizen-os-smart-tv-qa65s95dajxzk/,QA65S95DAJXZK,"36,980","27,980",,,"27,980",No,"1,600",0,,,,,,,,,,,Add to Cart,"27,980",,Z-WMN-B16FB/XY,Z-CESPCOUPONSx20,Z-Y24EPL12MPASS-C,Z-SM-S9210ZVGT-CTV,,,,,,Z-202406WWTICKET-Cx2,"Z-WMN-B16FB/XY,Z-CESPCOUPONSx20,Z-Y24EPL12MPASS-C,Z-SM-S9210ZVGT-CTV,Z-202406WWTICKET-Cx2",25,"
+Noel,CTV-29,,,,,"65"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA65QN900DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn900d-65-inch-neo-qled-8k-tizen-os-smart-tv-qa65qn900djxzk/,QA65QN900DJXZK,"49,980","39,980",,,"39,980",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"37,980",,Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,ZG-FREE1YRWAREXT",3,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-●  20 x  Supermarket coupon (HK$100) [Z-CESPCOUPONSx20]
-●  1 x  Now TV Soccer Pack (Premier League & LALIGA EA SPORTS) 12-month Pass [Z-Y24EPL12MPASS-C]
 ●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
-●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx2]
+●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-33,,,,,"75"" Lifestyle Frame LS03D",The Frame LS03D,N,QA75LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-75-inch-black-qa75ls03dajxzk/,QA75LS03DAJXZK,"53,980","39,980",,,"39,980",No,"2,000",0,,,,,,,,,,,Add to Cart,"39,980",,Z-VG-SCFA75WTBRU,Z-HW-S801D/ZK,,,,,ZG-FRAMESLIMFITINSTALL,,,Z-202406WWTICKET-Cx4,"Z-VG-SCFA75WTBRU,Z-HW-S801D/ZK,ZG-FRAMESLIMFITINSTALL,Z-202406WWTICKET-Cx4",7,"
+Noel,CTV-30,,,,,"65"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA65QN95DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn95d-65-inch-neo-qled-4k-tizen-os-smart-tv-qa65qn95dajxzk/,QA65QN95DAJXZK,"36,980","27,980",,,"27,980",Yes,"1,500","1,500",,,,,,,,,,,Add to Cart,"26,480",,Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,ZG-FREE1YRWAREXT",3,"
+●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
+●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+Noel,CTV-31,,,,,"65"" OLED S90DA",OLED 4K S90D,N,QA65S90DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-65-inch-oled-4k-tizen-os-smart-tv-qa65s90dajxzk/,QA65S90DAJXZK,"31,480","22,980",,,"22,980",Yes,"1,200","1,200",,,,,,,,,,,Add to Cart,"21,780",,Z-WMN-B05FB/XY,Z-HW-S800D/ZK,Z-CESPCOUPONSx10,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-S800D/ZK,Z-CESPCOUPONSx10",12,"
+●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
+●  1 x  S-Series HW-S800D Soundbar [Z-HW-S800D/ZK]
+●  10 x  Supermarket coupon (HK$100) [Z-CESPCOUPONSx10]
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+Noel,CTV-32,,,,,"65"" OLED S95D",OLED 4K S95D,N,QA65S95DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95d-65-inch-oled-4k-tizen-os-smart-tv-qa65s95dajxzk/,QA65S95DAJXZK,"36,980","27,980",,,"27,980",Yes,"1,600","1,600",,,,,,,,,,,Add to Cart,"26,380",,Z-WMN-B16FB/XY,Z-CESPCOUPONSx10,Z-SM-S9210ZVGT-CTV,,,,,,,,"Z-WMN-B16FB/XY,Z-CESPCOUPONSx10,Z-SM-S9210ZVGT-CTV",12,"
+●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  10 x  Supermarket coupon (HK$100) [Z-CESPCOUPONSx10]
+●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+,CTV-33,,,,,"75"" Lifestyle Frame LS03D",The Frame LS03D,N,QA75LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-75-inch-black-qa75ls03dajxzk/,QA75LS03DAJXZK,"53,980","39,980",,,"39,980",No,"2,000",0,,,,,,,,,,,Add to Cart,"39,980",,Z-VG-SCFA75WTBRU,Z-HW-S801D/ZK,,,,,ZG-FRAMESLIMFITINSTALL,,,,"Z-VG-SCFA75WTBRU,Z-HW-S801D/ZK,ZG-FRAMESLIMFITINSTALL",3,"
 ●  1 x  75"" The Frame Modern type White Bezel [Z-VG-SCFA75WTBRU]
 ●  1 x  S-Series HW-S801D Soundbar [Z-HW-S801D/ZK]
 ●  1 x  Slim Fit Wall Mount with free installion included with The Frame TV [ZG-FRAMESLIMFITINSTALL]
-●  4 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx4]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-34,,,,,"75"" QLED Q70D",QLED 4K Q70D,N,QA75Q70DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q70d-75-inch-qled-4k-tizen-os-smart-tv-qa75q70dajxzk/,QA75Q70DAJXZK,"30,980","26,980",,,"26,980",No,"1,200",0,,,,,,,,,,,Add to Cart,"26,980",,Z-SM-S9210ZVGT-CTV,,,,,,,,,Z-202406WWTICKET-Cx2,"Z-SM-S9210ZVGT-CTV,Z-202406WWTICKET-Cx2",3,"
+Noel,CTV-34,,,,,"75"" QLED Q70D",QLED 4K Q70D,N,QA75Q70DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q70d-75-inch-qled-4k-tizen-os-smart-tv-qa75q70dajxzk/,QA75Q70DAJXZK,"30,980","26,980",,,"26,980",Yes,"1,200","1,200",,,,,,,,,,,Add to Cart,"25,780",,Z-WMN-B50EB/XY,Z-SM-S9210ZVGT-CTV,,,,,,,,,"Z-WMN-B50EB/XY,Z-SM-S9210ZVGT-CTV",2,"
+●  1 x  Slim Fit Wall Mount WMN-B50EB (2023) [Z-WMN-B50EB/XY]
 ●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
-●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx2]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-35,,,,,"75"" Neo QLED 8K QN800D",Neo QLED 8K QN800D,N,QA75QN800DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn800d-75-inch-neo-qled-8k-tizen-os-smart-tv-qa75qn800djxzk/,QA75QN800DJXZK,"85,980","72,980",,,"72,980",No,"2,000",0,,,,,,,,,,,Add to Cart,"72,980",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,Z-QA43LS05BAJXZK-C,,,,ZG-FREE1YRWAREXT,,,Z-202406WWTICKET-Cx4,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,Z-QA43LS05BAJXZK-C,ZG-FREE1YRWAREXT,Z-202406WWTICKET-Cx4",8,"
+Noel,CTV-35,,,,,"75"" Neo QLED 8K QN800D",Neo QLED 8K QN800D,N,QA75QN800DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn800d-75-inch-neo-qled-8k-tizen-os-smart-tv-qa75qn800djxzk/,QA75QN800DJXZK,"85,980","72,980",,,"72,980",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"70,980",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,ZG-FREE1YRWAREXT",3,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
-●  1 x  43"" The Sero LS05B (Blue) [Z-QA43LS05BAJXZK-C]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
-●  4 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx4]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-36,,,,,"75"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA75QN900DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn900d-75-inch-neo-qled-8k-tizen-os-smart-tv-qa75qn900djxzk/,QA75QN900DJXZK,"99,980","79,980",,,"79,980",No,"2,000",0,,,,,,,,,,,Add to Cart,"79,980",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,Z-QA43LS05BAJXZK-C,,,,ZG-FREE1YRWAREXT,,,Z-202406WWTICKET-Cx4,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,Z-QA43LS05BAJXZK-C,ZG-FREE1YRWAREXT,Z-202406WWTICKET-Cx4",8,"
+Noel,CTV-36,,,,,"75"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA75QN900DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn900d-75-inch-neo-qled-8k-tizen-os-smart-tv-qa75qn900djxzk/,QA75QN900DJXZK,"99,980","79,980",,,"79,980",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"77,980",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,ZG-FREE1YRWAREXT",3,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
-●  1 x  43"" The Sero LS05B (Blue) [Z-QA43LS05BAJXZK-C]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
-●  4 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx4]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-37,,,,,"77"" OLED S90DAE",OLED 4K S90D,N,QA77S90DAEXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-77-inch-oled-4k-tizen-os-smart-tv-qa77s90daexzk/,QA77S90DAEXZK,"55,480","49,980",,,"49,980",No,"2,000",0,,,,,,,,,,,Add to Cart,"49,980",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-SM-S9210ZVGT-CTV,,,,,,Z-202406WWTICKET-Cx4,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-SM-S9210ZVGT-CTV,Z-202406WWTICKET-Cx4",8,"
+Noel,CTV-37,,,,,"77"" OLED S90DAE",OLED 4K S90D,N,QA77S90DAEXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-77-inch-oled-4k-tizen-os-smart-tv-qa77s90daexzk/,QA77S90DAEXZK,"55,480","49,980",,,"49,980",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"47,980",,Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-Q930D/ZK,,,,,,,"Z-WMN-B16FB/XY,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,Z-HW-Q930D/ZK",4,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
 ●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
-●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
-●  4 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx4]
-",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-38,,,,,"77"" OLED S95D",OLED 4K S95D,N,QA77S95DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95d-77-inch-oled-4k-tizen-os-smart-tv-qa77s95dajxzk/,QA77S95DAJXZK,"79,480","62,980",,,"62,980",No,"2,000",0,,,,,,,,,,,Add to Cart,"62,980",,Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,Z-HW-Q930D/ZK,,,,,,,Z-202406WWTICKET-Cx4,"Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,Z-HW-Q930D/ZK,Z-202406WWTICKET-Cx4",7,"
-●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
 ●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
-●  4 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx4]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-39,,,,,"83"" OLED S90DAE",OLED 4K S90D,N,QA83S90DAEXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-83-inch-oled-4k-tizen-os-smart-tv-qa83s90daexzk/,QA83S90DAEXZK,"85,480","79,980",,,"79,980",No,"2,000",0,,,,,,,,,,,Add to Cart,"79,980",,Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,Z-QA43LS05BAJXZK-C,,,,,,,Z-202406WWTICKET-Cx4,"Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,Z-QA43LS05BAJXZK-C,Z-202406WWTICKET-Cx4",7,"
+Noel,CTV-38,,,,,"77"" OLED S95D",OLED 4K S95D,N,QA77S95DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95d-77-inch-oled-4k-tizen-os-smart-tv-qa77s95dajxzk/,QA77S95DAJXZK,"79,480","62,980",,,"62,980",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"60,980",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,,,,,,,,,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
-●  1 x  43"" The Sero LS05B (Blue) [Z-QA43LS05BAJXZK-C]
-●  4 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx4]
+●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-40,,,,,"85"" QLED Q70D",QLED 4K Q70D,N,QA85Q70DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q70d-85-inch-qled-4k-tizen-os-smart-tv-qa85q70dajxzk/,QA85Q70DAJXZK,"52,480","46,980",,,"46,980",No,"2,000",0,,,,,,,,,,,Add to Cart,"46,980",,Z-WMN-B30FB/RU,Z-HW-S800D/ZK,,,,,,,,Z-202406WWTICKET-Cx4,"Z-WMN-B30FB/RU,Z-HW-S800D/ZK,Z-202406WWTICKET-Cx4",6,"
+Michelle,CTV-39,,,,,"83"" OLED S90DAE",OLED 4K S90D,N,QA83S90DAEXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-83-inch-oled-4k-tizen-os-smart-tv-qa83s90daexzk/,QA83S90DAEXZK,"85,480","79,980",,,"79,980",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"77,980",,Z-WMN-B16FB/XY,Z-QA43LS05BAJXZK-C,,,,,,,,,"Z-WMN-B16FB/XY,Z-QA43LS05BAJXZK-C",2,"
+●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  43"" The Sero LS05B (Blue) [Z-QA43LS05BAJXZK-C]
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+,CTV-40,,,,,"85"" QLED Q70D",QLED 4K Q70D,N,QA85Q70DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q70d-85-inch-qled-4k-tizen-os-smart-tv-qa85q70dajxzk/,QA85Q70DAJXZK,"52,480","46,980",,,"46,980",No,"2,000",0,,,,,,,,,,,Add to Cart,"46,980",,Z-WMN-B30FB/RU,Z-HW-S800D/ZK,,,,,,,,,"Z-WMN-B30FB/RU,Z-HW-S800D/ZK",2,"
 ●  1 x  Full Motion Slim Fit TV Wallmount with installation [Z-WMN-B30FB/RU]
 ●  1 x  S-Series HW-S800D Soundbar [Z-HW-S800D/ZK]
-●  4 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx4]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-41,,,,,"85"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA85QN900DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn900d-85-inch-neo-qled-8k-tizen-os-smart-tv-qa85qn900djxzk/,QA85QN900DJXZK,"149,980","99,980",,,"99,980",No,"2,000",0,,,,,,,,,,,Add to Cart,"99,980",,Z-WMN-B30FB/RU,Z-HW-Q930D/ZK,Z-QA43LS05BAJXZK-C,Z-Y24EPL12MPASS-C,,,ZG-FREE1YRWAREXT,,,Z-202406WWTICKET-Cx4,"Z-WMN-B30FB/RU,Z-HW-Q930D/ZK,Z-QA43LS05BAJXZK-C,Z-Y24EPL12MPASS-C,ZG-FREE1YRWAREXT,Z-202406WWTICKET-Cx4",9,"
+Michelle,CTV-41,,,,,"85"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA85QN900DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn900d-85-inch-neo-qled-8k-tizen-os-smart-tv-qa85qn900djxzk/,QA85QN900DJXZK,"149,980","99,980",,,"99,980",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"97,980",,Z-WMN-B30FB/RU,Z-QA43LS05BAJXZK-C,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B30FB/RU,Z-QA43LS05BAJXZK-C,ZG-FREE1YRWAREXT",3,"
 ●  1 x  Full Motion Slim Fit TV Wallmount with installation [Z-WMN-B30FB/RU]
+●  1 x  43"" The Sero LS05B (Blue) [Z-QA43LS05BAJXZK-C]
+●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+Michelle,CTV-42,,,,,"98"" QLED 4K Q80C",QLED 4K Q80C,N,QA98Q80CAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q80c-98-inch-qled-4k-smart-tv-qa98q80cajxzk/,QA98Q80CAJXZK,"79,980","79,980",,,"79,980",Yes,"4,000","4,000",,,,,,,,,,,Add to Cart,"75,980",,Z-WMN8000SX/XY,,,,,,,,,,Z-WMN8000SX/XY,1,"
+●  1 x  TV Wall mount (WMN8000SX) [Z-WMN8000SX/XY]
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+Michelle,CTV-43,,,,,"98"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA98QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-98-inch-neo-qled-4k-tizen-os-smart-tv-qa98qn90dajxzk/,QA98QN90DAJXZK,"129,980","119,980",,,119980,Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"117,980",,Z-WMN8000SX/XY,Z-HW-Q930D/ZK,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN8000SX/XY,Z-HW-Q930D/ZK,ZG-FREE1YRWAREXT",3,"
+●  1 x  TV Wall mount (WMN8000SX) [Z-WMN8000SX/XY]
 ●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
-●  1 x  43"" The Sero LS05B (Blue) [Z-QA43LS05BAJXZK-C]
-●  1 x  Now TV Soccer Pack (Premier League & LALIGA EA SPORTS) 12-month Pass [Z-Y24EPL12MPASS-C]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
-●  4 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx4]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-42,,,,,"98"" QLED 4K Q80C",QLED 4K Q80C,N,QA98Q80CAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q80c-98-inch-qled-4k-smart-tv-qa98q80cajxzk/,QA98Q80CAJXZK,"79,980","79,980",,,"79,980",No,"4,000",0,,,,,,,,,,,Add to Cart,"79,980",,Z-WMN8000SX/XY,Z-QA32LS03CBJXZK,Z-VG-SCFC32SGMXY,,,,,,,Z-202406WWTICKET-Cx4,"Z-WMN8000SX/XY,Z-QA32LS03CBJXZK,Z-VG-SCFC32SGMXY,Z-202406WWTICKET-Cx4",7,"
+,CTV-44,,,,,"98"" Neo QLED 8K QN990C",Neo QLED 8K QN900C,N,QA98QN990CJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn990c-98-inch-neo-qled-8k-smart-tv-qa98qn990cjxzk/,QA98QN990CJXZK,"310,980","279,980",,,"279,980",No,"10,000",0,,,,,,,,,,,Add to Cart,"279,980",,Z-WMN8000SX/XY,,,,,,,,,,Z-WMN8000SX/XY,1,"
 ●  1 x  TV Wall mount (WMN8000SX) [Z-WMN8000SX/XY]
-●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
-●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
-●  4 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx4]
-",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-43,,,,,"98"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA98QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-98-inch-neo-qled-4k-tizen-os-smart-tv-qa98qn90dajxzk/,QA98QN90DAJXZK,"129,980","119,980",,,119980,No,"2,000",0,,,,,,,,,,,Add to Cart,"119,980",,Z-WMN8000SX/XY,Z-QA43LS05BAJXZK-C,Z-Y24EPL12MPASS-C,,,,ZG-FREE1YRWAREXT,,,Z-202406WWTICKET-Cx4,"Z-WMN8000SX/XY,Z-QA43LS05BAJXZK-C,Z-Y24EPL12MPASS-C,ZG-FREE1YRWAREXT,Z-202406WWTICKET-Cx4",8,"
-●  1 x  TV Wall mount (WMN8000SX) [Z-WMN8000SX/XY]
-●  1 x  43"" The Sero LS05B (Blue) [Z-QA43LS05BAJXZK-C]
-●  1 x  Now TV Soccer Pack (Premier League & LALIGA EA SPORTS) 12-month Pass [Z-Y24EPL12MPASS-C]
-●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
-●  4 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx4]
-",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-44,,,,,"98"" Neo QLED 8K QN990C",Neo QLED 8K QN900C,N,QA98QN990CJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn990c-98-inch-neo-qled-8k-smart-tv-qa98qn990cjxzk/,QA98QN990CJXZK,"310,980","279,980",,,"279,980",No,"10,000",0,,,,,,,,,,,Add to Cart,"279,980",,Z-WMN8000SX/XY,,,,,,,,,Z-202406WWTICKET-Cx4,"Z-WMN8000SX/XY,Z-202406WWTICKET-Cx4",5,"
-●  1 x  TV Wall mount (WMN8000SX) [Z-WMN8000SX/XY]
-●  4 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx4]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-45,,,,,"32"" T5300 FHD Smart TV",FHD Smart TV T5300,N,UA32T5300AJXZK,https://www.samsung.com/hk/tvs/full-hd-tv/t5300-32-inch-full-hd-smart-tv-ua32t5300ajxzk/,UA32T5300AJXZK,"3,580","3,280",,,"3,280",No,50,0,,,,,,,,,,,Add to Cart,"3,280",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
@@ -247,6 +200,8 @@ WALLM,CTV-26,,,,,"65"" QLED Q70D",QLED 4K Q70D,N,QA65Q70DAJXZK,https://www.samsu
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-48,,,,,"43"" Crystal UHD DU8500",Crystal UHD 4K DU8500,N,UA43DU8500JXZK,https://www.samsung.com/hk/tvs/uhd-4k-tv/du8500-43-inch-crystal-uhd-4k-tizen-os-smart-tv-ua43du8500jxzk/,UA43DU8500JXZK,"5,780","5,080",,,"5,080",No,50,0,,,,,,,,,,,Add to Cart,"5,080",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+Michelle,CTV-48B,,,,,"43"" Crystal UHD DUE800 4K",,N,UA43DUE800JXZK,https://www.samsung.com/hk/search/?searchvalue=UA43DUE800JXZK,UA43DUE800JXZK,"4,180","4,180",,,"4,180",No,0,0,,,,,,,,,,,Add to Cart,"4,180",,,,,,,,,,,,,0,"
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-49,,,,,"50"" Crystal UHD DU7700",Crystal UHD 4K DU7000 ,N,UA50DU7700JXZK,https://www.samsung.com/hk/tvs/uhd-4k-tv/du7000-50-inch-crystal-uhd-4k-tizen-os-smart-tv-ua50du7700jxzk/,UA50DU7700JXZK,"5,480","4,480",,,"4,480",No,50,0,,,,,,,,,,,Add to Cart,"4,480",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-50,,,,,"50"" Crystal UHD DU8000",Crystal UHD 4K DU8000,N,UA50DU8000JXZK,https://www.samsung.com/hk/tvs/uhd-4k-tv/du8000-50-inch-crystal-uhd-4k-tizen-os-smart-tv-ua50du8000jxzk/,UA50DU8000JXZK,"5,980","4,980",,,"4,980",No,50,0,,,,,,,,,,,Add to Cart,"4,980",,,,,,,,,,,,,0,"
@@ -255,19 +210,16 @@ WALLM,CTV-26,,,,,"65"" QLED Q70D",QLED 4K Q70D,N,QA65Q70DAJXZK,https://www.samsu
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-52,,,,,"55"" Crystal UHD DU8000",Crystal UHD 4K DU8000,N,UA55DU8000JXZK,https://www.samsung.com/hk/tvs/uhd-4k-tv/du8000-55-inch-crystal-uhd-4k-tizen-os-smart-tv-ua55du8000jxzk/,UA55DU8000JXZK,"7,480","5,980",,,"5,980",No,50,0,,,,,,,,,,,Add to Cart,"5,980",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-53,,,,,"65"" Crystal UHD DU8000",Crystal UHD 4K DU8000,N,UA65DU8000JXZK,https://www.samsung.com/hk/tvs/uhd-4k-tv/du8000-65-inch-crystal-uhd-4k-tizen-os-smart-tv-ua65du8000jxzk/,UA65DU8000JXZK,"12,980","9,980",,,"9,980",No,50,0,,,,,,,,,,,Add to Cart,"9,980",,,Z-HW-C450/ZK,,,,,,,,,Z-HW-C450/ZK,1,"
-●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
+Michelle,CTV-53,,,,,"65"" Crystal UHD DU8000",Crystal UHD 4K DU8000,N,UA65DU8000JXZK,https://www.samsung.com/hk/tvs/uhd-4k-tv/du8000-65-inch-crystal-uhd-4k-tizen-os-smart-tv-ua65du8000jxzk/,UA65DU8000JXZK,"12,980","9,980",,,"9,980",Yes,50,50,,,,,,,,,,,Add to Cart,"9,930",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-54,,,,,"75"" Crystal UHD DU8000",Crystal UHD 4K DU8000,N,UA75DU8000JXZK,https://www.samsung.com/hk/tvs/uhd-4k-tv/du8000-75-inch-crystal-uhd-4k-tizen-os-smart-tv-ua75du8000jxzk/,UA75DU8000JXZK,"19,980","12,980",,,"12,980",No,50,0,,,,,,,,,,,Add to Cart,"12,980",,,,,,,,,,,Z-202406WWTICKET-Cx2,Z-202406WWTICKET-Cx2,2,"
-●  2 x  Water World ""Summer"" Admission Ticket [Z-202406WWTICKET-Cx2]
+,CTV-54,,,,,"75"" Crystal UHD DU8000",Crystal UHD 4K DU8000,N,UA75DU8000JXZK,https://www.samsung.com/hk/tvs/uhd-4k-tv/du8000-75-inch-crystal-uhd-4k-tizen-os-smart-tv-ua75du8000jxzk/,UA75DU8000JXZK,"19,980","12,980",,,"12,980",No,50,0,,,,,,,,,,,Add to Cart,"12,980",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,PRO-01,,,,,The Freestyle 2nd Gen,The Freestyle 2nd Gen.,N,SP-LFF3CLAXXZK,https://www.samsung.com/hk/projectors/the-freestyle/lff3c-the-freestyle-2nd-gen-sp-lff3claxxzk/,SP-LFF3CLAXXZK,"6,980","5,980",,,"5,980",No,100,0,,,,,,,,,,,Add to Cart,"5,980",,Z-VG-FBB3BA,Z-ITFITSD05,,,,,,,,,"Z-VG-FBB3BA,Z-ITFITSD05",2,"
+Michelle,PRO-01,,,,,The Freestyle 2nd Gen,The Freestyle 2nd Gen.,N,SP-LFF3CLAXXZK,https://www.samsung.com/hk/projectors/the-freestyle/lff3c-the-freestyle-2nd-gen-sp-lff3claxxzk/,SP-LFF3CLAXXZK,"6,980","5,980",,,"5,980",Yes,100,100,,,,,,,,,,,Add to Cart,"5,880",,Z-VG-FBB3BA,,,,,,,,,,Z-VG-FBB3BA,1,"
 ●  1 x  Freestyle Battery Base [Z-VG-FBB3BA]
-●  1 x  Freestyle Projector Stand [Z-ITFITSD05]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-AU27,PRO-02,,,,,"130"" LPU9D The Premiere 4K Smart Triple Laser Projector (2024)",,N,SP-LPU9DSAXXZK,https://www.samsung.com/hk/projectors/the-premiere/lpu9d-smart-4k-uhd-ultra-short-throw-triple-laser-projector-lpu9d-sp-lpu9dsaxxzk/,SP-LPU9DSAXXZK,"59,990","59,990",,,"59,990",No,0,0,,,,,,,,,,,Add to Cart,"59,990",,Z-SM-X210NZA-TV,,,,,,,,,,Z-SM-X210NZA-TV,1,"
+Michelle,PRO-02,,,,,"130"" LPU9D The Premiere 4K Smart Triple Laser Projector (2024)",,N,SP-LPU9DSAXXZK,https://www.samsung.com/hk/projectors/the-premiere/lpu9d-smart-4k-uhd-ultra-short-throw-triple-laser-projector-lpu9d-sp-lpu9dsaxxzk/,SP-LPU9DSAXXZK,"59,990","59,990",,,"59,990",No,0,0,,,,,,,,,,,Add to Cart,"59,990",,Z-SM-X210NZA-TV,,,,,,,,,,Z-SM-X210NZA-TV,1,"
 ●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,HTS-01,,,,,C-Series HW-C450 2.1ch Soundbar,,N,HW-C450/ZK,https://www.samsung.com/hk/audio-devices/soundbar/c450-black-hw-c450-zk/,HW-C450/ZK,"2,190","2,190",,,"2,190",No,0,0,,,,,,,,,,,Add to Cart,"2,190",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,HTS-02,,,,,SWA-9100S 無線後置喇叭,,N,SWA-9100S/ZK,https://www.samsung.com/hk/search/?searchvalue=SWA-9100S/ZK,SWA-9100S/ZK,990,990,,,990,No,0,0,,,,,,,,,,,Add to Cart,990,,,,,,,,,,,,,0,"
@@ -302,15 +254,13 @@ AU27,PRO-02,,,,,"130"" LPU9D The Premiere 4K Smart Triple Laser Projector (2024)
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,HTS-15,,,,,S-Series HW-S61D Soundbar,,N,HW-S61D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s61d-white-hw-s61d-zk/,HW-S61D/ZK,"2,990","2,590",,,"2,590",No,100,0,,,,,,,,,,,Add to Cart,"2,590",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,HTS-16,,,,,S-Series HW-LS60D Music Frame,,N,HW-LS60D/ZK,https://www.samsung.com/hk/audio-devices/music-frame/ls60d-black-hw-ls60d-zk/,HW-LS60D/ZK,"3,980","3,680",,,"3,680",No,100,0,,,,,,,,,,,Add to Cart,"3,680",,Z-MUSICFRAMEPHOTOS,,,,,,,,,,Z-MUSICFRAMEPHOTOS,1,"
-●  1 x  Music Frame Photo Prints (5 set) [Z-MUSICFRAMEPHOTOS]
+Michelle,HTS-16,,,,,S-Series HW-LS60D Music Frame,,N,HW-LS60D/ZK,https://www.samsung.com/hk/audio-devices/music-frame/ls60d-black-hw-ls60d-zk/,HW-LS60D/ZK,"3,980","3,680",,,"3,680",Yes,100,100,,,,,,,,,,,Add to Cart,"3,580",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,MON-01,,,,,"27"" Odyssey G5 Curved Gaming Monitor (165Hz)",,N,LS27CG552ECXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-g5-g55c-27-inch-165hz-curved-qhd-ls27cg552ecxxk/,LS27CG552ECXXK,"2,280","1,680",,,1680,No,0,0,,,,,,,,,,,Add to Cart,"1,680",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,MON-02,,,,,"32"" Odyssey G5 Curved Gaming Monitor (165Hz)",,N,LS32CG552ECXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-g5-g55c-32-inch-165hz-curved-qhd-ls32cg552ecxxk/,LS32CG552ECXXK,"2,680","1,980",,,1980,No,0,0,,,,,,,,,,,Add to Cart,"1,980",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-COMEXPO,MON-03,,,,,32” Odyssey Neo G7 Mini-LED Curved Gaming Monitor (165Hz),,N,LS32BG750NCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-neo-g7-g75nb-32-inch-ls32bg750ncxxk/,LS32BG750NCXXK,"7,980","5,880",,,5880,No,0,0,,,,,,,,,,,Add to Cart,"5,880",,,,,,,,,Z-ITFITPW28-C,,,Z-ITFITPW28-C,1,"
-●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
+,MON-03,,,,,32” Odyssey Neo G7 Mini-LED Curved Gaming Monitor (165Hz),,N,LS32BG750NCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-neo-g7-g75nb-32-inch-ls32bg750ncxxk/,LS32BG750NCXXK,"7,980","5,880",,,5880,No,0,0,,,,,,,,,,,Add to Cart,"5,880",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,MON-04,,,,,32” Odyssey Neo G8 Mini-LED Curved Gaming Monitor (240Hz),,N,LS32BG850NCXXK,https://www.samsung.com/hk/search/?searchvalue=LS32BG850NCXXK,LS32BG850NCXXK,"10,980","6,980",,,6980,No,300,0,,,,,,,,,,,Add to Cart,"6,980",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
@@ -320,8 +270,7 @@ COMEXPO,MON-03,,,,,32” Odyssey Neo G7 Mini-LED Curved Gaming Monitor (165Hz),,
 ,MON-06,,,,,"49"" Odyssey G9 OLED Curved Gaming Monitor (240Hz)",,N,LS49CG954SCXXK,https://www.samsung.com/hk/search/?searchvalue=LS49CG954SCXXK,LS49CG954SCXXK,"16,980","16,980",,,16980,No,700,0,,,,,,,,,,,Add to Cart,"16,980",,Z-LS32D706EACXXK-C,,,,,,,,,,Z-LS32D706EACXXK-C,1,"
 ●  1 x  27"" ViewFinity S7 UHD Monitor [Z-LS32D706EACXXK-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-COMEXPO,MON-07,,,,,"57"" Odyssey Neo G9 Curved Gaming Monitor (240Hz)",,N,LS57CG952NCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-neo-g9-g95nc-57-inch-240hz-curved-dual-uhd-ls57cg952ncxxk/,LS57CG952NCXXK,"21,980","21,980",,,21980,No,800,0,,,,,,,,,,,Add to Cart,"21,980",,,,,,,,,Z-ITFITPW28-C,,,Z-ITFITPW28-C,1,"
-●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
+,MON-07,,,,,"57"" Odyssey Neo G9 Curved Gaming Monitor (240Hz)",,N,LS57CG952NCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-neo-g9-g95nc-57-inch-240hz-curved-dual-uhd-ls57cg952ncxxk/,LS57CG952NCXXK,"21,980","21,980",,,21980,No,800,0,,,,,,,,,,,Add to Cart,"21,980",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,MON-08,,,,,"22"" S31C Essential Monitor",,N,LS22C310EACXXK,https://www.samsung.com/hk/monitors/flat/essential-monitor-s3-22-inch-borderless-design-ips-panel-fhd-freesync-ls22c310eacxxk/,LS22C310EACXXK,840,790,,,790,No,0,0,,,,,,,,,,,Add to Cart,790,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
@@ -346,28 +295,20 @@ COMEXPO,MON-07,,,,,"57"" Odyssey Neo G9 Curved Gaming Monitor (240Hz)",,N,LS57CG
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,MON-18,,,,,"32"" M8 Smart Monitor (2023) Warm White",,N,LS32CM801UCXXK,https://www.samsung.com/hk/search/?searchvalue=LS32CM801UCXXK,LS32CM801UCXXK,"5,280","4,180",,,4180,No,150,0,,,,,,,,,,,Add to Cart,"4,180",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,MON-19,,,,,"55"" Odyssey Ark 2<sup>nd</sup> Gen Curved Gaming Monitor (165Hz)",,N,LS55CG970NCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-ark-2nd-gen-g97nc-55-inch-165hz-1ms-curved-uhd-4k-ls55cg970ncxxk/,LS55CG970NCXXK,"25,800","25,800",,,25800,No,"1,000",0,,,,,,,,,,,Add to Cart,"25,800",,Z-LS32D706EACXXK-C,,,,,,,,,Z-LGTG304MON,"Z-LS32D706EACXXK-C,Z-LGTG304MON",2,"
+,MON-19,,,,,"55"" Odyssey Ark 2<sup>nd</sup> Gen Curved Gaming Monitor (165Hz)",,N,LS55CG970NCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-ark-2nd-gen-g97nc-55-inch-165hz-1ms-curved-uhd-4k-ls55cg970ncxxk/,LS55CG970NCXXK,"25,800","25,800",,,25800,No,"1,000",0,,,,,,,,,,,Add to Cart,"25,800",,Z-LS32D706EACXXK-C,,,,,,,,,,Z-LS32D706EACXXK-C,1,"
 ●  1 x  27"" ViewFinity S7 UHD Monitor [Z-LS32D706EACXXK-C]
-●  1 x  Logitech LEAGUE OF LEGENDS KDA G304 gaming mouse [Z-LGTG304MON]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-COMEXPO,MON-20,,,,,34” Odyssey G5 Curved Gaming Monitor (165Hz),,N,LC34G55TWWCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-g5-34-inch-165hz-curved-ultra-wqhd-lc34g55twwcxxk/,LC34G55TWWCXXK,,"2,980",,,2980,No,0,0,,,,,,,,,,,Add to Cart,"2,980",,,,,,,,,Z-ITFITPW28-C,,,Z-ITFITPW28-C,1,"
-●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
+,MON-20,,,,,34” Odyssey G5 Curved Gaming Monitor (165Hz),,N,LC34G55TWWCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-g5-34-inch-165hz-curved-ultra-wqhd-lc34g55twwcxxk/,LC34G55TWWCXXK,,"2,980",,,2980,No,0,0,,,,,,,,,,,Add to Cart,"2,980",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,MON-21,,,,,"32"" Odyssey G8 OLED Gaming Monitor (240Hz)",,N,LS32DG802SCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-oled-g8-g80sd-32-inch-240hz-oled-uhd-ls32dg802scxxk/,LS32DG802SCXXK,"12,980","11,980",,,"11,980",No,400,0,,,,,,,,,,,Add to Cart,"11,980",,,,,,,,,Z-G304G435COMBO,,Z-LGTG304MON,"Z-G304G435COMBO,Z-LGTG304MON",2,"
-●  1 x  Logitech G304SE + G435SE LIGHTSPEED Wireless Gaming Combo [Z-G304G435COMBO]
-●  1 x  Logitech LEAGUE OF LEGENDS KDA G304 gaming mouse [Z-LGTG304MON]
+,MON-21,,,,,"32"" Odyssey G8 OLED Gaming Monitor (240Hz)",,N,LS32DG802SCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-oled-g8-g80sd-32-inch-240hz-oled-uhd-ls32dg802scxxk/,LS32DG802SCXXK,"12,980","11,980",,,"11,980",No,400,0,,,,,,,,,,,Add to Cart,"11,980",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-COMEXPO,MON-22,,,,,"27"" Odyssey G6 OLED Gaming Monitor (360Hz)",,N,LS27DG602SCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-oled-g6-g60sd-27-inch-360hz-oled-qhd-ls27dg602scxxk/,LS27DG602SCXXK,"7,980","6,980",,,"6,980",No,200,0,,,,,,,,,,,Add to Cart,"6,980",,,,,,,,,Z-ITFITPW28-C,,,Z-ITFITPW28-C,1,"
-●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
+,MON-22,,,,,"27"" Odyssey G6 OLED Gaming Monitor (360Hz)",,N,LS27DG602SCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-oled-g6-g60sd-27-inch-360hz-oled-qhd-ls27dg602scxxk/,LS27DG602SCXXK,"7,980","6,980",,,"6,980",No,200,0,,,,,,,,,,,Add to Cart,"6,980",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,MON-23,,,,,"32"" M8 Smart Monitor (2024)",,N,LS32DM803UCXXK,https://www.samsung.com/hk/monitors/high-resolution/smart-monitor-m8-32-inch-smart-tv-apps-ls32dm803ucxxk/,LS32DM803UCXXK,"4,980","4,980",,,"4,980",No,150,0,,,,,,,,,,,Add to Cart,"4,980",,,,,,,,,,,Z-HAPPIRAITOLIT,Z-HAPPIRAITOLIT,1,"
-●  1 x  HappiRAITO LED ScreenBar Monitor Lamp [Z-HAPPIRAITOLIT]
+,MON-23,,,,,"32"" M8 Smart Monitor (2024)",,N,LS32DM803UCXXK,https://www.samsung.com/hk/monitors/high-resolution/smart-monitor-m8-32-inch-smart-tv-apps-ls32dm803ucxxk/,LS32DM803UCXXK,"4,980","4,980",,,"4,980",No,150,0,,,,,,,,,,,Add to Cart,"4,980",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,MON-24,,,,,"32"" M7 Smart Monitor (2024), Black",,N,LS32DM702UCXXK,https://www.samsung.com/hk/monitors/high-resolution/smart-monitor-m7-32-inch-smart-tv-apps-ls32dm702ucxxk/,LS32DM702UCXXK,"3,480","3,480",,,"3,480",No,100,0,,,,,,,,,,,Add to Cart,"3,480",,,,,,,,,,,Z-HAPPIRAITOLIT,Z-HAPPIRAITOLIT,1,"
-●  1 x  HappiRAITO LED ScreenBar Monitor Lamp [Z-HAPPIRAITOLIT]
+,MON-24,,,,,"32"" M7 Smart Monitor (2024), Black",,N,LS32DM702UCXXK,https://www.samsung.com/hk/monitors/high-resolution/smart-monitor-m7-32-inch-smart-tv-apps-ls32dm702ucxxk/,LS32DM702UCXXK,"3,480","3,480",,,"3,480",No,100,0,,,,,,,,,,,Add to Cart,"3,480",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,MON-25,,,,,"32"" M7 Smart Monitor (2024), White",,N,LS32DM703UCXXK,https://www.samsung.com/hk/monitors/high-resolution/smart-monitor-m7-32-inch-smart-tv-apps-ls32dm703ucxxk/,LS32DM703UCXXK,"3,480","3,480",,,"3,480",No,100,0,,,,,,,,,,,Add to Cart,"3,480",,,,,,,,,,,Z-HAPPIRAITOLIT,Z-HAPPIRAITOLIT,1,"
-●  1 x  HappiRAITO LED ScreenBar Monitor Lamp [Z-HAPPIRAITOLIT]
+,MON-25,,,,,"32"" M7 Smart Monitor (2024), White",,N,LS32DM703UCXXK,https://www.samsung.com/hk/monitors/high-resolution/smart-monitor-m7-32-inch-smart-tv-apps-ls32dm703ucxxk/,LS32DM703UCXXK,"3,480","3,480",,,"3,480",No,100,0,,,,,,,,,,,Add to Cart,"3,480",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,MON-26,,,,,"32"" Odyssey G5 Gaming Monitor (180Hz)",,N,LS32DG502ECXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-g5-g50d-32-inch-180hz-ips-qhd-ls32dg502ecxxk/,LS32DG502ECXXK,"3,080","2,680",,,"2,680",No,100,0,,,,,,,,,,,Add to Cart,"2,680",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
@@ -383,32 +324,30 @@ COMEXPO,MON-22,,,,,"27"" Odyssey G6 OLED Gaming Monitor (360Hz)",,N,LS27DG602SCX
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,MON-31,,,,,"24"" S33GC Essential Monitor",,N,LS24C330GACXXK,https://www.samsung.com/hk/monitors/flat/essential-monitor-s3-24-inch-fhd-ips-100hz-ls24c330gacxxk/,LS24C330GACXXK,980,890,,,890,No,0,0,,,,,,,,,,,Add to Cart,890,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-COMEXPO,MON-32,,,,,"49"" Odyssey G9 OLED Curved Gaming Monitor (240Hz)",,N,LS49DG952SCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-oled-g9-49-inch-oled-dual-qhd-ls49dg952scxxk/,LS49DG952SCXXK,"16,980","16,980",,,"16,980",No,500 (1-30Sep),0,,,,,,,,,,,Add to Cart,"16,980",,Z-STEAMPASS200x3,Z-SM-X210NZA-TV,,,,,,Z-ITFITPW28-C,,,"Z-STEAMPASS200x3,Z-SM-X210NZA-TV,Z-ITFITPW28-C",5,"
+Sammi,MON-32,,,,,"49"" Odyssey G9 OLED Curved Gaming Monitor (240Hz)",,N,LS49DG952SCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-oled-g9-49-inch-oled-dual-qhd-ls49dg952scxxk/,LS49DG952SCXXK,"16,980","16,980",,,"16,980",Yes,500,500,,,,,,,,,,,Add to Cart,"16,480",,Z-STEAMPASS200x3,Z-SM-X210NZA-TV,,,,,,,,,"Z-STEAMPASS200x3,Z-SM-X210NZA-TV",4,"
 ●  3 x  Steam $200 Gift Card [Z-STEAMPASS200x3]
 ●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
-●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-COMEXPO,MON-33,,,,,"34"" Odyssey G8 OLED Curved Gaming Monitor (175Hz)",,N,LS34DG852SCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-oled-g8-34-inch-oled-ultra-wqhd-ls34dg852scxxk/,LS34DG852SCXXK,"11,980","11,980",,,"11,980",No,400 (1-30Sep),0,,,,,,,,,,,Add to Cart,"11,980",,Z-STEAMPASS200x3,,,,,,,Z-ITFITPW28-C,,,"Z-STEAMPASS200x3,Z-ITFITPW28-C",4,"
+Sammi,MON-33,,,,,"34"" Odyssey G8 OLED Curved Gaming Monitor (175Hz)",,N,LS34DG852SCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-oled-g8-34-inch-oled-ultra-wqhd-ls34dg852scxxk/,LS34DG852SCXXK,"11,980","11,980",,,"11,980",Yes,400,400,,,,,,,,,,,Add to Cart,"11,580",,Z-STEAMPASS200x3,,,,,,,,,,Z-STEAMPASS200x3,3,"
 ●  3 x  Steam $200 Gift Card [Z-STEAMPASS200x3]
-●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-NEWMON,MON-34,,,,,"49"" ViewFinity S9 S95UC LS49C950UACXXK",,N,LS49C950UACXXK,https://www.samsung.com/hk/monitors/high-resolution/viewfinity-s9-49-inch-dual-qhd-ls49c950uacxxk/,LS49C950UACXXK,"8,980","8,980",,,8980,No,0,0,,,,,,,,,,,Add to Cart,"8,980",,,,,,,,,,,,,0,"
+,MON-34,,,,,"49"" ViewFinity S9 S95UC LS49C950UACXXK",,N,LS49C950UACXXK,https://www.samsung.com/hk/monitors/high-resolution/viewfinity-s9-49-inch-dual-qhd-ls49c950uacxxk/,LS49C950UACXXK,"8,980","8,980",,,8980,No,0,0,,,,,,,,,,,Add to Cart,"8,980",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-NEWMON,MON-35,,,,,"32"" ViewFinity S8 S80UD UHD Monitor",,N,LS32D804UACXXK,https://www.samsung.com/hk/monitors/high-resolution/viewfinity-s8-32-inch-uhd-usbc-easysetupstand-ls32d804uacxxk/,LS32D804UACXXK,"3,480","3,480",,,3480,No,0,0,,,,,,,,,,,Add to Cart,"3,480",,,,,,,,,,,,,0,"
+,MON-35,,,,,"32"" ViewFinity S8 S80UD UHD Monitor",,N,LS32D804UACXXK,https://www.samsung.com/hk/monitors/high-resolution/viewfinity-s8-32-inch-uhd-usbc-easysetupstand-ls32d804uacxxk/,LS32D804UACXXK,"3,480","3,480",,,3480,No,0,0,,,,,,,,,,,Add to Cart,"3,480",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-NEWMON,MON-36,,,,,LS27D804UACXXK,,N,LS27D804UACXXK,https://www.samsung.com/hk/search/?searchvalue=LS27D804UACXXK,LS27D804UACXXK,"3,080","3,080",,,3080,No,0,0,,,,,,,,,,,Add to Cart,"3,080",,,,,,,,,,,,,0,"
+,MON-36,,,,,LS27D804UACXXK,,N,LS27D804UACXXK,https://www.samsung.com/hk/search/?searchvalue=LS27D804UACXXK,LS27D804UACXXK,"3,080","3,080",,,3080,No,0,0,,,,,,,,,,,Add to Cart,"3,080",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-NEWMON,MON-37,,,,,"34"" ViewFinity S6 S65UC Curved Monitor",,N,LS34C652UACXXK,https://www.samsung.com/hk/monitors/high-resolution/viewfinity-s6-s65uc-34-inch-ultra-wqhd-ls34c652uacxxk/,LS34C652UACXXK,"3,680","3,680",,,3680,No,0,0,,,,,,,,,,,Add to Cart,"3,680",,,,,,,,,,,,,0,"
+,MON-37,,,,,"34"" ViewFinity S6 S65UC Curved Monitor",,N,LS34C652UACXXK,https://www.samsung.com/hk/monitors/high-resolution/viewfinity-s6-s65uc-34-inch-ultra-wqhd-ls34c652uacxxk/,LS34C652UACXXK,"3,680","3,680",,,3680,No,0,0,,,,,,,,,,,Add to Cart,"3,680",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-NEWMON,MON-38,,,,,"32"" ViewFinity S6 S60UD QHD Monitor",,N,LS32D606UACXXK,https://www.samsung.com/hk/monitors/high-resolution/viewfinity-s6-32-inch-qhd-100hz-easysetupstand-ls32d606uacxxk/,LS32D606UACXXK,"3,080","3,080",,,3080,No,0,0,,,,,,,,,,,Add to Cart,"3,080",,,,,,,,,,,,,0,"
+,MON-38,,,,,"32"" ViewFinity S6 S60UD QHD Monitor",,N,LS32D606UACXXK,https://www.samsung.com/hk/monitors/high-resolution/viewfinity-s6-32-inch-qhd-100hz-easysetupstand-ls32d606uacxxk/,LS32D606UACXXK,"3,080","3,080",,,3080,No,0,0,,,,,,,,,,,Add to Cart,"3,080",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-NEWMON,MON-39,,,,,"27"" ViewFinity S6 S60UD QHD Monitor",,N,LS27D606UACXXK,https://www.samsung.com/hk/monitors/high-resolution/viewfinity-s6-27-inch-qhd-100hz-easysetupstand-ls27d606uacxxk/,LS27D606UACXXK,"2,880","2,880",,,2880,No,0,0,,,,,,,,,,,Add to Cart,"2,880",,,,,,,,,,,,,0,"
+,MON-39,,,,,"27"" ViewFinity S6 S60UD QHD Monitor",,N,LS27D606UACXXK,https://www.samsung.com/hk/monitors/high-resolution/viewfinity-s6-27-inch-qhd-100hz-easysetupstand-ls27d606uacxxk/,LS27D606UACXXK,"2,880","2,880",,,2880,No,0,0,,,,,,,,,,,Add to Cart,"2,880",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-NEWMON,MON-40,,,,,"24"" ViewFinity S6 S60UD QHD Monitor",,N,LS24D604UACXXK,https://www.samsung.com/hk/monitors/high-resolution/viewfinity-s6-24-inch-qhd-100hz-easysetupstand-ls24d604uacxxk/,LS24D604UACXXK,"2,380","2,380",,,2380,No,0,0,,,,,,,,,,,Add to Cart,"2,380",,,,,,,,,,,,,0,"
+,MON-40,,,,,"24"" ViewFinity S6 S60UD QHD Monitor",,N,LS24D604UACXXK,https://www.samsung.com/hk/monitors/high-resolution/viewfinity-s6-24-inch-qhd-100hz-easysetupstand-ls24d604uacxxk/,LS24D604UACXXK,"2,380","2,380",,,2380,No,0,0,,,,,,,,,,,Add to Cart,"2,380",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-NEWMON2,MON-41,,,,,"24"" Odyssey G3 Gaming Monitor (180Hz)",,N,LS24DG302ECXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-g3-g30d-24-inch-180hz-freesync-ls24dg302ecxxk/,LS24DG302ECXXK,"1,280","1,280",,,1280,,0,0,,,,,,,,,,,Add to Cart,"1,280",,,,,,,,,,,,,0,"
+,MON-41,,,,,"24"" Odyssey G3 Gaming Monitor (180Hz)",,N,LS24DG302ECXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-g3-g30d-24-inch-180hz-freesync-ls24dg302ecxxk/,LS24DG302ECXXK,"1,480","1,280",,,1280,No,0,0,,,,,,,,,,,Add to Cart,"1,280",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-NEWMON2,MON-42,,,,,"27"" Odyssey G3 Gaming Monitor (180Hz)",,N,LS27DG302ECXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-g3-g30d-27-inch-180hz-freesync-ls27dg302ecxxk/,LS27DG302ECXXK,"1,480","1,480",,,1480,,0,0,,,,,,,,,,,Add to Cart,"1,480",,,,,,,,,,,,,0,"
+,MON-42,,,,,"27"" Odyssey G3 Gaming Monitor (180Hz)",,N,LS27DG302ECXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-g3-g30d-27-inch-180hz-freesync-ls27dg302ecxxk/,LS27DG302ECXXK,"1,680","1,480",,,1480,No,0,0,,,,,,,,,,,Add to Cart,"1,480",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,REF-01,,,,,RT20M3020GS/SH 2 door Refrigerator 203L Grey Silver,,N,RT20M3020GS/SH,https://www.samsung.com/hk/refrigerators/top-mount-freezer/203l-gray-silver-rt20m3020gs-sh/,RT20M3020GS/SH,"3,140","2,690",,,2690,No,0,0,,,,,,,,,,,Add to Cart,"2,690",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,"
 ●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
@@ -451,12 +390,9 @@ NEWMON2,MON-42,,,,,"27"" Odyssey G3 Gaming Monitor (180Hz)",,N,LS27DG302ECXXK,ht
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,REF-16,,,,,RB33J3200S9 2 Door Refrigerator 328L,,N,RB33J3200S9/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/328l-refined-inox-rb33j3200s9-sh/,RB33J3200S9/SH,"5,790","4,290",,,"4,290",No,150,0,,,,,,,,,,,Add to Cart,"4,290",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,REF-17,,,,,RB33J3200SA 2 door Refrigerator 328L Metal Graphite,,N,RB33J3200SA/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/328l-metal-graphite-rb33j3200sa-sh/,RB33J3200SA/SH,"5,790","4,290",,,"4,290",No,150,0,,,,,,,,,,,Add to Cart,"4,290",,,,,,,,,,,Z-ITFITF16,Z-ITFITF16,1,"
-●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+,REF-17,,,,,RB33J3200SA 2 door Refrigerator 328L Metal Graphite,,N,RB33J3200SA/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/328l-metal-graphite-rb33j3200sa-sh/,RB33J3200SA/SH,"5,790","4,290",,,"4,290",No,150,0,,,,,,,,,,,Add to Cart,"4,290",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,REF-18,,,,,RB33R8899SR/SH  SpaceMaxᵀᴹ  2 door Refrigerator 328L Sliver,,N,RB33R8899SR/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/328l-real-stainless-rb33r8899sr-sh/,RB33R8899SR/SH,"11,190","11,190",,,"11,190",No,300,0,,,,,,,,,,,Add to Cart,"11,190",,Z-VS20B958F3N/SP-C,,,,,,,,,Z-ITFITF16,"Z-VS20B958F3N/SP-C,Z-ITFITF16",2,"
-●  1 x  BESPOKE Jet™ Plus Premium Vacuum Cleaner (Woody Green)  [Z-VS20B958F3N/SP-C]
-●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+Sammi,REF-18,,,,,RB33R8899SR/SH  SpaceMaxᵀᴹ  2 door Refrigerator 328L Sliver,,N,RB33R8899SR/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/328l-real-stainless-rb33r8899sr-sh/,RB33R8899SR/SH,"11,190","11,190",,,"11,190",Yes,300,300,,,,,,,,,,,Add to Cart,"10,890",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,REF-19,,,,,RB34T675FB1 SpaceMax™  2 door refrigerator 340L,,N,RB34T675FB1/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/rb7300t-spacemax-340l-black-rb34t675fb1-sh/,RB34T675FB1/SH,"7,490","5,990",,,"5,990",No,200,0,,,,,,,,,,,Add to Cart,"5,990",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
@@ -464,21 +400,16 @@ NEWMON2,MON-42,,,,,"27"" Odyssey G3 Gaming Monitor (180Hz)",,N,LS27DG302ECXXK,ht
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,REF-21,,,,,RF48A4000B4 Twin Cooling Plus™ Multi Door Refrigerator 468L,,N,RF48A4000B4/SH,https://www.samsung.com/hk/refrigerators/french-door/rf4000tm-468l-black-rf48a4000b4-sh/,RF48A4000B4/SH,"10,990","8,990",,,"8,990",No,300,0,,,,,,,,,,,Add to Cart,"8,990",,,,,,,,,,,,,0,"
 ",2 x Water World tickets,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,REF-22,,,,,RS62R5007M9 Side By Side Refrigerators 647L,,N,RS62R5007M9/SH,https://www.samsung.com/hk/refrigerators/side-by-side/rs5000rc-680l-silver-rs62r5007m9-sh/,RS62R5007M9/SH,"12,990","10,990",,,"10,990",No,400,0,,,,,,,,,,,Add to Cart,"10,990",,,,,,,,,,,Z-ITFITF16,Z-ITFITF16,1,"
-●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+Sammi,REF-22,,,,,RS62R5007M9 Side By Side Refrigerators 647L,,N,RS62R5007M9/SH,https://www.samsung.com/hk/refrigerators/side-by-side/rs5000rc-680l-silver-rs62r5007m9-sh/,RS62R5007M9/SH,"12,990","10,990",,,"10,990",Yes,400,400,,,,,,,,,,,Add to Cart,"10,590",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,REF-23,,,,,RS63R5597B4/SH SpaceMax™ Side by Side Refrigerator 630L Black,,N,RS63R5597B4/SH,https://www.samsung.com/hk/refrigerators/side-by-side/630l-gentle-black-matt-rs63r5597b4-sh/,RS63R5597B4/SH,"15,500","13,990",,,"13,990",No,400,0,,,,,,,,,,,Add to Cart,"13,990",,Z-VS20C852CTN/SH-C,,,,,,,,,Z-ITFITF16,"Z-VS20C852CTN/SH-C,Z-ITFITF16",2,"
-●  1 x  VS20C852CTNSH Jet85 Stick VC Woody Green [Z-VS20C852CTN/SH-C]
-●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+Sammi,REF-23,,,,,RS63R5597B4/SH SpaceMax™ Side by Side Refrigerator 630L Black,,N,RS63R5597B4/SH,https://www.samsung.com/hk/refrigerators/side-by-side/630l-gentle-black-matt-rs63r5597b4-sh/,RS63R5597B4/SH,"15,500","13,990",,,"13,990",Yes,400,400,,,,,,,,,,,Add to Cart,"13,590",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,REF-24,,,,,RS64R5337B4/SH Side by Side Refrigerator 617L,,N,RS64R5337B4/SH,https://www.samsung.com/hk/refrigerators/side-by-side/617l-gentle-black-matt-rs64r5337b4-sh/,RS64R5337B4/SH,"15,900","15,900",,,"15,900",No,500,0,,,,,,,,,,,Add to Cart,"15,900",,Z-VS20C852CTN/SH-C,,,,,,,,,Z-ITFITF16,"Z-VS20C852CTN/SH-C,Z-ITFITF16",2,"
+Sammi,REF-24,,,,,RS64R5337B4/SH Side by Side Refrigerator 617L,,N,RS64R5337B4/SH,https://www.samsung.com/hk/refrigerators/side-by-side/617l-gentle-black-matt-rs64r5337b4-sh/,RS64R5337B4/SH,"15,900","15,900",,,"15,900",Yes,500,500,,,,,,,,,,,Add to Cart,"15,400",,Z-VS20C852CTN/SH-C,,,,,,,,,,Z-VS20C852CTN/SH-C,1,"
 ●  1 x  VS20C852CTNSH Jet85 Stick VC Woody Green [Z-VS20C852CTN/SH-C]
-●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,REF-25,,,,,BESPOKE Bottom Mount Freezer 340L (Panel Not Included),,N,RZ24A5470AP/SH,https://www.samsung.com/hk/search/?searchvalue=RZ24A5470AP/SH,RZ24A5470AP/SH,"11,630","11,980",,,"11,980",No,0,0,,,,,,,,,,,Add to Cart,"11,980",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,REF-26,,,,,BESPOKE Bottom Mount Freezer 340L (Panel Not Included),,N,RB34A7B4FAP/SH,https://www.samsung.com/hk/search/?searchvalue=RB34A7B4FAP/SH,RB34A7B4FAP/SH,"10,230","7,780",,,"7,780",No,300,0,,,,,,,,,,,Add to Cart,"7,780",,Z-VS20B958F3N/SP-C,,,,,,,,,,Z-VS20B958F3N/SP-C,1,"
-●  1 x  BESPOKE Jet™ Plus Premium Vacuum Cleaner (Woody Green)  [Z-VS20B958F3N/SP-C]
+Sammi,REF-26,,,,,BESPOKE Bottom Mount Freezer 340L (Panel Not Included),,N,RB34A7B4FAP/SH,https://www.samsung.com/hk/search/?searchvalue=RB34A7B4FAP/SH,RB34A7B4FAP/SH,"10,230","7,780",,,"7,780",Yes,300,300,,,,,,,,,,,Add to Cart,"7,480",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,FAB-01,,,,,AI AirDresser with JetSteam Refresh & Sanitize Cycle,,N,DF60A8500CG/SH,https://www.samsung.com/hk/washers-and-dryers/airdresser/df8000nm-silver-mirror-df60a8500cg-sh/,DF60A8500CG/SH,"14,990","10,380",,,"10,380",No,400,0,,,,,,,,,,,Add to Cart,"10,380",,Z-DF-HK,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,,,,,,,"Z-DF-HK,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C",4,"
 ●  1 x  AirDresser Regular Hanger Kit (hand 3 shirts) [Z-DF-HK]
@@ -504,29 +435,25 @@ NEWMON2,MON-42,,,,,"27"" Odyssey G3 Gaming Monitor (180Hz)",,N,LS27DG302ECXXK,ht
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,WM-07,,,,,WA10C14545BVSH Ecobubble™ Top Loader with Drain Pump 10kg Black Caviar,,N,WA10C14545BVSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wa4000c-top-load-ecobubble-digital-inverter-technology-super-speed-10kg-black-caviar-matt-wa10c14545bvsh/,WA10C14545BVSH,"4,890","3,390",,,"3,390",No,50,0,,,,,,,,,,,Add to Cart,"3,390",,Z-ITFITF17-C,Z-ITFITPW21OCE-C,,,,,,,,,"Z-ITFITF17-C,Z-ITFITPW21OCE-C",2,"
+Sammi,WM-07,,,,,WA10C14545BVSH Ecobubble™ Top Loader with Drain Pump 10kg Black Caviar,,N,WA10C14545BVSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wa4000c-top-load-ecobubble-digital-inverter-technology-super-speed-10kg-black-caviar-matt-wa10c14545bvsh/,WA10C14545BVSH,"4,890","3,390",,,"3,390",Yes,50,50,,,,,,,,,,,Add to Cart,"3,340",,Z-ITFITF17-C,Z-ITFITPW21OCE-C,,,,,,,,,"Z-ITFITF17-C,Z-ITFITPW21OCE-C",2,"
 ●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,WM-08,,,,,"WD10T754DBH AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 10.5/7kg, 1400rpm",,N,WD10T754DBH/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd7500t-front-loading-eco-bubble-quickdrive-ai-control-10-5kg-white-wd10t754dbh-sh/,WD10T754DBH/SH,"7,990","5,390",,,"5,390",No,200,0,,,,,,,,,,,Add to Cart,"5,390",,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,,,,,,,Z-ITFITAC05NY,"Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITAC05NY",4,"
+,WM-08,,,,,"WD10T754DBH AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 10.5/7kg, 1400rpm",,N,WD10T754DBH/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd7500t-front-loading-eco-bubble-quickdrive-ai-control-10-5kg-white-wd10t754dbh-sh/,WD10T754DBH/SH,"7,990","5,390",,,"5,390",No,200,0,,,,,,,,,,,Add to Cart,"5,390",,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,,,,,,,,"Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C",3,"
 ●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,WM-09,,,,,"WD70TA046BE/SH Hygiene Steam Front Load Washer + Dryer Combo 7/5kg, 1400rpm",,N,WD70TA046BE/SH,https://www.samsung.com/hk/washers-and-dryers/washer-dryer-combo/wd5000t-front-loading-air-wash-drum-clean-bubble-soak-7kg-plus-5kg-white-wd70ta046be-sh/,WD70TA046BE/SH,"6,090","4,290",,,"4,290",No,150,0,,,,,,,,,,,Add to Cart,"4,290",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,WM-10,,,,,"WD70T4046CH Hygiene Steam Front Load Washer + Dryer Combo 7/5kg, 1400rpm",,N,WD70T4046CH/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd4000t-front-loading-air-wash-drum-clean-bubble-soak-7kg-white-wd70t4046ch-sh/,WD70T4046CH/SH,"4,690","4,290",,,"4,290",No,150,0,,,,,,,,,,,Add to Cart,"4,290",,,,,,,,,,,Z-ITFITAC05NY,Z-ITFITAC05NY,1,"
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
+,WM-10,,,,,"WD70T4046CH Hygiene Steam Front Load Washer + Dryer Combo 7/5kg, 1400rpm",,N,WD70T4046CH/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd4000t-front-loading-air-wash-drum-clean-bubble-soak-7kg-white-wd70t4046ch-sh/,WD70T4046CH/SH,"4,690","4,290",,,"4,290",No,150,0,,,,,,,,,,,Add to Cart,"4,290",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,WM-11,,,,,"WD80T654DBE AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 8/6kg, 1400rpm",,N,WD80T654DBE/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd6500t-front-loading-ai-control-air-wash-bubble-soak-8kg-white-wd80t654dbe-sh/,WD80T654DBE/SH,"7,590","4,990",,,"4,990",No,150,0,,,,,,,,,,,Add to Cart,"4,990",,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,,,,,,,Z-ITFITAC05NY,"Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,Z-ITFITAC05NY",4,"
+,WM-11,,,,,"WD80T654DBE AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 8/6kg, 1400rpm",,N,WD80T654DBE/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd6500t-front-loading-ai-control-air-wash-bubble-soak-8kg-white-wd80t654dbe-sh/,WD80T654DBE/SH,"7,590","4,990",,,"4,990",No,150,0,,,,,,,,,,,Add to Cart,"4,990",,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,,,,,,,,"Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C",3,"
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
 ●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,WM-12,,,,,"WD80TA546BH AddWash™ Front Load Washing Machine + Dryer Combo 8/6kg, 1400rpm",,N,WD80TA546BH/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd5300t-8kg-white-wd80ta546bh-sh/,WD80TA546BH/SH,"5,790","4,990",,,"4,990",No,150,0,,,,,,,,,,,Add to Cart,"4,990",,,,,,,,,,,Z-ITFITAC05NY,Z-ITFITAC05NY,1,"
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
+,WM-12,,,,,"WD80TA546BH AddWash™ Front Load Washing Machine + Dryer Combo 8/6kg, 1400rpm",,N,WD80TA546BH/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd5300t-8kg-white-wd80ta546bh-sh/,WD80TA546BH/SH,"5,790","4,990",,,"4,990",No,150,0,,,,,,,,,,,Add to Cart,"4,990",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,WM-13,,,,,"WW70T3020BW/SH Slim440 Digital Inverter Front Load Washing Machine 7kg, 1200rpm",,N,WW70T3020BW/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww3000tm-digital-inverter-technology-5-0-7kg-white-ww70t3020bw-sh/,WW70T3020BW/SH,"4,890","3,190",,,"3,190",No,50,0,,,,,,,,,,,Add to Cart,"3,190",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
@@ -545,28 +472,27 @@ NEWMON2,MON-42,,,,,"27"" Odyssey G3 Gaming Monitor (180Hz)",,N,LS27DG302ECXXK,ht
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,WM-20,,,,,"WW70AG5S21CXSH Slim Ecobubble™ Front Load Washing Machine 7kg, 1200rpm",,N,WW70AG5S21CXSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww5100a-front-loading-ecobubble-super-speed-aquaprotect-7kg-refined-inox-ww70ag5s21cxsh/,WW70AG5S21CXSH,"5,490","3,490",,,"3,490",No,50,0,,,,,,,,,,,Add to Cart,"3,490",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,WM-21,,,,,"WW80AG6L28BXSH Slim AI Ecobubble™ AI Control Front Load Washing Machine 8kg, 1200 rpm",,N,WW80AG6L28BXSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww6100a-front-loading-eco-bubble-ai-control-lagest-capacity-8kg-gray-ww80ag6l28bxsh/,WW80AG6L28BXSH,"6,190","4,390",,,"4,390",No,50,0,,,,,,,,,,,Add to Cart,"4,390",,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,,,,,,,Z-ITFITAC05NY,"Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,Z-ITFITAC05NY",4,"
+,WM-21,,,,,"WW80AG6L28BXSH Slim AI Ecobubble™ AI Control Front Load Washing Machine 8kg, 1200 rpm",,N,WW80AG6L28BXSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww6100a-front-loading-eco-bubble-ai-control-lagest-capacity-8kg-gray-ww80ag6l28bxsh/,WW80AG6L28BXSH,"6,190","4,390",,,"4,390",No,50,0,,,,,,,,,,,Add to Cart,"4,390",,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,,,,,,,,"Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C",3,"
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
 ●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,WM-22,,,,,"WW80AGAS21AESH Slim Ecobubble™ Front Load Washing Machine 8kg, 1200rpm",,N,WW80AGAS21AESH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww5100a-front-loading-ecobubble-super-speed-aquaprotect-8kg-white-ww80agas21aesh/,WW80AGAS21AESH,"5,590","3,790",,,"3,790",No,50,0,,,,,,,,,,,Add to Cart,"3,790",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-AU24,WM-23,,,,,"WW80AGAS21AXSH Slim Ecobubble™ Front Load Washing Machine 8kg, 1200rpm",,N,WW80AGAS21AXSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww5100a-front-loading-ecobubble-super-speed-aquaprotect-8kg-refined-inox-ww80agas21axsh/,WW80AGAS21AXSH,"5,790","3,890",,,"3,890",No,50,0,,,,,,,,,,,Add to Cart,"3,890",,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,,,,,,,,"Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C",3,"
+,WM-23,,,,,"WW80AGAS21AXSH Slim Ecobubble™ Front Load Washing Machine 8kg, 1200rpm",,N,WW80AGAS21AXSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww5100a-front-loading-ecobubble-super-speed-aquaprotect-8kg-refined-inox-ww80agas21axsh/,WW80AGAS21AXSH,"5,790","3,890",,,"3,890",No,50,0,,,,,,,,,,,Add to Cart,"3,890",,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,,,,,,,,"Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C",3,"
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
 ●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,VC-01,,,,,Samsung Jet 75 Battery VCA-SBT90,,N,VCA-SBT90,https://www.samsung.com/hk/home-appliance-accessories/vacuum-cleaner-battery-vca-sbt90/,VCA-SBT90,"1,325","1,325",,,"1,325",No,0,0,,,,,,,,,,,Add to Cart,"1,325",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,VC-02,,,,,VS20B95993BSH Bespoke Jet Plus 210W  Midnight Blue,,N,VS20B95993B/SH,https://www.samsung.com/hk/vacuum-cleaners/stick/bespoke-jet-plus-210w-all-in-one-clean-station-mid-blue-vs20b95993b-sh/,VS20B95993B/SH,"8,990","6,990",,,"6,990",No,250,0,,,,,,,,,,,Add to Cart,"6,990",,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-VCA-SPW95/VT,Z-VCA-SPA95/GL,Z-VCA-ADB952,,,,,"Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-VCA-SPW95/VT,Z-VCA-SPA95/GL,Z-VCA-ADB952",6,"
-●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
+Sammi,VC-02,,,,,VS20B95993BSH Bespoke Jet Plus 210W  Midnight Blue,,N,VS20B95993B/SH,https://www.samsung.com/hk/vacuum-cleaners/stick/bespoke-jet-plus-210w-all-in-one-clean-station-mid-blue-vs20b95993b-sh/,VS20B95993B/SH,"8,990","6,990",,,"6,990",Yes,250,250,,,,,,,,,,,Add to Cart,"6,740",,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-VCA-SPW95/VT,Z-VCA-SPA95/GL,Z-VCA-ADB952,Z-ITFITF17-C,,,,,"Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-VCA-SPW95/VT,Z-VCA-SPA95/GL,Z-VCA-ADB952,Z-ITFITF17-C",6,"
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
 ●  1 x  BESPOKE Jet™ Sweeper Microfiber Pads (4ea) [Z-VCA-SPW95/VT]
 ●  1 x  BESPOKE Jet™ Sweeper Disposable Wet Pads [Z-VCA-SPA95/GL]
 ●  1 x  BESPOKE Jet™ Clean Station Antibacterial Dust Bag (5ea) [Z-VCA-ADB952]
+●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,VC-03,,,,,VS20B958F3NSP Bespoke Jet Plus 210W Woody Green,,N,VS20B958F3N/SP,https://www.samsung.com/hk/vacuum-cleaners/stick/bespoke-jet-plus-210w-all-in-one-clean-station-mid-green-vs20b958f3n-sp/,VS20B958F3N/SP,"6,990","5,590",,,"5,590",No,200,0,,,,,,,,,,,Add to Cart,"5,590",,Z-VCA-ADB952,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-VCA-TABA95,,,,,,,"Z-VCA-ADB952,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-VCA-TABA95",4,"
 ●  1 x  BESPOKE Jet™ Clean Station Antibacterial Dust Bag (5ea) [Z-VCA-ADB952]

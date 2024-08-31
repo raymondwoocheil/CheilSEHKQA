@@ -1,6 +1,6 @@
 {
   "Name": "TestMX",
-  "CreationDate": "2024-7-24",
+  "CreationDate": "2024-8-30",
   "Commands": [
     {
       "Command": "store",
@@ -2368,7 +2368,7 @@
     },
     {
       "Command": "pause",
-      "Target": "300",
+      "Target": "400",
       "Value": "",
       "Description": ""
     },
