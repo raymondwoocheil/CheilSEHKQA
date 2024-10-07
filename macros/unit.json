@@ -1,0 +1,175 @@
+{
+    "Name": "unit",
+    "CreationDate": "2024-10-7",
+    "Commands":
+    [
+        {
+            "Command": "store",
+            "Target": "fast",
+            "Value": "!replayspeed",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!errorIgnore",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "SM-A5560ZKATGY",
+            "Value": "SKU",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Yes",
+            "Value": "TradeIn",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**Start Check Trade-in**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Extra Trade-In Rebate",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${TradeIn}==\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!statusOK",
+            "Description": ""
+        },
+        {
+            "Command": "verifyElementNotPresent",
+            "Target": "xpath=//div[@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__trade-in\")]//span[contains(@class,\"error-text\")]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${!statusOK}==true",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "storeText",
+            "Target": "xpath=//*[@id=\"as-tradein\"]/div/p/span",
+            "Value": "TradeInRebate",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return ${TradeInRebate}.split(\"HK$\")[2].trim();",
+            "Value": "TradeInRebate",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(${TradeInRebate}.split(\".00 (額外Trade-in回贈)\")[0].trim().replace(/[^0-9.-]+/g,\"\"));",
+            "Value": "TradeInRebate",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${TradeInRebate}",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${ExpectedTradeInRebate}==${TradeInRebate}",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Passed",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "else",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Failed",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Failed",
+            "Value": "TestResult",
+            "Description": ""
+        },
+        {
+            "Command": "echo",
+            "Target": "[${SKU}] Extra Trade-In Rebate: Failed - Expected ${ExpectedTradeInRebate} / Actual ${TradeInRebate}",
+            "Value": "red",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "else",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "times",
+            "Target": "2",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**End Check Trade-in**",
+            "Value": "",
+            "Description": ""
+        }
+    ]
+}
