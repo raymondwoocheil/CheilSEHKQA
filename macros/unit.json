@@ -1,6 +1,6 @@
 {
     "Name": "unit",
-    "CreationDate": "2024-10-7",
+    "CreationDate": "2024-10-8",
     "Commands":
     [
         {
@@ -28,20 +28,56 @@
             "Description": ""
         },
         {
-            "Command": "comment",
-            "Target": "**Start Check Trade-in**",
-            "Value": "",
+            "Command": "store",
+            "Target": "Yes",
+            "Value": "SCPlus",
             "Description": ""
         },
         {
             "Command": "store",
-            "Target": "Extra Trade-In Rebate",
-            "Value": "!csvLine",
+            "Target": "QA65QN900DJXZK,Z-SM-S9280ZTGT-CTV,Z-WMN-B16FB/XY",
+            "Value": "ExpectedPremiumStrings",
             "Description": ""
         },
         {
-            "Command": "if_v2",
-            "Target": "${TradeIn}==\"Yes\"",
+            "Command": "executeScript",
+            "Target": "return ${ExpectedPremiumStrings}.split(',')",
+            "Value": "ExpectedPremiumArray",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(3)",
+            "Value": "ItemCount",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**Start Clear Cart**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//div[@data-modelcode=\"${SKU}\"]//button[@class=\"cart-item__remove--btn\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "pause",
+            "Target": "400",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//app-cart-item-remove-modal//button[@data-an-tr=\"cart-product-remove\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "pause",
+            "Target": "800",
             "Value": "",
             "Description": ""
         },
@@ -53,7 +89,7 @@
         },
         {
             "Command": "verifyElementNotPresent",
-            "Target": "xpath=//div[@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__trade-in\")]//span[contains(@class,\"error-text\")]",
+            "Target": "xpath=//section[contains(@class,\"cart-details__empty\")]",
             "Value": "",
             "Description": ""
         },
@@ -64,93 +100,45 @@
             "Description": ""
         },
         {
-            "Command": "storeText",
-            "Target": "xpath=//*[@id=\"as-tradein\"]/div/p/span",
-            "Value": "TradeInRebate",
-            "Description": ""
-        },
-        {
-            "Command": "executeScript",
-            "Target": "return ${TradeInRebate}.split(\"HK$\")[2].trim();",
-            "Value": "TradeInRebate",
-            "Description": ""
-        },
-        {
-            "Command": "executeScript",
-            "Target": "return Number(${TradeInRebate}.split(\".00 (額外Trade-in回贈)\")[0].trim().replace(/[^0-9.-]+/g,\"\"));",
-            "Value": "TradeInRebate",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "${TradeInRebate}",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${ExpectedTradeInRebate}==${TradeInRebate}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Passed",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "else",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Failed",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Failed",
-            "Value": "TestResult",
+            "Command": "storeXpathCount",
+            "Target": "xpath=//button[@class=\"cart-item__remove--btn\"]",
+            "Value": "RemoveIconCount",
             "Description": ""
         },
         {
             "Command": "echo",
-            "Target": "[${SKU}] Extra Trade-In Rebate: Failed - Expected ${ExpectedTradeInRebate} / Actual ${TradeInRebate}",
-            "Value": "red",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "else",
-            "Target": "",
+            "Target": "\"RemoveIconCount\" = ${RemoveIconCount}",
             "Value": "",
             "Description": ""
         },
         {
             "Command": "times",
-            "Target": "2",
+            "Target": "${RemoveIconCount}",
             "Value": "",
             "Description": ""
         },
         {
-            "Command": "store",
-            "Target": "",
-            "Value": "!csvLine",
+            "Command": "click",
+            "Target": "xpath=//button[@class=\"cart-item__remove--btn\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "pause",
+            "Target": "800",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//app-cart-item-remove-modal//button[@data-an-tr=\"cart-product-remove\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "pause",
+            "Target": "400",
+            "Value": "",
             "Description": ""
         },
         {
@@ -167,7 +155,7 @@
         },
         {
             "Command": "comment",
-            "Target": "**End Check Trade-in**",
+            "Target": "**End Clear Cart**",
             "Value": "",
             "Description": ""
         }
