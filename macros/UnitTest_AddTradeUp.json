@@ -1,7 +1,19 @@
 {
-  "Name": "AddTradeUp",
-  "CreationDate": "2024-5-16",
+  "Name": "UnitTest_AddTradeUp",
+  "CreationDate": "2024-10-13",
   "Commands": [
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!errorIgnore",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "fast",
+      "Value": "!replayspeed",
+      "Description": ""
+    },
     {
       "Command": "pause",
       "Target": "1000",
@@ -9,86 +21,116 @@
       "Description": ""
     },
     {
-      "Command": "click",
-      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div/div/div[2]/div/div/ul/li/div[2]/div/button/span",
+      "Command": "waitForElementPresent",
+      "Target": "xpath=//div[@id=\"ce-trade-up-popup-section\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of Step 1 Device",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Select model",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "click",
-      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div/div/div[2]/div/div/ul/li/div[2]/div/div/div/ul/li[3]/button/span",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "select",
-      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div/div/div[2]/div/div/ul/li/div[2]/div/select",
-      "Value": "label=56” - 65”",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div/div/div[2]/div/div/ul/li[2]/div[2]/div/button/span",
+      "Target": "xpath=//div[contains(@class,\"sdf-comp-step-panel-product\")]//div[contains(@class,\"sdf-comp-model-menu\")]//button[@class=\"menu__select-field\"]",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "click",
-      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div/div/div[2]/div/div/ul/li[2]/div[2]/div/div/div/ul/li[3]/button/span",
+      "Target": "xpath=//div[contains(@class,\"sdf-comp-step-panel-product\")]//div[contains(@class,\"sdf-comp-model-menu\")]//ul[contains(@class,\"menu__list\")]/li[1]/button",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "select",
-      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div/div/div[2]/div/div/ul/li[2]/div[2]/div/select",
-      "Value": "label=Samsung",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div/div/div[3]/button",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "type",
-      "Target": "id=conditionCheckInfoYes",
-      "Value": "on",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div[2]/div/div[2]/div/div/div[2]/ul/li/div/label/span[2]",
+      "Command": "comment",
+      "Target": "Select brand",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "click",
-      "Target": "id=conditionCheckInfoYes",
+      "Target": "xpath=//div[contains(@class,\"sdf-comp-step-panel-product\")]//div[contains(@class,\"sdf-comp-brand-menu\")]//button[@class=\"menu__select-field\"]",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "click",
-      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div[2]/div/div[3]/button",
+      "Target": "xpath=//div[contains(@class,\"sdf-comp-step-panel-product\")]//div[contains(@class,\"sdf-comp-brand-menu\")]//ul[contains(@class,\"menu__list\")]/li[1]/button",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "click",
-      "Target": "id=chkTuTncAgree",
+      "Target": "xpath=//div[contains(@class,\"sdf-comp-step-panel-product\")]//button[@an-la=\"trade-up:select device:next\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of Step 1 Device",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of Step 2 Device",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "click",
-      "Target": "xpath=//*[@id=\"ce-trade-up-popup-section\"]/div/div/div/div[3]/div/div[3]/button",
+      "Target": "xpath=//div[contains(@class,\"sdf-comp-step-panel-condition\")]//input[@id=\"conditionCheckInfoYes\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[contains(@class,\"sdf-comp-step-panel-condition\")]//button[@an-la=\"trade-up:check device condition:next\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of Step 2 Device",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of Step 3 Discount",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[contains(@class,\"sdf-comp-step-panel-discount\")]//input[@id=\"chkTuTncAgree\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[contains(@class,\"sdf-comp-step-panel-discount\")]//button[@an-la=\"pd buying tool:trade-up:apply discount:apply trade up\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "waitForElementNotVisible // xpath=//div[@id=\"ce-trade-up-popup-section\"]",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "pause",
-      "Target": "6000",
+      "Target": "4000",
       "Value": "",
       "Description": ""
     }

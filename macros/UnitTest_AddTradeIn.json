@@ -1,156 +1,223 @@
 {
-  "Name": "AddTradeIn",
-  "CreationDate": "2024-5-16",
-  "Commands": [
-    {
-      "Command": "comment",
-      "Target": "open // https://www.samsung.com/hk/smartphones/galaxy-s24-ultra/buy/",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "pause",
-      "Target": "1000",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "waitForElementPresent",
-      "Target": "xpath=//*[@id=\"hubble-commontradein-layer\"]",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "xpath=//*[@an-la=\"trade-in:select device:Smartphone & Tablet\"]",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "pause",
-      "Target": "500",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "xpath=//*[@id=\"brand\"]/li[2]/a/div/span",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "xpath=//*[@id=\"model\"]/li[2]/a/div/span",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "xpath=//*[@id=\"capacity\"]/li/a/div/span",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "xpath=//*[@id=\"color\"]/li/a/div/span",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "xpath=//*[@id=\"PurchaseFrom\"]/li/a/div/span",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "xpath=//*[@id=\"hubble-commontradein-layer\"]/div[2]/div/div[2]/button[2]",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "id=common-trade-imei",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "executeScript",
-      "Target": "return Math.floor(12345678901234 + Math.random()*54321678901234)",
-      "Value": "IMEI",
-      "Description": ""
-    },
-    {
-      "Command": "type",
-      "Target": "id=common-trade-imei",
-      "Value": "${IMEI}",
-      "Description": ""
-    },
-    {
-      "Command": "pause",
-      "Target": "200",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "waitForElementVisible",
-      "Target": "xpath=//*[@class=\"text-field__text success\"]",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "xpath=//button[@an-la=\"trade-in:enter imei:next\"]",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "waitForElementPresent",
-      "Target": "xpath=//*[@id=\"commonConditionForm\"]/ul/li",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "id=multi-choice-checkbox0-3",
-      "Value": "None of the above",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "id=multi-choice-checkbox1-4",
-      "Value": "None of the above",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "id=multi-choice-checkbox2-7",
-      "Value": "None of the above",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "xpath=//*[@id=\"hubble-commontradein-layer\"]/div[2]/div[3]/div[2]/button[2]",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "id=trade-chk1",
-      "Value": "on",
-      "Description": ""
-    },
-    {
-      "Command": "pause",
-      "Target": "100",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "click",
-      "Target": "xpath=//*[@an-la=\"trade-in:apply discount:apply trade in\"]",
-      "Value": "",
-      "Description": ""
-    }
-  ]
+    "Name": "UnitTest_AddTradeIn",
+    "CreationDate": "2024-10-13",
+    "Commands":
+    [
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!errorIgnore",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "fast",
+            "Value": "!replayspeed",
+            "Description": ""
+        },
+        {
+            "Command": "pause",
+            "Target": "1000",
+            "Value": "!replayspeed",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "open // https://www.samsung.com/hk/smartphones/galaxy-s24-ultra/buy/",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "waitForElementPresent",
+            "Target": "xpath=//section[@id=\"hubble-commontradein-layer\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//input[@an-la=\"trade-in:select device:智能手機及平板電腦\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "waitForElementPresent",
+            "Target": "xpath=//div[contains(@class,\"trade-in-popup-v3__tradeIn-wrap\")]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "Start of Step 1 Device",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//ul[@id=\"brand\"]//span[@class=\"trade-in-popup-v3__tradeIn-select__choose-name\"][text()=\"APPLE\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//ul[@id=\"model\"]//span[@class=\"trade-in-popup-v3__tradeIn-select__choose-name\"][text()=\"APPLE iPhone 14\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//ul[@id=\"capacity\"]//span[@class=\"trade-in-popup-v3__tradeIn-select__choose-name\"][text()=\"512GB\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//ul[@id=\"color\"]//span[@class=\"trade-in-popup-v3__tradeIn-select__choose-name\"][text()=\"任何顏色\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//ul[@id=\"PurchaseFrom\"]//span[@class=\"trade-in-popup-v3__tradeIn-select__choose-name\"][text()=\"自特約零售商或經銷商\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//div[contains(@class,\"trade-in-popup-v3__tradeIn-wrap\")]//button[@an-la=\"trade-in:select device:next\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "End of Step 1 Device",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "Start of Step 2 IMEI",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "waitForElementVisible",
+            "Target": "xpath=//div[contains(@class,\"trade-in-popup-v3__imei-wrap\")]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "id=common-trade-imei",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Math.floor(41111222233333 + Math.random()*10000000000000)",
+            "Value": "IMEI",
+            "Description": ""
+        },
+        {
+            "Command": "type",
+            "Target": "id=common-trade-imei",
+            "Value": "${IMEI}",
+            "Description": ""
+        },
+        {
+            "Command": "pause",
+            "Target": "3000",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "waitForElementVisible",
+            "Target": "xpath=//*[@class=\"text-field-v2__text success\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//div[contains(@class,\"trade-in-popup-v3__imei-wrap\")]//button[@an-la=\"trade-in:enter imei:next\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "End of Step 2 IMEI",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "Start of Step 3 Conditions",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "waitForElementVisible",
+            "Target": "xpath=//div[contains(@class,\"trade-in-popup-v3__condition-wrap\")]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "id=multi-choice-checkbox0-3",
+            "Value": "None of the above",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "id=multi-choice-checkbox1-4",
+            "Value": "None of the above",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "id=multi-choice-checkbox2-7",
+            "Value": "None of the above",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//div[contains(@class,\"trade-in-popup-v3__condition-wrap\")]//button[@an-la=\"trade-in:check device condition:next\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "End of Step 3 Conditions",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "Start of Step 4 Final Step",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "id=trade-chk1",
+            "Value": "on",
+            "Description": ""
+        },
+        {
+            "Command": "waitForElementVisible",
+            "Target": "xpath=//div[contains(@class,\"trade-in-popup-v3__apply-wrap\")]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//div[contains(@class,\"trade-in-popup-v3__apply-wrap\")]//button[@an-la=\"trade-in:apply discount:apply trade in\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "End of Step 4 Final Step",
+            "Value": "",
+            "Description": ""
+        }
+    ]
 }
