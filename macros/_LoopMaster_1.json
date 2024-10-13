@@ -1,6 +1,6 @@
 {
   "Name": "_LoopMaster_1",
-  "CreationDate": "2024-8-19",
+  "CreationDate": "2024-10-13",
   "Commands": [
     {
       "Command": "store",
@@ -22,19 +22,19 @@
     },
     {
       "Command": "store",
-      "Target": "240",
+      "Target": "250",
       "Value": "endingLineNumber",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "true",
+      "Command": "comment",
+      "Target": "store // true",
       "Value": "runTesterLinesOnly",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // false",
+      "Command": "store",
+      "Target": "false",
       "Value": "runTesterLinesOnly",
       "Description": ""
     },
@@ -57,14 +57,14 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // MX",
+      "Command": "store",
+      "Target": "MX",
       "Value": "TestCat",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "CE",
+      "Command": "comment",
+      "Target": "store // CE",
       "Value": "TestCat",
       "Description": ""
     },
@@ -93,32 +93,98 @@
       "Description": ""
     },
     {
+      "Command": "comment",
+      "Target": "**Start of Global Trade-in/up/ScPlus Settings**",
+      "Value": "TestSite",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // true",
+      "Value": "globalSkipTradeIn",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "false",
+      "Value": "globalSkipTradeIn",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // true",
+      "Value": "globalAddTradeInCart",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "false",
+      "Value": "globalAddTradeInCart",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // true",
+      "Value": "globalSkipTradeUp",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "false",
+      "Value": "globalSkipTradeUp",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // true",
+      "Value": "globalAddTradeUpCart",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "false",
+      "Value": "globalAddTradeUpCart",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // true",
+      "Value": "globalSkipSCPlus",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "false",
+      "Value": "globalSkipSCPlus",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // true",
+      "Value": "globalAddSCPlusCart",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "false",
+      "Value": "globalAddSCPlusCart",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End of Global Trade-in/up/ScPlus Settings**",
+      "Value": "TestSite",
+      "Description": ""
+    },
+    {
       "Command": "store",
       "Target": "TestCase${TestCat}${TestSite}.csv",
       "Value": "TestCase",
       "Description": ""
     },
     {
-      "Command": "if",
-      "Target": "${TestSite}==\"\"",
-      "Value": "",
-      "Description": ""
-    },
-    {
       "Command": "store",
-      "Target": "Test${TestCat}",
-      "Value": "TestMacro",
-      "Description": ""
-    },
-    {
-      "Command": "else",
-      "Target": "",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "TestEPP",
+      "Target": "TestMaster",
       "Value": "TestMacro",
       "Description": ""
     },
@@ -126,12 +192,6 @@
       "Command": "store",
       "Target": "9999999",
       "Value": "!timeout_macro",
-      "Description": ""
-    },
-    {
-      "Command": "end",
-      "Target": "",
-      "Value": "",
       "Description": ""
     },
     {

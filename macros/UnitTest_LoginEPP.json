@@ -1,0 +1,73 @@
+{
+    "Name": "LoginEPP",
+    "CreationDate": "2024-10-12",
+    "Commands":
+    [
+        {
+            "Command": "store",
+            "Target": "fast",
+            "Value": "!replayspeed",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!errorIgnore",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!statusOK",
+            "Description": ""
+        },
+        {
+            "Command": "verifyElementPresent",
+            "Target": "xpath=//*[@data-automation-id=\"epp-login-button\"]",
+            "Value": "!statusOK",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${!statusOK}==true",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@data-automation-id=\"epp-login-button\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "type",
+            "Target": "id=iptLgnPlnID",
+            "Value": "cptqaer@gmail.com",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "id=signInButton",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "type",
+            "Target": "id=iptLgnPlnPD",
+            "Value": "!Cheil2024",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "id=signInButton",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        }
+    ]
+}
