@@ -23,20 +23,32 @@
         },
         {
             "Command": "comment",
-            "Target": "store // MX",
+            "Target": "store // CE",
             "Value": "TestCat",
             "Description": ""
         },
         {
             "Command": "comment",
-            "Target": "store // SM-X710NZAATGY",
+            "Target": "store // QA65QN900DJXZK",
             "Value": "SKU",
             "Description": ""
         },
         {
             "Command": "comment",
             "Target": "store // Yes",
-            "Value": "TradeIn",
+            "Value": "TradeUp",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "store // Yes",
+            "Value": "globalAddTradeUpCart",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "store // No",
+            "Value": "globalSkipTradeUp",
             "Description": ""
         },
         {
@@ -61,6 +73,18 @@
             "Command": "comment",
             "Target": "store // Yes",
             "Value": "SCPlus",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "store // Yes",
+            "Value": "globalAddSCPlusCart",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "store // No",
+            "Value": "globalSkipSCPlus",
             "Description": ""
         },
         {
@@ -215,7 +239,7 @@
         },
         {
             "Command": "run",
-            "Target": "AddTradeUpCart",
+            "Target": "UnitTest_AddTradeUpCart",
             "Value": "",
             "Description": ""
         },
@@ -281,7 +305,7 @@
         },
         {
             "Command": "run",
-            "Target": "AddTradeInCart",
+            "Target": "UnitTest_AddTradeInCart",
             "Value": "",
             "Description": ""
         },
@@ -347,7 +371,7 @@
         },
         {
             "Command": "run",
-            "Target": "AddSCplusCart",
+            "Target": "UnitTest_AddSCplusCart",
             "Value": "",
             "Description": ""
         },
