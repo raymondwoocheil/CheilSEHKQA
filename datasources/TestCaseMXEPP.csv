@@ -1,7 +1,7 @@
 MX EPP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Assigned,Test Case,,,,,,,,,,28,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,,Verify / AC >>,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,,EPP store only premiums,,,,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,
 Tester,ID,Manual Cart,Premiunm Qty,Auto Cart,Auto Checkout,Model,BASE SKU,BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-in,Trade-in-type,Verify extra trade-in rebate,SC+,SC-type,"Verify SC+ 
-in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass - 1/10 - 31/10,Mass - 1/10 - 31/10,Mass - 1/10 - 31/10,Mass 15/10 - 31/10,Mass 15/10 - 31/10,,,EPP only,,"No-trade-in
+in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass - 1/10 - 31/10,Mass - 1/10 - 31/10,Mass - 1/10 - 31/10,Mass 15/10 - 31/10,Mass 15/10 - 31/10,,EPP only,,,"No-trade-in
 27/9 - 31/10",Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)","Verify Expired Premiums 
 NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,Guest Email,Select City,Select District,Select Service,Verify Expected Delivery Date,Verify Delivery Cost,Checkout Page Result,Screencap,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,Line No.,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,Extra Trade-In Rebate label,Trade-In Rebate captured,Trade-In Rebate result,SC+ label,SC+ captured,SC+ result,Premium SKU count,Count captured,Premium SKU count result,Failed reason,Items in Cart,SKU 1,Qty,,SKU 2,Qty,,SKU 3,Qty,,SKU 4,Qty,,SKU 5,Qty,,SKU 6,Qty,,SKU 7,Qty,,SKU 8,Qty,,SKU 9,Qty,,SKU 10,Qty,,Qty Total,Qty Total Result,Premium Array,Final Result,Test duration (s),,Cart Page Result,Cart Page Result,
@@ -10,55 +10,61 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 
 
 "
-Auto,E-SMP-01,,,,,"Galaxy Z Fold6, 1TB+12GB, Crafted Black (eStore)","SM-F9560, 1TB",N,SM-F9560AKHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560AKHTGY,SM-F9560AKHTGY,"$17,398","$15,310",cptqaer+2@gmail.com,!Cheil2024,"15,310",No,No,-,No,,-,,,,-,,,,Add to Cart,"15,160",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,,,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,EF-MF956TJEGWW,Z-ITFITPW06SP",4,"
+Auto,E-SMP-01,,,,,"Galaxy Z Fold6, 1TB+12GB, Crafted Black (eStore)","SM-F9560, 1TB",N,SM-F9560AKHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560AKHTGY,SM-F9560AKHTGY,"$17,398","$15,310",cptqaer+2@gmail.com,!Cheil2024,"15,310",No,No,-,No,,-,,,,-,,,,Add to Cart,"15,160",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,Z-ITFITE01,,EF-OF95PCJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,EF-OF95PCJEGWW,Z-ITFITPW06SP",5,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  15W Wireless Charger Pad P2400 with TA [Z-EP-P2400TWEGGB]
-●  1 x  Silicone Grip Case with Stand, Gray [EF-MF956TJEGWW]
+●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
+●  1 x  S-Pen Case, Gray [EF-OF95PCJEGWW]
 ●  1 x  ITFIT 3-in-1 Multi-Function Wireless Charger [Z-ITFITPW06SP]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,E-SMP-02,,,,,"Galaxy Z Fold6, 1TB+12GB, Navy","SM-F9560, 1TB",N,SM-F9560DBHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560DBHTGY,SM-F9560DBHTGY,"$17,398","$15,310",cptqaer+2@gmail.com,!Cheil2024,"15,310",No,Z Fold6,-,No,,-,,,,-,,,,Add to Cart,"15,160",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,,Z-SM-R177NZWAASA,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-SM-R177NZWAASA,EF-MF956TJEGWW,Z-ITFITPW06SP",5,"
+,E-SMP-02,,,,,"Galaxy Z Fold6, 1TB+12GB, Navy","SM-F9560, 1TB",N,SM-F9560DBHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560DBHTGY,SM-F9560DBHTGY,"$17,398","$15,310",cptqaer+2@gmail.com,!Cheil2024,"15,310",No,Z Fold6,-,No,,-,,,,-,,,,Add to Cart,"15,160",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,Z-ITFITE01,Z-SM-R177NZWAASA,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,Z-SM-R177NZWAASA,EF-MF956TJEGWW,Z-ITFITPW06SP",6,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  15W Wireless Charger Pad P2400 with TA [Z-EP-P2400TWEGGB]
+●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
 ●  1 x  Galaxy Buds2 [Z-SM-R177NZWAASA]
 ●  1 x  Silicone Grip Case with Stand, Gray [EF-MF956TJEGWW]
 ●  1 x  ITFIT 3-in-1 Multi-Function Wireless Charger [Z-ITFITPW06SP]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Auto,E-SMP-03,,,,,"Galaxy Z Fold6, 512GB+12GB, Crafted Black (eStore)","SM-F9560, 512GB",N,SM-F9560AKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560AKGTGY,SM-F9560AKGTGY,"$15,398","$13,550",cptqaer+2@gmail.com,!Cheil2024,"13,550",No,No,-,No,,-,,,,-,,,,Add to Cart,"13,400",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,,,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,EF-MF956TJEGWW,Z-ITFITPW06SP",4,"
+Auto,E-SMP-03,,,,,"Galaxy Z Fold6, 512GB+12GB, Crafted Black (eStore)","SM-F9560, 512GB",N,SM-F9560AKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560AKGTGY,SM-F9560AKGTGY,"$15,398","$13,550",cptqaer+2@gmail.com,!Cheil2024,"13,550",No,No,-,No,,-,,,,-,,,,Add to Cart,"13,400",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,Z-ITFITE01,,EF-OF95PCJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,EF-OF95PCJEGWW,Z-ITFITPW06SP",5,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  15W Wireless Charger Pad P2400 with TA [Z-EP-P2400TWEGGB]
-●  1 x  Silicone Grip Case with Stand, Gray [EF-MF956TJEGWW]
+●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
+●  1 x  S-Pen Case, Gray [EF-OF95PCJEGWW]
 ●  1 x  ITFIT 3-in-1 Multi-Function Wireless Charger [Z-ITFITPW06SP]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,E-SMP-04,,,,,"Galaxy Z Fold6, 512GB+12GB, Navy","SM-F9560, 512GB",N,SM-F9560DBGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560DBGTGY,SM-F9560DBGTGY,"$15,398","$13,550",cptqaer+2@gmail.com,!Cheil2024,"13,550",No,Z Fold6,-,No,,-,,,,-,,,,Add to Cart,"13,400",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,,Z-SM-R177NZWAASA,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-SM-R177NZWAASA,EF-MF956TJEGWW,Z-ITFITPW06SP",5,"
+,E-SMP-04,,,,,"Galaxy Z Fold6, 512GB+12GB, Navy","SM-F9560, 512GB",N,SM-F9560DBGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560DBGTGY,SM-F9560DBGTGY,"$15,398","$13,550",cptqaer+2@gmail.com,!Cheil2024,"13,550",No,Z Fold6,-,No,,-,,,,-,,,,Add to Cart,"13,400",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,Z-ITFITE01,Z-SM-R177NZWAASA,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,Z-SM-R177NZWAASA,EF-MF956TJEGWW,Z-ITFITPW06SP",6,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  15W Wireless Charger Pad P2400 with TA [Z-EP-P2400TWEGGB]
+●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
 ●  1 x  Galaxy Buds2 [Z-SM-R177NZWAASA]
 ●  1 x  Silicone Grip Case with Stand, Gray [EF-MF956TJEGWW]
 ●  1 x  ITFIT 3-in-1 Multi-Function Wireless Charger [Z-ITFITPW06SP]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Auto,E-SMP-05,,,,,"Galaxy Z Fold6, 256GB+12GB, Crafted Black (eStore)","SM-F9560, 256GB",N,SM-F9560AKDTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560AKDTGY,SM-F9560AKDTGY,"$14,398","$12,670",cptqaer+2@gmail.com,!Cheil2024,"12,670",No,No,-,No,,-,,,,-,,,,Add to Cart,"12,520",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,,,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,EF-MF956TJEGWW,Z-ITFITPW06SP",4,"
+Auto,E-SMP-05,,,,,"Galaxy Z Fold6, 256GB+12GB, Crafted Black (eStore)","SM-F9560, 256GB",N,SM-F9560AKDTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560AKDTGY,SM-F9560AKDTGY,"$14,398","$12,670",cptqaer+2@gmail.com,!Cheil2024,"12,670",No,No,-,No,,-,,,,-,,,,Add to Cart,"12,520",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,Z-ITFITE01,,EF-OF95PCJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,EF-OF95PCJEGWW,Z-ITFITPW06SP",5,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  15W Wireless Charger Pad P2400 with TA [Z-EP-P2400TWEGGB]
-●  1 x  Silicone Grip Case with Stand, Gray [EF-MF956TJEGWW]
+●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
+●  1 x  S-Pen Case, Gray [EF-OF95PCJEGWW]
 ●  1 x  ITFIT 3-in-1 Multi-Function Wireless Charger [Z-ITFITPW06SP]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,E-SMP-06,,,,,"Galaxy Z Fold6, 256GB+12GB, Navy","SM-F9560, 256GB",N,SM-F9560DBDTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560DBDTGY,SM-F9560DBDTGY,"$14,398","$12,670",cptqaer+2@gmail.com,!Cheil2024,"12,670",No,Z Fold6,-,No,,-,,,,-,,,,Add to Cart,"12,520",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,,Z-SM-R177NZWAASA,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-SM-R177NZWAASA,EF-MF956TJEGWW,Z-ITFITPW06SP",5,"
+,E-SMP-06,,,,,"Galaxy Z Fold6, 256GB+12GB, Navy","SM-F9560, 256GB",N,SM-F9560DBDTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560DBDTGY,SM-F9560DBDTGY,"$14,398","$12,670",cptqaer+2@gmail.com,!Cheil2024,"12,670",No,Z Fold6,-,No,,-,,,,-,,,,Add to Cart,"12,520",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,Z-ITFITE01,Z-SM-R177NZWAASA,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,Z-SM-R177NZWAASA,EF-MF956TJEGWW,Z-ITFITPW06SP",6,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  15W Wireless Charger Pad P2400 with TA [Z-EP-P2400TWEGGB]
+●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
 ●  1 x  Galaxy Buds2 [Z-SM-R177NZWAASA]
 ●  1 x  Silicone Grip Case with Stand, Gray [EF-MF956TJEGWW]
 ●  1 x  ITFIT 3-in-1 Multi-Function Wireless Charger [Z-ITFITPW06SP]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Auto,E-SMP-07,,,,,"Galaxy Z Flip6, 512GB+12GB, Crafted Black (eStore)","SM-F7410, 512GB",N,SM-F7410AKETGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F7410AKETGY,SM-F7410AKETGY,"$9,698","$8,049",cptqaer+2@gmail.com,!Cheil2024,"8,049",No,No,-,No,,-,,,,-,,,,Add to Cart,"7,899",,Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,,,,,,Z-SM-R177NZWAASA,EF-PF741TNEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,Z-SM-R177NZWAASA,EF-PF741TNEGWW,Z-ITFITPW06SP",5,"
+Auto,E-SMP-07,,,,,"Galaxy Z Flip6, 512GB+12GB, Crafted Black (eStore)","SM-F7410, 512GB",N,SM-F7410AKETGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F7410AKETGY,SM-F7410AKETGY,"$9,698","$8,049",cptqaer+2@gmail.com,!Cheil2024,"8,049",No,No,-,No,,-,,,,-,,,,Add to Cart,"7,899",,Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,,,,,,,EF-PF741TNEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,EF-PF741TNEGWW,Z-ITFITPW06SP",4,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Z Flip6 Flipsuit Case [Z-EF-ZF741CWEGWW-M]
-●  1 x  Galaxy Buds2 [Z-SM-R177NZWAASA]
 ●  1 x  Silicone Case with Ring, Navy [EF-PF741TNEGWW]
 ●  1 x  ITFIT 3-in-1 Multi-Function Wireless Charger [Z-ITFITPW06SP]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,E-SMP-07,,,,,"Galaxy Z Flip6, 512GB+12GB, Blue","SM-F7410, 512GB",N,SM-F7410LBETGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F7410LBETGY,SM-F7410LBETGY,"$9,698","$8,534",cptqaer+2@gmail.com,!Cheil2024,"8,534",No,Z Flip6,-,No,,-,,,,-,,,,Add to Cart,"8,384",,Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,,,,,,Z-SM-R177NZWAASA,EF-PF741TNEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,Z-SM-R177NZWAASA,EF-PF741TNEGWW,Z-ITFITPW06SP",5,"
+,E-SMP-07,,,,,"Galaxy Z Flip6, 512GB+12GB, Blue","SM-F7410, 512GB",N,SM-F7410LBETGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F7410LBETGY,SM-F7410LBETGY,"$9,698","$8,534",cptqaer+2@gmail.com,!Cheil2024,"8,534",No,Z Flip6,-,No,,-,,,,-,,,,Add to Cart,"8,384",,Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,,,,,Z-ITFITE01,Z-SM-R177NZWAASA,EF-PF741TNEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,Z-ITFITE01,Z-SM-R177NZWAASA,EF-PF741TNEGWW,Z-ITFITPW06SP",6,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Z Flip6 Flipsuit Case [Z-EF-ZF741CWEGWW-M]
+●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
 ●  1 x  Galaxy Buds2 [Z-SM-R177NZWAASA]
 ●  1 x  Silicone Case with Ring, Navy [EF-PF741TNEGWW]
 ●  1 x  ITFIT 3-in-1 Multi-Function Wireless Charger [Z-ITFITPW06SP]
@@ -69,9 +75,10 @@ Auto,E-SMP-08,,,,,"Galaxy Z Flip6, 256GB+12GB, Crafted Black (eStore)","SM-F7410
 ●  1 x  Silicone Case with Ring, Navy [EF-PF741TNEGWW]
 ●  1 x  ITFIT 3-in-1 Multi-Function Wireless Charger [Z-ITFITPW06SP]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,E-SMP-08,,,,,"Galaxy Z Flip6, 256GB+12GB, Blue","SM-F7410, 256GB",N,SM-F7410LBATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F7410LBATGY,SM-F7410LBATGY,"$8,698","$7,654",cptqaer+2@gmail.com,!Cheil2024,"7,654",No,Z Flip6,-,No,,-,,,,-,,,,Add to Cart,"7,504",,Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,,,,,,,EF-PF741TNEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,EF-PF741TNEGWW,Z-ITFITPW06SP",4,"
+,E-SMP-08,,,,,"Galaxy Z Flip6, 256GB+12GB, Blue","SM-F7410, 256GB",N,SM-F7410LBATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F7410LBATGY,SM-F7410LBATGY,"$8,698","$7,654",cptqaer+2@gmail.com,!Cheil2024,"7,654",No,Z Flip6,-,No,,-,,,,-,,,,Add to Cart,"7,504",,Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,,,,,Z-ITFITE01,,EF-PF741TNEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,Z-ITFITE01,EF-PF741TNEGWW,Z-ITFITPW06SP",5,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Z Flip6 Flipsuit Case [Z-EF-ZF741CWEGWW-M]
+●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
 ●  1 x  Silicone Case with Ring, Navy [EF-PF741TNEGWW]
 ●  1 x  ITFIT 3-in-1 Multi-Function Wireless Charger [Z-ITFITPW06SP]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
@@ -92,19 +99,17 @@ Auto,E-SMP-10,,,,,"Galaxy S24 Ultra, 1TB, Titanium Black","SM-S9280, 1TB",N,SM-S
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ●  1 x  Galaxy S24 Ultra Standing Grip Case [Z-EF-GS928CUEGWW]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Auto,E-SMP-13,,,,,"Galaxy S24+, 512GB, Onyx Black","SM-S9260, 512GB",N,SM-S9260ZKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9260ZKGTGY,SM-S9260ZKGTGY,"$8,598","$7,050",cptqaer+2@gmail.com,!Cheil2024,"7,050",No,No,-,No,,-,,,,-,,,,Add to Cart,"6,900",,Z-EP-T6530NBEGGB,,,,,,,Z-SM-R400NZWATGY,,Z-EF-GS928CUEGWW,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,Z-EF-GS928CUEGWW",3,"
+Auto,E-SMP-13,,,,,"Galaxy S24+, 512GB, Onyx Black","SM-S9260, 512GB",N,SM-S9260ZKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9260ZKGTGY,SM-S9260ZKGTGY,"$8,598","$7,050",cptqaer+2@gmail.com,!Cheil2024,"7,050",No,No,-,No,,-,,,,-,,,,Add to Cart,"6,900",,Z-EP-T6530NBEGGB,,,,,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
-●  1 x  Galaxy S24 Ultra Standing Grip Case [Z-EF-GS928CUEGWW]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-SMP-14,,,,,"Galaxy S24+, 256GB, Marble Gray","SM-S9260, 256GB",N,SM-S9260ZADTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9260ZADTGY,SM-S9260ZADTGY,"$7,598","$6,230",cptqaer+2@gmail.com,!Cheil2024,"6,230",No,Galaxy S24 Ultra,-,No,,-,,,,-,,,,Add to Cart,"6,080",,Z-EP-T6530NBEGGB,,,,,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Auto,E-SMP-15,,,,,"Galaxy S24, 512GB, Onyx Black","SM-S9210, 512GB",N,SM-S9210ZKHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9210ZKHTGY,SM-S9210ZKHTGY,"$6,898","$5,656",cptqaer+2@gmail.com,!Cheil2024,"5,656",No,No,-,No,,-,,,,-,,,,Add to Cart,"5,506",,Z-EP-T6530NBEGGB,,,,,,,Z-SM-R400NZWATGY,,Z-EF-GS928CUEGWW,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,Z-EF-GS928CUEGWW",3,"
+Auto,E-SMP-15,,,,,"Galaxy S24, 512GB, Onyx Black","SM-S9210, 512GB",N,SM-S9210ZKHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9210ZKHTGY,SM-S9210ZKHTGY,"$6,898","$5,656",cptqaer+2@gmail.com,!Cheil2024,"5,656",No,No,-,No,,-,,,,-,,,,Add to Cart,"5,506",,Z-EP-T6530NBEGGB,,,,,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
-●  1 x  Galaxy S24 Ultra Standing Grip Case [Z-EF-GS928CUEGWW]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-SMP-16,,,,,"Galaxy S24, 256GB, Onyx Black","SM-S9210, 256GB",N,SM-S9210ZKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9210ZKGTGY,SM-S9210ZKGTGY,"$5,898","$4,836",cptqaer+2@gmail.com,!Cheil2024,"4,836",No,Galaxy S24,-,No,,-,,,,-,,,,Add to Cart,"4,686",,Z-EP-T6530NBEGGB,,,,,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
