@@ -1,348 +1,409 @@
 {
-  "Name": "_LoopMaster_1",
-  "CreationDate": "2024-8-19",
-  "Commands": [
-    {
-      "Command": "store",
-      "Target": "fast",
-      "Value": "!replayspeed",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "1",
-      "Value": "loopStream",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "5",
-      "Value": "startingLineNumber",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "240",
-      "Value": "endingLineNumber",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "true",
-      "Value": "runTesterLinesOnly",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "store // false",
-      "Value": "runTesterLinesOnly",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "true",
-      "Value": "skipEOL",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "store // false",
-      "Value": "skipEOL",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "cptqaer@gmail.com",
-      "Value": "TestAccount",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "store // MX",
-      "Value": "TestCat",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "CE",
-      "Value": "TestCat",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "store // Checkout",
-      "Value": "TestCat",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "",
-      "Value": "TestSite",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "store // SPP",
-      "Value": "TestSite",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "store // EPP",
-      "Value": "TestSite",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "TestCase${TestCat}${TestSite}.csv",
-      "Value": "TestCase",
-      "Description": ""
-    },
-    {
-      "Command": "if",
-      "Target": "${TestSite}==\"\"",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "Test${TestCat}",
-      "Value": "TestMacro",
-      "Description": ""
-    },
-    {
-      "Command": "else",
-      "Target": "",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "TestEPP",
-      "Value": "TestMacro",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "9999999",
-      "Value": "!timeout_macro",
-      "Description": ""
-    },
-    {
-      "Command": "end",
-      "Target": "",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "4",
-      "Value": "!timeout_wait",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "openBrowser // https://www.samsung.com/hk",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "setWindowSize",
-      "Target": "1200x750",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "${startingLineNumber}",
-      "Value": "!csvReadLineNumber",
-      "Description": ""
-    },
-    {
-      "Command": "csvRead",
-      "Target": "${TestCase}",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "echo",
-      "Target": "Status = ${!csvReadStatus}, line = ${!csvReadLineNumber}",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "while_v2",
-      "Target": "${!csvReadStatus} == \"OK\" && ${!csvReadLineNumber} <= Number(${endingLineNumber})",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "echo",
-      "Target": "status = ${!csvReadStatus}, line = ${!csvReadLineNumber}",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "Call subroutine for the actual form filling",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "if",
-      "Target": "${runTesterLinesOnly}==\"true\"",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "if",
-      "Target": "${!COL1}!=\"\"",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "if",
-      "Target": "${skipEOL}==\"true\"",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "if",
-      "Target": "${!COL8}!=\"EOL\"",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "run",
-      "Target": "${TestMacro}",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "end",
-      "Target": "",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "else",
-      "Target": "",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "run",
-      "Target": "${TestMacro}",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "end",
-      "Target": "",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "end",
-      "Target": "",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "else",
-      "Target": "",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "if",
-      "Target": "${skipEOL}==\"true\"",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "if",
-      "Target": "${!COL9}!=\"EOL\"",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "run",
-      "Target": "${TestMacro}",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "end",
-      "Target": "",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "else",
-      "Target": "",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "run",
-      "Target": "${TestMacro}",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "end",
-      "Target": "",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "end",
-      "Target": "",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "executeScript",
-      "Target": "return Number(${!csvReadLineNumber})+1",
-      "Value": "!csvReadLineNumber",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "true",
-      "Value": "!errorIgnore",
-      "Description": ""
-    },
-    {
-      "Command": "echo",
-      "Target": "Reading CSV line No.  ${!csvReadLineNumber} ",
-      "Value": "!errorIgnore",
-      "Description": ""
-    },
-    {
-      "Command": "csvRead",
-      "Target": "${TestCase}",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "false",
-      "Value": "!errorIgnore",
-      "Description": ""
-    },
-    {
-      "Command": "end",
-      "Target": "",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "echo",
-      "Target": "${!Runtime}",
-      "Value": "",
-      "Description": ""
-    }
-  ]
+    "Name": "_LoopMaster_1",
+    "CreationDate": "2024-10-13",
+    "Commands":
+    [
+        {
+            "Command": "store",
+            "Target": "fast",
+            "Value": "!replayspeed",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "1",
+            "Value": "loopStream",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "5",
+            "Value": "startingLineNumber",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "250",
+            "Value": "endingLineNumber",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "store // true",
+            "Value": "runTesterLinesOnly",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "false",
+            "Value": "runTesterLinesOnly",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "skipEOL",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "store // false",
+            "Value": "skipEOL",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "cptqaer@gmail.com",
+            "Value": "TestAccount",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "MX",
+            "Value": "TestCat",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "store // CE",
+            "Value": "TestCat",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "store // Checkout",
+            "Value": "TestCat",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "",
+            "Value": "TestSite",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "store // SPP",
+            "Value": "TestSite",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "store // EPP",
+            "Value": "TestSite",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**Start of Global Trade-in/up/ScPlus Settings**",
+            "Value": "TestSite",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Yes",
+            "Value": "globalSkipTradeIn",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "store // No",
+            "Value": "globalSkipTradeIn",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Yes",
+            "Value": "globalAddTradeInCart",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "store // No",
+            "Value": "globalAddTradeInCart",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Yes",
+            "Value": "globalSkipTradeUp",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "store // No",
+            "Value": "globalSkipTradeUp",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Yes",
+            "Value": "globalAddTradeUpCart",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "store // No",
+            "Value": "globalAddTradeUpCart",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Yes",
+            "Value": "globalSkipSCPlus",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "store // No",
+            "Value": "globalSkipSCPlus",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Yes",
+            "Value": "globalAddSCPlusCart",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "store // No",
+            "Value": "globalAddSCPlusCart",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**End of Global Trade-in/up/ScPlus Settings**",
+            "Value": "TestSite",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "TestCase${TestCat}${TestSite}.csv",
+            "Value": "TestCase",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "TestMaster",
+            "Value": "TestMacro",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "9999999",
+            "Value": "!timeout_macro",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "4",
+            "Value": "!timeout_wait",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "openBrowser // https://www.samsung.com/hk",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "setWindowSize",
+            "Target": "1200x750",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${startingLineNumber}",
+            "Value": "!csvReadLineNumber",
+            "Description": ""
+        },
+        {
+            "Command": "csvRead",
+            "Target": "${TestCase}",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "echo",
+            "Target": "Status = ${!csvReadStatus}, line = ${!csvReadLineNumber}",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "while_v2",
+            "Target": "${!csvReadStatus} == \"OK\" && ${!csvReadLineNumber} <= Number(${endingLineNumber})",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "echo",
+            "Target": "status = ${!csvReadStatus}, line = ${!csvReadLineNumber}",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "Call subroutine for the actual form filling",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if",
+            "Target": "${runTesterLinesOnly}==\"true\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if",
+            "Target": "${!COL1}!=\"\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if",
+            "Target": "${skipEOL}==\"true\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if",
+            "Target": "${!COL8}!=\"EOL\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "run",
+            "Target": "${TestMacro}",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "else",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "run",
+            "Target": "${TestMacro}",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "else",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if",
+            "Target": "${skipEOL}==\"true\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if",
+            "Target": "${!COL9}!=\"EOL\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "run",
+            "Target": "${TestMacro}",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "else",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "run",
+            "Target": "${TestMacro}",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(${!csvReadLineNumber})+1",
+            "Value": "!csvReadLineNumber",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!errorIgnore",
+            "Description": ""
+        },
+        {
+            "Command": "echo",
+            "Target": "Reading CSV line No.  ${!csvReadLineNumber} ",
+            "Value": "!errorIgnore",
+            "Description": ""
+        },
+        {
+            "Command": "csvRead",
+            "Target": "${TestCase}",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "false",
+            "Value": "!errorIgnore",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "echo",
+            "Target": "${!Runtime}",
+            "Value": "",
+            "Description": ""
+        }
+    ]
 }

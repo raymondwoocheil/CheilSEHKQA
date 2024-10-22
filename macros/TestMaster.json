@@ -1,0 +1,1885 @@
+{
+    "Name": "TestMaster",
+    "CreationDate": "2024-10-13",
+    "Commands":
+    [
+        {
+            "Command": "store",
+            "Target": "fast",
+            "Value": "!replayspeed",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!errorIgnore",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${!Runtime}",
+            "Value": "StartTime",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "0",
+            "Value": "TestDuration",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "####Start of TestCase${TestCat}-${TestSite}####",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "echo",
+            "Target": "Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber}",
+            "Value": "green",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**Open URL and Start Timer**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "open",
+            "Target": "${!COL11}",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Passed",
+            "Value": "TestResult",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "var today = new Date();\nvar date = today.getFullYear() + \"-\" + (today.getMonth() + 1) + \"-\" + today.getDate()\nreturn date;",
+            "Value": "DateToday",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "var today = new Date();\nvar time = today.getFullYear() + \"-\" + (today.getMonth() + 1) + \"-\" + today.getDate() + \" \" + today.getHours() + \"-\" + today.getMinutes() + \"-\" + today.getSeconds();\nreturn time;",
+            "Value": "DateTimeNow",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${DateTimeNow}",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!statusOK",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**Start of Test Case Variables**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${!csvReadLineNumber}",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "-",
+            "Value": "CaseID",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${!COL2}",
+            "Value": "CaseID",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${CaseID}",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${!COL7}",
+            "Value": "ProductName",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${!COL10}",
+            "Value": "SKU",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return ${SKU}.replace(/\\//g,\"\");",
+            "Value": "SKUwithoutSlash",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${!COL9}",
+            "Value": "BcBuy",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${TestCat}==\"MX\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${!COL18}",
+            "Value": "TradeIn",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(${!COL20}.replace(/[^0-9.-]+/g,\"\"));",
+            "Value": "ExpectedTradeInRebate",
+            "Description": ""
+        },
+        {
+            "Command": "else",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${!COL18}",
+            "Value": "TradeUp",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(${!COL20}.replace(/[^0-9.-]+/g,\"\"));",
+            "Value": "ExpectedTradeUpDiscount",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${!COL21}",
+            "Value": "SCPlus",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(${!COL23}.replace(/[^0-9.-]+/g,\"\"));",
+            "Value": "ExpectedSCPlusPrice",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(${!COL26}.replace(/[^0-9.-]+/g,\"\"));",
+            "Value": "ExpectedGalaxyCredit",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${!COL28}",
+            "Value": "PromoCode1",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${!COL29}",
+            "Value": "PromoCode2",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${!COL30}",
+            "Value": "PromoCode3",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(${!COL17}.replace(/[^0-9.-]+/g,\"\"));",
+            "Value": "ExpectedSKUPrice",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(${!COL32}.replace(/[^0-9.-]+/g,\"\"));",
+            "Value": "ExpectedSKUPriceCart",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "executeScript // return arry=[\"Z-EB-P3400XUEGWW\", \"Z-EP-T2510XBEGGB\", \"Z-SM-X210NZAATGY\"]",
+            "Value": "ExpectedPremiumArray",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${SKU},${!COL44}",
+            "Value": "ExpectedPremiumStrings",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return ${ExpectedPremiumStrings}.split(',')",
+            "Value": "ExpectedPremiumArray",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${!COL44}==\"\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return 0",
+            "Value": "ExpectedPremiumCount",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return 0",
+            "Value": "ExpectedPremiumQty",
+            "Description": ""
+        },
+        {
+            "Command": "else",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return ${ExpectedPremiumArray}.length-1",
+            "Value": "ExpectedPremiumCount",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${!COL45}",
+            "Value": "ExpectedPremiumQty",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${!COL15}",
+            "Value": "Email",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${!COL16}",
+            "Value": "Password",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${SKU}",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${ProductName}",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**End of Test Case Variables**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "echo",
+            "Target": "[${CaseID}] [${SKU}] Starting Test Case",
+            "Value": "blue",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "pause // 100000",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "##########################",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**Start of EPP Login**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!statusOK",
+            "Description": ""
+        },
+        {
+            "Command": "verifyElementNotPresent",
+            "Target": "xpath=//div[@ng-controller=\"multistoreLoginController\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "verifyElementNotPresent",
+            "Target": "xpath=//cx-page-layout[@class=\"MultiStoreLoginTemplate\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${!statusOK}!=true",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "run",
+            "Target": "UnitTest_LoginEPP",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**End of EPP Login**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "##########################",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "##Start of Buy Page Testing##",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**Start of Screencap Buy Page**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "captureEntirePageScreenshot //  ${TestCat}-${TestSite} ${!csvReadLineNumber} ${CaseID} BuyPage ${SKUwithoutSlash} ${DateTimeNow}.png",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**End of Screencap Buy Page**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "##########################",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${BcBuy}==\"Y\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "##Start of BCBuy Testing##",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - Start Verify Correct SKU**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "verifyText",
+            "Target": "xpath=//*[@id=\"deviceSummary\"]/div[contains(@class,\"s-option-summary\")]",
+            "Value": "${SKU}",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - End Verify Correct SKU**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - Start Verify if OOS (Blocked)**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!statusOK",
+            "Description": ""
+        },
+        {
+            "Command": "verifyElementPresent",
+            "Target": "xpath=//div[@class=\"hubble-product__total-cta\"]//*[contains(text(),\"立即購買\")]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${!statusOK}!=true",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - Start Log Product is OOS (Blocked)**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "times",
+            "Target": "53",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "OOS (Blocked)",
+            "Value": "TestResult",
+            "Description": ""
+        },
+        {
+            "Command": "captureScreenshot",
+            "Target": "${TestCat}-${TestSite} ${!csvReadLineNumber} ${CaseID} BuyPage ${SKUwithoutSlash} ${DateTimeNow} OOS.png",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - End Log Product is OOS (Blocked)**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "else",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - Start non-OOS Checking**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - Start Check SKU Price**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "storeText",
+            "Target": "xpath=//*[@class=\"hubble-product__total-text\"]/strong",
+            "Value": "SKUPrice",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(${SKUPrice}.replace(/[^0-9.-]+/g,\"\"));",
+            "Value": "SKUPrice",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "SKU Price",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${SKUPrice}",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${ExpectedSKUPrice}==${SKUPrice}",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Passed",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "else",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Failed",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Failed",
+            "Value": "TestResult",
+            "Description": ""
+        },
+        {
+            "Command": "echo",
+            "Target": "[${SKU}] SKU Price: Failed - Expected ${ExpectedSKUPrice} / Actual ${SKUPrice}",
+            "Value": "red",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - End Check SKU Price**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - Start Add Trade Up**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${TestCat}==\"CE\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@an-la=\"Trade Up:no\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${globalSkipTradeUp}!=\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${globalAddTradeUpCart}!=\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${TradeUp}==\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@an-la=\"Trade Up:yes\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "run",
+            "Target": "UnitTest_AddTradeUp",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - End Add Trade Up**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - Start Add Trade-In**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${TestCat}==\"MX\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@an-la=\"trade-in:no\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${globalSkipTradeIn}!=\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${globalAddTradeInCart}!=\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${TradeIn}==\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@an-la=\"trade-in:yes\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "run",
+            "Target": "UnitTest_AddTradeIn",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - End Add Trade-In**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - Start Add SC+**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${TestCat}==\"MX\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@an-la=\"samsung care:none\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${globalSkipSCPlus}!=\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${globalAddSCPlusCart}!=\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${SCPlus}==\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "storeXpathCount",
+            "Target": "xpath=//*[contains(@class,\"s-option-care\")]//*[@class=\"hubble-product__options-list\"]",
+            "Value": "SCPlusOptionCount",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(${SCPlusOptionCount})-2",
+            "Value": "SCPlusOptionCount",
+            "Description": ""
+        },
+        {
+            "Command": "echo",
+            "Target": "${SCPlusOptionCount}",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@id=\"care-rdo0\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "click // xpath=//*[@id=\"care-rdo${SCPlusOptionCount}\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@id=\"care-chk1\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@an-la=\"samsung care:confirm\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - End Add SC+**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - Start Add to Cart**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@onclick=\"bc_cta.addToCart(); return false;\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - End Add to Cart**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - Start of Free Gifts Module**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!statusOK",
+            "Description": ""
+        },
+        {
+            "Command": "verifyElementPresent",
+            "Target": "xpath=//*[@class=\"hubble-addon-page is-gift-type\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${!statusOK}==true",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@an-la=\"free gift:continue\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - End of Free Gifts Module**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - Start of Amazing Add-on Module**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!statusOK",
+            "Description": ""
+        },
+        {
+            "Command": "verifyElementPresent",
+            "Target": "xpath=//*[@an-la=\"add-on:continue\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${!statusOK}==true",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "clickAndWait",
+            "Target": "xpath=//*[@an-la=\"add-on:continue\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - End of Amazing Add-on Module**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - Start of Galaxy Credit Module**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Galaxy Credit",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!statusOK",
+            "Description": ""
+        },
+        {
+            "Command": "verifyElementPresent",
+            "Target": "xpath=//*[@class=\"hubble-addon-page\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${!statusOK}==true",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "storeText",
+            "Target": "xpath=//li[@class=\"voucher-balance\"]/div[@class=\"s-price-wrap\"]/span[@class=\"s-price\"]",
+            "Value": "GalaxyCredit",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(${GalaxyCredit}.replace(/[^0-9.-]+/g,\"\"));",
+            "Value": "GalaxyCredit",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - Galaxy Credit Proceed - Skip**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//a[@an-la=\"evoucher:continue\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "clickAndWait",
+            "Target": "xpath=//button[@an-la=\"evoucher:no addition:skip\"]",
+            "Value": "500",
+            "Description": ""
+        },
+        {
+            "Command": "else",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(0);",
+            "Value": "GalaxyCredit",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${GalaxyCredit}",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${ExpectedGalaxyCredit}==${GalaxyCredit}",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Passed",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "else",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Failed",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Failed",
+            "Value": "TestResult",
+            "Description": ""
+        },
+        {
+            "Command": "echo",
+            "Target": "[${SKU}] Galaxy Credit: Failed - Expected ${ExpectedGalaxyCredit} / Actual ${GalaxyCredit}",
+            "Value": "red",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**BCBuy - End of Galaxy Credit Module**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "##End of BCBuy Testing**##",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "else",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "##Start of SimpleBuy Testing**##",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - Start Verify Correct SKU**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!statusOK",
+            "Description": ""
+        },
+        {
+            "Command": "verifyText",
+            "Target": "xpath=//*[@class=\"pd-info__sku-code\"]",
+            "Value": "${SKU}",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - End Verify Correct SKU**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - Start Verify if OOS (Blocked)**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "verifyElementPresent // xpath=//a[@onclick=\"bc_cta.addToCart(); return false;\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "verifyElementPresent",
+            "Target": "xpath=//*[contains(@class, \"js-buy-now\")]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${!statusOK}!=true",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - Start Log Product is OOS (Blocked)**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "times",
+            "Target": "53",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "OOS (Blocked)",
+            "Value": "TestResult",
+            "Description": ""
+        },
+        {
+            "Command": "captureScreenshot",
+            "Target": "${TestCat}-${TestSite} ${!csvReadLineNumber} BuyPage ${SKUwithoutSlash} ${DateTimeNow} OOS.png",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - End Log Product is OOS (Blocked)**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "else",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - Start non-OOS Checking**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - Start Check SKU Price**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!statusOK",
+            "Description": ""
+        },
+        {
+            "Command": "storeText",
+            "Target": "xpath=//*[@class=\"cost-box__price-now\"]",
+            "Value": "SKUPrice",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(${SKUPrice}.replace(/[^0-9.-]+/g,\"\"));",
+            "Value": "SKUPrice",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "SKU Price",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${SKUPrice}",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${ExpectedSKUPrice}==${SKUPrice}",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Passed",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "else",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Failed",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Failed",
+            "Value": "TestResult",
+            "Description": ""
+        },
+        {
+            "Command": "echo",
+            "Target": "[${SKU}] SKU Price: Failed - Expected ${ExpectedSKUPrice} / Actual ${SKUPrice}",
+            "Value": "red",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - End Check SKU Price**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - Start Add Trade Up**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${TestCat}==\"CE\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@an-la=\"trade-up:no\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${globalSkipTradeUp}!=\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${globalAddTradeUpCart}!=\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${TradeUp}==\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@an-la=\"trade-up:yes\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "run",
+            "Target": "UnitTest_AddTradeUp",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - End Add Trade Up**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - Start Add Trade-In**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${TestCat}==\"MX\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@an-la=\"trade-in:no\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${globalSkipTradeIn}!=\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${globalAddTradeInCart}!=\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${TradeIn}==\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@an-la=\"trade-in:yes\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "run",
+            "Target": "UnitTest_AddTradeIn",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - End Add Trade-In**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - Start Add SC+**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${TestCat}==\"MX\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@an-la=\"samsung care:no\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${globalSkipSCPlus}!=\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${globalAddSCPlusCart}!=\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${SCPlus}==\"Yes\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@an-la=\"samsung care:yes\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@id=\"care-chk1\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@an-la=\"samsung care:confirm\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - End Add SC+**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - Start Add to Cart**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[contains(@class, \"js-buy-now\")]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - End Add to Cart**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - Start of Galaxy Credit Module**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Galaxy Credit",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "pause",
+            "Target": "100",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!statusOK",
+            "Description": ""
+        },
+        {
+            "Command": "verifyElementPresent",
+            "Target": "xpath=//*[@id=\"voucherBalance\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${!statusOK}==true",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "storeText",
+            "Target": "xpath=//*[@id=\"voucherBalance\"]",
+            "Value": "GalaxyCredit",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(${GalaxyCredit}.replace(/[^0-9.-]+/g,\"\"));",
+            "Value": "GalaxyCredit",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - Galaxy Credit Proceed - Skip**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${GalaxyCredit}!=0",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//*[@an-la=\"evoucher:go to cart\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "clickAndWait",
+            "Target": "xpath=//button[@an-la=\"evoucher:no addition:redeem\"]",
+            "Value": "500",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "500",
+            "Description": ""
+        },
+        {
+            "Command": "else",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(0);",
+            "Value": "GalaxyCredit",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${GalaxyCredit}",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${ExpectedGalaxyCredit}==${GalaxyCredit}",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Passed",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "else",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Failed",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Failed",
+            "Value": "TestResult",
+            "Description": ""
+        },
+        {
+            "Command": "echo",
+            "Target": "[${SKU}] Galaxy Credit: Failed - Expected ${ExpectedGalaxyCredit} / Actual ${GalaxyCredit}",
+            "Value": "red",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - End of Galaxy Credit Module**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - Staret of Amazing Add-on Module**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "pause",
+            "Target": "100",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!statusOK",
+            "Description": ""
+        },
+        {
+            "Command": "verifyElementPresent",
+            "Target": "xpath=//*[@id=\"primaryInfoGoCartAddOn\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${!statusOK}==true",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "clickAndWait",
+            "Target": "xpath=//*[@id=\"primaryInfoGoCartAddOn\"]",
+            "Value": "500",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**SimpleBuy - End of Amazing Add-on Module**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "##End of SimpleBuy Testing**##",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "##End of Buy Page Testing##",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "##########################",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "##########################",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "##########################",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "##########################",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**Start of Cart Check Macros**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**Skip to end if OOS (Blocked)**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${TestResult}!=\"OOS (Blocked)\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "run",
+            "Target": "UnitTest_CartOpen",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "run",
+            "Target": "UnitTest_CartChecking",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**End of Cart Check Macros**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**Start Log Final Test Results**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "run",
+            "Target": "UnitTest_LogResult",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**End Log Final Test Results**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "####End of TestCase${TestCat}-${TestSite}####",
+            "Value": "",
+            "Description": ""
+        }
+    ]
+}

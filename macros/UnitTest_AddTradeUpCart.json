@@ -1,0 +1,181 @@
+{
+    "Name": "AddTradeUpCart",
+    "CreationDate": "2024-10-12",
+    "Commands":
+    [
+        {
+            "Command": "store",
+            "Target": "fast",
+            "Value": "!replayspeed",
+            "Description": ""
+        },
+        {
+            "Command": "pause",
+            "Target": "1000",
+            "Value": "!replayspeed",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//div[contains(@class,\"service-item__trade-up\")]//button[@data-an-la=\"add service:tradeup\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "waitForElementVisible",
+            "Target": "xpath=//app-trade-up-steps-global",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "Start of Trade Up Page 1",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "Selecting size",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//div[@class=\"trade-up-device-selection-container\"]/div[1]//mat-expansion-panel-header//mat-panel-title//span",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "waitForElementVisible",
+            "Target": "xpath=//div[@class=\"trade-up-device-selection-container\"]/div[1]//div[contains(@class,\"mat-expansion-panel-content\")]//span[@class=\"option-brand\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//div[@class=\"trade-up-device-selection-container\"]/div[1]//div[contains(@class,\"mat-expansion-panel-content\")]//span[@class=\"option-brand\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "Selecting brand",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//div[@class=\"trade-up-device-selection-container\"]/div[2]//mat-expansion-panel-header//mat-panel-title//span",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "Continue",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "waitForElementVisible",
+            "Target": "xpath=//div[@class=\"trade-up-device-selection-container\"]/div[2]//div[contains(@class,\"mat-expansion-panel-content\")]//span[@class=\"option-brand\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//div[@class=\"trade-up-device-selection-container\"]/div[2]//div[contains(@class,\"mat-expansion-panel-content\")]//span[@class=\"option-brand\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "waitForElementVisible",
+            "Target": "xpath=//app-trade-up-steps-global//div[@class=\"modal__footer\"]//button[contains(@class,\"view-more\")]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//app-trade-up-steps-global//div[@class=\"modal__footer\"]//button[contains(@class,\"view-more\")]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "End of Trade Up Page 1",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "Start of Trade Up Page 2",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "waitForElementVisible",
+            "Target": "xpath=//div[contains(@class,\"condition-radio\")]//label[contains(@class,\"condition-radio__yes\")]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//div[contains(@class,\"condition-radio\")]//label[contains(@class,\"condition-radio__yes\")]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//app-trade-up-steps-global//div[@class=\"modal__footer\"]//button[@data-an-la=\"trade-up:check device condition:next\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "End of Trade Up Page 2",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "Start of Trade Up Page 3",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "waitForElementVisible",
+            "Target": "xpath=//p[@class=\"trade-up__tc\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//p[@class=\"trade-up__tc\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "click",
+            "Target": "xpath=//app-trade-up-steps-global//div[@class=\"modal__footer\"]//button[@data-modelcode=\"TRADE-UP\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "End of Trade Up Page 3",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "waitForElementNotVisible",
+            "Target": "xpath=//app-trade-up-steps-global",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "pause",
+            "Target": "4000",
+            "Value": "!replayspeed",
+            "Description": ""
+        }
+    ]
+}

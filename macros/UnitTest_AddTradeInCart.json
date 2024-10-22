@@ -1,0 +1,276 @@
+{
+  "Name": "AddTradeInCart",
+  "CreationDate": "2024-10-12",
+  "Commands": [
+    {
+      "Command": "store",
+      "Target": "fast",
+      "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[contains(@class,\"service-item__trade-in\")]//button[@data-an-la=\"add service:trade-in\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of Trade-in Page 1",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "xpath=//app-trade-in-steps-hk",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-trade-in-steps-hk//div[@class=\"modal__footer\"]//button[contains(@class,\"view-more\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of Trade-in Page 1",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start  of Trade-in Page 2",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "xpath=//app-step-two-hk",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Selecting brand",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@class=\"option-brand\"][text()=\"蘋果\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Select model",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@class=\"option-brand\"][text()=\"APPLE iPhone 14\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Select size",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@class=\"option-brand\"][text()=\"512GB\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Select color",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@class=\"option-color\"][text()=\"任何顏色\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-step-two-hk//div[@class=\"modal__footer\"]//button[contains(@class,\"view-more\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of Trade-in Page 2",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of Trade-in Page 3",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "xpath=//app-step-three-hk",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Generate and input IMEI",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return Math.floor(41111222233333 + Math.random()*10000000000000)",
+      "Value": "IMEI",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[@class=\"trade-in-summary__imei-input-container\"]//input[@formcontrolname=\"imei\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=//div[@class=\"trade-in-summary__imei-input-container\"]//input[@formcontrolname=\"imei\"]",
+      "Value": "${IMEI}",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "xpath=//mat-hint[contains(@class,\"valid-input\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-step-three-hk//div[@class=\"modal__footer\"]//button[contains(@class,\"view-more\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of Trade-in Page 3",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of Trade-in Page 4",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "xpath=//app-step-four-hk",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[contains(@class,\"question-wrapper\")][1]//label[@class=\"mdc-label\"][text()=\" 以上皆不適用 \"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[contains(@class,\"question-wrapper\")][2]//label[@class=\"mdc-label\"][text()=\" 以上皆不適用 \"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[contains(@class,\"question-wrapper\")][3]//label[@class=\"mdc-label\"][text()=\" 以上皆不適用 \"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//mat-form-field[contains(@class,\"purchase-from-full-width\")]//div[contains(@class,\"mat-mdc-select-value\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//span[@class=\"mdc-list-item__primary-text\"][text()=\" 自特約零售商或經銷商 \"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-step-four-hk//div[@class=\"modal__footer\"]//button[contains(@class,\"view-more\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of Trade-in Page 4",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of Trade-in Page 5",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "xpath=//app-step-five-hk",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//mat-checkbox[contains(@class,\"tnc-btn\")]//label[@class=\"mdc-label\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "200",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-step-five-hk//div[contains(@class,\"modal__footer\")]//button[contains(@class,\"view-more\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of Trade-in Page 5",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementNotVisible",
+      "Target": "xpath=//app-trade-in-steps-hk",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "4000",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+    "Name": "z__unit",
+    "CreationDate": "2024-10-12",
+    "Commands":
+    [
+        {
+            "Command": "store",
+            "Target": "fast",
+            "Value": "!replayspeed",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!errorIgnore",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "CE",
+            "Value": "TestCat",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "SM-X710NZAATGY",
+            "Value": "SKU",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "100",
+            "Value": "ExpectedTradeUpDiscount",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Yes",
+            "Value": "TradeIn",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Yes",
+            "Value": "Tradeup",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "Yes",
+            "Value": "SCPlus",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "QA65QN900DJXZK,Z-SM-S9280ZTGT-CTV,Z-WMN-B16FB/XY",
+            "Value": "ExpectedPremiumStrings",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return ${ExpectedPremiumStrings}.split(',')",
+            "Value": "ExpectedPremiumArray",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(3)",
+            "Value": "ItemCount",
+            "Description": ""
+        },
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "Name": "LogResult",
+    "CreationDate": "2024-10-12",
+    "Commands":
+    [
+        {
+            "Command": "store",
+            "Target": "fast",
+            "Value": "!replayspeed",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!errorIgnore",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**Start Log Passed / Failed / OOS**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${TestResult}==\"Passed\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "echo",
+            "Target": "[${CaseID}] [${SKU}] ${ProductName} == ${TestResult}",
+            "Value": "green",
+            "Description": ""
+        },
+        {
+            "Command": "elseif",
+            "Target": "${TestResult}==\"Failed\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "echo",
+            "Target": "[${CaseID}] [${SKU}] ${ProductName} == ${TestResult}",
+            "Value": "red",
+            "Description": ""
+        },
+        {
+            "Command": "elseif",
+            "Target": "${TestResult}==\"OOS (Blocked)\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "echo",
+            "Target": "[${CaseID}] [${SKU}] ${ProductName} == ${TestResult}",
+            "Value": "orange",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${TestResult}",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**End Log Passed / Failed / OOS**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**Start of Get Test Run Time**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${!Runtime}",
+            "Value": "EndTime",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(${EndTime}.replace(/[^0-9.-]+/g,\"\"))-Number(${StartTime}.replace(/[^0-9.-]+/g,\"\"));",
+            "Value": "TestDuration",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "${TestDuration}",
+            "Value": "!csvLine",
+            "Description": ""
+        },
+        {
+            "Command": "echo",
+            "Target": "Test Duration: ${TestDuration}",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**End of Get Test Run Time**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**Start Save CSV**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "csvSave",
+            "Target": "_Results-${TestCat}-${DateToday}-${loopStream}.csv",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "comment",
+            "Target": "**End Save CSV**",
+            "Value": "",
+            "Description": ""
+        }
+    ]
+}
