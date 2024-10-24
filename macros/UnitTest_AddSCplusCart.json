@@ -5,7 +5,7 @@
     [
         {
             "Command": "click",
-            "Target": "xpath=//div[contains(@class,\"service-item__smc\")]//button[@data-an-la=\"add service:samsung care\"]",
+            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//button[@data-an-la=\"add service:samsung care\"]",
             "Value": "",
             "Description": ""
         },

@@ -437,7 +437,7 @@
         },
         {
             "Command": "storeText",
-            "Target": "xpath=//div[@data-modelcode=\"${SKU}\"]//span[@class=\"price__current\"]",
+            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//span[@class=\"price__current\"]",
             "Value": "SKUPriceCart",
             "Description": ""
         },
@@ -539,7 +539,7 @@
         },
         {
             "Command": "verifyElementNotPresent",
-            "Target": "xpath=//div[@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__trade-in\")]//span[contains(@class,\"error-text\")]",
+            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__trade-in\")]//span[contains(@class,\"error-text\")]",
             "Value": "",
             "Description": ""
         },
@@ -551,7 +551,7 @@
         },
         {
             "Command": "storeText",
-            "Target": "xpath=//*[@class=\"trade-in__item-discount-container\"]//span[@class=\"colorBlack\"]",
+            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[@data-modelcode=\"TRADE-IN\"]//span[@class=\"colorBlack\"]",
             "Value": "TradeInRebate",
             "Description": ""
         },
@@ -695,7 +695,7 @@
         },
         {
             "Command": "verifyElementNotPresent",
-            "Target": "xpath=//div[@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__trade-up\")]//span[contains(@class,\"error-text\")]",
+            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__trade-up\")]//span[contains(@class,\"error-text\")]",
             "Value": "",
             "Description": ""
         },
@@ -707,7 +707,7 @@
         },
         {
             "Command": "storeText",
-            "Target": "xpath=//*[@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__trade-up\")]//div[contains(@class,\"action-text\")]//span[@class=\"text-nowrap\"]",
+            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__trade-up\")]//div[contains(@class,\"action-text\")]//span[@class=\"text-nowrap\"]",
             "Value": "TradeUpDiscount",
             "Description": ""
         },
@@ -845,7 +845,7 @@
         },
         {
             "Command": "verifyElementNotPresent",
-            "Target": "xpath=//div[@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__smc\")]//span[contains(@class,\"error-text\")]",
+            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__smc\")]//span[contains(@class,\"error-text\")]",
             "Value": "",
             "Description": ""
         },
@@ -857,7 +857,7 @@
         },
         {
             "Command": "storeText",
-            "Target": "xpath=//div[@data-modelcode=\"${SKU}\"]//div[contains(@class,\"action-text\")]//span[contains(@class,\"free-price\")]",
+            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"action-text\")]//span[contains(@class,\"free-price\")]",
             "Value": "SCPlusPrice",
             "Description": ""
         },

@@ -17,7 +17,7 @@
         },
         {
             "Command": "click",
-            "Target": "xpath=//div[contains(@class,\"service-item__trade-up\")]//button[@data-an-la=\"add service:tradeup\"]",
+            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//button[@data-an-la=\"add service:tradeup\"]",
             "Value": "",
             "Description": ""
         },

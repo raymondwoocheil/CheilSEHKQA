@@ -1,5 +1,5 @@
 MX EPP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Assigned,Test Case,,,,,,,,,,34,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,,Verify / AC >>,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,,EPP store only premiums,,,,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,
+Assigned,Test Case,,,,,,,,,,9,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,,Verify / AC >>,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,,EPP store only premiums,,,,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,
 Tester,ID,Manual Cart,Premiunm Qty,Auto Cart,Auto Checkout,Model,BASE SKU,BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-in,Trade-in-type,Verify extra trade-in rebate,SC+,SC-type,"Verify SC+ 
 in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass - 1/10 - 31/10,Mass - 1/10 - 31/10,Mass - 1/10 - 31/10,Mass 15/10 - 31/10,Mass 15/10 - 31/10,,EPP only,,,"No-trade-in
 27/9 - 31/10",Array,Total,"Verify Free Premiums in Cart (SKU)
@@ -10,52 +10,51 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 
 
 "
-Sola,E-SMP-01,,,,,"Galaxy Z Fold6, 1TB+12GB, Crafted Black (eStore)","SM-F9560, 1TB",N,SM-F9560AKHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560AKHTGY,SM-F9560AKHTGY,"$17,398","$15,310",cptqaer+2@gmail.com,!Cheil2024,"15,310",No,Z Fold6,-,No,,-,,,,-,,,,Add to Cart,"15,160",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,Z-ITFITE01,,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,EF-MF956TJEGWW,Z-ITFITPW06SP",5,"
+,E-SMP-01,,,,,"Galaxy Z Fold6, 1TB+12GB, Crafted Black (eStore)","SM-F9560, 1TB",N,SM-F9560AKHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560AKHTGY,SM-F9560AKHTGY,"$17,398","$14,266",cptqaer+2@gmail.com,!Cheil2024,"14,266",No,Z Fold6,-,No,,-,,,,-,,,,Add to Cart,"14,116",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,Z-ITFITE01,,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,EF-MF956TJEGWW,Z-ITFITPW06SP",5,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  15W Wireless Charger Pad P2400 with TA [Z-EP-P2400TWEGGB]
 ●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
 ●  1 x  Silicone Grip Case with Stand, Gray [EF-MF956TJEGWW]
 ●  1 x  ITFIT 3-in-1 Multi-Function Wireless Charger [Z-ITFITPW06SP]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,E-SMP-02,,,,,"Galaxy Z Fold6, 1TB+12GB, Navy","SM-F9560, 1TB",N,SM-F9560DBHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560DBHTGY,SM-F9560DBHTGY,"$17,398","$15,310",cptqaer+2@gmail.com,!Cheil2024,"15,310",No,Z Fold6,-,No,,-,,,,-,,,,Add to Cart,"15,160",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,Z-ITFITE01,,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,EF-MF956TJEGWW,Z-ITFITPW06SP",5,"
+,E-SMP-02,,,,,"Galaxy Z Fold6, 1TB+12GB, Navy","SM-F9560, 1TB",N,SM-F9560DBHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560DBHTGY,SM-F9560DBHTGY,"$17,398","$14,266",cptqaer+2@gmail.com,!Cheil2024,"14,266",No,Z Fold6,-,No,,-,,,,-,,,,Add to Cart,"14,116",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,Z-ITFITE01,,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,EF-MF956TJEGWW,Z-ITFITPW06SP",5,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  15W Wireless Charger Pad P2400 with TA [Z-EP-P2400TWEGGB]
 ●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
 ●  1 x  Silicone Grip Case with Stand, Gray [EF-MF956TJEGWW]
 ●  1 x  ITFIT 3-in-1 Multi-Function Wireless Charger [Z-ITFITPW06SP]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-SMP-03,,,,,"Galaxy Z Fold6, 512GB+12GB, Crafted Black (eStore)","SM-F9560, 512GB",N,SM-F9560AKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560AKGTGY,SM-F9560AKGTGY,"$15,398","$13,550",cptqaer+2@gmail.com,!Cheil2024,"13,550",No,Z Fold6,-,No,,-,,,,-,,,,Add to Cart,"13,400",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,Z-ITFITE01,,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,EF-MF956TJEGWW,Z-ITFITPW06SP",5,"
+,E-SMP-03,,,,,"Galaxy Z Fold6, 512GB+12GB, Crafted Black (eStore)","SM-F9560, 512GB",N,SM-F9560AKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560AKGTGY,SM-F9560AKGTGY,"$15,398","$12,626",cptqaer+2@gmail.com,!Cheil2024,"12,626",No,Z Fold6,-,No,,-,,,,-,,,,Add to Cart,"12,476",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,Z-ITFITE01,,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,EF-MF956TJEGWW,Z-ITFITPW06SP",5,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  15W Wireless Charger Pad P2400 with TA [Z-EP-P2400TWEGGB]
 ●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
 ●  1 x  Silicone Grip Case with Stand, Gray [EF-MF956TJEGWW]
 ●  1 x  ITFIT 3-in-1 Multi-Function Wireless Charger [Z-ITFITPW06SP]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,E-SMP-04,,,,,"Galaxy Z Fold6, 512GB+12GB, Navy","SM-F9560, 512GB",N,SM-F9560DBGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560DBGTGY,SM-F9560DBGTGY,"$15,398","$13,550",cptqaer+2@gmail.com,!Cheil2024,"13,550",No,Z Fold6,-,No,,-,,,,-,,,,Add to Cart,"13,400",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,Z-ITFITE01,,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,EF-MF956TJEGWW,Z-ITFITPW06SP",5,"
+,E-SMP-04,,,,,"Galaxy Z Fold6, 512GB+12GB, Navy","SM-F9560, 512GB",N,SM-F9560DBGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560DBGTGY,SM-F9560DBGTGY,"$15,398","$12,626",cptqaer+2@gmail.com,!Cheil2024,"12,626",No,Z Fold6,-,No,,-,,,,-,,,,Add to Cart,"12,476",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,Z-ITFITE01,,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,EF-MF956TJEGWW,Z-ITFITPW06SP",5,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  15W Wireless Charger Pad P2400 with TA [Z-EP-P2400TWEGGB]
 ●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
 ●  1 x  Silicone Grip Case with Stand, Gray [EF-MF956TJEGWW]
 ●  1 x  ITFIT 3-in-1 Multi-Function Wireless Charger [Z-ITFITPW06SP]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,E-SMP-05,,,,,"Galaxy Z Fold6, 256GB+12GB, Crafted Black (eStore)","SM-F9560, 256GB",N,SM-F9560AKDTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560AKDTGY,SM-F9560AKDTGY,"$14,398","$12,670",cptqaer+2@gmail.com,!Cheil2024,"12,670",No,Z Fold6,-,No,,-,,,,-,,,,Add to Cart,"12,520",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,Z-ITFITE01,,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,EF-MF956TJEGWW,Z-ITFITPW06SP",5,"
+,E-SMP-05,,,,,"Galaxy Z Fold6, 256GB+12GB, Crafted Black (eStore)","SM-F9560, 256GB",N,SM-F9560AKDTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560AKDTGY,SM-F9560AKDTGY,"$14,398","$11,806",cptqaer+2@gmail.com,!Cheil2024,"11,806",No,Z Fold6,-,No,,-,,,,-,,,,Add to Cart,"11,656",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,Z-ITFITE01,,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,EF-MF956TJEGWW,Z-ITFITPW06SP",5,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  15W Wireless Charger Pad P2400 with TA [Z-EP-P2400TWEGGB]
 ●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
 ●  1 x  Silicone Grip Case with Stand, Gray [EF-MF956TJEGWW]
 ●  1 x  ITFIT 3-in-1 Multi-Function Wireless Charger [Z-ITFITPW06SP]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,E-SMP-06,,,,,"Galaxy Z Fold6, 256GB+12GB, Navy","SM-F9560, 256GB",N,SM-F9560DBDTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560DBDTGY,SM-F9560DBDTGY,"$14,398","$12,670",cptqaer+2@gmail.com,!Cheil2024,"12,670",No,Z Fold6,-,No,,-,,,,-,,,,Add to Cart,"12,520",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,Z-ITFITE01,,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,EF-MF956TJEGWW,Z-ITFITPW06SP",5,"
+,E-SMP-06,,,,,"Galaxy Z Fold6, 256GB+12GB, Navy","SM-F9560, 256GB",N,SM-F9560DBDTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9560DBDTGY,SM-F9560DBDTGY,"$14,398","$11,806",cptqaer+2@gmail.com,!Cheil2024,"11,806",No,Z Fold6,-,No,,-,,,,-,,,,Add to Cart,"11,656",,Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,,,,,Z-ITFITE01,,EF-MF956TJEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EP-P2400TWEGGB,Z-ITFITE01,EF-MF956TJEGWW,Z-ITFITPW06SP",5,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  15W Wireless Charger Pad P2400 with TA [Z-EP-P2400TWEGGB]
 ●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
 ●  1 x  Silicone Grip Case with Stand, Gray [EF-MF956TJEGWW]
 ●  1 x  ITFIT 3-in-1 Multi-Function Wireless Charger [Z-ITFITPW06SP]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-SMP-07,,,,,"Galaxy Z Flip6, 512GB+12GB, Crafted Black (eStore)","SM-F7410, 512GB",N,SM-F7410AKETGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F7410AKETGY,SM-F7410AKETGY,"$9,698","$8,049",cptqaer+2@gmail.com,!Cheil2024,"8,049",No,Z Flip6,-,No,,-,,,,-,,,,Add to Cart,"7,899",,Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,,,,,Z-ITFITE01,,EF-PF741TNEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,Z-ITFITE01,EF-PF741TNEGWW,Z-ITFITPW06SP",5,"
+,E-SMP-07,,,,,"Galaxy Z Flip6, 512GB+12GB, Crafted Black (eStore)","SM-F7410, 512GB",N,SM-F7410AKETGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F7410AKETGY,SM-F7410AKETGY,"$9,698","$7,758",cptqaer+2@gmail.com,!Cheil2024,"7,758",No,Z Flip6,-,No,,-,,,,-,,,,Add to Cart,"7,608",,Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,,,,,,,EF-PF741TNEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,EF-PF741TNEGWW,Z-ITFITPW06SP",4,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Z Flip6 Flipsuit Case [Z-EF-ZF741CWEGWW-M]
-●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
 ●  1 x  Silicone Case with Ring, Navy [EF-PF741TNEGWW]
 ●  1 x  ITFIT 3-in-1 Multi-Function Wireless Charger [Z-ITFITPW06SP]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
@@ -66,7 +65,7 @@ Sola,E-SMP-07,,,,,"Galaxy Z Flip6, 512GB+12GB, Crafted Black (eStore)","SM-F7410
 ●  1 x  Silicone Case with Ring, Navy [EF-PF741TNEGWW]
 ●  1 x  ITFIT 3-in-1 Multi-Function Wireless Charger [Z-ITFITPW06SP]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-SMP-08,,,,,"Galaxy Z Flip6, 256GB+12GB, Crafted Black (eStore)","SM-F7410, 256GB",N,SM-F7410AKATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F7410AKATGY,SM-F7410AKATGY,"$8,698","$6,958",cptqaer+2@gmail.com,!Cheil2024,"6,958",No,Z Flip6,-,No,,-,,,,-,,,,Add to Cart,"6,808",,Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,,,,,,,EF-PF741TNEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,EF-PF741TNEGWW,Z-ITFITPW06SP",4,"
+,E-SMP-08,,,,,"Galaxy Z Flip6, 256GB+12GB, Crafted Black (eStore)","SM-F7410, 256GB",N,SM-F7410AKATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F7410AKATGY,SM-F7410AKATGY,"$8,698","$6,958",cptqaer+2@gmail.com,!Cheil2024,"6,958",No,Z Flip6,-,No,,-,,,,-,,,,Add to Cart,"6,808",,Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,,,,,,,EF-PF741TNEGWW,Z-ITFITPW06SP,"Z-EP-T6530NBEGGB,Z-EF-ZF741CWEGWW-M,EF-PF741TNEGWW,Z-ITFITPW06SP",4,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Z Flip6 Flipsuit Case [Z-EF-ZF741CWEGWW-M]
 ●  1 x  Silicone Case with Ring, Navy [EF-PF741TNEGWW]
@@ -81,29 +80,29 @@ Sola,E-SMP-08,,,,,"Galaxy Z Flip6, 256GB+12GB, Crafted Black (eStore)","SM-F7410
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-SMP-09,,,,,"Galaxy Z Flip6 Limited Edition, 512GB+12GB,  Doreamon Special Edition",GP-FPF741HIH,EOL,GP-FPF741HIHLW,https://www.samsung.com/hk/multistore/samsunghkem/pd.GP-FPF741HIHLW,GP-FPF741HIHLW,,,cptqaer+2@gmail.com,!Cheil2024,,No,Z Flip6,-,No,,-,,,,-,,,,Add to Cart,-150,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-SMP-10,,,,,"Galaxy S24 Ultra, 1TB, Titanium Black","SM-S9280, 1TB",N,SM-S9280ZKPTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9280ZKPTGY,SM-S9280ZKPTGY,"$12,898","$10,576",cptqaer+2@gmail.com,!Cheil2024,"10,576",Yes,Galaxy S24 Ultra,0,No,,-,,,,-,,,,Add to Cart,"10,426",,Z-EP-T6530NBEGGB,,,,,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
+,E-SMP-10,,,,,"Galaxy S24 Ultra, 1TB, Titanium Black","SM-S9280, 1TB",N,SM-S9280ZKPTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9280ZKPTGY,SM-S9280ZKPTGY,"$12,898","$10,576",cptqaer+2@gmail.com,!Cheil2024,"10,576",Yes,Galaxy S24 Ultra,0,No,,-,,,,-,,,,Add to Cart,"10,426",,Z-EP-T6530NBEGGB,,,,,,,Z-SM-R177NZWAASA,,,"Z-EP-T6530NBEGGB,Z-SM-R177NZWAASA",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
-●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
+●  1 x  Galaxy Buds2 [Z-SM-R177NZWAASA]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,E-SMP-11,,,,,"Galaxy S24 Ultra, 512GB, Titanium Black","SM-S9280, 512GB",N,SM-S9280ZKHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9280ZKHTGY,SM-S9280ZKHTGY,"$10,898","$8,936",cptqaer+2@gmail.com,!Cheil2024,"8,936",No,Galaxy S24 Ultra,-,No,,-,,,,-,,,,Add to Cart,"8,786",,Z-EP-T6530NBEGGB,,,,,,,Z-SM-R400NZWATGY,,Z-EF-GS928CUEGWW,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,Z-EF-GS928CUEGWW",3,"
+,E-SMP-11,,,,,"Galaxy S24 Ultra, 512GB, Titanium Black","SM-S9280, 512GB",N,SM-S9280ZKHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9280ZKHTGY,SM-S9280ZKHTGY,"$10,898","$8,936",cptqaer+2@gmail.com,!Cheil2024,"8,936",No,Galaxy S24 Ultra,-,No,,-,,,,-,,,,Add to Cart,"8,786",,Z-EP-T6530NBEGGB,,,,,,,Z-SM-R177NZWAASA,,Z-EF-GS928CUEGWW,"Z-EP-T6530NBEGGB,Z-SM-R177NZWAASA,Z-EF-GS928CUEGWW",3,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
-●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
+●  1 x  Galaxy Buds2 [Z-SM-R177NZWAASA]
 ●  1 x  Galaxy S24 Ultra Standing Grip Case [Z-EF-GS928CUEGWW]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,E-SMP-12,,,,,"Galaxy S24 Ultra, 256GB, Titanium Black","SM-S9280, 256GB",N,SM-S9280ZKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9280ZKGTGY,SM-S9280ZKGTGY,"$9,898","$8,116",cptqaer+2@gmail.com,!Cheil2024,"8,116",No,Galaxy S24 Ultra,-,No,,-,,,,-,,,,Add to Cart,"7,966",,Z-EP-T6530NBEGGB,,,,,,,Z-SM-R400NZWATGY,,Z-EF-GS928CUEGWW,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY,Z-EF-GS928CUEGWW",3,"
+,E-SMP-12,,,,,"Galaxy S24 Ultra, 256GB, Titanium Black","SM-S9280, 256GB",N,SM-S9280ZKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9280ZKGTGY,SM-S9280ZKGTGY,"$9,898","$8,116",cptqaer+2@gmail.com,!Cheil2024,"8,116",No,Galaxy S24 Ultra,-,No,,-,,,,-,,,,Add to Cart,"7,966",,Z-EP-T6530NBEGGB,,,,,,,Z-SM-R177NZWAASA,,Z-EF-GS928CUEGWW,"Z-EP-T6530NBEGGB,Z-SM-R177NZWAASA,Z-EF-GS928CUEGWW",3,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
-●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
+●  1 x  Galaxy Buds2 [Z-SM-R177NZWAASA]
 ●  1 x  Galaxy S24 Ultra Standing Grip Case [Z-EF-GS928CUEGWW]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-SMP-13,,,,,"Galaxy S24+, 512GB, Onyx Black","SM-S9260, 512GB",N,SM-S9260ZKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9260ZKGTGY,SM-S9260ZKGTGY,"$8,598","$7,050",cptqaer+2@gmail.com,!Cheil2024,"7,050",No,Galaxy S24 Ultra,-,No,,-,,,,-,,,,Add to Cart,"6,900",,Z-EP-T6530NBEGGB,,,,,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
+,E-SMP-13,,,,,"Galaxy S24+, 512GB, Onyx Black","SM-S9260, 512GB",N,SM-S9260ZKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9260ZKGTGY,SM-S9260ZKGTGY,"$8,598","$7,050",cptqaer+2@gmail.com,!Cheil2024,"7,050",No,Galaxy S24 Ultra,-,No,,-,,,,-,,,,Add to Cart,"6,900",,Z-EP-T6530NBEGGB,,,,,,,Z-SM-R177NZWAASA,,,"Z-EP-T6530NBEGGB,Z-SM-R177NZWAASA",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
-●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
+●  1 x  Galaxy Buds2 [Z-SM-R177NZWAASA]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,E-SMP-14,,,,,"Galaxy S24+, 256GB, Marble Gray","SM-S9260, 256GB",N,SM-S9260ZADTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9260ZADTGY,SM-S9260ZADTGY,"$7,598","$6,230",cptqaer+2@gmail.com,!Cheil2024,"6,230",No,Galaxy S24 Ultra,-,No,,-,,,,-,,,,Add to Cart,"6,080",,Z-EP-T6530NBEGGB,,,,,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
+,E-SMP-14,,,,,"Galaxy S24+, 256GB, Marble Gray","SM-S9260, 256GB",N,SM-S9260ZADTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9260ZADTGY,SM-S9260ZADTGY,"$7,598","$6,230",cptqaer+2@gmail.com,!Cheil2024,"6,230",No,Galaxy S24 Ultra,-,No,,-,,,,-,,,,Add to Cart,"6,080",,Z-EP-T6530NBEGGB,,,,,,,Z-SM-R177NZWAASA,,,"Z-EP-T6530NBEGGB,Z-SM-R177NZWAASA",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
-●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
+●  1 x  Galaxy Buds2 [Z-SM-R177NZWAASA]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-SMP-15,,,,,"Galaxy S24, 512GB, Onyx Black","SM-S9210, 512GB",N,SM-S9210ZKHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9210ZKHTGY,SM-S9210ZKHTGY,"$6,898","$5,656",cptqaer+2@gmail.com,!Cheil2024,"5,656",No,Galaxy S24 Ultra,-,No,,-,,,,-,,,,Add to Cart,"5,506",,Z-EP-T6530NBEGGB,,,,,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
+,E-SMP-15,,,,,"Galaxy S24, 512GB, Onyx Black","SM-S9210, 512GB",N,SM-S9210ZKHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9210ZKHTGY,SM-S9210ZKHTGY,"$6,898","$5,656",cptqaer+2@gmail.com,!Cheil2024,"5,656",No,Galaxy S24 Ultra,-,No,,-,,,,-,,,,Add to Cart,"5,506",,Z-EP-T6530NBEGGB,,,,,,,Z-SM-R400NZWATGY,,,"Z-EP-T6530NBEGGB,Z-SM-R400NZWATGY",2,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
@@ -111,12 +110,12 @@ Sola,E-SMP-15,,,,,"Galaxy S24, 512GB, Onyx Black","SM-S9210, 512GB",N,SM-S9210ZK
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-SMP-17,,,,,"Galaxy S24 FE, Gray, 8+256GB","SM-S7210, 256GB",N,SM-S7210ZAGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S7210ZAGTGY,SM-S7210ZAGTGY,"$5,498","$4,948",cptqaer+2@gmail.com,!Cheil2024,"4,948",No,Galaxy S24 FE,-,Yes,,#N/A,,,,-,,,,Add to Cart,"4,798",,,,,,,,,,,Z-ITFITE01,Z-ITFITE01,1,"
+,E-SMP-17,,,,,"Galaxy S24 FE, Gray, 8+256GB","SM-S7210, 256GB",N,SM-S7210ZAGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S7210ZAGTGY,SM-S7210ZAGTGY,"$5,498","$4,948",cptqaer+2@gmail.com,!Cheil2024,"4,948",No,Galaxy S24 FE,-,Yes,,#N/A,,,,-,,,,Add to Cart,"4,798",,,,,,,,,,,Z-ITFITE01,Z-ITFITE01,1,"
 ●  1 x  ITFIT Bone Conduction Headphones [Z-ITFITE01]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-SMP-18,,,,,"Galaxy S24 FE, Gray, 8+256GB","SM-S7210, 256GB",N,SM-S7210ZAGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S7210ZAGTGY,SM-S7210ZAGTGY,"$5,498","$4,948",cptqaer+2@gmail.com,!Cheil2024,"4,948",Yes,Galaxy S24 FE,0,Yes,,#N/A,,,,-,,,,Add to Cart,"4,798",,,,,,,,,,,,,0,"
+,E-SMP-18,,,,,"Galaxy S24 FE, Gray, 8+256GB","SM-S7210, 256GB",N,SM-S7210ZAGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S7210ZAGTGY,SM-S7210ZAGTGY,"$5,498","$4,948",cptqaer+2@gmail.com,!Cheil2024,"4,948",Yes,Galaxy S24 FE,0,Yes,,#N/A,,,,-,,,,Add to Cart,"4,798",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-SMP-19,,,,,"Galaxy Z Fold5 1TB, Cream (eStore)","SM-F9460, 1TB",EOL,SM-F9460ZEHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9460ZEHTGY,SM-F9460ZEHTGY,,,cptqaer+2@gmail.com,!Cheil2024,,No,Z Fold5,-,No,,-,,,,-,,,,Add to Cart,-150,,Z-EP-T6530NBEGGB,,,,,,,,,,Z-EP-T6530NBEGGB,1,"
+,E-SMP-19,,,,,"Galaxy Z Fold5 1TB, Cream (eStore)","SM-F9460, 1TB",EOL,SM-F9460ZEHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9460ZEHTGY,SM-F9460ZEHTGY,,,cptqaer+2@gmail.com,!Cheil2024,,No,Z Fold5,-,No,,-,,,,-,,,,Add to Cart,-150,,Z-EP-T6530NBEGGB,,,,,,,,,,Z-EP-T6530NBEGGB,1,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-SMP-20,,,,,"Galaxy Z Fold5 512, Gray (eStore)",,EOL,SM-F9460ZUGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-F9460ZUGTGY,SM-F9460ZUGTGY,,,cptqaer+2@gmail.com,!Cheil2024,,No,Z Fold5,-,No,,-,,,,-,,,,Add to Cart,-150,,,,,,,,,,,,,0,"
@@ -138,12 +137,12 @@ Sola,E-SMP-19,,,,,"Galaxy Z Fold5 1TB, Cream (eStore)","SM-F9460, 1TB",EOL,SM-F9
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-SMP-26,,,,,"Galaxy S23 [512], 8+512GB, Green","SM-S9110, 512GB",EOL,SM-S9110ZGHTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S9110ZGHTGY,SM-S9110ZGHTGY,,,cptqaer+2@gmail.com,!Cheil2024,,No,S23,-,No,,-,,,,-,,,,Add to Cart,-150,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-SMP-27,,,,,"Galaxy S23 FE 256, Mint","SM-S7110, 256GB",N,SM-S7110LGGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S7110LGGTGY,SM-S7110LGGTGY,"$5,098","$3,824",cptqaer+2@gmail.com,!Cheil2024,"3,824",No,S23 FE,-,No,,-,,,,-,,,,Add to Cart,"3,674",,Z-ITFITPW03,Z-EF-QS711CTEGWW,,,,,,Z-SM-R400NZWATGY,,,"Z-ITFITPW03,Z-EF-QS711CTEGWW,Z-SM-R400NZWATGY",3,"
+,E-SMP-27,,,,,"Galaxy S23 FE 256, Mint","SM-S7110, 256GB",N,SM-S7110LGGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-S7110LGGTGY,SM-S7110LGGTGY,"$5,098","$3,824",cptqaer+2@gmail.com,!Cheil2024,"3,824",No,S23 FE,-,No,,-,,,,-,,,,Add to Cart,"3,674",,Z-ITFITPW03,Z-EF-QS711CTEGWW,,,,,,Z-SM-R400NZWATGY,,,"Z-ITFITPW03,Z-EF-QS711CTEGWW,Z-SM-R400NZWATGY",3,"
 ●  1 x  ITFIT Universal Travel Adapter [Z-ITFITPW03]
 ●  1 x  Galaxy S23 FE Clear Case [Z-EF-QS711CTEGWW]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-SMP-28,,,,,Galaxy A55 5G 8GB 128GB Awesome Navy,"SM-A5560, 128GB",N,SM-A5560ZKATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-A5560ZKATGY,SM-A5560ZKATGY,"$3,298","$2,638",cptqaer+2@gmail.com,!Cheil2024,"2,638",No,A55,-,No,,-,,,,-,,,,Add to Cart,"2,638",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,,,Z-EB-P3400XUEGWW,Z-EF-ZA556CBEGWW,,"Z-ITFITT10WE,Z-ITFITPW28-M,Z-EB-P3400XUEGWW,Z-EF-ZA556CBEGWW",4,"
+,E-SMP-28,,,,,Galaxy A55 5G 8GB 128GB Awesome Navy,"SM-A5560, 128GB",N,SM-A5560ZKATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-A5560ZKATGY,SM-A5560ZKATGY,"$3,298","$2,638",cptqaer+2@gmail.com,!Cheil2024,"2,638",No,A55,-,No,,-,,,,-,,,,Add to Cart,"2,638",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,,,Z-EB-P3400XUEGWW,Z-EF-ZA556CBEGWW,,"Z-ITFITT10WE,Z-ITFITPW28-M,Z-EB-P3400XUEGWW,Z-EF-ZA556CBEGWW",4,"
 ●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-M]
 ●  1 x  10,000mAh Battery Pack P3400 [Z-EB-P3400XUEGWW]
@@ -155,7 +154,7 @@ Sola,E-SMP-28,,,,,Galaxy A55 5G 8GB 128GB Awesome Navy,"SM-A5560, 128GB",N,SM-A5
 ●  1 x  10,000mAh Battery Pack P3400 [Z-EB-P3400XUEGWW]
 ●  1 x  Galaxy A55 5G Smart View Wallet Case [Z-EF-ZA556CBEGWW]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-SMP-30,,,,,Galaxy A35 5G 8GB 128GB Awesome Navy,"SM-A3560, 128GB",N,SM-A3560ZKDTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-A3560ZKDTGY,SM-A3560ZKDTGY,"$2,698","$2,158",cptqaer+2@gmail.com,!Cheil2024,"2,158",No,A35,-,No,,-,,,,-,,,,Add to Cart,"2,158",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,,,Z-EB-P3400XUEGWW,Z-EF-QA356CTEGWW,,"Z-ITFITT10WE,Z-ITFITPW28-M,Z-EB-P3400XUEGWW,Z-EF-QA356CTEGWW",4,"
+,E-SMP-30,,,,,Galaxy A35 5G 8GB 128GB Awesome Navy,"SM-A3560, 128GB",N,SM-A3560ZKDTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-A3560ZKDTGY,SM-A3560ZKDTGY,"$2,698","$2,158",cptqaer+2@gmail.com,!Cheil2024,"2,158",No,A35,-,No,,-,,,,-,,,,Add to Cart,"2,158",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,,,Z-EB-P3400XUEGWW,Z-EF-QA356CTEGWW,,"Z-ITFITT10WE,Z-ITFITPW28-M,Z-EB-P3400XUEGWW,Z-EF-QA356CTEGWW",4,"
 ●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-M]
 ●  1 x  10,000mAh Battery Pack P3400 [Z-EB-P3400XUEGWW]
@@ -173,14 +172,14 @@ Sola,E-SMP-30,,,,,Galaxy A35 5G 8GB 128GB Awesome Navy,"SM-A3560, 128GB",N,SM-A3
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-SMP-34,,,,,"Galaxy A14 5G, 4GB + 64GB, Black","SM-A146P/DSN, ",EOL,SM-A146PZKDTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-A146PZKDTGY,SM-A146PZKDTGY,,,cptqaer+2@gmail.com,!Cheil2024,,No,,-,No,,-,,,,-,,,,Add to Cart,-150,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,E-SMP-34B,,,,,A16 5G (6GB + 128GB) Blue Black (Main Color),"SM-A1660, 128GB",EOL,SM-A1660ZKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-A1660ZKGTGY,SM-A1660ZKGTGY,,,cptqaer+2@gmail.com,!Cheil2024,,No,,-,No,,-,,,,-,,,,Add to Cart,-150,,Z-ITFITT10WE,,,,,,,,,,Z-ITFITT10WE,1,"
+,E-SMP-34B,,,,,A16 5G (6GB + 128GB) Blue Black (Main Color),"SM-A1660, 128GB",N,SM-A1660ZKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-A1660ZKGTGY,SM-A1660ZKGTGY,"$1,598","$1,438",cptqaer+2@gmail.com,!Cheil2024,"1,438",No,,-,No,,-,,,,-,,,,Add to Cart,"1,438",,Z-ITFITT10WE,,,,,,,,,,Z-ITFITT10WE,1,"
 ●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-SMP-35,,,,,"Galaxy A15 5G, Blue Black","SM-A1560, 128GB",N,SM-A1560ZKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-A1560ZKGTGY,SM-A1560ZKGTGY,"$1,798","$1,402",cptqaer+2@gmail.com,!Cheil2024,"1,402",No,A15,-,No,,-,,,,-,,,,Add to Cart,"1,402",,Z-ITFITT10WE,,,,,,,Z-EB-P3400XUEGWW,,,"Z-ITFITT10WE,Z-EB-P3400XUEGWW",2,"
+,E-SMP-35,,,,,"Galaxy A15 5G, Blue Black","SM-A1560, 128GB",N,SM-A1560ZKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-A1560ZKGTGY,SM-A1560ZKGTGY,"$1,798","$1,402",cptqaer+2@gmail.com,!Cheil2024,"1,402",No,A15,-,No,,-,,,,-,,,,Add to Cart,"1,402",,Z-ITFITT10WE,,,,,,,Z-EB-P3400XUEGWW,,,"Z-ITFITT10WE,Z-EB-P3400XUEGWW",2,"
 ●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
 ●  1 x  10,000mAh Battery Pack P3400 [Z-EB-P3400XUEGWW]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-SMP-36,,,,,"Galaxy A25 5G, Black","SM-A2560, 256GB",N,SM-A2560ZKDTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-A2560ZKDTGY,SM-A2560ZKDTGY,"$2,398","$1,751",cptqaer+2@gmail.com,!Cheil2024,"1,751",No,A25,-,No,,-,,,,-,,,,Add to Cart,"1,751",,Z-ITFITT10WE,,,,,,,Z-EB-P3400XUEGWW,,,"Z-ITFITT10WE,Z-EB-P3400XUEGWW",2,"
+,E-SMP-36,,,,,"Galaxy A25 5G, Black","SM-A2560, 256GB",N,SM-A2560ZKDTGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-A2560ZKDTGY,SM-A2560ZKDTGY,"$2,398","$1,751",cptqaer+2@gmail.com,!Cheil2024,"1,751",No,A25,-,No,,-,,,,-,,,,Add to Cart,"1,751",,Z-ITFITT10WE,,,,,,,Z-EB-P3400XUEGWW,,,"Z-ITFITT10WE,Z-EB-P3400XUEGWW",2,"
 ●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
 ●  1 x  10,000mAh Battery Pack P3400 [Z-EB-P3400XUEGWW]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
@@ -190,7 +189,7 @@ Sola,E-SMP-36,,,,,"Galaxy A25 5G, Black","SM-A2560, 256GB",N,SM-A2560ZKDTGY,http
 ●  1 x  Smart Keyboard Trio 500 [Z-EJ-B3400UBEGWW-M]
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-TAB-02,,,,,"Galaxy Tab S10+ Wifi, 12GB+512GB, Moonstone Gray",SM-X820,N,SM-X820NZAETGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X820NZAETGY,SM-X820NZAETGY,"$8,788","$7,909",cptqaer+2@gmail.com,!Cheil2024,"7,909",No,Tab S10+,-,No,,-,,,,-,,,,Add to Cart,"7,759",,,,,Z-EJ-B3400UBEGWW-M,Z-EP-T6530NBEGGB,,,,,,"Z-EJ-B3400UBEGWW-M,Z-EP-T6530NBEGGB",2,"
+,E-TAB-02,,,,,"Galaxy Tab S10+ Wifi, 12GB+512GB, Moonstone Gray",SM-X820,N,SM-X820NZAETGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X820NZAETGY,SM-X820NZAETGY,"$8,788","$7,909",cptqaer+2@gmail.com,!Cheil2024,"7,909",No,Tab S10+,-,No,,-,,,,-,,,,Add to Cart,"7,759",,,,,Z-EJ-B3400UBEGWW-M,Z-EP-T6530NBEGGB,,,,,,"Z-EJ-B3400UBEGWW-M,Z-EP-T6530NBEGGB",2,"
 ●  1 x  Smart Keyboard Trio 500 [Z-EJ-B3400UBEGWW-M]
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
@@ -198,7 +197,7 @@ Sola,E-TAB-02,,,,,"Galaxy Tab S10+ Wifi, 12GB+512GB, Moonstone Gray",SM-X820,N,S
 ●  1 x  Smart Keyboard Trio 500 [Z-EJ-B3400UBEGWW-M]
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-TAB-04,,,,,"Galaxy Tab S10+ 5G, 12GB+512GB, Moonstone Gray",SM-X826B,N,SM-X826BZAETGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X826BZAETGY,SM-X826BZAETGY,"$9,888","$8,899",cptqaer+2@gmail.com,!Cheil2024,"8,899",No,Tab S10+,-,No,,-,,,,-,,,,Add to Cart,"8,749",,,,,Z-EJ-B3400UBEGWW-M,Z-EP-T6530NBEGGB,,,,,,"Z-EJ-B3400UBEGWW-M,Z-EP-T6530NBEGGB",2,"
+,E-TAB-04,,,,,"Galaxy Tab S10+ 5G, 12GB+512GB, Moonstone Gray",SM-X826B,N,SM-X826BZAETGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X826BZAETGY,SM-X826BZAETGY,"$9,888","$8,899",cptqaer+2@gmail.com,!Cheil2024,"8,899",No,Tab S10+,-,No,,-,,,,-,,,,Add to Cart,"8,749",,,,,Z-EJ-B3400UBEGWW-M,Z-EP-T6530NBEGGB,,,,,,"Z-EJ-B3400UBEGWW-M,Z-EP-T6530NBEGGB",2,"
 ●  1 x  Smart Keyboard Trio 500 [Z-EJ-B3400UBEGWW-M]
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
@@ -210,7 +209,7 @@ Sola,E-TAB-04,,,,,"Galaxy Tab S10+ 5G, 12GB+512GB, Moonstone Gray",SM-X826B,N,SM
 ●  1 x  Smart Keyboard Trio 500 [Z-EJ-B3400UBEGWW-M]
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-TAB-07,,,,,"Galaxy Tab S10 Ultra Wifi, 16GB+1TB, Moonstone Gray (Online Exclusive)",SM-X920,N,SM-X920NZAITGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X920NZAITGY,SM-X920NZAITGY,"$12,588","$11,329",cptqaer+2@gmail.com,!Cheil2024,"11,329",No,Tab S10 Ultra,-,No,,-,,,,-,,,,Add to Cart,"11,179",,,,,Z-EJ-B3400UBEGWW-M,Z-EP-T6530NBEGGB,,,,,,"Z-EJ-B3400UBEGWW-M,Z-EP-T6530NBEGGB",2,"
+,E-TAB-07,,,,,"Galaxy Tab S10 Ultra Wifi, 16GB+1TB, Moonstone Gray (Online Exclusive)",SM-X920,N,SM-X920NZAITGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X920NZAITGY,SM-X920NZAITGY,"$12,588","$11,329",cptqaer+2@gmail.com,!Cheil2024,"11,329",No,Tab S10 Ultra,-,No,,-,,,,-,,,,Add to Cart,"11,179",,,,,Z-EJ-B3400UBEGWW-M,Z-EP-T6530NBEGGB,,,,,,"Z-EJ-B3400UBEGWW-M,Z-EP-T6530NBEGGB",2,"
 ●  1 x  Smart Keyboard Trio 500 [Z-EJ-B3400UBEGWW-M]
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
@@ -218,7 +217,7 @@ Sola,E-TAB-07,,,,,"Galaxy Tab S10 Ultra Wifi, 16GB+1TB, Moonstone Gray (Online E
 ●  1 x  Smart Keyboard Trio 500 [Z-EJ-B3400UBEGWW-M]
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-TAB-09,,,,,"Galaxy Tab S10 Ultra 5G, 12GB+512GB, Moonstone Gray",SM-X926B,N,SM-X926BZAETGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X926BZAETGY,SM-X926BZAETGY,"$11,688","$10,519",cptqaer+2@gmail.com,!Cheil2024,"10,519",No,Tab S10 Ultra,-,No,,-,,,,-,,,,Add to Cart,"10,369",,,,,Z-EJ-B3400UBEGWW-M,Z-EP-T6530NBEGGB,,,,,,"Z-EJ-B3400UBEGWW-M,Z-EP-T6530NBEGGB",2,"
+,E-TAB-09,,,,,"Galaxy Tab S10 Ultra 5G, 12GB+512GB, Moonstone Gray",SM-X926B,N,SM-X926BZAETGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X926BZAETGY,SM-X926BZAETGY,"$11,688","$10,519",cptqaer+2@gmail.com,!Cheil2024,"10,519",No,Tab S10 Ultra,-,No,,-,,,,-,,,,Add to Cart,"10,369",,,,,Z-EJ-B3400UBEGWW-M,Z-EP-T6530NBEGGB,,,,,,"Z-EJ-B3400UBEGWW-M,Z-EP-T6530NBEGGB",2,"
 ●  1 x  Smart Keyboard Trio 500 [Z-EJ-B3400UBEGWW-M]
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
@@ -236,13 +235,13 @@ Sola,E-TAB-09,,,,,"Galaxy Tab S10 Ultra 5G, 12GB+512GB, Moonstone Gray",SM-X926B
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-TAB-15,,,,,"Galaxy Tab S9 Ultra (5G), 12GB+512, Graphite",SM-X916B,N,SM-X916BZAETGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X916BZAETGY,SM-X916BZAETGY,"$11,688","$8,182",cptqaer+2@gmail.com,!Cheil2024,"8,182",No,Tab S9+,-,No,,-,,,,-,,,,Add to Cart,"8,032",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-TAB-16,,,,,"Galaxy Tab S9 FE, Wi-Fi, MINT",SM-X510,N,SM-X510NLGATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X510NLGATGY,SM-X510NLGATGY,"$3,588","$2,512",cptqaer+2@gmail.com,!Cheil2024,"2,512",No,Tab S9 Ultra,-,No,,-,,,,-,,,,Add to Cart,"2,512",,Z-ITFITCS9FEGY,,,,,,,,,,Z-ITFITCS9FEGY,1,"
+,E-TAB-16,,,,,"Galaxy Tab S9 FE, Wi-Fi, MINT",SM-X510,N,SM-X510NLGATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X510NLGATGY,SM-X510NLGATGY,"$3,588","$2,512",cptqaer+2@gmail.com,!Cheil2024,"2,512",No,Tab S9 Ultra,-,No,,-,,,,-,,,,Add to Cart,"2,512",,Z-ITFITCS9FEGY,,,,,,,,,,Z-ITFITCS9FEGY,1,"
 ●  1 x  ITFIT Bookcover [Z-ITFITCS9FEGY]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-TAB-17,,,,,"Galaxy Tab S9 FE, 5G, GRAY",SM-X516B,N,SM-X516BZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X516BZAATGY,SM-X516BZAATGY,"$4,388","$3,072",cptqaer+2@gmail.com,!Cheil2024,"3,072",No,Tab S9 Ultra,-,No,,-,,,,-,,,,Add to Cart,"2,922",,Z-ITFITCS9FEGY,,,,,,,,,,Z-ITFITCS9FEGY,1,"
 ●  1 x  ITFIT Bookcover [Z-ITFITCS9FEGY]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-TAB-18,,,,,"Galaxy Tab S9 FE+, Wi-Fi, MINT",SM-X610,N,SM-X610NLGATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X610NLGATGY,SM-X610NLGATGY,"$4,788","$3,352",cptqaer+2@gmail.com,!Cheil2024,"3,352",No,Tab S9 FE +,-,No,,-,,,,-,,,,Add to Cart,"3,202",,Z-ITFITCS9FEPGY,,,,,,,,,,Z-ITFITCS9FEPGY,1,"
+,E-TAB-18,,,,,"Galaxy Tab S9 FE+, Wi-Fi, MINT",SM-X610,N,SM-X610NLGATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X610NLGATGY,SM-X610NLGATGY,"$4,788","$3,352",cptqaer+2@gmail.com,!Cheil2024,"3,352",No,Tab S9 FE +,-,No,,-,,,,-,,,,Add to Cart,"3,202",,Z-ITFITCS9FEPGY,,,,,,,,,,Z-ITFITCS9FEPGY,1,"
 ●  1 x  ITFIT Bookcover [Z-ITFITCS9FEPGY]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-TAB-19,,,,,"Galaxy Tab S9 FE+, 5G, MINT",SM-X616B,N,SM-X616BLGATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-X616BLGATGY,SM-X616BLGATGY,"$5,588","$3,912",cptqaer+2@gmail.com,!Cheil2024,"3,912",No,Tab S9 FE +,-,No,,-,,,,-,,,,Add to Cart,"3,762",,Z-ITFITCS9FEPGY,,,,,,,,,,Z-ITFITCS9FEPGY,1,"
@@ -262,49 +261,49 @@ Sola,E-TAB-18,,,,,"Galaxy Tab S9 FE+, Wi-Fi, MINT",SM-X610,N,SM-X610NLGATGY,http
 ,E-TAB-24,,,,,Galaxy Tab S6 Lite (2024) Wi-Fi Oxford Gray,SM-P620,N,SM-P620NZAETGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-P620NZAETGY,SM-P620NZAETGY,"$2,588","$2,200",cptqaer+2@gmail.com,!Cheil2024,"2,200",No,Tab S6 Lite (2024 edition),-,No,,-,,,,-,,,,Add to Cart,"2,200",,Z-ITFITS6LCGY1,,,,,,,,,,Z-ITFITS6LCGY1,1,"
 ●  1 x  S6 Lite Multi-Fold Book Cover [Z-ITFITS6LCGY1]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-NPC-01,,,,,"Galaxy Book4 Uitra 16""/i9/64GB/2TB/RTX4070",NP960XGLZ-EXP,N,NP960XGL-XG1HK,https://www.samsung.com/hk/multistore/samsunghkem/pd.NP960XGL-XG1HK,NP960XGL-XG1HK,"$24,980","$20,484",cptqaer+2@gmail.com,!Cheil2024,"20,484",No,Book4 Ultra,-,No,,-,,,,-,,,,Add to Cart,"20,334",,Z-EF-LPUN6PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,,,,,Z-SM-R400NZWATGY,,,"Z-EF-LPUN6PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,Z-SM-R400NZWATGY",4,"
+,E-NPC-01,,,,,"Galaxy Book4 Uitra 16""/i9/64GB/2TB/RTX4070",NP960XGLZ-EXP,N,NP960XGL-XG1HK,https://www.samsung.com/hk/multistore/samsunghkem/pd.NP960XGL-XG1HK,NP960XGL-XG1HK,"$24,980","$19,235",cptqaer+2@gmail.com,!Cheil2024,"19,235",No,Book4 Ultra,-,No,,-,,,,-,,,,Add to Cart,"19,085",,Z-EF-LPUN6PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,,,,,Z-SM-R400NZWATGY,,,"Z-EF-LPUN6PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,Z-SM-R400NZWATGY",4,"
 ●  1 x  Galaxy Book3 Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
 ●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
 ●  1 x  Galaxy Watch4 40mm (Bluetooth) [Z-SM-R860NZKAASA]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-NPC-02,,,,,"Galaxy Book4 Pro 360 16""/i7/32GB/1TB",NP960QGKA-EXP,N,NP960QGK-KS3HK,https://www.samsung.com/hk/multistore/samsunghkem/pd.NP960QGK-KS3HK,NP960QGK-KS3HK,"$16,980","$13,924",cptqaer+2@gmail.com,!Cheil2024,"13,924",No,Book4 Pro 360,-,No,,-,,,,-,,,,Add to Cart,"13,774",,Z-EF-LPUN6PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,,,,,Z-SM-R400NZWATGY,,,"Z-EF-LPUN6PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,Z-SM-R400NZWATGY",4,"
+,E-NPC-02,,,,,"Galaxy Book4 Pro 360 16""/i7/32GB/1TB",NP960QGKA-EXP,N,NP960QGK-KS3HK,https://www.samsung.com/hk/multistore/samsunghkem/pd.NP960QGK-KS3HK,NP960QGK-KS3HK,"$16,980","$13,075",cptqaer+2@gmail.com,!Cheil2024,"13,075",No,Book4 Pro 360,-,No,,-,,,,-,,,,Add to Cart,"12,925",,Z-EF-LPUN6PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,,,,,Z-SM-R400NZWATGY,,,"Z-EF-LPUN6PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,Z-SM-R400NZWATGY",4,"
 ●  1 x  Galaxy Book3 Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
 ●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
 ●  1 x  Galaxy Watch4 40mm (Bluetooth) [Z-SM-R860NZKAASA]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-NPC-03,,,,,"Galaxy Book4 Pro 16""/i7/32GB/1TB",NP960XGKA-EXP,N,NP960XGK-KS5HK,https://www.samsung.com/hk/multistore/samsunghkem/pd.NP960XGK-KS5HK,NP960XGK-KS5HK,"$15,680","$12,858",cptqaer+2@gmail.com,!Cheil2024,"12,858",No,Book4 Pro,-,No,,-,,,,-,,,,Add to Cart,"12,708",,Z-EF-LPUN6PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,,,,,Z-SM-R400NZWATGY,,,"Z-EF-LPUN6PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,Z-SM-R400NZWATGY",4,"
+,E-NPC-03,,,,,"Galaxy Book4 Pro 16""/i7/32GB/1TB",NP960XGKA-EXP,N,NP960XGK-KS5HK,https://www.samsung.com/hk/multistore/samsunghkem/pd.NP960XGK-KS5HK,NP960XGK-KS5HK,"$15,680","$12,858",cptqaer+2@gmail.com,!Cheil2024,"12,858",No,Book4 Pro,-,No,,-,,,,-,,,,Add to Cart,"12,708",,Z-EF-LPUN6PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,,,,,Z-SM-R400NZWATGY,,,"Z-EF-LPUN6PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,Z-SM-R400NZWATGY",4,"
 ●  1 x  Galaxy Book3 Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
 ●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
 ●  1 x  Galaxy Watch4 40mm (Bluetooth) [Z-SM-R860NZKAASA]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-NPC-04,,,,,"Galaxy Book4 Pro 14""/i7/32GB/1TB",NP940XGKA-EXP,N,NP940XGK-KS3HK,https://www.samsung.com/hk/multistore/samsunghkem/pd.NP940XGK-KS3HK,NP940XGK-KS3HK,"$14,980","$12,284",cptqaer+2@gmail.com,!Cheil2024,"12,284",No,Book4 Pro,-,No,,-,,,,-,,,,Add to Cart,"12,134",,Z-EF-LPUN4PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,,,,,Z-SM-R400NZWATGY,,,"Z-EF-LPUN4PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,Z-SM-R400NZWATGY",4,"
+,E-NPC-04,,,,,"Galaxy Book4 Pro 14""/i7/32GB/1TB",NP940XGKA-EXP,N,NP940XGK-KS3HK,https://www.samsung.com/hk/multistore/samsunghkem/pd.NP940XGK-KS3HK,NP940XGK-KS3HK,"$14,980","$12,284",cptqaer+2@gmail.com,!Cheil2024,"12,284",No,Book4 Pro,-,No,,-,,,,-,,,,Add to Cart,"12,134",,Z-EF-LPUN4PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,,,,,Z-SM-R400NZWATGY,,,"Z-EF-LPUN4PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,Z-SM-R400NZWATGY",4,"
 ●  1 x  Galaxy Book3 Slim Pouch 14"" [Z-EF-LPUN4PBEGWW]
 ●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
 ●  1 x  Galaxy Watch4 40mm (Bluetooth) [Z-SM-R860NZKAASA]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-NPC-05,,,,,"Galaxy Book4 Edge, 16""/X1E-84/16GB/1TB, Sapphire Blue",NP960XMBA-EXP,N,NP960XMB-KB1HK,https://www.samsung.com/hk/multistore/samsunghkem/pd.NP960XMB-KB1HK,NP960XMB-KB1HK,"$14,680","$12,038",cptqaer+2@gmail.com,!Cheil2024,"12,038",No,Book4 Edge,-,No,,-,,,,-,,,,Add to Cart,"11,888",,Z-EF-LPUN6PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,,,,,Z-SM-R400NZWATGY,,,"Z-EF-LPUN6PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,Z-SM-R400NZWATGY",4,"
+,E-NPC-05,,,,,"Galaxy Book4 Edge, 16""/X1E-84/16GB/1TB, Sapphire Blue",NP960XMBA-EXP,N,NP960XMB-KB1HK,https://www.samsung.com/hk/multistore/samsunghkem/pd.NP960XMB-KB1HK,NP960XMB-KB1HK,"$14,680","$12,038",cptqaer+2@gmail.com,!Cheil2024,"12,038",No,Book4 Edge,-,No,,-,,,,-,,,,Add to Cart,"11,888",,Z-EF-LPUN6PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,,,,,Z-SM-R400NZWATGY,,,"Z-EF-LPUN6PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,Z-SM-R400NZWATGY",4,"
 ●  1 x  Galaxy Book3 Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
 ●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
 ●  1 x  Galaxy Watch4 40mm (Bluetooth) [Z-SM-R860NZKAASA]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-NPC-06,,,,,"Galaxy Book4 Edge, 14""/X1E-80/16GB/512GB, Sapphire Blue",NP940XMAA-EXP,N,NP940XMA-KB1HK,https://www.samsung.com/hk/multistore/samsunghkem/pd.NP940XMA-KB1HK,NP940XMA-KB1HK,"$11,980","$9,824",cptqaer+2@gmail.com,!Cheil2024,"9,824",No,Book4 Edge,-,No,,-,,,,-,,,,Add to Cart,"9,674",,Z-EF-LPUN4PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,,,,,Z-SM-R400NZWATGY,,,"Z-EF-LPUN4PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,Z-SM-R400NZWATGY",4,"
+,E-NPC-06,,,,,"Galaxy Book4 Edge, 14""/X1E-80/16GB/512GB, Sapphire Blue",NP940XMAA-EXP,N,NP940XMA-KB1HK,https://www.samsung.com/hk/multistore/samsunghkem/pd.NP940XMA-KB1HK,NP940XMA-KB1HK,"$11,980","$9,824",cptqaer+2@gmail.com,!Cheil2024,"9,824",No,Book4 Edge,-,No,,-,,,,-,,,,Add to Cart,"9,674",,Z-EF-LPUN4PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,,,,,Z-SM-R400NZWATGY,,,"Z-EF-LPUN4PBEGWW,Z-SM-X110NZAATGY,Z-SM-R860NZKAASA,Z-SM-R400NZWATGY",4,"
 ●  1 x  Galaxy Book3 Slim Pouch 14"" [Z-EF-LPUN4PBEGWW]
 ●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
 ●  1 x  Galaxy Watch4 40mm (Bluetooth) [Z-SM-R860NZKAASA]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-NPC-07,,,,,"Galaxy Book4 Edge, 15.6""/X1P-42/16GB/512GB, Sapphire Blue",NP750XQA-KB2HK,EOL,NP750XQA-KB2HK,https://www.samsung.com/hk/multistore/samsunghkem/pd.NP750XQA-KB2HK,NP750XQA-KB2HK,,,cptqaer+2@gmail.com,!Cheil2024,,No,,-,No,,-,,,,-,,,,Add to Cart,-150,,,,,,,,,,,,,0,"
+,E-NPC-07,,,,,"Galaxy Book4 Edge, 15.6""/X1P-42/16GB/512GB, Sapphire Blue",NP750XQA-KB2HK,N,NP750XQA-KB2HK,https://www.samsung.com/hk/multistore/samsunghkem/pd.NP750XQA-KB2HK,NP750XQA-KB2HK,"$7,180","$6,462",cptqaer+2@gmail.com,!Cheil2024,"6,462",No,,-,No,,-,,,,-,,,,Add to Cart,"6,312",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-NPC-08,,,,,"Galaxy Book4 360 15.6""/i7/16GB/1TB",NP750QGKA-EXP,N,NP750QGK-KS1HK,https://www.samsung.com/hk/multistore/samsunghkem/pd.NP750QGK-KS1HK,NP750QGK-KS1HK,"$11,580","$9,496",cptqaer+2@gmail.com,!Cheil2024,"9,496",No,Book4 360,-,No,,-,,,,-,,,,Add to Cart,"9,346",,Z-EB-P4520XUEGWW-M,,,,,,,Z-SM-R400NZWATGY,,,"Z-EB-P4520XUEGWW-M,Z-SM-R400NZWATGY",2,"
+,E-NPC-08,,,,,"Galaxy Book4 360 15.6""/i7/16GB/1TB",NP750QGKA-EXP,N,NP750QGK-KS1HK,https://www.samsung.com/hk/multistore/samsunghkem/pd.NP750QGK-KS1HK,NP750QGK-KS1HK,"$11,580","$9,496",cptqaer+2@gmail.com,!Cheil2024,"9,496",No,Book4 360,-,No,,-,,,,-,,,,Add to Cart,"9,346",,Z-EB-P4520XUEGWW-M,,,,,,,Z-SM-R400NZWATGY,,,"Z-EB-P4520XUEGWW-M,Z-SM-R400NZWATGY",2,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-NPC-09,,,,,"Galaxy Book4 15.6""/i7/16GB/512GB",NP750XGKA-EXP,N,NP750XGK-KA3HK,https://www.samsung.com/hk/multistore/samsunghkem/pd.NP750XGK-KA3HK,NP750XGK-KA3HK,"$8,180","$6,708",cptqaer+2@gmail.com,!Cheil2024,"6,708",No,Book4,-,No,,-,,,,-,,,,Add to Cart,"6,558",,Z-EB-P4520XUEGWW-M,,,,,,,Z-SM-R400NZWATGY,,,"Z-EB-P4520XUEGWW-M,Z-SM-R400NZWATGY",2,"
+,E-NPC-09,,,,,"Galaxy Book4 15.6""/i7/16GB/512GB",NP750XGKA-EXP,N,NP750XGK-KA3HK,https://www.samsung.com/hk/multistore/samsunghkem/pd.NP750XGK-KA3HK,NP750XGK-KA3HK,"$8,180","$6,708",cptqaer+2@gmail.com,!Cheil2024,"6,708",No,Book4,-,No,,-,,,,-,,,,Add to Cart,"6,558",,Z-EB-P4520XUEGWW-M,,,,,,,Z-SM-R400NZWATGY,,,"Z-EB-P4520XUEGWW-M,Z-SM-R400NZWATGY",2,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
@@ -347,26 +346,26 @@ Sola,E-NPC-09,,,,,"Galaxy Book4 15.6""/i7/16GB/512GB",NP750XGKA-EXP,N,NP750XGK-K
 ,E-ME-13,,,,,"Galaxy Watch7 40mm (BT), Green",SM-L300,N,SM-L300NZGATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-L300NZGATGY,SM-L300NZGATGY,"$2,398","$2,038",cptqaer+2@gmail.com,!Cheil2024,"2,038",No,,-,No,,-,,,,-,,,,Add to Cart,"2,038",,,,,Z-ITFITPW12,,,,,,,Z-ITFITPW12,1,"
 ●  1 x  ITFIT Night-Light Wireless Charger [Z-ITFITPW12]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,E-ME-14,,,,,"Galaxy Watch7 40mm (LTE), Green",SM-L305F,N,SM-L305FZGATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-L305FZGATGY,SM-L305FZGATGY,"$2,798","$2,378",cptqaer+2@gmail.com,!Cheil2024,"2,378",No,,-,No,,-,,,,-,,,,Add to Cart,"2,378",,,,,Z-ITFITPW12,,,,,,,Z-ITFITPW12,1,"
+,E-ME-14,,,,,"Galaxy Watch7 40mm (LTE), Green",SM-L305F,N,SM-L305FZGATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-L305FZGATGY,SM-L305FZGATGY,"$2,798","$2,038",cptqaer+2@gmail.com,!Cheil2024,"2,038",No,,-,No,,-,,,,-,,,,Add to Cart,"2,038",,,,,Z-ITFITPW12,,,,,,,Z-ITFITPW12,1,"
 ●  1 x  ITFIT Night-Light Wireless Charger [Z-ITFITPW12]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-ME-15,,,,,"Galaxy Watch7 44mm (BT), Green",SM-L310,N,SM-L310NZGATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-L310NZGATGY,SM-L310NZGATGY,"$2,598","$2,208",cptqaer+2@gmail.com,!Cheil2024,"2,208",No,,-,No,,-,,,,-,,,,Add to Cart,"2,208",,,,,Z-ITFITPW12,,,,,,,Z-ITFITPW12,1,"
 ●  1 x  ITFIT Night-Light Wireless Charger [Z-ITFITPW12]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-ME-16,,,,,"Galaxy Watch7 44mm (LTE), Green",SM-L315F,N,SM-L315FZGATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-L315FZGATGY,SM-L315FZGATGY,"$2,998","$2,548",cptqaer+2@gmail.com,!Cheil2024,"2,548",No,,-,No,,-,,,,-,,,,Add to Cart,"2,548",,,,,Z-ITFITPW12,,,,,,,Z-ITFITPW12,1,"
+,E-ME-16,,,,,"Galaxy Watch7 44mm (LTE), Green",SM-L315F,N,SM-L315FZGATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-L315FZGATGY,SM-L315FZGATGY,"$2,998","$2,208",cptqaer+2@gmail.com,!Cheil2024,"2,208",No,,-,No,,-,,,,-,,,,Add to Cart,"2,208",,,,,Z-ITFITPW12,,,,,,,Z-ITFITPW12,1,"
 ●  1 x  ITFIT Night-Light Wireless Charger [Z-ITFITPW12]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-ME-17,,,,,"Galaxy Watch Ultra, Titanium Gray",SM-L705F,N,SM-L705FDAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-L705FDAATGY,SM-L705FDAATGY,"$5,098","$4,333",cptqaer+2@gmail.com,!Cheil2024,"4,333",No,,-,No,,-,,,,-,,,,Add to Cart,"4,183",,,,,Z-ITFITPW12,,,,,,,Z-ITFITPW12,1,"
+,E-ME-17,,,,,"Galaxy Watch Ultra, Titanium Gray",SM-L705F,N,SM-L705FDAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-L705FDAATGY,SM-L705FDAATGY,"$5,098","$4,333",cptqaer+2@gmail.com,!Cheil2024,"4,333",No,,-,No,,-,,,,-,,,,Add to Cart,"4,183",,,,,Z-ITFITPW12,,,,,,,Z-ITFITPW12,1,"
 ●  1 x  ITFIT Night-Light Wireless Charger [Z-ITFITPW12]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-ME-18,,,,,"Galaxy Watch FE (BT), Black",SM-R861,N,SM-R861NZKATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-R861NZKATGY,SM-R861NZKATGY,"$1,598","$1,278",cptqaer+2@gmail.com,!Cheil2024,"1,278",No,,-,No,,-,,,,-,,,,Add to Cart,"1,278",,,,,,,,,,,,,0,"
+,E-ME-18,,,,,"Galaxy Watch FE (BT), Black",SM-R861,N,SM-R861NZKATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-R861NZKATGY,SM-R861NZKATGY,"$1,598","$1,278",cptqaer+2@gmail.com,!Cheil2024,"1,278",No,,-,No,,-,,,,-,,,,Add to Cart,"1,278",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-ME-19,,,,,Galaxy Fit3,SM-R390,N,SM-R390NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-R390NZAATGY,SM-R390NZAATGY,$498,$423,cptqaer+2@gmail.com,!Cheil2024,423,No,,-,No,,-,,,,-,,,,Add to Cart,423,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-ME-20,,,,,"Galaxy Buds2 Pro, White",SM-R510,N,SM-R510NZWAASA,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-R510NZWAASA,SM-R510NZWAASA,"$1,798","$1,079",cptqaer+2@gmail.com,!Cheil2024,"1,079",No,,-,No,,-,,,,-,,,,Add to Cart,"1,079",,,,,,,,,Z-ITFITEX27,,,Z-ITFITEX27,1,"
 ●  1 x  ITFIT 3-in-1 LED Wireless Charger [Z-ITFITEX27]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-Sola,E-ME-21,,,,,"Galaxy Buds3 Pro, Silver",SM-R630,N,SM-R630NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-R630NZAATGY,SM-R630NZAATGY,"$1,998","$1,698",cptqaer+2@gmail.com,!Cheil2024,"1,698",No,,-,No,,-,,,,-,,,,Add to Cart,"1,698",,,,,Z-EP-T6530NBEGGB,,,,,,,Z-EP-T6530NBEGGB,1,"
+,E-ME-21,,,,,"Galaxy Buds3 Pro, Silver",SM-R630,N,SM-R630NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-R630NZAATGY,SM-R630NZAATGY,"$1,998","$1,698",cptqaer+2@gmail.com,!Cheil2024,"1,698",No,,-,No,,-,,,,-,,,,Add to Cart,"1,698",,,,,Z-EP-T6530NBEGGB,,,,,,,Z-EP-T6530NBEGGB,1,"
 ●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-ME-22,,,,,"Galaxy Buds3, Silver",SM-R530,N,SM-R530NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-R530NZAATGY,SM-R530NZAATGY,"$1,398","$1,188",cptqaer+2@gmail.com,!Cheil2024,"1,188",No,,-,No,,-,,,,-,,,,Add to Cart,"1,188",,,,,,,,,,,,,0,"
@@ -375,24 +374,24 @@ Sola,E-ME-21,,,,,"Galaxy Buds3 Pro, Silver",SM-R630,N,SM-R630NZAATGY,https://www
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-ME-24,,,,,SmartTag2,EI-T5600,EOL,EI-T5600BBEGWW,https://www.samsung.com/hk/multistore/samsunghkem/pd.EI-T5600BBEGWW,EI-T5600BBEGWW,,,cptqaer+2@gmail.com,!Cheil2024,,No,,-,No,,-,,,,-,,,,Add to Cart,-150,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,,,,,,,,,-,,,-,,,,-,,,,,-150,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,,,,,,,,,-,,,-,,,,-,,,,,-150,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,,,,,,,,,-,,,-,,,,-,,,,,-150,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,,,,,,,,,-,,,-,,,,-,,,,,-150,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,,,,,,,,,-,,,-,,,,-,,,,,-150,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,,,,,,,,,-,,,-,,,,-,,,,,-150,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,,,,,,,,,-,,,-,,,,-,,,,,-150,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,,,,,,,,,-,,,-,,,,-,,,,,-150,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,,,,,,,,,-,,,-,,,,-,,,,,-150,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+Ring,E-ME-25,,,,,"Galaxy Ring, Titanium Black / 5",SM-Q505,N,SM-Q505NZKATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-Q505NZKATGY,SM-Q505NZKATGY,"$3,298","$2,968",cptqaer+2@gmail.com,!Cheil2024,"2,968",No,,-,No,,-,,,,-,,,,Add to Cart,"2,968",,,,,,,,,,,,,0,"
+",45602,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+Ring,E-ME-26,,,,,"Galaxy Ring, Titanium Black / 6",SM-Q506,N,SM-Q506NZKATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-Q506NZKATGY,SM-Q506NZKATGY,"$3,298","$2,968",cptqaer+2@gmail.com,!Cheil2024,"2,968",No,,-,No,,-,,,,-,,,,Add to Cart,"2,968",,,,,,,,,,,,,0,"
+",45602,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+Ring,E-ME-27,,,,,"Galaxy Ring, Titanium Black / 7",SM-Q507,N,SM-Q507NZKATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-Q507NZKATGY,SM-Q507NZKATGY,"$3,298","$2,968",cptqaer+2@gmail.com,!Cheil2024,"2,968",No,,-,No,,-,,,,-,,,,Add to Cart,"2,968",,,,,,,,,,,,,0,"
+",45602,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+Ring,E-ME-28,,,,,"Galaxy Ring, Titanium Black / 8",SM-Q508,N,SM-Q508NZKATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-Q508NZKATGY,SM-Q508NZKATGY,"$3,298","$2,968",cptqaer+2@gmail.com,!Cheil2024,"2,968",No,,-,No,,-,,,,-,,,,Add to Cart,"2,968",,,,,,,,,,,,,0,"
+",45602,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+Ring,E-ME-29,,,,,"Galaxy Ring, Titanium Black / 9",SM-Q509,N,SM-Q509NZKATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-Q509NZKATGY,SM-Q509NZKATGY,"$3,298","$2,968",cptqaer+2@gmail.com,!Cheil2024,"2,968",No,,-,No,,-,,,,-,,,,Add to Cart,"2,968",,,,,,,,,,,,,0,"
+",45602,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+Ring,E-ME-30,,,,,"Galaxy Ring, Titanium Black / 10",SM-Q500,N,SM-Q500NZKATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-Q500NZKATGY,SM-Q500NZKATGY,"$3,298","$2,968",cptqaer+2@gmail.com,!Cheil2024,"2,968",No,,-,No,,-,,,,-,,,,Add to Cart,"2,968",,,,,,,,,,,,,0,"
+",45611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+Ring,E-ME-31,,,,,"Galaxy Ring, Titanium Black / 11",SM-Q501,N,SM-Q501NZKATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-Q501NZKATGY,SM-Q501NZKATGY,"$3,298","$2,968",cptqaer+2@gmail.com,!Cheil2024,"2,968",No,,-,No,,-,,,,-,,,,Add to Cart,"2,968",,,,,,,,,,,,,0,"
+",45611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+Ring,E-ME-32,,,,,"Galaxy Ring, Titanium Black / 12",SM-Q502,N,SM-Q502NZKATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-Q502NZKATGY,SM-Q502NZKATGY,"$3,298","$2,968",cptqaer+2@gmail.com,!Cheil2024,"2,968",No,,-,No,,-,,,,-,,,,Add to Cart,"2,968",,,,,,,,,,,,,0,"
+",45602,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+Ring,E-ME-33,,,,,"Galaxy Ring, Titanium Black / 13",SM-Q503,N,SM-Q503NZKATGY,https://www.samsung.com/hk/multistore/samsunghkem/pd.SM-Q503NZKATGY,SM-Q503NZKATGY,"$3,298","$2,968",cptqaer+2@gmail.com,!Cheil2024,"2,968",No,,-,No,,-,,,,-,,,,Add to Cart,"2,968",,,,,,,,,,,,,0,"
+",45602,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,,,,,,,,EOL,,,,,,,,,,,-,,,-,,,,-,,,,,-150,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,,,,,,,,EOL,,,,,,,,,,,-,,,-,,,,-,,,,,-150,,,,,,,,,,,,,0,"
