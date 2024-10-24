@@ -1,6 +1,6 @@
 {
     "Name": "UnitTest_CartChecking",
-    "CreationDate": "2024-10-13",
+    "CreationDate": "2024-10-25",
     "Commands":
     [
         {
@@ -437,7 +437,7 @@
         },
         {
             "Command": "storeText",
-            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//span[@class=\"price__current\"]",
+            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//span[contains(@class,\"price__current\")]",
             "Value": "SKUPriceCart",
             "Description": ""
         },
@@ -551,7 +551,7 @@
         },
         {
             "Command": "storeText",
-            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[@data-modelcode=\"TRADE-IN\"]//span[@class=\"colorBlack\"]",
+            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[@data-modelcode=\"TRADE-IN\"]//span[contains(@class,\"colorBlack\")]",
             "Value": "TradeInRebate",
             "Description": ""
         },
@@ -707,7 +707,7 @@
         },
         {
             "Command": "storeText",
-            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__trade-up\")]//div[contains(@class,\"action-text\")]//span[@class=\"text-nowrap\"]",
+            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__trade-up\")]//div[contains(@class,\"action-text\")]//span[contains(@class,\"text-nowrap\")]",
             "Value": "TradeUpDiscount",
             "Description": ""
         },
@@ -1133,13 +1133,13 @@
         },
         {
             "Command": "storeText",
-            "Target": "xpath=//div[contains(@class,\"cart-item-list\")][${!times}]//div[@class=\"cart-item__sku\"]",
+            "Target": "xpath=//div[contains(@class,\"cart-item-list\")][${!times}]//div[contains(@class,\"cart-item__sku\")]",
             "Value": "ThisSKU",
             "Description": ""
         },
         {
             "Command": "storeAttribute",
-            "Target": "xpath=//div[contains(@class,\"cart-item-list\")][${!times}]//cart-item-counter//button[@class=\"btn-qty-plus\"]@data-modelunit",
+            "Target": "xpath=//div[contains(@class,\"cart-item-list\")][${!times}]//cart-item-counter//button[contains(@class,\"btn-qty-plus\")]@data-modelunit",
             "Value": "ThisQty",
             "Description": ""
         },
@@ -1367,7 +1367,7 @@
         },
         {
             "Command": "click",
-            "Target": "xpath=//div[@data-modelcode=\"${SKU}\"]//button[@class=\"cart-item__remove--btn\"]",
+            "Target": "xpath=//div[@data-modelcode=\"${SKU}\"]//button[contains(@class,\"cart-item__remove--btn\")]",
             "Value": "",
             "Description": ""
         },
@@ -1409,7 +1409,7 @@
         },
         {
             "Command": "storeXpathCount",
-            "Target": "xpath=//button[@class=\"cart-item__remove--btn\"]",
+            "Target": "xpath=//button[contains(@class,\"cart-item__remove--btn\")]",
             "Value": "RemoveIconCount",
             "Description": ""
         },
@@ -1427,7 +1427,7 @@
         },
         {
             "Command": "click",
-            "Target": "xpath=//button[@class=\"cart-item__remove--btn\"]",
+            "Target": "xpath=//button[contains(@class,\"cart-item__remove--btn\")]",
             "Value": "",
             "Description": ""
         },
