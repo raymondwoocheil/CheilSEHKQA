@@ -119,7 +119,7 @@
         },
         {
             "Command": "csvSave",
-            "Target": "_Results-${TestCat}-${DateToday}-${loopStream}.csv",
+            "Target": "_Results-${TestCat}${TestSite}-${DateToday}-${loopStream}.csv",
             "Value": "",
             "Description": ""
         },

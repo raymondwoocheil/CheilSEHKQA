@@ -1,6 +1,6 @@
 {
     "Name": "_LoopMaster_2",
-    "CreationDate": "2024-10-13",
+    "CreationDate": "2024-10-27",
     "Commands":
     [
         {
@@ -28,14 +28,14 @@
             "Description": ""
         },
         {
-            "Command": "comment",
-            "Target": "store // true",
+            "Command": "store",
+            "Target": "true",
             "Value": "runTesterLinesOnly",
             "Description": ""
         },
         {
-            "Command": "store",
-            "Target": "false",
+            "Command": "comment",
+            "Target": "store // false",
             "Value": "runTesterLinesOnly",
             "Description": ""
         },
@@ -100,14 +100,14 @@
             "Description": ""
         },
         {
-            "Command": "store",
-            "Target": "Yes",
+            "Command": "comment",
+            "Target": "store // Yes",
             "Value": "globalSkipTradeIn",
             "Description": ""
         },
         {
-            "Command": "comment",
-            "Target": "store // No",
+            "Command": "store",
+            "Target": "No",
             "Value": "globalSkipTradeIn",
             "Description": ""
         },
@@ -124,14 +124,14 @@
             "Description": ""
         },
         {
-            "Command": "store",
-            "Target": "Yes",
+            "Command": "comment",
+            "Target": "store // Yes",
             "Value": "globalSkipTradeUp",
             "Description": ""
         },
         {
-            "Command": "comment",
-            "Target": "store // No",
+            "Command": "store",
+            "Target": "No",
             "Value": "globalSkipTradeUp",
             "Description": ""
         },
@@ -148,14 +148,14 @@
             "Description": ""
         },
         {
-            "Command": "store",
-            "Target": "Yes",
+            "Command": "comment",
+            "Target": "store // Yes",
             "Value": "globalSkipSCPlus",
             "Description": ""
         },
         {
-            "Command": "comment",
-            "Target": "store // No",
+            "Command": "store",
+            "Target": "No",
             "Value": "globalSkipSCPlus",
             "Description": ""
         },

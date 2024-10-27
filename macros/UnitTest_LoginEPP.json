@@ -23,7 +23,7 @@
         },
         {
             "Command": "verifyElementPresent",
-            "Target": "xpath=//*[@data-automation-id=\"epp-login-button\"]",
+            "Target": "xpath=//cx-page-slot[contains(\"MultistoreLogin\")]//button[@data-an-tr=\"account-login\"]",
             "Value": "!statusOK",
             "Description": ""
         },
@@ -35,7 +35,7 @@
         },
         {
             "Command": "click",
-            "Target": "xpath=//*[@data-automation-id=\"epp-login-button\"]",
+            "Target": "xpath=//cx-page-slot[contains(\"MultistoreLogin\")]//button[@data-an-tr=\"account-login\"]",
             "Value": "",
             "Description": ""
         },

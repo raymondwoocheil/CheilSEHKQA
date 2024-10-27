@@ -1,6 +1,6 @@
 {
   "Name": "_LoopMaster_1",
-  "CreationDate": "2024-10-25",
+  "CreationDate": "2024-10-27",
   "Commands": [
     {
       "Command": "store",
@@ -16,7 +16,7 @@
     },
     {
       "Command": "store",
-      "Target": "75",
+      "Target": "5",
       "Value": "startingLineNumber",
       "Description": ""
     },
@@ -27,14 +27,14 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // true",
+      "Command": "store",
+      "Target": "true",
       "Value": "runTesterLinesOnly",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "false",
+      "Command": "comment",
+      "Target": "store // false",
       "Value": "runTesterLinesOnly",
       "Description": ""
     },
@@ -111,14 +111,14 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // Yes",
+      "Command": "store",
+      "Target": "Yes",
       "Value": "globalAddTradeInCart",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "No",
+      "Command": "comment",
+      "Target": "store // No",
       "Value": "globalAddTradeInCart",
       "Description": ""
     },
@@ -135,14 +135,14 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // Yes",
+      "Command": "store",
+      "Target": "Yes",
       "Value": "globalAddTradeUpCart",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "No",
+      "Command": "comment",
+      "Target": "store // No",
       "Value": "globalAddTradeUpCart",
       "Description": ""
     },
@@ -159,14 +159,14 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // Yes",
+      "Command": "store",
+      "Target": "Yes",
       "Value": "globalAddSCPlusCart",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "No",
+      "Command": "comment",
+      "Target": "store // No",
       "Value": "globalAddSCPlusCart",
       "Description": ""
     },

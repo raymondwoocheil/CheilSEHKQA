@@ -40,8 +40,19 @@
             "Description": ""
         },
         {
+            "Command": "executeScript",
+            "Target": "return (window.location.href)",
+            "Value": "currentURL"
+        },
+        {
             "Command": "if_v2",
             "Target": "${TestSite}==\"SPP\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${currentURL}!=\"https://shop.samsung.com/hk/multistore/hkedu/hkeducation/cart\"",
             "Value": "",
             "Description": ""
         },
@@ -52,8 +63,20 @@
             "Description": ""
         },
         {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
             "Command": "elseif",
             "Target": "${TestSite}==\"EPP\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${currentURL}!=\"https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/cart\"",
             "Value": "",
             "Description": ""
         },
@@ -64,14 +87,32 @@
             "Description": ""
         },
         {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
             "Command": "else",
             "Target": "",
             "Value": "",
             "Description": ""
         },
         {
+            "Command": "if_v2",
+            "Target": "${currentURL}!=\"https://shop.samsung.com/hk/cart\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
             "Command": "open",
             "Target": "https://shop.samsung.com/hk/cart",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
             "Value": "",
             "Description": ""
         },

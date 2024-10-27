@@ -1,6 +1,6 @@
 {
     "Name": "TestMaster",
-    "CreationDate": "2024-10-13",
+    "CreationDate": "2024-10-27",
     "Commands":
     [
         {
@@ -142,8 +142,8 @@
             "Description": ""
         },
         {
-            "Command": "store",
-            "Target": "${!COL18}",
+            "Command": "executeScript",
+            "Target": "return ${!COL18}.substring(0,3)",
             "Value": "TradeIn",
             "Description": ""
         },
@@ -347,12 +347,6 @@
         },
         {
             "Command": "verifyElementNotPresent",
-            "Target": "xpath=//div[@ng-controller=\"multistoreLoginController\"]",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "verifyElementNotPresent",
             "Target": "xpath=//cx-page-layout[@class=\"MultiStoreLoginTemplate\"]",
             "Value": "",
             "Description": ""
@@ -385,6 +379,12 @@
             "Command": "comment",
             "Target": "##########################",
             "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "fast",
+            "Value": "!replayspeed",
             "Description": ""
         },
         {
@@ -461,7 +461,7 @@
         },
         {
             "Command": "verifyElementPresent",
-            "Target": "xpath=//div[@class=\"hubble-product__total-cta\"]//*[contains(text(),\"立即購買\")]",
+            "Target": "xpath=//div[@class=\"hubble-product__total-cta\"]//div[contains(@class,\"s-hubble-total-cta\")]//a[contains(@class,\"cta--contained\")]",
             "Value": "",
             "Description": ""
         },
@@ -772,6 +772,12 @@
             "Description": ""
         },
         {
+            "Command": "comment",
+            "Target": "store // medium",
+            "Value": "!replayspeed",
+            "Description": ""
+        },
+        {
             "Command": "click",
             "Target": "xpath=//*[@an-la=\"samsung care:none\"]",
             "Value": "",
@@ -822,6 +828,12 @@
         {
             "Command": "comment",
             "Target": "click // xpath=//*[@id=\"care-rdo${SCPlusOptionCount}\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "waitForElementVisible",
+            "Target": "xpath=//*[@id=\"care-chk1\"]",
             "Value": "",
             "Description": ""
         },
@@ -1163,7 +1175,7 @@
         },
         {
             "Command": "verifyElementPresent",
-            "Target": "xpath=//*[contains(@class, \"js-buy-now\")]",
+            "Target": "xpath=//section[contains(@class,\"pd-buying-tool\")]//*[contains(@class, \"js-buy-now\")]",
             "Value": "",
             "Description": ""
         },
@@ -1559,7 +1571,7 @@
         },
         {
             "Command": "click",
-            "Target": "xpath=//*[contains(@class, \"js-buy-now\")]",
+            "Target": "xpath=//section[contains(@class,\"pd-buying-tool\")]//*[contains(@class, \"js-buy-now\")]",
             "Value": "",
             "Description": ""
         },
@@ -1583,7 +1595,13 @@
         },
         {
             "Command": "pause",
-            "Target": "100",
+            "Target": "3000",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "verifyElementPresent",
+            "Target": "xpath=//section[contains(@class,\"pdd16-step-buying\")]",
             "Value": "",
             "Description": ""
         },
