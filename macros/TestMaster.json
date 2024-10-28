@@ -149,7 +149,7 @@
         },
         {
             "Command": "executeScript",
-            "Target": "return Number(${!COL20}.replace(/[^0-9.-]+/g,\"\"));",
+            "Target": "return Number(${!COL20}.replace(/[^0-9.-]+/g,\"\")) || 0;",
             "Value": "ExpectedTradeInRebate",
             "Description": ""
         },
@@ -167,7 +167,7 @@
         },
         {
             "Command": "executeScript",
-            "Target": "return Number(${!COL20}.replace(/[^0-9.-]+/g,\"\"));",
+            "Target": "return Number(${!COL20}.replace(/[^0-9.-]+/g,\"\")) || 0;",
             "Value": "ExpectedTradeUpDiscount",
             "Description": ""
         },
@@ -185,13 +185,13 @@
         },
         {
             "Command": "executeScript",
-            "Target": "return Number(${!COL23}.replace(/[^0-9.-]+/g,\"\"));",
+            "Target": "return Number(${!COL23}.replace(/[^0-9.-]+/g,\"\")) || 0;",
             "Value": "ExpectedSCPlusPrice",
             "Description": ""
         },
         {
             "Command": "executeScript",
-            "Target": "return Number(${!COL26}.replace(/[^0-9.-]+/g,\"\"));",
+            "Target": "return Number(${!COL26}.replace(/[^0-9.-]+/g,\"\")) || 0;",
             "Value": "ExpectedGalaxyCredit",
             "Description": ""
         },
@@ -215,13 +215,13 @@
         },
         {
             "Command": "executeScript",
-            "Target": "return Number(${!COL17}.replace(/[^0-9.-]+/g,\"\"));",
+            "Target": "return Number(${!COL17}.replace(/[^0-9.-]+/g,\"\")) || 0;",
             "Value": "ExpectedSKUPrice",
             "Description": ""
         },
         {
             "Command": "executeScript",
-            "Target": "return Number(${!COL32}.replace(/[^0-9.-]+/g,\"\"));",
+            "Target": "return Number(${!COL32}.replace(/[^0-9.-]+/g,\"\")) || 0;",
             "Value": "ExpectedSKUPriceCart",
             "Description": ""
         },
