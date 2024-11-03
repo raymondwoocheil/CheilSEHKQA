@@ -11,20 +11,20 @@
         },
         {
             "Command": "store",
-            "Target": "1",
+            "Target": "2",
             "Value": "loopStream",
             "Description": ""
         },
         {
-            "Command": "store",
-            "Target": "5",
-            "Value": "startingLineNumber",
+            "Command": "comment",
+            "Target": "**Start of Global Settings**",
+            "Value": "TestSite",
             "Description": ""
         },
         {
             "Command": "store",
-            "Target": "350",
-            "Value": "endingLineNumber",
+            "Target": "5-250",
+            "Value": "lineRange",
             "Description": ""
         },
         {
@@ -34,39 +34,21 @@
             "Description": ""
         },
         {
-            "Command": "store",
-            "Target": "false",
-            "Value": "runTesterLinesOnly",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "true",
+            "Command": "comment",
+            "Target": "store // true",
             "Value": "skipEOL",
             "Description": ""
         },
         {
             "Command": "comment",
-            "Target": "store // false",
-            "Value": "skipEOL",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "true",
+            "Target": "store // true",
             "Value": "skip0gift",
             "Description": ""
         },
         {
             "Command": "comment",
-            "Target": "store // false",
-            "Value": "skip0gift",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "cptqaer@gmail.com",
-            "Value": "TestAccount",
+            "Target": "store // true",
+            "Value": "run0gift",
             "Description": ""
         },
         {
@@ -88,8 +70,8 @@
             "Description": ""
         },
         {
-            "Command": "comment",
-            "Target": "store // ",
+            "Command": "store",
+            "Target": "",
             "Value": "TestSite",
             "Description": ""
         },
@@ -100,14 +82,8 @@
             "Description": ""
         },
         {
-            "Command": "store",
-            "Target": "EPP",
-            "Value": "TestSite",
-            "Description": ""
-        },
-        {
             "Command": "comment",
-            "Target": "**Start of Global Trade-in/up/ScPlus Settings**",
+            "Target": "store // EPP",
             "Value": "TestSite",
             "Description": ""
         },
@@ -184,9 +160,27 @@
             "Description": ""
         },
         {
+            "Command": "store",
+            "Target": "cptqaer@gmail.com",
+            "Value": "TestAccount",
+            "Description": ""
+        },
+        {
             "Command": "comment",
-            "Target": "**End of Global Trade-in/up/ScPlus Settings**",
+            "Target": "**End of Global Settings**",
             "Value": "TestSite",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(${lineRange}.split(\"-\")[0]);",
+            "Value": "startingLineNumber",
+            "Description": ""
+        },
+        {
+            "Command": "executeScript",
+            "Target": "return Number(${lineRange}.split(\"-\")[1]);",
+            "Value": "endingLineNumber",
             "Description": ""
         },
         {
@@ -256,6 +250,12 @@
             "Description": ""
         },
         {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!errorignore",
+            "Description": ""
+        },
+        {
             "Command": "echo",
             "Target": "status = ${!csvReadStatus}, line = ${!csvReadLineNumber}",
             "Value": "",
@@ -268,6 +268,12 @@
             "Description": ""
         },
         {
+            "Command": "store",
+            "Target": "true",
+            "Value": "runThisTest",
+            "Description": ""
+        },
+        {
             "Command": "if",
             "Target": "${runTesterLinesOnly}==\"true\"",
             "Value": "",
@@ -275,7 +281,25 @@
         },
         {
             "Command": "if",
-            "Target": "${!COL1}!=\"\"",
+            "Target": "${!COL1}==\"\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "false",
+            "Value": "runThisTest",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
             "Value": "",
             "Description": ""
         },
@@ -287,7 +311,25 @@
         },
         {
             "Command": "if",
-            "Target": "${!COL8}!=\"EOL\"",
+            "Target": "${!COL8}==\"EOL\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "false",
+            "Value": "runThisTest",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
             "Value": "",
             "Description": ""
         },
@@ -299,20 +341,14 @@
         },
         {
             "Command": "if",
-            "Target": "${!COL45}<>\"0\"",
+            "Target": "${!COL45}==\"0\"",
             "Value": "",
             "Description": ""
         },
         {
-            "Command": "run",
-            "Target": "${TestMacro}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
+            "Command": "store",
+            "Target": "false",
+            "Value": "runThisTest",
             "Description": ""
         },
         {
@@ -323,55 +359,31 @@
         },
         {
             "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "else",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "run",
-            "Target": "${TestMacro}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "else",
             "Target": "",
             "Value": "",
             "Description": ""
         },
         {
             "Command": "if",
-            "Target": "${skipEOL}==\"true\"",
+            "Target": "${run0gift}==\"true\"",
             "Value": "",
             "Description": ""
         },
         {
             "Command": "if",
-            "Target": "${!COL9}!=\"EOL\"",
+            "Target": "${!COL45}!=\"0\"",
             "Value": "",
             "Description": ""
         },
         {
-            "Command": "run",
-            "Target": "${TestMacro}",
+            "Command": "store",
+            "Target": "false",
+            "Value": "runThisTest",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
             "Value": "",
             "Description": ""
         },
@@ -382,20 +394,14 @@
             "Description": ""
         },
         {
-            "Command": "else",
-            "Target": "",
+            "Command": "if",
+            "Target": "${runThisTest}==\"true\"",
             "Value": "",
             "Description": ""
         },
         {
             "Command": "run",
             "Target": "${TestMacro}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
             "Value": "",
             "Description": ""
         },
