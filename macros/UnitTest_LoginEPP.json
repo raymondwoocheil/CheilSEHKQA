@@ -1,6 +1,6 @@
 {
-    "Name": "LoginEPP",
-    "CreationDate": "2024-10-12",
+    "Name": "UnitTest_LoginEPP",
+    "CreationDate": "2024-11-2",
     "Commands":
     [
         {
@@ -23,7 +23,7 @@
         },
         {
             "Command": "verifyElementPresent",
-            "Target": "xpath=//cx-page-slot[contains(\"MultistoreLogin\")]//button[@data-an-tr=\"account-login\"]",
+            "Target": "xpath=//cx-page-slot[contains(@class,\"MultistoreLogin\")]//button[@data-an-tr=\"account-login\"]",
             "Value": "!statusOK",
             "Description": ""
         },
@@ -35,7 +35,31 @@
         },
         {
             "Command": "click",
-            "Target": "xpath=//cx-page-slot[contains(\"MultistoreLogin\")]//button[@data-an-tr=\"account-login\"]",
+            "Target": "xpath=//cx-page-slot[contains(@class,\"MultistoreLogin\")]//button[@data-an-tr=\"account-login\"]",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "pause",
+            "Target": "2000",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "true",
+            "Value": "!statusOK",
+            "Description": ""
+        },
+        {
+            "Command": "verifyElementPresent",
+            "Target": "xpath=//main[contains(@class,\"new-login\")]",
+            "Value": "!statusOK",
+            "Description": ""
+        },
+        {
+            "Command": "if_v2",
+            "Target": "${!statusOK}==true",
             "Value": "",
             "Description": ""
         },
@@ -60,6 +84,18 @@
         {
             "Command": "click",
             "Target": "id=signInButton",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "pause",
+            "Target": "2000",
             "Value": "",
             "Description": ""
         },

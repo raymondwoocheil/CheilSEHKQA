@@ -1,6 +1,6 @@
 CE,,,,,,,,,,,Via buy page,,,,,Go to B2C Cart Page,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Assigned,Test Case,,,,,,,,,,8,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,,,,,,,,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,,B2C only,B2C only,B2C only,,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Verify / AC >>,Step >>,Verify / AC >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,,
-Tester,ID,Manual Cart,Manual Checkout,Auto Cart,Auto Checkout,Model,FAMILY,Active,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-up,Trade-up-discount,Verify trade-up discount,,,,,,,,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass,Mass,Mass,Mass,Mass,Mass,Warrenty,Autumn 9-31/10,,Swap gift,Array,Total,"Verify Free Premiums in Cart (SKU)
+Assigned,Test Case,,,,,,,,,,23,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,,,,,,,,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,,B2C only,B2C only,B2C only,,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Verify / AC >>,Step >>,Verify / AC >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,,
+Tester,ID,Auto Cart,Manual Cart,Manual Checkout,Auto Checkout,Model,FAMILY,Active,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-up,Trade-up-discount,Verify trade-up discount,,,,,,,,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass,Mass,Mass,Mass,Mass,Mass,Warrenty,,,Swap gift,Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)","Verify Expired Premiums 
 NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,"Guest or login, proceed to delivery option",Verify these Delivery Option available,Delivery method action,Verify these criteria,,Verify Expected Delivery Date,Checkout Page Result,Screencap,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,Line No.,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,Extra Trade-In Rebate label,Trade-In Rebate captured,Rebate result,SC+ label,SC+ captured,SC+ result,Premium SKU count,Count captured,Premium SKU count result,Failed reason,Items in Cart,SKU 1,Qty,,SKU 2,Qty,,SKU 3,Qty,,SKU 4,Qty,,SKU 5,Qty,,SKU 6,Qty,,SKU 7,Qty,,SKU 8,Qty,,SKU 9,Qty,,SKU 10,Qty,,Qty Total,Qty Total Result,Premium Array,Final Result,Test duration (s),,Cart Page Result,Cart Page Result,,
 ,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
@@ -26,9 +26,7 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-06,,,,,"43"" QLED Q61D",QLED 4K Q60D,N,QA43Q61DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q60d-43-inch-qled-4k-tizen-os-smart-tv-qa43q61dajxzk/,QA43Q61DAJXZK,"6,480","5,480",,,"5,480",Yes,100,100,,,,,,,,,,,Add to Cart,"5,380",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-07,,,,,"43"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA43QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-43-inch-neo-qled-4k-tizen-os-smart-tv-qa43qn90dajxzk/,QA43QN90DAJXZK,"12,490","8,480",,,"8,480",Yes,350,350,,,,,,,,,,,Add to Cart,"8,130",,Z-HW-C450/ZK,Z-Y24EPL12MPASS-C,,,,,,,,,"Z-HW-C450/ZK,Z-Y24EPL12MPASS-C",2,"
-●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
-●  1 x  Now TV Soccer Pack (Premier League & LALIGA EA SPORTS) 12-month Pass [Z-Y24EPL12MPASS-C]
+NOVMASS,CTV-07,,,,,"43"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA43QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-43-inch-neo-qled-4k-tizen-os-smart-tv-qa43qn90dajxzk/,QA43QN90DAJXZK,"10,680","7,980",,,"7,980",Yes,350,350,,,,,,,,,,,Add to Cart,"7,630",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-08,,,,,"48"" OLED S90DAE",OLED 4K S90D,N,QA48S90DAEXZK,https://www.samsung.com/hk/tvs/oled-tv/oled-4k-tizen-os-smart-tv-48-inch-qa48s90daexzk/,QA48S90DAEXZK,"13,480","10,380",,,"10,380",Yes,450,450,,,,,,,,,,,Add to Cart,"9,930",,Z-HW-C450/ZK,Z-Y24EPL12MPASS-C,,,,,,,,,"Z-HW-C450/ZK,Z-Y24EPL12MPASS-C",2,"
 ●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
@@ -46,9 +44,7 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-12,,,,,"50"" QLED QE1D",QLED 4K QE1D,N,QA50QE1DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qe1d-50-inch-qled-4k-tizen-os-smart-tv-qa50qe1dajxzk/,QA50QE1DAJXZK,"7,480","5,980",,,"5,980",Yes,300,300,,,,,,,,,,,Add to Cart,"5,680",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-13,,,,,"50"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA50QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-50-inch-neo-qled-4k-tizen-os-smart-tv-qa50qn90dajxzk/,QA50QN90DAJXZK,"14,980","10,480",,,"10,480",Yes,400,400,,,,,,,,,,,Add to Cart,"10,080",,Z-HW-C450/ZK,Z-Y24EPL12MPASS-C,,,,,,,,,"Z-HW-C450/ZK,Z-Y24EPL12MPASS-C",2,"
-●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
-●  1 x  Now TV Soccer Pack (Premier League & LALIGA EA SPORTS) 12-month Pass [Z-Y24EPL12MPASS-C]
+NOVMASS,CTV-13,,,,,"50"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA50QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-50-inch-neo-qled-4k-tizen-os-smart-tv-qa50qn90dajxzk/,QA50QN90DAJXZK,"12,580","9,980",,,"9,980",Yes,400,400,,,,,,,,,,,Add to Cart,"9,580",,,,,,,,,,,,,0,"
 ","Remove 
 Z-CESPCOUPONSx5",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-14,,,,,"55"" Lifestyle Frame LS03D",The Frame LS03D,N,QA55LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-55-inch-black-qa55ls03dajxzk/,QA55LS03DAJXZK,"15,980","13,480",,,"13,480",Yes,600,600,,,,,,,,,,,Add to Cart,"12,880",,Z-VG-SCFA55WTBRU,Z-HW-S801D/ZK,,,,,ZG-FRAMESLIMFITINSTALL,,,,"Z-VG-SCFA55WTBRU,Z-HW-S801D/ZK,ZG-FRAMESLIMFITINSTALL",3,"
@@ -68,19 +64,19 @@ Z-WMN-B50EB/XY",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
 ","Remove
 Z-WMN-B50EB/XY",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-18,,,,,"55"" Neo QLED 4K QN85D",Neo QLED 4K QN85D,N,QA55QN85DBJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn85d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn85dbjxzk/,QA55QN85DBJXZK,"11,980","11,980",,,"11,980",Yes,500,500,,,,,,,,,,,Add to Cart,"11,480",,Z-HW-S700D/ZK-C,,,,,,,,,,Z-HW-S700D/ZK-C,1,"
-●  1 x  S-Series HW-S700D Soundbar [Z-HW-S700D/ZK-C]
+NOVMASS,CTV-18,,,,,"55"" Neo QLED 4K QN85D",Neo QLED 4K QN85D,N,QA55QN85DBJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn85d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn85dbjxzk/,QA55QN85DBJXZK,"11,980","11,980",,,"11,980",Yes,500,500,,,,,,,,,,,Add to Cart,"11,480",,Z-HW-Q700D/ZK,,,,,,,,,SWAP-Z-SM-X210NZA-TV,Z-HW-Q700D/ZK,1,"
+●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ","Remove
 Z-WMN-B05FB/XY
 
 Swap Z-HW-S700D/ZK-C to Z-UA32T5300AJXZK",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-19,,,,,"55"" Neo QLED 4K QN87D",Neo QLED 4K QN87D,N,QA55QN87DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn87d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn87dajxzk/,QA55QN87DAJXZK,"16,480","12,980",,,"12,980",Yes,600,600,,,,,,,,,,,Add to Cart,"12,380",,Z-HW-S700D/ZK-C,,,,,,,,,,Z-HW-S700D/ZK-C,1,"
-●  1 x  S-Series HW-S700D Soundbar [Z-HW-S700D/ZK-C]
+NOVMASS,CTV-19,,,,,"55"" Neo QLED 4K QN87D",Neo QLED 4K QN87D,N,QA55QN87DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn87d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn87dajxzk/,QA55QN87DAJXZK,"14,380","12,980",,,"12,980",Yes,600,600,,,,,,,,,,,Add to Cart,"12,380",,Z-HW-Q700D/ZK,,,,,,,,,SWAP-Z-SM-X210NZA-TV,Z-HW-Q700D/ZK,1,"
+●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ","Remove
 Z-WMN-B05FB/XY
 
 Swap Z-HW-S700D/ZK-C to Z-UA32T5300AJXZK",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-20,,,,,"55"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA55QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn90dajxzk/,QA55QN90DAJXZK,"21,980","15,980",,,"15,980",Yes,700,700,,,,,,,,,,,Add to Cart,"15,280",,Z-HW-S700D/ZK-C,,,,,,ZG-FREE1YRWAREXT,,,,"Z-HW-S700D/ZK-C,ZG-FREE1YRWAREXT",2,"
+,CTV-20,,,,,"55"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA55QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn90dajxzk/,QA55QN90DAJXZK,"21,980","15,980",,,"15,980",Yes,700,700,,,,,,,,,,,Add to Cart,"15,280",,Z-HW-S700D/ZK-C,,,,,,ZG-FREE1YRWAREXT,,,SWAP-Z-UA32T5300AJXZK,"Z-HW-S700D/ZK-C,ZG-FREE1YRWAREXT",2,"
 ●  1 x  S-Series HW-S700D Soundbar [Z-HW-S700D/ZK-C]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ","Remove 
@@ -89,19 +85,17 @@ Z-UA32T5300AJXZK
 Z-CESPCOUPONSx5
 
 Swap Z-HW-S700D/ZK-C to Z-UA32T5300AJXZK",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-21,,,,,"55"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA55QN95DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn95d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn95dajxzk/,QA55QN95DAJXZK,"24,980","19,980",,,"19,980",Yes,900,900,,,,,,,,,,,Add to Cart,"19,080",,Z-HW-S700D/ZK-C,,,,,,ZG-FREE1YRWAREXT,Z-SM-X210NZA-TV,,,"Z-HW-S700D/ZK-C,ZG-FREE1YRWAREXT,Z-SM-X210NZA-TV",3,"
-●  1 x  S-Series HW-S700D Soundbar [Z-HW-S700D/ZK-C]
+NOVMASS,CTV-21,,,,,"55"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA55QN95DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn95d-55-inch-neo-qled-4k-tizen-os-smart-tv-qa55qn95dajxzk/,QA55QN95DAJXZK,"20,780","19,980",,,"19,980",Yes,900,900,,,,,,,,,,,Add to Cart,"19,080",,Z-HW-Q700D/ZK,,,,,,ZG-FREE1YRWAREXT,,,SWAP-Z-SM-X210NZA-TV,"Z-HW-Q700D/ZK,ZG-FREE1YRWAREXT",2,"
+●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
-●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
 ","Remove 
 Z-WMN-B05FB/XY
 Z-UA32T5300AJXZK
  Z-CESPCOUPONSx5
 
 Swap Z-HW-S700D/ZK-C to Z-UA32T5300AJXZK",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-22,,,,,"55"" OLED S90DA",OLED 4K S90D,N,QA55S90DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-55-inch-oled-4k-tizen-os-smart-tv-qa55s90dajxzk/,QA55S90DAJXZK,"21,980","15,980",,,"15,980",Yes,650,650,,,,,,,,,,,Add to Cart,"15,330",,Z-HW-S700D/ZK-C,,,,,,,Z-SM-X210NZA-TV,,,"Z-HW-S700D/ZK-C,Z-SM-X210NZA-TV",2,"
-●  1 x  S-Series HW-S700D Soundbar [Z-HW-S700D/ZK-C]
-●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
+NOVMASS,CTV-22,,,,,"55"" OLED S90DA",OLED 4K S90D,N,QA55S90DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-55-inch-oled-4k-tizen-os-smart-tv-qa55s90dajxzk/,QA55S90DAJXZK,"18,180","15,980",,,"15,980",Yes,650,650,,,,,,,,,,,Add to Cart,"15,330",,Z-HW-Q700D/ZK,,,,,,,,,SWAP-Z-SM-X210NZA-TV,Z-HW-Q700D/ZK,1,"
+●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ","Remove 
 Z-WMN-B05FB/XY
 Z-CESPCOUPONSx5
@@ -109,18 +103,17 @@ Z-Y24EPL12MPASS-C
 Z-UA32T5300AJXZK
 
 Swap Z-HW-S700D/ZK-C to Z-UA32T5300AJXZK",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-23,,,,,"55"" OLED S95D",OLED 4K S95D,N,QA55S95DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95d-55-inch-oled-4k-tizen-os-smart-tv-qa55s95dajxzk/,QA55S95DAJXZK,"24,980","19,980",,,"19,980",Yes,850,850,,,,,,,,,,,Add to Cart,"19,130",,Z-HW-S700D/ZK-C,,,,,,,Z-SM-X210NZA-TV,,,"Z-HW-S700D/ZK-C,Z-SM-X210NZA-TV",2,"
-●  1 x  S-Series HW-S700D Soundbar [Z-HW-S700D/ZK-C]
-●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
+NOVMASS,CTV-23,,,,,"55"" OLED S95D",OLED 4K S95D,N,QA55S95DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95d-55-inch-oled-4k-tizen-os-smart-tv-qa55s95dajxzk/,QA55S95DAJXZK,"21,180","19,980",,,"19,980",Yes,850,850,,,,,,,,,,,Add to Cart,"19,130",,Z-HW-Q700D/ZK,,,,,,,,,SWAP-Z-SM-X210NZA-TV,Z-HW-Q700D/ZK,1,"
+●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ","Remove Z-WMN-B16FB/XY
 Remove Z-UA32T5300AJXZK
 Remove Z-Y24EPL12MPASS-C
 
 Swap Z-HW-S700D/ZK-C to Z-UA32T5300AJXZK",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-24,,,,,"65"" Lifestyle Frame LS03D",The Frame LS03D,N,QA65LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-65-inch-black-qa65ls03dajxzk/,QA65LS03DAJXZK,"23,980","18,980",,,"18,980",Yes,900,900,,,,,,,,,,,Add to Cart,"18,080",,Z-VG-SCFA65WTB,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,,,,ZG-FRAMESLIMFITINSTALL,,,,"Z-VG-SCFA65WTB,Z-VG-SCFC32SGMXY,Z-QA32LS03CBJXZK,ZG-FRAMESLIMFITINSTALL",4,"
+NOVMASS,CTV-24,,,,,"65"" Lifestyle Frame LS03D",The Frame LS03D,N,QA65LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-65-inch-black-qa65ls03dajxzk/,QA65LS03DAJXZK,"23,180","18,980",,,"18,980",Yes,900,900,,,,,,,,,,,Add to Cart,"18,080",,Z-VG-SCFA65WTB,Z-VG-SCFC32SGMXY,Z-HW-S801D/ZK,,,,ZG-FRAMESLIMFITINSTALL,,,,"Z-VG-SCFA65WTB,Z-VG-SCFC32SGMXY,Z-HW-S801D/ZK,ZG-FRAMESLIMFITINSTALL",4,"
 ●  1 x  65"" The Frame Modern type White Bezel [Z-VG-SCFA65WTB]
 ●  1 x  32"" The Frame Beveled Sand Gold Bezel (2023) [Z-VG-SCFC32SGMXY]
-●  1 x  32"" The Frame LS03C [Z-QA32LS03CBJXZK]
+●  1 x  S-Series HW-S801D Soundbar [Z-HW-S801D/ZK]
 ●  1 x  Slim Fit Wall Mount with free installion included with The Frame TV [ZG-FRAMESLIMFITINSTALL]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-25,,,,,"65"" QLED Q60D",QLED 4K Q60D,N,QA65Q60DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q60d-65-inch-qled-4k-tizen-os-smart-tv-qa65q60dajxzk/,QA65Q60DAJXZK,"16,480","13,480",,,"13,480",Yes,500,500,,,,,,,,,,,Add to Cart,"12,980",,Z-WMN-B50EB/XY,Z-SM-X510NLGATGY-C,,,,,,,,,"Z-WMN-B50EB/XY,Z-SM-X510NLGATGY-C",2,"
@@ -132,112 +125,90 @@ Swap Z-HW-S700D/ZK-C to Z-UA32T5300AJXZK",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,
 ●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-C]
 ","Remove
 Z-UA32T5300AJXZK",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-27,,,,,"65"" Neo QLED 8K QN800D",Neo QLED 8K QN800D,N,QA65QN800DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn800d-65-inch-neo-qled-8k-tizen-os-smart-tv-qa65qn800djxzk/,QA65QN800DJXZK,"42,980","34,980",,,34980,Yes,"1,700","1,700",,,,,,,,,,,Add to Cart,"33,280",,Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,,,,,ZG-FREE1YRWAREXT,Z-SM-X510NLGATGY-C,,,"Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,ZG-FREE1YRWAREXT,Z-SM-X510NLGATGY-C",4,"
+NOVMASS-S24,CTV-27,,,,,"65"" Neo QLED 8K QN800D",Neo QLED 8K QN800D,N,QA65QN800DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn800d-65-inch-neo-qled-8k-tizen-os-smart-tv-qa65qn800djxzk/,QA65QN800DJXZK,"35,880","34,980",,,34980,Yes,"1,700","1,700",,,,,,,,,,,Add to Cart,"33,280",,Z-WMN-B16FB/XY,,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,ZG-FREE1YRWAREXT",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
-●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-28,,,,,"65"" Neo QLED 4K QN87D",Neo QLED 4K QN87D,N,QA65QN87DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn87d-65-inch-neo-qled-4k-tizen-os-smart-tv-qa65qn87dajxzk/,QA65QN87DAJXZK,"27,980","15,980",,,"15,980",Yes,750,750,,,,,,,,,,,Add to Cart,"15,230",,Z-WMN-B16FB/XY,Z-SM-X210NZA-TV,,,,,,,,,"Z-WMN-B16FB/XY,Z-SM-X210NZA-TV",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-29,,,,,"65"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA65QN900DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn900d-65-inch-neo-qled-8k-tizen-os-smart-tv-qa65qn900djxzk/,QA65QN900DJXZK,"49,980","39,980",,,"39,980",Yes,"1,600","1,600",,,,,,,,,,,Add to Cart,"38,380",,Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,,,,,ZG-FREE1YRWAREXT,Z-SM-X510NLGATGY-C,,,"Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,ZG-FREE1YRWAREXT,Z-SM-X510NLGATGY-C",4,"
+NOVMASS-S24,CTV-29,,,,,"65"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA65QN900DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn900d-65-inch-neo-qled-8k-tizen-os-smart-tv-qa65qn900djxzk/,QA65QN900DJXZK,"41,780","39,980",,,"39,980",Yes,"1,600","1,600",,,,,,,,,,,Add to Cart,"38,380",,Z-WMN-B16FB/XY,,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,ZG-FREE1YRWAREXT",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
-●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-30,,,,,"65"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA65QN95DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn95d-65-inch-neo-qled-4k-tizen-os-smart-tv-qa65qn95dajxzk/,QA65QN95DAJXZK,"36,980","27,980",,,"27,980",Yes,"1,300","1,300",,,,,,,,,,,Add to Cart,"26,680",,Z-WMN-B16FB/XY,,Z-SM-S9210ZVGT-CTV,,,,ZG-FREE1YRWAREXT,Z-SM-X210NZA-TV,,,"Z-WMN-B16FB/XY,Z-SM-S9210ZVGT-CTV,ZG-FREE1YRWAREXT,Z-SM-X210NZA-TV",4,"
+NOVMASS-S24,CTV-30,,,,,"65"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA65QN95DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn95d-65-inch-neo-qled-4k-tizen-os-smart-tv-qa65qn95dajxzk/,QA65QN95DAJXZK,"30,680","23,080",,,"23,080",Yes,"1,300","1,300",,,,,,,,,,,Add to Cart,"21,780",,Z-WMN-B16FB/XY,,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,ZG-FREE1YRWAREXT",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
-●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
 ",Remove Z-Y24EPL12MPASS-C,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-31,,,,,"65"" OLED S90DA",OLED 4K S90D,N,QA65S90DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-65-inch-oled-4k-tizen-os-smart-tv-qa65s90dajxzk/,QA65S90DAJXZK,"31,480","22,980",,,"22,980",Yes,950,950,,,,,,,,,,,Add to Cart,"22,030",,Z-WMN-B05FB/XY,Z-HW-S800D/ZK,Z-Y24EPL12MPASS-C,,,,,Z-SM-X210NZA-TV,,,"Z-WMN-B05FB/XY,Z-HW-S800D/ZK,Z-Y24EPL12MPASS-C,Z-SM-X210NZA-TV",4,"
+NOVMASS,CTV-31,,,,,"65"" OLED S90DA",OLED 4K S90D,N,QA65S90DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-65-inch-oled-4k-tizen-os-smart-tv-qa65s90dajxzk/,QA65S90DAJXZK,"36,380","22,980",,,"22,980",Yes,950,950,,,,,,,,,,,Add to Cart,"22,030",,Z-WMN-B05FB/XY,Z-HW-Q700D/ZK,,,,,,,,SWAP-Z-SM-X210NZA-TV,"Z-WMN-B05FB/XY,Z-HW-Q700D/ZK",2,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
-●  1 x  S-Series HW-S800D Soundbar [Z-HW-S800D/ZK]
-●  1 x  Now TV Soccer Pack (Premier League & LALIGA EA SPORTS) 12-month Pass [Z-Y24EPL12MPASS-C]
-●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
+●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-32,,,,,"65"" OLED S95D",OLED 4K S95D,N,QA65S95DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95d-65-inch-oled-4k-tizen-os-smart-tv-qa65s95dajxzk/,QA65S95DAJXZK,"36,980","27,980",,,"27,980",Yes,"1,200","1,200",,,,,,,,,,,Add to Cart,"26,780",,Z-WMN-B16FB/XY,Z-Y24EPL12MPASS-C,Z-SM-S9210ZVGT-CTV,,,,,Z-SM-X210NZA-TV,,,"Z-WMN-B16FB/XY,Z-Y24EPL12MPASS-C,Z-SM-S9210ZVGT-CTV,Z-SM-X210NZA-TV",4,"
+NOVMASS,CTV-32,,,,,"65"" OLED S95D",OLED 4K S95D,N,QA65S95DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95d-65-inch-oled-4k-tizen-os-smart-tv-qa65s95dajxzk/,QA65S95DAJXZK,"30,980","27,980",,,"27,980",Yes,"1,200","1,200",,,,,,,,,,,Add to Cart,"26,780",,Z-WMN-B16FB/XY,Z-HW-Q700D/ZK,,,,,,,,SWAP-Z-SM-X210NZA-TV,"Z-WMN-B16FB/XY,Z-HW-Q700D/ZK",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-●  1 x  Now TV Soccer Pack (Premier League & LALIGA EA SPORTS) 12-month Pass [Z-Y24EPL12MPASS-C]
-●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
-●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
+●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-33,,,,,"75"" Lifestyle Frame LS03D",The Frame LS03D,N,QA75LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-75-inch-black-qa75ls03dajxzk/,QA75LS03DAJXZK,"53,980","39,980",,,"39,980",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"37,980",,Z-VG-SCFA75WTBRU,Z-HW-S801D/ZK,,,,,ZG-FRAMESLIMFITINSTALL,Z-SM-X510NLGATGY-C,,,"Z-VG-SCFA75WTBRU,Z-HW-S801D/ZK,ZG-FRAMESLIMFITINSTALL,Z-SM-X510NLGATGY-C",4,"
+NOVMASS,CTV-33,,,,,"75"" Lifestyle Frame LS03D",The Frame LS03D,N,QA75LS03DAJXZK,https://www.samsung.com/hk/lifestyle-tvs/the-frame/ls03d-75-inch-black-qa75ls03dajxzk/,QA75LS03DAJXZK,"51,880","39,980",,,"39,980",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"37,980",,Z-VG-SCFA75WTBRU,Z-HW-S801D/ZK,,,,,ZG-FRAMESLIMFITINSTALL,,,,"Z-VG-SCFA75WTBRU,Z-HW-S801D/ZK,ZG-FRAMESLIMFITINSTALL",3,"
 ●  1 x  75"" The Frame Modern type White Bezel [Z-VG-SCFA75WTBRU]
 ●  1 x  S-Series HW-S801D Soundbar [Z-HW-S801D/ZK]
 ●  1 x  Slim Fit Wall Mount with free installion included with The Frame TV [ZG-FRAMESLIMFITINSTALL]
-●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-34,,,,,"75"" QLED Q70D",QLED 4K Q70D,N,QA75Q70DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q70d-75-inch-qled-4k-tizen-os-smart-tv-qa75q70dajxzk/,QA75Q70DAJXZK,"30,980","24,980",,,"24,980",Yes,"1,000","1,000",,,,,,,,,,,Add to Cart,"23,980",,Z-WMN-B50EB/XY,Z-SM-S9210ZVGT-CTV,,,,,,Z-SM-X210NZA-TV,,,"Z-WMN-B50EB/XY,Z-SM-S9210ZVGT-CTV,Z-SM-X210NZA-TV",3,"
+NOVMASS,CTV-34,,,,,"75"" QLED Q70D",QLED 4K Q70D,N,QA75Q70DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q70d-75-inch-qled-4k-tizen-os-smart-tv-qa75q70dajxzk/,QA75Q70DAJXZK,"26,980","24,980",,,"24,980",Yes,"1,000","1,000",,,,,,,,,,,Add to Cart,"23,980",,Z-WMN-B50EB/XY,Z-HW-Q930D/ZK,,,,,,,,,"Z-WMN-B50EB/XY,Z-HW-Q930D/ZK",2,"
 ●  1 x  Slim Fit Wall Mount WMN-B50EB (2023) [Z-WMN-B50EB/XY]
-●  1 x  Galaxy S24, 256GB, Cobalt Violet [Z-SM-S9210ZVGT-CTV]
-●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
+●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-35,,,,,"75"" Neo QLED 8K QN800D",Neo QLED 8K QN800D,N,QA75QN800DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn800d-75-inch-neo-qled-8k-tizen-os-smart-tv-qa75qn800djxzk/,QA75QN800DJXZK,"85,980","72,980",,,"72,980",Yes,"3,500","3,500",,,,,,,,,,,Add to Cart,"69,480",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,,,,,ZG-FREE1YRWAREXT,Z-SM-X510NLGATGY-C,,,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,ZG-FREE1YRWAREXT,Z-SM-X510NLGATGY-C",4,"
+NOVMASS,CTV-35,,,,,"75"" Neo QLED 8K QN800D",Neo QLED 8K QN800D,N,QA75QN800DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn800d-75-inch-neo-qled-8k-tizen-os-smart-tv-qa75qn800djxzk/,QA75QN800DJXZK,"72,080","72,980",,,"72,080",Yes,"3,500","3,500",,,,,,,,,,,Add to Cart,"68,580",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,ZG-FREE1YRWAREXT",3,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
-●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-C]
 ",Swap Q930 to QA43LS05BB,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-36,,,,,"75"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA75QN900DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn900d-75-inch-neo-qled-8k-tizen-os-smart-tv-qa75qn900djxzk/,QA75QN900DJXZK,"99,980","79,980",,,"79,980",Yes,"3,200","3,200",,,,,,,,,,,Add to Cart,"76,780",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,,,,,ZG-FREE1YRWAREXT,Z-SM-X510NLGATGY-C,,,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,ZG-FREE1YRWAREXT,Z-SM-X510NLGATGY-C",4,"
+NOVMASS,CTV-36,,,,,"75"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA75QN900DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn900d-75-inch-neo-qled-8k-tizen-os-smart-tv-qa75qn900djxzk/,QA75QN900DJXZK,"84,980","79,980",,,"79,980",Yes,"3,200","3,200",,,,,,,,,,,Add to Cart,"76,780",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,ZG-FREE1YRWAREXT",3,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
-●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-C]
 ",Swap Q930 to QA43LS05BB,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-37,,,,,"77"" OLED S90DAE",OLED 4K S90D,N,QA77S90DAEXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-77-inch-oled-4k-tizen-os-smart-tv-qa77s90daexzk/,QA77S90DAEXZK,"55,480","49,980",,,"49,980",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"47,980",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,,,,,,Z-SM-X510NLGATGY-C,,,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,Z-SM-X510NLGATGY-C",3,"
+,CTV-37,,,,,"77"" OLED S90DAE",OLED 4K S90D,N,QA77S90DAEXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-77-inch-oled-4k-tizen-os-smart-tv-qa77s90daexzk/,QA77S90DAEXZK,"55,480","49,980",,,"49,980",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"47,980",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,,,,,,,,,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
-●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-38,,,,,"77"" OLED S95D",OLED 4K S95D,N,QA77S95DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95d-77-inch-oled-4k-tizen-os-smart-tv-qa77s95dajxzk/,QA77S95DAJXZK,"79,480","59,980",,,"59,980",Yes,"2,500","2,500",,,,,,,,,,,Add to Cart,"57,480",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,,,,,,Z-SM-X510NLGATGY-C,,,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,Z-SM-X510NLGATGY-C",3,"
+,CTV-38,,,,,"77"" OLED S95D",OLED 4K S95D,N,QA77S95DAJXZK,https://www.samsung.com/hk/tvs/oled-tv/s95d-77-inch-oled-4k-tizen-os-smart-tv-qa77s95dajxzk/,QA77S95DAJXZK,"79,480","59,980",,,"59,980",Yes,"2,500","2,500",,,,,,,,,,,Add to Cart,"57,480",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,,,,,,,,,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
-●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-39,,,,,"83"" OLED S90DAE",OLED 4K S90D,N,QA83S90DAEXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-83-inch-oled-4k-tizen-os-smart-tv-qa83s90daexzk/,QA83S90DAEXZK,"85,480","74,980",,,"74,980",Yes,"3,000","3,000",,,,,,,,,,,Add to Cart,"71,980",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,,,,,,Z-SM-X510NLGATGY-C,,,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,Z-SM-X510NLGATGY-C",3,"
+NOVMASS,CTV-39,,,,,"83"" OLED S90DAE",OLED 4K S90D,N,QA83S90DAEXZK,https://www.samsung.com/hk/tvs/oled-tv/s90d-83-inch-oled-4k-tizen-os-smart-tv-qa83s90daexzk/,QA83S90DAEXZK,"85,480","74,980",,,"74,980",Yes,"3,000","3,000",,,,,,,,,,,Add to Cart,"71,980",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,,,,,,,,,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
-●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-C]
 ",Swap Q930 to QA43LS05BB,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-40,,,,,"85"" QLED Q70D",QLED 4K Q70D,N,QA85Q70DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q70d-85-inch-qled-4k-tizen-os-smart-tv-qa85q70dajxzk/,QA85Q70DAJXZK,"46,480","46,980",,,"46,980",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"44,980",,Z-WMN-B30FB/RU,Z-HW-S800D/ZK,,,,,,Z-SM-X510NLGATGY-C,,,"Z-WMN-B30FB/RU,Z-HW-S800D/ZK,Z-SM-X510NLGATGY-C",3,"
+NOVMASS,CTV-40,,,,,"85"" QLED Q70D",QLED 4K Q70D,N,QA85Q70DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q70d-85-inch-qled-4k-tizen-os-smart-tv-qa85q70dajxzk/,QA85Q70DAJXZK,"46,480","46,480",,,"46,480",Yes,"2,000","2,000",,,,,,,,,,,Add to Cart,"44,480",,Z-WMN-B30FB/RU,Z-HW-Q700D/ZK,,,,,,,,,"Z-WMN-B30FB/RU,Z-HW-Q700D/ZK",2,"
 ●  1 x  Full Motion Slim Fit TV Wallmount with installation [Z-WMN-B30FB/RU]
-●  1 x  S-Series HW-S800D Soundbar [Z-HW-S800D/ZK]
-●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-C]
+●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-41,,,,,"85"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA85QN900DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn900d-85-inch-neo-qled-8k-tizen-os-smart-tv-qa85qn900djxzk/,QA85QN900DJXZK,"149,980","99,980",,,"99,980",Yes,"4,000","4,000",,,,,,,,,,,Add to Cart,"95,980",,Z-WMN-B30FB/RU,Z-HW-Q930D/ZK,,,,,ZG-FREE1YRWAREXT,Z-SM-X510NLGATGY-C,,,"Z-WMN-B30FB/RU,Z-HW-Q930D/ZK,ZG-FREE1YRWAREXT,Z-SM-X510NLGATGY-C",4,"
+NOVMASS,CTV-41,,,,,"85"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA85QN900DJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn900d-85-inch-neo-qled-8k-tizen-os-smart-tv-qa85qn900djxzk/,QA85QN900DJXZK,"126,480","99,980",,,"99,980",Yes,"4,000","4,000",,,,,,,,,,,Add to Cart,"95,980",,Z-WMN-B30FB/RU,Z-HW-Q930D/ZK,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B30FB/RU,Z-HW-Q930D/ZK,ZG-FREE1YRWAREXT",3,"
 ●  1 x  Full Motion Slim Fit TV Wallmount with installation [Z-WMN-B30FB/RU]
 ●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
-●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-C]
 ","Remove Z-QA43LS05BAJXZK-C
 
 Swap Q930 to QA43LS05BB",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-42,,,,,"98"" QLED 4K Q80C",QLED 4K Q80C,N,QA98Q80CAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q80c-98-inch-qled-4k-smart-tv-qa98q80cajxzk/,QA98Q80CAJXZK,"79,980","79,980",,,"79,980",Yes,"3,200","3,200",,,,,,,,,,,Add to Cart,"76,780",,Z-WMN8000SX/XY,,,,,,,Z-SM-X510NLGATGY-C,,,"Z-WMN8000SX/XY,Z-SM-X510NLGATGY-C",2,"
+,CTV-42,,,,,"98"" QLED 4K Q80C",QLED 4K Q80C,N,QA98Q80CAJXZK,https://www.samsung.com/hk/tvs/qled-tv/q80c-98-inch-qled-4k-smart-tv-qa98q80cajxzk/,QA98Q80CAJXZK,"79,980","79,980",,,"79,980",Yes,"3,200","3,200",,,,,,,,,,,Add to Cart,"76,780",,Z-WMN8000SX/XY,,,,,,,,,,Z-WMN8000SX/XY,1,"
 ●  1 x  TV Wall mount (WMN8000SX) [Z-WMN8000SX/XY]
-●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-43,,,,,"98"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA98QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-98-inch-neo-qled-4k-tizen-os-smart-tv-qa98qn90dajxzk/,QA98QN90DAJXZK,"129,980","119,980",,,119980,Yes,"4,800","4,800",,,,,,,,,,,Add to Cart,"115,180",,Z-WMN8000SX/XY,Z-HW-Q930D/ZK,,,,,ZG-FREE1YRWAREXT,Z-SM-X510NLGATGY-C,,,"Z-WMN8000SX/XY,Z-HW-Q930D/ZK,ZG-FREE1YRWAREXT,Z-SM-X510NLGATGY-C",4,"
+NOVMASS,CTV-43,,,,,"98"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA98QN90DAJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn90d-98-inch-neo-qled-4k-tizen-os-smart-tv-qa98qn90dajxzk/,QA98QN90DAJXZK,"119,980","113,980",,,113980,Yes,"4,800","4,800",,,,,,,,,,,Add to Cart,"109,180",,Z-WMN8000SX/XY,Z-HW-Q930D/ZK,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN8000SX/XY,Z-HW-Q930D/ZK,ZG-FREE1YRWAREXT",3,"
 ●  1 x  TV Wall mount (WMN8000SX) [Z-WMN8000SX/XY]
 ●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
-●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-C]
 ",Swap Q930 to QA43LS05BB,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-44,,,,,"98"" Neo QLED 8K QN990C",Neo QLED 8K QN900C,N,QA98QN990CJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn990c-98-inch-neo-qled-8k-smart-tv-qa98qn990cjxzk/,QA98QN990CJXZK,"310,980","279,980",,,"279,980",Yes,"10,000","10,000",,,,,,,,,,,Add to Cart,"269,980",,Z-WMN8000SX/XY,,,,,,,Z-SM-X510NLGATGY-C,,,"Z-WMN8000SX/XY,Z-SM-X510NLGATGY-C",2,"
+,CTV-44,,,,,"98"" Neo QLED 8K QN990C",Neo QLED 8K QN900C,N,QA98QN990CJXZK,https://www.samsung.com/hk/tvs/qled-tv/qn990c-98-inch-neo-qled-8k-smart-tv-qa98qn990cjxzk/,QA98QN990CJXZK,"310,980","279,980",,,"279,980",Yes,"10,000","10,000",,,,,,,,,,,Add to Cart,"269,980",,Z-WMN8000SX/XY,,,,,,,,,,Z-WMN8000SX/XY,1,"
 ●  1 x  TV Wall mount (WMN8000SX) [Z-WMN8000SX/XY]
-●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-45,,,,,"32"" T5300 FHD Smart TV",FHD Smart TV T5300,N,UA32T5300AJXZK,https://www.samsung.com/hk/tvs/full-hd-tv/t5300-32-inch-full-hd-smart-tv-ua32t5300ajxzk/,UA32T5300AJXZK,"2,980","3,280",,,"3,280",Yes,0,0,,,,,,,,,,,Add to Cart,"3,280",,,,,,,,,,,,,0,"
+,CTV-45,,,,,"32"" T5300 FHD Smart TV",FHD Smart TV T5300,N,UA32T5300AJXZK,https://www.samsung.com/hk/tvs/full-hd-tv/t5300-32-inch-full-hd-smart-tv-ua32t5300ajxzk/,UA32T5300AJXZK,"2,980","3,280",,,"2,980",Yes,0,0,,,,,,,,,,,Add to Cart,"2,980",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-46,,,,,"43"" Crystal UHD DU7700",Crystal UHD 4K DU7000 ,N,UA43DU7700JXZK,https://www.samsung.com/hk/tvs/uhd-4k-tv/du7000-43-inch-crystal-uhd-4k-tizen-os-smart-tv-ua43du7700jxzk/,UA43DU7700JXZK,"4,480","3,380",,,"3,380",Yes,150,150,,,,,,,,,,,Add to Cart,"3,230",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-47,,,,,"43"" Crystal UHD DU8000",Crystal UHD 4K DU8000,N,UA43DU8000JXZK,https://www.samsung.com/hk/tvs/uhd-4k-tv/du8000-43-inch-crystal-uhd-4k-tizen-os-smart-tv-ua43du8000jxzk/,UA43DU8000JXZK,"4,980","4,380",,,"4,380",Yes,150,150,,,,,,,,,,,Add to Cart,"4,230",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTV-48,,,,,"43"" Crystal UHD DU8500",Crystal UHD 4K DU8500,N,UA43DU8500JXZK,https://www.samsung.com/hk/tvs/uhd-4k-tv/du8500-43-inch-crystal-uhd-4k-tizen-os-smart-tv-ua43du8500jxzk/,UA43DU8500JXZK,"4,980","5,080",,,"5,080",Yes,150,150,,,,,,,,,,,Add to Cart,"4,930",,,,,,,,,,,,,0,"
+,CTV-48,,,,,"43"" Crystal UHD DU8500",Crystal UHD 4K DU8500,N,UA43DU8500JXZK,https://www.samsung.com/hk/tvs/uhd-4k-tv/du8500-43-inch-crystal-uhd-4k-tizen-os-smart-tv-ua43du8500jxzk/,UA43DU8500JXZK,"4,980","5,080",,,"4,980",Yes,150,150,,,,,,,,,,,Add to Cart,"4,830",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTV-48B,,,,,"43"" Crystal UHD DUE800 4K",,N,UA43DUE800JXZK,https://www.samsung.com/hk/tvs/uhd-4k-tv/due800-43-inch-crystal-uhd-4k-tizen-os-smart-tv-ua43due800jxzk/,UA43DUE800JXZK,"4,180","4,180",,,"4,180",Yes,0,0,,,,,,,,,,,Add to Cart,"4,180",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
@@ -259,12 +230,11 @@ Swap Q930 to QA43LS05BB",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 2.  Select first delivery method and all delivery services
 3.  Select delivery date to last date on popup calendar.","2. Verify there is only Home Delivery option
 2. Verify there is Recycle option",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,PRO-02,,,,,"130"" LPU9D The Premiere 4K Smart Triple Laser Projector (2024)",,N,SP-LPU9DSAXXZK,https://www.samsung.com/hk/projectors/the-premiere/lpu9d-smart-4k-uhd-ultra-short-throw-triple-laser-projector-lpu9d-sp-lpu9dsaxxzk/,SP-LPU9DSAXXZK,"59,980","59,980",,,"59,980",Yes,0,0,,,,,,,,,,,Add to Cart,"59,980",,Z-SM-X210NZA-TV,,,,,,,,,,Z-SM-X210NZA-TV,1,"
-●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
+NOVMASS,PRO-02,,,,,"130"" LPU9D The Premiere 4K Smart Triple Laser Projector (2024)",,N,SP-LPU9DSAXXZK,https://www.samsung.com/hk/projectors/the-premiere/lpu9d-smart-4k-uhd-ultra-short-throw-triple-laser-projector-lpu9d-sp-lpu9dsaxxzk/,SP-LPU9DSAXXZK,"59,980","59,980",,,"59,980",Yes,0,0,,,,,,,,,,,Add to Cart,"59,980",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,HTS-01,,,,,C-Series HW-C450 2.1ch Soundbar,,N,HW-C450/ZK,https://www.samsung.com/hk/audio-devices/soundbar/c450-black-hw-c450-zk/,HW-C450/ZK,"2,190","2,190",,,"2,190",Yes,0,0,,,,,,,,,,,Add to Cart,"2,190",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,HTS-02,,,,,SWA-9100S 無線後置喇叭,,N,SWA-9100S/ZK,https://www.samsung.com/hk/search/?searchvalue=SWA-9100S/ZK,SWA-9100S/ZK,990,990,,,990,Yes,0,0,,,,,,,,,,,Add to Cart,990,,,,,,,,,,,,,0,"
+,HTS-02,,,,,SWA-9100S 無線後置喇叭,,N,SWA-9100S/ZK,https://www.samsung.com?modelCode=SWA-9100S/ZK,SWA-9100S/ZK,990,990,,,990,Yes,0,0,,,,,,,,,,,Add to Cart,990,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,HTS-03,,,,,SWA-9200S 無線後置喇叭,,N,SWA-9200S/ZK,https://www.samsung.com/hk/audio-accessories/swa-9200s-swa-9200s-zk/,SWA-9200S/ZK,"1,090","1,090",,,1090,Yes,0,0,,,,,,,,,,,Add to Cart,"1,090",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
@@ -284,17 +254,17 @@ Swap Q930 to QA43LS05BB",,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,HTS-09,,,,,B-Series HW-B550 2.1ch Soundbar,,N,HW-B650D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/b650d-black-hw-b650d-zk/,HW-B650D/ZK,"2,290","1,890",,,"1,890",Yes,0,0,,,,,,,,,,,Add to Cart,"1,890",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-SECOND,HTS-10,,,,,S-Series HW-S800D Soundbar,,N,HW-S800D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s800d-black-hw-s800d-zk/,HW-S800D/ZK,"5,390","3,990",,,"3,990",Yes,200,200,,,,,,,,,,,Add to Cart,"3,790",,,,,,,,,,,,,0,"
+,HTS-10,,,,,S-Series HW-S800D Soundbar,,N,HW-S800D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s800d-black-hw-s800d-zk/,HW-S800D/ZK,"5,390","3,990",,,"3,990",Yes,200,200,,,,,,,,,,,Add to Cart,"3,790",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-SECOND,HTS-11,,,,,S-Series HW-S801D Soundbar,,N,HW-S801D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s801d-white-hw-s801d-zk/,HW-S801D/ZK,"5,390","3,990",,,"3,990",Yes,200,200,,,,,,,,,,,Add to Cart,"3,790",,,,,,,,,,,,,0,"
+,HTS-11,,,,,S-Series HW-S801D Soundbar,,N,HW-S801D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s801d-white-hw-s801d-zk/,HW-S801D/ZK,"5,390","3,990",,,"3,990",Yes,200,200,,,,,,,,,,,Add to Cart,"3,790",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-SECOND,HTS-12,,,,,S-Series HW-S700D Soundbar,,N,HW-S700D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s700d-black-hw-s700d-zk/,HW-S700D/ZK,"3,890","2,990",,,"2,990",Yes,150,150,,,,,,,,,,,Add to Cart,"2,840",,,,,,,,,,,,,0,"
+,HTS-12,,,,,S-Series HW-S700D Soundbar,,N,HW-S700D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s700d-black-hw-s700d-zk/,HW-S700D/ZK,"3,890","2,990",,,"2,990",Yes,150,150,,,,,,,,,,,Add to Cart,"2,840",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,HTS-13,,,,,S-Series HW-S701D Soundbar,,N,HW-S701D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s701d-white-hw-s701d-zk/,HW-S701D/ZK,"3,890","2,990",,,"2,990",Yes,150,150,,,,,,,,,,,Add to Cart,"2,840",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,HTS-14,,,,,S-Series HW-S60D Soundbar,,N,HW-S60D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s60d-black-hw-s60d-zk/,HW-S60D/ZK,"2,990","2,590",,,"2,590",Yes,100,100,,,,,,,,,,,Add to Cart,"2,490",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-SECOND,HTS-15,,,,,S-Series HW-S61D Soundbar,,N,HW-S61D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s61d-white-hw-s61d-zk/,HW-S61D/ZK,"2,990","2,590",,,"2,590",Yes,100,100,,,,,,,,,,,Add to Cart,"2,490",,,,,,,,,,,,,0,"
+,HTS-15,,,,,S-Series HW-S61D Soundbar,,N,HW-S61D/ZK,https://www.samsung.com/hk/audio-devices/soundbar/s61d-white-hw-s61d-zk/,HW-S61D/ZK,"2,990","2,590",,,"2,590",Yes,100,100,,,,,,,,,,,Add to Cart,"2,490",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,HTS-16,,,,,S-Series HW-LS60D Music Frame,,N,HW-LS60D/ZK,https://www.samsung.com/hk/audio-devices/music-frame/ls60d-black-hw-ls60d-zk/,HW-LS60D/ZK,"3,980","3,680",,,"3,680",Yes,100,100,,,,,,,,,,,Add to Cart,"3,580",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
@@ -304,11 +274,11 @@ SECOND,HTS-15,,,,,S-Series HW-S61D Soundbar,,N,HW-S61D/ZK,https://www.samsung.co
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,MON-03,,,,,32” Odyssey Neo G7 Mini-LED Curved Gaming Monitor (165Hz),,N,LS32BG750NCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-neo-g7-g75nb-32-inch-ls32bg750ncxxk/,LS32BG750NCXXK,"7,980","5,880",,,5880,Yes,0,0,,,,,,,,,,,Add to Cart,"5,880",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,MON-04,,,,,32” Odyssey Neo G8 Mini-LED Curved Gaming Monitor (240Hz),,N,LS32BG850NCXXK,https://www.samsung.com/hk/search/?searchvalue=LS32BG850NCXXK,LS32BG850NCXXK,"10,980","6,980",,,6980,Yes,300,300,,,,,,,,,,,Add to Cart,"6,680",,,,,,,,,,,,,0,"
+,MON-04,,,,,32” Odyssey Neo G8 Mini-LED Curved Gaming Monitor (240Hz),,N,LS32BG850NCXXK,https://www.samsung.com?modelCode=LS32BG850NCXXK,LS32BG850NCXXK,"10,980","6,980",,,6980,Yes,300,300,,,,,,,,,,,Add to Cart,"6,680",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,MON-05,,,,,"34"" Odyssey G8 OLED Curved Gaming Monitor (175Hz)",,N,LS34BG850SCXXK,https://www.samsung.com/hk/search/?searchvalue=LS34BG850SCXXK,LS34BG850SCXXK,,,,,,Yes,0,0,,,,,,,,,,,Add to Cart,0,,,,,,,,,,,,,0,"
+,MON-05,,,,,"34"" Odyssey G8 OLED Curved Gaming Monitor (175Hz)",,EOL,LS34BG850SCXXK,https://www.samsung.com/hk/search/?searchvalue=LS34BG850SCXXK,LS34BG850SCXXK,,,,,,Yes,0,0,,,,,,,,,,,Add to Cart,0,,,,,,,,,,,,,0,"
 ",Z-STEAMPASS200x3,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,MON-06,,,,,"49"" Odyssey G9 OLED Curved Gaming Monitor (240Hz)",,N,LS49CG954SCXXK,https://www.samsung.com/hk/search/?searchvalue=LS49CG954SCXXK,LS49CG954SCXXK,"16,980","16,980",,,16980,Yes,700,700,,,,,,,,,,,Add to Cart,"16,280",,Z-LS32D706EACXXK-C,,,,,,,,,,Z-LS32D706EACXXK-C,1,"
+,MON-06,,,,,"49"" Odyssey G9 OLED Curved Gaming Monitor (240Hz)",,N,LS49CG954SCXXK,https://www.samsung.com?modelCode=LS49CG954SCXXK,LS49CG954SCXXK,"16,980","16,980",,,16980,Yes,700,700,,,,,,,,,,,Add to Cart,"16,280",,Z-LS32D706EACXXK-C,,,,,,,,,,Z-LS32D706EACXXK-C,1,"
 ●  1 x  27"" ViewFinity S7 UHD Monitor [Z-LS32D706EACXXK-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,MON-07,,,,,"57"" Odyssey Neo G9 Curved Gaming Monitor (240Hz)",,N,LS57CG952NCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-neo-g9-g95nc-57-inch-240hz-curved-dual-uhd-ls57cg952ncxxk/,LS57CG952NCXXK,"21,980","21,980",,,21980,Yes,800,800,,,,,,,,,,,Add to Cart,"21,180",,,,,,,,,,,,,0,"
@@ -329,12 +299,12 @@ SECOND,HTS-15,,,,,S-Series HW-S61D Soundbar,,N,HW-S61D/ZK,https://www.samsung.co
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,MON-15,,,,,"32"" A700 UHD 4K Monitor",,N,LS32A700NWCXXK,https://www.samsung.com/hk/monitors/high-resolution/s70a-32-32-inch-uhd-4k-ls32a700nwcxxk/,LS32A700NWCXXK,"2,980","2,580",,,2580,Yes,0,0,,,,,,,,,,,Add to Cart,"2,580",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,MON-16,,,,,"34"" ViewFinity S5 Ultra WQHD Monitor",,N,LS34C500GACXXK,https://www.samsung.com/hk/monitors/high-resolution/viewfinity-s5-s50gc-34-inch-ultra-wqhd-high-resolution-ls34c500gacxxk/,LS34C500GACXXK,"3,480","3,080",,,3080,Yes,0,0,,,,,,,,,,,Add to Cart,"3,080",,Z-ITFITPW16BK,,,,,,,,,,Z-ITFITPW16BK,1,"
+NOVMASS,MON-16,,,,,"34"" ViewFinity S5 Ultra WQHD Monitor",,N,LS34C500GACXXK,https://www.samsung.com/hk/monitors/high-resolution/viewfinity-s5-s50gc-34-inch-ultra-wqhd-high-resolution-ls34c500gacxxk/,LS34C500GACXXK,"3,480","3,080",,,3080,Yes,0,0,,,,,,,,,,,Add to Cart,"3,080",,Z-ITFITPW16BK,,,,,,,,,,Z-ITFITPW16BK,1,"
 ●  1 x  ITFIT Hand Warmer Powerbank (Black) [Z-ITFITPW16BK]
 ",Z-ITFITPW16BK,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,MON-17,,,,,"32"" M7 Samsung Smart Monitor (2022)",,N,LS32BM702UCXXK,https://www.samsung.com/hk/search/?searchvalue=LS32BM702UCXXK,LS32BM702UCXXK,"3,280","2,980",,,2980,Yes,0,0,,,,,,,,,,,Add to Cart,"2,980",,,,,,,,,,,,,0,"
+,MON-17,,,,,"32"" M7 Samsung Smart Monitor (2022)",,N,LS32BM702UCXXK,https://www.samsung.com?modelCode=LS32BM702UCXXK,LS32BM702UCXXK,"3,280","2,980",,,2980,Yes,0,0,,,,,,,,,,,Add to Cart,"2,980",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,MON-18,,,,,"32"" M8 Smart Monitor (2023) Warm White",,N,LS32CM801UCXXK,https://www.samsung.com/hk/search/?searchvalue=LS32CM801UCXXK,LS32CM801UCXXK,"5,280","4,180",,,4180,Yes,150,150,,,,,,,,,,,Add to Cart,"4,030",,,,,,,,,,,,,0,"
+,MON-18,,,,,"32"" M8 Smart Monitor (2023) Warm White",,N,LS32CM801UCXXK,https://www.samsung.com?modelCode=LS32CM801UCXXK,LS32CM801UCXXK,"5,280","4,180",,,4180,Yes,150,150,,,,,,,,,,,Add to Cart,"4,030",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,MON-19,,,,,"55"" Odyssey Ark 2<sup>nd</sup> Gen Curved Gaming Monitor (165Hz)",,N,LS55CG970NCXXK,https://www.samsung.com/hk/monitors/gaming/odyssey-ark-2nd-gen-g97nc-55-inch-165hz-1ms-curved-uhd-4k-ls55cg970ncxxk/,LS55CG970NCXXK,"25,800","25,800",,,25800,Yes,"1,000","1,000",,,,,,,,,,,Add to Cart,"24,800",,Z-LS32D706EACXXK-C,,,,,,,,,,Z-LS32D706EACXXK-C,1,"
 ●  1 x  27"" ViewFinity S7 UHD Monitor [Z-LS32D706EACXXK-C]
@@ -447,9 +417,9 @@ SECOND,HTS-15,,,,,S-Series HW-S61D Soundbar,,N,HW-S61D/ZK,https://www.samsung.co
 ,REF-24,,,,,RS64R5337B4/SH Side by Side Refrigerator 617L,,N,RS64R5337B4/SH,https://www.samsung.com/hk/refrigerators/side-by-side/617l-gentle-black-matt-rs64r5337b4-sh/,RS64R5337B4/SH,"15,900","15,900",,,"15,900",Yes,500,500,,,,,,,,,,,Add to Cart,"15,400",,Z-VS20C852CTN/SH-C,,,,,,,,,,Z-VS20C852CTN/SH-C,1,"
 ●  1 x  VS20C852CTNSH Jet85 Stick VC Woody Green [Z-VS20C852CTN/SH-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,REF-25,,,,,BESPOKE Bottom Mount Freezer 340L (Panel Not Included),,N,RZ24A5470AP/SH,https://www.samsung.com/hk/search/?searchvalue=RZ24A5470AP/SH,RZ24A5470AP/SH,"11,630","11,980",,,"11,980",Yes,0,0,,,,,,,,,,,Add to Cart,"11,980",,,,,,,,,,,,,0,"
+,REF-25,,,,,BESPOKE Bottom Mount Freezer 340L (Panel Not Included),,N,RZ24A5470AP/SH,https://www.samsung.com?modelCode=RZ24A5470AP/SH,RZ24A5470AP/SH,"11,630","11,980",,,"11,630",Yes,0,0,,,,,,,,,,,Add to Cart,"11,630",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,REF-26,,,,,BESPOKE Bottom Mount Freezer 340L (Panel Not Included),,EOL,RB34A7B4FAP/SH,https://www.samsung.com/hk/search/?searchvalue=RB34A7B4FAP/SH,RB34A7B4FAP/SH,"10,230","7,780",,,"7,780",Yes,300,300,,,,,,,,,,,Add to Cart,"7,480",,,,,,,,,,,,,0,"
+,REF-26,,,,,BESPOKE Bottom Mount Freezer 340L (Panel Not Included),,EOL,RB34A7B4FAP/SH,https://www.samsung.com?modelCode=RB34A7B4FAP/SH,RB34A7B4FAP/SH,"10,230","7,780",,,"7,780",Yes,300,300,,,,,,,,,,,Add to Cart,"7,480",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,REF-27,,,,,RB34C675EB1 BESPOKE AI SpaceMax™ Bottom Mount Freezer 340L (Black DOI),,N,RB34C675EB1/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/bottom-mount-freezer-with-smartthings-ai-energy-mo-340l-black-rb34c675eb1-sh/,RB34C675EB1/SH,"7,490","6,280",,,"6,280",Yes,0,0,,,,,,,,,,,Add to Cart,"6,280",,Z-ITAC12-C,Z-ITFITF17-C,Z-ITFITPW21OCE-C,,,,,,,,"Z-ITAC12-C,Z-ITFITF17-C,Z-ITFITPW21OCE-C",3,"
 ●  1 x  CE GIFT - BESPOKE Blanket [Z-ITAC12-C]
@@ -461,18 +431,17 @@ SECOND,HTS-15,,,,,S-Series HW-S61D Soundbar,,N,HW-S61D/ZK,https://www.samsung.co
 ●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,REF-29,,,,,BESPOKE AI Stylish Bottom Mount Freezer 340L,,N,RB34C7B4EAP/SH,https://www.samsung.com/hk/refrigerators/bottom-mount-freezer/bottom-mount-freezer-with-smartthings-ai-energy-mo-340l-white-rb34c7b4eap-sh/,RB34C7B4EAP/SH,"10,230","8,180",,,"8,180",Yes,0,0,,,,,,,,,,,Add to Cart,"8,180",,Z-ITAC12-C,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,,,,,,,"Z-ITAC12-C,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C",4,"
+,REF-29,,,,,BESPOKE AI Stylish Bottom Mount Freezer 340L,,N,RB34C7B4EAP/SH,https://www.samsung.com?modelCode=RB34C7B4EAP/SH,RB34C7B4EAP/SH,"10,230","8,180",,,"8,180",Yes,0,0,,,,,,,,,,,Add to Cart,"8,180",,Z-ITAC12-C,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,,,,,,,"Z-ITAC12-C,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C",4,"
 ●  1 x  CE GIFT - BESPOKE Blanket [Z-ITAC12-C]
 ●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,FAB-01,,,,,AI AirDresser with JetSteam Refresh & Sanitize Cycle,,N,DF60A8500CG/SH,https://www.samsung.com/hk/washers-and-dryers/airdresser/df8000nm-silver-mirror-df60a8500cg-sh/,DF60A8500CG/SH,"14,990","10,380",,,"10,380",Yes,400,400,,,,,,,,,,,Add to Cart,"9,980",,Z-DF-HK,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,,,,Z-ITFITAC05GN,,,"Z-DF-HK,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITAC05GN",5,"
+,FAB-01,,,,,AI AirDresser with JetSteam Refresh & Sanitize Cycle,,N,DF60A8500CG/SH,https://www.samsung.com/hk/washers-and-dryers/airdresser/df8000nm-silver-mirror-df60a8500cg-sh/,DF60A8500CG/SH,"14,990","10,380",,,"10,380",Yes,400,400,,,,,,,,,,,Add to Cart,"9,980",,Z-DF-HK,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,,,,,,,"Z-DF-HK,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C",4,"
 ●  1 x  AirDresser Regular Hanger Kit (hand 3 shirts) [Z-DF-HK]
 ●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
-●  1 x  ITFIT Multi-functional Laundry Basket (Green) [Z-ITFITAC05GN]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,WM-01,,,,,WA70M4000<br>Top Loader Without Drain Pump 7kg White,,N,WA70M4000SW/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/top-load-7kg-white-wa70m4000sw-sh/,WA70M4000SW/SH,"3,090","2,290",,,"2,290",Yes,0,0,,,,,,,,,,,Add to Cart,"2,290",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
@@ -496,21 +465,19 @@ SECOND,HTS-15,,,,,S-Series HW-S61D Soundbar,,N,HW-S61D/ZK,https://www.samsung.co
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,WM-08,,,,,"WD10T754DBH AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 10.5/7kg, 1400rpm",,N,WD10T754DBH/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd7500t-front-loading-eco-bubble-quickdrive-ai-control-10-5kg-white-wd10t754dbh-sh/,WD10T754DBH/SH,"7,990","5,390",,,"5,390",Yes,150,150,,,,,,,,,,,Add to Cart,"5,240",,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,,,,,Z-ITFITAC05GN,,,"Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITAC05GN",4,"
+,WM-08,,,,,"WD10T754DBH AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 10.5/7kg, 1400rpm",,N,WD10T754DBH/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd7500t-front-loading-eco-bubble-quickdrive-ai-control-10-5kg-white-wd10t754dbh-sh/,WD10T754DBH/SH,"7,990","5,390",,,"5,390",Yes,150,150,,,,,,,,,,,Add to Cart,"5,240",,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,,,,,,,,"Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C",3,"
 ●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
-●  1 x  ITFIT Multi-functional Laundry Basket (Green) [Z-ITFITAC05GN]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,WM-09,,,,,"WD70TA046BE/SH Hygiene Steam Front Load Washer + Dryer Combo 7/5kg, 1400rpm",,N,WD70TA046BE/SH,https://www.samsung.com/hk/washers-and-dryers/washer-dryer-combo/wd5000t-front-loading-air-wash-drum-clean-bubble-soak-7kg-plus-5kg-white-wd70ta046be-sh/,WD70TA046BE/SH,"6,090","4,290",,,"4,290",Yes,100,100,,,,,,,,,,,Add to Cart,"4,190",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,WM-10,,,,,"WD70T4046CH Hygiene Steam Front Load Washer + Dryer Combo 7/5kg, 1400rpm",,N,WD70T4046CH/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd4000t-front-loading-air-wash-drum-clean-bubble-soak-7kg-white-wd70t4046ch-sh/,WD70T4046CH/SH,"4,690","4,290",,,"4,290",Yes,100,100,,,,,,,,,,,Add to Cart,"4,190",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,WM-11,,,,,"WD80T654DBE AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 8/6kg, 1400rpm",,N,WD80T654DBE/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd6500t-front-loading-ai-control-air-wash-bubble-soak-8kg-white-wd80t654dbe-sh/,WD80T654DBE/SH,"7,590","4,990",,,"4,990",Yes,100,100,,,,,,,,,,,Add to Cart,"4,890",,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,,,,,Z-ITFITAC05GN,,,"Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,Z-ITFITAC05GN",4,"
+,WM-11,,,,,"WD80T654DBE AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 8/6kg, 1400rpm",,N,WD80T654DBE/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd6500t-front-loading-ai-control-air-wash-bubble-soak-8kg-white-wd80t654dbe-sh/,WD80T654DBE/SH,"7,590","4,990",,,"4,990",Yes,100,100,,,,,,,,,,,Add to Cart,"4,890",,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,,,,,,,,"Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C",3,"
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
 ●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
-●  1 x  ITFIT Multi-functional Laundry Basket (Green) [Z-ITFITAC05GN]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,WM-12,,,,,"WD80TA546BH AddWash™ Front Load Washing Machine + Dryer Combo 8/6kg, 1400rpm",,N,WD80TA546BH/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/wd5300t-8kg-white-wd80ta546bh-sh/,WD80TA546BH/SH,"5,790","4,990",,,"4,990",Yes,100,100,,,,,,,,,,,Add to Cart,"4,890",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
@@ -522,21 +489,19 @@ SECOND,HTS-15,,,,,S-Series HW-S61D Soundbar,,N,HW-S61D/ZK,https://www.samsung.co
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,WM-16,,,,,"WW80T3040BS/SH Slim465 Digital Inverter Front Load Washing Machine 8kg, 1400rpm",,N,WW80T3040BS/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww3000tm-front-loading-quick-wash-drum-clean-delay-end-8kg-silver-ww80t3040bs-sh/,WW80T3040BS/SH,"5,490","3,590",,,"3,590",Yes,50,50,,,,,,,,,,,Add to Cart,"3,540",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,WM-18,,,,,"WW90T654DLE AI Ecobubble™ AI Control Front Load Washing Machine 9kg, 1400rpm",,N,WW90T654DLE/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww6500t-front-loading-eco-bubble-ai-control-add-wash-9kg-white-ww90t654dle-sh/,WW90T654DLE/SH,"6,190","4,390",,,"4,390",Yes,100,100,,,,,,,,,,,Add to Cart,"4,290",,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,,,,,Z-ITFITAC05GN,,,"Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,Z-ITFITAC05GN",4,"
+,WM-18,,,,,"WW90T654DLE AI Ecobubble™ AI Control Front Load Washing Machine 9kg, 1400rpm",,N,WW90T654DLE/SH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww6500t-front-loading-eco-bubble-ai-control-add-wash-9kg-white-ww90t654dle-sh/,WW90T654DLE/SH,"6,190","4,390",,,"4,390",Yes,100,100,,,,,,,,,,,Add to Cart,"4,290",,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,,,,,,,,"Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C",3,"
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
 ●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
-●  1 x  ITFIT Multi-functional Laundry Basket (Green) [Z-ITFITAC05GN]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,WM-19,,,,,"WW70AG5S21CESH Slim Ecobubble™ Front Load Washing Machine 7kg, 1200rpm",,N,WW70AG5S21CESH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww5100a-front-loading-ecobubble-super-speed-aquaprotect-7kg-white-ww70ag5s21cesh/,WW70AG5S21CESH,"5,290","3,390",,,"3,390",Yes,50,50,,,,,,,,,,,Add to Cart,"3,340",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,WM-20,,,,,"WW70AG5S21CXSH Slim Ecobubble™ Front Load Washing Machine 7kg, 1200rpm",,N,WW70AG5S21CXSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww5100a-front-loading-ecobubble-super-speed-aquaprotect-7kg-refined-inox-ww70ag5s21cxsh/,WW70AG5S21CXSH,"5,490","3,490",,,"3,490",Yes,50,50,,,,,,,,,,,Add to Cart,"3,440",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,WM-21,,,,,"WW80AG6L28BXSH Slim AI Ecobubble™ AI Control Front Load Washing Machine 8kg, 1200 rpm",,N,WW80AG6L28BXSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww6100a-front-loading-eco-bubble-ai-control-lagest-capacity-8kg-gray-ww80ag6l28bxsh/,WW80AG6L28BXSH,"6,190","4,390",,,"4,390",Yes,100,100,,,,,,,,,,,Add to Cart,"4,290",,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,,,,,Z-ITFITAC05GN,,,"Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,Z-ITFITAC05GN",4,"
+,WM-21,,,,,"WW80AG6L28BXSH Slim AI Ecobubble™ AI Control Front Load Washing Machine 8kg, 1200 rpm",,N,WW80AG6L28BXSH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww6100a-front-loading-eco-bubble-ai-control-lagest-capacity-8kg-gray-ww80ag6l28bxsh/,WW80AG6L28BXSH,"6,190","4,390",,,"4,390",Yes,100,100,,,,,,,,,,,Add to Cart,"4,290",,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,,,,,,,,"Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C",3,"
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
 ●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
-●  1 x  ITFIT Multi-functional Laundry Basket (Green) [Z-ITFITAC05GN]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,WM-22,,,,,"WW80AGAS21AESH Slim Ecobubble™ Front Load Washing Machine 8kg, 1200rpm",,N,WW80AGAS21AESH,https://www.samsung.com/hk/washers-and-dryers/washing-machines/ww5100a-front-loading-ecobubble-super-speed-aquaprotect-8kg-white-ww80agas21aesh/,WW80AGAS21AESH,"5,590","3,790",,,"3,790",Yes,50,50,,,,,,,,,,,Add to Cart,"3,740",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
@@ -547,7 +512,7 @@ SECOND,HTS-15,,,,,S-Series HW-S61D Soundbar,,N,HW-S61D/ZK,https://www.samsung.co
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,VC-01,,,,,Samsung Jet 75 Battery VCA-SBT90,,N,VCA-SBT90,https://www.samsung.com/hk/home-appliance-accessories/vacuum-cleaner-battery-vca-sbt90/,VCA-SBT90,"1,325","1,325",,,"1,325",Yes,0,0,,,,,,,,,,,Add to Cart,"1,325",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-SECOND,VC-02,,,,,VS20B95993BSH Bespoke Jet Plus 210W  Midnight Blue,,N,VS20B95993B/SH,https://www.samsung.com/hk/vacuum-cleaners/stick/bespoke-jet-plus-210w-all-in-one-clean-station-mid-blue-vs20b95993b-sh/,VS20B95993B/SH,"8,990","6,990",,,"6,990",Yes,250,250,,,,,,,,,,,Add to Cart,"6,740",,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-VCA-SPW95/VT,Z-VCA-SPA95/GL,Z-VCA-ADB952,Z-ITFITF17-C,,,,,"Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-VCA-SPW95/VT,Z-VCA-SPA95/GL,Z-VCA-ADB952,Z-ITFITF17-C",6,"
+,VC-02,,,,,VS20B95993BSH Bespoke Jet Plus 210W  Midnight Blue,,N,VS20B95993B/SH,https://www.samsung.com/hk/vacuum-cleaners/stick/bespoke-jet-plus-210w-all-in-one-clean-station-mid-blue-vs20b95993b-sh/,VS20B95993B/SH,"8,990","6,990",,,"6,990",Yes,250,250,,,,,,,,,,,Add to Cart,"6,740",,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-VCA-SPW95/VT,Z-VCA-SPA95/GL,Z-VCA-ADB952,Z-ITFITF17-C,,,,,"Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-VCA-SPW95/VT,Z-VCA-SPA95/GL,Z-VCA-ADB952,Z-ITFITF17-C",6,"
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
 ●  1 x  BESPOKE Jet™ Sweeper Microfiber Pads (4ea) [Z-VCA-SPW95/VT]
@@ -561,16 +526,16 @@ SECOND,VC-02,,,,,VS20B95993BSH Bespoke Jet Plus 210W  Midnight Blue,,N,VS20B9599
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ●  1 x  BESPOKE Jet Jet Dual Brush [Z-VCA-TABA95]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-SECOND,VC-04,,,,,VS20B95843WSH Bespoke Jet Plus 210W Misty White,,N,VS20B95843W/SH,https://www.samsung.com/hk/vacuum-cleaners/stick/bespoke-jet-plus-210w-all-in-one-clean-station-mis-white-vs20b95843w-sh/,VS20B95843W/SH,"6,990","5,590",,,"5,590",Yes,200,200,,,,,,,,,,,Add to Cart,"5,390",,Z-VCA-ADB952,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-VCA-WBA95/GL,,,,,,,"Z-VCA-ADB952,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-VCA-WBA95/GL",4,"
+,VC-04,,,,,VS20B95843WSH Bespoke Jet Plus 210W Misty White,,N,VS20B95843W/SH,https://www.samsung.com/hk/vacuum-cleaners/stick/bespoke-jet-plus-210w-all-in-one-clean-station-mis-white-vs20b95843w-sh/,VS20B95843W/SH,"6,990","5,590",,,"5,590",Yes,200,200,,,,,,,,,,,Add to Cart,"5,390",,Z-VCA-ADB952,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-VCA-WBA95/GL,,,,,,,"Z-VCA-ADB952,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-VCA-WBA95/GL",4,"
 ●  1 x  BESPOKE Jet™ Clean Station Antibacterial Dust Bag (5ea) [Z-VCA-ADB952]
 ●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
 ●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
 ●  1 x  BESPOKE Jet™ Spray Spinning Sweeper™ [Z-VCA-WBA95/GL]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-SECOND,VC-05,,,,,VS20C852FTBSHJet85 Stick VC Midnight Blue,,N,VS20C852FTB/SH,https://www.samsung.com/hk/vacuum-cleaners/stick/vs9500al-stick-more-advance-cleaning-performance-hexajet-motor-jet-cyclone-blue-vs20c852ftb-sh/,VS20C852FTB/SH,"4,990","3,990",,,"3,990",Yes,100,100,,,,,,,,,,,Add to Cart,"3,890",,Z-VCA-TABA95,,,,,,,,,,Z-VCA-TABA95,1,"
+,VC-05,,,,,VS20C852FTBSHJet85 Stick VC Midnight Blue,,N,VS20C852FTB/SH,https://www.samsung.com/hk/vacuum-cleaners/stick/vs9500al-stick-more-advance-cleaning-performance-hexajet-motor-jet-cyclone-blue-vs20c852ftb-sh/,VS20C852FTB/SH,"4,990","3,990",,,"3,990",Yes,100,100,,,,,,,,,,,Add to Cart,"3,890",,Z-VCA-TABA95,,,,,,,,,,Z-VCA-TABA95,1,"
 ●  1 x  BESPOKE Jet Jet Dual Brush [Z-VCA-TABA95]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-SECOND,VC-06,,,,,VS20C852CTNSH Jet85 Stick VC Woody Green1,,N,VS20C852CTN/SH,https://www.samsung.com/hk/vacuum-cleaners/stick/vs9500al-stick-more-advance-cleaning-performance-hexajet-motor-jet-cyclone-green-vs20c852ctn-sh/,VS20C852CTN/SH,"4,590","3,490",,,"3,490",Yes,100,100,,,,,,,,,,,Add to Cart,"3,390",,Z-VCA-TABA95,,,,,,,,,,Z-VCA-TABA95,1,"
+,VC-06,,,,,VS20C852CTNSH Jet85 Stick VC Woody Green1,,N,VS20C852CTN/SH,https://www.samsung.com/hk/vacuum-cleaners/stick/vs9500al-stick-more-advance-cleaning-performance-hexajet-motor-jet-cyclone-green-vs20c852ctn-sh/,VS20C852CTN/SH,"4,590","3,490",,,"3,490",Yes,100,100,,,,,,,,,,,Add to Cart,"3,390",,Z-VCA-TABA95,,,,,,,,,,Z-VCA-TABA95,1,"
 ●  1 x  BESPOKE Jet Jet Dual Brush [Z-VCA-TABA95]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,VC-07,,,,,Bespoke Jet™ AI premium extra 280 W Exceptionally Powerful Cleaning Performance Satin Black,,N,VS28C979FQK/SP,https://www.samsung.com/hk/vacuum-cleaners/stick/bespoke-jet-ai-satin-black-vs28c979fqk-sp/,VS28C979FQK/SP,"9,990","7,990",,,7990,Yes,0,0,,,,,,,,,,,Add to Cart,"7,990",,Z-VCA-ADB952,Z-VCA-SPW95/VT,Z-VCA-SPA95/GL,Z-VCA-TABC97/GL-C,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,,,,"Z-VCA-ADB952,Z-VCA-SPW95/VT,Z-VCA-SPA95/GL,Z-VCA-TABC97/GL-C,Z-ITFITF17-C,Z-ITFITPW21OCE-C,Z-ITFITPW28-C",7,"
@@ -646,7 +611,7 @@ SECOND,VC-06,,,,,VS20C852CTNSH Jet85 Stick VC Woody Green1,,N,VS20C852CTN/SH,htt
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTA-32,,,,,The Sero Wheel VG-SCST43V,,N,VG-SCST43V/ZK,https://www.samsung.com/hk/tv-accessories/the-sero-wheel-vg-scst43v-vg-scst43v-zk/,VG-SCST43V/ZK,690,690,,,690,Yes,0,0,,,,,,,,,,,Add to Cart,690,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CTA-33,,,,,,,N,VG-SOCA05/RU,,VG-SOCA05/RU,"1,990","1,990",,,1990,Yes,0,0,,,,,,,,,,,Add to Cart,"1,990",,,,,,,,,,,,,0,"
+,CTA-33,,,,,,,N,VG-SOCA05/RU,https://www.samsung.com?modelCode=VG-SOCA05/RU,VG-SOCA05/RU,"1,990","1,990",,,1990,Yes,0,0,,,,,,,,,,,Add to Cart,"1,990",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CTA-34,,,,,One Invisible Connection Optical Cable (15 meters) VG-SOCR15/ZA,,N,VG-SOCR15/ZA,https://www.samsung.com/hk/tv-accessories/optical-cable-socr15-vg-socr15-za/,VG-SOCR15/ZA,"3,680","3,680",,,3680,Yes,0,0,,,,,,,,,,,Add to Cart,"3,680",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
@@ -668,7 +633,7 @@ SECOND,VC-06,,,,,VS20C852CTNSH Jet85 Stick VC Woody Green1,,N,VS20C852CTN/SH,htt
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CWM-01,,,,,Full Motion Slim Fit Wall Mount (WMN-B30FB),,EOL,WMN-B30FB/RU,https://www.samsung.com/hk/tv-accessories/full-motion-slim-wall-mount-wmn-b30fb-ru/,WMN-B30FB/RU,"1,990","1,990",,,1990,Yes,0,0,,,,,,,,,,,Add to Cart,"1,990",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,CWM-02,,,,,Slim Fit Wall Mount (WMN-B50EB),,N,WMN-B50EB/RU,https://www.samsung.com/hk/tv-accessories/slim-fit-wall-mount-wmn-b50eb-ru/,WMN-B50EB/RU,"1,290","1,290",,,1290,Yes,0,0,,,,,,,,,,,Add to Cart,"1,290",,,,,,,,,,,,,0,"
+,CWM-02,,,,,Slim Fit Wall Mount (WMN-B50EB),,EOL,WMN-B50EB/RU,https://www.samsung.com/hk/tv-accessories/slim-fit-wall-mount-wmn-b50eb-ru/,WMN-B50EB/RU,"1,290","1,290",,,1290,Yes,0,0,,,,,,,,,,,Add to Cart,"1,290",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,CWM-03,,,,,Full Motion Slim Fit Wall Mount WMN-B05FB (2023),,N,WMN-B05FB/XY,https://www.samsung.com/hk/tv-accessories/full-motion-slim-wall-mount-wmn-b05fb-xy/,WMN-B05FB/XY,"1,490","1,490",,,1490,Yes,0,0,,,,,,,,,,,Add to Cart,"1,490",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
@@ -694,7 +659,7 @@ SECOND,VC-06,,,,,VS20C852CTNSH Jet85 Stick VC Woody Green1,,N,VS20C852CTN/SH,htt
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,VCA-08,,,,,BESPOKE Jet™ Jet Dual Brush,,N,VCA-TABA95,https://www.samsung.com/hk/home-appliance-accessories/vacuum-cleaners-accessories/bespoke-jet-dual-brush-vca-taba95/,VCA-TABA95,990,990,,,990,Yes,0,0,,,,,,,,,,,Add to Cart,990,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,VCA-09,,,,,,,N,VCA-SABC95,,VCA-SABC95,,690,,,690,Yes,0,0,,,,,,,,,,,Add to Cart,690,,,,,,,,,,,,,0,"
+,VCA-09,,,,,,,N,VCA-SABC95,https://www.samsung.com/hk/home-appliance-accessories/vacuum-cleaners-accessories/jet-vc-renewal-accessory-slim-led-brush-vca-sabc95/,VCA-SABC95,,690,,,,Yes,0,0,,,,,,,,,,,Add to Cart,0,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,VCA-10,,,,,BESPOKE Jet™ Pet Tool+ ,,N,VCA-PTB95,https://www.samsung.com/hk/home-appliance-accessories/vacuum-cleaners-accessories/jet-vc-renewal-accessory-pet-tool-plus-vca-ptb95/,VCA-PTB95,590,590,,,590,Yes,0,0,,,,,,,,,,,Add to Cart,590,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,

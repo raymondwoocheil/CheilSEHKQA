@@ -1,6 +1,6 @@
 {
   "Name": "UnitTest_AddTradeUpCart",
-  "CreationDate": "2024-10-27",
+  "CreationDate": "2024-11-3",
   "Commands": [
     {
       "Command": "store",
@@ -18,6 +18,24 @@
       "Command": "comment",
       "Target": "store // HW-S800D/ZK",
       "Value": "SKU",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//button[@data-an-la=\"add service:tradeup\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}==true",
+      "Value": "",
       "Description": ""
     },
     {
@@ -180,6 +198,12 @@
       "Command": "pause",
       "Target": "4000",
       "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
       "Description": ""
     }
   ]

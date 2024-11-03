@@ -1,6 +1,6 @@
 {
   "Name": "_LoopMaster_1",
-  "CreationDate": "2024-10-30",
+  "CreationDate": "2024-11-3",
   "Commands": [
     {
       "Command": "store",
@@ -22,19 +22,19 @@
     },
     {
       "Command": "store",
-      "Target": "250",
+      "Target": "350",
       "Value": "endingLineNumber",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "true",
+      "Command": "comment",
+      "Target": "store // true",
       "Value": "runTesterLinesOnly",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // false",
+      "Command": "store",
+      "Target": "false",
       "Value": "runTesterLinesOnly",
       "Description": ""
     },
@@ -48,6 +48,18 @@
       "Command": "comment",
       "Target": "store // false",
       "Value": "skipEOL",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "skip0gift",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // false",
+      "Value": "skip0gift",
       "Description": ""
     },
     {
@@ -57,14 +69,14 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "MX",
+      "Command": "comment",
+      "Target": "store // MX",
       "Value": "TestCat",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // CE",
+      "Command": "store",
+      "Target": "CE",
       "Value": "TestCat",
       "Description": ""
     },
@@ -75,20 +87,20 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "",
-      "Value": "TestSite",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "SPP",
+      "Command": "comment",
+      "Target": "store // ",
       "Value": "TestSite",
       "Description": ""
     },
     {
       "Command": "comment",
-      "Target": "store // EPP",
+      "Target": "store // SPP",
+      "Value": "TestSite",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "EPP",
       "Value": "TestSite",
       "Description": ""
     },
@@ -207,8 +219,14 @@
       "Description": ""
     },
     {
+      "Command": "comment",
+      "Target": "setWindowSize // 1200x900",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "setWindowSize",
-      "Target": "1200x750",
+      "Target": "400x900",
       "Value": "",
       "Description": ""
     },
@@ -273,8 +291,32 @@
       "Description": ""
     },
     {
+      "Command": "if",
+      "Target": "${skip0gift}==\"true\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!COL45}<>\"0\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "run",
       "Target": "${TestMacro}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
       "Value": "",
       "Description": ""
     },
@@ -401,6 +443,12 @@
     {
       "Command": "echo",
       "Target": "${!Runtime}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "run // _LoopMaster_2",
       "Value": "",
       "Description": ""
     }

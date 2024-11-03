@@ -1,1573 +1,1602 @@
 {
-    "Name": "UnitTest_CartChecking",
-    "CreationDate": "2024-10-25",
-    "Commands":
-    [
-        {
-            "Command": "store",
-            "Target": "fast",
-            "Value": "!replayspeed",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "true",
-            "Value": "!errorIgnore",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**Start Dummy Test Data",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "store // CE",
-            "Value": "TestCat",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "store // QA65QN900DJXZK",
-            "Value": "SKU",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "store // Yes",
-            "Value": "TradeUp",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "store // Yes",
-            "Value": "globalAddTradeUpCart",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "store // No",
-            "Value": "globalSkipTradeUp",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "executeScript // return 0",
-            "Value": "ExpectedTradeInRebate",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "store // Yes",
-            "Value": "TradeUp",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "executeScript // return 100",
-            "Value": "ExpectedTradeUpDiscount",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "store // Yes",
-            "Value": "SCPlus",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "store // Yes",
-            "Value": "globalAddSCPlusCart",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "store // No",
-            "Value": "globalSkipSCPlus",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "executeScript // return 0",
-            "Value": "ExpectedSCPlusPrice",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "store // QA65QN900DJXZK,Z-SM-S9280ZTGT-CTV,Z-WMN-B16FB/XY",
-            "Value": "ExpectedPremiumStrings",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "executeScript // return ${ExpectedPremiumStrings}.split(',')",
-            "Value": "ExpectedPremiumArray",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "executeScript // return Number(3)",
-            "Value": "ItemCount",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**End Dummy Test Data",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**Start of Cart Page Testing**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "waitForElementVisible",
-            "Target": "xpath=//cx-page-layout[contains(@class,\"CartPageTemplateV2\")]",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**Start of Empty Cart Checking**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "true",
-            "Value": "!statusOK",
-            "Description": ""
-        },
-        {
-            "Command": "verifyElementNotPresent",
-            "Target": "xpath=section[contains(@class,\"cart-details__empty\")]",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**End of Empty Cart Checking**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${!statusOK}!=true",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**Start Empty Cart - Log Result as OOS (Blocked)**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "times",
-            "Target": "30",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "OOS (Blocked)",
-            "Value": "TestResult",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**End Empty Cart - Log Result as OOS (Blocked)**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "else",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**Start Non-Empty Cart**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**Start Unit Task - Add Trade Up on Cart Page**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${TestCat}==\"CE\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${globalSkipTradeUp}!=\"Yes\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${globalAddTradeUpCart}==\"Yes\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${TradeUp}==\"Yes\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "run",
-            "Target": "UnitTest_AddTradeUpCart",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**End Unit Task - Add Trade Up on Cart Page**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**Start Unit Task - Reset Trade-In on Cart Page**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${TradeIn}!=\"Yes\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**End Unit Task - Reset Trade-In on Cart Page**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**Start Unit Task - Add Trade-In on Cart Page**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${TestCat}==\"MX\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${globalSkipTradeIn}!=\"Yes\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${globalAddTradeInCart}==\"Yes\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${TradeIn}==\"Yes\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "run",
-            "Target": "UnitTest_AddTradeInCart",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**End Unit Task - Add Trade-In on Cart Page**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**Start Unit Task - Add SCPlus on Cart Page**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${TestCat}==\"MX\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${globalSkipSCPlus}!=\"Yes\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${globalAddSCPlusCart}==\"Yes\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${SCPlus}==\"Yes\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "run",
-            "Target": "UnitTest_AddSCplusCart",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**End Unit Task - Add SCPlus on Cart Page**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**Start Unit Test - Check Cart Total**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "storeText",
-            "Target": "xpath=//*[contains(@class, \"summary-total__amount\")]",
-            "Value": "CartTotal",
-            "Description": ""
-        },
-        {
-            "Command": "executeScript",
-            "Target": "return Number(${CartTotal}.replace(/[^0-9.-]+/g,\"\"));",
-            "Value": "CartTotal",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**End Unit Test - Check Cart Total**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**Start Unit Test - Check SKU Price in Cart**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "storeText",
-            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//span[contains(@class,\"price__current\")]",
-            "Value": "SKUPriceCart",
-            "Description": ""
-        },
-        {
-            "Command": "executeScript",
-            "Target": "return Number(${SKUPriceCart}.replace(/[^0-9.-]+/g,\"\"));",
-            "Value": "SKUPriceCart",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "SKU Price in Cart",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "${SKUPriceCart}",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${ExpectedSKUPriceCart}==${SKUPriceCart}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Passed",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "else",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Failed",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Failed",
-            "Value": "TestResult",
-            "Description": ""
-        },
-        {
-            "Command": "echo",
-            "Target": "[${SKU}] SKU Price in Cart: Failed - Expected ${ExpectedSKUPriceCart} / Actual ${SKUPriceCart}",
-            "Value": "red",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**End Unit Test - Check SKU Price in Cart**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**Start Unit Test - Check Trade-in**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${TestCat}==\"MX\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Extra Trade-In Rebate",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${TradeIn}==\"Yes\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "true",
-            "Value": "!statusOK",
-            "Description": ""
-        },
-        {
-            "Command": "verifyElementNotPresent",
-            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__trade-in\")]//span[contains(@class,\"error-text\")]",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${!statusOK}==true",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "storeText",
-            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[@data-modelcode=\"TRADE-IN\"]//span[contains(@class,\"colorBlack\")]",
-            "Value": "TradeInRebate",
-            "Description": ""
-        },
-        {
-            "Command": "executeScript",
-            "Target": "return ${TradeInRebate}.split(\"HK$\")[2].trim();",
-            "Value": "TradeInRebate",
-            "Description": ""
-        },
-        {
-            "Command": "executeScript",
-            "Target": "return Number(${TradeInRebate}.split(\".00 (額外Trade-in回贈)\")[0].trim().replace(/[^0-9.-]+/g,\"\"));",
-            "Value": "TradeInRebate",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "${TradeInRebate}",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${ExpectedTradeInRebate}==${TradeInRebate}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Passed",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "else",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Failed",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Failed",
-            "Value": "TestResult",
-            "Description": ""
-        },
-        {
-            "Command": "echo",
-            "Target": "[${SKU}] Extra Trade-In Rebate: Failed - Expected ${ExpectedTradeInRebate} / Actual ${TradeInRebate}",
-            "Value": "red",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "else",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "times",
-            "Target": "2",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**End Unit Test - Check Trade-in**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**Start Unit Test - Check Trade-Up**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${TestCat}==\"CE\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Trade-Up Discount",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${TradeUp}==\"Yes\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "true",
-            "Value": "!statusOK",
-            "Description": ""
-        },
-        {
-            "Command": "verifyElementNotPresent",
-            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__trade-up\")]//span[contains(@class,\"error-text\")]",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${!statusOK}==true",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "storeText",
-            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__trade-up\")]//div[contains(@class,\"action-text\")]//span[contains(@class,\"text-nowrap\")]",
-            "Value": "TradeUpDiscount",
-            "Description": ""
-        },
-        {
-            "Command": "executeScript",
-            "Target": "return ${TradeUpDiscount}.split(\"-HK$\")[1].trim();",
-            "Value": "TradeUpDiscount",
-            "Description": ""
-        },
-        {
-            "Command": "executeScript",
-            "Target": "return Number(${TradeUpDiscount}.split(\".00\")[0].trim().replace(/[^0-9.-]+/g,\"\"));",
-            "Value": "TradeUpDiscount",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "${TradeUpDiscount}",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${ExpectedTradeUpDiscount}==${TradeUpDiscount}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Passed",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "else",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Failed",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Failed",
-            "Value": "TestResult",
-            "Description": ""
-        },
-        {
-            "Command": "echo",
-            "Target": "[${SKU}] Trade-Up Discount: Failed - Expected ${ExpectedTradeUpDiscount} / Actual ${TradeUpDiscount}",
-            "Value": "red",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "else",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "times",
-            "Target": "2",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**End Unit Test - Check Trade-Up**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**Start Unit Test - Check SC+**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "SC Plus Price",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${SCPlus}==\"Yes\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "true",
-            "Value": "!statusOK",
-            "Description": ""
-        },
-        {
-            "Command": "verifyElementNotPresent",
-            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__smc\")]//span[contains(@class,\"error-text\")]",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${!statusOK}==true",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "storeText",
-            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"action-text\")]//span[contains(@class,\"free-price\")]",
-            "Value": "SCPlusPrice",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${SCPlusPrice}==\"免費\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "executeScript",
-            "Target": "return Number(\"0\")",
-            "Value": "SCPlusPrice",
-            "Description": ""
-        },
-        {
-            "Command": "else",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "executeScript",
-            "Target": "return ${SCPlusPrice}.split(\"HK$\")[1].trim();",
-            "Value": "SCPlusPrice",
-            "Description": ""
-        },
-        {
-            "Command": "executeScript",
-            "Target": "return ${SCPlusPrice}.split(\".00\")[0].trim();",
-            "Value": "SCPlusPrice",
-            "Description": ""
-        },
-        {
-            "Command": "executeScript",
-            "Target": "return Number(${SCPlusPrice}.replace(/[^0-9.-]+/g,\"\"));",
-            "Value": "SCPlusPrice",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "${SCPlusPrice}",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${ExpectedSCPlusPrice}==${SCPlusPrice}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Passed",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "else",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Failed",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Failed",
-            "Value": "TestResult",
-            "Description": ""
-        },
-        {
-            "Command": "echo",
-            "Target": "[${SKU}] SC Plus Price: Failed - Expected ${ExpectedSCPlusPrice} / Actual ${SCPlusPrice}",
-            "Value": "red",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "else",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "times",
-            "Target": "2",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**End Unit Test - Check SC+**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**Start Unit Test - Count Premiums**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "storeXpathCount",
-            "Target": "xpath=//div[contains(@class,\"cart-item-list\")]",
-            "Value": "ItemCount",
-            "Description": ""
-        },
-        {
-            "Command": "executeScript",
-            "Target": "return Number(${ItemCount})-1",
-            "Value": "PremiumCount",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Premium Count",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "${PremiumCount}",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${ExpectedPremiumCount}==${PremiumCount}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Passed",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "-",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "elseif",
-            "Target": "${PremiumCount}>${ExpectedPremiumCount}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Failed",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "More - Expected ${ExpectedPremiumCount} / Actual ${PremiumCount}",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Failed",
-            "Value": "TestResult",
-            "Description": ""
-        },
-        {
-            "Command": "echo",
-            "Target": "${SKU} - Premium Count: Failed - more - Expected ${ExpectedPremiumCount} / Actual ${PremiumCount}",
-            "Value": "red",
-            "Description": ""
-        },
-        {
-            "Command": "elseif",
-            "Target": "${PremiumCount}<${ExpectedPremiumCount}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Failed",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Less - Expected ${ExpectedPremiumCount} / Actual ${PremiumCount}",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Failed",
-            "Value": "TestResult",
-            "Description": ""
-        },
-        {
-            "Command": "echo",
-            "Target": "[${SKU}] Premium Count: Failed - less - Expected ${ExpectedPremiumCount} / Actual ${PremiumCount}",
-            "Value": "red",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**End Unit Test - Count Premiums**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**Start Unit Test - Check Premiums**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Items in Cart",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "times",
-            "Target": "${ItemCount}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "storeText",
-            "Target": "xpath=//div[contains(@class,\"cart-item-list\")][${!times}]//div[contains(@class,\"cart-item__sku\")]",
-            "Value": "ThisSKU",
-            "Description": ""
-        },
-        {
-            "Command": "storeAttribute",
-            "Target": "xpath=//div[contains(@class,\"cart-item-list\")][${!times}]//cart-item-counter//button[contains(@class,\"btn-qty-plus\")]@data-modelunit",
-            "Value": "ThisQty",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "echo // Item ${!times}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "${ThisSKU}",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "${ThisQty}",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "echo",
-            "Target": "${ThisSKU}: ${ThisQty}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "echo // Check if ${ThisSKU} is Expected",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "",
-            "Value": "CheckingPremiumSKU",
-            "Description": ""
-        },
-        {
-            "Command": "executeScript",
-            "Target": "return false",
-            "Value": "VerifyThisSKU",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "forEach // ExpectedPremiumArray",
-            "Value": "CheckingPremiumSKU",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "echo // try ${CheckingPremiumSKU}",
-            "Value": "blue",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "echo // against ${ThisSKU}",
-            "Value": "blue",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "if_v2 // ${CheckingPremiumSKU}==${ThisSKU}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "executeScript // return true",
-            "Value": "VerifyThisSKU",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "end // ",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "end // ",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "if_v2 // ${SKU}==${ThisSKU}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "executeScript // return true",
-            "Value": "VerifyThisSKU",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "end // ",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if",
-            "Target": "${ExpectedPremiumStrings}.lastIndexOf(${ThisSKU}) > -1",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "end // ",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "if_v2 // ${VerifyThisSKU}==true",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "echo",
-            "Target": "${ThisSKU} is Expected",
-            "Value": "green",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Passed",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "else",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "echo",
-            "Target": "${ThisSKU} is Not Expected",
-            "Value": "red",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Failed",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "Failed",
-            "Value": "TestResult",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "",
-            "Value": "ThisSKU",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "executeScript",
-            "Target": "return 3*(10-${PremiumCount})",
-            "Value": "EmptyPremiumCount",
-            "Description": ""
-        },
-        {
-            "Command": "times",
-            "Target": "${EmptyPremiumCount}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "",
-            "Value": "!csvLine",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**End Unit Test - Check Premiums**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**Screencap Cart Page**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "captureEntirePageScreenshot",
-            "Target": "${TestCat}${TestSite} ${!csvReadLineNumber} ${CaseID} CartPage ${SKUwithoutSlash} ${DateTimeNow} ${TestResult}.png",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**Start Unit Task - Clear Cart**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${TradeIn}==\"Yes\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "click",
-            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[@data-modelcode=\"TRADE-IN\"]//button[@data-an-tr=\"cart-product-remove\"]",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "click",
-            "Target": "xpath=//app-remove-service-modal//button[@data-an-tr=\"cart-product-remove\"]",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "pause",
-            "Target": "1520",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${SCPlus}==\"Yes\"",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "click",
-            "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__smc\")]//button[@data-an-tr=\"cart-product-remove\"]",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "click",
-            "Target": "xpath=//app-remove-service-modal//button[@data-an-tr=\"cart-product-remove\"]",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "pause",
-            "Target": "2000",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "click",
-            "Target": "xpath=//div[@data-modelcode=\"${SKU}\"]//button[contains(@class,\"cart-item__remove--btn\")]",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "pause",
-            "Target": "800",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "click",
-            "Target": "xpath=//app-cart-item-remove-modal//button[@data-an-tr=\"cart-product-remove\"]",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "pause",
-            "Target": "800",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "true",
-            "Value": "!statusOK",
-            "Description": ""
-        },
-        {
-            "Command": "verifyElementNotPresent",
-            "Target": "xpath=//section[contains(@class,\"cart-details__empty\")]",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${!statusOK}==true",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "storeXpathCount",
-            "Target": "xpath=//button[contains(@class,\"cart-item__remove--btn\")]",
-            "Value": "RemoveIconCount",
-            "Description": ""
-        },
-        {
-            "Command": "echo",
-            "Target": "\"RemoveIconCount\" = ${RemoveIconCount}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "times",
-            "Target": "${RemoveIconCount}",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "click",
-            "Target": "xpath=//button[contains(@class,\"cart-item__remove--btn\")]",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "pause",
-            "Target": "800",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "click",
-            "Target": "xpath=//app-cart-item-remove-modal//button[@data-an-tr=\"cart-product-remove\"]",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "pause",
-            "Target": "400",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**End Unit Task - Clear Cart**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**End Non-Empty Cart**",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "comment",
-            "Target": "**End of Cart Page Testing**",
-            "Value": "",
-            "Description": ""
-        }
-    ]
+  "Name": "UnitTest_CartChecking",
+  "CreationDate": "2024-11-3",
+  "Commands": [
+    {
+      "Command": "store",
+      "Target": "fast",
+      "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!errorIgnore",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Dummy Test Data",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // CE",
+      "Value": "TestCat",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // QA65QN900DJXZK",
+      "Value": "SKU",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // Yes",
+      "Value": "TradeUp",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // Yes",
+      "Value": "globalAddTradeUpCart",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // No",
+      "Value": "globalSkipTradeUp",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "executeScript // return 0",
+      "Value": "ExpectedTradeInRebate",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // Yes",
+      "Value": "TradeUp",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "executeScript // return 100",
+      "Value": "ExpectedTradeUpDiscount",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // Yes",
+      "Value": "SCPlus",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // Yes",
+      "Value": "globalAddSCPlusCart",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // No",
+      "Value": "globalSkipSCPlus",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "executeScript // return 0",
+      "Value": "ExpectedSCPlusPrice",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // QA65QN900DJXZK,Z-SM-S9280ZTGT-CTV,Z-WMN-B16FB/XY",
+      "Value": "ExpectedPremiumStrings",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "executeScript // return ${ExpectedPremiumStrings}.split(',')",
+      "Value": "ExpectedPremiumArray",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "executeScript // return Number(3)",
+      "Value": "ItemCount",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Dummy Test Data",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start of Cart Page Testing**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "xpath=//cx-page-layout[contains(@class,\"CartPageTemplateV2\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start of Empty Cart Checking**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementNotPresent",
+      "Target": "xpath=section[contains(@class,\"cart-details__empty\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End of Empty Cart Checking**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Empty Cart - Log Result as OOS (Blocked)**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "30",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "OOS (Blocked)",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Empty Cart - Log Result as OOS (Blocked)**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Non-Empty Cart**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Unit Task - Add Trade Up on Cart Page**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${TestCat}==\"CE\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${globalSkipTradeUp}!=\"Yes\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${globalAddTradeUpCart}==\"Yes\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${TradeUp}==\"Yes\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_AddTradeUpCart",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Unit Task - Add Trade Up on Cart Page**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Unit Task - Reset Trade-In on Cart Page**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${TradeIn}!=\"Yes\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Unit Task - Reset Trade-In on Cart Page**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Unit Task - Add Trade-In on Cart Page**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${TestCat}==\"MX\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${globalSkipTradeIn}!=\"Yes\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${globalAddTradeInCart}==\"Yes\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${TradeIn}==\"Yes\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_AddTradeInCart",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Unit Task - Add Trade-In on Cart Page**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Unit Task - Add SCPlus on Cart Page**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${TestCat}==\"MX\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${globalSkipSCPlus}!=\"Yes\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${globalAddSCPlusCart}==\"Yes\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${SCPlus}==\"Yes\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_AddSCplusCart",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Unit Task - Add SCPlus on Cart Page**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Unit Test - Check Cart Total**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//*[contains(@class, \"summary-total__amount\")]",
+      "Value": "CartTotal",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return Number(${CartTotal}.replace(/[^0-9.-]+/g,\"\"));",
+      "Value": "CartTotal",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Unit Test - Check Cart Total**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Unit Test - Check SKU Price in Cart**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//span[contains(@class,\"price__current\")]",
+      "Value": "SKUPriceCart",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return Number(${SKUPriceCart}.replace(/[^0-9.-]+/g,\"\"));",
+      "Value": "SKUPriceCart",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "SKU Price in Cart",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${SKUPriceCart}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${ExpectedSKUPriceCart}==${SKUPriceCart}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "[${SKU}] SKU Price in Cart: Failed - Expected ${ExpectedSKUPriceCart} / Actual ${SKUPriceCart}",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Unit Test - Check SKU Price in Cart**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Unit Test - Check Trade-in**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${TestCat}==\"MX\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Extra Trade-In Rebate",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${TradeIn}==\"Yes\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementNotPresent",
+      "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__trade-in\")]//span[contains(@class,\"error-text\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[@data-modelcode=\"TRADE-IN\"]//span[contains(@class,\"colorBlack\")]",
+      "Value": "TradeInRebate",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return ${TradeInRebate}.split(\"HK$\")[2].trim();",
+      "Value": "TradeInRebate",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return Number(${TradeInRebate}.split(\".00 (額外Trade-in回贈)\")[0].trim().replace(/[^0-9.-]+/g,\"\"));",
+      "Value": "TradeInRebate",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TradeInRebate}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${ExpectedTradeInRebate}==${TradeInRebate}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "[${SKU}] Extra Trade-In Rebate: Failed - Expected ${ExpectedTradeInRebate} / Actual ${TradeInRebate}",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "2",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Unit Test - Check Trade-in**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Unit Test - Check Trade-Up**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${TestCat}==\"CE\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Trade-Up Discount",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${TradeUp}==\"Yes\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementNotPresent",
+      "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__trade-up\")]//span[contains(@class,\"error-text\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__trade-up\")]//div[contains(@class,\"action-text\")]//span[contains(@class,\"text-nowrap\")]",
+      "Value": "TradeUpDiscount",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return ${TradeUpDiscount}.split(\"-HK$\")[1].trim();",
+      "Value": "TradeUpDiscount",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return Number(${TradeUpDiscount}.split(\".00\")[0].trim().replace(/[^0-9.-]+/g,\"\"));",
+      "Value": "TradeUpDiscount",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TradeUpDiscount}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${ExpectedTradeUpDiscount}==${TradeUpDiscount}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "[${SKU}] Trade-Up Discount: Failed - Expected ${ExpectedTradeUpDiscount} / Actual ${TradeUpDiscount}",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "2",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Unit Test - Check Trade-Up**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Unit Test - Check SC+**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "SC Plus Price",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${SCPlus}==\"Yes\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementNotPresent",
+      "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__smc\")]//span[contains(@class,\"error-text\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"action-text\")]//span[contains(@class,\"free-price\")]",
+      "Value": "SCPlusPrice",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${SCPlusPrice}==\"免費\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return Number(\"0\")",
+      "Value": "SCPlusPrice",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return ${SCPlusPrice}.split(\"HK$\")[1].trim();",
+      "Value": "SCPlusPrice",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return ${SCPlusPrice}.split(\".00\")[0].trim();",
+      "Value": "SCPlusPrice",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return Number(${SCPlusPrice}.replace(/[^0-9.-]+/g,\"\"));",
+      "Value": "SCPlusPrice",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${SCPlusPrice}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${ExpectedSCPlusPrice}==${SCPlusPrice}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "[${SKU}] SC Plus Price: Failed - Expected ${ExpectedSCPlusPrice} / Actual ${SCPlusPrice}",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "2",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Unit Test - Check SC+**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Unit Test - Count Premiums**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeXpathCount",
+      "Target": "xpath=//div[contains(@class,\"cart-item-list\")]",
+      "Value": "ItemCount",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return Number(${ItemCount})-1",
+      "Value": "PremiumCount",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Premium Count",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${PremiumCount}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${ExpectedPremiumCount}==${PremiumCount}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "-",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
+      "Target": "${PremiumCount}>${ExpectedPremiumCount}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "More - Expected ${ExpectedPremiumCount} / Actual ${PremiumCount}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "${SKU} - Premium Count: Failed - more - Expected ${ExpectedPremiumCount} / Actual ${PremiumCount}",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
+      "Target": "${PremiumCount}<${ExpectedPremiumCount}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Less - Expected ${ExpectedPremiumCount} / Actual ${PremiumCount}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "[${SKU}] Premium Count: Failed - less - Expected ${ExpectedPremiumCount} / Actual ${PremiumCount}",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Unit Test - Count Premiums**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Unit Test - Check Premiums**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Items in Cart",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "${ItemCount}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//div[contains(@class,\"cart-item-list\")][${!times}]//div[contains(@class,\"cart-item__sku\")]",
+      "Value": "ThisSKU",
+      "Description": ""
+    },
+    {
+      "Command": "storeAttribute",
+      "Target": "xpath=//div[contains(@class,\"cart-item-list\")][${!times}]//cart-item-counter//button[contains(@class,\"btn-qty-plus\")]@data-modelunit",
+      "Value": "ThisQty",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "echo // Item ${!times}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${ThisSKU}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${ThisQty}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "${ThisSKU}: ${ThisQty}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "echo // Check if ${ThisSKU} is Expected",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "CheckingPremiumSKU",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return false",
+      "Value": "VerifyThisSKU",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "forEach // ExpectedPremiumArray",
+      "Value": "CheckingPremiumSKU",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "echo // try ${CheckingPremiumSKU}",
+      "Value": "blue",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "echo // against ${ThisSKU}",
+      "Value": "blue",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "if_v2 // ${CheckingPremiumSKU}==${ThisSKU}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "executeScript // return true",
+      "Value": "VerifyThisSKU",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "end // ",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "end // ",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "if_v2 // ${SKU}==${ThisSKU}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "executeScript // return true",
+      "Value": "VerifyThisSKU",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "end // ",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${ExpectedPremiumStrings}.lastIndexOf(${ThisSKU}) > -1",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "end // ",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "if_v2 // ${VerifyThisSKU}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "${ThisSKU} is Expected",
+      "Value": "green",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "${ThisSKU} is Not Expected",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "ThisSKU",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return 3*(10-${PremiumCount})",
+      "Value": "EmptyPremiumCount",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "${EmptyPremiumCount}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Unit Test - Check Premiums**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Screencap Cart Page**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "executeScript // document.querySelector('app-sticky-cart-totals-v2 > div > div').classList.remove('sticky-cart-totals__wrapper')",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "document.querySelector('app-sticky-cart-totals-v2 > div > div').style.display = \"none\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "document.querySelector('#spr-live-chat-app').style.display = \"none\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "document.querySelector('app-back-to-top').style.display = \"none\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "captureEntirePageScreenshot",
+      "Target": "${TestCat}${TestSite} ${!csvReadLineNumber} ${CaseID} CartPage ${SKUwithoutSlash} ${DateTimeNow} ${TestResult}.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "captureEntirePageScreenshot // Test",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Unit Task - Clear Cart**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${TradeIn}==\"Yes\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[@data-modelcode=\"TRADE-IN\"]//button[@data-an-tr=\"cart-product-remove\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-remove-service-modal//button[@data-an-tr=\"cart-product-remove\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1520",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${SCPlus}==\"Yes\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//div[contains(@class,\"service-item__smc\")]//button[@data-an-tr=\"cart-product-remove\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-remove-service-modal//button[@data-an-tr=\"cart-product-remove\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[@data-modelcode=\"${SKU}\"]//button[contains(@class,\"cart-item__remove--btn\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "800",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-cart-item-remove-modal//button[@data-an-tr=\"cart-product-remove\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "800",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementNotPresent",
+      "Target": "xpath=//section[contains(@class,\"cart-details__empty\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeXpathCount",
+      "Target": "xpath=//button[contains(@class,\"cart-item__remove--btn\")]",
+      "Value": "RemoveIconCount",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "\"RemoveIconCount\" = ${RemoveIconCount}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "${RemoveIconCount}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//button[contains(@class,\"cart-item__remove--btn\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "800",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-cart-item-remove-modal//button[@data-an-tr=\"cart-product-remove\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "400",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Unit Task - Clear Cart**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Non-Empty Cart**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End of Cart Page Testing**",
+      "Value": "",
+      "Description": ""
+    }
+  ]
 }

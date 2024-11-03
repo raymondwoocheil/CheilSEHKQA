@@ -1,6 +1,6 @@
 {
   "Name": "UnitTest_AddTradeInCart",
-  "CreationDate": "2024-10-24",
+  "CreationDate": "2024-11-3",
   "Commands": [
     {
       "Command": "store",
@@ -12,6 +12,30 @@
       "Command": "pause",
       "Target": "1000",
       "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // SM-F9560AKHTGY",
+      "Value": "SKU",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//button[@data-an-la=\"add service:trade-in\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}==true",
+      "Value": "",
       "Description": ""
     },
     {
@@ -269,6 +293,12 @@
     {
       "Command": "pause",
       "Target": "4000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
       "Value": "",
       "Description": ""
     }
