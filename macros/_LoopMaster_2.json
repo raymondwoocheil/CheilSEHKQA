@@ -34,8 +34,8 @@
             "Description": ""
         },
         {
-            "Command": "comment",
-            "Target": "store // true",
+            "Command": "store",
+            "Target": "true",
             "Value": "skipEOL",
             "Description": ""
         },
@@ -426,19 +426,13 @@
         {
             "Command": "echo",
             "Target": "Reading CSV line No.  ${!csvReadLineNumber} ",
-            "Value": "!errorIgnore",
+            "Value": "",
             "Description": ""
         },
         {
             "Command": "csvRead",
             "Target": "${TestCase}",
             "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "false",
-            "Value": "!errorIgnore",
             "Description": ""
         },
         {
