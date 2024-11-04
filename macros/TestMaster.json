@@ -1,6 +1,6 @@
 {
     "Name": "TestMaster",
-    "CreationDate": "2024-11-2",
+    "CreationDate": "2024-11-4",
     "Commands":
     [
         {
@@ -295,6 +295,12 @@
             "Command": "store",
             "Target": "${!COL16}",
             "Value": "Password",
+            "Description": ""
+        },
+        {
+            "Command": "store",
+            "Target": "EI-T5600KWEGWW",
+            "Value": "GcSKU",
             "Description": ""
         },
         {
@@ -1852,8 +1858,32 @@
             "Description": ""
         },
         {
+            "Command": "if_v2",
+            "Target": "${ExpectedGalaxyCredit}>0",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "run",
+            "Target": "UnitTest_AddGalaxyCredit",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "else",
+            "Target": "",
+            "Value": "",
+            "Description": ""
+        },
+        {
             "Command": "run",
             "Target": "UnitTest_CartOpen",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "end",
+            "Target": "",
             "Value": "",
             "Description": ""
         },
