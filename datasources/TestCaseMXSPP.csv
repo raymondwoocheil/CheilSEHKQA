@@ -1,7 +1,7 @@
 MX SPP,,,,,,,,,,,Via buy page,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Assigned,Test Case,,,,,,,,,,28,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,,Verify / AC >>,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,EPP store only premiums,,,,,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,,
 Tester,ID,Auto Cart,Manual Cart,Premiunm Qty,Auto Checkout,Model,BASE SKU,Active / BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-in,Trade-in-type,Verify extra trade-in rebate,SC+,SC-type,"Verify SC+ 
-in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,Extra LSV discount,Add to Cart,Verify Product Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass - 1/11 - 14/11,Mass - 1/11 - 14/11,Mass - 1/11 - 14/11,Mass - 1/11 - 14/11,Mass - 1/11 - 14/11,,EPP only,,,"No-trade-in
+in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Product Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass - 1/11 - 14/11,Mass - 1/11 - 14/11,Mass - 1/11 - 14/11,Mass - 1/11 - 14/11,Mass - 1/11 - 14/11,,EPP only,,,"No-trade-in
 offer",Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)","Verify Expired Premiums 
 NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,Guest Email,Select City,Select District,Select Service,Verify Expected Delivery Date,Verify Delivery Cost,Checkout Page Result,Screencap,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,Line No.,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,Extra Trade-In Rebate label,Trade-In Rebate captured,Trade-In Rebate result,SC+ label,SC+ captured,SC+ result,Premium SKU count,Count captured,Premium SKU count result,Failed reason,Items in Cart,SKU 1,Qty,,SKU 2,Qty,,SKU 3,Qty,,SKU 4,Qty,,SKU 5,Qty,,SKU 6,Qty,,SKU 7,Qty,,SKU 8,Qty,,SKU 9,Qty,,SKU 10,Qty,,Qty Total,Qty Total Result,Premium Array,Final Result,Test duration (s),,Cart Page Result,,
@@ -426,6 +426,8 @@ WK-OCT22-NOV11,S-ME-16,,,,,"Galaxy Watch7 44mm (LTE), Green",SM-L315F,N,SM-L315F
 ",2024/11/6,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,S-ME-24,,,,,SmartTag2,EI-T5600,EOL,EI-T5600BBEGWW,https://www.samsung.com/hk/multistore/hkeducation/pd.EI-T5600BBEGWW,EI-T5600BBEGWW,$0,$0,cptqaer+1@gmail.com,!Cheil2024,0,No,,-,No,,-,N/A,,-,-,,,,Add to Cart,0,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
