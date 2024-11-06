@@ -1,9 +1,9 @@
-CE,,,,,,,,,,,Via add-to-cart link,,,,,Go to B2C Cart Page,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CE,,,,,,,,,,,Via buy page,,,,,Go to B2C Cart Page,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Assigned,Test Case,,,,,,,,,,28,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,,,,,,,,Step >>,,Special D11 >>,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,D11 >>,,B2C only,B2C only,B2C only,,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Verify / AC >>,Step >>,Verify / AC >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,,
 Tester,ID,Auto Cart,Manual Cart,Manual Checkout,Auto Checkout,Model,FAMILY,Active,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-up,Trade-up-discount,Verify trade-up discount,,,,,,,,Add Promo Code 1,Add Promo Code 2,Special discount after adding to cart,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass,Mass,Mass,Mass,Mass,D11 >>,Warrenty,,,Swap gift,Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)","Verify Expired Premiums 
 NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,"Guest or login, proceed to delivery option",Verify these Delivery Option available,Delivery method action,Verify these criteria,,Verify Expected Delivery Date,Checkout Page Result,Screencap,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,Line No.,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,Extra Trade-In Rebate label,Trade-In Rebate captured,Rebate result,SC+ label,SC+ captured,SC+ result,Premium SKU count,Count captured,Premium SKU count result,Failed reason,Items in Cart,SKU 1,Qty,,SKU 2,Qty,,SKU 3,Qty,,SKU 4,Qty,,SKU 5,Qty,,SKU 6,Qty,,SKU 7,Qty,,SKU 8,Qty,,SKU 9,Qty,,SKU 10,Qty,,Qty Total,Qty Total Result,Premium Array,Final Result,Test duration (s),,Cart Page Result,Cart Page Result,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,"
 
 
@@ -673,57 +673,57 @@ Kristin,VC-07,,,,,Bespoke Jet™ AI premium extra 280 W Exceptionally Powerful C
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,AY-REFA-08,,,,,BESPOKE  1-Door Glass Panel (Glam Navy),,N,RA-M17DAA41GG,https://www.samsung.com/hk/home-appliance-accessories/bespoke-panels--rr5000-ra-m17daa41gg/,RA-M17DAA41GG,"1,320",920,,,920,Yes,0,0,,,,,,,,,,0%,Add to Cart,920,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,,,,,,,,N,,,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
+,,,,,,,,N,,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
