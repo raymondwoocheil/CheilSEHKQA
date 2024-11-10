@@ -1,6 +1,6 @@
 {
     "Name": "TestMaster",
-    "CreationDate": "2024-11-2",
+    "CreationDate": "2024-11-9",
     "Commands":
     [
         {
@@ -461,7 +461,7 @@
         },
         {
             "Command": "verifyElementPresent",
-            "Target": "xpath=//div[@class=\"hubble-product__total-cta\"]//div[contains(@class,\"s-hubble-total-cta\")]//a[contains(@class,\"cta--contained\")]",
+            "Target": "xpath=//div[@class=\"hubble-product__total-cta\"]//div[contains(@class,\"s-hubble-total-cta\")]//a[contains(@class,\"cta--contained\")][@onclick=\"bc_cta.addToCart(); return false;\"]",
             "Value": "",
             "Description": ""
         },
@@ -1872,6 +1872,18 @@
         {
             "Command": "comment",
             "Target": "**End of Cart Check Macros**",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "run",
+            "Target": "_Checkout",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "run",
+            "Target": "UnitTest_CartClear",
             "Value": "",
             "Description": ""
         },

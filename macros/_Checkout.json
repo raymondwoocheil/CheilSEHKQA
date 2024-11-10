@@ -1,0 +1,1302 @@
+{
+  "Name": "_Checkout",
+  "CreationDate": "2024-11-10",
+  "Commands": [
+    {
+      "Command": "store",
+      "Target": "fast",
+      "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!errorIgnore",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "MX",
+      "Value": "TestCat",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "CheckoutTestResult",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "CheckoutTestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Click checkout CTA button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-continue-to-checkout//button[@data-an-tr=\"cart-to-checkout\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of Checkout Page Unit Test",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Start of Checkout Page Unit Test",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "xpath=//app-checkout-one",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementNotPresent",
+      "Target": "xpath=//app-cart-message-banner//div[contains(@class,\"cart-alert\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Cart can proceed to checkout",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of entering guest email",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//app-guest-login",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=//input[@formcontrolname=\"guestEmail\"]",
+      "Value": "fake@fake.com",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "400",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//app-guest-login//button[@data-an-la=\"guest\"]",
+      "Value": "fake@fake.com",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of entering guest email",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of checkout step 1 profile",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "xpath=//app-checkout-one//app-step-checkout-container-body",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=//app-step-checkout-container-body//input[@name=\"phone\"]",
+      "Value": "98765432",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=//app-step-checkout-container-body//input[@name=\"firstName\"]",
+      "Value": "John",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=//app-step-checkout-container-body//input[@name=\"lastName\"]",
+      "Value": "Smith",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//button[@data-an-la=\"customer details:Continue to delivery options\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of checkout step 1 profile",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of checkout step 2 delivery option",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "xpath=//app-checkout-one//app-step-checkout-container-body",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${TestCat}==\"MX\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of MX checkout Unit Test",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start to MX DM1,5,6 checking",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "xpath=//app-step-checkout-container-body//mat-tab-group",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//app-step-checkout-container-body//mat-tab-group//div[contains(text(),\"送貨\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "CheckoutTestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Missing MX DM1 home delivery",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "${CheckoutTestFailedReason}&\"Missing MX DM1 home delivery, \"",
+      "Value": "CheckoutTestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//app-step-checkout-container-body//mat-tab-group//div[contains(text(),\"門市取貨\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "CheckoutTestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Missing MX DM5 Bopis",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "${CheckoutTestFailedReason}&\"CheckoutTestFailedReason, \"",
+      "Value": "CheckoutTestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//app-step-checkout-container-body//mat-tab-group//div[contains(text(),\"順豐自取點\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "CheckoutTestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Missing MX DM6 SF pickup",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "${CheckoutTestFailedReason}&\"Missing MX DM6 SF pickup, \"",
+      "Value": "CheckoutTestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End to MX DM1,5,6 checking",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of MX DM1 HK testing",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-step-checkout-container-body//mat-tab-group//div[contains(text(),\"送貨\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-customer-address-v2//dynamic-material-form//dynamic-material-form-control[not(@hidden)][1]//mat-select",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//mat-option[contains(@class,\"mat-mdc-option\")]//span[contains(text(),\"香港\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-customer-address-v2//dynamic-material-form//dynamic-material-form-control[not(@hidden)][2]//mat-select",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//mat-option[contains(@class,\"mat-mdc-option\")]//span[contains(text(),\"中西區\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=//app-customer-address-v2//dynamic-material-form-control[not(@hidden)]//input[@name=\"line1\"]",
+      "Value": "33/F Testing Address",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//ul[contains(@class,\"delivery_list\")]/li[1]/button[contains(@class,\"delivery-mode-tab\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Check EDD",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//ul[contains(@class,\"delivery_list\")]//p[contains(@class,\"delivery-mode-description-text\")]//span[contains(text(),\"預計 1-3 個工作天送抵\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "CheckoutTestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "DM1 HK failed to get EDD",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "${CheckoutTestFailedReason}&\"DM1 HK failed to get EDD, \"",
+      "Value": "CheckoutTestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//dynamic-material-form-control[not(@hidden)]//span[contains(@class,\"same-as-shipping-field\")]",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_EnterBillingAddress",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Click T&C and Proceed",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-checkout-tnc//mat-checkbox[contains(@class,\"mat-mdc-checkbox\")]//input[@class=\"mdc-checkbox__native-control\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//button[@data-an-la=\"delivery option:next\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Check if payment section loads",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//mat-expansion-panel[@data-activestepname=\"CHECKOUT_STEP_PAYMENT\"]",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "CheckoutTestResult",
+      "Description": ""
+    },
+    {
+      "Command": "app-continue-to-checkout",
+      "Target": "DM1 HK cannot proceed to payment",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "${CheckoutTestFailedReason}&\"DM1 HK cannot proceed to payment, \"",
+      "Value": "CheckoutTestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//a[@data-an-la=\"checkout:delivery options:edit\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of MX DM1 HK testing",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of MX DM1 HK testing",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-step-checkout-container-body//mat-tab-group//div[contains(text(),\"送貨\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-customer-address-v2//dynamic-material-form//dynamic-material-form-control[not(@hidden)][1]//mat-select",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//mat-option[contains(@class,\"mat-mdc-option\")]//span[contains(text(),\"澳門\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-customer-address-v2//dynamic-material-form//dynamic-material-form-control[not(@hidden)][2]//mat-select",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//mat-option[contains(@class,\"mat-mdc-option\")]//span[contains(text(),\"澳門半島\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=//app-customer-address-v2//dynamic-material-form-control[not(@hidden)]//input[@name=\"line1\"]",
+      "Value": "33/F Testing Address",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//ul[contains(@class,\"delivery_list\")]/li[1]/button[contains(@class,\"delivery-mode-tab\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Check EDD",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//ul[contains(@class,\"delivery_list\")]//p[contains(@class,\"delivery-mode-description-text\")]//span[contains(text(),\"預計 1-3 個工作天送抵\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "CheckoutTestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "DM1 MO failed to get EDD",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "${CheckoutTestFailedReason}&\"DM1 MO failed to get EDD, \"",
+      "Value": "CheckoutTestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//dynamic-material-form-control[not(@hidden)]//span[contains(@class,\"same-as-shipping-field\")]",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_EnterBillingAddress",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Click T&C and Proceed",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-checkout-tnc//mat-checkbox[contains(@class,\"mat-mdc-checkbox\")]//input[@class=\"mdc-checkbox__native-control\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//button[@data-an-la=\"delivery option:next\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Check if payment section loads",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//mat-expansion-panel[@data-activestepname=\"CHECKOUT_STEP_PAYMENT\"]",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "CheckoutTestResult",
+      "Description": ""
+    },
+    {
+      "Command": "app-continue-to-checkout",
+      "Target": "DM1 MO cannot proceed to payment",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "${CheckoutTestFailedReason}&\"DM1 MO cannot proceed to payment, \"",
+      "Value": "CheckoutTestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//a[@data-an-la=\"checkout:delivery options:edit\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of MX DM1 MO testing",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of MX DM5 bopis testing",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-step-checkout-container-body//mat-tab-group//div[contains(text(),\"門市取貨\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[@class=\"pickup-stores-tab\"][1]//label",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//ul[contains(@class,\"pickup-stores-services\")]/li[1]//div[@class=\"mat-mdc-checkbox-touch-target\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//ul[contains(@class,\"pickup-stores-services\")]/li[2]//div[@class=\"mat-mdc-checkbox-touch-target\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//ul[contains(@class,\"pickup-stores-services\")]/li[3]//div[@class=\"mat-mdc-checkbox-touch-target\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_EnterBillingAddress",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Click T&C and Proceed",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-checkout-tnc//mat-checkbox[contains(@class,\"mat-mdc-checkbox\")]//input[@class=\"mdc-checkbox__native-control\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//button[@data-an-la=\"delivery option:next\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Check if payment section loads",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//mat-expansion-panel[@data-activestepname=\"CHECKOUT_STEP_PAYMENT\"]",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "CheckoutTestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "DM5 cannot proceed to payment",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "${CheckoutTestFailedReason}&\"DM5 cannot proceed to payment, \"",
+      "Value": "CheckoutTestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//a[@data-an-la=\"checkout:delivery options:edit\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of MX DM5 bopis testing",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of MX DM6 SF pickup testing",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-step-checkout-container-body//mat-tab-group//div[contains(text(),\"順豐自取點\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-sf-express-pick-up//dynamic-material-form//dynamic-material-form-control[not(@hidden)][1]//mat-select",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//mat-option[contains(@class,\"mat-mdc-option\")]//span[contains(text(),\"香港\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-sf-express-pick-up//dynamic-material-form//dynamic-material-form-control[not(@hidden)][2]//mat-select",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//mat-option[contains(@class,\"mat-mdc-option\")]//span[contains(text(),\"葵青區\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-sf-express-pick-up//dynamic-material-form//dynamic-material-form-control[not(@hidden)][3]//mat-select",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//mat-option[contains(@class,\"mat-mdc-option\")]//span[contains(text(),\"葵涌\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "xpath=//div[@class=\"pickup-stores-container\"]//ul[@class=\"pickup-stores\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[@class=\"pickup-stores-tab\"][1]//label",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_EnterBillingAddress",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Click T&C and Proceed",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-checkout-tnc//mat-checkbox[contains(@class,\"mat-mdc-checkbox\")]//input[@class=\"mdc-checkbox__native-control\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//button[@data-an-la=\"delivery option:next\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Check if payment section loads",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//mat-expansion-panel[@data-activestepname=\"CHECKOUT_STEP_PAYMENT\"]",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "CheckoutTestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "DM6 cannot proceed to payment",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "${CheckoutTestFailedReason}&\"DM6 cannot proceed to payment, \"",
+      "Value": "CheckoutTestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "click // xpath=//a[@data-an-la=\"checkout:delivery options:edit\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of MX DM6 SF pickup testing",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of checkout step 2 delivery option",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of CE checkout Unit Test",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Start of CE checkout Unit Test",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of CE checkout Unit Test",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "CheckoutTestResult",
+      "Description": ""
+    },
+    {
+      "Command": "app-step-checkout-container-body",
+      "Target": "Cart cannot proceed to checkout",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "${CheckoutTestFailedReason}&\"Cart cannot proceed to checkout, \"",
+      "Value": "CheckoutTestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Reset to DM1",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-step-checkout-container-body//mat-tab-group//div[contains(text(),\"送貨\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of MX checkout Unit Test",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Checkout",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${CheckoutTestResult}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${CheckoutTestFailedReason}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Return to Cart Page",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[@class=\"view-order-total\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//a[@data-an-la=\"order summary:edit\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of Checkout Unit Test",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
