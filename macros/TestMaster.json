@@ -1876,7 +1876,7 @@
     },
     {
       "Command": "comment",
-      "Target": "run // _Checkout",
+      "Target": "run // UnitTest_Checkout",
       "Value": "",
       "Description": ""
     },

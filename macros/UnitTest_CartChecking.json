@@ -1,6 +1,6 @@
 {
     "Name": "UnitTest_CartChecking",
-    "CreationDate": "2024-11-4",
+    "CreationDate": "2024-11-11",
     "Commands":
     [
         {
@@ -1402,8 +1402,8 @@
             "Description": ""
         },
         {
-            "Command": "comment",
-            "Target": "captureEntirePageScreenshot // ${TestCat}${TestSite} ${!csvReadLineNumber} ${CaseID} CartPage ${SKUwithoutSlash} ${DateTimeNow} ${TestResult}.png",
+            "Command": "captureEntirePageScreenshot",
+            "Target": "${TestCat}${TestSite} ${!csvReadLineNumber} ${CaseID} CartPage ${SKUwithoutSlash} ${DateTimeNow} ${TestResult}.png",
             "Value": "",
             "Description": ""
         },
