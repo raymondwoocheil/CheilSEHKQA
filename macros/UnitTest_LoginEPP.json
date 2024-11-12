@@ -1,109 +1,109 @@
 {
-    "Name": "UnitTest_LoginEPP",
-    "CreationDate": "2024-11-2",
-    "Commands":
-    [
-        {
-            "Command": "store",
-            "Target": "fast",
-            "Value": "!replayspeed",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "true",
-            "Value": "!errorIgnore",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "true",
-            "Value": "!statusOK",
-            "Description": ""
-        },
-        {
-            "Command": "verifyElementPresent",
-            "Target": "xpath=//cx-page-slot[contains(@class,\"MultistoreLogin\")]//button[@data-an-tr=\"account-login\"]",
-            "Value": "!statusOK",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${!statusOK}==true",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "click",
-            "Target": "xpath=//cx-page-slot[contains(@class,\"MultistoreLogin\")]//button[@data-an-tr=\"account-login\"]",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "pause",
-            "Target": "2000",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "store",
-            "Target": "true",
-            "Value": "!statusOK",
-            "Description": ""
-        },
-        {
-            "Command": "verifyElementPresent",
-            "Target": "xpath=//main[contains(@class,\"new-login\")]",
-            "Value": "!statusOK",
-            "Description": ""
-        },
-        {
-            "Command": "if_v2",
-            "Target": "${!statusOK}==true",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "type",
-            "Target": "id=iptLgnPlnID",
-            "Value": "cptqaer@gmail.com",
-            "Description": ""
-        },
-        {
-            "Command": "click",
-            "Target": "id=signInButton",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "type",
-            "Target": "id=iptLgnPlnPD",
-            "Value": "!Cheil2024",
-            "Description": ""
-        },
-        {
-            "Command": "click",
-            "Target": "id=signInButton",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "pause",
-            "Target": "2000",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "end",
-            "Target": "",
-            "Value": "",
-            "Description": ""
-        }
-    ]
+  "Name": "UnitTest_LoginEPP",
+  "CreationDate": "2024-11-2",
+  "Commands":
+  [
+    {
+      "Command": "store",
+      "Target": "fast",
+      "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!errorIgnore",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//cx-page-slot[contains(@class,\"MultistoreLogin\")]//button[@data-an-tr=\"account-login\"]",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//cx-page-slot[contains(@class,\"MultistoreLogin\")]//button[@data-an-tr=\"account-login\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//main[contains(@class,\"new-login\")]",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=iptLgnPlnID",
+      "Value": "cptqaer@gmail.com",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=signInButton",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=iptLgnPlnPD",
+      "Value": "!Cheil2024",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=signInButton",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    }
+  ]
 }

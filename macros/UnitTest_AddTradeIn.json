@@ -1,7 +1,8 @@
 {
   "Name": "UnitTest_AddTradeIn",
   "CreationDate": "2024-11-3",
-  "Commands": [
+  "Commands":
+  [
     {
       "Command": "store",
       "Target": "true",

@@ -1,7 +1,8 @@
 {
   "Name": "Screencap",
   "CreationDate": "2024-5-8",
-  "Commands": [
+  "Commands":
+  [
     {
       "Command": "store",
       "Target": "fast",

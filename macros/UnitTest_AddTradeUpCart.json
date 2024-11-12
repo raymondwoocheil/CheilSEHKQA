@@ -1,7 +1,8 @@
 {
   "Name": "UnitTest_AddTradeUpCart",
   "CreationDate": "2024-11-3",
-  "Commands": [
+  "Commands":
+  [
     {
       "Command": "store",
       "Target": "fast",

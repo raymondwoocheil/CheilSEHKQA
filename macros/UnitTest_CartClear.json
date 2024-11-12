@@ -1,7 +1,8 @@
 {
   "Name": "UnitTest_CartClear",
   "CreationDate": "2024-11-4",
-  "Commands": [
+  "Commands":
+  [
     {
       "Command": "comment",
       "Target": "**Start Unit Task - Clear Cart**",

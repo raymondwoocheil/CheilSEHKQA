@@ -1,7 +1,8 @@
 {
   "Name": "UnitTest_AddTradeUp",
   "CreationDate": "2024-10-13",
-  "Commands": [
+  "Commands":
+  [
     {
       "Command": "store",
       "Target": "true",

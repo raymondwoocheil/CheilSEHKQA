@@ -1,91 +1,91 @@
 {
-    "Name": "UnitTest_EnterBillingAddress",
-    "CreationDate": "2024-11-10",
-    "Commands":
-    [
-        {
-            "Command": "type",
-            "Target": "xpath=//app-billing-address-v2//input[@name=\"firstName\"]",
-            "Value": "John",
-            "Description": ""
-        },
-        {
-            "Command": "type",
-            "Target": "xpath=//app-billing-address-v2//input[@name=\"lastName\"]",
-            "Value": "Smith",
-            "Description": ""
-        },
-        {
-            "Command": "type",
-            "Target": "xpath=//app-billing-address-v2//input[@name=\"phone\"]",
-            "Value": "98765432",
-            "Description": ""
-        },
-        {
-            "Command": "storeXpathCount",
-            "Target": "xpath=//app-billing-address-v2//dynamic-material-form-control[not(@hidden)]",
-            "Value": "billingFieldsCount",
-            "Description": ""
-        },
-        {
-            "Command": "executeScript",
-            "Target": "return ${billingFieldsCount}-2",
-            "Value": "cityFieldNum",
-            "Description": ""
-        },
-        {
-            "Command": "executeScript",
-            "Target": "return ${billingFieldsCount}-1",
-            "Value": "districtFieldNum",
-            "Description": ""
-        },
-        {
-            "Command": "click",
-            "Target": "xpath=//app-billing-address-v2//dynamic-material-form-control[not(@hidden)][${cityFieldNum}]//mat-select",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "pause",
-            "Target": "600",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "click",
-            "Target": "xpath=//mat-option[contains(@class,\"mat-mdc-option\")]//span[contains(text(),\"香港\")]",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "pause",
-            "Target": "600",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "click",
-            "Target": "xpath=//app-billing-address-v2//dynamic-material-form-control[not(@hidden)][${districtFieldNum}]//mat-select",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "pause",
-            "Target": "600",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "click",
-            "Target": "xpath=//mat-option[contains(@class,\"mat-mdc-option\")]//span[contains(text(),\"中西區\")]",
-            "Value": "",
-            "Description": ""
-        },
-        {
-            "Command": "type",
-            "Target": "xpath=//app-billing-address-v2//dynamic-material-form-control[not(@hidden)]//input[@name=\"line1\"]",
-            "Value": "33/F Testing Address",
-            "Description": ""
-        }
-    ]
+  "Name": "UnitTest_EnterBillingAddress",
+  "CreationDate": "2024-11-10",
+  "Commands":
+  [
+    {
+      "Command": "type",
+      "Target": "xpath=//app-billing-address-v2//input[@name=\"firstName\"]",
+      "Value": "John",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=//app-billing-address-v2//input[@name=\"lastName\"]",
+      "Value": "Smith",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=//app-billing-address-v2//input[@name=\"phone\"]",
+      "Value": "98765432",
+      "Description": ""
+    },
+    {
+      "Command": "storeXpathCount",
+      "Target": "xpath=//app-billing-address-v2//dynamic-material-form-control[not(@hidden)]",
+      "Value": "billingFieldsCount",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return ${billingFieldsCount}-2",
+      "Value": "cityFieldNum",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return ${billingFieldsCount}-1",
+      "Value": "districtFieldNum",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-billing-address-v2//dynamic-material-form-control[not(@hidden)][${cityFieldNum}]//mat-select",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//mat-option[contains(@class,\"mat-mdc-option\")]//span[contains(text(),\"香港\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-billing-address-v2//dynamic-material-form-control[not(@hidden)][${districtFieldNum}]//mat-select",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//mat-option[contains(@class,\"mat-mdc-option\")]//span[contains(text(),\"中西區\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=//app-billing-address-v2//dynamic-material-form-control[not(@hidden)]//input[@name=\"line1\"]",
+      "Value": "33/F Testing Address",
+      "Description": ""
+    }
+  ]
 }

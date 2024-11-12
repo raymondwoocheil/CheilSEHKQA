@@ -1,7 +1,8 @@
 {
   "Name": "TestMaster",
   "CreationDate": "2024-11-11",
-  "Commands": [
+  "Commands":
+  [
     {
       "Command": "store",
       "Target": "fast",
