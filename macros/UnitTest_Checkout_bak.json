@@ -1,0 +1,1033 @@
+{
+  "Name": "TestCheckout",
+  "CreationDate": "2024-7-18",
+  "Commands":
+  [
+    {
+      "Command": "store",
+      "Target": "fast",
+      "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!errorIgnore",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!Runtime}",
+      "Value": "StartTime",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start of TestCaseMX**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "echo // Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber}",
+      "Value": "green",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Open URL**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!COL5}",
+      "Value": "SKU",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return ${SKU}.replace(/\\//g,\"\");",
+      "Value": "SKUwithoutSlash",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return ${!COL9} > 50",
+      "Value": "IsLargeTV",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "open // https://www.samsung.com/hk/",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=${SKU}&&products[0].quantity=1",
+      "Value": "SKUurl",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "${SKUurl}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "100",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "TAB=OPEN",
+      "Value": "https://shop.samsung.com/hk/cart",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "TAB=CLOSEALLOTHER",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "open // https://shop.samsung.com/hk/cart",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "TestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "var today = new Date();\nvar date = today.getFullYear() + \"-\" + (today.getMonth() + 1) + \"-\" + today.getDate()\nreturn date;",
+      "Value": "DateToday",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "var today = new Date();\nvar time = today.getFullYear() + \"-\" + (today.getMonth() + 1) + \"-\" + today.getDate() + \" \" + today.getHours() + \":\" + today.getMinutes() + \":\" + today.getSeconds();\nreturn time;",
+      "Value": "DateTimeNow",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${DateTimeNow}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Store Variables**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!csvReadLineNumber}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${SKU}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**If empty cart = OOS**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//*[@class=\"cart-heading cart-empty\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "OOS (Blocked)",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Proceed to Checkout*",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//*[@data-an-la=\"proceed to checkout\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Check OOS block Checkout\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//span[@class=\"alert-desc\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "3",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TestFailedReason}OOS in Cart",
+      "Value": "TestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "captureScreenshot",
+      "Target": "Checkout ${SKUwithoutSlash} ${DateTimeNow} Failed cart OOS.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@data-an-tr=\"account-checkout\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=email",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=email",
+      "Value": "fakecheil@fake.com",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "id=tokonew-submit-btn",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Select HKcity**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=CHECKOUT_SHIPPING_ADDRESS_hk-shippingRegionName_field",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "select",
+      "Target": "id=CHECKOUT_SHIPPING_ADDRESS_hk-shippingRegionName_field",
+      "Value": "label=香港特別行政區",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=CHECKOUT_SHIPPING_ADDRESS_hk-shippingDistrictName_field",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "select",
+      "Target": "id=CHECKOUT_SHIPPING_ADDRESS_hk-shippingDistrictName_field",
+      "Value": "label=中西區",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "4000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Check HKcity - start",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementNotPresent",
+      "Target": "xpath=//div[@class=\"deliver-packages\"]//span[contains(@class,\"alert-danger\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//*[@id=\"CHECKOUT_DELIVERY_MODES\"]//div[@ng-if=\"showEDDMessage(deliveryGroup,deliveryMode)\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//*[@id=\"CHECKOUT_DELIVERY_MODES\"]//div[@ng-if=\"showEDDMessage(deliveryGroup,deliveryMode)\"]",
+      "Value": "RDDdate",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return ${RDDdate}.split(\":\")[1].trim();",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//div[contains(@class,\"button-container-calendar\")]",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TestFailedReason}No RDD for HKcity, ",
+      "Value": "TestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "No RDD for HKcity",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "captureScreenshot // Checkout ${SKUwithoutSlash} ${DateTimeNow} city.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Check HKcity - end",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Select HKremote**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=CHECKOUT_SHIPPING_ADDRESS_hk-shippingDistrictName_field",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "select",
+      "Target": "id=CHECKOUT_SHIPPING_ADDRESS_hk-shippingDistrictName_field",
+      "Value": "label=長洲區",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "4000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Check HKremote - start",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementNotPresent",
+      "Target": "xpath=//div[@class=\"deliver-packages\"]//span[contains(@class,\"alert-danger\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//*[@id=\"CHECKOUT_DELIVERY_MODES\"]//div[@ng-if=\"showEDDMessage(deliveryGroup,deliveryMode)\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//*[@id=\"CHECKOUT_DELIVERY_MODES\"]//div[@ng-if=\"showEDDMessage(deliveryGroup,deliveryMode)\"]",
+      "Value": "RDDdate",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return ${RDDdate}.split(\":\")[1].trim();",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//div[contains(@class,\"button-container-calendar\")]",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "No RDD for HKremote",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "isLargeTV=false",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TestFailedReason}No RDD for HKremote, ",
+      "Value": "TestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "captureScreenshot // Checkout ${SKUwithoutSlash} ${DateTimeNow} city.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Check HKremote - end",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "captureScreenshot // Checkout ${SKUwithoutSlash} ${DateTimeNow} remote.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Select Macau**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=CHECKOUT_SHIPPING_ADDRESS_hk-shippingRegionName_field",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "select",
+      "Target": "id=CHECKOUT_SHIPPING_ADDRESS_hk-shippingRegionName_field",
+      "Value": "label=澳門特別行政區",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=CHECKOUT_SHIPPING_ADDRESS_hk-shippingDistrictName_field",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "select",
+      "Target": "id=CHECKOUT_SHIPPING_ADDRESS_hk-shippingDistrictName_field",
+      "Value": "label=澳門半島",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "4000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Check Macau - start",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementNotPresent",
+      "Target": "xpath=//div[@class=\"deliver-packages\"]//span[contains(@class,\"alert-danger\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//*[@id=\"CHECKOUT_DELIVERY_MODES\"]//div[@ng-if=\"showEDDMessage(deliveryGroup,deliveryMode)\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//*[@id=\"CHECKOUT_DELIVERY_MODES\"]//div[@ng-if=\"showEDDMessage(deliveryGroup,deliveryMode)\"]",
+      "Value": "RDDdate",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return ${RDDdate}.split(\":\")[1].trim();",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//div[contains(@class,\"button-container-calendar\")]",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TestFailedReason}No RDD for Macau, ",
+      "Value": "TestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "No RDD for Macau",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "captureScreenshot // Checkout ${SKUwithoutSlash} ${DateTimeNow} city.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Check HKremote - end",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "captureScreenshot // Checkout ${SKUwithoutSlash} ${DateTimeNow} macau.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "OOS (Blocked)",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "captureScreenshot",
+      "Target": "Cart ${SKUwithoutSlash} ${DateTimeNow} OOS.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Clear Cart**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://shop.samsung.com/hk/cart",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//button[@data-variant-sku=\"${SKU}\"]//*[@class=\"icon-remove no-rtl\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementNotPresent",
+      "Target": "xpath=//div[contains(@class,\"cart-empty-container\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${!statusOK}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeXpathCount",
+      "Target": "xpath=//*[@class=\"cart-item-top cart-item-top-lg\"]//div[@class=\"cart-top-actions\"]//button[@data-automation-id=\"removeEntry\"]",
+      "Value": "RemoveIconCount",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "${RemoveIconCount}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@class=\"cart-item-top cart-item-top-lg\"]//div[@class=\"cart-top-actions\"]//button[@data-automation-id=\"removeEntry\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Log Final Test Results**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if",
+      "Target": "${TestResult}==\"Passed\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "[${SKU}] == ${TestResult}",
+      "Value": "green",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
+      "Target": "${TestResult}==\"Failed\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "[${SKU}] == ${TestResult}",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
+      "Target": "${TestResult}==\"OOS (Blocked)\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "[${SKU}] == ${TestResult}",
+      "Value": "orange",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "3",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "[${SKU}] == ${TestResult}",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TestResult}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TestFailedReason}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!Runtime}",
+      "Value": "EndTime",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return Number(${EndTime}.replace(/[^0-9.-]+/g,\"\"))-Number(${StartTime}.replace(/[^0-9.-]+/g,\"\"));",
+      "Value": "TestDuration",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TestDuration}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Test Duration: ${TestDuration}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "csvSave",
+      "Target": "DeliveryModeCheck-${DateToday}-${loopStream}.csv",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End of TestCaseMX**",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
