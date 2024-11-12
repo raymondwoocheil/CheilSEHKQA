@@ -29,7 +29,7 @@
     },
     {
       "Command": "pause",
-      "Target": "1520",
+      "Target": "800",
       "Value": "",
       "Description": ""
     },
@@ -59,7 +59,7 @@
     },
     {
       "Command": "pause",
-      "Target": "2000",
+      "Target": "1500",
       "Value": "",
       "Description": ""
     },
@@ -118,8 +118,8 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "echo // \"RemoveIconCount\" = ${RemoveIconCount}",
+      "Command": "echo",
+      "Target": "\"RemoveIconCount\" = ${RemoveIconCount}",
       "Value": "",
       "Description": ""
     },

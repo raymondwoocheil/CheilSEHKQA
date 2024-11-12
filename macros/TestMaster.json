@@ -190,6 +190,12 @@
       "Description": ""
     },
     {
+      "Command": "store",
+      "Target": "${!COL24}",
+      "Value": "GalaxyCreditStep",
+      "Description": ""
+    },
+    {
       "Command": "executeScript",
       "Target": "return Number(${!COL26}.replace(/[^0-9.-]+/g,\"\")) || 0;",
       "Value": "ExpectedGalaxyCredit",
@@ -1859,7 +1865,7 @@
     },
     {
       "Command": "if_v2",
-      "Target": "${ExpectedGalaxyCredit}>0",
+      "Target": "${GalaxyCreditStep}==\"Use GC\"",
       "Value": "",
       "Description": ""
     },

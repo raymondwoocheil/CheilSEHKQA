@@ -538,6 +538,18 @@
       "Description": ""
     },
     {
+      "Command": "store",
+      "Target": "Galaxy Credit in Cart",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${GalaxyCreditStep}==\"Use GC\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "storeText",
       "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${GcSKU}\"]//span[contains(@class,\"price__current\")]",
       "Value": "GcSKUPriceCurrent",
@@ -565,12 +577,6 @@
       "Command": "executeScript",
       "Target": "return ${GcSKUPriceOriginal}-${GcSKUPriceCurrent};",
       "Value": "GalaxyCreditCart",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "Galaxy Credit in Cart",
-      "Value": "!csvLine",
       "Description": ""
     },
     {
@@ -619,6 +625,30 @@
       "Command": "echo",
       "Target": "[${SKU}] Galaxy Credit in Cart: Failed - Expected ${ExpectedGalaxyCredit} / Actual ${GalaxyCreditCart}",
       "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "!csvLine",
       "Description": ""
     },
     {
@@ -1133,7 +1163,7 @@
     },
     {
       "Command": "executeScript",
-      "Target": "return ${ExpectedGalaxyCredit} > 0 ? Number(${ItemCount})-2 : Number(${ItemCount})-1;",
+      "Target": "return ${GalaxyCreditStep} == \"Use GC\" ? Number(${ItemCount})-2 : Number(${ItemCount})-1;",
       "Value": "PremiumCount",
       "Description": ""
     },
@@ -1385,7 +1415,7 @@
     },
     {
       "Command": "executeScript",
-      "Target": "return ${ExpectedGalaxyCredit} > 0 ? 3*(9-${PremiumCount} : 3*(10-${PremiumCount};)",
+      "Target": "return ${GalaxyCreditStep} == \"Use GC\" ? 3*(9-${PremiumCount}) : 3*(10-${PremiumCount});",
       "Value": "EmptyPremiumCount",
       "Description": ""
     },
