@@ -1,5 +1,5 @@
 CE EPP,,,,,,,,,,,Via buy page,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Assigned,Test Case,,,,,,,,,,68,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,,,,,,,,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,,,,EPP only,,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,
+Assigned,Test Case,,,,,,,,,,69,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,,,,,,,,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,,,,EPP only,,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Auto Checkout,
 Tester,ID,Auto Cart,Manual Cart,Manual Checkout,Auto Checkout,Model,FAMILY,BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-up,Trade-up-discount,Verify trade-up discount,,,,,,,,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,,,,,,,,,,,Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)","Verify Expired Premiums 
 NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,Guest Email,Select City,Select District,Select Service,Verify Expected Delivery Date,Verify Delivery Cost,Checkout Page Result,Screencap,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,Line No.,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,Extra Trade-In Rebate label,Trade-In Rebate captured,Trade-In Rebate result,SC+ label,SC+ captured,SC+ result,Premium SKU count,Count captured,Premium SKU count result,Failed reason,Items in Cart,SKU 1,Qty,,SKU 2,Qty,,SKU 3,Qty,,SKU 4,Qty,,SKU 5,Qty,,SKU 6,Qty,,SKU 7,Qty,,SKU 8,Qty,,SKU 9,Qty,,SKU 10,Qty,,Qty Total,Qty Total Result,Premium Array,Final Result,Test duration (s),,Cart Page Result,Cart Page Result,
@@ -64,8 +64,8 @@ NOVMASS,E-CTV-18,,,,,"55"" Neo QLED 4K QN85D",Neo QLED 4K QN85D,N,QA55QN85DBJXZK
 NOVMASS,E-CTV-19,,,,,"55"" Neo QLED 4K QN87D",Neo QLED 4K QN87D,N,QA55QN87DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/pd.QA55QN87DAJXZK,QA55QN87DAJXZK,"14,380","11,422",cptqaer+4@gmail.com,!Cheil2024,"11,422",No,0,0,,,,,,,,,,,Add to Cart,"10,145",,Z-HW-Q700D/ZK,,,,,,,,,,Z-HW-Q700D/ZK,1,"
 ●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,E-CTV-20,,,,,"55"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA55QN90DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/pd.QA55QN90DAJXZK,QA55QN90DAJXZK,"21,980","14,062",cptqaer+4@gmail.com,!Cheil2024,"14,062",No,0,0,,,,,,,,,,,Add to Cart,"12,521",,Z-HW-S700D/ZK-C,,,,,,ZG-FREE1YRWAREXT,,,,"Z-HW-S700D/ZK-C,ZG-FREE1YRWAREXT",2,"
-●  1 x  S-Series HW-S700D Soundbar [Z-HW-S700D/ZK-C]
+,E-CTV-20,,,,,"55"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA55QN90DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/pd.QA55QN90DAJXZK,QA55QN90DAJXZK,"21,980","14,062",cptqaer+4@gmail.com,!Cheil2024,"14,062",No,0,0,,,,,,,,,,,Add to Cart,"12,521",,Z-HW-S700D/ZK,,,,,,ZG-FREE1YRWAREXT,,,,"Z-HW-S700D/ZK,ZG-FREE1YRWAREXT",2,"
+●  1 x  S-Series HW-S700D Soundbar [Z-HW-S700D/ZK]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 NOVMASS,E-CTV-21,,,,,"55"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA55QN95DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/pd.QA55QN95DAJXZK,QA55QN95DAJXZK,"20,780","16,583",cptqaer+4@gmail.com,!Cheil2024,"16,583",No,0,0,,,,,,,,,,,Add to Cart,"14,790",,Z-HW-Q700D/ZK,,,,,,ZG-FREE1YRWAREXT,,,,"Z-HW-Q700D/ZK,ZG-FREE1YRWAREXT",2,"
@@ -75,7 +75,7 @@ NOVMASS,E-CTV-21,,,,,"55"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA55QN95DAJXZK
 NOVMASS,E-CTV-22,,,,,"55"" OLED S90DA",OLED 4K S90D,N,QA55S90DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/pd.QA55S90DAJXZK,QA55S90DAJXZK,"18,180","13,263",cptqaer+4@gmail.com,!Cheil2024,"13,263",No,0,0,,,,,,,,,,,Add to Cart,"11,802",,Z-HW-Q700D/ZK,,,,,,,,,,Z-HW-Q700D/ZK,1,"
 ●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-NOVMASS,E-CTV-23,,,,,"55"" OLED S95D",OLED 4K S95D,N,QA55S95DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/pd.QA55S95DAJXZK,QA55S95DAJXZK,"21,180","15,799",cptqaer+4@gmail.com,!Cheil2024,"15,799",No,0,0,,,,,,,,,,,Add to Cart,"14,084",,Z-HW-Q700D/ZK,,,,,,,,,,Z-HW-Q700D/ZK,1,"
+NOVMASS,E-CTV-23,,,,,"55"" OLED S95D",OLED 4K S95D,N,QA55S95DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/pd.QA55S95DAJXZK,QA55S95DAJXZK,"24,980","15,799",cptqaer+4@gmail.com,!Cheil2024,"15,799",No,0,0,,,,,,,,,,,Add to Cart,"14,084",,Z-HW-Q700D/ZK,,,,,,,,,,Z-HW-Q700D/ZK,1,"
 ●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 NOVMASS,E-CTV-24,,,,,"65"" Lifestyle Frame LS03D",The Frame LS03D,N,QA65LS03DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/pd.QA65LS03DAJXZK,QA65LS03DAJXZK,"23,180","16,702",cptqaer+4@gmail.com,!Cheil2024,"16,702",No,0,0,,,,,,,,,,,Add to Cart,"14,897",,Z-VG-SCFA65WTB,Z-VG-SCFC32SGMXY,Z-HW-S801D/ZK,,,,ZG-FRAMESLIMFITINSTALL,,,,"Z-VG-SCFA65WTB,Z-VG-SCFC32SGMXY,Z-HW-S801D/ZK,ZG-FRAMESLIMFITINSTALL",4,"
@@ -92,23 +92,23 @@ NOVMASS,E-CTV-24,,,,,"65"" Lifestyle Frame LS03D",The Frame LS03D,N,QA65LS03DAJX
 ●  1 x  Slim Fit Wall Mount WMN-B50EB (2023) [Z-WMN-B50EB/XY]
 ●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-C]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-NOVMASS-S24,E-CTV-27,,,,,"65"" Neo QLED 8K QN800D",Neo QLED 8K QN800D,N,QA65QN800DJXZK,https://www.samsung.com/hk/multistore/samsunghkem/pd.QA65QN800DJXZK,QA65QN800DJXZK,"35,880","30,782",cptqaer+4@gmail.com,!Cheil2024,"30,782",No,0,0,,,,,,,,,,,Add to Cart,"27,569",,Z-WMN-B16FB/XY,Z-SM-S7210ZAGTGY-C,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-S7210ZAGTGY-C,ZG-FREE1YRWAREXT",3,"
+NOVMASS-S24,E-CTV-27,,,,,"65"" Neo QLED 8K QN800D",Neo QLED 8K QN800D,N,QA65QN800DJXZK,https://www.samsung.com/hk/multistore/samsunghkem/pd.QA65QN800DJXZK,QA65QN800DJXZK,"35,880","30,782",cptqaer+4@gmail.com,!Cheil2024,"30,782",No,0,0,,,,,,,,,,,Add to Cart,"27,569",,Z-WMN-B16FB/XY,Z-SM-S7210ZYGTGY-C,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-S7210ZYGTGY-C,ZG-FREE1YRWAREXT",3,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-●  1 x  Galaxy S24 FE 256GB (Gray) [Z-SM-S7210ZAGTGY-C]
+●  1 x  Galaxy S24 FE 256GB (Yellow) [Z-SM-S7210ZYGTGY-C]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-CTV-28,,,,,"65"" Neo QLED 4K QN87D",Neo QLED 4K QN87D,N,QA65QN87DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/pd.QA65QN87DAJXZK,QA65QN87DAJXZK,"27,980","13,823",cptqaer+4@gmail.com,!Cheil2024,"13,823",No,0,0,,,,,,,,,,,Add to Cart,"12,306",,Z-WMN-B16FB/XY,Z-SM-X210NZA-TV,,,,,,,,,"Z-WMN-B16FB/XY,Z-SM-X210NZA-TV",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-NOVMASS-S24,E-CTV-29,,,,,"65"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA65QN900DJXZK,https://www.samsung.com/hk/multistore/samsunghkem/pd.QA65QN900DJXZK,QA65QN900DJXZK,"41,780","35,182",cptqaer+4@gmail.com,!Cheil2024,"35,182",No,0,0,,,,,,,,,,,Add to Cart,"31,529",,Z-WMN-B16FB/XY,Z-SM-S7210ZAGTGY-C,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-S7210ZAGTGY-C,ZG-FREE1YRWAREXT",3,"
+NOVMASS-S24,E-CTV-29,,,,,"65"" Neo QLED 8K QN900D",Neo QLED 8K QN900D,N,QA65QN900DJXZK,https://www.samsung.com/hk/multistore/samsunghkem/pd.QA65QN900DJXZK,QA65QN900DJXZK,"41,780","35,182",cptqaer+4@gmail.com,!Cheil2024,"35,182",No,0,0,,,,,,,,,,,Add to Cart,"31,529",,Z-WMN-B16FB/XY,Z-SM-S7210ZYGTGY-C,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-S7210ZYGTGY-C,ZG-FREE1YRWAREXT",3,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-●  1 x  Galaxy S24 FE 256GB (Gray) [Z-SM-S7210ZAGTGY-C]
+●  1 x  Galaxy S24 FE 256GB (Yellow) [Z-SM-S7210ZYGTGY-C]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-NOVMASS-S24,E-CTV-30,,,,,"65"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA65QN95DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/pd.QA65QN95DAJXZK,QA65QN95DAJXZK,"30,680","24,622",cptqaer+4@gmail.com,!Cheil2024,"24,622",No,0,0,,,,,,,,,,,Add to Cart,"22,025",,Z-WMN-B16FB/XY,Z-SM-S7210ZAGTGY-C,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-S7210ZAGTGY-C,ZG-FREE1YRWAREXT",3,"
+NOVMASS-S24,E-CTV-30,,,,,"65"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA65QN95DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/pd.QA65QN95DAJXZK,QA65QN95DAJXZK,"36,980","24,622",cptqaer+4@gmail.com,!Cheil2024,"24,622",No,0,0,,,,,,,,,,,Add to Cart,"22,025",,Z-WMN-B16FB/XY,Z-SM-S7210ZYGTGY-C,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-S7210ZYGTGY-C,ZG-FREE1YRWAREXT",3,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-●  1 x  Galaxy S24 FE 256GB (Gray) [Z-SM-S7210ZAGTGY-C]
+●  1 x  Galaxy S24 FE 256GB (Yellow) [Z-SM-S7210ZYGTGY-C]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 NOVMASS,E-CTV-31,,,,,"65"" OLED S90DA",OLED 4K S90D,N,QA65S90DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/pd.QA65S90DAJXZK,QA65S90DAJXZK,"36,380","18,097",cptqaer+4@gmail.com,!Cheil2024,"18,097",No,0,0,,,,,,,,,,,Add to Cart,"16,152",,Z-WMN-B05FB/XY,Z-HW-Q700D/ZK,,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-Q700D/ZK",2,"
@@ -417,9 +417,10 @@ D11EXTRA,E-FAB-01,,,,,AI AirDresser with JetSteam Refresh & Sanitize Cycle,,N,DF
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-WM-03,,,,,WA70M4400 Top Loader With Drain Pump 7kg Inox ,,N,WA70M4400SS/SH,https://www.samsung.com/hk/multistore/samsunghkem/pd.WA70M4400SSSH,WA70M4400SS/SH,"3,390","2,331",cptqaer+4@gmail.com,!Cheil2024,"2,331",No,0,0,,,,,,,,,,,Add to Cart,"2,331",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-NOV7TH,E-WM-04,,,,,WA80CG4545BDSH Ecobubble™ Top Loader without Drain Pump 8kg Versailles Gary,,N,WA80CG4545BDSH,https://www.samsung.com/hk/multistore/samsunghkem/pd.WA80CG4545BDSH,WA80CG4545BDSH,"4,090","2,511",cptqaer+4@gmail.com,!Cheil2024,"2,511",No,50,0,,,,,,,,,,,Add to Cart,"2,511",,Z-ITFITPW21OCE-C,Z-ITFITF17-C,,,,,,,,,"Z-ITFITPW21OCE-C,Z-ITFITF17-C",2,"
-●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
-●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
+NOV7TH,E-WM-04,,,,,WA80CG4545BDSH Ecobubble™ Top Loader without Drain Pump 8kg Versailles Gary,,N,WA80CG4545BDSH,https://www.samsung.com/hk/multistore/samsunghkem/pd.WA80CG4545BDSH,WA80CG4545BDSH,"4,090","2,511",cptqaer+4@gmail.com,!Cheil2024,"2,511",No,50,0,,,,,,,,,,,Add to Cart,"2,511",,Z-ITAC15-C,Z-ITFITF16,,,,Z-ITFITAC05GN,,,,,"Z-ITAC15-C,Z-ITFITF16,Z-ITFITAC05GN",3,"
+●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
+●  1 x  ITFIT Multi-functional Laundry Basket (Green) [Z-ITFITAC05GN]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 NOV7TH,E-WM-05,,,,,WA80C14545BVSH Ecobubble™ Top Loader with Drain Pump 8kg Black Caviar,,N,WA80C14545BVSH,https://www.samsung.com/hk/multistore/samsunghkem/pd.WA80C14545BVSH,WA80C14545BVSH,"4,290","2,511",cptqaer+4@gmail.com,!Cheil2024,"2,511",No,50,0,,,,,,,,,,,Add to Cart,"2,511",,Z-ITFITAC05NY,,,,,,,,,,Z-ITFITAC05NY,1,"
 ●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
@@ -430,8 +431,9 @@ NOV7TH,E-WM-06,,,,,WA10CG4545BDSH Ecobubble™ Top Loader without Drain Pump 10k
 NOV7TH,E-WM-07,,,,,WA10C14545BVSH Ecobubble™ Top Loader with Drain Pump 10kg Black Caviar,,N,WA10C14545BVSH,https://www.samsung.com/hk/multistore/samsunghkem/pd.WA10C14545BVSH,WA10C14545BVSH,"4,890","3,051",cptqaer+4@gmail.com,!Cheil2024,"3,051",No,50,0,,,,,,,,,,,Add to Cart,"2,901",,Z-ITFITAC05NY,,,,,,,,,,Z-ITFITAC05NY,1,"
 ●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-D11EXTRA,E-WM-08,,,,,"WD10T754DBH AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 10.5/7kg, 1400rpm",,N,WD10T754DBH/SH,https://www.samsung.com/hk/multistore/samsunghkem/pd.WD10T754DBHSH,WD10T754DBH/SH,"7,990","4,851",cptqaer+4@gmail.com,!Cheil2024,"4,851",No,0,0,,,,,,,,,,,Add to Cart,"4,466",,Z-ITFITAC05NY,,,,,Z-ITFITAC05GN,,,,,"Z-ITFITAC05NY,Z-ITFITAC05GN",2,"
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
+D11EXTRA,E-WM-08,,,,,"WD10T754DBH AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 10.5/7kg, 1400rpm",,N,WD10T754DBH/SH,https://www.samsung.com/hk/multistore/samsunghkem/pd.WD10T754DBHSH,WD10T754DBH/SH,"7,990","4,851",cptqaer+4@gmail.com,!Cheil2024,"4,851",No,0,0,,,,,,,,,,,Add to Cart,"4,466",,Z-ITAC15-C,Z-ITFITF16,,,,Z-ITFITAC05GN,,,,,"Z-ITAC15-C,Z-ITFITF16,Z-ITFITAC05GN",3,"
+●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
 ●  1 x  ITFIT Multi-functional Laundry Basket (Green) [Z-ITFITAC05GN]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-WM-09,,,,,"WD70TA046BE/SH Hygiene Steam Front Load Washer + Dryer Combo 7/5kg, 1400rpm",,N,WD70TA046BE/SH,https://www.samsung.com/hk/multistore/samsunghkem/pd.WD70TA046BESH,WD70TA046BE/SH,"6,090","3,861",cptqaer+4@gmail.com,!Cheil2024,"3,861",No,0,0,,,,,,,,,,,Add to Cart,"3,711",,,,,,,,,,,,,0,"
@@ -468,10 +470,9 @@ D11EXTRA,E-WM-21,,,,,"WW80AG6L28BXSH Slim AI Ecobubble™ AI Control Front Load 
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-WM-22,,,,,"WW80AGAS21AESH Slim Ecobubble™ Front Load Washing Machine 8kg, 1200rpm",,N,WW80AGAS21AESH,https://www.samsung.com/hk/multistore/samsunghkem/pd.WW80AGAS21AESH,WW80AGAS21AESH,"5,590","3,411",cptqaer+4@gmail.com,!Cheil2024,"3,411",No,50,0,,,,,,,,,,,Add to Cart,"3,261",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,E-WM-23,,,,,"WW80AGAS21AXSH Slim Ecobubble™ Front Load Washing Machine 8kg, 1200rpm",,N,WW80AGAS21AXSH,https://www.samsung.com/hk/multistore/samsunghkem/pd.WW80AGAS21AXSH,WW80AGAS21AXSH,"5,790","3,501",cptqaer+4@gmail.com,!Cheil2024,"3,501",No,50,0,,,,,,,,,,,Add to Cart,"3,351",,Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C,,,,,,,,"Z-ITFITPW21OCE-C,Z-ITFITPW28-C,Z-ITFITF17-C",3,"
-●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
-●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-C]
-●  1 x  ITFIT 2-in-1 Portable Fan [Z-ITFITF17-C]
+NOV8TH,E-WM-23,,,,,"WW80AGAS21AXSH Slim Ecobubble™ Front Load Washing Machine 8kg, 1200rpm",,N,WW80AGAS21AXSH,https://www.samsung.com/hk/multistore/samsunghkem/pd.WW80AGAS21AXSH,WW80AGAS21AXSH,"5,790","3,501",cptqaer+4@gmail.com,!Cheil2024,"3,501",No,50,0,,,,,,,,,,,Add to Cart,"3,351",,Z-ITAC15-C,Z-ITFITF16,,,,,,,,,"Z-ITAC15-C,Z-ITFITF16",2,"
+●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
+●  1 x  ITFIT Multifuntional Camping Fan (Green) [Z-ITFITF16]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,E-VC-01,,,,,Samsung Jet 75 Battery VCA-SBT90,,N,VCA-SBT90,https://www.samsung.com/hk/multistore/samsunghkem/pd.VCA-SBT90,VCA-SBT90,"1,325","1,219",cptqaer+4@gmail.com,!Cheil2024,"1,219",No,0,0,,,,,,,,,,,Add to Cart,"1,219",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
