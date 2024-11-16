@@ -683,7 +683,7 @@
     },
     {
       "Command": "if_v2",
-      "Target": "${TradeIn}==\"Yes\"",
+      "Target": "${globalSkipTradeIn}!=\"Yes\" && ${TradeIn}==\"Yes\"",
       "Value": "",
       "Description": ""
     },
@@ -839,7 +839,7 @@
     },
     {
       "Command": "if_v2",
-      "Target": "${TradeUp}==\"Yes\"",
+      "Target": "${globalSkipTradeUp}!=\"Yes\" && ${TradeUp}==\"Yes\"",
       "Value": "",
       "Description": ""
     },
@@ -989,7 +989,7 @@
     },
     {
       "Command": "if_v2",
-      "Target": "${SCPlus}==\"Yes\"",
+      "Target": "${globalSkipSCPlus}!=\"Yes\" && ${SCPlus}==\"Yes\"",
       "Value": "",
       "Description": ""
     },

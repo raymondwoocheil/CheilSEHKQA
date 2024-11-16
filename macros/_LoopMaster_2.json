@@ -1,8 +1,7 @@
 {
   "Name": "_LoopMaster_2",
-  "CreationDate": "2024-11-3",
-  "Commands":
-  [
+  "CreationDate": "2024-11-16",
+  "Commands": [
     {
       "Command": "store",
       "Target": "fast",
@@ -28,8 +27,8 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // true",
+      "Command": "store",
+      "Target": "true",
       "Value": "runTesterLinesOnly",
       "Description": ""
     },
@@ -52,14 +51,14 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "MX",
+      "Command": "comment",
+      "Target": "store // MX",
       "Value": "TestCat",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // CE",
+      "Command": "store",
+      "Target": "CE",
       "Value": "TestCat",
       "Description": ""
     },
@@ -84,6 +83,12 @@
     {
       "Command": "comment",
       "Target": "store // EPP",
+      "Value": "TestSite",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // Secret",
       "Value": "TestSite",
       "Description": ""
     },
