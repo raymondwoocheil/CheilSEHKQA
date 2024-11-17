@@ -46,6 +46,18 @@
       "Description": ""
     },
     {
+      "Command": "store",
+      "Target": "",
+      "Value": "DeliveryRDD",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "DeliveryService",
+      "Description": ""
+    },
+    {
       "Command": "comment",
       "Target": "Click checkout CTA button",
       "Value": "",
@@ -466,6 +478,12 @@
       "Description": ""
     },
     {
+      "Command": "storeText",
+      "Target": "xpath=//ul[contains(@class,\"delivery_list\")]//p[contains(@class,\"delivery-mode-description-text\")]//span[contains(text(),\"預計 1-3 個工作天送抵\")]",
+      "Value": "DeliveryRDD",
+      "Description": ""
+    },
+    {
       "Command": "if_v2",
       "Target": "${!statusOK}!=true",
       "Value": "",
@@ -673,6 +691,12 @@
       "Command": "verifyElementPresent",
       "Target": "xpath=//ul[contains(@class,\"delivery_list\")]//p[contains(@class,\"delivery-mode-description-text\")]//span[contains(text(),\"預計 1-3 個工作天送抵\")]",
       "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//ul[contains(@class,\"delivery_list\")]//p[contains(@class,\"delivery-mode-description-text\")]//span[contains(text(),\"預計 1-3 個工作天送抵\")]",
+      "Value": "DeliveryRDD",
       "Description": ""
     },
     {
@@ -1192,6 +1216,24 @@
       "Description": ""
     },
     {
+      "Command": "elseif",
+      "Target": "${TestCat}==\"CE\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of CE checkout Unit Test",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of CE checkout Unit Test",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "end",
       "Target": "",
       "Value": "",
@@ -1224,6 +1266,12 @@
     {
       "Command": "store",
       "Target": "${CheckoutTestFailedReason}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "${DeliveryRDD}",
       "Value": "!csvLine",
       "Description": ""
     },
