@@ -54,7 +54,7 @@
     {
       "Command": "store",
       "Target": "",
-      "Value": "DeliveryService",
+      "Value": "DeliveryServices",
       "Description": ""
     },
     {
@@ -1271,7 +1271,25 @@
     },
     {
       "Command": "storeText",
+      "Target": "Delivery RDD",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
       "Target": "${DeliveryRDD}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "Delivery Services",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "${DeliveryServices}",
       "Value": "!csvLine",
       "Description": ""
     },

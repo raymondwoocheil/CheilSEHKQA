@@ -1,0 +1,349 @@
+{
+  "Name": "__unit",
+  "CreationDate": "2024-11-17",
+  "Commands":
+  [
+    {
+      "Command": "store",
+      "Target": "No",
+      "Value": "globalSkipSCPlus",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of CE DM2A HK testing",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${DeliveryMode} == \"DM2A\" && ${DeliveryCity} ==\"HK\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-customer-address-v2//dynamic-material-form//dynamic-material-form-control[not(@hidden)][1]//mat-select",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//mat-option[contains(@class,\"mat-mdc-option\")]//span[contains(text(),\"香港\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-customer-address-v2//dynamic-material-form//dynamic-material-form-control[not(@hidden)][2]//mat-select",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "600",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//mat-option[contains(@class,\"mat-mdc-option\")]//span[contains(text(),\"中西區\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=//app-customer-address-v2//dynamic-material-form-control[not(@hidden)]//input[@name=\"line1\"]",
+      "Value": "33/F Testing Address",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//ul[contains(@class,\"delivery_list\")]/li[1]/button[contains(@class,\"delivery-mode-tab\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Select DM2A for SKU",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "DeliveryServices",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "storeXpathCount",
+      "Target": "xpath=//div[contains(@class,\"mat-mdc-tab-body-content\")]/div",
+      "Value": "ShippingGroupCount",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return ${ShippingGroupCount}-1",
+      "Value": "PremiumShippingGroupCount",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[contains(@class,\"mat-mdc-tab-body-content\")]/div[1]//button[contains(@class,\"delivery-mode-tab\")]/label[@for=\"group0hk-DM2A_CE_City_3PL_B\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Select Delivery Services for SKU",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeXpathCount",
+      "Target": "xpath=//div[contains(@class,\"mat-mdc-tab-body-content\")]/div[1]//ul[contains(@class,\"service_list group-level\")]/li",
+      "Value": "ShippingGroup0ServiceCount",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "${ShippingGroup0ServiceCount}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[contains(@class,\"mat-mdc-tab-body-content\")]/div[1]//ul[contains(@class,\"service_list group-level\")]/li[${!times}]//div[contains(@class,\"touch-target\")]",
+      "Value": "ShippingGroup0ServiceCount",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//div[contains(@class,\"mat-mdc-tab-body-content\")]/div[1]//ul[contains(@class,\"service_list group-level\")]/li[${!times}]//div[contains(@class,\"delivery-service-name-text\")]",
+      "Value": "DeliveryServiceTemp",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${DeliveryServices}${DeliveryServiceTemp}, ",
+      "Value": "DeliveryServices",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "500",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//ul[contains(@class,\"delivery_list\")]//p[contains(@class,\"delivery-mode-description-text\")]//span[contains(text(),\"預計 1-3 個工作天送抵\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "CheckoutTestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "DM1 HK failed to get EDD",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "${CheckoutTestFailedReason}&\"DM1 HK failed to get EDD, \"",
+      "Value": "CheckoutTestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//dynamic-material-form-control[not(@hidden)]//span[contains(@class,\"same-as-shipping-field\")]",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_EnterBillingAddress",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Click T&C and Proceed",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-checkout-tnc//mat-checkbox[contains(@class,\"mat-mdc-checkbox\")]//input[@class=\"mdc-checkbox__native-control\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//button[@data-an-la=\"delivery option:next\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_CheckPayment",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//a[@data-an-la=\"checkout:delivery options:edit\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of CE DM2A HK testing",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
