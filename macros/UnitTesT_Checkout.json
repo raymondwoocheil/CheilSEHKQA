@@ -16,20 +16,20 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "MX",
+      "Command": "comment",
+      "Target": "store // MX",
       "Value": "TestCat",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "DM6",
+      "Command": "comment",
+      "Target": "store // DM6",
       "Value": "DeliveryMode",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "HK",
+      "Command": "comment",
+      "Target": "store // HK",
       "Value": "DeliveryCity",
       "Description": ""
     },
@@ -556,50 +556,8 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "true",
-      "Value": "!statusOK",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "Check if payment section loads",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "verifyElementPresent",
-      "Target": "xpath=//mat-expansion-panel[@data-activestepname=\"CHECKOUT_STEP_PAYMENT\"]",
-      "Value": "!statusOK",
-      "Description": ""
-    },
-    {
-      "Command": "if_v2",
-      "Target": "${!statusOK}!=true",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "Failed",
-      "Value": "CheckoutTestResult",
-      "Description": ""
-    },
-    {
-      "Command": "app-continue-to-checkout",
-      "Target": "DM1 HK cannot proceed to payment",
-      "Value": "red",
-      "Description": ""
-    },
-    {
-      "Command": "executeScript",
-      "Target": "${CheckoutTestFailedReason}&\"DM1 HK cannot proceed to payment, \"",
-      "Value": "CheckoutTestFailedReason",
-      "Description": ""
-    },
-    {
-      "Command": "end",
-      "Target": "",
+      "Command": "run",
+      "Target": "UnitTest_CheckPayment",
       "Value": "",
       "Description": ""
     },
@@ -802,50 +760,8 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "true",
-      "Value": "!statusOK",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "Check if payment section loads",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "verifyElementPresent",
-      "Target": "xpath=//mat-expansion-panel[@data-activestepname=\"CHECKOUT_STEP_PAYMENT\"]",
-      "Value": "!statusOK",
-      "Description": ""
-    },
-    {
-      "Command": "if_v2",
-      "Target": "${!statusOK}!=true",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "Failed",
-      "Value": "CheckoutTestResult",
-      "Description": ""
-    },
-    {
-      "Command": "app-continue-to-checkout",
-      "Target": "DM1 MO cannot proceed to payment",
-      "Value": "red",
-      "Description": ""
-    },
-    {
-      "Command": "executeScript",
-      "Target": "${CheckoutTestFailedReason}&\"DM1 MO cannot proceed to payment, \"",
-      "Value": "CheckoutTestFailedReason",
-      "Description": ""
-    },
-    {
-      "Command": "end",
-      "Target": "",
+      "Command": "run",
+      "Target": "UnitTest_CheckPayment",
       "Value": "",
       "Description": ""
     },
@@ -882,6 +798,24 @@
     {
       "Command": "if_v2",
       "Target": "${DeliveryMode} == \"DM5\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//app-step-checkout-container-body//mat-tab-group//div[contains(text(),\"門市取貨\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}==true",
       "Value": "",
       "Description": ""
     },
@@ -952,50 +886,8 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "true",
-      "Value": "!statusOK",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "Check if payment section loads",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "verifyElementPresent",
-      "Target": "xpath=//mat-expansion-panel[@data-activestepname=\"CHECKOUT_STEP_PAYMENT\"]",
-      "Value": "!statusOK",
-      "Description": ""
-    },
-    {
-      "Command": "if_v2",
-      "Target": "${!statusOK}!=true",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "Failed",
-      "Value": "CheckoutTestResult",
-      "Description": ""
-    },
-    {
-      "Command": "echo",
-      "Target": "DM5 cannot proceed to payment",
-      "Value": "red",
-      "Description": ""
-    },
-    {
-      "Command": "executeScript",
-      "Target": "${CheckoutTestFailedReason}&\"DM5 cannot proceed to payment, \"",
-      "Value": "CheckoutTestFailedReason",
-      "Description": ""
-    },
-    {
-      "Command": "end",
-      "Target": "",
+      "Command": "run",
+      "Target": "UnitTest_CheckPayment",
       "Value": "",
       "Description": ""
     },
@@ -1008,6 +900,12 @@
     {
       "Command": "pause",
       "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
       "Value": "",
       "Description": ""
     },
@@ -1032,6 +930,24 @@
     {
       "Command": "if_v2",
       "Target": "${DeliveryMode} == \"DM6\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//app-step-checkout-container-body//mat-tab-group//div[contains(text(),\"順豐自取點\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}==true",
       "Value": "",
       "Description": ""
     },
@@ -1156,62 +1072,26 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "true",
+      "Command": "run",
+      "Target": "UnitTest_CheckPayment",
       "Value": "!statusOK",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "Check if payment section loads",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "verifyElementPresent",
-      "Target": "xpath=//mat-expansion-panel[@data-activestepname=\"CHECKOUT_STEP_PAYMENT\"]",
-      "Value": "!statusOK",
-      "Description": ""
-    },
-    {
-      "Command": "if_v2",
-      "Target": "${!statusOK}!=true",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "Failed",
-      "Value": "CheckoutTestResult",
-      "Description": ""
-    },
-    {
-      "Command": "echo",
-      "Target": "DM6 cannot proceed to payment",
-      "Value": "red",
-      "Description": ""
-    },
-    {
-      "Command": "executeScript",
-      "Target": "${CheckoutTestFailedReason}&\"DM6 cannot proceed to payment, \"",
-      "Value": "CheckoutTestFailedReason",
-      "Description": ""
-    },
-    {
-      "Command": "end",
-      "Target": "",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "click // xpath=//a[@data-an-la=\"checkout:delivery options:edit\"]",
+      "Command": "click",
+      "Target": "xpath=//a[@data-an-la=\"checkout:delivery options:edit\"]",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "pause",
       "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
       "Value": "",
       "Description": ""
     },

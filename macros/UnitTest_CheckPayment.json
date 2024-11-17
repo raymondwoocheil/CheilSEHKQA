@@ -1,0 +1,271 @@
+{
+  "Name": "UnitTest_Checkout",
+  "CreationDate": "2024-11-17",
+  "Commands":
+  [
+    {
+      "Command": "store",
+      "Target": "fast",
+      "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!errorIgnore",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of Payment section loaded",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//mat-expansion-panel[@data-activestepname=\"CHECKOUT_STEP_PAYMENT\"]",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "CheckoutTestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Cannot proceed to Payment Step",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "${CheckoutTestFailedReason}&\"Cannot proceed to Payment Step, \"",
+      "Value": "CheckoutTestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of Payment section loaded",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of checking Credit Card form",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//img[contains(@class,\"cybersourceCc\")]",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//app-payment-mode-cybersource-credit-card",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "CheckoutTestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Cannot load Credit Card form",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "${CheckoutTestFailedReason}&\"Cannot load Credit Card form, \"",
+      "Value": "CheckoutTestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of checking Credit Card form",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of checking Instalment form",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//img[contains(@class,\"hk-paydollarInstallment\")]",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//app-payment-mode-installment",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "CheckoutTestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Cannot load Instalment form",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "${CheckoutTestFailedReason}&\"Cannot load Instalment form, \"",
+      "Value": "CheckoutTestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of checking Instalment form",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "Start of checking Alipay form",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//img[contains(@class,\"hk-paydollarAlipayHK\")]",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//app-payment-mode-paydollar",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "CheckoutTestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Cannot load Alipay form",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "${CheckoutTestFailedReason}&\"Cannot load Alipay form, \"",
+      "Value": "CheckoutTestFailedReason",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "End of checking Alipay form",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

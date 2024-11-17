@@ -1060,6 +1060,42 @@
       "Description": ""
     },
     {
+      "Command": "if_v2",
+      "Target": "${GalaxyCreditStep}==\"Use GC\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//a[@data-category-title=\"其他\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//button[@data-mo-code=\"${GcSKU}\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//a[@an-la=\"evoucher:continue\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//button[@an-la=\"evoucher:over evoucher:continue\"]",
+      "Value": "2000",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "comment",
       "Target": "**BCBuy - Galaxy Credit Proceed - Skip**",
       "Value": "",
@@ -1074,7 +1110,13 @@
     {
       "Command": "clickAndWait",
       "Target": "xpath=//button[@an-la=\"evoucher:no addition:skip\"]",
-      "Value": "500",
+      "Value": "2000",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
       "Description": ""
     },
     {
@@ -1888,20 +1930,20 @@
       "Description": ""
     },
     {
-      "Command": "if_v2",
-      "Target": "${GalaxyCreditStep}==\"Use GC\"",
+      "Command": "comment",
+      "Target": "if_v2 // ${GalaxyCreditStep}==\"Use GC\"",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "run",
-      "Target": "UnitTest_AddGalaxyCredit",
+      "Command": "comment",
+      "Target": "run // UnitTest_AddGalaxyCredit",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "else",
-      "Target": "",
+      "Command": "comment",
+      "Target": "else",
       "Value": "",
       "Description": ""
     },
@@ -1912,8 +1954,8 @@
       "Description": ""
     },
     {
-      "Command": "end",
-      "Target": "",
+      "Command": "comment",
+      "Target": "end",
       "Value": "",
       "Description": ""
     },
