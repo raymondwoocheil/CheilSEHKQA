@@ -94,6 +94,42 @@
       "Description": ""
     },
     {
+      "Command": "if_v2",
+      "Target": "${GalaxyCreditStep}==\"Use GC\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[@data-modelcode=\"${GcSKU}\"]//button[contains(@class,\"cart-item__remove--btn\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "800",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-cart-item-remove-modal//button[@data-an-tr=\"cart-product-remove\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "800",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "store",
       "Target": "true",
       "Value": "!statusOK",

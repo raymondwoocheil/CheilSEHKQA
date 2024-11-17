@@ -923,13 +923,13 @@
     },
     {
       "Command": "comment",
-      "Target": "Start of MX DM6 SF pickup testing",
+      "Target": "Start of MX DM6 HK SF pickup testing",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "if_v2",
-      "Target": "${DeliveryMode} == \"DM6\"",
+      "Target": "${DeliveryMode} == \"DM6\" && ${DeliveryCity} == \"HK\"",
       "Value": "",
       "Description": ""
     },
@@ -1103,7 +1103,7 @@
     },
     {
       "Command": "comment",
-      "Target": "End of MX DM6 SF pickup testing",
+      "Target": "End of MX DM6 HK SF pickup testing",
       "Value": "",
       "Description": ""
     },

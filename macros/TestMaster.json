@@ -1714,20 +1714,50 @@
       "Description": ""
     },
     {
+      "Command": "if_v2",
+      "Target": "${GalaxyCreditStep}==\"Use GC\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//button[@an-la=\"add-on:其他:tab\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//button[@data-modelcode=\"${GcSKU}\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//button[@an-la=\"evoucher:go to cart\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//button[@an-la=\"evoucher:over evoucher:continue\"]",
+      "Value": "2000",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "comment",
       "Target": "**SimpleBuy - Galaxy Credit Proceed - Skip**",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "if_v2",
-      "Target": "${GalaxyCredit}!=0",
-      "Value": "",
-      "Description": ""
-    },
-    {
       "Command": "click",
-      "Target": "xpath=//*[@an-la=\"evoucher:go to cart\"]",
+      "Target": "xpath=//button[@an-la=\"evoucher:go to cart\"]",
       "Value": "",
       "Description": ""
     },
@@ -1740,7 +1770,7 @@
     {
       "Command": "end",
       "Target": "",
-      "Value": "500",
+      "Value": "",
       "Description": ""
     },
     {
