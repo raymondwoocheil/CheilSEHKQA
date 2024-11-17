@@ -100,9 +100,33 @@
       "Description": ""
     },
     {
+      "Command": "if_v2",
+      "Target": "${TestCatOriginal}==\"Golden\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!COL2}",
+      "Value": "TestCat",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "store",
       "Target": "${!COL2}",
       "Value": "CaseID",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
       "Description": ""
     },
     {
@@ -204,19 +228,19 @@
     {
       "Command": "store",
       "Target": "${!COL28}",
-      "Value": "PromoCode1",
+      "Value": "DeliveryMode",
       "Description": ""
     },
     {
       "Command": "store",
       "Target": "${!COL29}",
-      "Value": "PromoCode2",
+      "Value": "DeliveryCity",
       "Description": ""
     },
     {
       "Command": "store",
       "Target": "${!COL30}",
-      "Value": "PromoCode3",
+      "Value": "PromoCode",
       "Description": ""
     },
     {
@@ -1912,8 +1936,20 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "run // UnitTest_Checkout",
+      "Command": "if_v2",
+      "Target": "${TestCatOriginal}==\"Golden\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_Checkout",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
       "Value": "",
       "Description": ""
     },
@@ -1943,7 +1979,7 @@
     },
     {
       "Command": "comment",
-      "Target": "####End of TestCase${TestCat}-${TestSite}####",
+      "Target": "####End of TestCase${TestCatOriginal}-${TestSite}####",
       "Value": "",
       "Description": ""
     }

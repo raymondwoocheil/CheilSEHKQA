@@ -1,8 +1,7 @@
 {
   "Name": "_Checkout",
-  "CreationDate": "2024-11-10",
-  "Commands":
-  [
+  "CreationDate": "2024-11-17",
+  "Commands": [
     {
       "Command": "store",
       "Target": "fast",
@@ -19,6 +18,18 @@
       "Command": "store",
       "Target": "MX",
       "Value": "TestCat",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "DM6",
+      "Value": "DeliveryMode",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "HK",
+      "Value": "DeliveryCity",
       "Description": ""
     },
     {
@@ -47,7 +58,7 @@
     },
     {
       "Command": "pause",
-      "Target": "600",
+      "Target": "2000",
       "Value": "",
       "Description": ""
     },
@@ -370,6 +381,12 @@
       "Description": ""
     },
     {
+      "Command": "if_v2",
+      "Target": "${DeliveryMode} == \"DM1\" && ${DeliveryCity} ==\"HK\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "click",
       "Target": "xpath=//app-step-checkout-container-body//mat-tab-group//div[contains(text(),\"送貨\")]",
       "Value": "",
@@ -598,6 +615,12 @@
       "Description": ""
     },
     {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "comment",
       "Target": "End of MX DM1 HK testing",
       "Value": "",
@@ -605,7 +628,13 @@
     },
     {
       "Command": "comment",
-      "Target": "Start of MX DM1 HK testing",
+      "Target": "Start of MX DM1 MO testing",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${DeliveryMode} == \"DM1\" && ${DeliveryCity} ==\"MO\"",
       "Value": "",
       "Description": ""
     },
@@ -832,6 +861,12 @@
       "Description": ""
     },
     {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "comment",
       "Target": "End of MX DM1 MO testing",
       "Value": "",
@@ -840,6 +875,12 @@
     {
       "Command": "comment",
       "Target": "Start of MX DM5 bopis testing",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${DeliveryMode} == \"DM5\"",
       "Value": "",
       "Description": ""
     },
@@ -970,6 +1011,12 @@
       "Description": ""
     },
     {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "comment",
       "Target": "End of MX DM5 bopis testing",
       "Value": "",
@@ -978,6 +1025,12 @@
     {
       "Command": "comment",
       "Target": "Start of MX DM6 SF pickup testing",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${DeliveryMode} == \"DM6\"",
       "Value": "",
       "Description": ""
     },
@@ -1162,6 +1215,12 @@
       "Description": ""
     },
     {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "comment",
       "Target": "End of MX DM6 SF pickup testing",
       "Value": "",
@@ -1261,6 +1320,18 @@
       "Command": "store",
       "Target": "Checkout",
       "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "CheckoutTestResult = ${CheckoutTestResult}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "CheckoutTestFailedReason = ${CheckoutTestFailedReason}",
+      "Value": "",
       "Description": ""
     },
     {

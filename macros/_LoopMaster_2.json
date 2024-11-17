@@ -1,7 +1,8 @@
 {
   "Name": "_LoopMaster_2",
   "CreationDate": "2024-11-16",
-  "Commands": [
+  "Commands":
+  [
     {
       "Command": "store",
       "Target": "fast",
@@ -17,7 +18,7 @@
     {
       "Command": "comment",
       "Target": "**Start of Global Settings**",
-      "Value": "TestSite",
+      "Value": "",
       "Description": ""
     },
     {
@@ -53,18 +54,24 @@
     {
       "Command": "comment",
       "Target": "store // MX",
-      "Value": "TestCat",
+      "Value": "TestCatOriginal",
       "Description": ""
     },
     {
       "Command": "store",
       "Target": "CE",
-      "Value": "TestCat",
+      "Value": "TestCatOriginal",
       "Description": ""
     },
     {
       "Command": "comment",
       "Target": "store // Checkout",
+      "Value": "TestCatOriginal",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TestCatOriginal}",
       "Value": "TestCat",
       "Description": ""
     },

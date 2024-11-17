@@ -1,6 +1,6 @@
 {
   "Name": "_LoopMaster_1",
-  "CreationDate": "2024-11-16",
+  "CreationDate": "2024-11-17",
   "Commands": [
     {
       "Command": "store",
@@ -17,7 +17,7 @@
     {
       "Command": "comment",
       "Target": "**Start of Global Settings**",
-      "Value": "TestSite",
+      "Value": "",
       "Description": ""
     },
     {
@@ -27,8 +27,8 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "true",
+      "Command": "comment",
+      "Target": "store // true",
       "Value": "runTesterLinesOnly",
       "Description": ""
     },
@@ -51,20 +51,32 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "MX",
-      "Value": "TestCat",
+      "Command": "comment",
+      "Target": "store // MX",
+      "Value": "TestCatOriginal",
       "Description": ""
     },
     {
       "Command": "comment",
       "Target": "store // CE",
-      "Value": "TestCat",
+      "Value": "TestCatOriginal",
       "Description": ""
     },
     {
       "Command": "comment",
       "Target": "store // Checkout",
+      "Value": "TestCatOriginal",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Golden",
+      "Value": "TestCatOriginal",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TestCatOriginal}",
       "Value": "TestCat",
       "Description": ""
     },
