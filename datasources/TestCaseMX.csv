@@ -1,5 +1,5 @@
 MX,,,,,,,,,,,Via buy page,,,,,Go to B2C Cart Page,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Assigned,Test Case,,,,,,,,,,55,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,,Verify / AC >>,Step >>,,Special >>,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,,,,,Array,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Verify / AC >>,Step >>,Verify / AC >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Last Updated,,
+Assigned,Test Case,,,,,,,,,,57,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,,Verify / AC >>,Step >>,,Special >>,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,,,,,,Array,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Verify / AC >>,Step >>,Verify / AC >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Last Updated,,
 Tester,ID,Auto Cart,Premiunm Qty,Auto Checkout,Manual Cart,Model,Bsse SKU + STORAGE,Active / BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-in,Trade-in-type,Verify extra trade-in rebate,"SC+ 
 (Hong Kong)",SC-type,"Verify SC+ 
 in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,Special discount after adding to cart,Add to Cart,Verify Product Price in Cart after Discount (Not total price in cart),Verify pre-order or back-order delivery date,Mass - 15-30 Nov,Mass - 15-30 Nov,Mass - 15-30 Nov,Mass - 15-30 Nov,Mass - 15-30 Nov,Mass but not EPP,Mass but not EPP,Mass but not EPP,"No-trade-in
@@ -132,13 +132,21 @@ NOV15TH,SMP-17,,,,,"Galaxy S24 FE, Gray, 8+256GB","SM-S7210, 256GB",Y,SM-S7210ZA
 ●  1 x  ITFIT Universal Travel Adapter [Z-ITFITPW03]
 ●  1 x  Galaxy S23 FE Clear Case [Z-EF-QS711CTEGWW]
 ",,,,,End of Test,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-NOV15TH,SMP-28,,,,,Galaxy A55 5G 8GB 128GB Awesome Navy,"SM-A5560, 128GB",N,SM-A5560ZKATGY,https://www.samsung.com/hk/smartphones/galaxy-a/galaxy-a55-5g-awesome-navy-128gb-sm-a5560zkatgy/buy/,SM-A5560ZKATGY,"3,298",,Guest,,"3,298",Yes,A55,0,No,A55,0,Use GC,A55,100,100,,,,Add to Cart,"3,298",,,,,,,,,,,,,0,"
+NOV18TH,SMP-28,,,,,Galaxy A55 5G 8GB 128GB Awesome Navy,"SM-A5560, 128GB",N,SM-A5560ZKATGY,https://www.samsung.com/hk/smartphones/galaxy-a/galaxy-a55-5g-awesome-navy-128gb-sm-a5560zkatgy/buy/,SM-A5560ZKATGY,"3,298",,Guest,,"3,298",Yes,A55,0,No,A55,0,Use GC,A55,100,100,,,,Add to Cart,"3,298",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,,,,,,"Z-ITFITT10WE,Z-ITFITPW28-M",2,"
+●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
+●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-M]
 ",,,,,End of Test,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-29,,,,,Galaxy A55 5G 12GB 256GB Awesome Iceblue,"SM-A5560, 256GB",N,SM-A5560LBDTGY,https://www.samsung.com/hk/smartphones/galaxy-a/galaxy-a55-5g-awesome-iceblue-256gb-sm-a5560lbdtgy/buy/,SM-A5560LBDTGY,"3,698",,Guest,,"3,698",No,A55,0,No,A55,0,Check GC amount then Skip,A55,100,100,,,,Add to Cart,"3,698",,,,,,,,,,,,,0,"
+NOV18TH,SMP-29,,,,,Galaxy A55 5G 12GB 256GB Awesome Iceblue,"SM-A5560, 256GB",N,SM-A5560LBDTGY,https://www.samsung.com/hk/smartphones/galaxy-a/galaxy-a55-5g-awesome-iceblue-256gb-sm-a5560lbdtgy/buy/,SM-A5560LBDTGY,"3,698",,Guest,,"3,698",No,A55,0,No,A55,0,Check GC amount then Skip,A55,100,100,,,,Add to Cart,"3,698",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,,,,,,"Z-ITFITT10WE,Z-ITFITPW28-M",2,"
+●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
+●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-M]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-NOV15TH,SMP-30,,,,,Galaxy A35 5G 8GB 128GB Awesome Navy,"SM-A3560, 128GB",N,SM-A3560ZKDTGY,https://www.samsung.com/hk/smartphones/galaxy-a/galaxy-a35-5g-awesome-navy-128gb-sm-a3560zkdtgy/buy/,SM-A3560ZKDTGY,"2,698",,Guest,,"2,698",No,A35,0,No,A35,0,Use GC,A35,100,100,,,,Add to Cart,"2,698",,,,,,,,,,,,,0,"
+NOV18TH,SMP-30,,,,,Galaxy A35 5G 8GB 128GB Awesome Navy,"SM-A3560, 128GB",N,SM-A3560ZKDTGY,https://www.samsung.com/hk/smartphones/galaxy-a/galaxy-a35-5g-awesome-navy-128gb-sm-a3560zkdtgy/buy/,SM-A3560ZKDTGY,"2,698",,Guest,,"2,698",No,A35,0,No,A35,0,Use GC,A35,100,100,,,,Add to Cart,"2,698",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,,,,,,"Z-ITFITT10WE,Z-ITFITPW28-M",2,"
+●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
+●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-M]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
-,SMP-31,,,,,Galaxy A35 5G 8GB 256GB Awesome Iceblue,"SM-A3560, 256GB",N,SM-A3560LBGTGY,https://www.samsung.com/hk/smartphones/galaxy-a/galaxy-a35-5g-awesome-iceblue-256gb-sm-a3560lbgtgy/buy/,SM-A3560LBGTGY,"2,998",,Guest,,"2,998",No,A35,0,No,A35,0,Check GC amount then Skip,A35,100,100,,,,Add to Cart,"2,998",,,,,,,,,,,,,0,"
+NOV18TH,SMP-31,,,,,Galaxy A35 5G 8GB 256GB Awesome Iceblue,"SM-A3560, 256GB",N,SM-A3560LBGTGY,https://www.samsung.com/hk/smartphones/galaxy-a/galaxy-a35-5g-awesome-iceblue-256gb-sm-a3560lbgtgy/buy/,SM-A3560LBGTGY,"2,998",,Guest,,"2,998",No,A35,0,No,A35,0,Check GC amount then Skip,A35,100,100,,,,Add to Cart,"2,998",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,,,,,,"Z-ITFITT10WE,Z-ITFITPW28-M",2,"
+●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
+●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-M]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,
 ,SMP-32,,,,,"Galaxy A23 5G, Blue","SM-A2360, 128GB",EOL,SM-A2360LBWTGY,https://www.samsung.com/hk/smartphones/galaxy-a/galaxy-a23-5g-awesome-blue-128gb-sm-a2360lbwtgy/buy/,SM-A2360LBWTGY,0,0,Guest,,0,No,,0,No,,0,N/A,A23,,,,,,Add to Cart,0,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,

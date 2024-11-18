@@ -1,6 +1,6 @@
 {
   "Name": "_Checkout",
-  "CreationDate": "2024-11-17",
+  "CreationDate": "2024-11-18",
   "Commands": [
     {
       "Command": "store",
@@ -15,20 +15,20 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "MX",
+      "Command": "comment",
+      "Target": "store // MX",
       "Value": "TestCat",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "DM6",
+      "Command": "comment",
+      "Target": "store // DM6",
       "Value": "DeliveryMode",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "HK",
+      "Command": "comment",
+      "Target": "store // HK",
       "Value": "DeliveryCity",
       "Description": ""
     },

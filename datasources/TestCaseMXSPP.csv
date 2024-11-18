@@ -1,5 +1,5 @@
-MX SPP,,,,,,,,,,,Via add-to-cart link,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Assigned,Test Case,,,,,,,,,,50,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,,Verify / AC >>,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,EPP store only premiums,,,,,,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,,
+MX SPP,,,,,,,,,,,Via buy page,,,Go to SPP Cart Page,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Assigned,Test Case,,,,,,,,,,52,Price,,Step >>,Step >>,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,Verify / AC >>,Step >>,,,Verify / AC >>,Step >>,,,Step >>,Verify / AC >>,Verify / AC >>,Mass premiums,,,,,EPP store only premiums,,,,,,Total,Verify / AC >>,,Cart Page Result >>,,,Step >>,Step >>,Step >>,Step >>,Step >>,Verify / AC >>,Verify / AC >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,,
 Tester,ID,Auto Cart,Manual Cart,Premiunm Qty,Auto Checkout,Model,BASE SKU,Active / BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-in,Trade-in-type,Verify extra trade-in rebate,SC+,SC-type,"Verify SC+ 
 in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Product Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass - 15-30 Nov,Mass - 15-30 Nov,Mass - 15-30 Nov,Mass - 15-30 Nov,Mass - 15-30 Nov,EPP only,EPP only,EPP only,"No-trade-in
 offer","No-trade-in
@@ -9,7 +9,7 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ,,,,,"
 
 
-",,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+",,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,"
 
 
@@ -116,23 +116,29 @@ NOV15TH,S-SMP-18,,,,,"Galaxy S24 FE, Gray, 8+256GB","SM-S7210, 256GB",N,SM-S7210
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ●  1 x  Galaxy Buds FE [Z-SM-R400NZWATGY]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-NOV15TH,S-SMP-28,,,,,Galaxy A55 5G 8GB 128GB Awesome Navy,"SM-A5560, 128GB",N,SM-A5560ZKATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A5560ZKATGY,SM-A5560ZKATGY,"$3,298","$2,638",cptqaer+1@gmail.com,!Cheil2024,"2,638",No,A55,-,No,A55,-,N/A,,-,-,,,,Add to Cart,"2,638",,,,,,,Z-EF-ZA556CBEGWW,Z-ITFITPW07,,,,"Z-EF-ZA556CBEGWW,Z-ITFITPW07",2,"
+NOV18TH,S-SMP-28,,,,,Galaxy A55 5G 8GB 128GB Awesome Navy,"SM-A5560, 128GB",N,SM-A5560ZKATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A5560ZKATGY,SM-A5560ZKATGY,"$3,298","$2,638",cptqaer+1@gmail.com,!Cheil2024,"2,638",No,A55,-,No,A55,-,N/A,,-,-,,,,Add to Cart,"2,638",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,Z-EF-ZA556CBEGWW,Z-ITFITPW07,,,,"Z-ITFITT10WE,Z-ITFITPW28-M,Z-EF-ZA556CBEGWW,Z-ITFITPW07",4,"
+●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
+●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-M]
 ●  1 x  Galaxy A55 5G Smart View Wallet Case [Z-EF-ZA556CBEGWW]
 ●  1 x  ITFIT 5000mAh mini Power Bank with holder [Z-ITFITPW07]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-SMP-29,,,,,Galaxy A55 5G 12GB 256GB Awesome Iceblue,"SM-A5560, 256GB",N,SM-A5560LBDTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A5560LBDTGY,SM-A5560LBDTGY,"$3,698","$2,958",cptqaer+1@gmail.com,!Cheil2024,"2,958",No,A55,-,No,A55,-,N/A,,-,-,,,,Add to Cart,"2,958",,,,,,,Z-EF-ZA556CBEGWW,Z-ITFITPW07,Z-EF-ZA556CBEGWW,,,"Z-EF-ZA556CBEGWW,Z-ITFITPW07,Z-EF-ZA556CBEGWW",3,"
+NOV18TH,S-SMP-29,,,,,Galaxy A55 5G 12GB 256GB Awesome Iceblue,"SM-A5560, 256GB",N,SM-A5560LBDTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A5560LBDTGY,SM-A5560LBDTGY,"$3,698","$2,958",cptqaer+1@gmail.com,!Cheil2024,"2,958",No,A55,-,No,A55,-,N/A,,-,-,,,,Add to Cart,"2,958",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,Z-EF-ZA556CBEGWW,Z-ITFITPW07,,,,"Z-ITFITT10WE,Z-ITFITPW28-M,Z-EF-ZA556CBEGWW,Z-ITFITPW07",4,"
+●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
+●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-M]
 ●  1 x  Galaxy A55 5G Smart View Wallet Case [Z-EF-ZA556CBEGWW]
 ●  1 x  ITFIT 5000mAh mini Power Bank with holder [Z-ITFITPW07]
-●  1 x  Galaxy A55 5G Smart View Wallet Case [Z-EF-ZA556CBEGWW]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-NOV15TH,S-SMP-30,,,,,Galaxy A35 5G 8GB 128GB Awesome Navy,"SM-A3560, 128GB",N,SM-A3560ZKDTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A3560ZKDTGY,SM-A3560ZKDTGY,"$2,698","$2,158",cptqaer+1@gmail.com,!Cheil2024,"2,158",No,A35,-,No,A35,-,N/A,,-,-,,,,Add to Cart,"2,158",,,,,,,Z-EF-QA356CTEGWW,Z-ITFITPW07,,,,"Z-EF-QA356CTEGWW,Z-ITFITPW07",2,"
+NOV18TH,S-SMP-30,,,,,Galaxy A35 5G 8GB 128GB Awesome Navy,"SM-A3560, 128GB",N,SM-A3560ZKDTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A3560ZKDTGY,SM-A3560ZKDTGY,"$2,698","$2,158",cptqaer+1@gmail.com,!Cheil2024,"2,158",No,A35,-,No,A35,-,N/A,,-,-,,,,Add to Cart,"2,158",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,Z-EF-QA356CTEGWW,Z-ITFITPW07,,,,"Z-ITFITT10WE,Z-ITFITPW28-M,Z-EF-QA356CTEGWW,Z-ITFITPW07",4,"
+●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
+●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-M]
 ●  1 x  Galaxy A35 5G Clear Case [Z-EF-QA356CTEGWW]
 ●  1 x  ITFIT 5000mAh mini Power Bank with holder [Z-ITFITPW07]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,S-SMP-31,,,,,Galaxy A35 5G 8GB 256GB Awesome Iceblue,"SM-A3560, 256GB",N,SM-A3560LBGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A3560LBGTGY,SM-A3560LBGTGY,"$2,998","$2,398",cptqaer+1@gmail.com,!Cheil2024,"2,398",No,A35,-,No,A35,-,N/A,,-,-,,,,Add to Cart,"2,398",,,,,,,Z-EF-QA356CTEGWW,Z-ITFITPW07,Z-EF-QA356CTEGWW,,,"Z-EF-QA356CTEGWW,Z-ITFITPW07,Z-EF-QA356CTEGWW",3,"
+NOV18TH,S-SMP-31,,,,,Galaxy A35 5G 8GB 256GB Awesome Iceblue,"SM-A3560, 256GB",N,SM-A3560LBGTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A3560LBGTGY,SM-A3560LBGTGY,"$2,998","$2,398",cptqaer+1@gmail.com,!Cheil2024,"2,398",No,A35,-,No,A35,-,N/A,,-,-,,,,Add to Cart,"2,398",,Z-ITFITT10WE,Z-ITFITPW28-M,,,,Z-EF-QA356CTEGWW,Z-ITFITPW07,,,,"Z-ITFITT10WE,Z-ITFITPW28-M,Z-EF-QA356CTEGWW,Z-ITFITPW07",4,"
+●  1 x  ITFIT True Wireless Earphones T10 [Z-ITFITT10WE]
+●  1 x  ITFIT 45W Fast Charging Kit [Z-ITFITPW28-M]
 ●  1 x  Galaxy A35 5G Clear Case [Z-EF-QA356CTEGWW]
 ●  1 x  ITFIT 5000mAh mini Power Bank with holder [Z-ITFITPW07]
-●  1 x  Galaxy A35 5G Clear Case [Z-EF-QA356CTEGWW]
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,S-SMP-32,,,,,"Galaxy A23 5G, Blue","SM-A2360, 128GB",EOL,SM-A2360LBWTGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-A2360LBWTGY,SM-A2360LBWTGY,$0,$0,cptqaer+1@gmail.com,!Cheil2024,0,No,,-,No,,-,N/A,,-,-,,,,Add to Cart,0,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
@@ -171,23 +177,23 @@ NOV15TH,S-TAB-04,,,,,"Galaxy Tab S10+ 5G, 12GB+512GB, Moonstone Gray",SM-X826B,N
 ●  1 x  Galaxy Tab S10+  Book Cover Keyboard Slim - AI Key Black [Z-EF-DX820UBEGWW-M]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Z-ITAC13-M,1,Passed,,,,,,,,,,,,,,,,,,,1,,Z-ITAC13-M,,,,,,
-NOV15TH,S-TAB-05,,,,,"Galaxy Tab S10 Ultra Wifi, 12GB+256GB, Moonstone Gray",SM-X920,N,SM-X920NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X920NZAATGY,SM-X920NZAATGY,"$9,688","$8,719",cptqaer+1@gmail.com,!Cheil2024,"8,719",No,Tab S10 Ultra 256GB,-,No,Tab S10 Ultra,-,Use GC,Tab S10 series,500,500,,,,Add to Cart,"8,569",,Z-EF-DX920UBEGWW-M,Z-ITAC13-M,,,,,,,,,"Z-EF-DX920UBEGWW-M,Z-ITAC13-M",2,"
+NOV15TH,S-TAB-05,,,,,"Galaxy Tab S10 Ultra Wifi, 12GB+256GB, Moonstone Gray",SM-X920,N,SM-X920NZAATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X920NZAATGY,SM-X920NZAATGY,"$9,688","$8,235",cptqaer+1@gmail.com,!Cheil2024,"8,235",No,Tab S10 Ultra 256GB,-,No,Tab S10 Ultra,-,Use GC,Tab S10 series,500,500,,,,Add to Cart,"8,085",,Z-EF-DX920UBEGWW-M,Z-ITAC13-M,,,,,,,,,"Z-EF-DX920UBEGWW-M,Z-ITAC13-M",2,"
 ●  1 x  Galaxy Tab S10U Book Cover Keyboard Slim - AI Key Black [Z-EF-DX920UBEGWW-M]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Z-ITAC13-M,1,Passed,,,,,,,,,,,,,,,,,,,1,,Z-ITAC13-M,,,,,,
-NOV15TH,S-TAB-06,,,,,"Galaxy Tab S10 Ultra Wifi, 12GB+512GB, Platinum Silver (Samsung Exclusive)",SM-X920,N,SM-X920NZSETGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X920NZSETGY,SM-X920NZSETGY,"$10,588","$9,529",cptqaer+1@gmail.com,!Cheil2024,"9,529",No,Tab S10 Ultra 256GB,-,No,Tab S10 Ultra,-,Use GC,Tab S10 series,500,500,,,,Add to Cart,"9,379",,Z-EF-DX920UBEGWW-M,Z-ITAC13-M,,,,,,,,,"Z-EF-DX920UBEGWW-M,Z-ITAC13-M",2,"
+NOV15TH,S-TAB-06,,,,,"Galaxy Tab S10 Ultra Wifi, 12GB+512GB, Platinum Silver (Samsung Exclusive)",SM-X920,N,SM-X920NZSETGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X920NZSETGY,SM-X920NZSETGY,"$10,588","$9,000",cptqaer+1@gmail.com,!Cheil2024,"9,000",No,Tab S10 Ultra 256GB,-,No,Tab S10 Ultra,-,Use GC,Tab S10 series,500,500,,,,Add to Cart,"8,850",,Z-EF-DX920UBEGWW-M,Z-ITAC13-M,,,,,,,,,"Z-EF-DX920UBEGWW-M,Z-ITAC13-M",2,"
 ●  1 x  Galaxy Tab S10U Book Cover Keyboard Slim - AI Key Black [Z-EF-DX920UBEGWW-M]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-NOV15TH,S-TAB-07,,,,,"Galaxy Tab S10 Ultra Wifi, 16GB+1TB, Moonstone Gray (Online Exclusive)",SM-X920,N,SM-X920NZAITGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X920NZAITGY,SM-X920NZAITGY,"$12,588","$11,329",cptqaer+1@gmail.com,!Cheil2024,"11,329",No,Tab S10 Ultra 256GB,-,No,Tab S10 Ultra,-,Use GC,Tab S10 series,500,500,,,,Add to Cart,"11,179",,Z-EF-DX920UBEGWW-M,Z-ITAC13-M,,,,,,,,,"Z-EF-DX920UBEGWW-M,Z-ITAC13-M",2,"
+NOV15TH,S-TAB-07,,,,,"Galaxy Tab S10 Ultra Wifi, 16GB+1TB, Moonstone Gray (Online Exclusive)",SM-X920,N,SM-X920NZAITGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X920NZAITGY,SM-X920NZAITGY,"$12,588","$10,700",cptqaer+1@gmail.com,!Cheil2024,"10,700",No,Tab S10 Ultra 256GB,-,No,Tab S10 Ultra,-,Use GC,Tab S10 series,500,500,,,,Add to Cart,"10,550",,Z-EF-DX920UBEGWW-M,Z-ITAC13-M,,,,,,,,,"Z-EF-DX920UBEGWW-M,Z-ITAC13-M",2,"
 ●  1 x  Galaxy Tab S10U Book Cover Keyboard Slim - AI Key Black [Z-EF-DX920UBEGWW-M]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-NOV15TH,S-TAB-08,,,,,"Galaxy Tab S10 Ultra 5G, 12GB+256GB, Platinum Silver (Samsung Exclusive)",SM-X926B,N,SM-X926BZSATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X926BZSATGY,SM-X926BZSATGY,"$10,788","$9,709",cptqaer+1@gmail.com,!Cheil2024,"9,709",No,Tab S10 Ultra 256GB,-,No,Tab S10 Ultra,-,Use GC,Tab S10 series,500,500,,,,Add to Cart,"9,559",,Z-EF-DX920UBEGWW-M,Z-ITAC13-M,,,,,,,,,"Z-EF-DX920UBEGWW-M,Z-ITAC13-M",2,"
+NOV15TH,S-TAB-08,,,,,"Galaxy Tab S10 Ultra 5G, 12GB+256GB, Platinum Silver (Samsung Exclusive)",SM-X926B,N,SM-X926BZSATGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X926BZSATGY,SM-X926BZSATGY,"$10,788","$9,170",cptqaer+1@gmail.com,!Cheil2024,"9,170",No,Tab S10 Ultra 256GB,-,No,Tab S10 Ultra,-,Use GC,Tab S10 series,500,500,,,,Add to Cart,"9,020",,Z-EF-DX920UBEGWW-M,Z-ITAC13-M,,,,,,,,,"Z-EF-DX920UBEGWW-M,Z-ITAC13-M",2,"
 ●  1 x  Galaxy Tab S10U Book Cover Keyboard Slim - AI Key Black [Z-EF-DX920UBEGWW-M]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-NOV15TH,S-TAB-09,,,,,"Galaxy Tab S10 Ultra 5G, 12GB+512GB, Moonstone Gray",SM-X926B,N,SM-X926BZAETGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X926BZAETGY,SM-X926BZAETGY,"$11,688","$10,519",cptqaer+1@gmail.com,!Cheil2024,"10,519",No,Tab S10 Ultra 256GB,-,No,Tab S10 Ultra,-,Use GC,Tab S10 series,500,500,,,,Add to Cart,"10,369",,Z-EF-DX920UBEGWW-M,Z-ITAC13-M,,,,,,,,,"Z-EF-DX920UBEGWW-M,Z-ITAC13-M",2,"
+NOV15TH,S-TAB-09,,,,,"Galaxy Tab S10 Ultra 5G, 12GB+512GB, Moonstone Gray",SM-X926B,N,SM-X926BZAETGY,https://www.samsung.com/hk/multistore/hkeducation/pd.SM-X926BZAETGY,SM-X926BZAETGY,"$11,688","$9,935",cptqaer+1@gmail.com,!Cheil2024,"9,935",No,Tab S10 Ultra 256GB,-,No,Tab S10 Ultra,-,Use GC,Tab S10 series,500,500,,,,Add to Cart,"9,785",,Z-EF-DX920UBEGWW-M,Z-ITAC13-M,,,,,,,,,"Z-EF-DX920UBEGWW-M,Z-ITAC13-M",2,"
 ●  1 x  Galaxy Tab S10U Book Cover Keyboard Slim - AI Key Black [Z-EF-DX920UBEGWW-M]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
@@ -382,75 +388,75 @@ NOV15TH,S-ME-28,,,,,"Galaxy Ring, Titanium Black / 8",SM-Q508,N,SM-Q508NZKATGY,h
 ",2024/11/6,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
 ,S-ME-24,,,,,SmartTag2,EI-T5600,EOL,EI-T5600BBEGWW,https://www.samsung.com/hk/multistore/hkeducation/pd.EI-T5600BBEGWW,EI-T5600BBEGWW,$0,$0,cptqaer+1@gmail.com,!Cheil2024,0,No,,-,No,,-,N/A,,-,-,,,,Add to Cart,0,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
-,,,,,,,,EOL,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
+,,,,,,,,EOL,,,,$0,$0,,,0,,,-,,,-,,,0,0,,,,,0,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,
