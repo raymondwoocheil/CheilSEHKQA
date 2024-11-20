@@ -323,7 +323,7 @@
     },
     {
       "Command": "if",
-      "Target": "${!COL8}==\"EOL\"",
+      "Target": "${!COL9}==\"EOL\"",
       "Value": "",
       "Description": ""
     },

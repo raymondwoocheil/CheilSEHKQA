@@ -22,7 +22,7 @@
     },
     {
       "Command": "store",
-      "Target": "5-250",
+      "Target": "34-34",
       "Value": "lineRange",
       "Description": ""
     },
@@ -51,8 +51,8 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // MX",
+      "Command": "store",
+      "Target": "MX",
       "Value": "TestCatOriginal",
       "Description": ""
     },
@@ -69,8 +69,8 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "Golden",
+      "Command": "comment",
+      "Target": "store // Golden",
       "Value": "TestCatOriginal",
       "Description": ""
     },
@@ -328,7 +328,7 @@
     },
     {
       "Command": "if",
-      "Target": "${!COL8}==\"EOL\"",
+      "Target": "${!COL9}==\"EOL\"",
       "Value": "",
       "Description": ""
     },
