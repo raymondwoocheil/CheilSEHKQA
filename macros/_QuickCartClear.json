@@ -1,0 +1,78 @@
+{
+  "Name": "_QuickCartClear",
+  "CreationDate": "2024-11-23",
+  "Commands": [
+    {
+      "Command": "comment",
+      "Target": "**Start Unit Task - Quick Clear Cart**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "fast",
+      "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "storeXpathCount",
+      "Target": "xpath=//button[contains(@class,\"cart-item__remove--btn\")]",
+      "Value": "RemoveIconCount",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "\"RemoveIconCount\" = ${RemoveIconCount}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "${RemoveIconCount}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//button[contains(@class,\"cart-item__remove--btn\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "800",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//app-cart-item-remove-modal//button[@data-an-tr=\"cart-product-remove\"]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Unit Task - Clear Cart**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Non-Empty Cart**",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
