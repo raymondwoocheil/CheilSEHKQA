@@ -1,6 +1,6 @@
 {
   "Name": "_LoopMaster_1",
-  "CreationDate": "2024-11-23",
+  "CreationDate": "2024-11-25",
   "Commands": [
     {
       "Command": "store",
@@ -51,14 +51,14 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "MX",
+      "Command": "comment",
+      "Target": "store // MX",
       "Value": "TestCatOriginal",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // CE",
+      "Command": "store",
+      "Target": "CE",
       "Value": "TestCatOriginal",
       "Description": ""
     },
@@ -95,6 +95,12 @@
     {
       "Command": "comment",
       "Target": "store // EPP",
+      "Value": "TestSite",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // EA",
       "Value": "TestSite",
       "Description": ""
     },
@@ -465,8 +471,8 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "run // _LoopMaster_2",
+      "Command": "run",
+      "Target": "_LoopMaster_2",
       "Value": "",
       "Description": ""
     }
