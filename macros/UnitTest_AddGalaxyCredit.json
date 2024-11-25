@@ -70,6 +70,24 @@
             "Description": ""
         },
         {
+            "Command": "elseif",
+            "Target": "${TestSite}==\"EA\"",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "open",
+            "Target": "https://shop.samsung.com/hk/multistore/sehkea/hkses/ng/p4v1/addToCart?products[0].productCode=${GcSKU}&&products[0].quantity=1",
+            "Value": "",
+            "Description": ""
+        },
+        {
+            "Command": "selectWindow",
+            "Target": "TAB=OPEN",
+            "Value": "https://shop.samsung.com/hk/multistore/sehkea/hkses/cart",
+            "Description": ""
+        },
+        {
             "Command": "else",
             "Target": "",
             "Value": "",

@@ -94,6 +94,36 @@
     },
     {
       "Command": "elseif",
+      "Target": "${TestSite}==\"EA\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${currentURL}!=\"https://shop.samsung.com/hk/multistore/sehkea/hkses/cart\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://shop.samsung.com/hk/multistore/sehkea/hkses/cart",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
+      "Target": "${TestSite}==\"Secret\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
       "Target": "${TestSite}==\"Secret\"",
       "Value": "",
       "Description": ""
