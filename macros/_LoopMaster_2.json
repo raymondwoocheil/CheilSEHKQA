@@ -1,6 +1,6 @@
 {
   "Name": "_LoopMaster_2",
-  "CreationDate": "2024-11-25",
+  "CreationDate": "2024-11-30",
   "Commands": [
     {
       "Command": "store",
@@ -65,6 +65,12 @@
     {
       "Command": "comment",
       "Target": "store // Checkout",
+      "Value": "TestCatOriginal",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // Golden",
       "Value": "TestCatOriginal",
       "Description": ""
     },
@@ -465,8 +471,8 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "run // _LoopMaster_3",
+      "Command": "run",
+      "Target": "_LoopMaster_3",
       "Value": "",
       "Description": ""
     }

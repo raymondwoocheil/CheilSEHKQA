@@ -1,5 +1,5 @@
 {
-  "Name": "_LoopMaster_1",
+  "Name": "_LoopMaster_5",
   "CreationDate": "2024-11-30",
   "Commands": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "Command": "store",
-      "Target": "1",
+      "Target": "5",
       "Value": "loopStream",
       "Description": ""
     },
@@ -93,8 +93,8 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // EPP",
+      "Command": "store",
+      "Target": "EPP",
       "Value": "TestSite",
       "Description": ""
     },
@@ -472,7 +472,7 @@
     },
     {
       "Command": "run",
-      "Target": "_LoopMaster_2",
+      "Target": "_LoopMaster_6",
       "Value": "",
       "Description": ""
     }

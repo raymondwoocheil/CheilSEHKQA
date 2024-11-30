@@ -1,5 +1,5 @@
 {
-  "Name": "_LoopMaster_1",
+  "Name": "_LoopMaster_6",
   "CreationDate": "2024-11-30",
   "Commands": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "Command": "store",
-      "Target": "1",
+      "Target": "6",
       "Value": "loopStream",
       "Description": ""
     },
@@ -51,14 +51,14 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "MX",
+      "Command": "comment",
+      "Target": "store // MX",
       "Value": "TestCatOriginal",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // CE",
+      "Command": "store",
+      "Target": "CE",
       "Value": "TestCatOriginal",
       "Description": ""
     },
@@ -93,8 +93,8 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // EPP",
+      "Command": "store",
+      "Target": "EPP",
       "Value": "TestSite",
       "Description": ""
     },
@@ -471,8 +471,8 @@
       "Description": ""
     },
     {
-      "Command": "run",
-      "Target": "_LoopMaster_2",
+      "Command": "comment",
+      "Target": "run // _LoopMaster_1",
       "Value": "",
       "Description": ""
     }
