@@ -1,7 +1,8 @@
 {
   "Name": "TestMaster",
   "CreationDate": "2024-12-2",
-  "Commands": [
+  "Commands":
+  [
     {
       "Command": "store",
       "Target": "fast",
@@ -330,6 +331,18 @@
       "Command": "store",
       "Target": "EI-T5600KWEGWW",
       "Value": "GcSKU",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "788",
+      "Value": "GcSKUPriceB2C",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "591",
+      "Value": "GcSKUPriceEPP",
       "Description": ""
     },
     {

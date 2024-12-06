@@ -562,15 +562,45 @@
       "Description": ""
     },
     {
-      "Command": "storeText",
-      "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${GcSKU}\"]//span[contains(@class,\"price__actual\")]",
-      "Value": "GcSKUPriceOriginal",
+      "Command": "if_v2",
+      "Target": "${TestSite}==\"EPP\" || ${TestSite}==\"SPP\"",
+      "Value": "",
       "Description": ""
     },
     {
       "Command": "executeScript",
-      "Target": "return Math.round(Number(${GcSKUPriceOriginal}.replace(/[^0-9.-]+/g,\"\")));",
+      "Target": "return Number(${GcSKUPriceEPP})",
       "Value": "GcSKUPriceOriginal",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return Number(${GcSKUPriceB2C})",
+      "Value": "GcSKUPriceOriginal",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "storeText // xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${GcSKU}\"]//span[contains(@class,\"price__actual\")]",
+      "Value": "GcSKUPriceOriginal",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "executeScript // return Math.round(Number(${GcSKUPriceOriginal}.replace(/[^0-9.-]+/g,\"\")));",
+      "Value": "GcSKUPriceOriginal",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
       "Description": ""
     },
     {
