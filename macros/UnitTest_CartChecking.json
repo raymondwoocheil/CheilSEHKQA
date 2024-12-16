@@ -628,8 +628,8 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "[${SKU}] Galaxy Credit in Cart: Passed - Expected ${ExpectedGalaxyCredit} / Actual ${GalaxyCreditCart}",
+      "Command": "comment",
+      "Target": "echo // [${SKU}] Galaxy Credit in Cart: Passed - Expected ${ExpectedGalaxyCredit} / Actual ${GalaxyCreditCart}",
       "Value": "blue",
       "Description": ""
     },
@@ -1372,8 +1372,8 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "${ThisSKU} is the SKU for GC Testing",
+      "Command": "comment",
+      "Target": "echo // ${ThisSKU} is the SKU for GC Testing",
       "Value": "green",
       "Description": ""
     },
@@ -1390,8 +1390,8 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "${ThisSKU} is Expected",
+      "Command": "comment",
+      "Target": "echo // ${ThisSKU} is Expected",
       "Value": "green",
       "Description": ""
     },

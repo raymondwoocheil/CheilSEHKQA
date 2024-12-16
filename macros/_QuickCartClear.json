@@ -21,8 +21,8 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "\"RemoveIconCount\" = ${RemoveIconCount}",
+      "Command": "comment",
+      "Target": "echo // \"RemoveIconCount\" = ${RemoveIconCount}",
       "Value": "",
       "Description": ""
     },

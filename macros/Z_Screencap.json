@@ -28,8 +28,8 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber}",
+      "Command": "comment",
+      "Target": "echo // Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber}",
       "Value": "green",
       "Description": ""
     },
@@ -142,8 +142,8 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "[${SKU}] Starting Test Case",
+      "Command": "comment",
+      "Target": "echo // [${SKU}] Starting Test Case",
       "Value": "blue",
       "Description": ""
     },
@@ -712,8 +712,8 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "\"RemoveIconCount\" = ${RemoveIconCount}",
+      "Command": "comment",
+      "Target": "echo // \"RemoveIconCount\" = ${RemoveIconCount}",
       "Value": "",
       "Description": ""
     },
@@ -826,8 +826,8 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "Test Duration: ${TestDuration}",
+      "Command": "comment",
+      "Target": "echo // Test Duration: ${TestDuration}",
       "Value": "",
       "Description": ""
     },

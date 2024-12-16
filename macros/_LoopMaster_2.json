@@ -1,7 +1,8 @@
 {
   "Name": "_LoopMaster_2",
-  "CreationDate": "2024-12-10",
-  "Commands": [
+  "CreationDate": "2024-12-13",
+  "Commands":
+  [
     {
       "Command": "store",
       "Target": "fast",
@@ -261,8 +262,8 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "Status = ${!csvReadStatus}, line = ${!csvReadLineNumber}",
+      "Command": "comment",
+      "Target": "echo // Status = ${!csvReadStatus}, line = ${!csvReadLineNumber}",
       "Value": "",
       "Description": ""
     },
@@ -447,8 +448,8 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "Reading CSV line No.  ${!csvReadLineNumber} ",
+      "Command": "comment",
+      "Target": "echo // Reading CSV line No.  ${!csvReadLineNumber} ",
       "Value": "",
       "Description": ""
     },
@@ -465,14 +466,14 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "${!Runtime}",
+      "Command": "comment",
+      "Target": "echo // ${!Runtime}",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "run",
-      "Target": "_LoopMaster_3",
+      "Command": "comment",
+      "Target": "run // _LoopMaster_3",
       "Value": "",
       "Description": ""
     }

@@ -34,8 +34,8 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber}",
+      "Command": "comment",
+      "Target": "echo // Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber}",
       "Value": "green",
       "Description": ""
     },
@@ -364,8 +364,8 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "[${CaseID}] [${SKU}] Starting Test Case",
+      "Command": "comment",
+      "Target": "echo // [${CaseID}] [${SKU}] Starting Test Case",
       "Value": "blue",
       "Description": ""
     },
@@ -862,8 +862,8 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "${SCPlusOptionCount}",
+      "Command": "comment",
+      "Target": "echo // ${SCPlusOptionCount}",
       "Value": "",
       "Description": ""
     },

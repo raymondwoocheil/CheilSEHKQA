@@ -261,8 +261,8 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "Status = ${!csvReadStatus}, line = ${!csvReadLineNumber}",
+      "Command": "comment",
+      "Target": "echo // Status = ${!csvReadStatus}, line = ${!csvReadLineNumber}",
       "Value": "",
       "Description": ""
     },
@@ -447,8 +447,8 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "Reading CSV line No.  ${!csvReadLineNumber} ",
+      "Command": "comment",
+      "Target": "echo // Reading CSV line No.  ${!csvReadLineNumber} ",
       "Value": "",
       "Description": ""
     },
@@ -465,8 +465,8 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "${!Runtime}",
+      "Command": "comment",
+      "Target": "echo // ${!Runtime}",
       "Value": "",
       "Description": ""
     },
