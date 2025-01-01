@@ -1,6 +1,6 @@
 {
   "Name": "TestMaster",
-  "CreationDate": "2024-12-2",
+  "CreationDate": "2025-1-1",
   "Commands":
   [
     {
@@ -1264,8 +1264,14 @@
       "Description": ""
     },
     {
+      "Command": "comment",
+      "Target": "verifyElementPresent // xpath=//section[contains(@class,\"pd-buying-tool\")]//*[contains(@class, \"js-buy-now\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "verifyElementPresent",
-      "Target": "xpath=//section[contains(@class,\"pd-buying-tool\")]//*[contains(@class, \"js-buy-now\")]",
+      "Target": "xpath=//div[contains(@class,\"cost-box\")]//*[contains(@class, \"js-buy-now\")]",
       "Value": "",
       "Description": ""
     },
