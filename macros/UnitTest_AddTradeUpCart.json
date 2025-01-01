@@ -1,8 +1,7 @@
 {
   "Name": "UnitTest_AddTradeUpCart",
-  "CreationDate": "2024-11-3",
-  "Commands":
-  [
+  "CreationDate": "2025-1-1",
+  "Commands": [
     {
       "Command": "store",
       "Target": "fast",
@@ -167,13 +166,13 @@
     },
     {
       "Command": "waitForElementVisible",
-      "Target": "xpath=//p[@class=\"trade-up__tc\"]",
+      "Target": "xpath=//p[contains(@class,\"trade-up__tc\")]",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "click",
-      "Target": "xpath=//p[@class=\"trade-up__tc\"]",
+      "Target": "xpath=//p[contains(@class,\"trade-up__tc\")]",
       "Value": "",
       "Description": ""
     },
