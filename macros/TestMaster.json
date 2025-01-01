@@ -1667,7 +1667,7 @@
     },
     {
       "Command": "click",
-      "Target": "xpath=//section[contains(@class,\"pd-buying-tool\")]//*[contains(@class, \"js-buy-now\")]",
+      "Target": "xpath=//div[contains(@class,\"cost-box\")]//*[contains(@class, \"js-buy-now\")]",
       "Value": "",
       "Description": ""
     },
