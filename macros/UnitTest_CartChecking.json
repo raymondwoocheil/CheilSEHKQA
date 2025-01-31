@@ -209,6 +209,36 @@
     },
     {
       "Command": "comment",
+      "Target": "**Start Unit Task - Add Promo Code**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${PromoCode}!=\"\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_AddPromoCode",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Unit Task - Add Promo Code**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
       "Target": "**Start Unit Task - Add Trade Up on Cart Page**",
       "Value": "",
       "Description": ""
@@ -467,7 +497,7 @@
     },
     {
       "Command": "executeScript",
-      "Target": "return Math.round(Number(${SKUPriceCart}.replace(/[^0-9.-]+/g,\"\")));",
+      "Target": "return Number(${SKUPriceCart}.replace(/[^0-9.-]+/g,\"\")).toFixed(2);",
       "Value": "SKUPriceCart",
       "Description": ""
     },
@@ -569,7 +599,7 @@
     },
     {
       "Command": "executeScript",
-      "Target": "return Number(${GcSKUPriceEPP})",
+      "Target": "return ${GcSKUPriceEPP}*${GcSKUQty}",
       "Value": "GcSKUPriceOriginal",
       "Description": ""
     },
@@ -581,7 +611,7 @@
     },
     {
       "Command": "executeScript",
-      "Target": "return Number(${GcSKUPriceB2C})",
+      "Target": "return ${GcSKUPriceB2C}*${GcSKUQty}",
       "Value": "GcSKUPriceOriginal",
       "Description": ""
     },
@@ -1193,7 +1223,7 @@
     },
     {
       "Command": "executeScript",
-      "Target": "return ${GalaxyCreditStep} == \"Use GC\" ? Number(${ItemCount})-2 : Number(${ItemCount})-1;",
+      "Target": "return ${GalaxyCreditStep} == \"Use GC\" ? ${ItemCount}-2 : ${ItemCount}-1;",
       "Value": "PremiumCount",
       "Description": ""
     },

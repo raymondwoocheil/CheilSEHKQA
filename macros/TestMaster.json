@@ -227,20 +227,20 @@
     },
     {
       "Command": "store",
-      "Target": "${!COL28}",
+      "Target": "${!COL29}",
+      "Value": "PromoCode",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!COL48}",
       "Value": "DeliveryMode",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "${!COL29}",
+      "Target": "${!COL49}",
       "Value": "DeliveryCity",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "${!COL30}",
-      "Value": "PromoCode",
       "Description": ""
     },
     {
@@ -331,6 +331,12 @@
       "Command": "store",
       "Target": "EI-T5600KWEGWW",
       "Value": "GcSKU",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "1",
+      "Value": "GcSKUQty",
       "Description": ""
     },
     {
@@ -1978,20 +1984,26 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "if_v2 // ${GalaxyCreditStep}==\"Use GC\"",
+      "Command": "if_v2",
+      "Target": "${GalaxyCreditStep}==\"Use GC\" && ${ExpectedGalaxyCredit} > ${GcSKUPriceB2C}",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "run // UnitTest_AddGalaxyCredit",
+      "Command": "store",
+      "Target": "2",
+      "Value": "GcSKUQty",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_AddGalaxyCredit",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "else",
+      "Command": "else",
+      "Target": "",
       "Value": "",
       "Description": ""
     },
@@ -2002,8 +2014,8 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "end",
+      "Command": "end",
+      "Target": "",
       "Value": "",
       "Description": ""
     },

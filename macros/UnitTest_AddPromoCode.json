@@ -1,0 +1,97 @@
+{
+  "Name": "UnitTest_AddPromoCode",
+  "CreationDate": "2025-1-30",
+  "Commands":
+  [
+    {
+      "Command": "comment",
+      "Target": "store // SHOPAPP",
+      "Value": "PromoCode",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=mat-input-0",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=mat-input-0",
+      "Value": "${PromoCode}",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//button[@data-an-la=\"coupon:apply\"]",
+      "Value": "2000",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=//cx-applied-coupons-v2//div[contains(@class,\"voucher-applied-code__left-container\")]",
+      "Value": "${PromoCode}",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "[${SKU}] Promo Code: Failed - Cannot apply code",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "verifyText",
+      "Target": "xpath=//cx-applied-coupons-v2//div[contains(@class,\"voucher-applied-code__left-container\")]/span",
+      "Value": "${PromoCode}",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "[${SKU}] Promo Code: Failed - Cannot apply code",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
