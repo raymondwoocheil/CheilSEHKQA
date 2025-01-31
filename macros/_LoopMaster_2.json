@@ -1,8 +1,7 @@
 {
   "Name": "_LoopMaster_2",
-  "CreationDate": "2024-12-13",
-  "Commands":
-  [
+  "CreationDate": "2025-1-31",
+  "Commands": [
     {
       "Command": "store",
       "Target": "fast",
@@ -472,8 +471,8 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "run // _LoopMaster_3",
+      "Command": "run",
+      "Target": "_LoopMaster_3",
       "Value": "",
       "Description": ""
     }
