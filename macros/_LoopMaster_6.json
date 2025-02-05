@@ -1,8 +1,7 @@
 {
   "Name": "_LoopMaster_6",
-  "CreationDate": "2024-11-30",
-  "Commands":
-  [
+  "CreationDate": "2025-2-5",
+  "Commands": [
     {
       "Command": "store",
       "Target": "fast",
@@ -23,7 +22,7 @@
     },
     {
       "Command": "store",
-      "Target": "5-250",
+      "Target": "6-250",
       "Value": "lineRange",
       "Description": ""
     },
