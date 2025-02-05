@@ -29,7 +29,7 @@
     },
     {
       "Command": "comment",
-      "Target": "####Start of TestCase${TestCat}-${TestSite}####",
+      "Target": "####Start of TestCase${TestCatOriginal}-${TestSite}####",
       "Value": "",
       "Description": ""
     },
@@ -455,7 +455,7 @@
     },
     {
       "Command": "comment",
-      "Target": "captureEntirePageScreenshot //  ${TestCat}${TestSite} ${!csvReadLineNumber} ${CaseID} BuyPage ${SKUwithoutSlash} ${DateTimeNow}.png",
+      "Target": "captureEntirePageScreenshot //  ${TestCatOriginal}${TestSite} ${!csvReadLineNumber} ${CaseID} BuyPage ${SKUwithoutSlash} ${DateTimeNow}.png",
       "Value": "",
       "Description": ""
     },
@@ -557,7 +557,7 @@
     },
     {
       "Command": "captureScreenshot",
-      "Target": "${TestCat}-${TestSite} ${!csvReadLineNumber} ${CaseID} BuyPage ${SKUwithoutSlash} ${DateTimeNow} OOS.png",
+      "Target": "${TestCatOriginal}-${TestSite} ${!csvReadLineNumber} ${CaseID} BuyPage ${SKUwithoutSlash} ${DateTimeNow} OOS.png",
       "Value": "",
       "Description": ""
     },
@@ -1319,7 +1319,7 @@
     },
     {
       "Command": "captureScreenshot",
-      "Target": "${TestCat}-${TestSite} ${!csvReadLineNumber} BuyPage ${SKUwithoutSlash} ${DateTimeNow} OOS.png",
+      "Target": "${TestCatOriginal}-${TestSite} ${!csvReadLineNumber} BuyPage ${SKUwithoutSlash} ${DateTimeNow} OOS.png",
       "Value": "",
       "Description": ""
     },

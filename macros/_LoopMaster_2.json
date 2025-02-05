@@ -10,7 +10,7 @@
     },
     {
       "Command": "store",
-      "Target": "2",
+      "Target": "1",
       "Value": "loopStream",
       "Description": ""
     },
@@ -81,9 +81,33 @@
       "Description": ""
     },
     {
+      "Command": "if_v2",
+      "Target": "${TestCatOriginal}==\"PA\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "MX",
+      "Value": "TestCat",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "store",
       "Target": "${TestCatOriginal}",
       "Value": "TestCat",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
       "Description": ""
     },
     {
@@ -477,8 +501,8 @@
       "Description": ""
     },
     {
-      "Command": "run",
-      "Target": "_LoopMaster_3",
+      "Command": "comment",
+      "Target": "run // _LoopMaster_3",
       "Value": "",
       "Description": ""
     }
