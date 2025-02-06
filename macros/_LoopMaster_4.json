@@ -238,7 +238,7 @@
     },
     {
       "Command": "store",
-      "Target": "TestCase${TestCat}${TestSite}.csv",
+      "Target": "TestCase${TestCatOriginal}${TestSite}.csv",
       "Value": "TestCase",
       "Description": ""
     },

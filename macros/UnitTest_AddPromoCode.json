@@ -1,11 +1,10 @@
 {
   "Name": "UnitTest_AddPromoCode",
-  "CreationDate": "2025-1-30",
-  "Commands":
-  [
+  "CreationDate": "2025-2-5",
+  "Commands": [
     {
       "Command": "comment",
-      "Target": "store // SHOPAPP",
+      "Target": "store // Y3W-SBE5-RGWY-B7ER",
       "Value": "PromoCode",
       "Description": ""
     },
@@ -23,7 +22,7 @@
     },
     {
       "Command": "click",
-      "Target": "xpath=//button[@data-an-la=\"coupon:apply\"]",
+      "Target": "xpath=//button[contains(@class,\"voucher-form__btn\")]",
       "Value": "2000",
       "Description": ""
     },

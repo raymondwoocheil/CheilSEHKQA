@@ -1,6 +1,6 @@
 {
   "Name": "_LoopMaster_2",
-  "CreationDate": "2025-2-5",
+  "CreationDate": "2025-2-6",
   "Commands": [
     {
       "Command": "store",
@@ -22,7 +22,7 @@
     },
     {
       "Command": "store",
-      "Target": "6-250",
+      "Target": "25-25",
       "Value": "lineRange",
       "Description": ""
     },
@@ -238,7 +238,7 @@
     },
     {
       "Command": "store",
-      "Target": "TestCase${TestCat}${TestSite}.csv",
+      "Target": "TestCase${TestCatOriginal}${TestSite}.csv",
       "Value": "TestCase",
       "Description": ""
     },

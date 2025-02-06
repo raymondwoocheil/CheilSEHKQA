@@ -1985,7 +1985,19 @@
     },
     {
       "Command": "if_v2",
-      "Target": "${GalaxyCreditStep}==\"Use GC\" && ${ExpectedGalaxyCredit} > ${GcSKUPriceB2C}",
+      "Target": "${TestSite}==\"B2C\" && ${GalaxyCreditStep}==\"Use GC\" && ${ExpectedGalaxyCredit} > ${GcSKUPriceB2C}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "2",
+      "Value": "GcSKUQty",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
+      "Target": "${GalaxyCreditStep}==\"Use GC\" && ${ExpectedGalaxyCredit} > ${GcSKUPriceEPP}",
       "Value": "",
       "Description": ""
     },
