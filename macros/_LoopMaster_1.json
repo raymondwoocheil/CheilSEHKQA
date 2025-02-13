@@ -251,7 +251,7 @@
     },
     {
       "Command": "if_v2",
-      "Target": "${TestCatOriginal}==\"Benefits\"",
+      "Target": "${TestCatOriginal}==\"BenefitsTC\"",
       "Value": "",
       "Description": ""
     },

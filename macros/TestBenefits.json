@@ -1,8 +1,7 @@
 {
-  "Name": "___TestBenefits",
+  "Name": "TestBenefits",
   "CreationDate": "2025-2-13",
-  "Commands":
-  [
+  "Commands": [
     {
       "Command": "store",
       "Target": "fast",
@@ -47,7 +46,7 @@
     },
     {
       "Command": "open",
-      "Target": "${!COL11}",
+      "Target": "${!COL7}",
       "Value": "",
       "Description": ""
     },
