@@ -1985,7 +1985,7 @@
     },
     {
       "Command": "if_v2",
-      "Target": "${TestSite}==\"B2C\" && ${GalaxyCreditStep}==\"Use GC\" && ${ExpectedGalaxyCredit} > ${GcSKUPriceB2C}",
+      "Target": "${TestSite}!=\"EPP\" && ${TestSite}!=\"SPP\" && ${GalaxyCreditStep}==\"Use GC\" && ${ExpectedGalaxyCredit} > ${GcSKUPriceB2C}",
       "Value": "",
       "Description": ""
     },
@@ -1993,6 +1993,12 @@
       "Command": "store",
       "Target": "2",
       "Value": "GcSKUQty",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_AddGalaxyCredit",
+      "Value": "",
       "Description": ""
     },
     {
