@@ -1,0 +1,151 @@
+{
+  "Name": "___TestBenefits",
+  "CreationDate": "2025-2-13",
+  "Commands":
+  [
+    {
+      "Command": "store",
+      "Target": "fast",
+      "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!errorIgnore",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!Runtime}",
+      "Value": "StartTime",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "0",
+      "Value": "TestDuration",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "####Start of Benefits - TestCase${TestCatOriginal}-${TestSite}####",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "echo // Inside subroutine: Status = ${!csvReadStatus}, Line = ${!csvReadLineNumber}",
+      "Value": "green",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Open URL and Start Timer**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "${!COL11}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "var today = new Date();\nvar date = today.getFullYear() + \"-\" + (today.getMonth() + 1) + \"-\" + today.getDate()\nreturn date;",
+      "Value": "DateToday",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "var today = new Date();\nvar time = today.getFullYear() + \"-\" + (today.getMonth() + 1) + \"-\" + today.getDate() + \" \" + today.getHours() + \"-\" + today.getMinutes() + \"-\" + today.getSeconds();\nreturn time;",
+      "Value": "DateTimeNow",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${DateTimeNow}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start of Test Case Variables**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!csvReadLineNumber}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "-",
+      "Value": "CaseID",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!COL6}",
+      "Value": "CaseID",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${CaseID}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!COL6}",
+      "Value": "SKU",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!COL3}",
+      "Value": "ProductName",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript",
+      "Target": "return ${SKU}.replace(/\\//g,\"\");",
+      "Value": "SKUwithoutSlash",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//ul[@id=\"sgOfferListPanel\"]",
+      "Value": "BenefitsText",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${BenefitsText}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "####End of Benefits - TestCase${TestCatOriginal}-${TestSite}####",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 {
   "Name": "_LoopMaster_1",
-  "CreationDate": "2025-2-5",
-  "Commands": [
+  "CreationDate": "2025-2-13",
+  "Commands":
+  [
     {
       "Command": "store",
       "Target": "fast",
@@ -81,33 +82,9 @@
       "Description": ""
     },
     {
-      "Command": "if_v2",
-      "Target": "${TestCatOriginal}==\"PA\"",
-      "Value": "",
-      "Description": ""
-    },
-    {
       "Command": "store",
-      "Target": "MX",
-      "Value": "TestCat",
-      "Description": ""
-    },
-    {
-      "Command": "else",
-      "Target": "",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "${TestCatOriginal}",
-      "Value": "TestCat",
-      "Description": ""
-    },
-    {
-      "Command": "end",
-      "Target": "",
-      "Value": "",
+      "Target": "BenefitsTC",
+      "Value": "TestCatOriginal",
       "Description": ""
     },
     {
@@ -219,6 +196,36 @@
       "Description": ""
     },
     {
+      "Command": "if_v2",
+      "Target": "${TestCatOriginal}==\"PA\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "MX",
+      "Value": "TestCat",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TestCatOriginal}",
+      "Value": "TestCat",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "comment",
       "Target": "**End of Global Settings**",
       "Value": "TestSite",
@@ -243,9 +250,33 @@
       "Description": ""
     },
     {
+      "Command": "if_v2",
+      "Target": "${TestCatOriginal}==\"Benefits\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "TestBenefits",
+      "Value": "TestMacro",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "store",
       "Target": "TestMaster",
       "Value": "TestMacro",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
       "Description": ""
     },
     {
