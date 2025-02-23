@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SKU Product Info Table</title>
+    <style>
+        body {
+            font-family: Helvetica;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .controls {
+            margin: 20px 0;
+        }
+        button {
+            margin: 0 10px;
+        }
+        select {
+            margin: 0 10px;
+        }
+        #progress {
+            margin: 10px 0;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="controls">
+        <input type="file" id="skuFile" accept=".csv">
+        <select id="countrySelect">
+            <option value="hk">B2C</option>
+            <option value="hk_en">B2C EN</option>
+            <option value="hk/multistore/hkedu/hkeducation">SPP</option>
+            <option value="hk/multistore/hkepp/samsunghkem">EPP</option>
+            <option value="hk/multistore/sehkea/hkses">EA</option>
+            <!-- Add more countries as needed -->
+        </select>
+        <select id="delaySelect">
+            <option value="25">25ms</option>
+            <option value="50" selected>50ms</option>
+            <option value="100">100ms</option>
+            <option value="200">200ms</option>
+            <option value="500">500ms</option>
+            <option value="1000">1000ms</option>
+        </select>
+        <button id="startBtn" disabled>START</button>
+        <button id="exportBtn" style="display: none;">Export to CSV</button>
+    </div>
+    <div id="progress"></div>
+    <div id="tableContainer"></div>
+
+    <script>
+        // Configuration
+        const BASE_URL = 'https://shop.samsung.com';
+        const BATCH_SIZE = 40; // Maximum SKUs per API call
+
+        // Store results and SKUs
+        let results = [];
+        let skusToFetch = [];
+        let startTime;
+
+        // DOM elements
+        const startBtn = document.getElementById('startBtn');
+        const exportBtn = document.getElementById('exportBtn');
+        const countrySelect = document.getElementById('countrySelect');
+        const delaySelect = document.getElementById('delaySelect');
+        const skuFileInput = document.getElementById('skuFile');
+        const progressDiv = document.getElementById('progress');
+        const tableContainer = document.getElementById('tableContainer');
+
+        // Handle CSV file upload
+        skuFileInput.addEventListener('change', (event) => {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    const text = e.target.result;
+                    skusToFetch = text.split('\n')
+                        .map(line => line.trim())
+                        .filter(line => line !== undefined);
+                    startBtn.disabled = skusToFetch.length === 0;
+                };
+                reader.readAsText(file);
+            }
+        });
+
+        // Function to fetch data for a batch of SKUs
+        async function fetchSkuBatch(skuBatch) {
+            if (skuBatch.length === 0) return [];
+
+            const countryCode = countrySelect.value;
+            const skuList = skuBatch.join(',');
+            const url = `${BASE_URL}/${countryCode}/servicesv2/getSimpleProductsInfo?productCodes=${skuList}`;
+            
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json(); // Parse directly as JSON
+                return processBatchData(data, skuBatch);
+            } catch (error) {
+                console.error(`Error fetching batch:`, error);
+                return skuBatch.map(sku => ({
+                    sku,
+                    stockLevelStatus: 'Error',
+                    price: '0',
+                    promotionPrice: '0',
+                    galaxyCredit: '0'
+                }));
+            }
+        }
+
+        // Process batch JSON data
+        function processBatchData(data, skuBatch) {
+            if (data.resultCode !== '0000' || !data.productDatas) {
+                return skuBatch.map(sku => ({
+                    sku,
+                    stockLevelStatus: 'OOS (Blocked)',
+                    price: '0',
+                    promotionPrice: '0',
+                    galaxyCredit: '0'
+                }));
+            }
+
+            const productMap = new Map();
+            data.productDatas.forEach(product => {
+                productMap.set(product.productCode, product);
+            });
+
+            return skuBatch.map(sku => {
+                const product = productMap.get(sku);
+                if (!product || product.resultCode !== '0000') {
+                    return { sku, stockLevelStatus: 'OOS (Blocked)', price: '0', promotionPrice: '0', galaxyCredit: '0' };
+                }
+
+                const voucherInfo = product.aemAdditionalInfoTypes?.find(info => info.type === 'Voucher');
+                const galaxyCredit = voucherInfo?.aemAdditionalInfos?.find(info => info.key === 'voucherPrice')?.value || '0';
+                const stockStatus = product.stockLevelStatus === 'outOfStock' ? 'OOS (Blocked)' : (product.stockLevelStatus || 'OOS (Blocked)');
+
+                return {
+                    sku,
+                    stockLevelStatus: stockStatus,
+                    price: product.price !== null ? product.price.toString() : '0',
+                    promotionPrice: product.promotionPrice !== null ? product.promotionPrice.toString() : '0',
+                    galaxyCredit
+                };
+            });
+        }
+
+        // Delay function for rate limiting
+        function delay(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        // Format time in seconds with 2 decimal places
+        function formatTime(ms) {
+            return (ms / 1000).toFixed(2) + 's';
+        }
+
+        // Update progress display with elapsed time
+        function updateProgress(completed, total) {
+            const percentage = Math.round((completed / total) * 100);
+            const elapsedTime = Date.now() - startTime;
+            progressDiv.textContent = `Progress: ${completed}/${total} (${percentage}%) - Elapsed: ${formatTime(elapsedTime)}`;
+        }
+
+        // Fetch all SKUs in batches
+        async function fetchAllSkus() {
+            results = []; // Reset results
+            startBtn.disabled = true;
+            exportBtn.style.display = 'none';
+            progressDiv.style.display = 'block';
+            tableContainer.innerHTML = ''; // Clear table
+            startTime = Date.now(); // Record start time
+
+            const totalSkus = skusToFetch.length;
+            const requestDelay = parseInt(delaySelect.value, 10);
+
+            for (let i = 0; i < totalSkus; i += BATCH_SIZE) {
+                const batch = skusToFetch.slice(i, i + BATCH_SIZE);
+                const batchResults = await fetchSkuBatch(batch);
+                results.push(...batchResults);
+                updateProgress(Math.min(i + batch.length, totalSkus), totalSkus);
+                
+                if (i + BATCH_SIZE < totalSkus) {
+                    await delay(requestDelay);
+                }
+            }
+
+            const totalTime = Date.now() - startTime;
+            progressDiv.textContent = `Completed: ${totalSkus}/${totalSkus} (100%) - Total time: ${formatTime(totalTime)}`;
+            renderTable();
+            startBtn.disabled = false;
+            exportBtn.style.display = 'inline';
+        }
+
+        // Render the table
+        function renderTable() {
+            let html = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>SKU</th>
+                            <th>Stock Level Status</th>
+                            <th>Price</th>
+                            <th>Promotion Price</th>
+                            <th>Galaxy Credit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            results.forEach(result => {
+                html += `
+                    <tr>
+                        <td>${result.sku || ''}</td>
+                        <td>${result.stockLevelStatus}</td>
+                        <td>${result.price}</td>
+                        <td>${result.promotionPrice}</td>
+                        <td>${result.galaxyCredit}</td>
+                    </tr>
+                `;
+            });
+
+            html += `
+                    </tbody>
+                </table>
+            `;
+
+            tableContainer.innerHTML = html;
+        }
+
+        // Format timestamp as yyyymmddhhmm in local timezone
+        function getTimestamp() {
+            const now = new Date(startTime);
+            const year = now.getFullYear();
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const day = String(now.getDate()).padStart(2, '0');
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            return `${year}${month}${day}${hours}${minutes}`;
+        }
+
+        // Export to CSV
+        function exportToCSV() {
+            let csvContent = 'data:text/csv;charset=utf-8,';
+            csvContent += 'SKU,Stock Level Status,Price,Promotion Price,Galaxy Credit\n';
+
+            results.forEach(result => {
+                const sku = (result.sku || '').replace(/"/g, '""');
+                const stockLevelStatus = result.stockLevelStatus.replace(/"/g, '""');
+                const price = result.price.replace(/"/g, '""');
+                const promotionPrice = result.promotionPrice.replace(/"/g, '""');
+                const galaxyCredit = result.galaxyCredit.replace(/"/g, '""');
+                csvContent += `"${sku}","${stockLevelStatus}","${price}","${promotionPrice}","${galaxyCredit}"\n`;
+            });
+
+            const encodedUri = encodeURI(csvContent);
+            const link = document.createElement('a');
+            link.setAttribute('href', encodedUri);
+            link.setAttribute('download', `sku_products_${countrySelect.value}_${getTimestamp()}.csv`);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Event listeners
+        startBtn.addEventListener('click', fetchAllSkus);
+        exportBtn.addEventListener('click', exportToCSV);
+    </script>
+</body>
+</html>

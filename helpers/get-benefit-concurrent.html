@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Benefits Grabber - Concurrent</title>
+    <style>
+        body {
+            padding: 20px;
+            font-family: Helvetica;
+        }
+        h1 {
+            margin: 0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            cursor: pointer;
+        }
+        th:hover {
+            background-color: #ddd;
+        }
+        .controls {
+            margin: 20px 0;
+        }
+        button {
+            margin: 0 10px;
+        }
+        select {
+            margin: 0 10px;
+        }
+        #progress {
+            margin: 10px 0;
+            display: none;
+        }
+        #stats {
+            margin: 10px 0;
+        }
+        #errorLog {
+            margin: 10px 0;
+            color: red;
+            max-height: 100px;
+            overflow-y: auto;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Benefits Grabber using Hybris Public Product Offer API - Concurrent</h1>
+    <div class="controls">
+        <input type="file" id="skuFile" accept=".csv">
+        <select id="storeSelect">
+            <option value="hk">B2C Chinese</option>
+            <option value="hk_en">B2C English</option>
+            <option value="hkeducation">SPP</option>
+            <option value="samsunghkem">EPP</option>
+            <option value="hkses">EA</option>
+        </select>
+        <select id="langSelect">
+            <option value="">Chinese</option>
+            <option value="&lang=en_HK">English</option>
+        </select>
+        <select id="delaySelect">
+            <option value="25">25ms</option>
+            <option value="50" selected>50ms</option>
+            <option value="100">100ms</option>
+            <option value="200">200ms</option>
+            <option value="500">500ms</option>
+            <option value="1000">1000ms</option>
+        </select>
+        <select id="concurrencySelect">
+            <option value="1">1 Concurrent</option>
+            <option value="3">3 Concurrent</option>
+            <option value="5" selected>5 Concurrent</option>
+            <option value="10">10 Concurrent</option>
+        </select>
+        <button id="startBtn" disabled>START</button>
+        <button id="clearBtn">CLEAR</button>
+        <button id="exportCombinedBtn" style="display: none;">Export Combined CSV</button>
+        <button id="exportSplitBtn" style="display: none;">Export Split CSV</button>
+    </div>
+    <div id="progress"></div>
+    <div id="stats"></div>
+    <div id="errorLog"></div>
+    <div id="tableContainer"></div>
+
+    <script>
+        // Configuration
+        const BASE_DOMAIN = 'https://p1-sms-api-cdn.shop.samsung.com/tokocommercewebservices/v2/';
+        const ENDPOINT_SUFFIX = '/offers?fields=SIMPLE_INFO';
+
+        // Store results and SKUs
+        let results = [];
+        let skusToFetch = [];
+        let startTime;
+        let successCount = 0;
+        let failCount = 0;
+        let sortColumn = null;
+        let sortDirection = 'asc';
+
+        // DOM elements
+        const startBtn = document.getElementById('startBtn');
+        const clearBtn = document.getElementById('clearBtn');
+        const exportCombinedBtn = document.getElementById('exportCombinedBtn');
+        const exportSplitBtn = document.getElementById('exportSplitBtn');
+        const storeSelect = document.getElementById('storeSelect');
+        const langSelect = document.getElementById('langSelect');
+        const delaySelect = document.getElementById('delaySelect');
+        const concurrencySelect = document.getElementById('concurrencySelect');
+        const skuFileInput = document.getElementById('skuFile');
+        const progressDiv = document.getElementById('progress');
+        const statsDiv = document.getElementById('stats');
+        const errorLogDiv = document.getElementById('errorLog');
+        const tableContainer = document.getElementById('tableContainer');
+
+        // Handle CSV file upload
+        skuFileInput.addEventListener('change', (event) => {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    const text = e.target.result;
+                    skusToFetch = text.split('\n')
+                        .map(line => line.trim())
+                        .filter(line => line !== undefined);
+                    startBtn.disabled = skusToFetch.length === 0;
+                };
+                reader.readAsText(file);
+            }
+        });
+
+        // Function to fetch data for a single SKU
+        async function fetchSkuData(sku) {
+            if (!sku) {
+                failCount++;
+                return { sku: '', descriptions: ['No SKU provided'], code: 'N/A', startDate: 'N/A', endDate: 'N/A', url: 'N/A' };
+            }
+
+            const storeCode = storeSelect.value;
+            const langCode = langSelect.value;
+            const url = `${BASE_DOMAIN}/${storeCode}/products/${sku}${ENDPOINT_SUFFIX}${langCode}`;
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                successCount++;
+                return processSkuData(sku, data, url);
+            } catch (error) {
+                console.error(`Error fetching data for SKU ${sku}:`, error);
+                failCount++;
+                errorLogDiv.style.display = 'block';
+                errorLogDiv.innerHTML += `SKU ${sku}: ${error.message}<br>`;
+                return { sku, descriptions: [`Error: ${error.message}`], code: 'N/A', startDate: 'N/A', endDate: 'N/A', url };
+            }
+        }
+
+        // Process JSON data and extract all fields
+        function processSkuData(sku, data, url) {
+            if (!data.benefits || !Array.isArray(data.benefits)) {
+                return { sku, descriptions: ['No benefits found'], code: 'N/A', startDate: 'N/A', endDate: 'N/A', url };
+            }
+
+            const descriptions = data.benefits
+                .filter(benefit => benefit.description)
+                .map(benefit => benefit.description);
+            const codes = data.benefits
+                .filter(benefit => benefit.code)
+                .map(benefit => benefit.code)
+                .join('; ');
+            const startDates = data.benefits
+                .filter(benefit => benefit.startDate)
+                .map(benefit => benefit.startDate)
+                .join('; ');
+            const endDates = data.benefits
+                .filter(benefit => benefit.endDate)
+                .map(benefit => benefit.endDate)
+                .join('; ');
+
+            return {
+                sku,
+                descriptions: descriptions.length > 0 ? descriptions : ['No descriptions available'],
+                code: codes || 'N/A',
+                startDate: startDates || 'N/A',
+                endDate: endDates || 'N/A',
+                url
+            };
+        }
+
+        // Delay function for rate limiting between batches
+        function delay(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        // Format time in seconds with 2 decimal places
+        function formatTime(ms) {
+            return (ms / 1000).toFixed(2) + 's';
+        }
+
+        // Update progress display with elapsed time
+        function updateProgress(completed, total) {
+            const percentage = Math.round((completed / total) * 100);
+            const elapsedTime = Date.now() - startTime;
+            progressDiv.textContent = `Progress: ${completed}/${total} (${percentage}%) - Elapsed: ${formatTime(elapsedTime)}`;
+            statsDiv.textContent = `Success: ${successCount} | Failed: ${failCount}`;
+        }
+
+        // Fetch all SKUs with concurrency
+        async function fetchAllSkus() {
+            results = [];
+            successCount = 0;
+            failCount = 0;
+            startBtn.disabled = true;
+            clearBtn.disabled = true;
+            exportCombinedBtn.style.display = 'none';
+            exportSplitBtn.style.display = 'none';
+            progressDiv.style.display = 'block';
+            tableContainer.innerHTML = '';
+            errorLogDiv.innerHTML = '';
+            errorLogDiv.style.display = 'none';
+            startTime = Date.now();
+
+            const totalSkus = skusToFetch.length;
+            const concurrencyLimit = parseInt(concurrencySelect.value, 10);
+            const requestDelay = parseInt(delaySelect.value, 10);
+            let completed = 0;
+
+            async function processBatch(batch) {
+                const promises = batch.map(sku => fetchSkuData(sku));
+                const batchResults = await Promise.all(promises);
+                results.push(...batchResults);
+                completed += batch.length;
+                updateProgress(completed, totalSkus);
+            }
+
+            for (let i = 0; i < totalSkus; i += concurrencyLimit) {
+                const batch = skusToFetch.slice(i, i + concurrencyLimit);
+                await processBatch(batch);
+                if (i + concurrencyLimit < totalSkus) {
+                    await delay(requestDelay); // Delay between batches
+                }
+            }
+
+            const totalTime = Date.now() - startTime;
+            progressDiv.textContent = `Completed: ${totalSkus}/${totalSkus} (100%) - Total time: ${formatTime(totalTime)}`;
+            renderTable();
+            startBtn.disabled = false;
+            clearBtn.disabled = false;
+            exportCombinedBtn.style.display = 'inline';
+            exportSplitBtn.style.display = 'inline';
+        }
+
+        // Render the table with sorting capability
+        function renderTable() {
+            let html = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th onclick="sortTable('sku')">SKU</th>
+                            <th onclick="sortTable('description')">Benefits Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            const sortedResults = [...results];
+            if (sortColumn) {
+                sortedResults.sort((a, b) => {
+                    const valueA = sortColumn === 'sku' ? a.sku : a.descriptions.join('; ');
+                    const valueB = sortColumn === 'sku' ? b.sku : b.descriptions.join('; ');
+                    return sortDirection === 'asc' 
+                        ? valueA.localeCompare(valueB) 
+                        : valueB.localeCompare(valueA);
+                });
+            }
+
+            sortedResults.forEach(result => {
+                const combinedDescription = result.descriptions.join('; ');
+                html += `
+                    <tr>
+                        <td>${result.sku || ''}</td>
+                        <td>${combinedDescription}</td>
+                    </tr>
+                `;
+            });
+
+            html += `
+                    </tbody>
+                </table>
+            `;
+
+            tableContainer.innerHTML = html;
+        }
+
+        // Sort table function
+        function sortTable(column) {
+            if (sortColumn === column) {
+                sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
+            } else {
+                sortColumn = column;
+                sortDirection = 'asc';
+            }
+            renderTable();
+        }
+
+        // Clear everything
+        function clearAll() {
+            results = [];
+            skusToFetch = [];
+            successCount = 0;
+            failCount = 0;
+            sortColumn = null;
+            sortDirection = 'asc';
+            startBtn.disabled = true;
+            clearBtn.disabled = false;
+            exportCombinedBtn.style.display = 'none';
+            exportSplitBtn.style.display = 'none';
+            progressDiv.style.display = 'none';
+            statsDiv.textContent = '';
+            errorLogDiv.innerHTML = '';
+            errorLogDiv.style.display = 'none';
+            tableContainer.innerHTML = '';
+            skuFileInput.value = '';
+        }
+
+        // Format timestamp as yyyymmddhhmm in local timezone
+        function getTimestamp() {
+            const now = new Date(startTime);
+            const year = now.getFullYear();
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const day = String(now.getDate()).padStart(2, '0');
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            return `${year}${month}${day}${hours}${minutes}`;
+        }
+
+        // Export combined CSV with all fields
+        function exportCombinedCSV() {
+            let csvContent = 'data:text/csv;charset=utf-8,';
+            csvContent += 'SKU,Benefits Description,Code,Start Date,End Date,API URL\n';
+
+            results.forEach(result => {
+                const sku = (result.sku || '').replace(/"/g, '""');
+                const description = result.descriptions.join('; ').replace(/"/g, '""');
+                const code = result.code.replace(/"/g, '""');
+                const startDate = result.startDate.replace(/"/g, '""');
+                const endDate = result.endDate.replace(/"/g, '""');
+                const url = result.url.replace(/"/g, '""');
+                csvContent += `"${sku}","${description}","${code}","${startDate}","${endDate}","${url}"\n`;
+            });
+
+            const encodedUri = encodeURI(csvContent);
+            const link = document.createElement('a');
+            link.setAttribute('href', encodedUri);
+            link.setAttribute('download', `sku_benefits_${storeSelect.value}_${getTimestamp()}.csv`);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Export split CSV with separate description columns
+        function exportSplitCSV() {
+            let csvContent = 'data:text/csv;charset=utf-8,';
+            const maxDescriptions = Math.max(...results.map(result => result.descriptions.length));
+            let header = 'SKU';
+            for (let i = 1; i <= maxDescriptions; i++) {
+                header += `,Benefit Description ${i}`;
+            }
+            csvContent += header + '\n';
+
+            results.forEach(result => {
+                const sku = (result.sku || '').replace(/"/g, '""');
+                const descriptionColumns = result.descriptions.map(desc => desc.replace(/"/g, '""'));
+                while (descriptionColumns.length < maxDescriptions) {
+                    descriptionColumns.push('');
+                }
+                csvContent += `"${sku}",${descriptionColumns.map(col => `"${col}"`).join(',')}\n`;
+            });
+
+            const encodedUri = encodeURI(csvContent);
+            const link = document.createElement('a');
+            link.setAttribute('href', encodedUri);
+            link.setAttribute('download', `sku_benefits_split_${storeSelect.value}_${getTimestamp()}.csv`);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Event listeners
+        startBtn.addEventListener('click', fetchAllSkus);
+        clearBtn.addEventListener('click', clearAll);
+        exportCombinedBtn.addEventListener('click', exportCombinedCSV);
+        exportSplitBtn.addEventListener('click', exportSplitCSV);
+    </script>
+</body>
+</html>

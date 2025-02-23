@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Price Grabber</title>
+    <style>
+        body {
+            padding: 20px;
+            font-family: Helvetica;
+        }
+        h1 {
+            margin: 0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .controls {
+            margin: 20px 0;
+        }
+        button {
+            margin: 0 10px;
+        }
+        select {
+            margin: 0 10px;
+        }
+        #progress {
+            margin: 10px 0;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Price Grabber using Hybris Public Product API</h1>
+    <div class="controls">
+        <input type="file" id="skuFile" accept=".csv">
+        <select id="storeSelect">
+            <option value="hk">B2C Chinese</option>
+            <option value="hk_en">B2C English</option>
+            <option value="hkeducation">SPP</option>
+            <option value="samsunghkem">EPP</option>
+            <option value="hkses">EA</option>
+            <!-- Add more countries as needed -->
+        </select>
+        <select id="delaySelect">
+            <option value="0">0ms</option>
+            <option value="5" selected>5ms</option>
+            <option value="25">25ms</option>
+            <option value="50">50ms</option>
+            <option value="100">100ms</option>
+            <option value="200">200ms</option>
+            <option value="500">500ms</option>
+            <option value="1000">1000ms</option>
+        </select>
+        <button id="startBtn" disabled>START</button>
+        <button id="exportBtn" style="display: none;">Export to CSV</button>
+    </div>
+    <div id="progress"></div>
+    <div id="tableContainer"></div>
+
+    <script>
+        // Configuration
+        const BASE_URL = 'https://p1-sms-api-cdn.shop.samsung.com/tokocommercewebservices/v2/';
+
+        // Store results and SKUs
+        let results = [];
+        let skusToFetch = [];
+        let startTime;
+
+        // DOM elements
+        const startBtn = document.getElementById('startBtn');
+        const exportBtn = document.getElementById('exportBtn');
+        const storeSelect = document.getElementById('storeSelect');
+        const delaySelect = document.getElementById('delaySelect');
+        const skuFileInput = document.getElementById('skuFile');
+        const progressDiv = document.getElementById('progress');
+        const tableContainer = document.getElementById('tableContainer');
+
+        // Handle CSV file upload
+        skuFileInput.addEventListener('change', (event) => {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    const text = e.target.result;
+                    skusToFetch = text.split('\n')
+                        .map(line => line.trim())
+                        .filter(line => line !== undefined);
+                    startBtn.disabled = skusToFetch.length === 0;
+                };
+                reader.readAsText(file);
+            }
+        });
+
+        // Function to fetch data for a single SKU
+        async function fetchSkuData(sku) {
+            if (!sku) {
+                return {
+                    sku: '',
+                    stockLevelStatus: 'Unavailable',
+                    price: '0',
+                    promotionPrice: '0',
+                    galaxyCredit: '0'
+                };
+            }
+
+            const storeCode = storeSelect.value;
+            const url = `${BASE_URL}/${storeCode}/products/${sku}/**`;
+            
+            try {
+                const response = await fetch(url, {
+                    headers: {
+                        'Accept': 'application/xml'
+                    }
+                });
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const xmlText = await response.text();
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
+                return processXmlData(sku, xmlDoc);
+            } catch (error) {
+                console.error(`Error fetching data for SKU ${sku}:`, error);
+                return {
+                    sku,
+                    stockLevelStatus: 'Error',
+                    price: '0',
+                    promotionPrice: '0',
+                    galaxyCredit: '0'
+                };
+            }
+        }
+
+        // Process XML data
+        function processXmlData(sku, xmlDoc) {
+            const stockLevelStatusNode = xmlDoc.querySelector('stock stockLevelStatus');
+            const priceNode = xmlDoc.querySelector('price value');
+            const promotionPriceNode = xmlDoc.querySelector('promotionPrice value');
+            const voucherPriceNode = xmlDoc.querySelector('aemAdditionalInfoTypes[type="Voucher"] aemAdditionalInfos[key="voucherPrice"] value');
+
+            const stockLevelStatus = stockLevelStatusNode ? stockLevelStatusNode.textContent : 'Unavailable';
+            const finalStockStatus = stockLevelStatus === 'outOfStock' ? 'OOS (Blocked)' : stockLevelStatus;
+            const price = priceNode ? priceNode.textContent : '0';
+            const promotionPrice = promotionPriceNode ? promotionPriceNode.textContent : '0';
+            const galaxyCredit = voucherPriceNode ? voucherPriceNode.textContent : '0';
+
+            return {
+                sku,
+                stockLevelStatus: finalStockStatus,
+                price,
+                promotionPrice,
+                galaxyCredit
+            };
+        }
+
+        // Delay function for rate limiting
+        function delay(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        // Format time in seconds with 2 decimal places
+        function formatTime(ms) {
+            return (ms / 1000).toFixed(2) + 's';
+        }
+
+        // Update progress display with elapsed time
+        function updateProgress(completed, total) {
+            const percentage = Math.round((completed / total) * 100);
+            const elapsedTime = Date.now() - startTime;
+            progressDiv.textContent = `Progress: ${completed}/${total} (${percentage}%) - Elapsed: ${formatTime(elapsedTime)}`;
+        }
+
+        // Fetch all SKUs one at a time
+        async function fetchAllSkus() {
+            results = []; // Reset results
+            startBtn.disabled = true;
+            exportBtn.style.display = 'none';
+            progressDiv.style.display = 'block';
+            tableContainer.innerHTML = ''; // Clear table
+            startTime = Date.now(); // Record start time
+
+            const totalSkus = skusToFetch.length;
+            const requestDelay = parseInt(delaySelect.value, 10);
+
+            for (let i = 0; i < totalSkus; i++) {
+                const sku = skusToFetch[i];
+                const result = await fetchSkuData(sku);
+                results.push(result);
+                updateProgress(i + 1, totalSkus);
+                
+                if (i < totalSkus - 1) {
+                    await delay(requestDelay);
+                }
+            }
+
+            const totalTime = Date.now() - startTime;
+            progressDiv.textContent = `Completed: ${totalSkus}/${totalSkus} (100%) - Total time: ${formatTime(totalTime)}`;
+            renderTable();
+            startBtn.disabled = false;
+            exportBtn.style.display = 'inline';
+        }
+
+        // Render the table
+        function renderTable() {
+            let html = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>SKU</th>
+                            <th>Stock Level Status</th>
+                            <th>Price</th>
+                            <th>Promotion Price</th>
+                            <th>Galaxy Credit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            results.forEach(result => {
+                html += `
+                    <tr>
+                        <td>${result.sku || ''}</td>
+                        <td>${result.stockLevelStatus}</td>
+                        <td>${result.price}</td>
+                        <td>${result.promotionPrice}</td>
+                        <td>${result.galaxyCredit}</td>
+                    </tr>
+                `;
+            });
+
+            html += `
+                    </tbody>
+                </table>
+            `;
+
+            tableContainer.innerHTML = html;
+        }
+
+        // Format timestamp as yyyymmddhhmm in local timezone
+        function getTimestamp() {
+            const now = new Date(startTime);
+            const year = now.getFullYear();
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const day = String(now.getDate()).padStart(2, '0');
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            return `${year}${month}${day}${hours}${minutes}`;
+        }
+
+        // Export to CSV
+        function exportToCSV() {
+            let csvContent = 'data:text/csv;charset=utf-8,';
+            csvContent += 'SKU,Stock Level Status,Price,Promotion Price,Galaxy Credit\n';
+
+            results.forEach(result => {
+                const sku = (result.sku || '').replace(/"/g, '""');
+                const stockLevelStatus = result.stockLevelStatus.replace(/"/g, '""');
+                const price = result.price.replace(/"/g, '""');
+                const promotionPrice = result.promotionPrice.replace(/"/g, '""');
+                const galaxyCredit = result.galaxyCredit.replace(/"/g, '""');
+                csvContent += `"${sku}","${stockLevelStatus}","${price}","${promotionPrice}","${galaxyCredit}"\n`;
+            });
+
+            const encodedUri = encodeURI(csvContent);
+            const link = document.createElement('a');
+            link.setAttribute('href', encodedUri);
+            link.setAttribute('download', `sku_products_${storeSelect.value}_${getTimestamp()}.csv`);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Event listeners
+        startBtn.addEventListener('click', fetchAllSkus);
+        exportBtn.addEventListener('click', exportToCSV);
+    </script>
+</body>
+</html>
