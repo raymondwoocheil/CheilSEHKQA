@@ -1,6 +1,6 @@
 {
   "Name": "_LoopMaster_2",
-  "CreationDate": "2025-2-13",
+  "CreationDate": "2025-2-23",
   "Commands": [
     {
       "Command": "store",
@@ -117,8 +117,8 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // SPP",
+      "Command": "store",
+      "Target": "SPP",
       "Value": "TestSite",
       "Description": ""
     },
