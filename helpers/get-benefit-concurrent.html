@@ -68,6 +68,7 @@
             <option value="&lang=en_HK">English</option>
         </select>
         <select id="delaySelect">
+            <option value="0">0ms</option>
             <option value="25">25ms</option>
             <option value="50" selected>50ms</option>
             <option value="100">100ms</option>
@@ -80,6 +81,7 @@
             <option value="3">3 Concurrent</option>
             <option value="5" selected>5 Concurrent</option>
             <option value="10">10 Concurrent</option>
+            <option value="20">20 Concurrent</option>
         </select>
         <button id="startBtn" disabled>START</button>
         <button id="clearBtn">CLEAR</button>
@@ -119,6 +121,7 @@
         const statsDiv = document.getElementById('stats');
         const errorLogDiv = document.getElementById('errorLog');
         const tableContainer = document.getElementById('tableContainer');
+        const langCode = langSelect.selectedOptions[0].textContent;
 
         // Handle CSV file upload
         skuFileInput.addEventListener('change', (event) => {
@@ -144,8 +147,9 @@
             }
 
             const storeCode = storeSelect.value;
-            const langCode = langSelect.value;
-            const url = `${BASE_DOMAIN}/${storeCode}/products/${sku}${ENDPOINT_SUFFIX}${langCode}`;
+            const langParameter = langSelect.value;
+            const url = `${BASE_DOMAIN}/${storeCode}/products/${sku}${ENDPOINT_SUFFIX}${langParameter}`;
+
             try {
                 const response = await fetch(url);
                 if (!response.ok) {
@@ -360,7 +364,7 @@
             const encodedUri = encodeURI(csvContent);
             const link = document.createElement('a');
             link.setAttribute('href', encodedUri);
-            link.setAttribute('download', `sku_benefits_${storeSelect.value}_${getTimestamp()}.csv`);
+            link.setAttribute('download', `Get_benefits_${storeSelect.value}_${langCode}_${getTimestamp()}.csv`);
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
@@ -388,7 +392,7 @@
             const encodedUri = encodeURI(csvContent);
             const link = document.createElement('a');
             link.setAttribute('href', encodedUri);
-            link.setAttribute('download', `sku_benefits_split_${storeSelect.value}_${getTimestamp()}.csv`);
+            link.setAttribute('download', `Get_benefits_split_${storeSelect.value}_${langCode}_${getTimestamp()}.csv`);
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);

@@ -287,7 +287,7 @@
             const encodedUri = encodeURI(csvContent);
             const link = document.createElement('a');
             link.setAttribute('href', encodedUri);
-            link.setAttribute('download', `sku_products_${storeSelect.value}_${getTimestamp()}.csv`);
+            link.setAttribute('download', `Get_price_${storeSelect.value}_${getTimestamp()}.csv`);
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
