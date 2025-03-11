@@ -329,7 +329,7 @@
     },
     {
       "Command": "store",
-      "Target": "EI-T5600KWEGWW",
+      "Target": "EP-T6530NBEGGB",
       "Value": "GcSKU",
       "Description": ""
     },
@@ -341,13 +341,13 @@
     },
     {
       "Command": "store",
-      "Target": "788",
+      "Target": "478",
       "Value": "GcSKUPriceB2C",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "591",
+      "Target": "359",
       "Value": "GcSKUPriceEPP",
       "Description": ""
     },
