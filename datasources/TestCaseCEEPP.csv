@@ -1,5 +1,5 @@
 CE EPP,,,,,,Go to EPP Cart Page,,,,,Via add-to-cart link,13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,,,,136
-Assigned,Test Case,,,,,,,,,,10,Price,,Step >>,Step >>,Verify >>,Step >>,,Verify >>,,,,,,,,Step >>,,,Step >>,Verify >>,Verify >>,Mass premiums,,,,,,,,,EPP only,,Total,Verify >>,,Cart Page Result >>,,,Step >>,Step >>,Verify >>,Step >>,Verify >>,Verify >>,Verify >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Last Updated,,,,,
+Assigned,Test Case,,,,,,,,,,43,Price,,Step >>,Step >>,Verify >>,Step >>,,Verify >>,,,,,,,,Step >>,,,Step >>,Verify >>,Verify >>,Mass premiums,,,,,,,,,EPP only,,Total,Verify >>,,Cart Page Result >>,,,Step >>,Step >>,Verify >>,Step >>,Verify >>,Verify >>,Verify >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Last Updated,,,,,
 Tester,ID,Auto Cart,Premiunm Qty,Manual Cart,Price Status,Model,FAMILY,BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-up,Trade-up-discount,Verify trade-up discount,,,,,,,,Add Promo Code 1,Add Promo Code 2,Add Promo Code 3,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,,,,,,,,,,,Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)","Verify Expired Premiums 
 NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,"Guest or login, proceed to delivery option",Verify these Delivery Option available,Delivery method action,Verify these criteria,,Verify Expected Delivery Date,Checkout Page Result,Screencap of Step 2 Delivery Option,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,Line No.,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,GC in cart,GC cart captured,GC cart result,Extra Trade-In Rebate label,Trade-In Rebate captured,Trade-In Rebate result,SC+ label,SC+ captured,SC+ result,Premium SKU count,Premium Count captured,Premium SKU count result,Failed reason,Items in Cart,SKU 1,Qty,,SKU 2,Qty,,SKU 3,Qty,,SKU 4,Qty,,SKU 5,Qty,,SKU 6,Qty,,SKU 7,Qty,,SKU 8,Qty,,SKU 9,Qty,,SKU 10,Qty,,Qty Total,Qty Total Result,Premium Array,Final Result,Test duration (s),,Cart Page Result,Last Updated,,,,,
@@ -39,11 +39,11 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ,E-CTV-11,,,,inStock,"50"" QLED Q80D",QLED 4K Q80D,N,QA50Q80DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.QA50Q80DAJXZK,QA50Q80DAJXZK,"7,680","5,966",cptqaer+3@gmail.com,!Cheil2024,"5,966",No,300,0,,,,,,,,,,,Add to Cart,"5,816.00",,Z-HW-C450/ZK,,,,,,,,,,Z-HW-C450/ZK,1,"
 ●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E-CTV-12,,,,inStock,"50"" QLED QE1D",QLED 4K QE1D,N,QA50QE1DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.QA50QE1DAJXZK,QA50QE1DAJXZK,"6,180","5,086",cptqaer+3@gmail.com,!Cheil2024,"5,086",No,0,0,,,,,,,,,,,Add to Cart,"4,936.00",,,,,,,,,,,,,0,"
+,E-CTV-12,,,,inStock,"50"" QLED QE1D",QLED 4K QE1D,N,QA50QE1DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.QA50QE1DAJXZK,QA50QE1DAJXZK,"6,180","5,086",cptqaer+3@gmail.com,!Cheil2024,"5,086",No,0,0,,,,,,,,,,,Add to Cart,"4,936.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,E-CTV-13,,,,inStock,"50"" Neo QLED 4K QN90D",Neo QLED 4K QN90D,N,QA50QN90DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.QA50QN90DAJXZK,QA50QN90DAJXZK,"9,980","7,902",cptqaer+3@gmail.com,!Cheil2024,"7,902",No,400,0,,,,,,,,,,,Add to Cart,"7,752.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E-CTV-14,,,,inStock,"55"" Lifestyle Frame LS03D",The Frame LS03D,N,QA55LS03DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.QA55LS03DAJXZK,QA55LS03DAJXZK,"13,980","10,542",cptqaer+3@gmail.com,!Cheil2024,"10,542",No,500,0,,,,,,,,,,,Add to Cart,"10,392.00",,Z-VG-SCFA55WTBRU,,,,,,ZG-FRAMESLIMFITINSTALL,,,,"Z-VG-SCFA55WTBRU,ZG-FRAMESLIMFITINSTALL",2,"
+,E-CTV-14,,,,inStock,"55"" Lifestyle Frame LS03D",The Frame LS03D,N,QA55LS03DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.QA55LS03DAJXZK,QA55LS03DAJXZK,"13,980","10,542",cptqaer+3@gmail.com,!Cheil2024,"10,542",No,500,0,,,,,,,,,,,Add to Cart,"10,392.00",,Z-VG-SCFA55WTBRU,,,,,,ZG-FRAMESLIMFITINSTALL,,,,"Z-VG-SCFA55WTBRU,ZG-FRAMESLIMFITINSTALL",2,"
 ●  1 x  55"" The Frame Modern type White Bezel [Z-VG-SCFA55WTBRU]
 ●  1 x  Slim Fit Wall Mount with free installion included with The Frame TV [ZG-FRAMESLIMFITINSTALL]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
@@ -61,16 +61,16 @@ Auto,E-CTV-14,,,,inStock,"55"" Lifestyle Frame LS03D",The Frame LS03D,N,QA55LS03
 ●  1 x  S-Series HW-S700D Soundbar [Z-HW-S700D/ZK]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E-CTV-21,,,,inStock,"55"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA55QN95DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.QA55QN95DAJXZK,QA55QN95DAJXZK,"19,980","17,582",cptqaer+3@gmail.com,!Cheil2024,"17,582",No,900,0,,,,,,,,,,,Add to Cart,"17,432.00",,Z-HW-Q700D/ZK,,,,,,ZG-FREE1YRWAREXT,,,,"Z-HW-Q700D/ZK,ZG-FREE1YRWAREXT",2,"
+,E-CTV-21,,,,inStock,"55"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA55QN95DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.QA55QN95DAJXZK,QA55QN95DAJXZK,"19,980","17,582",cptqaer+3@gmail.com,!Cheil2024,"17,582",No,900,0,,,,,,,,,,,Add to Cart,"17,432.00",,Z-HW-Q700D/ZK,,,,,,ZG-FREE1YRWAREXT,,,,"Z-HW-Q700D/ZK,ZG-FREE1YRWAREXT",2,"
 ●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E-CTV-22,,,,inStock,"55"" OLED S90DA",OLED 4K S90D,N,QA55S90DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.QA55S90DAJXZK,QA55S90DAJXZK,"15,980","12,918",cptqaer+3@gmail.com,!Cheil2024,"12,918",No,650,0,,,,,,,,,,,Add to Cart,"12,768.00",,,,,,,,,,,,,0,"
+,E-CTV-22,,,,inStock,"55"" OLED S90DA",OLED 4K S90D,N,QA55S90DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.QA55S90DAJXZK,QA55S90DAJXZK,"15,980","12,918",cptqaer+3@gmail.com,!Cheil2024,"12,918",No,650,0,,,,,,,,,,,Add to Cart,"12,768.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,E-CTV-23,,,,inStock,"55"" OLED S95D",OLED 4K S95D,N,QA55S95DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.QA55S95DAJXZK,QA55S95DAJXZK,"18,980","16,702",cptqaer+3@gmail.com,!Cheil2024,"16,702",No,850,0,,,,,,,,,,,Add to Cart,"16,552.00",,Z-HW-Q700D/ZK,,,,,,,,,,Z-HW-Q700D/ZK,1,"
 ●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E-CTV-24,,,,inStock,"65"" Lifestyle Frame LS03D",The Frame LS03D,N,QA65LS03DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.QA65LS03DAJXZK,QA65LS03DAJXZK,"19,980","16,702",cptqaer+3@gmail.com,!Cheil2024,"16,702",No,900,0,,,,,,,,,,,Add to Cart,"16,552.00",,Z-VG-SCFA65BWBRU-C,,,,,,ZG-FRAMESLIMFITINSTALL,,,,"Z-VG-SCFA65BWBRU-C,ZG-FRAMESLIMFITINSTALL",2,"
+,E-CTV-24,,,,inStock,"65"" Lifestyle Frame LS03D",The Frame LS03D,N,QA65LS03DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.QA65LS03DAJXZK,QA65LS03DAJXZK,"19,980","16,702",cptqaer+3@gmail.com,!Cheil2024,"16,702",No,900,0,,,,,,,,,,,Add to Cart,"16,552.00",,Z-VG-SCFA65BWBRU-C,,,,,,ZG-FRAMESLIMFITINSTALL,,,,"Z-VG-SCFA65BWBRU-C,ZG-FRAMESLIMFITINSTALL",2,"
 ●  1 x  65"" The Frame Modern type Brown Bezel [Z-VG-SCFA65BWBRU-C]
 ●  1 x  Slim Fit Wall Mount with free installion included with The Frame TV [ZG-FRAMESLIMFITINSTALL]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
@@ -98,7 +98,7 @@ Auto,E-CTV-24,,,,inStock,"65"" Lifestyle Frame LS03D",The Frame LS03D,N,QA65LS03
 3.  District=Shatin","Verify dispatch date 
 = tomorrow's date (current time <2pm)
 = day after tomorrow (current time >=2pm)",,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E-CTV-30,,,,OOS (Blocked),"65"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA65QN95DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.QA65QN95DAJXZK,QA65QN95DAJXZK,"25,480","20,222",cptqaer+3@gmail.com,!Cheil2024,"20,222",No,"1,000",0,,,,,,,,,,,Add to Cart,"20,072.00",,Z-WMN-B16FB/XY,Z-SM-X510NLGATGY-C,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-X510NLGATGY-C,ZG-FREE1YRWAREXT",3,"
+,E-CTV-30,,,,OOS (Blocked),"65"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA65QN95DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.QA65QN95DAJXZK,QA65QN95DAJXZK,"25,480","20,222",cptqaer+3@gmail.com,!Cheil2024,"20,222",No,"1,000",0,,,,,,,,,,,Add to Cart,"20,072.00",,Z-WMN-B16FB/XY,Z-SM-X510NLGATGY-C,,,,,ZG-FREE1YRWAREXT,,,,"Z-WMN-B16FB/XY,Z-SM-X510NLGATGY-C,ZG-FREE1YRWAREXT",3,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Galaxy Tab S9 FE Wi-Fi (Mint) [Z-SM-X510NLGATGY-C]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
@@ -117,7 +117,7 @@ Auto,E-CTV-30,,,,OOS (Blocked),"65"" Neo QLED 4K QN95D",Neo QLED 4K QN95D,N,QA65
 3.  District=Macau Peninsula","Verify dispatch date 
 = today + 3 days (current time <2pm)
 = today + 4 days (current time >=2pm)",,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E-CTV-33,,,,OOS (Blocked),"75"" Lifestyle Frame LS03D",The Frame LS03D,N,QA75LS03DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.QA75LS03DAJXZK,QA75LS03DAJXZK,"39,980","35,182",cptqaer+3@gmail.com,!Cheil2024,"35,182",No,"1,800",0,,,,,,,,,,,Add to Cart,"35,032.00",,Z-VG-SCFA75BWBRU-C,Z-HW-LS60D/ZK-C,,,,,ZG-FRAMESLIMFITINSTALL,,,,"Z-VG-SCFA75BWBRU-C,Z-HW-LS60D/ZK-C,ZG-FRAMESLIMFITINSTALL",3,"
+,E-CTV-33,,,,OOS (Blocked),"75"" Lifestyle Frame LS03D",The Frame LS03D,N,QA75LS03DAJXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.QA75LS03DAJXZK,QA75LS03DAJXZK,"39,980","35,182",cptqaer+3@gmail.com,!Cheil2024,"35,182",No,"1,800",0,,,,,,,,,,,Add to Cart,"35,032.00",,Z-VG-SCFA75BWBRU-C,Z-HW-LS60D/ZK-C,,,,,ZG-FRAMESLIMFITINSTALL,,,,"Z-VG-SCFA75BWBRU-C,Z-HW-LS60D/ZK-C,ZG-FRAMESLIMFITINSTALL",3,"
 ●  1 x  75"" The Frame Modern type Brown Bezel [Z-VG-SCFA75BWBRU-C]
 ●  1 x  Music Frame HW-LS60D [Z-HW-LS60D/ZK-C]
 ●  1 x  Slim Fit Wall Mount with free installion included with The Frame TV [ZG-FRAMESLIMFITINSTALL]
@@ -197,7 +197,7 @@ Auto,E-CTV-33,,,,OOS (Blocked),"75"" Lifestyle Frame LS03D",The Frame LS03D,N,QA
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,E-PRO,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E-PRO-01,,,,inStock,The Freestyle 2nd Gen,The Freestyle 2nd Gen.,N,SP-LFF3CLAXXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.SP-LFF3CLAXXZK,SP-LFF3CLAXXZK,"6,980","4,382",cptqaer+3@gmail.com,!Cheil2024,"4,382",No,0,0,,,,,,,,,,,Add to Cart,"4,232.00",,Z-VG-FBB3BA,Z-VG-SCLA00G,,,,,,,,,"Z-VG-FBB3BA,Z-VG-SCLA00G",2,"
+,E-PRO-01,,,,inStock,The Freestyle 2nd Gen,The Freestyle 2nd Gen.,N,SP-LFF3CLAXXZK,https://www.samsung.com/hk/multistore/samsunghkem/buy.SP-LFF3CLAXXZK,SP-LFF3CLAXXZK,"6,980","4,382",cptqaer+3@gmail.com,!Cheil2024,"4,382",No,0,0,,,,,,,,,,,Add to Cart,"4,232.00",,Z-VG-FBB3BA,Z-VG-SCLA00G,,,,,,,,,"Z-VG-FBB3BA,Z-VG-SCLA00G",2,"
 ●  1 x  Freestyle Battery Base [Z-VG-FBB3BA]
 ●  1 x  Freestyle Waterproof Case [Z-VG-SCLA00G]
 ",,,,,End of Test,Guest or Login,"●  Home delivery
@@ -321,80 +321,65 @@ Auto,E-PRO-01,,,,inStock,The Freestyle 2nd Gen,The Freestyle 2nd Gen.,N,SP-LFF3C
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,E-REF,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-REF-01,,,,inStock,RT22M4032S8/SH 2 door Refrigerator 234L Elegant Inox,,N,RT22M4032S8/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RT22M4032S8SH,RT22M4032S8/SH,"3,690","2,601",cptqaer+3@gmail.com,!Cheil2024,2601,No,0,0,,,,,,,,,,,Add to Cart,"2,601.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
-●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
+Auto,E-REF-01,,,,inStock,RT22M4032S8/SH 2 door Refrigerator 234L Elegant Inox,,N,RT22M4032S8/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RT22M4032S8SH,RT22M4032S8/SH,"3,690","2,601",cptqaer+3@gmail.com,!Cheil2024,2601,No,0,0,,,,,,,,,,,Add to Cart,"2,601.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-REF-02,,,,inStock,RT22M4033S9/SH 2 door Refrigerator 234L Refined Inox,,N,RT22M4033S9/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RT22M4033S9SH,RT22M4033S9/SH,"3,840","2,691",cptqaer+3@gmail.com,!Cheil2024,"2,691",No,0,0,,,,,,,,,,,Add to Cart,"2,691.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
-●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
+Auto,E-REF-02,,,,inStock,RT22M4033S9/SH 2 door Refrigerator 234L Refined Inox,,N,RT22M4033S9/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RT22M4033S9SH,RT22M4033S9/SH,"3,840","2,691",cptqaer+3@gmail.com,!Cheil2024,"2,691",No,0,0,,,,,,,,,,,Add to Cart,"2,691.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,E-REF-03,,,,inStock,RT25M4013S8/SH 2 door Refrigerator 255L Elegant Inox,,N,RT25M4013S8/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RT25M4013S8SH,RT25M4013S8/SH,"4,040","2,781",cptqaer+3@gmail.com,!Cheil2024,"2,781",No,0,0,,,,,,,,,,,Add to Cart,"2,781.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-REF-04,,,,inStock,RT25M4032S8/SH 2 door Refrigerator 255L Elegant Inox,,N,RT25M4032S8/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RT25M4032S8SH,RT25M4032S8/SH,"4,040","2,781",cptqaer+3@gmail.com,!Cheil2024,"2,781",No,0,0,,,,,,,,,,,Add to Cart,"2,781.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
-●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
+Auto,E-REF-04,,,,inStock,RT25M4032S8/SH 2 door Refrigerator 255L Elegant Inox,,N,RT25M4032S8/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RT25M4032S8SH,RT25M4032S8/SH,"4,040","2,781",cptqaer+3@gmail.com,!Cheil2024,"2,781",No,0,0,,,,,,,,,,,Add to Cart,"2,781.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-REF-05,,,,inStock,RT31CG5420S9 SpaceMax™ 2 door Refrigerator 301L,,N,RT31CG5420S9SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RT31CG5420S9SH,RT31CG5420S9SH,"4,390","3,411",cptqaer+3@gmail.com,!Cheil2024,"3,411",No,50,0,,,,,,,,,,,Add to Cart,"3,261.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
-●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
+Auto,E-REF-05,,,,inStock,RT31CG5420S9 SpaceMax™ 2 door Refrigerator 301L,,N,RT31CG5420S9SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RT31CG5420S9SH,RT31CG5420S9SH,"4,390","3,411",cptqaer+3@gmail.com,!Cheil2024,"3,411",No,50,0,,,,,,,,,,,Add to Cart,"3,261.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-REF-06,,,,inStock,RB27N4050B1/SH 2 door refrigerator 257L Black Nickel,,N,RB27N4050B1/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB27N4050B1SH,RB27N4050B1/SH,"4,990","3,591",cptqaer+3@gmail.com,!Cheil2024,"3,591",No,50,0,,,,,,,,,,,Add to Cart,"3,441.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
-●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
+Auto,E-REF-06,,,,inStock,RB27N4050B1/SH 2 door refrigerator 257L Black Nickel,,N,RB27N4050B1/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB27N4050B1SH,RB27N4050B1/SH,"4,990","3,591",cptqaer+3@gmail.com,!Cheil2024,"3,591",No,50,0,,,,,,,,,,,Add to Cart,"3,441.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-REF-07,,,,inStock,RB27N4050S8/SH 2 door refrigerator 257L Sliver,,N,RB27N4050S8/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB27N4050S8SH,RB27N4050S8/SH,"4,890","3,501",cptqaer+3@gmail.com,!Cheil2024,"3,501",No,50,0,,,,,,,,,,,Add to Cart,"3,351.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
-●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
+Auto,E-REF-07,,,,inStock,RB27N4050S8/SH 2 door refrigerator 257L Sliver,,N,RB27N4050S8/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB27N4050S8SH,RB27N4050S8/SH,"4,890","3,501",cptqaer+3@gmail.com,!Cheil2024,"3,501",No,50,0,,,,,,,,,,,Add to Cart,"3,351.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-REF-08,,,,inStock,RB29FERNCS9 2 door Refrigerator 286L Sliver,,N,RB29FERNCS9/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB29FERNCS9SH,RB29FERNCS9/SH,"5,240","3,771",cptqaer+3@gmail.com,!Cheil2024,"3,771",No,50,0,,,,,,,,,,,Add to Cart,"3,621.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
-●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
+Auto,E-REF-08,,,,inStock,RB29FERNCS9 2 door Refrigerator 286L Sliver,,N,RB29FERNCS9/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB29FERNCS9SH,RB29FERNCS9/SH,"5,240","3,771",cptqaer+3@gmail.com,!Cheil2024,"3,771",No,50,0,,,,,,,,,,,Add to Cart,"3,621.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-REF-09,,,,inStock,RB30N4050B1/SH 2 door refrigerator 290L Black Nickel,,N,RB30N4050B1/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB30N4050B1SH,RB30N4050B1/SH,"4,790","3,681",cptqaer+3@gmail.com,!Cheil2024,"3,681",No,50,0,,,,,,,,,,,Add to Cart,"3,531.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
-●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
+Auto,E-REF-09,,,,inStock,RB30N4050B1/SH 2 door refrigerator 290L Black Nickel,,N,RB30N4050B1/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB30N4050B1SH,RB30N4050B1/SH,"4,790","3,681",cptqaer+3@gmail.com,!Cheil2024,"3,681",No,50,0,,,,,,,,,,,Add to Cart,"3,531.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-REF-10,,,,inStock,RB30N4050S8/SH 2 door Refrigerator 290L Sliver,,N,RB30N4050S8/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB30N4050S8SH,RB30N4050S8/SH,"4,790","3,591",cptqaer+3@gmail.com,!Cheil2024,"3,591",No,50,0,,,,,,,,,,,Add to Cart,"3,441.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
-●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
+Auto,E-REF-10,,,,inStock,RB30N4050S8/SH 2 door Refrigerator 290L Sliver,,N,RB30N4050S8/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB30N4050S8SH,RB30N4050S8/SH,"4,790","3,591",cptqaer+3@gmail.com,!Cheil2024,"3,591",No,50,0,,,,,,,,,,,Add to Cart,"3,441.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-REF-11,,,,inStock,RB30N4180B1/SH 2 door Refrigerator 284L Black Nickel,,N,RB30N4180B1/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB30N4180B1SH,RB30N4180B1/SH,"5,480","4,041",cptqaer+3@gmail.com,!Cheil2024,"4,041",No,0,0,,,,,,,,,,,Add to Cart,"3,891.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
-●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
+Auto,E-REF-11,,,,inStock,RB30N4180B1/SH 2 door Refrigerator 284L Black Nickel,,N,RB30N4180B1/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB30N4180B1SH,RB30N4180B1/SH,"5,480","4,041",cptqaer+3@gmail.com,!Cheil2024,"4,041",No,0,0,,,,,,,,,,,Add to Cart,"3,891.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-REF-12,,,,inStock,RB33J3200S9 2 Door Refrigerator 328L,,N,RB33J3200S9/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB33J3200S9SH,RB33J3200S9/SH,"5,580","4,041",cptqaer+3@gmail.com,!Cheil2024,"4,041",No,0,0,,,,,,,,,,,Add to Cart,"3,891.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
-●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
+Auto,E-REF-12,,,,inStock,RB33J3200S9 2 Door Refrigerator 328L,,N,RB33J3200S9/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB33J3200S9SH,RB33J3200S9/SH,"5,580","4,041",cptqaer+3@gmail.com,!Cheil2024,"4,041",No,0,0,,,,,,,,,,,Add to Cart,"3,891.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-REF-13,,,,inStock,RB33J3200SA 2 door Refrigerator 328L Metal Graphite,,N,RB33J3200SA/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB33J3200SASH,RB33J3200SA/SH,"5,580","4,041",cptqaer+3@gmail.com,!Cheil2024,"4,041",No,150,0,,,,,,,,,,,Add to Cart,"3,891.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
-●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
+Auto,E-REF-13,,,,inStock,RB33J3200SA 2 door Refrigerator 328L Metal Graphite,,N,RB33J3200SA/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB33J3200SASH,RB33J3200SA/SH,"5,580","4,041",cptqaer+3@gmail.com,!Cheil2024,"4,041",No,150,0,,,,,,,,,,,Add to Cart,"3,891.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,E-REF-14,,,,Unavailable,RB33R8899SR/SH  SpaceMaxᵀᴹ  2 door Refrigerator 328L Sliver,,N,RB33R8899SR/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB33R8899SRSH,RB33R8899SR/SH,0,"10,071",cptqaer+3@gmail.com,!Cheil2024,0,No,0,0,,,,,,,,,,,Add to Cart,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-REF-15,,,,inStock,RF48A4000B4 Twin Cooling Plus™ Multi Door Refrigerator 468L,,N,RF48A4000B4/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RF48A4000B4SH,RF48A4000B4/SH,"9,880","8,091",cptqaer+3@gmail.com,!Cheil2024,"8,091",No,300,0,,,,,,,,,,,Add to Cart,"7,941.00",,Z-ITAC15-C,Z-ITFITEX42,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX42",2,"
+Auto,E-REF-15,,,,inStock,RF48A4000B4 Twin Cooling Plus™ Multi Door Refrigerator 468L,,N,RF48A4000B4/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RF48A4000B4SH,RF48A4000B4/SH,"9,880","8,091",cptqaer+3@gmail.com,!Cheil2024,"8,091",No,300,0,,,,,,,,,,,Add to Cart,"7,941.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
-●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+●  1 x  ITFIT Rechargeable Electric Toothbrush [Z-ITFITEX37]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-REF-16,,,,inStock,RS62R5007M9 Side By Side Refrigerators 647L,,N,RS62R5007M9/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RS62R5007M9SH,RS62R5007M9/SH,"12,990","9,891",cptqaer+3@gmail.com,!Cheil2024,"9,891",No,400,0,,,,,,,,,,,Add to Cart,"9,741.00",,Z-ITAC15-C,Z-ITFITEX42,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX42",2,"
+Auto,E-REF-16,,,,inStock,RS62R5007M9 Side By Side Refrigerators 647L,,N,RS62R5007M9/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RS62R5007M9SH,RS62R5007M9/SH,"12,990","9,891",cptqaer+3@gmail.com,!Cheil2024,"9,891",No,400,0,,,,,,,,,,,Add to Cart,"9,741.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
-●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+●  1 x  ITFIT Rechargeable Electric Toothbrush [Z-ITFITEX37]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-REF-17,,,,inStock,RS63R5597B4/SH SpaceMax™ Side by Side Refrigerator 630L Black,,N,RS63R5597B4/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RS63R5597B4SH,RS63R5597B4/SH,"15,500","12,591",cptqaer+3@gmail.com,!Cheil2024,"12,591",No,400,0,,,,,,,,,,,Add to Cart,"12,441.00",,Z-VS20C852CTN/SH-C,,,,,,,,,,Z-VS20C852CTN/SH-C,1,"
+Auto,E-REF-17,,,,inStock,RS63R5597B4/SH SpaceMax™ Side by Side Refrigerator 630L Black,,N,RS63R5597B4/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RS63R5597B4SH,RS63R5597B4/SH,"15,500","12,591",cptqaer+3@gmail.com,!Cheil2024,"12,591",No,400,0,,,,,,,,,,,Add to Cart,"12,441.00",,Z-VS20C852CTN/SH-C,,,,,,,,,,Z-VS20C852CTN/SH-C,1,"
 ●  1 x  VS20C852CTNSH Jet85 Stick VC Woody Green [Z-VS20C852CTN/SH-C]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-REF-18,,,,inStock,RS64R5337B4/SH Side by Side Refrigerator 617L,,N,RS64R5337B4/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RS64R5337B4SH,RS64R5337B4/SH,"15,900","14,310",cptqaer+3@gmail.com,!Cheil2024,"14,310",No,500,0,,,,,,,,,,,Add to Cart,"14,160.00",,Z-VS20C852CTN/SH-C,,,,,,,,,,Z-VS20C852CTN/SH-C,1,"
+Auto,E-REF-18,,,,inStock,RS64R5337B4/SH Side by Side Refrigerator 617L,,N,RS64R5337B4/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RS64R5337B4SH,RS64R5337B4/SH,"15,900","14,310",cptqaer+3@gmail.com,!Cheil2024,"14,310",No,500,0,,,,,,,,,,,Add to Cart,"14,160.00",,Z-VS20C852CTN/SH-C,,,,,,,,,,Z-VS20C852CTN/SH-C,1,"
 ●  1 x  VS20C852CTNSH Jet85 Stick VC Woody Green [Z-VS20C852CTN/SH-C]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E-REF-19,,,,inStock,RB34C675EB1 BESPOKE AI SpaceMax™ Bottom Mount Freezer 340L (Black DOI),,N,RB34C675EB1/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB34C675EB1SH,RB34C675EB1/SH,"7,490","5,382",cptqaer+3@gmail.com,!Cheil2024,"5,382",No,200,0,,,,,,,,,,,Add to Cart,"5,232.00",,Z-ITAC12-C,Z-ITFITEX42,,,,,,,,,"Z-ITAC12-C,Z-ITFITEX42",2,"
+Auto,E-REF-19,,,,inStock,RB34C675EB1 BESPOKE AI SpaceMax™ Bottom Mount Freezer 340L (Black DOI),,N,RB34C675EB1/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB34C675EB1SH,RB34C675EB1/SH,"7,490","5,382",cptqaer+3@gmail.com,!Cheil2024,"5,382",No,200,0,,,,,,,,,,,Add to Cart,"5,232.00",,Z-ITAC12-C,,,,,,,,,,Z-ITAC12-C,1,"
 ●  1 x  CE GIFT - BESPOKE Blanket [Z-ITAC12-C]
-●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E-REF-20,,,,inStock,RB34C675ES9 BESPOKE AI SpaceMax™ Bottom Mount Freezer 340L (Refined Inox),,N,RB34C675ES9/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB34C675ES9SH,RB34C675ES9/SH,"7,290","5,202",cptqaer+3@gmail.com,!Cheil2024,"5,202",No,200,0,,,,,,,,,,,Add to Cart,"5,052.00",,Z-ITAC12-C,Z-ITFITEX42,,,,,,,,,"Z-ITAC12-C,Z-ITFITEX42",2,"
+Auto,E-REF-20,,,,inStock,RB34C675ES9 BESPOKE AI SpaceMax™ Bottom Mount Freezer 340L (Refined Inox),,N,RB34C675ES9/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.RB34C675ES9SH,RB34C675ES9/SH,"7,290","5,202",cptqaer+3@gmail.com,!Cheil2024,"5,202",No,200,0,,,,,,,,,,,Add to Cart,"5,052.00",,Z-ITAC12-C,,,,,,,,,,Z-ITAC12-C,1,"
 ●  1 x  CE GIFT - BESPOKE Blanket [Z-ITAC12-C]
-●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-REF-21,,,,OOS (Blocked),BESPOKE AI Stylish Bottom Mount Freezer 340L (Clean White),,N,F-RB34C7B4WW-AI,https://www.samsung.com/hk/multistore/samsunghkem/buy.F-RB34C7B4WW-AI,F-RB34C7B4WW-AI,"12,950","9,342",cptqaer+3@gmail.com,!Cheil2024,"9,342",No,0,0,,,,,,,,,,,Add to Cart,"9,192.00",,RB34C7B4EAP/SH,RA-B23EUU12GM,RA-B23EBB12GM,Z-ITAC15-C,Z-ITAC12-C,Z-ITFITEX42,,,,,"RB34C7B4EAP/SH,RA-B23EUU12GM,RA-B23EBB12GM,Z-ITAC15-C,Z-ITAC12-C,Z-ITFITEX42",6,"
+,E-REF-21,,,,OOS (Blocked),BESPOKE AI Stylish Bottom Mount Freezer 340L (Clean White),,N,F-RB34C7B4WW-AI,https://www.samsung.com/hk/multistore/samsunghkem/buy.F-RB34C7B4WW-AI,F-RB34C7B4WW-AI,"12,950","9,342",cptqaer+3@gmail.com,!Cheil2024,"9,342",No,0,0,,,,,,,,,,,Add to Cart,"9,192.00",,RB34C7B4EAP/SH,RA-B23EUU12GM,RA-B23EBB12GM,Z-VS20C852CTN/SH-C,,,,,,,"RB34C7B4EAP/SH,RA-B23EUU12GM,RA-B23EBB12GM,Z-VS20C852CTN/SH-C",4,"
 ●  1 x  BESPOKE AI Stylish Bottom Mount Freezer 340L [RB34C7B4EAP/SH]
 ●  1 x  BESPOKE Top Glass Panel (Clean White) [RA-B23EUU12GM]
 ●  1 x  BESPOKE Bottom Glass Panel (Clean White) [RA-B23EBB12GM]
-●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
-●  1 x  CE GIFT - BESPOKE Blanket [Z-ITAC12-C]
-●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+●  1 x  VS20C852CTNSH Jet85 Stick VC Woody Green [Z-VS20C852CTN/SH-C]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,E-WASH,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-FAB-01,,,,inStock,BESPOKE AirDresser with Dual AirWash and Dual JetSteam Cloth Dryer,,N,DF18CB8700CLSH,https://www.samsung.com/hk/multistore/samsunghkem/buy.DF18CB8700CLSH,DF18CB8700CLSH,"10,790","9,711",cptqaer+3@gmail.com,!Cheil2024,"9,711",No,,0,,,,,,,,,,,Add to Cart,"9,561.00",,Z-ITFITEX42,,,,,,,,,,Z-ITFITEX42,1,"
-●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+Auto,E-FAB-01,,,,inStock,BESPOKE AirDresser with Dual AirWash and Dual JetSteam Cloth Dryer,,N,DF18CB8700CLSH,https://www.samsung.com/hk/multistore/samsunghkem/buy.DF18CB8700CLSH,DF18CB8700CLSH,"10,790","9,711",cptqaer+3@gmail.com,!Cheil2024,"9,711",No,,0,,,,,,,,,,,Add to Cart,"9,561.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
+●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
+●  1 x  ITFIT Rechargeable Electric Toothbrush [Z-ITFITEX37]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,E-WM-01,,,,inStock,WA70M4000<br>Top Loader Without Drain Pump 7kg White,,N,WA70M4000SW/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WA70M4000SWSH,WA70M4000SW/SH,"3,090","2,061",cptqaer+3@gmail.com,!Cheil2024,"2,061",No,0,0,,,,,,,,,,,Add to Cart,"2,061.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
@@ -405,99 +390,94 @@ Auto,E-REF-20,,,,inStock,RB34C675ES9 BESPOKE AI SpaceMax™ Bottom Mount Freezer
 ,E-WM-03,,,,inStock,WA70M4400 Top Loader With Drain Pump 7kg Inox ,,N,WA70M4400SS/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WA70M4400SSSH,WA70M4400SS/SH,"3,390","2,331",cptqaer+3@gmail.com,!Cheil2024,"2,331",No,0,0,,,,,,,,,,,Add to Cart,"2,331.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-04,,,,inStock,WA80CG4545BDSH Ecobubble™ Top Loader without Drain Pump 8kg Versailles Gary,,N,WA80CG4545BDSH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WA80CG4545BDSH,WA80CG4545BDSH,"3,590","2,511",cptqaer+3@gmail.com,!Cheil2024,"2,511",No,50,0,,,,,,,,,,,Add to Cart,"2,511.00",,Z-ITFITAC05NY,,,,,,,,,,Z-ITFITAC05NY,1,"
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
+Auto,E-WM-04,,,,inStock,WA80CG4545BDSH Ecobubble™ Top Loader without Drain Pump 8kg Versailles Gary,,N,WA80CG4545BDSH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WA80CG4545BDSH,WA80CG4545BDSH,"3,590","2,511",cptqaer+3@gmail.com,!Cheil2024,"2,511",No,50,0,,,,,,,,,,,Add to Cart,"2,511.00",,Z-ITFITAC05BK,,,,,,,,,,Z-ITFITAC05BK,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket (Black) [Z-ITFITAC05BK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-05,,,,inStock,WA80C14545BVSH Ecobubble™ Top Loader with Drain Pump 8kg Black Caviar,,N,WA80C14545BVSH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WA80C14545BVSH,WA80C14545BVSH,"3,990","2,511",cptqaer+3@gmail.com,!Cheil2024,"2,511",No,50,0,,,,,,,,,,,Add to Cart,"2,511.00",,Z-ITFITAC05NY,,,,,,,,,,Z-ITFITAC05NY,1,"
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
+Auto,E-WM-05,,,,inStock,WA80C14545BVSH Ecobubble™ Top Loader with Drain Pump 8kg Black Caviar,,N,WA80C14545BVSH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WA80C14545BVSH,WA80C14545BVSH,"3,990","2,511",cptqaer+3@gmail.com,!Cheil2024,"2,511",No,50,0,,,,,,,,,,,Add to Cart,"2,511.00",,Z-ITFITAC05BK,,,,,,,,,,Z-ITFITAC05BK,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket (Black) [Z-ITFITAC05BK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-06,,,,inStock,WA10CG4545BDSH Ecobubble™ Top Loader without Drain Pump 10kg Versailles Gary,,N,WA10CG4545BDSH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WA10CG4545BDSH,WA10CG4545BDSH,"4,090","3,051",cptqaer+3@gmail.com,!Cheil2024,"3,051",No,50,0,,,,,,,,,,,Add to Cart,"2,901.00",,Z-ITFITAC05NY,,,,,,,,,,Z-ITFITAC05NY,1,"
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
+Auto,E-WM-06,,,,inStock,WA10CG4545BDSH Ecobubble™ Top Loader without Drain Pump 10kg Versailles Gary,,N,WA10CG4545BDSH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WA10CG4545BDSH,WA10CG4545BDSH,"4,090","3,051",cptqaer+3@gmail.com,!Cheil2024,"3,051",No,50,0,,,,,,,,,,,Add to Cart,"2,901.00",,Z-ITFITAC05BK,,,,,,,,,,Z-ITFITAC05BK,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket (Black) [Z-ITFITAC05BK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-07,,,,inStock,WA10C14545BVSH Ecobubble™ Top Loader with Drain Pump 10kg Black Caviar,,N,WA10C14545BVSH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WA10C14545BVSH,WA10C14545BVSH,"4,490","3,051",cptqaer+3@gmail.com,!Cheil2024,"3,051",No,50,0,,,,,,,,,,,Add to Cart,"2,901.00",,Z-ITFITAC05NY,,,,,,,,,,Z-ITFITAC05NY,1,"
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
+Auto,E-WM-07,,,,inStock,WA10C14545BVSH Ecobubble™ Top Loader with Drain Pump 10kg Black Caviar,,N,WA10C14545BVSH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WA10C14545BVSH,WA10C14545BVSH,"4,490","3,051",cptqaer+3@gmail.com,!Cheil2024,"3,051",No,50,0,,,,,,,,,,,Add to Cart,"2,901.00",,Z-ITFITAC05BK,,,,,,,,,,Z-ITFITAC05BK,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket (Black) [Z-ITFITAC05BK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-08,,,,OOS (Blocked),"WD10T754DBH AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 10.5/7kg, 1400rpm",,EOL,WD10T754DBH/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WD10T754DBHSH,WD10T754DBH/SH,"7,990","4,851",cptqaer+3@gmail.com,!Cheil2024,"4,851",No,150,0,,,,,,,,,,,Add to Cart,"4,701.00",,Z-ITAC15-C,Z-ITFITAC05NY,Z-ITFITEX42,,,,,,,,"Z-ITAC15-C,Z-ITFITAC05NY,Z-ITFITEX42",3,"
+,E-WM-08,,,,OOS (Blocked),"WD10T754DBH AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 10.5/7kg, 1400rpm",,EOL,WD10T754DBH/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WD10T754DBHSH,WD10T754DBH/SH,"7,990","4,851",cptqaer+3@gmail.com,!Cheil2024,"4,851",No,150,0,,,,,,,,,,,Add to Cart,"4,701.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
-●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+●  1 x  ITFIT Rechargeable Electric Toothbrush [Z-ITFITEX37]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-09,,,,inStock,"WD70TA046BE/SH Hygiene Steam Front Load Washer + Dryer Combo 7/5kg, 1400rpm",,N,WD70TA046BE/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WD70TA046BESH,WD70TA046BE/SH,"6,090","3,861",cptqaer+3@gmail.com,!Cheil2024,"3,861",No,0,0,,,,,,,,,,,Add to Cart,"3,711.00",,Z-ITFITAC05NY,,,,,,,,,,Z-ITFITAC05NY,1,"
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
+Auto,E-WM-09,,,,inStock,"WD70TA046BE/SH Hygiene Steam Front Load Washer + Dryer Combo 7/5kg, 1400rpm",,N,WD70TA046BE/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WD70TA046BESH,WD70TA046BE/SH,"6,090","3,861",cptqaer+3@gmail.com,!Cheil2024,"3,861",No,0,0,,,,,,,,,,,Add to Cart,"3,711.00",,Z-ITFITAC05BK,,,,,,,,,,Z-ITFITAC05BK,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket (Black) [Z-ITFITAC05BK]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-10,,,,inStock,"WD70T4046CH Hygiene Steam Front Load Washer + Dryer Combo 7/5kg, 1400rpm",,N,WD70T4046CH/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WD70T4046CHSH,WD70T4046CH/SH,"4,690","3,861",cptqaer+3@gmail.com,!Cheil2024,"3,861",No,100,0,,,,,,,,,,,Add to Cart,"3,711.00",,Z-ITFITAC05NY,,,,,,,,,,Z-ITFITAC05NY,1,"
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
+Auto,E-WM-10,,,,inStock,"WD70T4046CH Hygiene Steam Front Load Washer + Dryer Combo 7/5kg, 1400rpm",,N,WD70T4046CH/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WD70T4046CHSH,WD70T4046CH/SH,"4,690","3,861",cptqaer+3@gmail.com,!Cheil2024,"3,861",No,100,0,,,,,,,,,,,Add to Cart,"3,711.00",,Z-ITFITAC05BK,,,,,,,,,,Z-ITFITAC05BK,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket (Black) [Z-ITFITAC05BK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-11,,,,inStock,"WD80T654DBE AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 8/6kg, 1400rpm",,N,WD80T654DBE/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WD80T654DBESH,WD80T654DBE/SH,"7,590","4,491",cptqaer+3@gmail.com,!Cheil2024,"4,491",No,0,0,,,,,,,,,,,Add to Cart,"4,341.00",,Z-ITAC15-C,Z-ITFITAC05NY,Z-ITFITEX42,,,,,,,,"Z-ITAC15-C,Z-ITFITAC05NY,Z-ITFITEX42",3,"
+Auto,E-WM-11,,,,inStock,"WD80T654DBE AI Ecobubble™ AI Control Front Load Washing Machine + Dryer Combo 8/6kg, 1400rpm",,N,WD80T654DBE/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WD80T654DBESH,WD80T654DBE/SH,"7,590","4,491",cptqaer+3@gmail.com,!Cheil2024,"4,491",No,0,0,,,,,,,,,,,Add to Cart,"4,341.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
-●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+●  1 x  ITFIT Rechargeable Electric Toothbrush [Z-ITFITEX37]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-12,,,,inStock,"WD80TA546BH AddWash™ Front Load Washing Machine + Dryer Combo 8/6kg, 1400rpm",,N,WD80TA546BH/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WD80TA546BHSH,WD80TA546BH/SH,"5,790","4,491",cptqaer+3@gmail.com,!Cheil2024,"4,491",No,100,0,,,,,,,,,,,Add to Cart,"4,341.00",,Z-ITFITAC05NY,,,,,,,,,,Z-ITFITAC05NY,1,"
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
+Auto,E-WM-12,,,,inStock,"WD80TA546BH AddWash™ Front Load Washing Machine + Dryer Combo 8/6kg, 1400rpm",,N,WD80TA546BH/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WD80TA546BHSH,WD80TA546BH/SH,"5,790","4,491",cptqaer+3@gmail.com,!Cheil2024,"4,491",No,100,0,,,,,,,,,,,Add to Cart,"4,341.00",,Z-ITFITAC05BK,,,,,,,,,,Z-ITFITAC05BK,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket (Black) [Z-ITFITAC05BK]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-13,,,,inStock,"WW70T3020BW/SH Slim440 Digital Inverter Front Load Washing Machine 7kg, 1200rpm",,N,WW70T3020BW/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW70T3020BWSH,WW70T3020BW/SH,"4,890","3,051",cptqaer+3@gmail.com,!Cheil2024,"3,051",No,50,0,,,,,,,,,,,Add to Cart,"2,901.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
+Auto,E-WM-13,,,,inStock,"WW70T3020BW/SH Slim440 Digital Inverter Front Load Washing Machine 7kg, 1200rpm",,N,WW70T3020BW/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW70T3020BWSH,WW70T3020BW/SH,"4,890","3,051",cptqaer+3@gmail.com,!Cheil2024,"3,051",No,50,0,,,,,,,,,,,Add to Cart,"2,901.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-14,,,,inStock,"WW70T3020BS/SH Slim440 Digital Inverter Front Load Washing Machine 7kg, 1200rpm",,N,WW70T3020BS/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW70T3020BSSH,WW70T3020BS/SH,"5,090","3,141",cptqaer+3@gmail.com,!Cheil2024,"3,141",No,50,0,,,,,,,,,,,Add to Cart,"2,991.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
+Auto,E-WM-14,,,,inStock,"WW70T3020BS/SH Slim440 Digital Inverter Front Load Washing Machine 7kg, 1200rpm",,N,WW70T3020BS/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW70T3020BSSH,WW70T3020BS/SH,"5,090","3,141",cptqaer+3@gmail.com,!Cheil2024,"3,141",No,50,0,,,,,,,,,,,Add to Cart,"2,991.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-15,,,,inStock,"WW80T3040BW/SH Slim465 Digital Inverter Front Load Washing Machine 8kg, 1400rpm",,N,WW80T3040BW/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW80T3040BWSH,WW80T3040BW/SH,"5,190","3,411",cptqaer+3@gmail.com,!Cheil2024,"3,411",No,50,0,,,,,,,,,,,Add to Cart,"3,261.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
+Auto,E-WM-15,,,,inStock,"WW80T3040BW/SH Slim465 Digital Inverter Front Load Washing Machine 8kg, 1400rpm",,N,WW80T3040BW/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW80T3040BWSH,WW80T3040BW/SH,"5,190","3,411",cptqaer+3@gmail.com,!Cheil2024,"3,411",No,50,0,,,,,,,,,,,Add to Cart,"3,261.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-16,,,,inStock,"WW80T3040BS/SH Slim465 Digital Inverter Front Load Washing Machine 8kg, 1400rpm",,N,WW80T3040BS/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW80T3040BSSH,WW80T3040BS/SH,"5,390","3,501",cptqaer+3@gmail.com,!Cheil2024,"3,501",No,50,0,,,,,,,,,,,Add to Cart,"3,351.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
+Auto,E-WM-16,,,,inStock,"WW80T3040BS/SH Slim465 Digital Inverter Front Load Washing Machine 8kg, 1400rpm",,N,WW80T3040BS/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW80T3040BSSH,WW80T3040BS/SH,"5,390","3,501",cptqaer+3@gmail.com,!Cheil2024,"3,501",No,50,0,,,,,,,,,,,Add to Cart,"3,351.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-18,,,,Unavailable,"WW90T654DLE AI Ecobubble™ AI Control Front Load Washing Machine 9kg, 1400rpm",,EOL,WW90T654DLE/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW90T654DLESH,WW90T654DLE/SH,"5,190","3,951",cptqaer+3@gmail.com,!Cheil2024,"3,951",No,100,0,,,,,,,,,,,Add to Cart,"3,801.00",,Z-ITAC15-C,Z-ITFITAC05NY,Z-ITFITEX42,,,,,,,,"Z-ITAC15-C,Z-ITFITAC05NY,Z-ITFITEX42",3,"
+,E-WM-18,,,,Unavailable,"WW90T654DLE AI Ecobubble™ AI Control Front Load Washing Machine 9kg, 1400rpm",,EOL,WW90T654DLE/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW90T654DLESH,WW90T654DLE/SH,"5,190","3,951",cptqaer+3@gmail.com,!Cheil2024,"3,951",No,100,0,,,,,,,,,,,Add to Cart,"3,801.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
-●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+●  1 x  ITFIT Rechargeable Electric Toothbrush [Z-ITFITEX37]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-19,,,,inStock,"WW70AG5S21CESH Slim Ecobubble™ Front Load Washing Machine 7kg, 1200rpm",,N,WW70AG5S21CESH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW70AG5S21CESH,WW70AG5S21CESH,"5,090","3,231",cptqaer+3@gmail.com,!Cheil2024,"3,231",No,0,0,,,,,,,,,,,Add to Cart,"3,081.00",,Z-ITFITAC05NY,,,,,,,,,,Z-ITFITAC05NY,1,"
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
+Auto,E-WM-19,,,,inStock,"WW70AG5S21CESH Slim Ecobubble™ Front Load Washing Machine 7kg, 1200rpm",,N,WW70AG5S21CESH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW70AG5S21CESH,WW70AG5S21CESH,"5,090","3,231",cptqaer+3@gmail.com,!Cheil2024,"3,231",No,0,0,,,,,,,,,,,Add to Cart,"3,081.00",,Z-ITFITAC05BK,,,,,,,,,,Z-ITFITAC05BK,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket (Black) [Z-ITFITAC05BK]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-20,,,,inStock,"WW70AG5S21CXSH Slim Ecobubble™ Front Load Washing Machine 7kg, 1200rpm",,N,WW70AG5S21CXSH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW70AG5S21CXSH,WW70AG5S21CXSH,"5,190","3,321",cptqaer+3@gmail.com,!Cheil2024,"3,321",No,50,0,,,,,,,,,,,Add to Cart,"3,171.00",,Z-ITFITAC05NY,,,,,,,,,,Z-ITFITAC05NY,1,"
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
+Auto,E-WM-20,,,,inStock,"WW70AG5S21CXSH Slim Ecobubble™ Front Load Washing Machine 7kg, 1200rpm",,N,WW70AG5S21CXSH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW70AG5S21CXSH,WW70AG5S21CXSH,"5,190","3,321",cptqaer+3@gmail.com,!Cheil2024,"3,321",No,50,0,,,,,,,,,,,Add to Cart,"3,171.00",,Z-ITFITAC05BK,,,,,,,,,,Z-ITFITAC05BK,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket (Black) [Z-ITFITAC05BK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-21,,,,inStock,"WW80AG6L28BXSH Slim AI Ecobubble™ AI Control Front Load Washing Machine 8kg, 1200 rpm",,N,WW80AG6L28BXSH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW80AG6L28BXSH,WW80AG6L28BXSH,"5,790","3,951",cptqaer+3@gmail.com,!Cheil2024,"3,951",No,100,0,,,,,,,,,,,Add to Cart,"3,801.00",,Z-ITAC15-C,Z-ITFITAC05NY,Z-ITFITEX42,,,,,,,,"Z-ITAC15-C,Z-ITFITAC05NY,Z-ITFITEX42",3,"
+Auto,E-WM-21,,,,inStock,"WW80AG6L28BXSH Slim AI Ecobubble™ AI Control Front Load Washing Machine 8kg, 1200 rpm",,N,WW80AG6L28BXSH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW80AG6L28BXSH,WW80AG6L28BXSH,"5,790","3,951",cptqaer+3@gmail.com,!Cheil2024,"3,951",No,100,0,,,,,,,,,,,Add to Cart,"3,801.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
-●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+●  1 x  ITFIT Rechargeable Electric Toothbrush [Z-ITFITEX37]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-22,,,,inStock,"WW80AGAS21AESH Slim Ecobubble™ Front Load Washing Machine 8kg, 1200rpm",,N,WW80AGAS21AESH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW80AGAS21AESH,WW80AGAS21AESH,"5,590","3,591",cptqaer+3@gmail.com,!Cheil2024,"3,591",No,50,0,,,,,,,,,,,Add to Cart,"3,441.00",,Z-ITFITAC05NY,,,,,,,,,,Z-ITFITAC05NY,1,"
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
+Auto,E-WM-22,,,,inStock,"WW80AGAS21AESH Slim Ecobubble™ Front Load Washing Machine 8kg, 1200rpm",,N,WW80AGAS21AESH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW80AGAS21AESH,WW80AGAS21AESH,"5,590","3,591",cptqaer+3@gmail.com,!Cheil2024,"3,591",No,50,0,,,,,,,,,,,Add to Cart,"3,441.00",,Z-ITFITAC05BK,,,,,,,,,,Z-ITFITAC05BK,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket (Black) [Z-ITFITAC05BK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E-WM-23,,,,,"WW80AGAS21AXSH Slim Ecobubble™ Front Load Washing Machine 8kg, 1200rpm",,N,WW80AGAS21AXSH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW80AGAS21AXSH,WW80AGAS21AXSH,"5,290","3,681",cptqaer+3@gmail.com,!Cheil2024,"3,681",No,50,0,,,,,,,,,,,Add to Cart,"3,531.00",,Z-ITFITAC05NY,,,,,,,,,,Z-ITFITAC05NY,1,"
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
+Auto,E-WM-23,,,,,"WW80AGAS21AXSH Slim Ecobubble™ Front Load Washing Machine 8kg, 1200rpm",,N,WW80AGAS21AXSH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WW80AGAS21AXSH,WW80AGAS21AXSH,"5,290","3,681",cptqaer+3@gmail.com,!Cheil2024,"3,681",No,50,0,,,,,,,,,,,Add to Cart,"3,531.00",,Z-ITFITAC05BK,,,,,,,,,,Z-ITFITAC05BK,1,"
+●  1 x  ITFIT Multi-functional Laundry Basket (Black) [Z-ITFITAC05BK]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,E-WM-24,,,,,"WD12DBLB84GDSH AI Wash Front Load Washer + Dryer Combo 12/7kg, 1400rpm",,N,WD12DBLB84GDSH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WD12DBLB84GDSH,WD12DBLB84GDSH,"8,099","5,841",cptqaer+3@gmail.com,!Cheil2024,"5,841",No,0,0,,,,,,,,,,,Add to Cart,"5,691.00",,Z-ITAC15-C,Z-ITFITAC05NY,Z-ITAC12-C,Z-ITFITEX42,,,,,,,"Z-ITAC15-C,Z-ITFITAC05NY,Z-ITAC12-C,Z-ITFITEX42",4,"
+Auto,E-WM-24,,,,,"WD12DBLB84GDSH AI Wash Front Load Washer + Dryer Combo 12/7kg, 1400rpm",,N,WD12DBLB84GDSH,https://www.samsung.com/hk/multistore/samsunghkem/buy.WD12DBLB84GDSH,WD12DBLB84GDSH,"8,099","5,841",cptqaer+3@gmail.com,!Cheil2024,"5,841",No,0,0,,,,,,,,,,,Add to Cart,"5,691.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
-●  1 x  ITFIT Multi-functional Laundry Basket (Navy) [Z-ITFITAC05NY]
-●  1 x  CE GIFT - BESPOKE Blanket [Z-ITAC12-C]
-●  1 x  ITFIT Aroma Diffuser with Mood Light [Z-ITFITEX42]
+●  1 x  ITFIT Rechargeable Electric Toothbrush [Z-ITFITEX37]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,E-VC,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,E-VC-01,,,,,Samsung Jet 75 Battery VCA-SBT90,,N,VCA-SBT90,https://www.samsung.com/hk/multistore/samsunghkem/buy.VCA-SBT90,VCA-SBT90,0,"1,193",cptqaer+3@gmail.com,!Cheil2024,0,No,0,0,,,,,,,,,,,Add to Cart,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,E-VC-02,,,,,VS20B95993BSH Bespoke Jet Plus 210W  Midnight Blue,,N,VS20B95993B/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.VS20B95993BSH,VS20B95993B/SH,"8,990","6,291",cptqaer+3@gmail.com,!Cheil2024,"6,291",No,0,0,,,,,,,,,,,Add to Cart,"6,141.00",,Z-VCA-ADB952,,,,,,,,,,Z-VCA-ADB952,1,"
+Auto,E-VC-02,,,,,VS20B95993BSH Bespoke Jet Plus 210W  Midnight Blue,,N,VS20B95993B/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.VS20B95993BSH,VS20B95993B/SH,"8,990","6,291",cptqaer+3@gmail.com,!Cheil2024,"6,291",No,0,0,,,,,,,,,,,Add to Cart,"6,141.00",,Z-VCA-ADB952,,,,,,,,,,Z-VCA-ADB952,1,"
 ●  1 x  BESPOKE Jet™ Clean Station Antibacterial Dust Bag (5ea) [Z-VCA-ADB952]
 ",,,,,End of Test,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,E-VC-03,,,,,VS20B958F3NSP Bespoke Jet Plus 210W Woody Green,,N,VS20B958F3N/SP,https://www.samsung.com/hk/multistore/samsunghkem/buy.VS20B958F3NSP,VS20B958F3N/SP,"6,990","5,031",cptqaer+3@gmail.com,!Cheil2024,"5,031",No,0,0,,,,,,,,,,,Add to Cart,"4,881.00",,Z-VCA-ADB952,Z-VCA-TABA95,Z-VCA-SAPA95/VEU,,,,,,,,"Z-VCA-ADB952,Z-VCA-TABA95,Z-VCA-SAPA95/VEU",3,"
+Auto,E-VC-03,,,,,VS20B958F3NSP Bespoke Jet Plus 210W Woody Green,,N,VS20B958F3N/SP,https://www.samsung.com/hk/multistore/samsunghkem/buy.VS20B958F3NSP,VS20B958F3N/SP,"6,990","5,031",cptqaer+3@gmail.com,!Cheil2024,"5,031",No,0,0,,,,,,,,,,,Add to Cart,"4,881.00",,Z-VCA-ADB952,Z-VCA-TABA95,Z-VCA-SAPA95/VEU,,,,,,,,"Z-VCA-ADB952,Z-VCA-TABA95,Z-VCA-SAPA95/VEU",3,"
 ●  1 x  BESPOKE Jet™ Clean Station Antibacterial Dust Bag (5ea) [Z-VCA-ADB952]
 ●  1 x  BESPOKE Jet Jet Dual Brush [Z-VCA-TABA95]
 ●  1 x  BESPOKE Jet™ Battery Pack (25.2V) [Z-VCA-SAPA95/VEU]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,E-VC-04,,,,,VS20B95843WSH Bespoke Jet Plus 210W Misty White,,N,VS20B95843W/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.VS20B95843WSH,VS20B95843W/SH,"6,990","5,031",cptqaer+3@gmail.com,!Cheil2024,"5,031",No,0,0,,,,,,,,,,,Add to Cart,"4,881.00",,Z-VCA-ADB952,Z-VCA-WBA95/GL,Z-VCA-SAPA95/VEU,,,,,,,,"Z-VCA-ADB952,Z-VCA-WBA95/GL,Z-VCA-SAPA95/VEU",3,"
+Auto,E-VC-04,,,,,VS20B95843WSH Bespoke Jet Plus 210W Misty White,,N,VS20B95843W/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.VS20B95843WSH,VS20B95843W/SH,"6,990","5,031",cptqaer+3@gmail.com,!Cheil2024,"5,031",No,0,0,,,,,,,,,,,Add to Cart,"4,881.00",,Z-VCA-ADB952,Z-VCA-WBA95/GL,Z-VCA-SAPA95/VEU,Z-VCA-MTB90A/VT,,,,,,,"Z-VCA-ADB952,Z-VCA-WBA95/GL,Z-VCA-SAPA95/VEU,Z-VCA-MTB90A/VT",4,"
 ●  1 x  BESPOKE Jet™ Clean Station Antibacterial Dust Bag (5ea) [Z-VCA-ADB952]
 ●  1 x  BESPOKE Jet™ Spray Spinning Sweeper™ [Z-VCA-WBA95/GL]
 ●  1 x  BESPOKE Jet™ Battery Pack (25.2V) [Z-VCA-SAPA95/VEU]
+●  1 x  JET 70 Mini Motorized Tool VCA-MTB90A [Z-VCA-MTB90A/VT]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,E-VC-05,,,,,VS20C852FTBSHJet85 Stick VC Midnight Blue,,N,VS20C852FTB/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.VS20C852FTBSH,VS20C852FTB/SH,"4,990","3,591",cptqaer+3@gmail.com,!Cheil2024,"3,591",No,0,0,,,,,,,,,,,Add to Cart,"3,441.00",,,,,,,,,,,,,0,"
+Auto,E-VC-05,,,,,VS20C852FTBSHJet85 Stick VC Midnight Blue,,N,VS20C852FTB/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.VS20C852FTBSH,VS20C852FTB/SH,"4,990","3,591",cptqaer+3@gmail.com,!Cheil2024,"3,591",No,0,0,,,,,,,,,,,Add to Cart,"3,441.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,E-VC-06,,,,,VS20C852CTNSH Jet85 Stick VC Woody Green1,,N,VS20C852CTN/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.VS20C852CTNSH,VS20C852CTN/SH,"4,590","3,141",cptqaer+3@gmail.com,!Cheil2024,"3,141",No,0,0,,,,,,,,,,,Add to Cart,"2,991.00",,,,,,,,,,,,,0,"
+Auto,E-VC-06,,,,,VS20C852CTNSH Jet85 Stick VC Woody Green1,,N,VS20C852CTN/SH,https://www.samsung.com/hk/multistore/samsunghkem/buy.VS20C852CTNSH,VS20C852CTN/SH,"4,590","3,141",cptqaer+3@gmail.com,!Cheil2024,"3,141",No,0,0,,,,,,,,,,,Add to Cart,"2,991.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,E-VC-07,,,,,Bespoke Jet™ AI premium extra 280 W Exceptionally Powerful Cleaning Performance Satin Black,,N,VS28C979FQK/SP,https://www.samsung.com/hk/multistore/samsunghkem/buy.VS28C979FQKSP,VS28C979FQK/SP,"9,990","7,191",cptqaer+3@gmail.com,!Cheil2024,7191,No,0,0,,,,,,,,,,,Add to Cart,"7,041.00",,Z-VCA-ADB952,Z-VCA-TABC97/GL,Z-VCA-SAK95K/GL,,,,,,,,"Z-VCA-ADB952,Z-VCA-TABC97/GL,Z-VCA-SAK95K/GL",3,"
+Auto,E-VC-07,,,,,Bespoke Jet™ AI premium extra 280 W Exceptionally Powerful Cleaning Performance Satin Black,,N,VS28C979FQK/SP,https://www.samsung.com/hk/multistore/samsunghkem/buy.VS28C979FQKSP,VS28C979FQK/SP,"9,990","7,191",cptqaer+3@gmail.com,!Cheil2024,7191,No,0,0,,,,,,,,,,,Add to Cart,"7,041.00",,Z-VCA-ADB952,Z-VCA-TABC97/GL,Z-VCA-SAK95K/GL,,,,,,,,"Z-VCA-ADB952,Z-VCA-TABC97/GL,Z-VCA-SAK95K/GL",3,"
 ●  1 x  BESPOKE Jet™ Clean Station Antibacterial Dust Bag (5ea) [Z-VCA-ADB952]
 ●  1 x  BESPOKE Jet™ AI Active Dual Brush [Z-VCA-TABC97/GL]
 ●  1 x  Jet™ Tool Kit [Z-VCA-SAK95K/GL]
