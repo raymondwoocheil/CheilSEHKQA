@@ -1,6 +1,6 @@
 {
   "Name": "UnitTest_AddTradeUpCart",
-  "CreationDate": "2025-1-1",
+  "CreationDate": "2025-4-7",
   "Commands": [
     {
       "Command": "store",
@@ -16,7 +16,7 @@
     },
     {
       "Command": "comment",
-      "Target": "store // HW-S800D/ZK",
+      "Target": "store // QA65QN900DJXZK",
       "Value": "SKU",
       "Description": ""
     },
@@ -28,7 +28,7 @@
     },
     {
       "Command": "verifyElementPresent",
-      "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//button[@data-an-la=\"add service:tradeup\"]",
+      "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//button[@data-an-la=\"add service:trade-up\"]",
       "Value": "",
       "Description": ""
     },
@@ -40,7 +40,7 @@
     },
     {
       "Command": "click",
-      "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//button[@data-an-la=\"add service:tradeup\"]",
+      "Target": "xpath=//div[contains(@class,\"cart-item\")][@data-modelcode=\"${SKU}\"]//button[@data-an-la=\"add service:trade-up\"]",
       "Value": "",
       "Description": ""
     },

@@ -1,8 +1,7 @@
 {
   "Name": "TestMaster",
-  "CreationDate": "2025-1-1",
-  "Commands":
-  [
+  "CreationDate": "2025-4-7",
+  "Commands": [
     {
       "Command": "store",
       "Target": "fast",
@@ -328,8 +327,14 @@
       "Description": ""
     },
     {
+      "Command": "comment",
+      "Target": "store // EP-T6530NBEGGB",
+      "Value": "GcSKU",
+      "Description": ""
+    },
+    {
       "Command": "store",
-      "Target": "EP-T6530NBEGGB",
+      "Target": "EI-T5600KWEGWW",
       "Value": "GcSKU",
       "Description": ""
     },
@@ -340,14 +345,26 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "478",
+      "Command": "comment",
+      "Target": "store // 478",
       "Value": "GcSKUPriceB2C",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "359",
+      "Target": "788",
+      "Value": "GcSKUPriceB2C",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // 359",
+      "Value": "GcSKUPriceEPP",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "591",
       "Value": "GcSKUPriceEPP",
       "Description": ""
     },
@@ -1727,7 +1744,7 @@
     },
     {
       "Command": "storeText",
-      "Target": "xpath=//*[@id=\"voucherBalance\"]",
+      "Target": "xpath=//*[@id=\"voucherBalance2\"]",
       "Value": "GalaxyCredit",
       "Description": ""
     },
@@ -1757,7 +1774,7 @@
     },
     {
       "Command": "click",
-      "Target": "xpath=//button[@an-la=\"evoucher:go to cart\"]",
+      "Target": "xpath=//*[@an-la=\"evoucher:go to cart\"]",
       "Value": "",
       "Description": ""
     },
