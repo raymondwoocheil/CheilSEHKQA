@@ -351,8 +351,8 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "788",
+      "Command": "executeScript",
+      "Target": "return Number('788')",
       "Value": "GcSKUPriceB2C",
       "Description": ""
     },
@@ -363,8 +363,8 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "591",
+      "Command": "executeScript",
+      "Target": "return Number('591')",
       "Value": "GcSKUPriceEPP",
       "Description": ""
     },
@@ -1119,9 +1119,57 @@
       "Description": ""
     },
     {
+      "Command": "if_v2",
+      "Target": "${TestSite}!=\"EPP\" && ${TestSite}!=\"SPP\" && ${GalaxyCreditStep}==\"Use GC\" && ${ExpectedGalaxyCredit} > ${GcSKUPriceB2C}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//button[@an-la=\"evoucher:below evoucher:continue\"]",
+      "Value": "2000",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
+      "Target": "${TestSite}==\"SPP\" && ${GalaxyCreditStep}==\"Use GC\" && ${ExpectedGalaxyCredit} > ${GcSKUPriceEPP}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//button[@an-la=\"evoucher:below evoucher:continue\"]",
+      "Value": "2000",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
+      "Target": "${TestSite}==\"EPP\" && ${GalaxyCreditStep}==\"Use GC\" && ${ExpectedGalaxyCredit} > ${GcSKUPriceEPP}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//button[@an-la=\"evoucher:below evoucher:continue\"]",
+      "Value": "2000",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "clickAndWait",
       "Target": "xpath=//button[@an-la=\"evoucher:over evoucher:continue\"]",
       "Value": "2000",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
       "Description": ""
     },
     {
@@ -1779,9 +1827,57 @@
       "Description": ""
     },
     {
+      "Command": "if_v2",
+      "Target": "${TestSite}!=\"EPP\" && ${TestSite}!=\"SPP\" && ${GalaxyCreditStep}==\"Use GC\" && ${ExpectedGalaxyCredit} > ${GcSKUPriceB2C}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//button[@an-la=\"evoucher:below evoucher:back\"]",
+      "Value": "2000",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
+      "Target": "${TestSite}==\"SPP\" && ${GalaxyCreditStep}==\"Use GC\" && ${ExpectedGalaxyCredit} > ${GcSKUPriceEPP}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//button[@an-la=\"evoucher:below evoucher:back\"]",
+      "Value": "2000",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
+      "Target": "${TestSite}==\"EPP\" && ${GalaxyCreditStep}==\"Use GC\" && ${ExpectedGalaxyCredit} > ${GcSKUPriceEPP}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//button[@an-la=\"evoucher:below evoucher:back\"]",
+      "Value": "2000",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "clickAndWait",
       "Target": "xpath=//button[@an-la=\"evoucher:over evoucher:continue\"]",
       "Value": "2000",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
       "Description": ""
     },
     {
