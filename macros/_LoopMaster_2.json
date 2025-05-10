@@ -1,6 +1,6 @@
 {
   "Name": "_LoopMaster_2",
-  "CreationDate": "2025-2-23",
+  "CreationDate": "2025-5-11",
   "Commands": [
     {
       "Command": "store",
@@ -22,7 +22,7 @@
     },
     {
       "Command": "store",
-      "Target": "6-250",
+      "Target": "6-255",
       "Value": "lineRange",
       "Description": ""
     },
@@ -70,6 +70,12 @@
     },
     {
       "Command": "comment",
+      "Target": "store // Bundle",
+      "Value": "TestCatOriginal",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
       "Target": "store // Checkout",
       "Value": "TestCatOriginal",
       "Description": ""
@@ -78,6 +84,36 @@
       "Command": "comment",
       "Target": "store // Golden",
       "Value": "TestCatOriginal",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "TestSite",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // SPP",
+      "Value": "TestSite",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // EPP",
+      "Value": "TestSite",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // EA",
+      "Value": "TestSite",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // Secret",
+      "Value": "TestSite",
       "Description": ""
     },
     {
@@ -108,36 +144,6 @@
       "Command": "end",
       "Target": "",
       "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "",
-      "Value": "TestSite",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "SPP",
-      "Value": "TestSite",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "store // EPP",
-      "Value": "TestSite",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "store // EA",
-      "Value": "TestSite",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "store // Secret",
-      "Value": "TestSite",
       "Description": ""
     },
     {
@@ -225,13 +231,13 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${lineRange}.split(\"-\")[0]);",
       "Value": "startingLineNumber",
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${lineRange}.split(\"-\")[1]);",
       "Value": "endingLineNumber",
       "Description": ""
@@ -243,9 +249,33 @@
       "Description": ""
     },
     {
+      "Command": "if",
+      "Target": "${TestCatOriginal}==\"Bundle\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "TestBundle",
+      "Value": "TestMacro",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "store",
       "Target": "TestMaster",
       "Value": "TestMacro",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
       "Description": ""
     },
     {
@@ -465,7 +495,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${!csvReadLineNumber})+1",
       "Value": "!csvReadLineNumber",
       "Description": ""

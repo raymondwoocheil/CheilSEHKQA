@@ -52,7 +52,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "${CheckoutTestFailedReason}&\"Cannot proceed to Payment Step, \"",
       "Value": "CheckoutTestFailedReason",
       "Description": ""
@@ -118,7 +118,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "${CheckoutTestFailedReason}&\"Cannot load Credit Card form, \"",
       "Value": "CheckoutTestFailedReason",
       "Description": ""
@@ -184,7 +184,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "${CheckoutTestFailedReason}&\"Cannot load Instalment form, \"",
       "Value": "CheckoutTestFailedReason",
       "Description": ""
@@ -250,7 +250,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "${CheckoutTestFailedReason}&\"Cannot load Alipay form, \"",
       "Value": "CheckoutTestFailedReason",
       "Description": ""

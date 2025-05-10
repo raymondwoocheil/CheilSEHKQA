@@ -28,13 +28,13 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return ${billingFieldsCount}-2",
       "Value": "cityFieldNum",
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return ${billingFieldsCount}-1",
       "Value": "districtFieldNum",
       "Description": ""

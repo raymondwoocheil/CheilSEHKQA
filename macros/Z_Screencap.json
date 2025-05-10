@@ -76,13 +76,13 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "var today = new Date();\nvar date = today.getFullYear() + \"-\" + (today.getMonth() + 1) + \"-\" + today.getDate()\nreturn date;",
       "Value": "DateToday",
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "var today = new Date();\nvar time = today.getFullYear() + \"-\" + (today.getMonth() + 1) + \"-\" + today.getDate() + \" \" + today.getHours() + \":\" + today.getMinutes() + \":\" + today.getSeconds();\nreturn time;",
       "Value": "DateTimeNow",
       "Description": ""
@@ -814,7 +814,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${EndTime}.replace(/[^0-9.-]+/g,\"\"))-Number(${StartTime}.replace(/[^0-9.-]+/g,\"\"));",
       "Value": "TestDuration",
       "Description": ""

@@ -472,7 +472,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${CartTotal}.replace(/[^0-9.-]+/g,\"\"));",
       "Value": "CartTotal",
       "Description": ""
@@ -496,7 +496,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${SKUPriceCart}.replace(/[^0-9.-]+/g,\"\")).toFixed(2);",
       "Value": "SKUPriceCart",
       "Description": ""
@@ -586,7 +586,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Math.round(Number(${GcSKUPriceCurrent}.replace(/[^0-9.-]+/g,\"\")));",
       "Value": "GcSKUPriceCurrent",
       "Description": ""
@@ -598,7 +598,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return ${GcSKUPriceEPP}*${GcSKUQty}",
       "Value": "GcSKUPriceOriginal",
       "Description": ""
@@ -610,7 +610,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return ${GcSKUPriceB2C}*${GcSKUQty}",
       "Value": "GcSKUPriceOriginal",
       "Description": ""
@@ -634,7 +634,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return ${GcSKUPriceOriginal}-${GcSKUPriceCurrent};",
       "Value": "GalaxyCreditCart",
       "Description": ""
@@ -772,13 +772,13 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return ${TradeInRebate}.split(\"HK$\")[2].trim();",
       "Value": "TradeInRebate",
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${TradeInRebate}.split(\".00 (額外Trade-in回贈)\")[0].trim().replace(/[^0-9.-]+/g,\"\"));",
       "Value": "TradeInRebate",
       "Description": ""
@@ -928,13 +928,13 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return ${TradeUpDiscount}.split(\"-HK$\")[1].trim();",
       "Value": "TradeUpDiscount",
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${TradeUpDiscount}.split(\".00\")[0].trim().replace(/[^0-9.-]+/g,\"\"));",
       "Value": "TradeUpDiscount",
       "Description": ""
@@ -1084,7 +1084,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(\"0\")",
       "Value": "SCPlusPrice",
       "Description": ""
@@ -1096,19 +1096,19 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return ${SCPlusPrice}.split(\"HK$\")[1].trim();",
       "Value": "SCPlusPrice",
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return ${SCPlusPrice}.split(\".00\")[0].trim();",
       "Value": "SCPlusPrice",
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${SCPlusPrice}.replace(/[^0-9.-]+/g,\"\"));",
       "Value": "SCPlusPrice",
       "Description": ""
@@ -1222,7 +1222,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return ${GalaxyCreditStep} == \"Use GC\" ? ${ItemCount}-2 : ${ItemCount}-1;",
       "Value": "PremiumCount",
       "Description": ""
@@ -1390,7 +1390,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return false",
       "Value": "VerifyThisSKU",
       "Description": ""
@@ -1474,7 +1474,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return ${GalaxyCreditStep} == \"Use GC\" ? 3*(9-${PremiumCount}) : 3*(10-${PremiumCount});",
       "Value": "EmptyPremiumCount",
       "Description": ""
@@ -1516,19 +1516,19 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "document.querySelector('app-sticky-cart-totals-v2 > div > div').style.display = \"none\"",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "document.querySelector('#spr-live-chat-app').style.display = \"none\"",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "document.querySelector('app-back-to-top').style.display = \"none\"",
       "Value": "",
       "Description": ""

@@ -160,7 +160,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Math.floor(41111222233333 + Math.random()*10000000000000)",
       "Value": "IMEI",
       "Description": ""

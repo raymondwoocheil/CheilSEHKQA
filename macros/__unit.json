@@ -100,7 +100,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return ${ShippingGroupCount}-1",
       "Value": "PremiumShippingGroupCount",
       "Description": ""
@@ -244,7 +244,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "${CheckoutTestFailedReason}&\"DM1 HK failed to get EDD, \"",
       "Value": "CheckoutTestFailedReason",
       "Description": ""

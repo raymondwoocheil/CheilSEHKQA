@@ -40,7 +40,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return (window.location.href)",
       "Value": "currentURL"
     },

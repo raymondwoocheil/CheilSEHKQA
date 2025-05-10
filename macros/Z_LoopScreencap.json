@@ -106,7 +106,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${!csvReadLineNumber})+1",
       "Value": "!csvReadLineNumber",
       "Description": ""

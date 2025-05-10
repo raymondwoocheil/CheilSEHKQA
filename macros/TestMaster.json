@@ -1,7 +1,8 @@
 {
   "Name": "TestMaster",
   "CreationDate": "2025-4-7",
-  "Commands": [
+  "Commands":
+  [
     {
       "Command": "store",
       "Target": "fast",
@@ -57,13 +58,13 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "var today = new Date();\nvar date = today.getFullYear() + \"-\" + (today.getMonth() + 1) + \"-\" + today.getDate()\nreturn date;",
       "Value": "DateToday",
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "var today = new Date();\nvar time = today.getFullYear() + \"-\" + (today.getMonth() + 1) + \"-\" + today.getDate() + \" \" + today.getHours() + \"-\" + today.getMinutes() + \"-\" + today.getSeconds();\nreturn time;",
       "Value": "DateTimeNow",
       "Description": ""
@@ -147,7 +148,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return ${SKU}.replace(/\\//g,\"\");",
       "Value": "SKUwithoutSlash",
       "Description": ""
@@ -165,13 +166,13 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return ${!COL18}.substring(0,3)",
       "Value": "TradeIn",
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${!COL20}.replace(/[^0-9.-]+/g,\"\")) || 0;",
       "Value": "ExpectedTradeInRebate",
       "Description": ""
@@ -189,7 +190,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${!COL20}.replace(/[^0-9.-]+/g,\"\")) || 0;",
       "Value": "ExpectedTradeUpDiscount",
       "Description": ""
@@ -207,7 +208,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${!COL23}.replace(/[^0-9.-]+/g,\"\")) || 0;",
       "Value": "ExpectedSCPlusPrice",
       "Description": ""
@@ -219,7 +220,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${!COL26}.replace(/[^0-9.-]+/g,\"\")) || 0;",
       "Value": "ExpectedGalaxyCredit",
       "Description": ""
@@ -243,13 +244,13 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${!COL17}.replace(/[^0-9.-]+/g,\"\")) || 0;",
       "Value": "ExpectedSKUPrice",
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${!COL32}.replace(/[^0-9.-]+/g,\"\")) || 0;",
       "Value": "ExpectedSKUPriceCart",
       "Description": ""
@@ -267,7 +268,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return ${ExpectedPremiumStrings}.split(',')",
       "Value": "ExpectedPremiumArray",
       "Description": ""
@@ -279,13 +280,13 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return 0",
       "Value": "ExpectedPremiumCount",
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return 0",
       "Value": "ExpectedPremiumQty",
       "Description": ""
@@ -297,7 +298,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return ${ExpectedPremiumArray}.length-1",
       "Value": "ExpectedPremiumCount",
       "Description": ""
@@ -351,7 +352,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number('788')",
       "Value": "GcSKUPriceB2C",
       "Description": ""
@@ -363,7 +364,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number('591')",
       "Value": "GcSKUPriceEPP",
       "Description": ""
@@ -609,7 +610,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Math.round(Number(${SKUPrice}.replace(/[^0-9.-]+/g,\"\")));",
       "Value": "SKUPrice",
       "Description": ""
@@ -879,7 +880,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${SCPlusOptionCount})-2",
       "Value": "SCPlusOptionCount",
       "Description": ""
@@ -1089,7 +1090,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${GalaxyCredit}.replace(/[^0-9.-]+/g,\"\"));",
       "Value": "GalaxyCredit",
       "Description": ""
@@ -1209,7 +1210,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(0);",
       "Value": "GalaxyCredit",
       "Description": ""
@@ -1425,7 +1426,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Math.round(Number(${SKUPrice}.replace(/[^0-9.-]+/g,\"\")));",
       "Value": "SKUPrice",
       "Description": ""
@@ -1797,7 +1798,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${GalaxyCredit}.replace(/[^0-9.-]+/g,\"\"));",
       "Value": "GalaxyCredit",
       "Description": ""
@@ -1917,7 +1918,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(0);",
       "Value": "GalaxyCredit",
       "Description": ""

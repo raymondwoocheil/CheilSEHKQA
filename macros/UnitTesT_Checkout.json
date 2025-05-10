@@ -286,7 +286,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "${CheckoutTestFailedReason}&\"Missing MX DM1 home delivery, \"",
       "Value": "CheckoutTestFailedReason",
       "Description": ""
@@ -328,7 +328,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "${CheckoutTestFailedReason}&\"CheckoutTestFailedReason, \"",
       "Value": "CheckoutTestFailedReason",
       "Description": ""
@@ -370,7 +370,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "${CheckoutTestFailedReason}&\"Missing MX DM6 SF pickup, \"",
       "Value": "CheckoutTestFailedReason",
       "Description": ""
@@ -502,7 +502,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "${CheckoutTestFailedReason}&\"DM1 HK failed to get EDD, \"",
       "Value": "CheckoutTestFailedReason",
       "Description": ""
@@ -718,7 +718,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "${CheckoutTestFailedReason}&\"DM1 MO failed to get EDD, \"",
       "Value": "CheckoutTestFailedReason",
       "Description": ""
@@ -1186,7 +1186,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "${CheckoutTestFailedReason}&\"Cart cannot proceed to checkout, \"",
       "Value": "CheckoutTestFailedReason",
       "Description": ""

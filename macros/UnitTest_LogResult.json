@@ -4,6 +4,12 @@
   "Commands":
   [
     {
+      "Command": "echo",
+      "Target": "",
+      "Value": "Start Macros LogResult",
+      "Description": ""
+    },
+    {
       "Command": "store",
       "Target": "fast",
       "Value": "!replayspeed",
@@ -88,7 +94,7 @@
       "Description": ""
     },
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "return Number(${EndTime}.replace(/[^0-9.-]+/g,\"\"))-Number(${StartTime}.replace(/[^0-9.-]+/g,\"\"));",
       "Value": "TestDuration",
       "Description": ""

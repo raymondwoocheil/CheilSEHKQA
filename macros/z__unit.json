@@ -58,13 +58,13 @@
             "Description": ""
         },
         {
-            "Command": "executeScript",
+            "Command": "executeScript_Sandbox",
             "Target": "return ${ExpectedPremiumStrings}.split(',')",
             "Value": "ExpectedPremiumArray",
             "Description": ""
         },
         {
-            "Command": "executeScript",
+            "Command": "executeScript_Sandbox",
             "Target": "return Number(3)",
             "Value": "ItemCount",
             "Description": ""

@@ -70,6 +70,12 @@
       "Description": ""
     },
     {
+      "Command": "if_v2",
+      "Target": "${SKU}!=\"\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "click",
       "Target": "xpath=//div[@data-modelcode=\"${SKU}\"]//button[contains(@class,\"cart-item__remove--btn\")]",
       "Value": "",
@@ -90,6 +96,12 @@
     {
       "Command": "pause",
       "Target": "800",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
       "Value": "",
       "Description": ""
     },
@@ -157,6 +169,12 @@
       "Command": "comment",
       "Target": "echo // \"RemoveIconCount\" = ${RemoveIconCount}",
       "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return ${RemoveIconCount}+1",
+      "Value": "RemoveIconCount",
       "Description": ""
     },
     {
