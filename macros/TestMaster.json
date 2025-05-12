@@ -1895,13 +1895,13 @@
     },
     {
       "Command": "click",
-      "Target": "xpath=//button[@an-la=\"evoucher:go to cart\"]",
+      "Target": "xpath=//*[@an-la=\"evoucher:go to cart\"]",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "clickAndWait",
-      "Target": "xpath=//button[@an-la=\"evoucher:no addition:redeem\"]",
+      "Target": "xpath=//*[@an-la=\"evoucher:no addition:redeem\"]",
       "Value": "500",
       "Description": ""
     },
