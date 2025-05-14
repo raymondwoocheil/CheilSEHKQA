@@ -202,6 +202,24 @@
       "Description": ""
     },
     {
+      "Command": "if_v2",
+      "Target": "${TestCat}==\"CE\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return ${!COL21}.substring(0,3)",
+      "Value": "TradeInCE",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "store",
       "Target": "${!COL21}",
       "Value": "SCPlus",

@@ -388,6 +388,36 @@
       "Description": ""
     },
     {
+      "Command": "if_v2",
+      "Target": "${TestCat}==\"CE\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${TradeInCE}==\"Yes\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_AddTradeInCart",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "comment",
       "Target": "**End Unit Task - Add Trade-In on Cart Page**",
       "Value": "",
