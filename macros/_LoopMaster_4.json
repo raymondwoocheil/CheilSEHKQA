@@ -1,8 +1,7 @@
 {
   "Name": "_LoopMaster_4",
-  "CreationDate": "2025-5-11",
-  "Commands":
-  [
+  "CreationDate": "2025-5-15",
+  "Commands": [
     {
       "Command": "store",
       "Target": "fast",
@@ -23,7 +22,7 @@
     },
     {
       "Command": "store",
-      "Target": "38-40",
+      "Target": "6-300",
       "Value": "lineRange",
       "Description": ""
     },
@@ -64,8 +63,8 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // CE",
+      "Command": "store",
+      "Target": "CE",
       "Value": "TestCatOriginal",
       "Description": ""
     },
@@ -118,33 +117,9 @@
       "Description": ""
     },
     {
-      "Command": "if_v2",
-      "Target": "${TestCatOriginal}==\"PA\"",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "MX",
-      "Value": "TestCat",
-      "Description": ""
-    },
-    {
-      "Command": "else",
-      "Target": "",
-      "Value": "",
-      "Description": ""
-    },
-    {
       "Command": "store",
       "Target": "${TestCatOriginal}",
       "Value": "TestCat",
-      "Description": ""
-    },
-    {
-      "Command": "end",
-      "Target": "",
-      "Value": "",
       "Description": ""
     },
     {
@@ -532,8 +507,8 @@
       "Description": ""
     },
     {
-      "Command": "run",
-      "Target": "_LoopMaster_5",
+      "Command": "comment",
+      "Target": "run // _LoopMaster_5",
       "Value": "",
       "Description": ""
     }

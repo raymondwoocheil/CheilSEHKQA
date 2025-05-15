@@ -1,6 +1,6 @@
 {
   "Name": "_LoopMaster_3",
-  "CreationDate": "2025-5-11",
+  "CreationDate": "2025-5-15",
   "Commands": [
     {
       "Command": "store",
@@ -22,7 +22,7 @@
     },
     {
       "Command": "store",
-      "Target": "6-78",
+      "Target": "6-150",
       "Value": "lineRange",
       "Description": ""
     },
@@ -57,8 +57,8 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // MX",
+      "Command": "store",
+      "Target": "MX",
       "Value": "TestCatOriginal",
       "Description": ""
     },
@@ -69,8 +69,8 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "Bundle",
+      "Command": "comment",
+      "Target": "store // Bundle",
       "Value": "TestCatOriginal",
       "Description": ""
     },
@@ -87,14 +87,14 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "",
+      "Command": "comment",
+      "Target": "store // ",
       "Value": "TestSite",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // SPP",
+      "Command": "store",
+      "Target": "SPP",
       "Value": "TestSite",
       "Description": ""
     },
@@ -117,33 +117,9 @@
       "Description": ""
     },
     {
-      "Command": "if_v2",
-      "Target": "${TestCatOriginal}==\"PA\"",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "MX",
-      "Value": "TestCat",
-      "Description": ""
-    },
-    {
-      "Command": "else",
-      "Target": "",
-      "Value": "",
-      "Description": ""
-    },
-    {
       "Command": "store",
       "Target": "${TestCatOriginal}",
       "Value": "TestCat",
-      "Description": ""
-    },
-    {
-      "Command": "end",
-      "Target": "",
-      "Value": "",
       "Description": ""
     },
     {
@@ -531,8 +507,8 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "run // _LoopMaster_4",
+      "Command": "run",
+      "Target": "_LoopMaster_4",
       "Value": "",
       "Description": ""
     }
