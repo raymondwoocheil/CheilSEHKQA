@@ -1564,8 +1564,20 @@
       "Description": ""
     },
     {
+      "Command": "if_v2",
+      "Target": "${skipScreenshot} != \"true\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "captureEntirePageScreenshot",
       "Target": "${TestCat}${TestSite} ${!csvReadLineNumber} ${CaseID} CartPage ${SKUwithoutSlash} ${DateTimeNow} ${TestResult}.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
       "Value": "",
       "Description": ""
     },
