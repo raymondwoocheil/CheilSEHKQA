@@ -1,6 +1,6 @@
 {
   "Name": "_LoopMaster_v2",
-  "CreationDate": "2025-5-18",
+  "CreationDate": "2025-5-21",
   "Commands": [
     {
       "Command": "comment",
@@ -40,14 +40,14 @@
     },
     {
       "Command": "store",
-      "Target": "6",
-      "Value": "totalLoopStream",
+      "Target": "1",
+      "Value": "startLoopStream",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "1",
-      "Value": "startLoopStream",
+      "Target": "4",
+      "Value": "totalLoopStream",
       "Description": ""
     },
     {
@@ -58,50 +58,56 @@
     },
     {
       "Command": "store",
-      "Target": "Bundle-B2C-6-104",
+      "Target": "Bundle-B2C-102-104",
       "Value": "loop2",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "MX-SPP-6-150",
+      "Target": "Bundle-SPP-129-129",
       "Value": "loop3",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "CE-B2C-6-300",
+      "Target": "MX-SPP-6-150",
       "Value": "loop4",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "MX-EPP-6-150",
+      "Target": "CE-B2C-6-300",
       "Value": "loop5",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "CE-EPP-6-300",
+      "Target": "MX-EPP-6-150",
       "Value": "loop6",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "CE-SPP-6-300",
+      "Target": "CE-EPP-6-300",
       "Value": "loop7",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "MX-EAA-6-150",
+      "Target": "CE-SPP-6-300",
       "Value": "loop8",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "CE-EAA-6-300",
+      "Target": "CE-EA-6-300",
       "Value": "loop9",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "MX-EA-6-150",
+      "Value": "loop10",
       "Description": ""
     },
     {

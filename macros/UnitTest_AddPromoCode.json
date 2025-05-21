@@ -21,9 +21,9 @@
       "Description": ""
     },
     {
-      "Command": "click",
+      "Command": "clickAndWait",
       "Target": "xpath=//button[contains(@class,\"voucher-form__btn\")]",
-      "Value": "2000",
+      "Value": "3000",
       "Description": ""
     },
     {

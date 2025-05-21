@@ -1,8 +1,7 @@
 {
   "Name": "TestBundle",
-  "CreationDate": "2025-4-7",
-  "Commands":
-  [
+  "CreationDate": "2025-5-20",
+  "Commands": [
     {
       "Command": "store",
       "Target": "fast",
@@ -133,6 +132,18 @@
       "Command": "store",
       "Target": "${!COL35}",
       "Value": "ExpectedExtraPremium",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return ${!COL35}.split(\"x\")[1].trim();",
+      "Value": "ExpectedExtraPremiumSKU",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(${!COL35}.split(\"x\")[0]);",
+      "Value": "ExpectedExtraPremiumQty",
       "Description": ""
     },
     {
