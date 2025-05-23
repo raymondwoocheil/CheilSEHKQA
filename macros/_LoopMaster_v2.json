@@ -3,10 +3,16 @@
   "CreationDate": "2025-5-23",
   "Commands": [
     {
-      "Command": "comment",
-      "Target": "pause // 5400000",
+      "Command": "executeScript",
+      "Target": "var targetDate = new Date('2025-05-23T18:19:00+08:00'); var now = new Date(); var diff = targetDate - now; return diff > 0 ? diff : 0;",
+      "Value": "waitTime",
+      "Description": "Calculate milliseconds until timestamp"
+    },
+    {
+      "Command": "pause",
+      "Target": "${waitTime}",
       "Value": "",
-      "Description": ""
+      "Description": "Pause until the calculated time or proceed immediately if in the past"
     },
     {
       "Command": "store",
