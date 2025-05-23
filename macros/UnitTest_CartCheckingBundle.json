@@ -1,8 +1,7 @@
 {
-  "Name": "UnitTest_CartCheckingBundle",
-  "CreationDate": "2025-5-11",
-  "Commands":
-  [
+  "Name": "_UnitTest_CartCheckingBundle",
+  "CreationDate": "2025-5-23",
+  "Commands": [
     {
       "Command": "store",
       "Target": "fast",
@@ -323,14 +322,26 @@
     },
     {
       "Command": "if_v2",
-      "Target": "${ExpectedExtraPremiumSKU}==\"\"",
+      "Target": "${ExpectedExtraPremium}==\"\"",
       "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "No need to check premiums",
+      "Value": "blue",
       "Description": ""
     },
     {
       "Command": "times",
       "Target": "3",
       "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "CheckExtraPremium",
       "Description": ""
     },
     {
@@ -353,6 +364,12 @@
     },
     {
       "Command": "store",
+      "Target": "Failed",
+      "Value": "CheckExtraPremium",
+      "Description": ""
+    },
+    {
+      "Command": "store",
       "Target": "${ExpectedExtraPremium}",
       "Value": "!csvLine",
       "Description": ""
@@ -361,12 +378,6 @@
       "Command": "storeXpathCount",
       "Target": "xpath=//div[contains(@class,\"cart-item-list\")]",
       "Value": "ItemCount",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "Failed",
-      "Value": "CheckExtraPremium",
       "Description": ""
     },
     {
@@ -462,13 +473,7 @@
     {
       "Command": "echo",
       "Target": "Qty ${ThisQty} is incorrect. Expected Qty (${ExpectedExtraPremiumQty})",
-      "Value": "green",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "Failed",
-      "Value": "!csvLine",
+      "Value": "red",
       "Description": ""
     },
     {
