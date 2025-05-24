@@ -1,7 +1,7 @@
 MX EPP,,,,,,Go to EPP Cart Page,,,,,Via buy page,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,,,,136
-Assigned,Test Case,,,,,,,,,,39,Price,,Step >>,Step >>,Verify >>,Step >>,,Verify >>,Step >>,,Verify >>,Step >>,,,Verify >>,Step >>,,Special >>,Step >>,Verify >>,Verify >>,Mass premiums,,,,,,EPP store only premiums,,,,,Total,Verify >>,,Cart Page Result >>,,,Step >>,Step >>,Verify >>,Step >>,Verify >>,Verify >>,Verify >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Last Updated,,,,,
+Assigned,Test Case,,,,,,,,,,41,Price,,Step >>,Step >>,Verify >>,Step >>,,Verify >>,Step >>,,Verify >>,Step >>,,,Verify >>,Step >>,,Special >>,Step >>,Verify >>,Verify >>,Mass premiums,,,,,,EPP store only premiums,,,,,Total,Verify >>,,Cart Page Result >>,,,Step >>,Step >>,Verify >>,Step >>,Verify >>,Verify >>,Verify >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Last Updated,,,,,
 Tester,ID,Auto Cart,Premiunm Qty,Manual Cart,Price Status,Model,BASE SKU,BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-in,Trade-in-type,Verify extra trade-in rebate,SC+,SC-type,"Verify SC+ 
-in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,First purchase discount after adding to cart,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass - May 1- 31,Mass - Apr 1- 30,Mass - Apr 1- 30,Mass - Apr 1- 30,Mass - Apr 25 - May 12,Mass Campaign,EPP May 1-31,EPP May 1-31,"No-trade-in
+in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,First purchase discount after adding to cart,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass - May 1- 31,Mass - May 1- 31,Mass - May 1- 31,Mass - May 1- 31,Mass - May 1- 31,Mass Campaign,EPP May 1-31,EPP May 1-31,"No-trade-in
 offer","No-trade-in
 offer",Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)","Verify Expired Premiums 
@@ -17,13 +17,14 @@ Auto,E=SMP-01,,,,inStock,"Galaxy S25 Ultra, 1TB+16GB, Titanium Jadegreen, exclus
 ●  1 x  Galaxy S25 Ultra, FlipSuit Case [Z-EF-JS938CBEGWW-D / Z-EF-MS938CWEGWW-D]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=SMP-02,,,,inStock,"Galaxy S25 Ultra, 512GB+12GB, Titanium Jadegreen, exclusive","SM-S9380, 512GB",N,SM-S9380ZGGTGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-S9380ZGGTGY,SM-S9380ZGGTGY,"10,898","8,718",cptqaer+3@gmail.com,!Cheil2024,"8,718",No,S25 Ultra,0,No,S25 Series,0,Check GC amount then Skip,S25 Ultra,350,350,,,150.00,Add to Cart,"8,568.00",,Z-EF-JS938CBEGWW-D / Z-EF-MS938CWEGWW-D,,,,,,Z-ITAC13-M,,,,"Z-EF-JS938CBEGWW-D / Z-EF-MS938CWEGWW-D,Z-ITAC13-M",2,"
+Auto,E=SMP-02,,,,inStock,"Galaxy S25 Ultra, 512GB+12GB, Titanium Jadegreen, exclusive","SM-S9380, 512GB",N,SM-S9380ZGGTGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-S9380ZGGTGY,SM-S9380ZGGTGY,"10,898","8,718",cptqaer+3@gmail.com,!Cheil2024,"8,718",No,S25 Ultra,0,No,S25 Series,0,Check GC amount then Skip,S25 Ultra,350,350,,,150.00,Add to Cart,"8,568.00",,Z-EF-JS938CBEGWW-D / Z-EF-MS938CWEGWW-D,,,,,,Z-ITAC13-M,,,,"Z-EF-JS938CBEGWW-D / Z-EF-MS938CWEGWW-D,Z-ITAC13-M",2,"
 ●  1 x  Galaxy S25 Ultra, FlipSuit Case [Z-EF-JS938CBEGWW-D / Z-EF-MS938CWEGWW-D]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=SMP-03,,,,inStock,"Galaxy S25 Ultra, 256GB+12GB, Titanium Jadegreen, exclusive","SM-S9380, 256GB",N,SM-S9380ZGDTGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-S9380ZGDTGY,SM-S9380ZGDTGY,"9,898","8,413",cptqaer+3@gmail.com,!Cheil2024,"8,413",No,S25 Ultra,0,No,S25 Series,0,Check GC amount then Skip,S25 Ultra,350,350,,,150.00,Add to Cart,"8,263.00",,Z-EF-JS938CBEGWW-D / Z-EF-MS938CWEGWW-D,,,,,,Z-ITAC13-M,,,,"Z-EF-JS938CBEGWW-D / Z-EF-MS938CWEGWW-D,Z-ITAC13-M",2,"
+Auto,E=SMP-03,,,,inStock,"Galaxy S25 Ultra, 256GB+12GB, Titanium Jadegreen, exclusive","SM-S9380, 256GB",N,SM-S9380ZGDTGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-S9380ZGDTGY,SM-S9380ZGDTGY,"9,898","8,413",cptqaer+3@gmail.com,!Cheil2024,"8,413",No,S25 Ultra,0,No,S25 Series,0,Check GC amount then Skip,S25 Ultra,350,350,,,150.00,Add to Cart,"8,263.00",,Z-EF-JS938CBEGWW-D / Z-EF-MS938CWEGWW-D,,,,,,Z-ITAC13-M,Z-EP-T6530NBEGGB,,,"Z-EF-JS938CBEGWW-D / Z-EF-MS938CWEGWW-D,Z-ITAC13-M,Z-EP-T6530NBEGGB",3,"
 ●  1 x  Galaxy S25 Ultra, FlipSuit Case [Z-EF-JS938CBEGWW-D / Z-EF-MS938CWEGWW-D]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
+●  1 x  65W Power Adapter [Z-EP-T6530NBEGGB]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 Auto,E=SMP-04,,,,preOrder,"Galaxy S25+, 512GB+12GB, Blueblack, exclusive","SM-S9360, 512GB",N,SM-S9360ZKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-S9360ZKGTGY,SM-S9360ZKGTGY,"8,598","6,878",cptqaer+3@gmail.com,!Cheil2024,"6,878",No,S25+,0,No,S25 Series,0,Use GC,S25+,300,300,,,150.00,Add to Cart,"6,728.00",,,,,,,,Z-ITAC13-M,,,,Z-ITAC13-M,1,"
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
@@ -156,7 +157,7 @@ Auto,E=SMP-27,,,,preOrder,"Galaxy S24 FE, Gray, 8+256GB","SM-S7210, 256GB",N,SM-
 ●  1 x 45W PD Power Adapter T4511 [Z-EP-T4511XBEGGB-M]
 ●  1 x  ITFIT Smart Body Scale [Z-ITFITEX17 / Z-ITFITEX17BE]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E=SMP-28,,,,inStock,"Galaxy A56 5G, 12GB + 256GB, Awesome Graphite","SM-A5660, 256GB",N,SM-A5660ZKDTGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-A5660ZKDTGY,SM-A5660ZKDTGY,"3,698","3,328",cptqaer+3@gmail.com,!Cheil2024,"3,328",Yes,A56,0,Yes,A56,398,Use GC,A56,200,200,,,150.00,Add to Cart,"3,178.00",,Z-ITT12WE-M,,,,,,Z-ITAC13-M,,,,"Z-ITT12WE-M,Z-ITAC13-M",2,"
+Auto,E=SMP-28,,,,inStock,"Galaxy A56 5G, 12GB + 256GB, Awesome Graphite","SM-A5660, 256GB",N,SM-A5660ZKDTGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-A5660ZKDTGY,SM-A5660ZKDTGY,"3,698","3,106",cptqaer+3@gmail.com,!Cheil2024,"3,106",Yes,A56,0,Yes,A56,398,Use GC,A56,200,200,,,150.00,Add to Cart,"2,956.00",,Z-ITT12WE-M,,,,,,Z-ITAC13-M,,,,"Z-ITT12WE-M,Z-ITAC13-M",2,"
 ●  1 x  ITFIT True Wireless Earphones T12 [Z-ITT12WE-M]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
@@ -164,11 +165,11 @@ Auto,E=SMP-28,,,,inStock,"Galaxy A56 5G, 12GB + 256GB, Awesome Graphite","SM-A56
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,E=SMP-30,,,,Unavailable,Galaxy A55 5G 8GB 128GB Awesome Navy,"SM-A5560, 128GB",N,SM-A5560ZKATGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-A5560ZKATGY,SM-A5560ZKATGY,"3,298",,cptqaer+3@gmail.com,!Cheil2024,"3,298",No,A55,0,No,A55,0,Check GC amount then Skip,A55,100,100,,,150.00,Add to Cart,"3,148.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E=SMP-31,,,,inStock,"Galaxy A36 5G, 8GB + 256GB, Awesome Black","SM-A3660, 256GB",N,SM-A3660ZKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-A3660ZKGTGY,SM-A3660ZKGTGY,"2,998","2,698",cptqaer+3@gmail.com,!Cheil2024,"2,698",Yes,A36,0,Yes,A36,398,Use GC,A36,200,200,,,150.00,Add to Cart,"2,548.00",,Z-ITT12WE-M,,,,,,Z-ITAC13-M,,,,"Z-ITT12WE-M,Z-ITAC13-M",2,"
+Auto,E=SMP-31,,,,inStock,"Galaxy A36 5G, 8GB + 256GB, Awesome Black","SM-A3660, 256GB",N,SM-A3660ZKGTGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-A3660ZKGTGY,SM-A3660ZKGTGY,"2,998","2,398",cptqaer+3@gmail.com,!Cheil2024,"2,398",Yes,A36,0,Yes,A36,398,Use GC,A36,200,200,,,0.00,Add to Cart,"2,398.00",,Z-ITT12WE-M,,,,,,Z-ITAC13-M,,,,"Z-ITT12WE-M,Z-ITAC13-M",2,"
 ●  1 x  ITFIT True Wireless Earphones T12 [Z-ITT12WE-M]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=SMP-32,,,,inStock,"Galaxy A36 5G, 8GB + 128GB, Awesome Black","SM-A3660, 128GB",N,SM-A3660ZKDTGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-A3660ZKDTGY,SM-A3660ZKDTGY,"2,698","2,428",cptqaer+3@gmail.com,!Cheil2024,"2,428",No,A36,0,No,A36,0,Check GC amount then Skip,A36,200,200,,,0.00,Add to Cart,"2,428.00",,Z-ITT12WE-M,,,,,,Z-ITAC13-M,,,,"Z-ITT12WE-M,Z-ITAC13-M",2,"
+,E=SMP-32,,,,inStock,"Galaxy A36 5G, 8GB + 128GB, Awesome Black","SM-A3660, 128GB",N,SM-A3660ZKDTGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-A3660ZKDTGY,SM-A3660ZKDTGY,"2,698","2,158",cptqaer+3@gmail.com,!Cheil2024,"2,158",No,A36,0,No,A36,0,Check GC amount then Skip,A36,200,200,,,0.00,Add to Cart,"2,158.00",,Z-ITT12WE-M,,,,,,Z-ITAC13-M,,,,"Z-ITT12WE-M,Z-ITAC13-M",2,"
 ●  1 x  ITFIT True Wireless Earphones T12 [Z-ITT12WE-M]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
@@ -245,10 +246,10 @@ Auto,E=TAB-16,,,,inStock,"Galaxy Tab S10 FE+, Gray, 8GB, 128GB","SM-X620, 128GB"
 Auto,E=TAB-18,,,,inStock,"Galaxy Tab S10 FE+, Gray, 12GB, 256GB","SM-X626B, 256GB",N,SM-X626BZAETGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-X626BZAETGY,SM-X626BZAETGY,"6,388","5,621",cptqaer+3@gmail.com,!Cheil2024,"5,621",,Tab S10 FE+,0,,Tab S10 FE+,0,Use GC,Tab S10 FE series,"1,080","1,080",,,150.00,Add to Cart,"5,471.00",,Z-ITS10FP2BS-M,,,,,,,,,,Z-ITS10FP2BS-M,1,"
 ●  1 x  ITFIT Multi-fold Book cover for Tab S10 FE+  [Z-ITS10FP2BS-M]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E=TAB-12,,,,inStock,"Galaxy Tab S9, 8GB+128, Graphite","SM-X710, 128GB",N,SM-X710NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-X710NZAATGY,SM-X710NZAATGY,"5,888","4,416",cptqaer+3@gmail.com,!Cheil2024,"4,416",,Tab S9,0,,"Tab S9, S9+",0,Use GC,Tab S9 Series,200,200,,,150.00,Add to Cart,"4,266.00",,,,,,,,Z-EF-DX720UBEGWW-M,,,,Z-EF-DX720UBEGWW-M,1,"
+Auto,E=TAB-12,,,,inStock,"Galaxy Tab S9, 8GB+128, Graphite","SM-X710, 128GB",N,SM-X710NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-X710NZAATGY,SM-X710NZAATGY,"5,888","4,122",cptqaer+3@gmail.com,!Cheil2024,"4,122",,Tab S9,0,,"Tab S9, S9+",0,Use GC,Tab S9 Series,200,200,,,150.00,Add to Cart,"3,972.00",,,,,,,,Z-EF-DX720UBEGWW-M,,,,Z-EF-DX720UBEGWW-M,1,"
 ●  1 x  Galaxy Tab S10 Book Cover Keyboard Slim - AI Key Black [Z-EF-DX720UBEGWW-M]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=TAB-19,,,,inStock,"Galaxy Tab S9 (5G), 8GB+128, Graphite (NSP)","SM-X716B, 128GB",N,SM-X716BZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-X716BZAATGY,SM-X716BZAATGY,"6,988","5,241",cptqaer+3@gmail.com,!Cheil2024,"5,241",,Tab S9,0,,"Tab S9, S9+",0,Check GC amount then Skip,Tab S9 Series,200,200,,,150.00,Add to Cart,"5,091.00",,,,,,,,Z-EF-DX720UBEGWW-M,,,,Z-EF-DX720UBEGWW-M,1,"
+,E=TAB-19,,,,inStock,"Galaxy Tab S9 (5G), 8GB+128, Graphite (NSP)","SM-X716B, 128GB",N,SM-X716BZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-X716BZAATGY,SM-X716BZAATGY,"6,988","4,892",cptqaer+3@gmail.com,!Cheil2024,"4,892",,Tab S9,0,,"Tab S9, S9+",0,Check GC amount then Skip,Tab S9 Series,200,200,,,150.00,Add to Cart,"4,742.00",,,,,,,,Z-EF-DX720UBEGWW-M,,,,Z-EF-DX720UBEGWW-M,1,"
 ●  1 x  Galaxy Tab S10 Book Cover Keyboard Slim - AI Key Black [Z-EF-DX720UBEGWW-M]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,E=TAB-20,,,,,"Galaxy Tab S9+, 12GB+256, Graphite","SM-X810, 256GB",EOL,SM-X810NZAATGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-X810NZAATGY,SM-X810NZAATGY,0,0,cptqaer+3@gmail.com,!Cheil2024,0,,Tab S9+,0,,"Tab S9, S9+",0,Check GC amount then Skip,Tab S9 Series,200,200,,,0.00,Add to Cart,0.00,,,,,,,,,,,,,0,"
@@ -336,7 +337,7 @@ Auto,E=NPC-04,,,,inStock,"Galaxy Book5 Pro, 16""/i7/32GB/1TB, Gray",NP960XHAA-EX
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E=NPC-11,,,,inStock,"Galaxy Book5 360, 15.6""/i7/16GB/1TB, Gray",NP750QHAA-EXP,N,NP750QHA-KA3HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP750QHA-KA3HK,NP750QHA-KA3HK,"11,980","10,782",cptqaer+3@gmail.com,!Cheil2024,"10,782",,Book5 360,0,,Book Tier 2: Mid (RRP $7000-11999),0,Check GC amount then Skip,Book5 360,780,780,,,150.00,Add to Cart,"10,632.00",,,,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EB-P4520XUEGWW-M,Z-ITAC13-M",2,"
+Auto,E=NPC-11,,,,OOS (Blocked),"Galaxy Book5 360, 15.6""/i7/16GB/1TB, Gray",NP750QHAA-EXP,N,NP750QHA-KA3HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP750QHA-KA3HK,NP750QHA-KA3HK,"11,980","10,782",cptqaer+3@gmail.com,!Cheil2024,"10,782",,Book5 360,0,,Book Tier 2: Mid (RRP $7000-11999),0,Check GC amount then Skip,Book5 360,780,780,,,150.00,Add to Cart,"10,632.00",,,,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EB-P4520XUEGWW-M,Z-ITAC13-M",2,"
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
@@ -344,87 +345,88 @@ Auto,E=NPC-11,,,,inStock,"Galaxy Book5 360, 15.6""/i7/16GB/1TB, Gray",NP750QHAA-
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E=NPC-13,,,,inStock,"Galaxy Book4 Ultra 16""/i9/64GB/2TB/RTX4070",NP960XGLZ-EXP,N,NP960XGL-XG1HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960XGL-XG1HK,NP960XGL-XG1HK,"24,980","18,735",cptqaer+3@gmail.com,!Cheil2024,"18,735",,Book4 Ultra,0,,Book Tier 4: Premium (RRP >=$15000),0,N/A,,0,0,,,150.00,Add to Cart,"18,585.00",,Z-EF-LPUN6PBEGWW,,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EF-LPUN6PBEGWW,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
-●  1 x  Galaxy Book Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
-●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
-",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=NPC-14,,,,Unavailable,"Galaxy Book4 Ultra 16""/i9/32GB/1TB/RTX4070",NP960XGLZ-EXP,N,NP960XGL-XG2HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960XGL-XG2HK,NP960XGL-XG2HK,"21,980",,cptqaer+3@gmail.com,!Cheil2024,"21,980",,Book4 Ultra,0,,Book Tier 4: Premium (RRP >=$15000),0,N/A,,0,0,,,150.00,Add to Cart,"21,830.00",,Z-EF-LPUN6PBEGWW,,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EF-LPUN6PBEGWW,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
-●  1 x  Galaxy Book Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
-●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
-",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=NPC-15,,,,Unavailable,"Galaxy Book4 Pro 360 16""/i7/32GB/1TB",NP960QGKA-EXP,N,NP960QGK-KS3HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960QGK-KS3HK,NP960QGK-KS3HK,"16,980","11,886",cptqaer+3@gmail.com,!Cheil2024,"11,886",,Book4 Pro 360,0,,Book Tier 4: Premium (RRP >=$15000),0,N/A,,0,0,,,150.00,Add to Cart,"11,736.00",,Z-EF-LPUN6PBEGWW,,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EF-LPUN6PBEGWW,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
-●  1 x  Galaxy Book Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
-●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
-",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E=NPC-16,,,,inStock,"Galaxy Book4 Pro 360 16""/i7/32GB/1TB",NP960QGKA-EXP,N,NP960QGK-KG3HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960QGK-KG3HK,NP960QGK-KG3HK,"16,980","11,886",cptqaer+3@gmail.com,!Cheil2024,"11,886",,Book4 Pro 360,0,,Book Tier 4: Premium (RRP >=$15000),0,N/A,,0,0,,,150.00,Add to Cart,"11,736.00",,Z-EF-LPUN6PBEGWW,,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EF-LPUN6PBEGWW,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
-●  1 x  Galaxy Book Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
-●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
-",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=NPC-17,,,,OOS (Blocked),"Galaxy Book4 Pro 360 16""/i7/16GB/1TB",NP960QGKA-EXP,N,NP960QGK-KG2HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960QGK-KG2HK,NP960QGK-KG2HK,"15,980",,cptqaer+3@gmail.com,!Cheil2024,"15,980",,Book4 Pro 360,0,,Book Tier 4: Premium (RRP >=$15000),0,N/A,,0,0,,,150.00,Add to Cart,"15,830.00",,Z-EF-LPUN6PBEGWW,,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EF-LPUN6PBEGWW,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
-●  1 x  Galaxy Book Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
-●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
-",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=NPC-18,,,,OOS (Blocked),"Galaxy Book4 Pro 16""/i7/32GB/1TB",NP960XGKA-EXP,N,NP960XGK-KS5HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960XGK-KS5HK,NP960XGK-KS5HK,"15,680",,cptqaer+3@gmail.com,!Cheil2024,"15,680",,Book4 Pro,0,,Book Tier 4: Premium (RRP >=$15000),0,N/A,,0,0,,,150.00,Add to Cart,"15,530.00",,Z-EF-LPUN6PBEGWW,,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EF-LPUN6PBEGWW,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
-●  1 x  Galaxy Book Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
-●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
-",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=NPC-19,,,,Unavailable,"Galaxy Book4 Pro 16""/i7/32GB/1TB",NP960XGKA-EXP,N,NP960XGK-KG5HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960XGK-KG5HK,NP960XGK-KG5HK,"15,680","10,976",cptqaer+3@gmail.com,!Cheil2024,"10,976",,Book4 Pro,0,,Book Tier 4: Premium (RRP >=$15000),0,N/A,,0,0,,,150.00,Add to Cart,"10,826.00",,Z-EF-LPUN6PBEGWW,,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EF-LPUN6PBEGWW,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
-●  1 x  Galaxy Book Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
-●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
-",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=NPC-20,,,,OOS (Blocked),"Galaxy Book4 Pro 16""/i7/16GB/1TB",NP960XGKA-EXP,N,NP960XGK-KG4HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960XGK-KG4HK,NP960XGK-KG4HK,"14,680",,cptqaer+3@gmail.com,!Cheil2024,"14,680",,Book4 Pro,0,,Book Tier 3: High (RRP $12000-$14999),0,N/A,,0,0,,,150.00,Add to Cart,"14,530.00",,Z-EF-LPUN6PBEGWW,,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EF-LPUN6PBEGWW,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
-●  1 x  Galaxy Book Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
-●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
-",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E=NPC-21,,,,Unavailable,"Galaxy Book4 Pro 14""/i7/32GB/1TB, Platinum Silver",NP940XGKA-EXP,N,NP940XGK-KS3HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP940XGK-KS3HK,NP940XGK-KS3HK,"14,980","10,486",cptqaer+3@gmail.com,!Cheil2024,"10,486",,Book4 Pro,0,,Book Tier 3: High (RRP $12000-$14999),0,N/A,,0,0,,,150.00,Add to Cart,"10,336.00",,Z-EF-LPUN4PBEGWW,,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EF-LPUN4PBEGWW,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
-●  1 x  Galaxy Book Slim Pouch 14"" [Z-EF-LPUN4PBEGWW]
-●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
-",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=NPC-22,,,,OOS (Blocked),"Galaxy Book4 Pro 14""/i7/32GB/1TB, Moonstone Gray",NP940XGKA-EXP,N,NP940XGK-KG3HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP940XGK-KG3HK,NP940XGK-KG3HK,"14,980",,cptqaer+3@gmail.com,!Cheil2024,"14,980",,Book4 Pro,0,,Book Tier 3: High (RRP $12000-$14999),0,N/A,,0,0,,,150.00,Add to Cart,"14,830.00",,Z-EF-LPUN4PBEGWW,,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EF-LPUN4PBEGWW,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
-●  1 x  Galaxy Book Slim Pouch 14"" [Z-EF-LPUN4PBEGWW]
-●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
-",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=NPC-23,,,,Unavailable,"Galaxy Book4 Pro 14""/i7/16GB/1TB, Moonstone Gray",NP940XGKA-EXP,N,NP940XGK-KG2HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP940XGK-KG2HK,NP940XGK-KG2HK,"13,980","9,786",cptqaer+3@gmail.com,!Cheil2024,"9,786",,Book4 Pro,0,,Book Tier 3: High (RRP $12000-$14999),0,N/A,,0,0,,,150.00,Add to Cart,"9,636.00",,Z-EF-LPUN4PBEGWW,,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EF-LPUN4PBEGWW,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
-●  1 x  Galaxy Book Slim Pouch 14"" [Z-EF-LPUN4PBEGWW]
-●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
-",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E=NPC-24,,,,inStock,"Galaxy Book4 Pro 14""/i5/16GB/512GB, Moonstone Gray",NP940XGKA-EXP,N,NP940XGK-KG1HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP940XGK-KG1HK,NP940XGK-KG1HK,"11,980","8,386",cptqaer+3@gmail.com,!Cheil2024,"8,386",,Book4 Pro,0,,Book Tier 2: Mid (RRP $7000-11999),0,N/A,,0,0,,,150.00,Add to Cart,"8,236.00",,Z-EF-LPUN4PBEGWW,,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EF-LPUN4PBEGWW,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
-●  1 x  Galaxy Book Slim Pouch 14"" [Z-EF-LPUN4PBEGWW]
-●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
-●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
-",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=NPC-25,,,,Unavailable,"Galaxy Book4 Edge, 16""/X1E-84/16GB/1TB, Sapphire Blue",NP960XMB-KB1HK,EOL,NP960XMB-KB1HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960XMB-KB1HK,NP960XMB-KB1HK,"14,680",,cptqaer+3@gmail.com,!Cheil2024,"14,680",,Book4 Edge,0,,Book Tier 3: High (RRP $12000-$14999),0,N/A,,0,0,,,150.00,Add to Cart,"14,530.00",,Z-EF-LPUN6PBEGWW,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EF-LPUN6PBEGWW,Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",4,"
-●  1 x  Galaxy Book Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
+Auto,E=NPC-13,,,,inStock,"Galaxy Book4 Ultra 16""/i9/64GB/2TB/RTX4070",NP960XGLZ-EXP,N,NP960XGL-XG1HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960XGL-XG1HK,NP960XGL-XG1HK,"24,980","18,735",cptqaer+3@gmail.com,!Cheil2024,"18,735",,Book4 Ultra,0,,Book Tier 4: Premium (RRP >=$15000),0,N/A,,0,0,,,150.00,Add to Cart,"18,585.00",,,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
 ●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=NPC-26,,,,preOrder,"Galaxy Book4 Edge, 14""/X1E-80/16GB/512GB, Sapphire Blue",NP940XMAA-EXP,N,NP940XMA-KB1HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP940XMA-KB1HK,NP940XMA-KB1HK,"11,980","8,985",cptqaer+3@gmail.com,!Cheil2024,"8,985",,Book4 Edge,0,,Book Tier 2: Mid (RRP $7000-11999),0,N/A,,0,0,,,150.00,Add to Cart,"8,835.00",,Z-EF-LPUN4PBEGWW,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EF-LPUN4PBEGWW,Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",4,"
-●  1 x  Galaxy Book Slim Pouch 14"" [Z-EF-LPUN4PBEGWW]
+,E=NPC-14,,,,Unavailable,"Galaxy Book4 Ultra 16""/i9/32GB/1TB/RTX4070",NP960XGLZ-EXP,N,NP960XGL-XG2HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960XGL-XG2HK,NP960XGL-XG2HK,"21,980",,cptqaer+3@gmail.com,!Cheil2024,"21,980",,Book4 Ultra,0,,Book Tier 4: Premium (RRP >=$15000),0,N/A,,0,0,,,150.00,Add to Cart,"21,830.00",,,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
+●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
+●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
+●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
+",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
+,E=NPC-15,,,,Unavailable,"Galaxy Book4 Pro 360 16""/i7/32GB/1TB",NP960QGKA-EXP,N,NP960QGK-KS3HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960QGK-KS3HK,NP960QGK-KS3HK,"16,980","11,886",cptqaer+3@gmail.com,!Cheil2024,"11,886",,Book4 Pro 360,0,,Book Tier 4: Premium (RRP >=$15000),0,N/A,,0,0,,,150.00,Add to Cart,"11,736.00",,,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
 ●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,E=NPC-27,,,,inStock,"Galaxy Book4 Edge, 15.6""/X1P-42/16GB/512GB, Sapphire Blue",NP750XQAA-EXP,N,NP750XQA-KB2HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP750XQA-KB2HK,NP750XQA-KB2HK,"7,180","6,103",cptqaer+3@gmail.com,!Cheil2024,"6,103",,Book4 Edge,0,,Book Tier 2: Mid (RRP $7000-11999),0,N/A,,0,0,,,150.00,Add to Cart,"5,953.00",,,,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EB-P4520XUEGWW-M,Z-ITAC13-M",2,"
+Auto,E=NPC-16,,,,inStock,"Galaxy Book4 Pro 360 16""/i7/32GB/1TB",NP960QGKA-EXP,N,NP960QGK-KG3HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960QGK-KG3HK,NP960QGK-KG3HK,"16,980","11,886",cptqaer+3@gmail.com,!Cheil2024,"11,886",,Book4 Pro 360,0,,Book Tier 4: Premium (RRP >=$15000),0,N/A,,0,0,,,150.00,Add to Cart,"11,736.00",,,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
+●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
+●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
+●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
+",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
+,E=NPC-17,,,,OOS (Blocked),"Galaxy Book4 Pro 360 16""/i7/16GB/1TB",NP960QGKA-EXP,N,NP960QGK-KG2HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960QGK-KG2HK,NP960QGK-KG2HK,"15,980",,cptqaer+3@gmail.com,!Cheil2024,"15,980",,Book4 Pro 360,0,,Book Tier 4: Premium (RRP >=$15000),0,N/A,,0,0,,,150.00,Add to Cart,"15,830.00",,,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
+●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
+●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
+●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
+",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
+,E=NPC-18,,,,OOS (Blocked),"Galaxy Book4 Pro 16""/i7/32GB/1TB",NP960XGKA-EXP,N,NP960XGK-KS5HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960XGK-KS5HK,NP960XGK-KS5HK,"15,680",,cptqaer+3@gmail.com,!Cheil2024,"15,680",,Book4 Pro,0,,Book Tier 4: Premium (RRP >=$15000),0,N/A,,0,0,,,150.00,Add to Cart,"15,530.00",,,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
+●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
+●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
+●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
+",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
+,E=NPC-19,,,,inStock,"Galaxy Book4 Pro 16""/i7/32GB/1TB",NP960XGKA-EXP,N,NP960XGK-KG5HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960XGK-KG5HK,NP960XGK-KG5HK,"15,680","10,976",cptqaer+3@gmail.com,!Cheil2024,"10,976",,Book4 Pro,0,,Book Tier 4: Premium (RRP >=$15000),0,N/A,,0,0,,,150.00,Add to Cart,"10,826.00",,,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
+●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
+●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
+●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
+",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
+,E=NPC-20,,,,OOS (Blocked),"Galaxy Book4 Pro 16""/i7/16GB/1TB",NP960XGKA-EXP,N,NP960XGK-KG4HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960XGK-KG4HK,NP960XGK-KG4HK,"14,680",,cptqaer+3@gmail.com,!Cheil2024,"14,680",,Book4 Pro,0,,Book Tier 3: High (RRP $12000-$14999),0,N/A,,0,0,,,150.00,Add to Cart,"14,530.00",,,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
+●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
+●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
+●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
+",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
+Auto,E=NPC-21,,,,Unavailable,"Galaxy Book4 Pro 14""/i7/32GB/1TB, Platinum Silver",NP940XGKA-EXP,N,NP940XGK-KS3HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP940XGK-KS3HK,NP940XGK-KS3HK,"14,980","10,486",cptqaer+3@gmail.com,!Cheil2024,"10,486",,Book4 Pro,0,,Book Tier 3: High (RRP $12000-$14999),0,N/A,,0,0,,,150.00,Add to Cart,"10,336.00",,,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
+●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
+●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
+●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
+",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
+,E=NPC-22,,,,OOS (Blocked),"Galaxy Book4 Pro 14""/i7/32GB/1TB, Moonstone Gray",NP940XGKA-EXP,N,NP940XGK-KG3HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP940XGK-KG3HK,NP940XGK-KG3HK,"14,980",,cptqaer+3@gmail.com,!Cheil2024,"14,980",,Book4 Pro,0,,Book Tier 3: High (RRP $12000-$14999),0,N/A,,0,0,,,150.00,Add to Cart,"14,830.00",,,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
+●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
+●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
+●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
+",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
+,E=NPC-23,,,,Unavailable,"Galaxy Book4 Pro 14""/i7/16GB/1TB, Moonstone Gray",NP940XGKA-EXP,N,NP940XGK-KG2HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP940XGK-KG2HK,NP940XGK-KG2HK,"13,980","9,786",cptqaer+3@gmail.com,!Cheil2024,"9,786",,Book4 Pro,0,,Book Tier 3: High (RRP $12000-$14999),0,N/A,,0,0,,,150.00,Add to Cart,"9,636.00",,,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
+●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
+●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
+●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
+",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
+Auto,E=NPC-24,,,,Unavailable,"Galaxy Book4 Pro 14""/i5/16GB/512GB, Moonstone Gray",NP940XGKA-EXP,N,NP940XGK-KG1HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP940XGK-KG1HK,NP940XGK-KG1HK,"11,980","8,386",cptqaer+3@gmail.com,!Cheil2024,"8,386",,Book4 Pro,0,,Book Tier 2: Mid (RRP $7000-11999),0,N/A,,0,0,,,150.00,Add to Cart,"8,236.00",,,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
+●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
+●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
+●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
+",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
+,E=NPC-25,,,,Unavailable,"Galaxy Book4 Edge, 16""/X1E-84/16GB/1TB, Sapphire Blue",NP960XMB-KB1HK,EOL,NP960XMB-KB1HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960XMB-KB1HK,NP960XMB-KB1HK,"14,680",,cptqaer+3@gmail.com,!Cheil2024,"14,680",,Book4 Edge,0,,Book Tier 3: High (RRP $12000-$14999),0,N/A,,0,0,,,150.00,Add to Cart,"14,530.00",,,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
+●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
+●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
+●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
+",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
+,E=NPC-26,,,,preOrder,"Galaxy Book4 Edge, 14""/X1E-80/16GB/512GB, Sapphire Blue",NP940XMAA-EXP,N,NP940XMA-KB1HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP940XMA-KB1HK,NP940XMA-KB1HK,"11,980","8,985",cptqaer+3@gmail.com,!Cheil2024,"8,985",,Book4 Edge,0,,Book Tier 2: Mid (RRP $7000-11999),0,N/A,,0,0,,,150.00,Add to Cart,"8,835.00",,,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
+●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
+●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
+●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
+",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
+Auto,E=NPC-27,,,,inStock,"Galaxy Book4 Edge, 15.6""/X1P-42/16GB/512GB, Sapphire Blue",NP750XQAA-EXP,N,NP750XQA-KB2HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP750XQA-KB2HK,NP750XQA-KB2HK,"7,180","6,103",cptqaer+3@gmail.com,!Cheil2024,"6,103",,Book4 Edge,0,,Book Tier 2: Mid (RRP $7000-11999),0,N/A,,0,0,,,150.00,Add to Cart,"5,953.00",,,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
+●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=NPC-28,,,,Unavailable,"Galaxy Book4 360 15.6""/i7/16GB/1TB",NP750QGKA-EXP,N,NP750QGK-KG1HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP750QGK-KG1HK,NP750QGK-KG1HK,"11,580",,cptqaer+3@gmail.com,!Cheil2024,"11,580",,Book4 360,0,,Book Tier 2: Mid (RRP $7000-11999),0,N/A,,0,0,,,150.00,Add to Cart,"11,430.00",,,,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EB-P4520XUEGWW-M,Z-ITAC13-M",2,"
+,E=NPC-28,,,,Unavailable,"Galaxy Book4 360 15.6""/i7/16GB/1TB",NP750QGKA-EXP,N,NP750QGK-KG1HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP750QGK-KG1HK,NP750QGK-KG1HK,"11,580",,cptqaer+3@gmail.com,!Cheil2024,"11,580",,Book4 360,0,,Book Tier 2: Mid (RRP $7000-11999),0,N/A,,0,0,,,150.00,Add to Cart,"11,430.00",,,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
+●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=NPC-29,,,,OOS (Blocked),"Galaxy Book4 360 15.6""/i5/16GB/512GB",NP750QGKA-EXP,N,NP750QGK-KS2HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP750QGK-KS2HK,NP750QGK-KS2HK,"9,980",,cptqaer+3@gmail.com,!Cheil2024,"9,980",,Book4 360,0,,Book Tier 2: Mid (RRP $7000-11999),0,N/A,,0,0,,,150.00,Add to Cart,"9,830.00",,,,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-EB-P4520XUEGWW-M,Z-ITAC13-M",2,"
+,E=NPC-29,,,,OOS (Blocked),"Galaxy Book4 360 15.6""/i5/16GB/512GB",NP750QGKA-EXP,N,NP750QGK-KS2HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP750QGK-KS2HK,NP750QGK-KS2HK,"9,980",,cptqaer+3@gmail.com,!Cheil2024,"9,980",,Book4 360,0,,Book Tier 2: Mid (RRP $7000-11999),0,N/A,,0,0,,,150.00,Add to Cart,"9,830.00",,,Z-SM-X110NZAATGY,,,,,Z-EB-P4520XUEGWW-M,Z-ITAC13-M,,,"Z-SM-X110NZAATGY,Z-EB-P4520XUEGWW-M,Z-ITAC13-M",3,"
+●  1 x  Galaxy Tab A9 (Wi-Fi) [Z-SM-X110NZAATGY]
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
@@ -440,9 +442,9 @@ Auto,E=NPC-32,,,,Unavailable,"Galaxy Book4 15.6""/i5/8GB/512GB",NP750XGKA-EXP,N,
 ●  1 x  20,000mAh Battery Pack P4520 [Z-EB-P4520XUEGWW-M]
 ●  1 x  Galaxy AI Cantonese Slang Eco Lunch Box Kit [Z-ITAC13-M]
 ",45602,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=NPC-33,,,,inStock,"Galaxy Book3 360, 15.6""/i5/16GB/512GB, Silver",NP750QFGA-EXP,,NP750QFG-KB1HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP750QFG-KB1HK,NP750QFG-KB1HK,"10,980","6,380",cptqaer+3@gmail.com,!Cheil2024,"6,380",,0,0,,0,0,,0,0,0,,,150.00,Add to Cart,"6,230.00",,,,,,,,,,,,,0,"
+,E=NPC-33,,,,inStock,"Galaxy Book3 360, 15.6""/i5/16GB/512GB, Silver",NP750QFGA-EXP,,NP750QFG-KB1HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP750QFG-KB1HK,NP750QFG-KB1HK,"10,980","6,380",cptqaer+3@gmail.com,!Cheil2024,"6,380",,0,0,,Book Tier 2: Mid (RRP $7000-11999),0,,0,0,0,,,150.00,Add to Cart,"6,230.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=NPC-34,,,,inStock,"Galaxy Book3 Pro 360, i7/16G/1TB/Shared, Beige",NP960QFGA-EXP,,NP960QFG-KB1HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960QFG-KB1HK,NP960QFG-KB1HK,"16,280","8,180",cptqaer+3@gmail.com,!Cheil2024,"8,180",,0,0,,0,0,,0,0,0,,,150.00,Add to Cart,"8,030.00",,,,,,,,,,,,,0,"
+,E=NPC-34,,,,inStock,"Galaxy Book3 Pro 360, i7/16G/1TB/Shared, Beige",NP960QFGA-EXP,,NP960QFG-KB1HK,https://www.samsung.com/hk/multistore/samsunghkem/buy.NP960QFG-KB1HK,NP960QFG-KB1HK,"16,280","8,180",cptqaer+3@gmail.com,!Cheil2024,"8,180",,0,0,,Book Tier 4: Premium (RRP >=$15000),0,,0,0,0,,,150.00,Add to Cart,"8,030.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,E=ME,,,,,,,-,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,0.00,,0.00,,,,,, ,,,,,, ,,"
 ",45602,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
@@ -485,7 +487,7 @@ Auto,E=ME-13,,,,inStock,"Galaxy Ring, Titanium Black / 5","SM-Q505, ",N,SM-Q505N
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,E=ME-14,,,,Unavailable,"Galaxy Ring, Titanium Silver / 6","SM-Q506, ",N,SM-Q506NZSATGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-Q506NZSATGY,SM-Q506NZSATGY,"3,298","2,638",cptqaer+3@gmail.com,!Cheil2024,"2,638",,Ring,0,,Ring,0,N/A,,0,0,,,0.00,Add to Cart,"2,638.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,E=ME-15,,,,inStock,"Galaxy Ring, Titanium Black / 7","SM-Q507, ",N,SM-Q507NZKATGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-Q507NZKATGY,SM-Q507NZKATGY,"3,298","2,638",cptqaer+3@gmail.com,!Cheil2024,"2,638",,Ring,0,,Ring,0,N/A,,0,0,,,0.00,Add to Cart,"2,638.00",,,,,,,,,,,,,0,"
+,E=ME-15,,,,OOS (Blocked),"Galaxy Ring, Titanium Black / 7","SM-Q507, ",N,SM-Q507NZKATGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-Q507NZKATGY,SM-Q507NZKATGY,"3,298","2,638",cptqaer+3@gmail.com,!Cheil2024,"2,638",,Ring,0,,Ring,0,N/A,,0,0,,,0.00,Add to Cart,"2,638.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,E=ME-16,,,,inStock,"Galaxy Ring, Titanium Black / 8","SM-Q508, ",N,SM-Q508NZKATGY,https://www.samsung.com/hk/multistore/samsunghkem/buy.SM-Q508NZKATGY,SM-Q508NZKATGY,"3,298","2,638",cptqaer+3@gmail.com,!Cheil2024,"2,638",,Ring,0,,Ring,0,N/A,,0,0,,,0.00,Add to Cart,"2,638.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
