@@ -1,9 +1,9 @@
 {
   "Name": "_LoopMaster_v2",
-  "CreationDate": "2025-5-31",
+  "CreationDate": "2025-6-1",
   "Commands": [
     {
-      "Command": "executeScript",
+      "Command": "executeScript_Sandbox",
       "Target": "var targetDate = new Date('2025-06-01T00:01:00+08:00'); var now = new Date(); var diff = targetDate - now; return diff > 0 ? diff : 0;",
       "Value": "waitTime",
       "Description": "Calculate milliseconds until timestamp"

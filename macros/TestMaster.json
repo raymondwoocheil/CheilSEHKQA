@@ -352,8 +352,8 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "1",
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(1)",
       "Value": "GcSKUQty",
       "Description": ""
     },
@@ -2099,13 +2099,49 @@
     },
     {
       "Command": "if_v2",
+      "Target": "${TestSite}!=\"EPP\" && ${TestSite}!=\"SPP\" && ${GalaxyCreditStep}==\"Use GC\" && ${ExpectedGalaxyCredit} > ${GcSKUPriceB2C}*2",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(3)",
+      "Value": "GcSKUQty",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_AddGalaxyCredit",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
       "Target": "${TestSite}!=\"EPP\" && ${TestSite}!=\"SPP\" && ${GalaxyCreditStep}==\"Use GC\" && ${ExpectedGalaxyCredit} > ${GcSKUPriceB2C}",
       "Value": "",
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "2",
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(2)",
+      "Value": "GcSKUQty",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_AddGalaxyCredit",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
+      "Target": "${GalaxyCreditStep}==\"Use GC\" && ${ExpectedGalaxyCredit} > ${GcSKUPriceEPP}*2",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(3)",
       "Value": "GcSKUQty",
       "Description": ""
     },
@@ -2122,8 +2158,8 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "2",
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(2)",
       "Value": "GcSKUQty",
       "Description": ""
     },
