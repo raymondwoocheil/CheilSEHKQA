@@ -1,7 +1,8 @@
 {
   "Name": "TestMaster",
   "CreationDate": "2025-5-31",
-  "Commands": [
+  "Commands":
+  [
     {
       "Command": "store",
       "Target": "fast",
@@ -345,14 +346,8 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // EP-T6530NBEGGB",
-      "Value": "GcSKU",
-      "Description": ""
-    },
-    {
       "Command": "store",
-      "Target": "EI-T5600KWEGWW",
+      "Target": "EP-T6530NBEGGB",
       "Value": "GcSKU",
       "Description": ""
     },
@@ -363,26 +358,14 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // 478",
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number('478')",
       "Value": "GcSKUPriceB2C",
       "Description": ""
     },
     {
       "Command": "executeScript_Sandbox",
-      "Target": "return Number('788')",
-      "Value": "GcSKUPriceB2C",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "store // 359",
-      "Value": "GcSKUPriceEPP",
-      "Description": ""
-    },
-    {
-      "Command": "executeScript_Sandbox",
-      "Target": "return Number('591')",
+      "Target": "return Number('359')",
       "Value": "GcSKUPriceEPP",
       "Description": ""
     },
