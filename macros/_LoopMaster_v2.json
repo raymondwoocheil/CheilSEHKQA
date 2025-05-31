@@ -3,14 +3,26 @@
   "CreationDate": "2025-5-31",
   "Commands": [
     {
-      "Command": "comment",
-      "Target": "executeScript // var targetDate = new Date('2025-05-25T03:00:00+08:00'); var now = new Date(); var diff = targetDate - now; return diff > 0 ? diff : 0;",
+      "Command": "executeScript",
+      "Target": "var targetDate = new Date('2025-06-01T00:01:00+08:00'); var now = new Date(); var diff = targetDate - now; return diff > 0 ? diff : 0;",
       "Value": "waitTime",
       "Description": "Calculate milliseconds until timestamp"
     },
     {
-      "Command": "comment",
-      "Target": "pause // ${waitTime}",
+      "Command": "if",
+      "Target": "${waitTime}>0",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "${waitTime}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
       "Value": "",
       "Description": ""
     },
