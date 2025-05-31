@@ -52,7 +52,7 @@
     },
     {
       "Command": "store",
-      "Target": "2",
+      "Target": "8",
       "Value": "endLoopStream",
       "Description": ""
     },
