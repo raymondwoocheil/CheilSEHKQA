@@ -1,5 +1,5 @@
 CE EA,,,,,,Go to EA Cart Page,,,,,Via buy page,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,,,,136
-Assigned,Test Case,,,,,,,,,,90,Price,,Step >>,Step >>,Verify >>,Step >>,,Verify >>,,,,,,,,Step >>,,Special >>,Step >>,Verify >>,Verify >>,Mass premiums,,,,,,,,,,,Total,Verify >>,,Cart Page Result >>,,,Step >>,Step >>,Verify >>,Step >>,Verify >>,Verify >>,Verify >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Last Updated,,,,,
+Assigned,Test Case,,,,,,,,,,89,Price,,Step >>,Step >>,Verify >>,Step >>,,Verify >>,,,,,,,,Step >>,,Special >>,Step >>,Verify >>,Verify >>,Mass premiums,,,,,,,,,,,Total,Verify >>,,Cart Page Result >>,,,Step >>,Step >>,Verify >>,Step >>,Verify >>,Verify >>,Verify >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Last Updated,,,,,
 Tester,ID,Auto Cart,Price Status,Manual Checkout,Auto Checkout,Model,FAMILY,BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-up,Trade-up-discount,Verify trade-up discount,,,,,,,,Add Promo Code 1,Add Promo Code 2,Special discount after adding to cart,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass,Mass,Mass,Mass,Mass,Mass,Warrenty,,,,Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)","Verify Expired Premiums 
 NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,"Guest or login, proceed to delivery option",Verify these Delivery Option available,Delivery method action,Verify these criteria,,Verify Expected Delivery Date,Checkout Page Result,Screencap of Step 2 Delivery Option,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,Line No.,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,GC in cart,GC cart captured,GC cart result,Extra Trade-In Rebate label,Trade-In Rebate captured,Trade-In Rebate result,SC+ label,SC+ captured,SC+ result,Premium SKU count,Premium Count captured,Premium SKU count result,Failed reason,Items in Cart,SKU 1,Qty,,SKU 2,Qty,,SKU 3,Qty,,SKU 4,Qty,,SKU 5,Qty,,SKU 6,Qty,,SKU 7,Qty,,SKU 8,Qty,,SKU 9,Qty,,SKU 10,Qty,,Qty Total,Qty Total Result,Premium Array,Final Result,Test duration (s),,Cart Page Result,Last Updated,,,,,
@@ -20,7 +20,7 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV-QN-05,,Unavailable,,,"65"" Neo QLED 4K QN95D",,UN,QA65QN95DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65QN95DAJXZK,QA65QN95DAJXZK,"25,480",,,,"25,480",No,0,0,,,,,,,,,,,Add to Cart,"25,480.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV-QN-06,,inStock,,,"55"" Neo QLED 4K QN95D",,N,QA55QN95DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55QN95DAJXZK,QA55QN95DAJXZK,"19,980","16,980",,,"16,980",No,900,0,,,,,,,,,,,Add to Cart,"16,980.00",,Z-HW-Q700D/ZK,,,,,,ZG-FREE1YRWAREXT,,,,"Z-HW-Q700D/ZK,ZG-FREE1YRWAREXT",2,"
+Auto,EA=CTV-QN-06,,inStock,,,"55"" Neo QLED 4K QN95D",,N,QA55QN95DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55QN95DAJXZK,QA55QN95DAJXZK,"19,980","19,980",,,"19,980",No,900,0,,,,,,,,,,,Add to Cart,"19,980.00",,Z-HW-Q700D/ZK,,,,,,ZG-FREE1YRWAREXT,,,,"Z-HW-Q700D/ZK,ZG-FREE1YRWAREXT",2,"
 ●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -98,7 +98,7 @@ Auto,EA=CTV-Q-05,,inStock,,,"65"" QLED Q70D",,N,QA65Q70DAJXZK,https://www.samsun
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV-Q-07,,inStock,,,"43"" QLED Q61D",,N,QA43Q61DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA43Q61DAJXZK,QA43Q61DAJXZK,"5,380","4,780",,,"4,780",No,100,0,,,,,,,,,,,Add to Cart,"4,780.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,EA=CTV-Q-08,,inStock,,,"65"" QLED Q60D",,N,QA65Q60DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65Q60DAJXZK,QA65Q60DAJXZK,"10,980","9,980",,,"9,980",No,500,0,,,,,,,,,,,Add to Cart,"9,980.00",,,,,,,,,,,,,0,"
+,EA=CTV-Q-08,,Unavailable,,,"65"" QLED Q60D",,EOL,QA65Q60DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65Q60DAJXZK,QA65Q60DAJXZK,"10,980","9,980",,,"9,980",No,500,0,,,,,,,,,,,Add to Cart,"9,980.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV-Q-09,,inStock,,,"55"" QLED Q60D",,N,QA55Q60DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55Q60DAJXZK,QA55Q60DAJXZK,"7,980","6,980",,,"6,980",No,300,0,,,,,,,,,,,Add to Cart,"6,980.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -106,7 +106,7 @@ Auto,EA=CTV-Q-05,,inStock,,,"65"" QLED Q70D",,N,QA65Q70DAJXZK,https://www.samsun
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV-Q-11,,inStock,,,"43"" QLED Q60D",,N,QA43Q60DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA43Q60DAJXZK,QA43Q60DAJXZK,"5,380","4,780",,,"4,780",No,200,0,,,,,,,,,,,Add to Cart,"4,780.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,EA=CTV-Q-12,,Unavailable,,,"55"" QLED QE1D",,UN,QA55QE1DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55QE1DAJXZK,QA55QE1DAJXZK,"6,980","5,980",,,5980,No,0,0,,,,,,,,,,,Add to Cart,"5,980.00",,,,,,,,,,,,,0,"
+,EA=CTV-Q-12,,Unavailable,,,"55"" QLED QE1D",,UN,QA55QE1DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55QE1DAJXZK,QA55QE1DAJXZK,"6,980","6,680",,,6680,No,0,0,,,,,,,,,,,Add to Cart,"6,680.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV-Q-13,,inStock,,,"50"" QLED QE1D",,N,QA50QE1DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA50QE1DAJXZK,QA50QE1DAJXZK,"6,180","4,990",,,"4,990",No,0,0,,,,,,,,,,,Add to Cart,"4,990.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -121,9 +121,8 @@ Auto,EA=CTV-O-02,,Unavailable,,,"77"" OLED S95D",,UN,QA77S95DAJXZK,https://www.s
 Auto,EA=CTV-O-04,,inStock,,,"55"" OLED S95D",,N,QA55S95DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55S95DAJXZK,QA55S95DAJXZK,"18,980","18,980",,,"18,980",No,850,0,,,,,,,,,,,Add to Cart,"18,980.00",,Z-HW-Q700D/ZK,,,,,,,,,,Z-HW-Q700D/ZK,1,"
 ●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV-O-05,,inStock,,,"65"" OLED S90DA",,N,QA65S90DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65S90DAJXZK,QA65S90DAJXZK,"20,980","19,980",,,"19,980",No,950,0,,,,,,,,,,,Add to Cart,"19,980.00",,Z-WMN-B05FB/XY,Z-HW-Q700D/ZK,,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-Q700D/ZK",2,"
+Auto,EA=CTV-O-05,,inStock,,,"65"" OLED S90DA",,N,QA65S90DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65S90DAJXZK,QA65S90DAJXZK,"20,980","19,980",,,"19,980",No,950,0,,,,,,,,,,,Add to Cart,"19,980.00",,Z-WMN-B05FB/XY,,,,,,,,,,Z-WMN-B05FB/XY,1,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
-●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV-O-06,,inStock,,,"55"" OLED S90DA",,N,QA55S90DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55S90DAJXZK,QA55S90DAJXZK,"15,980","14,680",,,"14,680",No,650,0,,,,,,,,,,,Add to Cart,"14,680.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -154,15 +153,15 @@ Auto,EA=CTV-L-11,,inStock,,,"32"" The Frame LS03C",,N,QA32LS03CBJXZK,https://www
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV-U-03,,Unavailable,,,"55"" Crystal UHD DU8000",,EOL,UA55DU8000JXZK,https://www.samsung.com/hk/multistore/hkses/buy.UA55DU8000JXZK,UA55DU8000JXZK,"5,680",,,,"5,680",No,0,0,,,,,,,,,,,Add to Cart,"5,680.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,EA=CTV-U-04,,inStock,,,"50"" Crystal UHD DU8000",,N,UA50DU8000JXZK,https://www.samsung.com/hk/multistore/hkses/buy.UA50DU8000JXZK,UA50DU8000JXZK,"4,980","4,580",,,"4,580",No,150,0,,,,,,,,,,,Add to Cart,"4,580.00",,,,,,,,,,,,,0,"
+,EA=CTV-U-04,,inStock,,,"50"" Crystal UHD DU8000",,N,UA50DU8000JXZK,https://www.samsung.com/hk/multistore/hkses/buy.UA50DU8000JXZK,UA50DU8000JXZK,"4,980","4,180",,,"4,180",No,150,0,,,,,,,,,,,Add to Cart,"4,180.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV-U-05,,Unavailable,,,"43"" Crystal UHD DUE800 4K",,EOL,UA43DUE800JXZK,https://www.samsung.com/hk/multistore/hkses/buy.UA43DUE800JXZK,UA43DUE800JXZK,"4,680","3,480",,,"3,480",No,0,0,,,,,,,,,,,Add to Cart,"3,480.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,EA=CTV-U-06,,Unavailable,,,"43"" Crystal UHD DU8000",,EOL,UA43DU8000JXZK,https://www.samsung.com/hk/multistore/hkses/buy.UA43DU8000JXZK,UA43DU8000JXZK,"4,380","3,980",,,"3,980",No,150,0,,,,,,,,,,,Add to Cart,"3,980.00",,,,,,,,,,,,,0,"
+,EA=CTV-U-06,,Unavailable,,,"43"" Crystal UHD DU8000",,EOL,UA43DU8000JXZK,https://www.samsung.com/hk/multistore/hkses/buy.UA43DU8000JXZK,UA43DU8000JXZK,"4,380","3,580",,,"3,580",No,150,0,,,,,,,,,,,Add to Cart,"3,580.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV-U-07,,Unavailable,,,"55"" Crystal UHD DU7700",,UN,UA55DU7700JXZK,https://www.samsung.com/hk/multistore/hkses/buy.UA55DU7700JXZK,UA55DU7700JXZK,"4,780","4,280",,,"4,280",No,150,0,,,,,,,,,,,Add to Cart,"4,280.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,EA=CTV-U-08,,inStock,,,"50"" Crystal UHD DU7700",,N,UA50DU7700JXZK,https://www.samsung.com/hk/multistore/hkses/buy.UA50DU7700JXZK,UA50DU7700JXZK,"4,180","3,980",,,"3,980",No,150,0,,,,,,,,,,,Add to Cart,"3,980.00",,,,,,,,,,,,,0,"
+,EA=CTV-U-08,,inStock,,,"50"" Crystal UHD DU7700",,N,UA50DU7700JXZK,https://www.samsung.com/hk/multistore/hkses/buy.UA50DU7700JXZK,UA50DU7700JXZK,"4,180","3,580",,,"3,580",No,150,0,,,,,,,,,,,Add to Cart,"3,580.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV-U-09,,Unavailable,,,"43"" Crystal UHD DU7700",,UN,UA43DU7700JXZK,https://www.samsung.com/hk/multistore/hkses/buy.UA43DU7700JXZK,UA43DU7700JXZK,"3,580",,,,"3,580",No,0,0,,,,,,,,,,,Add to Cart,"3,580.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -172,53 +171,54 @@ Auto,EA=CTV-L-11,,inStock,,,"32"" The Frame LS03C",,N,QA32LS03CBJXZK,https://www
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV25,,,,,,,-,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-L-01,,inStock,,,"43"" The Frame 4K Vision AI Smart TV (2025)",,N,QA43LS03FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA43LS03FAJXZK,QA43LS03FAJXZK,"8,980","8,980",,,"8,980",No,0,0,,,,,,,,,,,Add to Cart,"8,980.00",,ZG-12MONTHSARTSTORE,Select free bezel on buy page,,,,,,,,,"ZG-12MONTHSARTSTORE,Select free bezel on buy page",1,"
-●  1 x  12 Months Art Store subscription [ZG-12MONTHSARTSTORE]
-●  0 x  1 unit of Free Frame Bezel [Select free bezel on buy page]
+Auto,EA=CTV25-L-01,,inStock,,,"43"" The Frame 4K Vision AI Smart TV (2025)",,N,QA43LS03FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA43LS03FAJXZK,QA43LS03FAJXZK,"8,980","8,980",,,"8,980",No,0,0,,,,,,,,,,,Add to Cart,"8,980.00",,Select free bezel on buy page,,,,,,,,,,Select free bezel on buy page,1,"
+●  1 x  Free Frame Bezel (non-gold) [Select free bezel on buy page]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-L-02,,inStock,,,"50"" The Frame 4K Vision AI Smart TV (2025)",,N,QA50LS03FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA50LS03FAJXZK,QA50LS03FAJXZK,"11,280","11,280",,,"11,280",No,0,0,,,,,,,,,,,Add to Cart,"11,280.00",,ZG-12MONTHSARTSTORE,Select free bezel on buy page,,,,,,,,,"ZG-12MONTHSARTSTORE,Select free bezel on buy page",1,"
-●  1 x  12 Months Art Store subscription [ZG-12MONTHSARTSTORE]
-●  0 x  1 unit of Free Frame Bezel [Select free bezel on buy page]
+Auto,EA=CTV25-L-02,,inStock,,,"50"" The Frame 4K Vision AI Smart TV (2025)",,N,QA50LS03FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA50LS03FAJXZK,QA50LS03FAJXZK,"11,280","11,280",,,"11,280",No,0,0,,,,,,,,,,,Add to Cart,"11,280.00",,Select free bezel on buy page,,,,,,,,,,Select free bezel on buy page,1,"
+●  1 x  Free Frame Bezel (non-gold) [Select free bezel on buy page]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-L-03,,inStock,,,"55"" The Frame 4K Vision AI Smart TV (2025)",,N,QA55LS03FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55LS03FAJXZK,QA55LS03FAJXZK,"12,980","12,980",,,"12,980",No,0,0,,,,,,,,,,,Add to Cart,"12,980.00",,ZG-12MONTHSARTSTORE,Select free bezel on buy page,,,,,,,,,"ZG-12MONTHSARTSTORE,Select free bezel on buy page",1,"
-●  1 x  12 Months Art Store subscription [ZG-12MONTHSARTSTORE]
-●  0 x  1 unit of Free Frame Bezel [Select free bezel on buy page]
+Auto,EA=CTV25-L-03,,inStock,,,"55"" The Frame 4K Vision AI Smart TV (2025)",,N,QA55LS03FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55LS03FAJXZK,QA55LS03FAJXZK,"12,980","12,980",,,"12,980",No,0,0,,,,,,,,,,,Add to Cart,"12,980.00",,Select free bezel on buy page,,,,,,,,,,Select free bezel on buy page,1,"
+●  1 x  Free Frame Bezel (non-gold) [Select free bezel on buy page]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-L-04,,inStock,,,"65"" The Frame Pro 4K Vision AI Smart TV (2025)",,N,QA65LS03FWJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65LS03FWJXZK,QA65LS03FWJXZK,"17,980","17,980",,,17980,No,0,0,,,,,,,,,,,Add to Cart,"17,980.00",,ZG-12MONTHSARTSTORE,Select free bezel on buy page,,,,,,,,,"ZG-12MONTHSARTSTORE,Select free bezel on buy page",1,"
-●  1 x  12 Months Art Store subscription [ZG-12MONTHSARTSTORE]
-●  0 x  1 unit of Free Frame Bezel [Select free bezel on buy page]
+Auto,EA=CTV25-L-04,,inStock,,,"65"" The Frame Pro 4K Vision AI Smart TV (2025)",,N,QA65LS03FWJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65LS03FWJXZK,QA65LS03FWJXZK,"17,980","17,980",,,17980,No,0,0,,,,,,,,,,,Add to Cart,"17,980.00",,Select free bezel on buy page,,,,,,,,,,Select free bezel on buy page,1,"
+●  1 x  Free Frame Bezel (non-gold) [Select free bezel on buy page]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-L-05,,OOS (Blocked),,,"75"" The Frame Pro 4K Vision AI Smart TV (2025)",,N,QA75LS03FWJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA75LS03FWJXZK,QA75LS03FWJXZK,"32,980","32,980",,,32980,No,0,0,,,,,,,,,,,Add to Cart,"32,980.00",,ZG-12MONTHSARTSTORE,Select free bezel on buy page,,,,,,,,,"ZG-12MONTHSARTSTORE,Select free bezel on buy page",1,"
-●  1 x  12 Months Art Store subscription [ZG-12MONTHSARTSTORE]
-●  0 x  1 unit of Free Frame Bezel [Select free bezel on buy page]
+Auto,EA=CTV25-L-05,,inStock,,,"75"" The Frame Pro 4K Vision AI Smart TV (2025)",,N,QA75LS03FWJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA75LS03FWJXZK,QA75LS03FWJXZK,"32,980","32,980",,,32980,No,0,0,,,,,,,,,,,Add to Cart,"32,980.00",,Select free bezel on buy page,,,,,,,,,,Select free bezel on buy page,1,"
+●  1 x  Free Frame Bezel (non-gold) [Select free bezel on buy page]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-QN-01,,inStock,,,"98"" Neo QLED 8K QN990 (2025)",,N,QA98QN990FJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA98QN990FJXZK,QA98QN990FJXZK,"295,480","295,480",,,295480,No,0,0,,,,,,,,,,,Add to Cart,"295,480.00",,,,,,,,,,,,,0,"
+Auto,EA=CTV25-QN-01,,inStock,,,"98"" Neo QLED 8K QN990 (2025)",,N,QA98QN990FJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA98QN990FJXZK,QA98QN990FJXZK,"295,480","295,480",,,295480,No,0,0,,,,,,,,,,,Add to Cart,"295,480.00",,,Z-HW-Q930D/ZK,,,,,,,,,Z-HW-Q930D/ZK,1,"
+●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-QN-02,,inStock,,,"85"" Neo QLED 8K QN990 (2025)",,N,QA85QN990FJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA85QN990FJXZK,QA85QN990FJXZK,"109,980","109,980",,,"109,980",No,0,0,,,,,,,,,,,Add to Cart,"109,980.00",,Z-WMN-B30FB/RU,,,,,,,,,,Z-WMN-B30FB/RU,1,"
+Auto,EA=CTV25-QN-02,,inStock,,,"85"" Neo QLED 8K QN990 (2025)",,N,QA85QN990FJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA85QN990FJXZK,QA85QN990FJXZK,"109,980","109,980",,,"109,980",No,0,0,,,,,,,,,,,Add to Cart,"109,980.00",,Z-WMN-B30FB/RU,Z-HW-Q930D/ZK,,,,,,,,,"Z-WMN-B30FB/RU,Z-HW-Q930D/ZK",2,"
 ●  1 x  Full Motion Slim Fit TV Wallmount with installation [Z-WMN-B30FB/RU]
+●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-QN-03,,inStock,,,"75"" Neo QLED 8K QN990 (2025)",,N,QA75QN990FJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA75QN990FJXZK,QA75QN990FJXZK,"84,980","84,980",,,"84,980",No,0,0,,,,,,,,,,,Add to Cart,"84,980.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
+Auto,EA=CTV25-QN-03,,inStock,,,"75"" Neo QLED 8K QN990 (2025)",,N,QA75QN990FJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA75QN990FJXZK,QA75QN990FJXZK,"84,980","84,980",,,"84,980",No,0,0,,,,,,,,,,,Add to Cart,"84,980.00",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,,,,,,,,,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=CTV25-QN-04,,inStock,,,"65"" Neo QLED 8K QN990 (2025)",,N,QA65QN990FJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65QN990FJXZK,QA65QN990FJXZK,"46,980","46,980",,,"46,980",No,0,0,,,,,,,,,,,Add to Cart,"46,980.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-QN-05,,inStock,,,"75"" Neo QLED 8K QN990 (2025)",,N,QA75QN900FJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA75QN900FJXZK,QA75QN900FJXZK,"59,980","59,980",,,"59,980",No,0,0,,,,,,,,,,,Add to Cart,"59,980.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
+Auto,EA=CTV25-QN-05,,inStock,,,"75"" Neo QLED 8K QN990 (2025)",,N,QA75QN900FJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA75QN900FJXZK,QA75QN900FJXZK,"59,980","59,980",,,"59,980",No,0,0,,,,,,,,,,,Add to Cart,"59,980.00",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,,,,,,,,,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=CTV25-QN-06,,inStock,,,"65"" Neo QLED 8K QN990 (2025)",,N,QA65QN900FJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65QN900FJXZK,QA65QN900FJXZK,"33,980","33,980",,,"33,980",No,0,0,,,,,,,,,,,Add to Cart,"33,980.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-O-01,,inStock,,,"77"" OLED S95F (2025)",,N,QA77S95FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA77S95FAJXZK,QA77S95FAJXZK,"63,480","63,480",,,"63,480",No,0,0,,,,,,,,,,,Add to Cart,"63,480.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
+Auto,EA=CTV25-O-01,,inStock,,,"77"" OLED S95F (2025)",,N,QA77S95FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA77S95FAJXZK,QA77S95FAJXZK,"63,480","63,480",,,"63,480",No,0,0,,,,,,,,,,,Add to Cart,"63,480.00",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,,,,,,,,,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=CTV25-O-02,,inStock,,,"65"" OLED S95F (2025)",,N,QA65S95FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65S95FAJXZK,QA65S95FAJXZK,"33,480","33,480",,,"33,480",No,0,0,,,,,,,,,,,Add to Cart,"33,480.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=CTV25-O-03,,inStock,,,"55"" OLED S95F (2025)",,N,QA55S95FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55S95FAJXZK,QA55S95FAJXZK,"23,480","23,480",,,"23,480",No,0,0,,,,,,,,,,,Add to Cart,"23,480.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-O-04,,OOS (Blocked),,,"83"" OLED S90F (2025)",,N,QA83S90FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA83S90FAEXZK,QA83S90FAEXZK,"74,980","74,980",,,"74,980",No,0,0,,,,,,,,,,,Add to Cart,"74,980.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
+Auto,EA=CTV25-O-04,,inStock,,,"83"" OLED S90F (2025)",,N,QA83S90FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA83S90FAEXZK,QA83S90FAEXZK,"74,980","74,980",,,"74,980",No,0,0,,,,,,,,,,,Add to Cart,"74,980.00",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,,,,,,,,,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=CTV25-O-05,,inStock,,,"77"" OLED S90F (2025)",,N,QA77S90FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA77S90FAEXZK,QA77S90FAEXZK,"49,980","49,980",,,"49,980",No,0,0,,,,,,,,,,,Add to Cart,"49,980.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
@@ -232,22 +232,22 @@ Auto,EA=CTV25-O-08,,inStock,,,"48"" OLED S90F (2025)",,N,QA48S90FAEXZK,https://w
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=CTV25-O-09,,inStock,,,"42"" OLED S90F (2025)",,N,QA42S90FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA42S90FAEXZK,QA42S90FAEXZK,"11,380","11,380",,,11380,No,0,0,,,,,,,,,,,Add to Cart,"11,380.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-QN-07,,inStock,,,"98"" Neo QLED 4K QN90F (2025)",,N,QA98QN90FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA98QN90FAJXZK,QA98QN90FAJXZK,"119,980","119,980",,,119980,No,0,0,,,,,,,,,,,Add to Cart,"119,980.00",,Z-WMN8000SX/XY,,,,,,,,,,Z-WMN8000SX/XY,1,"
+Auto,EA=CTV25-QN-07,,inStock,,,"98"" Neo QLED 4K QN90F (2025)",,N,QA98QN90FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA98QN90FAJXZK,QA98QN90FAJXZK,"119,980","119,980",,,119980,No,0,0,,,,,,,,,,,Add to Cart,"119,980.00",,Z-WMN8000SX/XY,Z-HW-Q930D/ZK,,,,,,,,,"Z-WMN8000SX/XY,Z-HW-Q930D/ZK",2,"
 ●  1 x  TV Wall mount (WMN8000SX) [Z-WMN8000SX/XY]
+●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-QN-08,,inStock,,,"65"" Neo QLED 4K QN90F (2025)",,N,QA65QN90FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65QN90FAJXZK,QA65QN90FAJXZK,"24,280","24,280",,,24280,No,0,0,,,,,,,,,,,Add to Cart,"24,280.00",,Z-WMN-B16FB/XY,,,,,Z-HW-C450/ZK,,,,,"Z-WMN-B16FB/XY,Z-HW-C450/ZK",2,"
+Auto,EA=CTV25-QN-08,,inStock,,,"65"" Neo QLED 4K QN90F (2025)",,N,QA65QN90FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65QN90FAJXZK,QA65QN90FAJXZK,"24,280","24,280",,,24280,No,0,0,,,,,,,,,,,Add to Cart,"24,280.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-QN-09,,inStock,,,"55"" Neo QLED 4K QN90F (2025)",,N,QA55QN90FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55QN90FAJXZK,QA55QN90FAJXZK,"18,280","18,280",,,18280,No,0,0,,,,,,,,,,,Add to Cart,"18,280.00",,,,,,,Z-HW-C450/ZK,,,,,Z-HW-C450/ZK,1,"
-●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
+Auto,EA=CTV25-QN-09,,inStock,,,"55"" Neo QLED 4K QN90F (2025)",,N,QA55QN90FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55QN90FAJXZK,QA55QN90FAJXZK,"18,280","18,280",,,18280,No,0,0,,,,,,,,,,,Add to Cart,"18,280.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=CTV25-QN-10,,inStock,,,"50"" Neo QLED 4K QN90F (2025)",,N,QA50QN90FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA50QN90FAJXZK,QA50QN90FAJXZK,"13,280","13,280",,,13280,No,0,0,,,,,,,,,,,Add to Cart,"13,280.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=CTV25-QN-11,,inStock,,,"43"" Neo QLED 4K QN90F (2025)",,N,QA43QN90FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA43QN90FAJXZK,QA43QN90FAJXZK,"10,780","10,780",,,10780,No,0,0,,,,,,,,,,,Add to Cart,"10,780.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-QN-12,,inStock,,,"83"" OLED S85F (2025)",,N,QA83S85FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA83S85FAEXZK,QA83S85FAEXZK,"62,480","62,480",,,62480,No,0,0,,,,,,,,,,,Add to Cart,"62,480.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
+Auto,EA=CTV25-QN-12,,inStock,,,"83"" OLED S85F (2025)",,N,QA83S85FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA83S85FAEXZK,QA83S85FAEXZK,"62,480","62,480",,,62480,No,0,0,,,,,,,,,,,Add to Cart,"62,480.00",,Z-WMN-B16FB/XY,Z-HW-Q930D/ZK,,,,,,,,,"Z-WMN-B16FB/XY,Z-HW-Q930D/ZK",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=CTV25-QN-13,,inStock,,,"77"" OLED S85F (2025)",,N,QA77S85FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA77S85FAEXZK,QA77S85FAEXZK,"42,480","42,480",,,42480,No,0,0,,,,,,,,,,,Add to Cart,"42,480.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
@@ -260,20 +260,22 @@ Auto,EA=CTV25-QN-15,,inStock,,,"55"" OLED S85F (2025)",,N,QA55S85FAEXZK,https://
 Auto,EA=CTV25-QN-16,,inStock,,,"65"" Neo QLED 4K QN85F (2025)",,N,QA65QN85FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65QN85FAJXZK,QA65QN85FAJXZK,"16,480","16,480",,,"16,480",No,0,0,,,,,,,,,,,Add to Cart,"16,480.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-QN-17,,OOS (Blocked),,,"55"" Neo QLED 4K QN85F (2025)",,N,QA55QN85FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55QN85FAJXZK,QA55QN85FAJXZK,"11,980","11,980",,,"11,980",No,0,0,,,,,,,,,,,Add to Cart,"11,980.00",,,,,,,,,,,,,0,"
+Auto,EA=CTV25-QN-17,,inStock,,,"55"" Neo QLED 4K QN85F (2025)",,N,QA55QN85FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55QN85FAJXZK,QA55QN85FAJXZK,"11,980","11,980",,,"11,980",No,0,0,,,,,,,,,,,Add to Cart,"11,980.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=CTV25-QN-18,,Unavailable,,,"65"" Neo QLED 4K QN84F (2025)",,UN,QA65QN84FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65QN84FAJXZK,QA65QN84FAJXZK,"15,480","15,480",,,"15,480",No,0,0,,,,,,,,,,,Add to Cart,"15,480.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV25-QN-19,,Unavailable,,,"55"" Neo QLED 4K QN84F (2025)",,UN,QA55QN84FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55QN84FAJXZK,QA55QN84FAJXZK,"10,980","10,980",,,"10,980",No,0,0,,,,,,,,,,,Add to Cart,"10,980.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-QN-20,,preOrder,,,"100"" Neo QLED 4K QN80F (2025)",,N,QA100QN80FJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA100QN80FJXZK,QA100QN80FJXZK,"76,980","76,980",,,"76,980",No,0,0,,,,,,,,,,,Add to Cart,"76,980.00",,Z-WMN8000SX/XY,,,,,,,,,,Z-WMN8000SX/XY,1,"
+Auto,EA=CTV25-QN-20,,preOrder,,,"100"" Neo QLED 4K QN80F (2025)",,N,QA100QN80FJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA100QN80FJXZK,QA100QN80FJXZK,"76,980","76,980",,,"76,980",No,0,0,,,,,,,,,,,Add to Cart,"76,980.00",,Z-WMN8000SX/XY,Z-HW-Q930D/ZK,,,,,,,,,"Z-WMN8000SX/XY,Z-HW-Q930D/ZK",2,"
 ●  1 x  TV Wall mount (WMN8000SX) [Z-WMN8000SX/XY]
+●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV25-QN-21,,inStock,,,"50"" Neo QLED 4K QN80F (2025)",,N,QA50QN80FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA50QN80FAJXZK,QA50QN80FAJXZK,"9,680","9,680",,,"9,680",No,0,0,,,,,,,,,,,Add to Cart,"9,680.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-QN-22,,inStock,,,"85"" Neo QLED 4K QN70F (2025)",,N,QA85QN70FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA85QN70FAJXZK,QA85QN70FAJXZK,"43,980","43,980",,,"43,980",No,0,0,,,,,,,,,,,Add to Cart,"43,980.00",,Z-WMN-B30FB/RU,,,,,,,,,,Z-WMN-B30FB/RU,1,"
+Auto,EA=CTV25-QN-22,,inStock,,,"85"" Neo QLED 4K QN70F (2025)",,N,QA85QN70FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA85QN70FAJXZK,QA85QN70FAJXZK,"43,980","43,980",,,"43,980",No,0,0,,,,,,,,,,,Add to Cart,"43,980.00",,Z-WMN-B30FB/RU,Z-HW-Q930D/ZK,,,,,,,,,"Z-WMN-B30FB/RU,Z-HW-Q930D/ZK",2,"
 ●  1 x  Full Motion Slim Fit TV Wallmount with installation [Z-WMN-B30FB/RU]
+●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=CTV25-QN-23,,inStock,,,"75"" Neo QLED 4K QN70F (2025)",,N,QA75QN70FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA75QN70FAJXZK,QA75QN70FAJXZK,"24,980","24,980",,,"24,980",No,0,0,,,,,,,,,,,Add to Cart,"24,980.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
@@ -283,8 +285,7 @@ Auto,EA=CTV25-QN-24,,inStock,,,"65"" Neo QLED 4K QN70F (2025)",,N,QA65QN70FAJXZK
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV25-QN-25,,inStock,,,"55"" Neo QLED 4K QN70F (2025)",,N,QA55QN70FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55QN70FAJXZK,QA55QN70FAJXZK,"9,980","9,980",,,"9,980",No,0,0,,,,,,,,,,,Add to Cart,"9,980.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-QN-26,,inStock,,,"55"" Neo QLED 4K QN1E (2025)",,N,QA55QN1EFAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55QN1EFAJXZK,QA55QN1EFAJXZK,"9,980","9,980",,,"9,980",No,0,0,,,,,,,,,,,Add to Cart,"9,980.00",,,,,,,Z-HW-C450/ZK,,,,,Z-HW-C450/ZK,1,"
-●  1 x  C-Series HW-C450 2.1ch Soundbar [Z-HW-C450/ZK]
+Auto,EA=CTV25-QN-26,,inStock,,,"55"" Neo QLED 4K QN1E (2025)",,N,QA55QN1EFAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55QN1EFAJXZK,QA55QN1EFAJXZK,"9,980","9,980",,,"9,980",No,0,0,,,,,,,,,,,Add to Cart,"9,980.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV25-QN-27,,inStock,,,"65"" QLED Q8FA (2025)",,N,QA65Q8FAAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65Q8FAAJXZK,QA65Q8FAAJXZK,"13,480","13,480",,,13480,No,0,0,,,,,,,,,,,Add to Cart,"13,480.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -312,7 +313,7 @@ Auto,EA=CTV25-QN-37,,inStock,,,"75"" QLED Q7FA (2025)",,N,QA75Q7FAAJXZK,https://
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV25-QN-39,,inStock,,,"50"" QLED Q7FA (2025)",,N,QA50Q7FAAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA50Q7FAAJXZK,QA50Q7FAAJXZK,"6,280","6,280",,,"6,280",No,0,0,,,,,,,,,,,Add to Cart,"6,280.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,EA=CTV25-QN-40,,inStock,,,"43"" QLED Q7FA (2025)",,N,QA43Q7FAAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA43Q7FAAJXZK,QA43Q7FAAJXZK,"5,280","5,280",,,"5,280",No,0,0,,,,,,,,,,,Add to Cart,"5,280.00",,,,,,,,,,,,,0,"
+,EA=CTV25-QN-40,,Unavailable,,,"43"" QLED Q7FA (2025)",,UN,QA43Q7FAAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA43Q7FAAJXZK,QA43Q7FAAJXZK,"5,280","5,280",,,"5,280",No,0,0,,,,,,,,,,,Add to Cart,"5,280.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV25-QN-41,,Unavailable,,,"55"" QLED Q7F4 (2025)",,UN,QA55Q7F4AJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55Q7F4AJXZK,QA55Q7F4AJXZK,"7,280","7,280",,,"7,280",No,0,0,,,,,,,,,,,Add to Cart,"7,280.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -342,7 +343,7 @@ Auto,EA=CTV25-QN-37,,inStock,,,"75"" QLED Q7FA (2025)",,N,QA75Q7FAAJXZK,https://
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=HTS-01,,inStock,,,C-Series HW-C450 2.1ch Soundbar,,N,HW-C450/ZK,https://www.samsung.com/hk/multistore/hkses/buy.HW-C450ZK,HW-C450/ZK,"1,990","1,990",,,"1,990",No,0,0,,,,,,,,,,,Add to Cart,"1,990.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,EA=HTS-02,,inStock,,,SWA-9100S 無線後置喇叭,,N,SWA-9100S/ZK,https://www.samsung.com/hk/multistore/hkses/buy.SWA-9100SZK,SWA-9100S/ZK,990,0,,,990,No,0,0,,,,,,,,,,,Add to Cart,990.00,,,,,,,,,,,,,0,"
+,EA=HTS-02,,inStock,,,SWA-9100S 無線後置喇叭,,N,SWA-9100S/ZK,https://www.samsung.com/hk/multistore/hkses/buy.SWA-9100SZK,SWA-9100S/ZK,990,990,,,990,No,0,0,,,,,,,,,,,Add to Cart,990.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=HTS-03,,inStock,,,SWA-9200S 無線後置喇叭,,N,SWA-9200S/ZK,https://www.samsung.com/hk/multistore/hkses/buy.SWA-9200SZK,SWA-9200S/ZK,"1,090","1,090",,,"1,090",No,0,0,,,,,,,,,,,Add to Cart,"1,090.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -370,10 +371,9 @@ Auto,EA=HTS-06,,inStock,,,Q-series Soundbar HW-Q930D,,N,HW-Q930D/ZK,https://www.
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=HTS-13,,inStock,,,S-Series HW-S701D Soundbar,,N,HW-S701D/ZK,https://www.samsung.com/hk/multistore/hkses/buy.HW-S701DZK,HW-S701D/ZK,"3,490","2,990",,,"2,990",No,100,0,,,,,,,,,,,Add to Cart,"2,990.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,EA=HTS-14,,inStock,,,S-Series HW-S60D Soundbar,,N,HW-S60D/ZK,https://www.samsung.com/hk/multistore/hkses/buy.HW-S60DZK,HW-S60D/ZK,"2,490","2,490",,,"2,490",No,0,0,,,,,,,,,,,Add to Cart,"2,490.00",,,,,,,,,,,,,0,"
+,EA=HTS-14,,OOS (Blocked),,,S-Series HW-S60D Soundbar,,N,HW-S60D/ZK,https://www.samsung.com/hk/multistore/hkses/buy.HW-S60DZK,HW-S60D/ZK,"2,490","2,490",,,"2,490",No,0,0,,,,,,,,,,,Add to Cart,"2,490.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=HTS-15,,inStock,,,S-Series HW-S61D Soundbar,,N,HW-S61D/ZK,https://www.samsung.com/hk/multistore/hkses/buy.HW-S61DZK,HW-S61D/ZK,"2,490","2,490",,,"2,490",No,0,0,,,,,,,,,,,Add to Cart,"2,490.00",,,,,,,Z-SWA-9200S/ZK,,,,,Z-SWA-9200S/ZK,1,"
-●  1 x  SWA-9200S Wireless Rear Speaker [Z-SWA-9200S/ZK]
+Auto,EA=HTS-15,,inStock,,,S-Series HW-S61D Soundbar,,N,HW-S61D/ZK,https://www.samsung.com/hk/multistore/hkses/buy.HW-S61DZK,HW-S61D/ZK,"2,490","2,490",,,"2,490",No,0,0,,,,,,,,,,,Add to Cart,"2,490.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=HTS-16,,inStock,,,S-Series HW-LS60D Music Frame,,N,HW-LS60D/ZK,https://www.samsung.com/hk/multistore/hkses/buy.HW-LS60DZK,HW-LS60D/ZK,"3,890","3,680",,,"3,680",No,100,0,,,,,,,,,,,Add to Cart,"3,680.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -397,12 +397,12 @@ Auto,EA=HTS-15,,inStock,,,S-Series HW-S61D Soundbar,,N,HW-S61D/ZK,https://www.sa
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=MON,,,,,,,-,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=MON--01,,,,,"55"" Odyssey Ark 2<sup>nd</sup> Gen Curved Gaming Monitor (165Hz)",,N,LS55CG970NCXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS55CG970NCXXK,LS55CG970NCXXK,"25,800","25,800",,,"25,800",No,0,0,,,,,,,,,,,Add to Cart,"25,800.00",,Z-SM-A3660ZKGTGY-C,,,,,,,,,,Z-SM-A3660ZKGTGY-C,1,"
+Auto,EA=MON--01,,,,,"55"" Odyssey Ark 2<sup>nd</sup> Gen Curved Gaming Monitor (165Hz)",,N,LS55CG970NCXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS55CG970NCXXK,LS55CG970NCXXK,"25,800","25,800",,,"25,800",No,0,0,,,,,,,,,,,Add to Cart,"25,800.00",,,Z-SM-A3660ZKGTGY-C,,,,,,,,,Z-SM-A3660ZKGTGY-C,1,"
 ●  1 x  Galaxy A36 5G (Awesome Black) [Z-SM-A3660ZKGTGY-C]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=MON--02,,,,,"57"" Odyssey Neo G9 Curved Gaming Monitor (240Hz)",,N,LS57CG952NCXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS57CG952NCXXK,LS57CG952NCXXK,"21,980","21,980",,,"21,980",No,0,0,,,,,,,,,,,Add to Cart,"21,980.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=MON--03,,,,,"49"" Odyssey G9 OLED Curved Gaming Monitor (240Hz)",,N,LS49DG952SCXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS49DG952SCXXK,LS49DG952SCXXK,"16,980","16,980",,,"16,980",No,0,0,,,,,,,,,,,Add to Cart,"16,980.00",,,Z-SM-X210NZA-TV,,,,,,,,,Z-SM-X210NZA-TV,1,"
+Auto,EA=MON--03,,,,,"49"" Odyssey G9 OLED Curved Gaming Monitor (240Hz)",,N,LS49DG952SCXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS49DG952SCXXK,LS49DG952SCXXK,"16,980","16,980",,,"16,980",No,0,0,,,,,,,,,,,Add to Cart,"16,980.00",,Z-SM-X210NZA-TV,,,,,,,,,,Z-SM-X210NZA-TV,1,"
 ●  1 x  Galaxy Tab A9+ (Wi-Fi) [Z-SM-X210NZA-TV]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=MON--04,,,,,"34"" Odyssey G8 OLED Curved Gaming Monitor (175Hz)",,N,LS34DG852SCXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS34DG852SCXXK,LS34DG852SCXXK,"10,980","7,980",,,"7,980",No,0,0,,,,,,,,,,,Add to Cart,"7,980.00",,,,,,,,,,,,,0,"
@@ -429,8 +429,7 @@ Auto,EA=MON--05,,,,,"32"" Odyssey G8 OLED Gaming Monitor (240Hz)",,N,LS32DG802SC
 ",,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=MON--14,,,Checkout Page Result >> END OF TEST,,"32"" M7 Smart Monitor (2024), White",,EOL,LS32DM703UCXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS32DM703UCXXK,LS32DM703UCXXK,"3,180","3,180",,,3180,No,0,0,,,,,,,,,,,Add to Cart,"3,180.00",,,,,,,,,,,,,0,"
 ",,Cart Page Result >>,,,Step >>,Step >>,Verify >>,Step >>,Verify >>,Verify >>,Verify >>,Checkout Page Result >> END OF TEST,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=MON--15,,,Checkout Page Result,,34” Odyssey G5 Curved Gaming Monitor (165Hz),,UN,LC34G55TWWCXXK,https://www.samsung.com/hk/multistore/hkses/buy.LC34G55TWWCXXK,LC34G55TWWCXXK,"3,680","2,980",,,2980,No,0,0,,,,,,,,,,,Add to Cart,"2,980.00",,Z-ITFITPW21OCE-C,,,,,,,,,,Z-ITFITPW21OCE-C,1,"
-●  1 x  ITFIT 10,000mAh Power Bank [Z-ITFITPW21OCE-C]
+Auto,EA=MON--15,,,Checkout Page Result,,34” Odyssey G5 Curved Gaming Monitor (165Hz),,UN,LC34G55TWWCXXK,https://www.samsung.com/hk/multistore/hkses/buy.LC34G55TWWCXXK,LC34G55TWWCXXK,"3,680","2,980",,,2980,No,0,0,,,,,,,,,,,Add to Cart,"2,980.00",,,,,,,,,,,,,0,"
 ",,Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,"Guest or login, proceed to delivery option",Verify these Delivery Option available,Delivery method action,Verify these criteria,,Verify Expected Delivery Date,Checkout Page Result,Screencap of Step 2 Delivery Option,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=MON--16,,,,,"32"" M7 Smart Monitor (2024), Black",,EOL,LS32DM702UCXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS32DM702UCXXK,LS32DM702UCXXK,"3,180","3,180",,,3180,No,0,0,,,,,,,,,,,Add to Cart,"3,180.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -444,11 +443,9 @@ Auto,EA=MON--15,,,Checkout Page Result,,34” Odyssey G5 Curved Gaming Monitor (
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=MON--21,,,,,"32"" ViewFinity S8 S80UD UHD Monitor",,N,LS32D804UACXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS32D804UACXXK,LS32D804UACXXK,"3,480",,,,3480,No,0,0,,,,,,,,,,,Add to Cart,"3,480.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=MON--22,,,,,"32"" ViewFinity S7 UHD Monitor",,N,LS32D706EACXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS32D706EACXXK,LS32D706EACXXK,"2,880","2,580",,,2580,No,0,0,,,,,,,,,,,Add to Cart,"2,580.00",,Z-ITFITSD06-C,,,,,,,,,,Z-ITFITSD06-C,1,"
-●  1 x  ITFIT Desk Monitor Arm (Black) [Z-ITFITSD06-C]
+,EA=MON--22,,,,,"32"" ViewFinity S7 UHD Monitor",,N,LS32D706EACXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS32D706EACXXK,LS32D706EACXXK,"2,880","2,580",,,2580,No,0,0,,,,,,,,,,,Add to Cart,"2,580.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=MON--23,,,,,"27"" ViewFinity S7 UHD Monitor",,N,LS27D706EACXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS27D706EACXXK,LS27D706EACXXK,"1,480","1,480",,,1480,No,0,0,,,,,,,,,,,Add to Cart,"1,480.00",,Z-ITFITSD06-C,,,,,,,,,,Z-ITFITSD06-C,1,"
-●  1 x  ITFIT Desk Monitor Arm (Black) [Z-ITFITSD06-C]
+,EA=MON--23,,,,,"27"" ViewFinity S7 UHD Monitor",,N,LS27D706EACXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS27D706EACXXK,LS27D706EACXXK,"1,480","1,480",,,1480,No,0,0,,,,,,,,,,,Add to Cart,"1,480.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=MON--24,,,,,"32"" ViewFinity S6 S60UD QHD Monitor",,N,LS32D606UACXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS32D606UACXXK,LS32D606UACXXK,"3,080",,,,3080,No,0,0,,,,,,,,,,,Add to Cart,"3,080.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -510,10 +507,10 @@ Auto,EA=MON25-02,,,,,"49"" Odyssey G9 DQHD Gaming Monitor",,N,LS49FG916ECXXK,htt
 3.  Filter for 黑沙環
 4.  Select the last SF location","1-3.  Verify the SF filters are selectable
 4.  Verify the 黑沙環 SF locations are returned and can select the last option",,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=MON25-03,,,,,"32"" Odyssey OLED G8 G81SF Gaming Monitor (240Hz)",,N,LS32FG816SCXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS32FG816SCXXK,LS32FG816SCXXK,"9,980","9,980",,,9980,No,0,0,,,,,,,,,,,Add to Cart,"9,980.00",,Z-SM-A3660ZKGTGY-C,,,,,,,,,,Z-SM-A3660ZKGTGY-C,1,"
+Auto,EA=MON25-03,,,,,"32"" Odyssey OLED G8 G81SF Gaming Monitor (240Hz)",,N,LS32FG816SCXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS32FG816SCXXK,LS32FG816SCXXK,"9,980","9,980",,,9980,No,0,0,,,,,,,,,,,Add to Cart,"9,980.00",,,Z-SM-A3660ZKGTGY-C,,,,,,,,,Z-SM-A3660ZKGTGY-C,1,"
 ●  1 x  Galaxy A36 5G (Awesome Black) [Z-SM-A3660ZKGTGY-C]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=MON25-04,,,,,"27"" Odyssey OLED G8 G81SF Gaming Monitor (240Hz)",,N,LS27FG816SCXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS27FG816SCXXK,LS27FG816SCXXK,"8,980","8,980",,,8980,No,0,0,,,,,,,,,,,Add to Cart,"8,980.00",,Z-SM-A3660ZKGTGY-C,,,,,,,,,,Z-SM-A3660ZKGTGY-C,1,"
+Auto,EA=MON25-04,,,,,"27"" Odyssey OLED G8 G81SF Gaming Monitor (240Hz)",,N,LS27FG816SCXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS27FG816SCXXK,LS27FG816SCXXK,"8,980","8,980",,,8980,No,0,0,,,,,,,,,,,Add to Cart,"8,980.00",,,Z-SM-A3660ZKGTGY-C,,,,,,,,,Z-SM-A3660ZKGTGY-C,1,"
 ●  1 x  Galaxy A36 5G (Awesome Black) [Z-SM-A3660ZKGTGY-C]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=MON25-05,,,,,"27"" Odyssey OLED G6 G61SD QHD Gaming Monitor (240Hz)",,N,LS27DG612SCXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS27DG612SCXXK,LS27DG612SCXXK,"5,980","5,980",,,5980,No,0,0,,,,,,,,,,,Add to Cart,"5,980.00",,Z-RAZERKAIRAPRO,,,,,,,,,,Z-RAZERKAIRAPRO,1,"
@@ -585,7 +582,7 @@ Auto,EA=REF-15,,,,,RF48A4000B4 Twin Cooling Plus™ Multi Door Refrigerator 468L
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ●  1 x  ITFIT Rechargeable Electric Toothbrush [Z-ITFITEX37]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=REF-16,,,,,RS62R5007M9 Side By Side Refrigerators 647L,,N,RS62R5007M9/SH,https://www.samsung.com/hk/multistore/hkses/buy.RS62R5007M9SH,RS62R5007M9/SH,"12,990","9,990",,,"9,990",No,400,0,,,,,,,,,,,Add to Cart,"9,990.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
+Auto,EA=REF-16,,,,,RS62R5007M9 Side By Side Refrigerators 647L,,EOL,RS62R5007M9/SH,https://www.samsung.com/hk/multistore/hkses/buy.RS62R5007M9SH,RS62R5007M9/SH,"12,990","9,990",,,"9,990",No,400,0,,,,,,,,,,,Add to Cart,"9,990.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ●  1 x  ITFIT Rechargeable Electric Toothbrush [Z-ITFITEX37]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -658,16 +655,16 @@ Auto,EA=WM-11,,,,,"WD80T654DBE AI Ecobubble™ AI Control Front Load Washing Mac
 Auto,EA=WM-12,,,,,"WD80TA546BH AddWash™ Front Load Washing Machine + Dryer Combo 8/6kg, 1400rpm",,N,WD80TA546BH/SH,https://www.samsung.com/hk/multistore/hkses/buy.WD80TA546BHSH,WD80TA546BH/SH,"5,790","4,990",,,"4,990",No,200,0,,,,,,,,,,,Add to Cart,"4,990.00",,Z-ITFITAC05GN,,,,,,,,,,Z-ITFITAC05GN,1,"
 ●  1 x  ITFIT Multi-functional Laundry Basket (Green) [Z-ITFITAC05GN]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=WM-13,,,,,"WW70T3020BW/SH Slim440 Digital Inverter Front Load Washing Machine 7kg, 1200rpm",,N,WW70T3020BW/SH,https://www.samsung.com/hk/multistore/hkses/buy.WW70T3020BWSH,WW70T3020BW/SH,"4,890","3,390",,,"3,390",No,100,0,,,,,,,,,,,Add to Cart,"3,390.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
+Auto,EA=WM-13,,,,,"WW70T3020BW/SH Slim440 Digital Inverter Front Load Washing Machine 7kg, 1200rpm",,EOL,WW70T3020BW/SH,https://www.samsung.com/hk/multistore/hkses/buy.WW70T3020BWSH,WW70T3020BW/SH,"4,890","3,390",,,"3,390",No,100,0,,,,,,,,,,,Add to Cart,"3,390.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=WM-14,,,,,"WW70T3020BS/SH Slim440 Digital Inverter Front Load Washing Machine 7kg, 1200rpm",,N,WW70T3020BS/SH,https://www.samsung.com/hk/multistore/hkses/buy.WW70T3020BSSH,WW70T3020BS/SH,"5,090","3,490",,,"3,490",No,100,0,,,,,,,,,,,Add to Cart,"3,490.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
+Auto,EA=WM-14,,,,,"WW70T3020BS/SH Slim440 Digital Inverter Front Load Washing Machine 7kg, 1200rpm",,EOL,WW70T3020BS/SH,https://www.samsung.com/hk/multistore/hkses/buy.WW70T3020BSSH,WW70T3020BS/SH,"5,090","3,490",,,"3,490",No,100,0,,,,,,,,,,,Add to Cart,"3,490.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=WM-15,,,,,"WW80T3040BW/SH Slim465 Digital Inverter Front Load Washing Machine 8kg, 1400rpm",,N,WW80T3040BW/SH,https://www.samsung.com/hk/multistore/hkses/buy.WW80T3040BWSH,WW80T3040BW/SH,"5,190","3,790",,,"3,790",No,100,0,,,,,,,,,,,Add to Cart,"3,790.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=WM-16,,,,,"WW80T3040BS/SH Slim465 Digital Inverter Front Load Washing Machine 8kg, 1400rpm",,N,WW80T3040BS/SH,https://www.samsung.com/hk/multistore/hkses/buy.WW80T3040BSSH,WW80T3040BS/SH,"5,390","3,890",,,"3,890",No,100,0,,,,,,,,,,,Add to Cart,"3,890.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
+Auto,EA=WM-16,,,,,"WW80T3040BS/SH Slim465 Digital Inverter Front Load Washing Machine 8kg, 1400rpm",,EOL,WW80T3040BS/SH,https://www.samsung.com/hk/multistore/hkses/buy.WW80T3040BSSH,WW80T3040BS/SH,"5,390","3,890",,,"3,890",No,100,0,,,,,,,,,,,Add to Cart,"3,890.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=WM-18,,,,,"WW90T654DLE AI Ecobubble™ AI Control Front Load Washing Machine 9kg, 1400rpm",,EOL,WW90T654DLE/SH,https://www.samsung.com/hk/multistore/hkses/buy.WW90T654DLESH,WW90T654DLE/SH,"5,190",,,,"5,190",No,0,0,,,,,,,,,,,Add to Cart,"5,190.00",,,,,,,,,,,,,0,"
@@ -694,19 +691,19 @@ Auto,EA=WM-24,,,,,"WD12DBLB84GDSH AI Wash Front Load Washer + Dryer Combo 12/7kg
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=WM25,,,,,,,-,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=WM25-01,,,,,"WD90DG5G34BBSH Slim AI Ecobubble™ SpaceMax™ Washer Dryer Combo 9/5kg, 1400rpm",,N,WD90DG5G34BBSH,https://www.samsung.com/hk/multistore/hkses/buy.WD90DG5G34BBSH,WD90DG5G34BBSH,"6,290","5,090",,,"5,090",No,100,0,,,,,,,,,,,Add to Cart,"5,090.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
+Auto,EA=WM25-01,,,,,9kg Washer Dryer Combo with A -10 Extra Energy Efficiency and AI Ecobubble™ WD90DG5G34BESH WD90DG5G34BESH,,N,WD90DG5G34BBSH,https://www.samsung.com/hk/multistore/hkses/buy.WD90DG5G34BBSH,WD90DG5G34BBSH,"6,290","5,090",,,"5,090",No,100,0,,,,,,,,,,,Add to Cart,"5,090.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ●  1 x  ITFIT Rechargeable Electric Toothbrush [Z-ITFITEX37]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=WM25-02,,,,,"WD90DG5G34BESH Slim AI Ecobubble™ SpaceMax™ Washer Dryer Combo 9/5kg, 1400rpm",,N,WD90DG5G34BESH,https://www.samsung.com/hk/multistore/hkses/buy.WD90DG5G34BESH,WD90DG5G34BESH,"6,190","4,990",,,"4,990",No,100,0,,,,,,,,,,,Add to Cart,"4,990.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
+Auto,EA=WM25-02,,,,,9kg Washer Dryer Combo with A -10 Extra Energy Efficiency and AI Ecobubble™ WD90DG5G34BESH WD90DG5G34BESH,,N,WD90DG5G34BESH,https://www.samsung.com/hk/multistore/hkses/buy.WD90DG5G34BESH,WD90DG5G34BESH,"6,190","4,990",,,"4,990",No,100,0,,,,,,,,,,,Add to Cart,"4,990.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ●  1 x  ITFIT Rechargeable Electric Toothbrush [Z-ITFITEX37]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=WM25-03,,,,,"WD90DG6G94BBSH Slim AI Ecobubble™ AI Wash Washer Dryer Combo 9/5kg, 1400rpm",,N,WD90DG6G94BBSH,https://www.samsung.com/hk/multistore/hkses/buy.WD90DG6G94BBSH,WD90DG6G94BBSH,"6,690","6,690",,,"6,690",No,100,0,,,,,,,,,,,Add to Cart,"6,690.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
+Auto,EA=WM25-03,,,,,WD6100D Washer Dryer Combo with A-10 Extra Energy Efficiency and AI Ecobubble™ WD90DG6G94BBSH WD90DG6G94BKSH,,N,WD90DG6G94BBSH,https://www.samsung.com/hk/multistore/hkses/buy.WD90DG6G94BBSH,WD90DG6G94BBSH,"6,690","6,690",,,"6,690",No,100,0,,,,,,,,,,,Add to Cart,"6,690.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ●  1 x  ITFIT Rechargeable Electric Toothbrush [Z-ITFITEX37]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=WM25-04,,,,,,,N,WD90DG6G94BKSH,https://www.samsung.com/hk/multistore/hkses/buy.WD90DG6G94BKSH,WD90DG6G94BKSH,"6,590","5,290",,,"5,290",No,100,0,,,,,,,,,,,Add to Cart,"5,290.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
+Auto,EA=WM25-04,,,,,WD6100D Washer Dryer Combo with A-10 Extra Energy Efficiency and AI Ecobubble™ WD90DG6G94BBSH WD90DG6G94BKSH,,N,WD90DG6G94BKSH,https://www.samsung.com/hk/multistore/hkses/buy.WD90DG6G94BKSH,WD90DG6G94BKSH,"6,590","5,290",,,"5,290",No,100,0,,,,,,,,,,,Add to Cart,"5,290.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ●  1 x  ITFIT Rechargeable Electric Toothbrush [Z-ITFITEX37]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -736,14 +733,16 @@ Auto,EA=VC-03,,,,,VS20B958F3NSP Bespoke Jet Plus 210W Woody Green,,UN,VS20B958F3
 ●  1 x  BESPOKE Jet™ AI Active Dual Brush [Z-VCA-TABC97/GL]
 ●  1 x  Jet™ Tool Kit [Z-VCA-SAK95K/GL]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=VC-08,,,,,BESPOKE Jet™ AI Ultra Elite Cordless Stick Vacuum Cleaner - Greige,,N,VS90F40DBG/SP,https://www.samsung.com/hk/multistore/hkses/buy.VS90F40DBGSP,VS90F40DBG/SP,"7,090","6,390",,,"6,390",No,300,0,,,,,,,,,,,Add to Cart,"6,390.00",,Z-VCA-ADB952,Z-VCA-SPW95/VT,Z-VCA-SPA95/GL,Z-VCA-SAK95K/GL,,,,,,,"Z-VCA-ADB952,Z-VCA-SPW95/VT,Z-VCA-SPA95/GL,Z-VCA-SAK95K/GL",4,"
+Auto,EA=VC-08,,,,,BESPOKE Jet™ AI Ultra Elite Cordless Stick Vacuum Cleaner - Greige,,N,VS90F40DBG/SP,https://www.samsung.com/hk/multistore/hkses/buy.VS90F40DBGSP,VS90F40DBG/SP,"7,090","7,090",,,"7,090",No,300,0,,,,,,,,,,,Add to Cart,"7,090.00",,Z-VCA-ADB952,Z-VCA-SPW95/VT,Z-VCA-SPA95/GL,Z-VCA-SAK95K/GL,,,,,,,"Z-VCA-ADB952,Z-VCA-SPW95/VT,Z-VCA-SPA95/GL,Z-VCA-SAK95K/GL",4,"
 ●  1 x  BESPOKE Jet™ Clean Station Antibacterial Dust Bag (5ea) [Z-VCA-ADB952]
 ●  1 x  BESPOKE Jet™ Sweeper Microfiber Pads (4ea) [Z-VCA-SPW95/VT]
 ●  1 x  BESPOKE Jet™ Sweeper Disposable Wet Pads [Z-VCA-SPA95/GL]
 ●  1 x  Jet™ Tool Kit [Z-VCA-SAK95K/GL]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
-",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Auto,EA=VC-09,,,,,Bespoke AI Jet™ Lite,,N,VS80F28DFP/SP,https://www.samsung.com/hk/multistore/hkses/buy.VS80F28DFPSP,VS80F28DFP/SP,"6,490","6,490",,,"6,490",No,0,0,,,,,,,,,,,Add to Cart,"6,490.00",,Z-VCA-ADB952,Z-VCA-SAK95K/GL,,,,,,,,,"Z-VCA-ADB952,Z-VCA-SAK95K/GL",2,"
+●  1 x  BESPOKE Jet™ Clean Station Antibacterial Dust Bag (5ea) [Z-VCA-ADB952]
+●  1 x  Jet™ Tool Kit [Z-VCA-SAK95K/GL]
+",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
