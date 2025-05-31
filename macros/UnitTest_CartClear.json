@@ -10,6 +10,24 @@
       "Description": ""
     },
     {
+      "Command": "executeScript",
+      "Target": "return window.location.href.includes('/cart');",
+      "Value": "isCartPage",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "URL contains /cart: ${isCartPage}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${isCartPage}==true",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "if_v2",
       "Target": "${TradeIn}==\"Yes\"",
       "Value": "",
@@ -204,6 +222,12 @@
     {
       "Command": "pause",
       "Target": "400",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
       "Value": "",
       "Description": ""
     },
