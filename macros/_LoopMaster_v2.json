@@ -1,7 +1,8 @@
 {
   "Name": "_LoopMaster_v2",
   "CreationDate": "2025-6-1",
-  "Commands": [
+  "Commands":
+  [
     {
       "Command": "executeScript_Sandbox",
       "Target": "var targetDate = new Date('2025-06-01T00:01:00+08:00'); var now = new Date(); var diff = targetDate - now; return diff > 0 ? diff : 0;",
@@ -82,7 +83,7 @@
     },
     {
       "Command": "store",
-      "Target": "CE-B2C-6-300",
+      "Target": "CE-B2C-223-300",
       "Value": "loop3",
       "Description": ""
     },
@@ -148,7 +149,7 @@
     },
     {
       "Command": "executeScript_Sandbox",
-      "Target": "return [${loop1},${loop2},${loop3},${loop4},${loop5},${loop6},${loop7},${loop8},${loop9}]",
+      "Target": "return [${loop1},${loop2},${loop3},${loop4},${loop5},${loop6},${loop7},${loop8},${loop9},${loop10},${loop11},${loop12},${loop13}]",
       "Value": "loopStreamArray",
       "Description": ""
     },
