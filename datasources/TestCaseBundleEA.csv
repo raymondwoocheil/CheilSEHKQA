@@ -4,37 +4,37 @@ Result",Result,Step,,Code,,SKU List,,SKU,Store,,Add to cart link,Qty,RRP x Qty,R
 Comment / Reasons of Fail",Fix Status,,Time,Line,Case,Total Price in Cart,Total Price in Cart,"Total Price
 Result",Extra Premium,Extra Premium,Qty,"Extra Premium
 Result",Auto Test Results,Duration
-,,,4,5,,,8,9,,,,,,,,,,,"766,621",,,,,,,"192,817.76","725,135.76",,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,#REF!,,,,,,,1,,,,,,,0,,,,,,0.00,,,,,,,,,,,,,,,,,,,,,,,
+,,,4,5,,,8,9,,,,,,,,,,,"765,822",,,,,,,"192,082.68","724,400.68",,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,1,,,,,,,0,,,,,,0.00,,,,,,,,,,,,,,,,,,,,,,,
 ,MX Critcal CRP,,,,,Jun 1-30,,,,,,EA,"
 ",,,,,,,,,0,,,,,,0.00,,,,,,,,,,,-,,,,,,,,,,,,
 MX-CRP-01,"MX CRP 8% 
-(B2C)",,,,1,Add all to cart using this link,Add code: CRP Offers (Testing),,"Galaxy S25 Ultra, 512GB+12GB, Titanium Whitesilver",https://shop.samsung.com/hk/multistore/sehkea/hkses/ng/p4v1/addToCart?products[0].productCode=SM-S9380ZSGTGY&&products[0].quantity=1&&products[1].productCode=SM-A5660ZKDTGY&&products[1].quantity=1,SM-S9380ZSGTGY,EA,"
+(B2C)",,,,1,Add all to cart using this link,Add code: CRP Offers (Testing),CPTTEST,"Galaxy S25 Ultra, 512GB+12GB, Titanium Whitesilver",https://shop.samsung.com/hk/multistore/sehkea/hkses/ng/p4v1/addToCart?products[0].productCode=SM-S9380ZSGTGY&&products[0].quantity=1&&products[1].productCode=SM-A5660ZKDTGY&&products[1].quantity=1,SM-S9380ZSGTGY,EA,"
 ",SM-S9380ZSGTGY,1,"10,898","10,898",,"10,898",350,,350,550.00,8%,NRP,"10,026.16","10,026.16","10,026.16",0.00,0.00,"10,026.16",0.00,"13,152.32",,,,,,-,,,,,,,,,,,,
 ,,,,,2,EA Cart Link,,,"Galaxy A56 5G, 12GB + 256GB, Awesome Graphite",,SM-A5660ZKDTGY,EA,"
 ",SM-A5660ZKDTGY,1,"3,698","3,698","3,398","3,398",200,,200,,8%,NRP,"3,126.16","3,126.16","3,126.16",0.00,,"3,126.16",,,,,,,,,,,,,,,,,,,,
 MX-CRP-02,"MX CRP 8%
-(B2C)",,,,1,Add all to cart using this link,Add code: CRP Offers (Testing),,"Galaxy Tab S10 Ultra Wifi, 16GB+1TB, Moonstone Gray (Online Exclusive)",https://shop.samsung.com/hk/multistore/sehkea/hkses/ng/p4v1/addToCart?products[0].productCode=SM-X920NZAITGY&&products[0].quantity=1&&products[1].productCode=EF-DX720UBEGWW&&products[1].quantity=1,SM-X920NZAITGY,EA,"
-",SM-X920NZAITGY,1,"12,588","12,588","10,588","10,588",500,,500,500.00,8%,NRP,"9,740.96","9,740.96","9,740.96",0.00,735.08,"9,740.96",0.00,"9,976.04",,,,,,-,,,,,,,,,,,,
-,,,,,2,EA Cart Link,,,"Galaxy Tab S10 FE / Tab S9 , Book Cover Keyboard Slim — AI Key Black",,EF-DX720UBEGWW,EA,"
-",EF-DX720UBEGWW,1,799,799,,799,,,0,,8%,NRP,735.08,735.08,735.08,735.08,,235.08,,,,,,,,,,,,,,,,,,,,
+(B2C)",,,,1,Add all to cart using this link,Add code: CRP Offers (Testing),CPTTEST,"Galaxy Tab S10 Ultra Wifi, 16GB+1TB, Moonstone Gray (Online Exclusive)",https://shop.samsung.com/hk/multistore/sehkea/hkses/ng/p4v1/addToCart?products[0].productCode=SM-X920NZAITGY&&products[0].quantity=1&&products[1].productCode=&&products[1].quantity=1,SM-X920NZAITGY,EA,"
+",SM-X920NZAITGY,1,"12,588","12,588","10,588","10,588",500,,500,500.00,8%,NRP,"9,740.96","9,740.96","9,740.96",0.00,0.00,"9,740.96",0.00,"9,740.96",,,,,,-,,,,,,,,,,,,
+,,,,,2,EA Cart Link,,,,,,EA,"
+",,1,,,,,,,0,,8%,NRP,0.00,,0.00,,,0.00,,,,,,,,,,,,,,,,,,,,
 MX-CRP-02,"MX CRP 8%
-(B2C)",,,,1,Add all to cart using this link,Add code: CRP Offers (Testing),,"Galaxy Book5 Pro 360, 16""/i7/32GB/1TB, Gray",https://shop.samsung.com/hk/multistore/sehkea/hkses/ng/p4v1/addToCart?products[0].productCode=NP960QHA-KG1HK&&products[0].quantity=1&&products[1].productCode=NP960XHA-KS1HK&&products[1].quantity=1,NP960QHA-KG1HK,EA,"
+(B2C)",,,,1,Add all to cart using this link,Add code: CRP Offers (Testing),CPTTEST,"Galaxy Book5 Pro 360, 16""/i7/32GB/1TB, Gray",https://shop.samsung.com/hk/multistore/sehkea/hkses/ng/p4v1/addToCart?products[0].productCode=NP960QHA-KG1HK&&products[0].quantity=1&&products[1].productCode=NP960XHA-KS1HK&&products[1].quantity=1,NP960QHA-KG1HK,EA,"
 ",NP960QHA-KG1HK,1,"16,180","16,180","14,180","14,180",780,,780,"1,560.00",8%,NRP,"13,045.60","13,045.60","13,045.60",0.00,0.00,"13,045.60",0.00,"25,263.20",,,,,,-,,,,,,,,,,,,
 ,,,,,2,EA Cart Link,,,"Galaxy Book5 Pro, 16""/i7/32GB/1TB, Silver",,NP960XHA-KS1HK,EA,"
 ",NP960XHA-KS1HK,1,"14,880","14,880","13,280","13,280",780,,780,,8%,NRP,"12,217.60","12,217.60","12,217.60",0.00,,"12,217.60",,,,,,,,,,,,,,,,,,,,
 MX-CRP-03,"MX CRP 12%
-(B2C)",,,,1,Add all to cart using this link,Add code: CRP Offers (Testing),,"Galaxy Z Fold6, 256GB+12GB, Pink",https://shop.samsung.com/hk/multistore/sehkea/hkses/ng/p4v1/addToCart?products[0].productCode=SM-F9560LIDTGY&&products[0].quantity=1&&products[1].productCode=SM-S9360ZKGTGY&&products[1].quantity=1,SM-F9560LIDTGY,EA,"
+(B2C)",,,,1,Add all to cart using this link,Add code: CRP Offers (Testing),CPTTEST,"Galaxy Z Fold6, 256GB+12GB, Pink",https://shop.samsung.com/hk/multistore/sehkea/hkses/ng/p4v1/addToCart?products[0].productCode=SM-F9560LIDTGY&&products[0].quantity=1&&products[1].productCode=SM-S9360ZKGTGY&&products[1].quantity=1,SM-F9560LIDTGY,EA,"
 ",SM-F9560LIDTGY,1,"14,398","14,398",,"14,398",500,,500,800.00,12%,NRP,"12,670.24","12,670.24","12,670.24",0.00,0.00,"12,670.24",0.00,"20,236.48",,,,,,-,,,,,,,,,,,,
 ,,,,,2,EA Cart Link,,,"Galaxy S25+, 512GB+12GB, Blueblack, exclusive",,SM-S9360ZKGTGY,EA,"
 ",SM-S9360ZKGTGY,1,"8,598","8,598",,"8,598",300,,300,,12%,NRP,"7,566.24","7,566.24","7,566.24",0.00,,"7,566.24",,,,,,,,,,,,,,,,,,,,
 MX-CRP-03,"MX CRP 20% RRP
-(B2C)",,,,1,Add all to cart using this link,Add code: CRP Offers (Testing),,"Galaxy S25+, 256GB+12GB, Blueblack, exclusive",https://shop.samsung.com/hk/multistore/sehkea/hkses/ng/p4v1/addToCart?products[0].productCode=SM-S9360ZKDTGY&&products[0].quantity=1&&products[1].productCode=SM-S9380AKWTGY&&products[1].quantity=1,SM-S9360ZKDTGY,EA,"
+(B2C)",,,,1,Add all to cart using this link,Add code: CRP Offers (Testing),CPTTEST,"Galaxy S25+, 256GB+12GB, Blueblack, exclusive",https://shop.samsung.com/hk/multistore/sehkea/hkses/ng/p4v1/addToCart?products[0].productCode=SM-S9360ZKDTGY&&products[0].quantity=1&&products[1].productCode=SM-S9380AKWTGY&&products[1].quantity=1,SM-S9360ZKDTGY,EA,"
 ",SM-S9360ZKDTGY,1,"7,598","7,598",,"7,598",300,,300,650.00,20%,RRP,"6,078.40","6,078.40","6,078.40",0.00,0.00,"6,078.40",0.00,"16,796.80",,,,,,-,,,,,,,,,,,,
 ,,,,,2,EA Cart Link,,,"Galaxy S25 Ultra, 1TB+16GB, Titanium Jetblack, exclusive",,SM-S9380AKWTGY,EA,"
 ",SM-S9380AKWTGY,1,"13,398","13,398",,"13,398",350,,350,,20%,RRP,"10,718.40","10,718.40","10,718.40",0.00,,"10,718.40",,,,,,,,,,,,,,,,,,,,
 MX-CRP-04,"MX CRP 23% RRP
-(B2C)",,,,1,Add all to cart using this link,Add code: CRP Offers (Testing),,"Galaxy Z Fold6, 512GB+12GB, Crafted Black (eStore)",https://shop.samsung.com/hk/multistore/sehkea/hkses/ng/p4v1/addToCart?products[0].productCode=SM-F9560AKGTGY&&products[0].quantity=1&&products[1].productCode=SM-F9560AKDTGY&&products[1].quantity=1,SM-F9560AKGTGY,EA,"
+(B2C)",,,,1,Add all to cart using this link,Add code: CRP Offers (Testing),CPTTEST,"Galaxy Z Fold6, 512GB+12GB, Crafted Black (eStore)",https://shop.samsung.com/hk/multistore/sehkea/hkses/ng/p4v1/addToCart?products[0].productCode=SM-F9560AKGTGY&&products[0].quantity=1&&products[1].productCode=SM-F9560AKDTGY&&products[1].quantity=1,SM-F9560AKGTGY,EA,"
 ",SM-F9560AKGTGY,1,"15,398","15,398",,"15,398",500,,500,"1,000.00",23%,RRP,"11,856.46","11,856.46","11,856.46",0.00,0.00,"11,856.46",0.00,"22,942.92",,,,,,-,,,,,,,,,,,,
 ,,,,,2,EA Cart Link,,,"Galaxy Z Fold6, 256GB+12GB, Crafted Black (eStore)",,SM-F9560AKDTGY,EA,"
 ",SM-F9560AKDTGY,1,"14,398","14,398",,"14,398",500,,500,,23%,RRP,"11,086.46","11,086.46","11,086.46",0.00,,"11,086.46",,,,,,,,,,,,,,,,,,,,
@@ -88,15 +88,15 @@ TV-MBO-04,TV B3,,,,1,Add all to cart using this link,,,"Galaxy Buds3, Silver",ht
 ",SM-R530NZAATGY,1,"1,398","1,398",,"1,398",0,,0,0.00,500,RRP,898.00,898.00,898.00,0.00,0.00,898.00,0.00,"24,378.00",,,,,,-,,,,,,,,,,,,
 ,,,,,2,B2C Cart Link,,,"55"" OLED S95F (2025)",,QA55S95FAJXZK,,"
 ",QA55S95FAJXZK,1,"23,480","23,480","23,480","23,480",,,0,,,,,"23,480.00","23,480.00",0.00,,"23,480.00",,,,,,,,,,,,,,,,,,,,
-CE-Prom-01,CE eProm 5%,,,,1,Add all to cart using this link,Add code: CE ePromoter (5%) - May 25  - 1,,RT22M4032S8/SH 2 door Refrigerator 234L Elegant Inox,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=RT22M4032S8/SH&&products[0].quantity=1&&products[1].productCode=VS20C852FTB/SH&&products[1].quantity=1,RT22M4032S8/SH,,"
+CE-Prom-01,CE eProm 5%,,,,1,Add all to cart using this link,Add code: CE ePromoter (5%) - May 25  - 1,6ZA-FP8W-EZEW-FB3X,RT22M4032S8/SH 2 door Refrigerator 234L Elegant Inox,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=RT22M4032S8/SH&&products[0].quantity=1&&products[1].productCode=VS20C852FTB/SH&&products[1].quantity=1,RT22M4032S8/SH,,"
 ",RT22M4032S8/SH,1,"3,690","3,690","2,890","2,890",,,0,0.00,5%,NRP,"2,745.50","2,745.50","2,745.50",0.00,0.00,"2,745.50",0.00,"6,536.00",,,,,,-,,,,,,,,,,,,
 ,,,,,2,B2C Cart Link,,,VS20C852FTBSHJet85 Stick VC Midnight Blue,,VS20C852FTB/SH,,"
 ",VS20C852FTB/SH,1,"4,990","4,990","3,990","3,990",,,0,,5%,NRP,"3,790.50","3,790.50","3,790.50",0.00,,"3,790.50",,,,,,,,,,,,,,,,,,,,
-CE-Prom-02,CE eProm C450,,,,1,Add all to cart using this link,Add code: CE ePromoter (5%) - May 25  - 1,,"65"" Neo QLED 4K QN90F (2025)",https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=QA65QN90FAJXZK&&products[0].quantity=1&&products[1].productCode=QA55QN90FAJXZK&&products[1].quantity=1,QA65QN90FAJXZK,,"
+CE-Prom-02,CE eProm C450,,,,1,Add all to cart using this link,Add code: CE ePromoter (5%) - May 25  - 1,6ZA-FP8W-EZEW-FB3X,"65"" Neo QLED 4K QN90F (2025)",https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=QA65QN90FAJXZK&&products[0].quantity=1&&products[1].productCode=QA55QN90FAJXZK&&products[1].quantity=1,QA65QN90FAJXZK,,"
 ",QA65QN90FAJXZK,1,"24,280","24,280","24,280","24,280",,,0,0.00,5%,NRP,"23,066.00","23,066.00","23,066.00",0.00,0.00,"23,066.00",0.00,"40,432.00",,,,,,-,,,,,,,,,,,,
 ,,,,,2,B2C Cart Link,,,"55"" Neo QLED 4K QN90F (2025)",,QA55QN90FAJXZK,,"
 ",QA55QN90FAJXZK,1,"18,280","18,280","18,280","18,280",,,0,,5%,NRP,"17,366.00","17,366.00","17,366.00",0.00,,"17,366.00",,,,,,,,,,,,,,,,,,,,
-,CE CRP 15%,,,,1,Add all to cart using this link,Add code: CE CRP (15%) - May 25 - 1,,RT22M4032S8/SH 2 door Refrigerator 234L Elegant Inox,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=RT22M4032S8/SH&&products[0].quantity=1&&products[1].productCode=VS20C852FTB/SH&&products[1].quantity=1,RT22M4032S8/SH,,"
+,CE CRP 15%,,,,1,Add all to cart using this link,Add code: CE CRP (15%) - May 25 - 1,6ZH-ZWM3-8D6R-71Z,RT22M4032S8/SH 2 door Refrigerator 234L Elegant Inox,https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=RT22M4032S8/SH&&products[0].quantity=1&&products[1].productCode=VS20C852FTB/SH&&products[1].quantity=1,RT22M4032S8/SH,,"
 ",RT22M4032S8/SH,1,"3,690","3,690","2,890","2,890",,,0,,15%,NRP,"2,456.50","2,456.50","2,456.50",0.00,0.00,"2,456.50",0.00,"5,848.00",,,,,,-,,,,,,,,,,,,
 ,,,,,2,B2C Cart Link,,,VS20C852FTBSHJet85 Stick VC Midnight Blue,,VS20C852FTB/SH,,"
 ",VS20C852FTB/SH,1,"4,990","4,990","3,990","3,990",,,0,,15%,NRP,"3,391.50","3,391.50","3,391.50",0.00,,"3,391.50",,,,,,,,,,,,,,,,,,,,
@@ -175,7 +175,7 @@ CE-Prom-02,CE eProm C450,,,,1,Add all to cart using this link,Add code: CE eProm
 ,"[EA] MX Extra premium upon purcahse Fold6 / Flip6
 ",,,,,Jun 1-30,,,,,,,"
 ",,,,,,,,,0,,,,,,0.00,,,,,,,,,,,-,,,,,,,,,,,,
-EA-EXTRA-01,Extra premium upon purcahse Fold6 / Flip6,,,,1,Add all to cart using this link,Add code: EA exclusive,,"Galaxy Z Fold6, 512GB+12GB, Crafted Black (eStore)",https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=SM-F9560AKGTGY&&products[0].quantity=1&&products[1].productCode=SM-F9560ZSDTGY&&products[1].quantity=1&&products[2].productCode=SM-F7410AKETGY&&products[2].quantity=1&&products[3].productCode=SM-F7410LBATGY&&products[3].quantity=1,SM-F9560AKGTGY,,"
+EA-EXTRA-01,Extra premium upon purcahse Fold6 / Flip6,,,,1,Add all to cart using this link,Add code: EA exclusive,SES2025,"Galaxy Z Fold6, 512GB+12GB, Crafted Black (eStore)",https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=SM-F9560AKGTGY&&products[0].quantity=1&&products[1].productCode=SM-F9560ZSDTGY&&products[1].quantity=1&&products[2].productCode=SM-F7410AKETGY&&products[2].quantity=1&&products[3].productCode=SM-F7410LBATGY&&products[3].quantity=1,SM-F9560AKGTGY,,"
 ",SM-F9560AKGTGY,1,"15,398","15,398",,"15,398",500,,500,"2,000.00",,,,"15,398.00","15,398.00",0.00,0.00,"15,398.00",0.00,"47,192.00","4 x  Extra Buds2 Pro
 
 [Z-SM-R510NLVAASA
@@ -187,7 +187,7 @@ Z-SM-R510NZWAASA]",,,,,-,,,,,,,,,,,,
 0",SM-F7410AKETGY,1,"9,698","9,698","9,198","9,198",500,,500,,,,,"9,198.00","9,198.00",0.00,,"9,198.00",,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,"Galaxy Z Flip6, 256GB+12GB, Blue",,SM-F7410LBATGY,,"
 ",SM-F7410LBATGY,1,"8,698","8,698","8,198","8,198",500,,500,,,,,"8,198.00","8,198.00",0.00,,"8,198.00",,,,,,,,,,,,,,,,,,,,
-EA-EXTRA-02,Extra premium upon purcahse S25 series,,,,1,Add all to cart using this link,Add code: EA exclusive,,"Galaxy S25 Ultra, 1TB+16GB, Titanium Gray",https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=SM-S9380ZTWTGY&&products[0].quantity=1&&products[1].productCode=SM-S9370ZSGTGY&&products[1].quantity=1&&products[2].productCode=SM-S9360ZSGTGY&&products[2].quantity=1&&products[3].productCode=SM-S9310ZSHTGY&&products[3].quantity=1,SM-S9380ZTWTGY,,"
+EA-EXTRA-02,Extra premium upon purcahse S25 series,,,,1,Add all to cart using this link,Add code: EA exclusive,SES2025,"Galaxy S25 Ultra, 1TB+16GB, Titanium Gray",https://shop.samsung.com/hk/ng/p4v1/addToCart?products[0].productCode=SM-S9380ZTWTGY&&products[0].quantity=1&&products[1].productCode=SM-S9370ZSGTGY&&products[1].quantity=1&&products[2].productCode=SM-S9360ZSGTGY&&products[2].quantity=1&&products[3].productCode=SM-S9310ZSHTGY&&products[3].quantity=1,SM-S9380ZTWTGY,,"
 ",SM-S9380ZTWTGY,1,"13,398","13,398",,"13,398",350,,350,"1,150.00",,,,"13,398.00","13,398.00",0.00,0.00,"13,398.00",0.00,"37,892.00","3 x  Extra Z-ITFITEX40 / Z-ITFITEX41
 
 (S25 Edge does not include)",,,,,-,,,,,,,,,,,,
