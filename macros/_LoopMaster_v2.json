@@ -69,12 +69,6 @@
       "Description": ""
     },
     {
-      "Command": "executeScript_Sandbox",
-      "Target": "return ${endLoopStream}-${startLoopStream}+1",
-      "Value": "totalLoopStream",
-      "Description": ""
-    },
-    {
       "Command": "store",
       "Target": "MX-B2C-6-150",
       "Value": "loop1",
@@ -156,6 +150,24 @@
       "Command": "executeScript_Sandbox",
       "Target": "return [${loop1},${loop2},${loop3},${loop4},${loop5},${loop6},${loop7},${loop8},${loop9}]",
       "Value": "loopStreamArray",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(${endLoopStream})",
+      "Value": "endLoopStream",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(${startLoopStream})",
+      "Value": "startLoopStream",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return ${endLoopStream}-${startLoopStream}+1",
+      "Value": "totalLoopStream",
       "Description": ""
     },
     {
