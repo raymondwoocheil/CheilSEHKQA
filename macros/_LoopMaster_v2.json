@@ -1,8 +1,7 @@
 {
   "Name": "_LoopMaster_v2",
   "CreationDate": "2025-6-1",
-  "Commands":
-  [
+  "Commands": [
     {
       "Command": "executeScript_Sandbox",
       "Target": "var targetDate = new Date('2025-06-01T00:01:00+08:00'); var now = new Date(); var diff = targetDate - now; return diff > 0 ? diff : 0;",
@@ -59,13 +58,13 @@
     },
     {
       "Command": "store",
-      "Target": "1",
+      "Target": "10",
       "Value": "startLoopStream",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "8",
+      "Target": "11",
       "Value": "endLoopStream",
       "Description": ""
     },

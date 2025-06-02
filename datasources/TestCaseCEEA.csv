@@ -1,5 +1,5 @@
 CE EA,,,,,,Go to EA Cart Page,,,,,Via buy page,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,,,,136
-Assigned,Test Case,,,,,,,,,,100,Price,,Step >>,Step >>,Verify >>,Step >>,,Verify >>,,,,,,,,Step >>,,Special >>,Step >>,Verify >>,Verify >>,Mass premiums,,,,,,,,,,,Total,Verify >>,,Cart Page Result >>,,,Step >>,Step >>,Verify >>,Step >>,Verify >>,Verify >>,Verify >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Last Updated,,,,,
+Assigned,Test Case,,,,,,,,,,92,Price,,Step >>,Step >>,Verify >>,Step >>,,Verify >>,,,,,,,,Step >>,,Special >>,Step >>,Verify >>,Verify >>,Mass premiums,,,,,,,,,,,Total,Verify >>,,Cart Page Result >>,,,Step >>,Step >>,Verify >>,Step >>,Verify >>,Verify >>,Verify >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Last Updated,,,,,
 Tester,ID,Auto Cart,Price Status,Manual Checkout,Auto Checkout,Model,FAMILY,BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-up,Trade-up-discount,Verify trade-up discount,,,,,,,,Add Promo Code 1,Add Promo Code 2,Special discount after adding to cart,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass,Mass,Mass,Mass,Mass,Mass,Warrenty,,,,Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)","Verify Expired Premiums 
 NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,"Guest or login, proceed to delivery option",Verify these Delivery Option available,Delivery method action,Verify these criteria,,Verify Expected Delivery Date,Checkout Page Result,Screencap of Step 2 Delivery Option,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,Line No.,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,GC in cart,GC cart captured,GC cart result,Extra Trade-In Rebate label,Trade-In Rebate captured,Trade-In Rebate result,SC+ label,SC+ captured,SC+ result,Premium SKU count,Premium Count captured,Premium SKU count result,Failed reason,Items in Cart,SKU 1,Qty,,SKU 2,Qty,,SKU 3,Qty,,SKU 4,Qty,,SKU 5,Qty,,SKU 6,Qty,,SKU 7,Qty,,SKU 8,Qty,,SKU 9,Qty,,SKU 10,Qty,,Qty Total,Qty Total Result,Premium Array,Final Result,Test duration (s),,Cart Page Result,Last Updated,,,,,
@@ -123,9 +123,8 @@ Auto,EA=CTV-O-02,,Unavailable,,,"77"" OLED S95D",,UN,QA77S95DAJXZK,https://www.s
 Auto,EA=CTV-O-04,,inStock,,,"55"" OLED S95D",,N,QA55S95DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55S95DAJXZK,QA55S95DAJXZK,"18,980","18,980",,,"18,980",No,850,0,,,,,,,,,,,Add to Cart,"18,980.00",,Z-HW-Q700D/ZK,,,,,,,,,,Z-HW-Q700D/ZK,1,"
 ●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV-O-05,,inStock,,,"65"" OLED S90DA",,N,QA65S90DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65S90DAJXZK,QA65S90DAJXZK,"20,980","19,980",,,"19,980",No,950,0,,,,,,,,,,,Add to Cart,"19,980.00",,Z-WMN-B05FB/XY,Z-HW-Q700D/ZK,,,,,,,,,"Z-WMN-B05FB/XY,Z-HW-Q700D/ZK",2,"
+Auto,EA=CTV-O-05,,inStock,,,"65"" OLED S90DA",,N,QA65S90DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65S90DAJXZK,QA65S90DAJXZK,"20,980","19,980",,,"19,980",No,950,0,,,,,,,,,,,Add to Cart,"19,980.00",,Z-WMN-B05FB/XY,,,,,,,,,,Z-WMN-B05FB/XY,1,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
-●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV-O-06,,inStock,,,"55"" OLED S90DA",,N,QA55S90DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55S90DAJXZK,QA55S90DAJXZK,"15,980","14,680",,,"14,680",No,650,0,,,,,,,,,,,Add to Cart,"14,680.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -165,7 +164,7 @@ Auto,EA=CTV-L-11,,inStock,,,"32"" The Frame LS03C",,N,QA32LS03CBJXZK,https://www
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV-U-07,,Unavailable,,,"55"" Crystal UHD DU7700",,UN,UA55DU7700JXZK,https://www.samsung.com/hk/multistore/hkses/buy.UA55DU7700JXZK,UA55DU7700JXZK,"4,780","4,280",,,"4,280",No,150,0,,,,,,,,,,,Add to Cart,"4,280.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,EA=CTV-U-08,,inStock,,,"50"" Crystal UHD DU7700",,N,UA50DU7700JXZK,https://www.samsung.com/hk/multistore/hkses/buy.UA50DU7700JXZK,UA50DU7700JXZK,"4,180","3,580",,,"3,580",No,150,0,,,,,,,,,,,Add to Cart,"3,580.00",,,,,,,,,,,,,0,"
+,EA=CTV-U-08,,OOS (Blocked),,,"50"" Crystal UHD DU7700",,N,UA50DU7700JXZK,https://www.samsung.com/hk/multistore/hkses/buy.UA50DU7700JXZK,UA50DU7700JXZK,"4,180","3,580",,,"3,580",No,150,0,,,,,,,,,,,Add to Cart,"3,580.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV-U-09,,Unavailable,,,"43"" Crystal UHD DU7700",,UN,UA43DU7700JXZK,https://www.samsung.com/hk/multistore/hkses/buy.UA43DU7700JXZK,UA43DU7700JXZK,"3,580",,,,"3,580",No,0,0,,,,,,,,,,,Add to Cart,"3,580.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -293,7 +292,7 @@ Auto,EA=CTV25-QN-26,,inStock,,,"55"" Neo QLED 4K QN1E (2025)",,N,QA55QN1EFAJXZK,
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV25-QN-27,,inStock,,,"65"" QLED Q8FA (2025)",,N,QA65Q8FAAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65Q8FAAJXZK,QA65Q8FAAJXZK,"13,480","13,480",,,13480,No,0,0,,,,,,,,,,,Add to Cart,"13,480.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,EA=CTV25-QN-28,,OOS (Blocked),,,"55"" QLED Q8FA (2025)",,N,QA55Q8FAAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55Q8FAAJXZK,QA55Q8FAAJXZK,"8,480","8,480",,,8480,No,0,0,,,,,,,,,,,Add to Cart,"8,480.00",,,,,,,,,,,,,0,"
+,EA=CTV25-QN-28,,inStock,,,"55"" QLED Q8FA (2025)",,N,QA55Q8FAAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55Q8FAAJXZK,QA55Q8FAAJXZK,"8,480","8,480",,,8480,No,0,0,,,,,,,,,,,Add to Cart,"8,480.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV25-QN-29,,inStock,,,"50"" QLED Q8FA (2025)",,N,QA50Q8FAAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA50Q8FAAJXZK,QA50Q8FAAJXZK,"7,280","7,280",,,7280,No,0,0,,,,,,,,,,,Add to Cart,"7,280.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -552,6 +551,8 @@ Auto,EA=MON25-05,,,,,"27"" Odyssey OLED G6 G61SD QHD Gaming Monitor (240Hz)",,N,
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,"34"" ViewFinity S6 S65UC Curved Monitor",,UN,LS34C652UACXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS34C652UACXXK,LS34C652UACXXK,"2,580",,,,"2,580",No,0,0,,,,,,,,,,,Add to Cart,"2,580.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,N,LS22F320GACXXK,https://www.samsung.com/hk/multistore/hkses/buy.LS22F320GACXXK,LS22F320GACXXK,,,,,,No,0,0,,,,,,,,,,,Add to Cart,0.00,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=REF,,,,,,,-,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=REF-01,,,,,RT22M4032S8/SH 2 door Refrigerator 234L Elegant Inox,,N,RT22M4032S8/SH,https://www.samsung.com/hk/multistore/hkses/buy.RT22M4032S8SH,RT22M4032S8/SH,"3,690","2,890",,,"2,890",No,100,0,,,,,,,,,,,Add to Cart,"2,890.00",,,,,,,,,,,,,0,"
@@ -747,31 +748,6 @@ Auto,EA=VC-09,,,,,Bespoke AI Jet™ Lite,,N,VS80F28DFP/SP,https://www.samsung.co
 ●  1 x  BESPOKE Jet™ Clean Station Antibacterial Dust Bag (5ea) [Z-VCA-ADB952]
 ●  1 x  Jet™ Tool Kit [Z-VCA-SAK95K/GL]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,EA=CTV25-TI,,,,,,,-,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
-",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-TI-01,,,,,"65"" OLED S95F (2025)",,N,QA65S95FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65S95FAJXZK,QA65S95FAJXZK,"33,480","33,480",,,"33,480",No,0,0,,,,,,,,,,,Add to Cart,"33,480.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
-●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-TI-02,,,,,"77"" OLED S90F (2025)",,N,QA77S90FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA77S90FAEXZK,QA77S90FAEXZK,"49,980","49,980",,,"49,980",No,0,0,,,,,,,,,,,Add to Cart,"49,980.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
-●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-TI-03,,,,,"65"" OLED S90F (2025)",,N,QA65S90FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65S90FAEXZK,QA65S90FAEXZK,"25,280","25,280",,,"25,280",No,0,0,,,,,,,,,,,Add to Cart,"25,280.00",,Z-WMN-B05FB/XY,,,,,,,,,,Z-WMN-B05FB/XY,1,"
-●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
-",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-TI-04,,,,,"42"" OLED S90F (2025)",,N,QA42S90FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA42S90FAEXZK,QA42S90FAEXZK,"11,380","11,380",,,"11,380",No,0,0,,,,,,,,,,,Add to Cart,"11,380.00",,,,,,,,,,,,,0,"
-",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-TI-05,,,,,"65"" Neo QLED 4K QN90F (2025)",,N,QA65QN90FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65QN90FAJXZK,QA65QN90FAJXZK,"24,280","24,280",,,"24,280",No,0,0,,,,,,,,,,,Add to Cart,"24,280.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
-●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-TI-06,,,,,"77"" OLED S85F (2025)",,N,QA77S85FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA77S85FAEXZK,QA77S85FAEXZK,"42,480","42,480",,,"42,480",No,0,0,,,,,,,,,,,Add to Cart,"42,480.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
-●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-TI-07,,,,,"65"" OLED S85F (2025)",,N,QA65S85FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65S85FAEXZK,QA65S85FAEXZK,"21,980","21,980",,,"21,980",No,0,0,,,,,,,,,,,Add to Cart,"21,980.00",,Z-WMN-B05FB/XY,,,,,,,,,,Z-WMN-B05FB/XY,1,"
-●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
-",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-TI-08,,,,,"75"" Neo QLED 4K QN70F (2025)",,N,QA75QN70FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA75QN70FAJXZK,QA75QN70FAJXZK,"24,980","24,980",,,"24,980",No,0,0,,,,,,,,,,,Add to Cart,"24,980.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
-●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
-",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
@@ -781,11 +757,7 @@ Auto,EA=CTV25-TI-08,,,,,"75"" Neo QLED 4K QN70F (2025)",,N,QA75QN70FAJXZK,https:
 ,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
-",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
-",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
-",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+",,,,,End of Test,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
@@ -794,6 +766,26 @@ Auto,EA=CTV25-TI-08,,,,,"75"" Neo QLED 4K QN70F (2025)",,N,QA75QN70FAJXZK,https:
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
+",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,,,,0,"
