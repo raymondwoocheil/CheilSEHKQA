@@ -1,14 +1,14 @@
-CE SPP,,,,,,Go to SPP Cart Page,,,,,Via add-to-cart link,13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,,,,136
-Assigned,Test Case,,,,,,,,,,92,Price,,Step >>,Step >>,Verify >>,Step >>,,Verify >>,,,,,,,,Step >>,,Special >>,Step >>,Verify >>,Verify >>,Mass premiums,,,,,,,EPP only,EPP only,B2C only,,Total,Verify >>,,Cart Page Result >>,,,Step >>,Step >>,Verify >>,Step >>,Verify >>,Verify >>,Verify >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Last Updated,,,,,
+CE SPP,,,,,,Go to SPP Cart Page,,,,,Via buy page,13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,,,,136
+Assigned,Test Case,,,,,,,,,,96,Price,,Step >>,Step >>,Verify >>,Step >>,,Verify >>,,,,,,,,Step >>,,Special >>,Step >>,Verify >>,Verify >>,Mass premiums,,,,,,,EPP only,EPP only,B2C only,,Total,Verify >>,,Cart Page Result >>,,,Step >>,Step >>,Verify >>,Step >>,Verify >>,Verify >>,Verify >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Last Updated,,,,,
 Tester,ID,Auto Cart,Premiunm Qty,Manual Cart,Price Status,Model,FAMILY,BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-up,Trade-up-discount,Verify trade-up discount,,,,,,,,Add Promo Code 1,Add Promo Code 2,Special discount after adding to cart,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass,Mass,Mass,Mass,Mass,Mass,Warrenty,EPP,EPP,,Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)","Verify Expired Premiums 
 NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,"Guest or login, proceed to delivery option",Verify these Delivery Option available,Delivery method action,Verify these criteria,,Verify Expected Delivery Date,Checkout Page Result,Screencap of Step 2 Delivery Option,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,Line No.,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,GC in cart,GC cart captured,GC cart result,Extra Trade-In Rebate label,Trade-In Rebate captured,Trade-In Rebate result,SC+ label,SC+ captured,SC+ result,Premium SKU count,Premium Count captured,Premium SKU count result,Failed reason,Items in Cart,SKU 1,Qty,,SKU 2,Qty,,SKU 3,Qty,,SKU 4,Qty,,SKU 5,Qty,,SKU 6,Qty,,SKU 7,Qty,,SKU 8,Qty,,SKU 9,Qty,,SKU 10,Qty,,Qty Total,Qty Total Result,Premium Array,Final Result,Test duration (s),,Cart Page Result,Last Updated,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0,,0.00,,,,,,,,,"ARRAY_CONSTRAIN(ARRAYFORMULA(IF(U4:U=""Yes"",IFERROR(XLOOKUP(J4:J,'Trade-in-REF'!A:A,'Trade-in-REF'!D:D),),IFERROR(XLOOKUP(J4:J,'Trade-in-REF'!A:A,'Trade-in-REF'!F:F),))),150,1)","ARRAY_CONSTRAIN(ARRAYFORMULA(IFERROR(XLOOKUP($L4:$L,CE!$L:$L,CE!AP:AP),)),300,1)\",,"ARRAY_CONSTRAIN(ARRAYFORMULA(IF(U4:U=""Yes"",IFERROR(XLOOKUP(J4:J,'Trade-in-REF'!A:A,'Trade-in-REF'!D:D),),IFERROR(XLOOKUP(J4:J,'Trade-in-REF'!A:A,'Trade-in-REF'!F:F),))),150,1),ARRAY_CONSTRAIN(ARRAYFORMULA(IFERROR(XLOOKUP($L4:$L,CE!$L:$L,CE!AP:AP),)),300,1)\",,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0,,0.00,,,,,,,,,"ARRAY_CONSTRAIN(ARRAYFORMULA(IF(U4:U=""Yes"",IFERROR(XLOOKUP(J4:J,'Trade-in-REF'!A:A,'Trade-in-REF'!D:D),),IFERROR(XLOOKUP(J4:J,'Trade-in-REF'!A:A,'Trade-in-REF'!F:F),))),150,1)","ARRAY_CONSTRAIN(ARRAYFORMULA(IFERROR(XLOOKUP($L4:$L,CE!$L:$L,CE!AP:AP),)),300,1)\",,"ARRAY_CONSTRAIN(ARRAYFORMULA(IF(U4:U=""Yes"",IFERROR(XLOOKUP(J4:J,'Trade-in-REF'!A:A,'Trade-in-REF'!D:D),),IFERROR(XLOOKUP(J4:J,'Trade-in-REF'!A:A,'Trade-in-REF'!F:F),))),150,1),ARRAY_CONSTRAIN(ARRAYFORMULA(IFERROR(XLOOKUP($L4:$L,CE!$L:$L,CE!AP:AP),)),300,1)\",,"
 ",,,,,,,,,,,#N/A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,"
 
 
 "
-,S=CTV,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,S=CTV,,,,,,,-,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,No,,1899/12/30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=CTV-QN-01,,,,OOS (Blocked),"85"" Neo QLED 8K QN900D",,UN,QA85QN900DJXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.QA85QN900DJXZK,QA85QN900DJXZK,"99,980","87,982",cptqaer+3@gmail.com,!Cheil2024,"87,982",No,0,0,,,,,,,,,,150.00,Add to Cart,"87,832.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
@@ -20,7 +20,7 @@ NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckou
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=CTV-QN-05,,,,Unavailable,"65"" Neo QLED 4K QN95D",,UN,QA65QN95DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.QA65QN95DAJXZK,QA65QN95DAJXZK,"25,480","22,422",cptqaer+3@gmail.com,!Cheil2024,"22,422",No,0,0,,,,,,,,,,150.00,Add to Cart,"22,272.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,S=CTV-QN-06,,,,inStock,"55"" Neo QLED 4K QN95D",,N,QA55QN95DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.QA55QN95DAJXZK,QA55QN95DAJXZK,"19,980","17,582",cptqaer+3@gmail.com,!Cheil2024,"17,582",No,900,0,,,,,,,,,,150.00,Add to Cart,"17,432.00",,Z-HW-Q700D/ZK,,,,,,ZG-FREE1YRWAREXT,,,,"Z-HW-Q700D/ZK,ZG-FREE1YRWAREXT",2,"
+Auto,S=CTV-QN-06,,,,Unavailable,"55"" Neo QLED 4K QN95D",,UN,QA55QN95DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.QA55QN95DAJXZK,QA55QN95DAJXZK,"19,980","17,582",cptqaer+3@gmail.com,!Cheil2024,"17,582",No,900,0,,,,,,,,,,150.00,Add to Cart,"17,432.00",,Z-HW-Q700D/ZK,,,,,,ZG-FREE1YRWAREXT,,,,"Z-HW-Q700D/ZK,ZG-FREE1YRWAREXT",2,"
 ●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ●  1 x  Free 1-year Warranty Extension Offer (designated TV models) [ZG-FREE1YRWAREXT]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
@@ -90,7 +90,7 @@ Auto,S=CTV-O-02,,,,OOS (Blocked),"77"" OLED S95D",,UN,QA77S95DAJXZK,https://www.
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=CTV-O-03,,,,Unavailable,"65"" OLED S95D",,EOL,QA65S95DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.QA65S95DAJXZK,QA65S95DAJXZK,"25,980","22,862",cptqaer+3@gmail.com,!Cheil2024,"22,862",No,0,0,,,,,,,,,,150.00,Add to Cart,"22,712.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,S=CTV-O-04,,,,inStock,"55"" OLED S95D",,N,QA55S95DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.QA55S95DAJXZK,QA55S95DAJXZK,"18,980","16,702",cptqaer+3@gmail.com,!Cheil2024,"16,702",No,850,0,,,,,,,,,,150.00,Add to Cart,"16,552.00",,Z-HW-Q700D/ZK,,,,,,,,,,Z-HW-Q700D/ZK,1,"
+Auto,S=CTV-O-04,,,,Unavailable,"55"" OLED S95D",,UN,QA55S95DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.QA55S95DAJXZK,QA55S95DAJXZK,"18,980","16,702",cptqaer+3@gmail.com,!Cheil2024,"16,702",No,850,0,,,,,,,,,,150.00,Add to Cart,"16,552.00",,Z-HW-Q700D/ZK,,,,,,,,,,Z-HW-Q700D/ZK,1,"
 ●  1 x  Q-series Soundbar HW-Q700D [Z-HW-Q700D/ZK]
 ",,,,,End of Test,Guest or Login,"●  Home delivery
 ●  Store pickup
@@ -99,10 +99,10 @@ Auto,S=CTV-O-04,,,,inStock,"55"" OLED S95D",,N,QA55S95DAJXZK,https://www.samsung
 3.  District=Macau Peninsula","Verify dispatch date 
 = today + 3 days (current time <2pm)
 = today + 4 days (current time >=2pm)",,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-Auto,S=CTV-O-05,,,,inStock,"65"" OLED S90DA",,N,QA65S90DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.QA65S90DAJXZK,QA65S90DAJXZK,"20,980","17,582",cptqaer+3@gmail.com,!Cheil2024,"17,582",No,950,0,,,,,,,,,,150.00,Add to Cart,"17,432.00",,Z-WMN-B05FB/XY,,,,,,,,,,Z-WMN-B05FB/XY,1,"
+Auto,S=CTV-O-05,,,,Unavailable,"65"" OLED S90DA",,UN,QA65S90DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.QA65S90DAJXZK,QA65S90DAJXZK,"20,980","17,582",cptqaer+3@gmail.com,!Cheil2024,"17,582",No,950,0,,,,,,,,,,150.00,Add to Cart,"17,432.00",,Z-WMN-B05FB/XY,,,,,,,,,,Z-WMN-B05FB/XY,1,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,S=CTV-O-06,,,,inStock,"55"" OLED S90DA",,N,QA55S90DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.QA55S90DAJXZK,QA55S90DAJXZK,"15,980","12,918",cptqaer+3@gmail.com,!Cheil2024,"12,918",No,650,0,,,,,,,,,,150.00,Add to Cart,"12,768.00",,,,,,,,,,,,,0,"
+,S=CTV-O-06,,,,Unavailable,"55"" OLED S90DA",,UN,QA55S90DAJXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.QA55S90DAJXZK,QA55S90DAJXZK,"15,980","12,918",cptqaer+3@gmail.com,!Cheil2024,"12,918",No,650,0,,,,,,,,,,150.00,Add to Cart,"12,768.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=CTV-O-07,,,,OOS (Blocked),"77"" OLED S90DAE",,UN,QA77S90DAEXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.QA77S90DAEXZK,QA77S90DAEXZK,"46,480","40,902",cptqaer+3@gmail.com,!Cheil2024,"40,902",No,0,0,,,,,,,,,,150.00,Add to Cart,"40,752.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
@@ -160,7 +160,7 @@ Auto,S=CTV-L-11,,,,inStock,"32"" The Frame LS03C",,N,QA32LS03CBJXZK,https://www.
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=CTV-U-11,,,,Unavailable,"32"" T5300 FHD Smart TV",,EOL,UA32T5300AJXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.UA32T5300AJXZK,UA32T5300AJXZK,"2,980","2,622",cptqaer+3@gmail.com,!Cheil2024,"2,622",No,0,0,,,,,,,,,,0.00,Add to Cart,"2,622.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,No,,1899/12/30,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,S=CTV25,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,S=CTV25,,,,,,,-,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,Guest or Login,"●  Home delivery
 ●  Store pickup
 ●  SF Express","1.  Select SF Express
@@ -322,7 +322,7 @@ Auto,S=CTV25-QN-37,,,,inStock,"75"" QLED Q7FA (2025)",,N,QA75Q7FAAJXZK,https://w
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=CTV25-U-02,,,,inStock,"65"" UHD 8500 (2025)",,N,UA65U8500FJXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.UA65U8500FJXZK,UA65U8500FJXZK,"9,480","8,342",cptqaer+3@gmail.com,!Cheil2024,"8,342",No,0,0,,,,,,,,,,150.00,Add to Cart,"8,192.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,S=CTV25-U-03,,,,inStock,"55"" UHD 8500 (2025)",,N,UA55U8500FJXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.UA55U8500FJXZK,UA55U8500FJXZK,"5,680","4,998",cptqaer+3@gmail.com,!Cheil2024,"4,998",No,0,0,,,,,,,,,,150.00,Add to Cart,"4,848.00",,,,,,,,,,,,,0,"
+,S=CTV25-U-03,,,,OOS (Blocked),"55"" UHD 8500 (2025)",,N,UA55U8500FJXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.UA55U8500FJXZK,UA55U8500FJXZK,"5,680","4,998",cptqaer+3@gmail.com,!Cheil2024,"4,998",No,0,0,,,,,,,,,,150.00,Add to Cart,"4,848.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=CTV25-U-04,,,,inStock,"50"" UHD 8500 (2025)",,N,UA50U8500FJXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.UA50U8500FJXZK,UA50U8500FJXZK,"4,980","4,382",cptqaer+3@gmail.com,!Cheil2024,"4,382",No,0,0,,,,,,,,,,150.00,Add to Cart,"4,232.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
@@ -330,21 +330,21 @@ Auto,S=CTV25-QN-37,,,,inStock,"75"" QLED Q7FA (2025)",,N,QA75Q7FAAJXZK,https://w
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=CTV25-H-01,,,,Unavailable,"32"" HD 5000 (2025)",,UN,UA32H5000FJXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.UA32H5000FJXZK,UA32H5000FJXZK,"2,180","1,918",cptqaer+3@gmail.com,!Cheil2024,"1,918",No,0,0,,,,,,,,,,0.00,Add to Cart,"1,918.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,S=PRO,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,S=PRO,,,,,,,-,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=PRO-01,,,,Unavailable,The Freestyle 2nd Gen,,UN,SP-LFF3CLAXXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.SP-LFF3CLAXXZK,SP-LFF3CLAXXZK,"6,980","6,142",cptqaer+3@gmail.com,!Cheil2024,"6,142",No,0,0,,,,,,,,,,150.00,Add to Cart,"5,992.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=PRO-02,,,,inStock,"130"" LPU9D The Premiere 4K Smart Triple Laser Projector (2024)",,EOL,SP-LPU9DSAXXZK,https://www.samsung.com/hk/multistore/hkeducation/buy.SP-LPU9DSAXXZK,SP-LPU9DSAXXZK,"59,980","52,782",cptqaer+3@gmail.com,!Cheil2024,"52,782",No,0,0,,,,,,,,,,150.00,Add to Cart,"52,632.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,S=HTS,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,S=HTS,,,,,,,-,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=HTS-01,,,,inStock,C-Series HW-C450 2.1ch Soundbar,,N,HW-C450/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.HW-C450ZK,HW-C450/ZK,"1,990","1,751",cptqaer+3@gmail.com,!Cheil2024,"1,751",No,0,0,,,,,,,,,,0.00,Add to Cart,"1,751.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=HTS-02,,,,inStock,SWA-9100S 無線後置喇叭,,N,SWA-9100S/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.SWA-9100SZK,SWA-9100S/ZK,990,871,cptqaer+3@gmail.com,!Cheil2024,871,No,0,0,,,,,,,,,,0.00,Add to Cart,871.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,S=HTS-03,,,,inStock,SWA-9200S 無線後置喇叭,,N,SWA-9200S/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.SWA-9200SZK,SWA-9200S/ZK,"1,090",981,cptqaer+3@gmail.com,!Cheil2024,981,No,0,0,,,,,,,,,,0.00,Add to Cart,981.00,,,,,,,,,,,,,0,"
+,S=HTS-03,,,,inStock,SWA-9200S 無線後置喇叭,,N,SWA-9200S/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.SWA-9200SZK,SWA-9200S/ZK,"1,090",959,cptqaer+3@gmail.com,!Cheil2024,959,No,0,0,,,,,,,,,,0.00,Add to Cart,959.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,S=HTS-04,,,,inStock,SWA-9500S 無線後置喇叭,,N,SWA-9500S/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.SWA-9500SZK,SWA-9500S/ZK,"2,190","1,971",cptqaer+3@gmail.com,!Cheil2024,"1,971",No,0,0,,,,,,,,,,0.00,Add to Cart,"1,971.00",,,,,,,,,,,,,0,"
+,S=HTS-04,,,,inStock,SWA-9500S 無線後置喇叭,,N,SWA-9500S/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.SWA-9500SZK,SWA-9500S/ZK,"2,190","1,927",cptqaer+3@gmail.com,!Cheil2024,"1,927",No,0,0,,,,,,,,,,0.00,Add to Cart,"1,927.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 Auto,S=HTS-05,,,,inStock,Q-series Soundbar HW-Q990D,,N,HW-Q990D/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.HW-Q990DZK,HW-Q990D/ZK,"9,990","7,902",cptqaer+3@gmail.com,!Cheil2024,"7,902",No,400,0,,,,,,,,,,150.00,Add to Cart,"7,752.00",,Z-ITFITEX32,,,,,,ZG-SOUNDBAR1YRWAREXT,,,,"Z-ITFITEX32,ZG-SOUNDBAR1YRWAREXT",2,"
 ●  1 x  ITFIT Floor Speaker Stands [Z-ITFITEX32]
@@ -354,7 +354,7 @@ Auto,S=HTS-06,,,,inStock,Q-series Soundbar HW-Q930D,,N,HW-Q930D/ZK,https://www.s
 ●  1 x  ITFIT Floor Speaker Stands [Z-ITFITEX32]
 ●  1 x  Free 1-year Warranty Extension Offer (designated Soundbar models) [ZG-SOUNDBAR1YRWAREXT]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,S=HTS-07,,,,inStock,Q-series Soundbar HW-Q800D,,N,HW-Q800D/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.HW-Q800DZK,HW-Q800D/ZK,"4,790","4,215",cptqaer+3@gmail.com,!Cheil2024,"4,215",No,0,0,,,,,,,,,,150.00,Add to Cart,"4,065.00",,,,,,,,,,,,,0,"
+,S=HTS-07,,,,Unavailable,Q-series Soundbar HW-Q800D,,UN,HW-Q800D/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.HW-Q800DZK,HW-Q800D/ZK,"4,790","4,215",cptqaer+3@gmail.com,!Cheil2024,"4,215",No,0,0,,,,,,,,,,150.00,Add to Cart,"4,065.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=HTS-08,,,,Unavailable,Q-series Soundbar HW-Q700D,,EOL,HW-Q700D/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.HW-Q700DZK,HW-Q700D/ZK,"3,990","3,511",cptqaer+3@gmail.com,!Cheil2024,"3,511",No,200,0,,,,,,,,,,150.00,Add to Cart,"3,361.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
@@ -368,19 +368,19 @@ Auto,S=HTS-06,,,,inStock,Q-series Soundbar HW-Q930D,,N,HW-Q930D/ZK,https://www.s
 ",,,,,End of Test,,,,No,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=HTS-13,,,,inStock,S-Series HW-S701D Soundbar,,N,HW-S701D/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.HW-S701DZK,HW-S701D/ZK,"3,490","2,631",cptqaer+3@gmail.com,!Cheil2024,"2,631",No,100,0,,,,,,,,,,0.00,Add to Cart,"2,631.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,No,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,S=HTS-14,,,,OOS (Blocked),S-Series HW-S60D Soundbar,,N,HW-S60D/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.HW-S60DZK,HW-S60D/ZK,"2,490","2,191",cptqaer+3@gmail.com,!Cheil2024,"2,191",No,0,0,,,,,,,,,,0.00,Add to Cart,"2,191.00",,,,,,,,,,,,,0,"
+,S=HTS-14,,,,Unavailable,S-Series HW-S60D Soundbar,,UN,HW-S60D/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.HW-S60DZK,HW-S60D/ZK,"2,490","2,191",cptqaer+3@gmail.com,!Cheil2024,"2,191",No,0,0,,,,,,,,,,0.00,Add to Cart,"2,191.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,No,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 Auto,S=HTS-15,,,,inStock,S-Series HW-S61D Soundbar,,N,HW-S61D/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.HW-S61DZK,HW-S61D/ZK,"2,490","2,067",cptqaer+3@gmail.com,!Cheil2024,"2,067",No,0,0,,,,,,,,,,0.00,Add to Cart,"2,067.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,No,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=HTS-16,,,,inStock,S-Series HW-LS60D Music Frame,,N,HW-LS60D/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.HW-LS60DZK,HW-LS60D/ZK,"3,890","3,238",cptqaer+3@gmail.com,!Cheil2024,"3,238",No,100,0,,,,,,,,,,150.00,Add to Cart,"3,088.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,S=HTS25,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,S=HTS25,,,,,,,-,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=HTS25-01,,,,inStock,Q-series Soundbar HW-Q800F,,N,HW-Q800F/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.HW-Q800FZK,HW-Q800F/ZK,"5,980","5,262",cptqaer+3@gmail.com,!Cheil2024,"5,262",No,0,0,,,,,,,,,,150.00,Add to Cart,"5,112.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=HTS25-02,,,,Unavailable,Q-series Soundbar HW-Q930F,,UN,HW-Q930F/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.HW-Q930FZK,HW-Q930F/ZK,"7,980","7,022",cptqaer+3@gmail.com,!Cheil2024,"7,022",No,0,0,,,,,,,,,,150.00,Add to Cart,"6,872.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,S=HTS25-03,,,,inStock,Q-series Soundbar HW-Q990D,,N,HW-Q990F/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.HW-Q990FZK,HW-Q990F/ZK,"10,980","9,662",cptqaer+3@gmail.com,!Cheil2024,"9,662",No,0,0,,,,,,,,,,150.00,Add to Cart,"9,512.00",,,,,,,,,,,,,0,"
+,S=HTS25-03,,,,OOS (Blocked),Q-series Soundbar HW-Q990D,,N,HW-Q990F/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.HW-Q990FZK,HW-Q990F/ZK,"10,980","9,662",cptqaer+3@gmail.com,!Cheil2024,"9,662",No,0,0,,,,,,,,,,150.00,Add to Cart,"9,512.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=HTS25-04,,,,inStock,Q-Series Soundbar HW-QS700F,,N,HW-QS700F/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.HW-QS700FZK,HW-QS700F/ZK,"4,680","4,118",cptqaer+3@gmail.com,!Cheil2024,"4,118",No,0,0,,,,,,,,,,150.00,Add to Cart,"3,968.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
@@ -390,9 +390,9 @@ Auto,S=HTS-15,,,,inStock,S-Series HW-S61D Soundbar,,N,HW-S61D/ZK,https://www.sam
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,S=HTS25-07,,,,Unavailable,HW-B450F/ZK,,UN,HW-B450F/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.HW-B450FZK,HW-B450F/ZK,"1,980","1,742",cptqaer+3@gmail.com,!Cheil2024,"1,742",No,0,0,,,,,,,,,,0.00,Add to Cart,"1,742.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,S=HTS25-08,,,,inStock,SWA-9250S/ZK,,N,SWA-9250S/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.SWA-9250SZK,SWA-9250S/ZK,"1,090",981,cptqaer+3@gmail.com,!Cheil2024,981,No,0,0,,,,,,,,,,0.00,Add to Cart,981.00,,,,,,,,,,,,,0,"
+,S=HTS25-08,,,,inStock,SWA-9250S/ZK,,N,SWA-9250S/ZK,https://www.samsung.com/hk/multistore/hkeducation/buy.SWA-9250SZK,SWA-9250S/ZK,"1,090",959,cptqaer+3@gmail.com,!Cheil2024,959,No,0,0,,,,,,,,,,0.00,Add to Cart,959.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,S=MON,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,S=MON,,,,,,,-,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,S=MON--01,,,,,"55"" Odyssey Ark 2<sup>nd</sup> Gen Curved Gaming Monitor (165Hz)",,N,LS55CG970NCXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS55CG970NCXXK,LS55CG970NCXXK,"25,800","23,220",cptqaer+3@gmail.com,!Cheil2024,"23,220",No,0,0,,,,,,,,,,150.00,Add to Cart,"23,070.00",,,Z-SM-A3660ZKGTGY-C,,,,,,,,,Z-SM-A3660ZKGTGY-C,1,"
 ●  1 x  Galaxy A36 5G (Awesome Black) [Z-SM-A3660ZKGTGY-C]
@@ -452,26 +452,26 @@ Auto,S=MON--15,,,,,34” Odyssey G5 Curved Gaming Monitor (165Hz),,UN,LC34G55TWW
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,S=MON--24,,,,,"32"" ViewFinity S6 S60UD QHD Monitor",,N,LS32D606UACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS32D606UACXXK,LS32D606UACXXK,"3,080","2,772",cptqaer+3@gmail.com,!Cheil2024,"2,772",No,0,0,,,,,,,,,,0.00,Add to Cart,"2,772.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,S=MON--25,,,,,"24"" ViewFinity S6 S60UD QHD Monitor",,N,LS24D604UACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS24D604UACXXK,LS24D604UACXXK,"2,380",,cptqaer+3@gmail.com,!Cheil2024,"2,380",No,0,0,,,,,,,,,,0.00,Add to Cart,"2,380.00",,,,,,,,,,,,,0,"
+,S=MON--25,,,,,"24"" ViewFinity S6 S60UD QHD Monitor",,N,LS24D604UACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS24D604UACXXK,LS24D604UACXXK,"2,380","2,142",cptqaer+3@gmail.com,!Cheil2024,"2,142",No,0,0,,,,,,,,,,0.00,Add to Cart,"2,142.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,S=MON--26,,,,,"27"" ViewFinity S6 S60UD QHD Monitor",,N,LS27D606UACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS27D606UACXXK,LS27D606UACXXK,"2,180",,cptqaer+3@gmail.com,!Cheil2024,"2,180",No,0,0,,,,,,,,,,0.00,Add to Cart,"2,180.00",,,,,,,,,,,,,0,"
+,S=MON--26,,,,,"27"" ViewFinity S6 S60UD QHD Monitor",,N,LS27D606UACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS27D606UACXXK,LS27D606UACXXK,"2,180","1,962",cptqaer+3@gmail.com,!Cheil2024,"1,962",No,0,0,,,,,,,,,,0.00,Add to Cart,"1,962.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,S=MON--27,,,,,"32"" C390 Curved Monitor",,UN,LS32C390EACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS32C390EACXXK,LS32C390EACXXK,"2,080","1,872",cptqaer+3@gmail.com,!Cheil2024,"1,872",No,0,0,,,,,,,,,,0.00,Add to Cart,"1,872.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,S=MON--28,,,,,"27"" ViewFinity S8 S80UD UHD Monitor",,N,LS27D804UACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS27D804UACXXK,LS27D804UACXXK,"2,480",,cptqaer+3@gmail.com,!Cheil2024,"2,480",No,0,0,,,,,,,,,,0.00,Add to Cart,"2,480.00",,,,,,,,,,,,,0,"
+,S=MON--28,,,,,"27"" ViewFinity S8 S80UD UHD Monitor",,N,LS27D804UACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS27D804UACXXK,LS27D804UACXXK,"2,480","2,232",cptqaer+3@gmail.com,!Cheil2024,"2,232",No,0,0,,,,,,,,,,0.00,Add to Cart,"2,232.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,S=MON--29,,,,,"27"" S33GC Essential Monitor",,EOL,LS27C330GACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS27C330GACXXK,LS27C330GACXXK,"1,280",972,cptqaer+3@gmail.com,!Cheil2024,972,No,0,0,,,,,,,,,,0.00,Add to Cart,972.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,S=MON--30,,,,,"24"" S33GC Essential Monitor",,UN,LS24C330GACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS24C330GACXXK,LS24C330GACXXK,980,882,cptqaer+3@gmail.com,!Cheil2024,882,No,0,0,,,,,,,,,,0.00,Add to Cart,882.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,S=MON25,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,S=MON25,,,,,,,-,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,S=MON25-01,,,,,"27"" Odyssey 3D G90XF 4K Gaming Monitor (165Hz)",,N,LS27FG900XCXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS27FG900XCXXK,LS27FG900XCXXK,"14,980","13,482",cptqaer+3@gmail.com,!Cheil2024,"13,482",No,0,0,,,,,,,,,,150.00,Add to Cart,"13,332.00",,Z-RAZERBASILISKV3,Z-RAZERBWV3T,Z-RAZERGOLIATHUSC,,,,,,,,"Z-RAZERBASILISKV3,Z-RAZERBWV3T,Z-RAZERGOLIATHUSC",3,"
 ●  1 x  Razer Basilisk V3 Gaming Wired Mouse [Z-RAZERBASILISKV3]
 ●  1 x  Razer BlackWidow V3 Tenkeyless  [Z-RAZERBWV3T]
 ●  1 x  Razer Goliathus Chroma Mouse Mat   [Z-RAZERGOLIATHUSC]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,S=MON25-02,,,,,"49"" Odyssey G9 DQHD Gaming Monitor",,N,LS49FG916ECXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS49FG916ECXXK,LS49FG916ECXXK,"9,980","8,982",cptqaer+3@gmail.com,!Cheil2024,"8,982",No,0,0,,,,,,,,,,150.00,Add to Cart,"8,832.00",,Z-TT248MON,,,,,,,,,,Z-TT248MON,1,"
+Auto,S=MON25-02,,,,,"49"" Odyssey G9 DQHD Gaming Monitor",,UN,LS49FG916ECXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS49FG916ECXXK,LS49FG916ECXXK,"9,980","8,982",cptqaer+3@gmail.com,!Cheil2024,"8,982",No,0,0,,,,,,,,,,150.00,Add to Cart,"8,832.00",,Z-TT248MON,,,,,,,,,,Z-TT248MON,1,"
 ●  1 x  Thrustmaster T248 Steeling Wheel [Z-TT248MON]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,S=MON25-03,,,,,"32"" Odyssey OLED G8 G81SF Gaming Monitor (240Hz)",,N,LS32FG816SCXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS32FG816SCXXK,LS32FG816SCXXK,"9,980","8,982",cptqaer+3@gmail.com,!Cheil2024,"8,982",No,0,0,,,,,,,,,,150.00,Add to Cart,"8,832.00",,,Z-SM-A3660ZKGTGY-C,,,,,,,,,Z-SM-A3660ZKGTGY-C,1,"
@@ -501,23 +501,32 @@ Auto,S=MON25-05,,,,,"27"" Odyssey OLED G6 G61SD QHD Gaming Monitor (240Hz)",,N,L
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,S=MON25-14,,,,,Essential Monitor S3 S30GD Full HD,,N,LS27D300GACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS27D300GACXXK,LS27D300GACXXK,"1,080",972,cptqaer+3@gmail.com,!Cheil2024,972,No,0,0,,,,,,,,,,0.00,Add to Cart,972.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,S=MON25-15,,,,,"27"" Odyssey G7 G70D UHD 144Hz Gaming Monitor",,UN,LS32DG702ECXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS32DG702ECXXK,LS32DG702ECXXK,"4,980","4,482",cptqaer+3@gmail.com,!Cheil2024,"4,482",No,0,0,,,,,,,,,,150.00,Add to Cart,"4,332.00",,,,,,,,,,,,,0,"
+,S=MON25-15,,,,,"27"" Odyssey G7 G70D UHD 144Hz Gaming Monitor",,N,LS32DG702ECXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS32DG702ECXXK,LS32DG702ECXXK,"4,980","4,482",cptqaer+3@gmail.com,!Cheil2024,"4,482",No,0,0,,,,,,,,,,150.00,Add to Cart,"4,332.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,S=MON25-16,,,,,"32"" Odyssey G7 G70D UHD 144Hz Gaming Monitor",,N,LS27DG702ECXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS27DG702ECXXK,LS27DG702ECXXK,"3,980","3,582",cptqaer+3@gmail.com,!Cheil2024,"3,582",No,0,0,,,,,,,,,,150.00,Add to Cart,"3,432.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,S=MON25-17,,,,,"22"" Essential Monitor S4 S40GD FHD 100Hz",,N,LS22D400GACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS22D400GACXXK,LS22D400GACXXK,"1,280","1,152",cptqaer+3@gmail.com,!Cheil2024,"1,152",No,0,0,,,,,,,,,,0.00,Add to Cart,"1,152.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,S=MON25-18,,,,,"24"" Essential Monitor S4 S40GD FHD 100Hz",,N,LS24D400GACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS24D400GACXXK,LS24D400GACXXK,"1,480","1,332",cptqaer+3@gmail.com,!Cheil2024,"1,332",No,0,0,,,,,,,,,,0.00,Add to Cart,"1,332.00",,,,,,,,,,,,,0,"
+,S=MON25-18,,,,,"27"" Essential Monitor S4 S40GD FHD 100Hz",,N,LS27D400GACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS27D400GACXXK,LS27D400GACXXK,"1,680","1,512",cptqaer+3@gmail.com,!Cheil2024,"1,512",No,0,0,,,,,,,,,,0.00,Add to Cart,"1,512.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,S=MON25-19,,,,,"27"" Essential Monitor S4 S40GD FHD 100Hz",,N,LS27D400GACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS27D400GACXXK,LS27D400GACXXK,"1,680","1,512",cptqaer+3@gmail.com,!Cheil2024,"1,512",No,0,0,,,,,,,,,,0.00,Add to Cart,"1,512.00",,,,,,,,,,,,,0,"
+,S=MON25-19,,,,,"24"" Essential Monitor S3 S32GF Full HD 120Hz",,N,LS24F320GACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS24F320GACXXK,LS24F320GACXXK,900,810,cptqaer+3@gmail.com,!Cheil2024,810,No,0,0,,,,,,,,,,0.00,Add to Cart,810.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"24"" Essential Monitor S3 S32GF Full HD 120Hz",,N,LS24F320GACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS24F320GACXXK,LS24F320GACXXK,900,810,cptqaer+3@gmail.com,!Cheil2024,810,No,0,0,,,,,,,,,,0.00,Add to Cart,810.00,,,,,,,,,,,,,0,"
+,S=MON25-20,,,,,"34"" ViewFinity S6 S65UC Curved Monitor",,UN,LS34C652UACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS34C652UACXXK,LS34C652UACXXK,"2,580","2,193",cptqaer+3@gmail.com,!Cheil2024,"2,193",No,0,0,,,,,,,,,,0.00,Add to Cart,"2,193.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,"34"" ViewFinity S6 S65UC Curved Monitor",,UN,LS34C652UACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS34C652UACXXK,LS34C652UACXXK,"2,580",,cptqaer+3@gmail.com,!Cheil2024,"2,580",No,0,0,,,,,,,,,,0.00,Add to Cart,"2,580.00",,,,,,,,,,,,,0,"
+,S=MON25-21,,,,,32 Smart Monitor M7 M70F Black 4K Samsung Vision AI,,N,LS32FM702UCXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS32FM702UCXXK,LS32FM702UCXXK,"3,180","2,862",cptqaer+3@gmail.com,!Cheil2024,"2,862",No,0,0,,,,,,,,,,0.00,Add to Cart,"2,862.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,N,LS22F320GACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS22F320GACXXK,LS22F320GACXXK,0,0,cptqaer+3@gmail.com,!Cheil2024,0,No,0,0,,,,,,,,,,0.00,Add to Cart,0.00,,,,,,,,,,,,,0,"
+Auto,S=MON25-22,,,,,32 Smart Monitor M7 M70F Black 4K Samsung Vision AI,,N,LS32FM703UCXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS32FM703UCXXK,LS32FM703UCXXK,"3,180","2,862",cptqaer+3@gmail.com,!Cheil2024,"2,862",No,0,0,,,,,,,,,,0.00,Add to Cart,"2,862.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,S=REF,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+Auto,S=MON25-23,,,,,32 Smart Monitor M8 M80F 4K Samsung Vision AI LS32FM803UCXXK,,N,LS32FM803UCXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS32FM803UCXXK,LS32FM803UCXXK,"4,980","4,482",cptqaer+3@gmail.com,!Cheil2024,"4,482",No,0,0,,,,,,,,,,150.00,Add to Cart,"4,332.00",,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Auto,S=MON25-24,,,,,32 Smart Monitor M9 M90SF 4K OLED Samsung Vision AI LS32FM902SCXXK,,N,LS32FM902SCXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS32FM902SCXXK,LS32FM902SCXXK,"11,980","10,782",cptqaer+3@gmail.com,!Cheil2024,"10,782",No,0,0,,,,,,,,,,150.00,Add to Cart,"10,632.00",,Z-SM-A3660ZKGTGY-C,,,,,,,,,,Z-SM-A3660ZKGTGY-C,1,"
+●  1 x  Galaxy A36 5G (Awesome Black) [Z-SM-A3660ZKGTGY-C]
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Auto,S=MON25-25,,,,,Essential Monitor S3 S32GF Full HD 120Hz,,N,LS22F320GACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS22F320GACXXK,LS22F320GACXXK,800,720,cptqaer+3@gmail.com,!Cheil2024,720,No,0,0,,,,,,,,,,0.00,Add to Cart,720.00,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,S=MON25-26,,,,,Essential Monitor S3 S32GF Full HD 120Hz,,UN,LS27F320GACXXK,https://www.samsung.com/hk/multistore/hkeducation/buy.LS27F320GACXXK,LS27F320GACXXK,,,cptqaer+3@gmail.com,!Cheil2024,,No,0,0,,,,,,,,,,0.00,Add to Cart,0.00,,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,S=REF,,,,,,,-,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,S=REF-01,,,,,RT22M4032S8/SH 2 door Refrigerator 234L Elegant Inox,,N,RT22M4032S8/SH,https://www.samsung.com/hk/multistore/hkeducation/buy.RT22M4032S8SH,RT22M4032S8/SH,"3,690","2,601",cptqaer+3@gmail.com,!Cheil2024,"2,601",No,100,0,,,,,,,,,,0.00,Add to Cart,"2,601.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -576,7 +585,7 @@ Auto,S=REF-21,,,,,BESPOKE AI Stylish Bottom Mount Freezer 340L (Clean White),,N,
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ●  1 x  ITFIT Rechargeable Electric Toothbrush [Z-ITFITEX37]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,S=REF25,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,S=REF25,,,,,,,-,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,S=REF25-01,,,,,RS70F65Q1TSH Bespoke AI Side By Side Refrigerators 647L,,N,RS70F65Q1TSH,https://www.samsung.com/hk/multistore/hkeducation/buy.RS70F65Q1TSH,RS70F65Q1TSH,"12,090","10,521",cptqaer+3@gmail.com,!Cheil2024,"10,521",No,400,0,,,,,,,,,,150.00,Add to Cart,"10,371.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -584,7 +593,9 @@ Auto,S=REF-21,,,,,BESPOKE AI Stylish Bottom Mount Freezer 340L (Clean White),,N,
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,S=REF25-03,,,,,RS80F65G1FSH Side By Side Refrigerator 609L,,N,RS80F65G1FSH,https://www.samsung.com/hk/multistore/hkeducation/buy.RS80F65G1FSH,RS80F65G1FSH,"16,290","14,121",cptqaer+3@gmail.com,!Cheil2024,"14,121",No,400,0,,,,,,,,,,150.00,Add to Cart,"13,971.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,S=WASH,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,RM90F64E1CSH Bespoke AI Multi Door Refrigerator AI Vision Inside 508L,,N,RM90F64E1CSH,https://www.samsung.com/hk/multistore/hkeducation/buy.RM90F64E1CSH,RM90F64E1CSH,"24,790","21,501",cptqaer+3@gmail.com,!Cheil2024,"21,501",No,0,0,,,,,,,,,,150.00,Add to Cart,"21,351.00",,,,,,,,,,,,,0,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,S=WASH,,,,,,,-,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,S=FAB-01,,,,,BESPOKE AirDresser with Dual AirWash and Dual JetSteam Cloth Dryer,,N,DF18CB8700CLSH,https://www.samsung.com/hk/multistore/hkeducation/buy.DF18CB8700CLSH,DF18CB8700CLSH,"10,790","9,711",cptqaer+3@gmail.com,!Cheil2024,"9,711",No,300,0,,,,,,,,,,150.00,Add to Cart,"9,561.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
@@ -630,7 +641,7 @@ Auto,S=WM-13,,,,,"WW70T3020BW/SH Slim440 Digital Inverter Front Load Washing Mac
 Auto,S=WM-14,,,,,"WW70T3020BS/SH Slim440 Digital Inverter Front Load Washing Machine 7kg, 1200rpm",,EOL,WW70T3020BS/SH,https://www.samsung.com/hk/multistore/hkeducation/buy.WW70T3020BSSH,WW70T3020BS/SH,"5,090","3,141",cptqaer+3@gmail.com,!Cheil2024,"3,141",No,100,0,,,,,,,,,,150.00,Add to Cart,"2,991.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,S=WM-15,,,,,"WW80T3040BW/SH Slim465 Digital Inverter Front Load Washing Machine 8kg, 1400rpm",,N,WW80T3040BW/SH,https://www.samsung.com/hk/multistore/hkeducation/buy.WW80T3040BWSH,WW80T3040BW/SH,"5,190","3,411",cptqaer+3@gmail.com,!Cheil2024,"3,411",No,100,0,,,,,,,,,,150.00,Add to Cart,"3,261.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
+Auto,S=WM-15,,,,,"WW80T3040BW/SH Slim465 Digital Inverter Front Load Washing Machine 8kg, 1400rpm",,EOL,WW80T3040BW/SH,https://www.samsung.com/hk/multistore/hkeducation/buy.WW80T3040BWSH,WW80T3040BW/SH,"5,190","3,411",cptqaer+3@gmail.com,!Cheil2024,"3,411",No,100,0,,,,,,,,,,150.00,Add to Cart,"3,261.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,S=WM-16,,,,,"WW80T3040BS/SH Slim465 Digital Inverter Front Load Washing Machine 8kg, 1400rpm",,EOL,WW80T3040BS/SH,https://www.samsung.com/hk/multistore/hkeducation/buy.WW80T3040BSSH,WW80T3040BS/SH,"5,390","3,501",cptqaer+3@gmail.com,!Cheil2024,"3,501",No,100,0,,,,,,,,,,150.00,Add to Cart,"3,351.00",,Z-ITAC15-C,,,,,,,,,,Z-ITAC15-C,1,"
@@ -658,7 +669,7 @@ Auto,S=WM-24,,,,,"WD12DBLB84GDSH AI Wash Front Load Washer + Dryer Combo 12/7kg,
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ●  1 x  ITFIT Rechargeable Electric Toothbrush [Z-ITFITEX37]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,S=WM25,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,S=WM25,,,,,,,-,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,S=WM25-01,,,,,9kg Washer Dryer Combo with A -10 Extra Energy Efficiency and AI Ecobubble™ WD90DG5G34BESH WD90DG5G34BESH,,N,WD90DG5G34BBSH,https://www.samsung.com/hk/multistore/hkeducation/buy.WD90DG5G34BBSH,WD90DG5G34BBSH,"6,290","4,581",cptqaer+3@gmail.com,!Cheil2024,"4,581",No,100,0,,,,,,,,,,150.00,Add to Cart,"4,431.00",,Z-ITAC15-C,Z-ITFITEX37,,,,,,,,,"Z-ITAC15-C,Z-ITFITEX37",2,"
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
@@ -676,7 +687,7 @@ Auto,S=WM25-04,,,,,WD6100D Washer Dryer Combo with A-10 Extra Energy Efficiency 
 ●  1 x  BESPOKE AI Portable Stainless Cultery Set [Z-ITAC15-C]
 ●  1 x  ITFIT Rechargeable Electric Toothbrush [Z-ITFITEX37]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,S=VC,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,S=VC,,,,,,,-,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,S=VC-01,,,,,Samsung Jet 75 Battery VCA-SBT90,,UN,VCA-SBT90,https://www.samsung.com/hk/multistore/hkeducation/buy.VCA-SBT90,VCA-SBT90,0,"1,192",cptqaer+3@gmail.com,!Cheil2024,0,No,0,0,,,,,,,,,,0.00,Add to Cart,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -712,66 +723,61 @@ Auto,S=VC-09,,,,,Bespoke AI Jet™ Lite,,N,VS80F28DFP/SP,https://www.samsung.com
 ●  1 x  BESPOKE Jet™ Clean Station Antibacterial Dust Bag (5ea) [Z-VCA-ADB952]
 ●  1 x  Jet™ Tool Kit [Z-VCA-SAK95K/GL]
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,,,,,,,,,0.00,,0.00,,,,,,,,,,,,,0,"
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

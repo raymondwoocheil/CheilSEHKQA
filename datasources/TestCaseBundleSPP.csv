@@ -1,33 +1,33 @@
-Bundle & Codes - SPP,,,,,,23,,,GTI Samsung SKU,,,,,352576783124483,,Acceptance Crieria,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,25,,,GTI Samsung SKU,,,,,352576783124483,,Acceptance Crieria,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Tester,Case,,"Auto
 Result",Result,Step,,Code,,SKU List,,SKU,Store,,Add to cart link,Qty,RRP x Qty,RRP,NRP,Normal price per unit,GC Rewarded,Extra GC Reward,GC + Extra GC Reward,Total GC Rewarded,Item level discount,on RRP / NRP,Discounted price per unit,Discounted price (NRP considered),Actual discounted price x Qty,GC Eligible,Total GC Eligible,Expectyed item price in cart,Cart level discount,Total Cart Price,Free Premiums,Status,Screemshot of Cart,"Temp Order ID /
 Comment / Reasons of Fail",Fix Status,,Time,Line,Case,Total Price in Cart,Total Price in Cart,"Total Price
 Result",Extra Premium,Extra Premium,Qty,"Extra Premium
 Result",Auto Test Results,Duration
-,,,4,5,,,8,9,,,,,,,,,,,"463,985",,,,,,,"135,958.20","454,989.20",,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,0,,,,,,0.00,,,,,,,,,,,,,,,,,,,,,,,
+,,,4,5,,,8,9,,,,,,,,,,,"468,303",,,,,,,#REF!,"455,240.20",,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,0,,#REF!,#REF!,#REF!,,0.00,,,,,,,,,,,,,,,,,,,,,,,
 Automated,MX Critcal  Bundle,,,,,May 1 - 31,,,,,,SPP,"
 ",,,,,,,,,0,,,,,,0.00,,,,,,,,,,,-,,,,,,,,,,,,
-,SMP WU,,,,1,Add all to cart using this link,,,"Galaxy Watch Ultra, Titanium Gray",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-L705FDAATGY&&products[0].quantity=1&&products[1].productCode=SM-S9380ZSGTGY&&products[1].quantity=1,SM-L705FDAATGY,SPP,"
-",SM-L705FDAATGY,1,"5,098","5,098","3,824","3,824",,,0,350.00,800,RRP,"3,824.00","3,824.00","3,824.00","3,824.00","3,824.00","3,474.00",150.00,"12,369.00",,,,,,-,,,,,,,,,,,,
-,,,,,2,SPP Cart Link,,,"Galaxy S25 Ultra, 512GB+12GB, Titanium Whitesilver",,SM-S9380ZSGTGY,SPP,"
-",SM-S9380ZSGTGY,1,"10,898","10,898","9,045","9,045",350,,350,,,,,"9,045.00","9,045.00",0.00,,"9,045.00",,,,,,,,,,,,,,,,,,,,
+,SMP WU,,,,1,Add all to cart using this link,,,"Galaxy Watch Ultra, Titanium Gray",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-L705FDAATGY&&products[0].quantity=1&&products[1].productCode=SM-S9370ZSGTGY&&products[1].quantity=1,SM-L705FDAATGY,SPP,"
+",SM-L705FDAATGY,1,"5,098","5,098","3,824","3,824",,,0,200.00,10%,NRP,"3,441.60","3,441.60","3,441.60","3,441.60","3,441.60","3,241.60",150.00,"11,361.60",,,,,,-,,,,,,,,,,,,
+,,,,,2,SPP Cart Link,,,"Galaxy S25 Edge, 512GB+12GB, Titanium Silver",,SM-S9370ZSGTGY,SPP,"
+",SM-S9370ZSGTGY,1,"9,398","9,398","8,270","8,270",200,,200,,,,,"8,270.00","8,270.00",0.00,,"8,270.00",,,,,,,,,,,,,,,,,,,,
 ,SMP W7 44LTE,,,,1,Add all to cart using this link,,,"Galaxy Watch7 44mm (LTE), Green",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-L315FZGATGY&&products[0].quantity=1&&products[1].productCode=SM-S9360ZKGTGY&&products[1].quantity=1,SM-L315FZGATGY,SPP,"
-",SM-L315FZGATGY,1,"2,998","2,998","2,249","2,249",,,0,300.00,600,RRP,"2,249.00","2,249.00","2,249.00","2,249.00","2,249.00","1,949.00",150.00,"8,935.00",,,,,,-,,,,,,,,,,,,
+",SM-L315FZGATGY,1,"2,998","2,998","2,249","2,249",,,0,300.00,10%,NRP,"2,024.10","2,024.10","2,024.10","2,024.10","2,024.10","1,724.10",150.00,"8,710.10",,,,,,-,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"Galaxy S25+, 512GB+12GB, Blueblack, exclusive",,SM-S9360ZKGTGY,SPP,"
 ",SM-S9360ZKGTGY,1,"8,598","8,598","7,136","7,136",300,,300,,,,,"7,136.00","7,136.00",0.00,,"7,136.00",,,,,,,,,,,,,,,,,,,,
 ,SMP W7 44WF,,,,1,Add all to cart using this link,,,"Galaxy Watch7 44mm (BT), Green",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-L310NZGATGY&&products[0].quantity=1&&products[1].productCode=SM-S9310ZDHTGY&&products[1].quantity=1,SM-L310NZGATGY,SPP,"
-",SM-L310NZGATGY,1,"2,598","2,598","1,949","1,949",,,0,300.00,600,RRP,"1,949.00","1,949.00","1,949.00","1,949.00","1,949.00","1,649.00",150.00,"7,362.00",,,,,,-,,,,,,,,,,,,
+",SM-L310NZGATGY,1,"2,598","2,598","1,949","1,949",,,0,300.00,10%,NRP,"1,754.10","1,754.10","1,754.10","1,754.10","1,754.10","1,454.10",150.00,"7,167.10",,,,,,-,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"Galaxy S25, 512GB+8GB, Pinkgold, exclusive",,SM-S9310ZDHTGY,SPP,"
 ",SM-S9310ZDHTGY,1,"6,898","6,898","5,863","5,863",300,,300,,,,,"5,863.00","5,863.00",0.00,,"5,863.00",,,,,,,,,,,,,,,,,,,,
 ,SMP W7 40LTE,,,,1,Add all to cart using this link,,,"Galaxy Watch7 40mm (LTE), Cream",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-L305FZEATGY&&products[0].quantity=1&&products[1].productCode=SM-F9560AKDTGY&&products[1].quantity=1,SM-L305FZEATGY,SPP,"
-",SM-L305FZEATGY,1,"2,798","2,798","2,099","2,099",,,0,500.00,600,RRP,"2,099.00","2,099.00","2,099.00","2,099.00","2,099.00","1,599.00",150.00,"12,535.00",,,,,,-,,,,,,,,,,,,
+",SM-L305FZEATGY,1,"2,798","2,798","2,099","2,099",,,0,500.00,10%,NRP,"1,889.10","1,889.10","1,889.10","1,889.10","1,889.10","1,389.10",150.00,"12,325.10",,,,,,-,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"Galaxy Z Fold6, 256GB+12GB, Crafted Black (eStore)",,SM-F9560AKDTGY,SPP,"
 ",SM-F9560AKDTGY,1,"14,398","14,398","11,086","11,086",500,,500,,,,,"11,086.00","11,086.00",0.00,,"11,086.00",,,,,,,,,,,,,,,,,,,,
 ,SMP W7 40WF,,,,1,Add all to cart using this link,,,"Galaxy Watch7 40mm (BT), Cream",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-L300NZEATGY&&products[0].quantity=1&&products[1].productCode=SM-S9370ZKGTGY&&products[1].quantity=1,SM-L300NZEATGY,SPP,"
-",SM-L300NZEATGY,1,"2,398","2,398","1,799","1,799",,,0,200.00,600,RRP,"1,798.00","1,798.00","1,798.00","1,798.00","1,798.00","1,598.00",150.00,"9,606.00",,,,,,-,,,,,,,,,,,,
+",SM-L300NZEATGY,1,"2,398","2,398","1,799","1,799",,,0,200.00,10%,NRP,"1,619.10","1,619.10","1,619.10","1,619.10","1,619.10","1,419.10",150.00,"9,539.10",,,,,,-,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"Galaxy S25 Edge, 512GB+12GB, Titanium Jetblack",,SM-S9370ZKGTGY,SPP,"
-",SM-S9370ZKGTGY,1,"9,398","9,398","8,158","8,158",200,,200,,,,,"8,158.00","8,158.00",0.00,,"8,158.00",,,,,,,,,,,,,,,,,,,,
+",SM-S9370ZKGTGY,1,"9,398","9,398","8,270","8,270",200,,200,,,,,"8,270.00","8,270.00",0.00,,"8,270.00",,,,,,,,,,,,,,,,,,,,
 ,SMP B3P,,,,1,Add all to cart using this link,,,"Galaxy Buds3 Pro, Silver",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-R630NZAATGY&&products[0].quantity=1&&products[1].productCode=SM-S9280ZTGTGY&&products[1].quantity=1,SM-R630NZAATGY,SPP,"
 ",SM-R630NZAATGY,1,"1,998","1,998","1,499","1,499",0,,0,500.00,500,RRP,"1,498.00","1,498.00","1,498.00","1,498.00","1,498.00",998.00,150.00,"8,126.00",,,,,,-,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"Galaxy S24 Ultra, 256GB, Titanium Gray",,SM-S9280ZTGTGY,SPP,"
@@ -36,16 +36,16 @@ Automated,MX Critcal  Bundle,,,,,May 1 - 31,,,,,,SPP,"
 ",SM-R530NZAATGY,1,"1,398","1,398","1,049","1,049",0,,0,350.00,899,RRP,499.00,499.00,499.00,0.00,0.00,499.00,150.00,"9,394.00",,,,,,-,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"Galaxy S25 Ultra, 512GB+12GB, Titanium Whitesilver",,SM-S9380ZSGTGY,SPP,"
 ",SM-S9380ZSGTGY,1,"10,898","10,898","9,045","9,045",350,,350,,,,,"9,045.00","9,045.00",0.00,,"9,045.00",,,,,,,,,,,,,,,,,,,,
-,SMP B3,,,,1,Add all to cart using this link,,,"Galaxy Buds3, Silver",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-R530NZAATGY&&products[0].quantity=1&&products[1].productCode=SM-S9310LGGTGY&&products[1].quantity=1,SM-R530NZAATGY,SPP,"
-",SM-R530NZAATGY,1,"1,398","1,398","1,049","1,049",0,,0,300.00,500,RRP,898.00,898.00,898.00,0.00,0.00,898.00,150.00,"5,761.00",,,,,,-,,,,,,,,,,,,
-,,,,,2,SPP Cart Link,,,"Galaxy S25, 256GB+8GB, Mint",,SM-S9310LGGTGY,SPP,"
-",SM-S9310LGGTGY,1,"5,898","5,898","5,013","5,013",300,,300,,,,,"5,013.00","5,013.00",0.00,,"5,013.00",,,,,,,,,,,,,,,,,,,,
-,S25FF Ring,,,,1,Add all to cart using this link,,,"Galaxy Ring, Titanium Gold / 6",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-Q506NZDATGY&&products[0].quantity=1&&products[1].productCode=SM-S9360ZSGTGY&&products[1].quantity=1,SM-Q506NZDATGY,SPP,"
-",SM-Q506NZDATGY,1,"3,298","3,298","1,979","1,979",,,0,300.00,600,RRP,"1,979.00","1,979.00","1,979.00",0.00,0.00,"1,979.00",150.00,"8,965.00",,,,,,-,,,,,,,,,,,,
-,,,,,2,SPP Cart Link,,,"Galaxy S25+, 512GB+12GB, Silver Shadow",,SM-S9360ZSGTGY,SPP,"
-",SM-S9360ZSGTGY,1,"8,598","8,598","7,136","7,136",300,,300,,,,,"7,136.00","7,136.00",0.00,,"7,136.00",,,,,,,,,,,,,,,,,,,,
+,SMP B3,,,,1,Add all to cart using this link,,,"Galaxy Buds3, Silver",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-R530NZAATGY&&products[0].quantity=1&&products[1].productCode=SM-A5660ZADTGY&&products[1].quantity=1,SM-R530NZAATGY,SPP,"
+",SM-R530NZAATGY,1,"1,398","1,398","1,049","1,049",0,,0,200.00,500,RRP,898.00,898.00,898.00,0.00,0.00,898.00,150.00,"4,002.00",,,,,,-,,,,,,,,,,,,
+,,,,,2,SPP Cart Link,,,"Galaxy A56 5G, 12GB + 256GB, Awesome Lightgray",,SM-A5660ZADTGY,SPP,"
+",SM-A5660ZADTGY,1,"3,698","3,698","3,254","3,254",200,,200,,,,,"3,254.00","3,254.00",0.00,,"3,254.00",,,,,,,,,,,,,,,,,,,,
+,S25FF Ring,,,,1,Add all to cart using this link,,,"Galaxy Ring, Titanium Gold / 6",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-Q506NZDATGY&&products[0].quantity=1&&products[1].productCode=SM-S9380ZSGTGY&&products[1].quantity=1,SM-Q506NZDATGY,SPP,"
+0",SM-Q506NZDATGY,1,"3,298","3,298","1,979","1,979",,,0,350.00,600,RRP,"1,979.00","1,979.00","1,979.00",0.00,0.00,"1,979.00",150.00,"10,874.00",,,,,,-,,,,,,,,,,,,
+,,,,,2,SPP Cart Link,,,"Galaxy S25 Ultra, 512GB+12GB, Titanium Whitesilver",,SM-S9380ZSGTGY,SPP,"
+",SM-S9380ZSGTGY,1,"10,898","10,898","9,045","9,045",350,,350,,,,,"9,045.00","9,045.00",0.00,,"9,045.00",,,,,,,,,,,,,,,,,,,,
 ,Non-S25FF Ring,,,,1,Add all to cart using this link,,,"Galaxy Ring, Titanium Gold / 6",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-Q506NZDATGY&&products[0].quantity=1&&products[1].productCode=SM-S9280LGHTGY&&products[1].quantity=1,SM-Q506NZDATGY,SPP,"
-",SM-Q506NZDATGY,1,"3,298","3,298","1,979","1,979",,,0,500.00,,,,"1,979.00","1,979.00",0.00,0.00,"1,979.00",150.00,"9,907.00",,,,,,-,,,,,,,,,,,,
+0",SM-Q506NZDATGY,1,"3,298","3,298","1,979","1,979",,,0,500.00,,,,"1,979.00","1,979.00",0.00,0.00,"1,979.00",150.00,"9,907.00",,,,,,-,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"Galaxy S24 Ultra, 512GB, Titanium Green (eStore)",,SM-S9280LGHTGY,SPP,"
 ",SM-S9280LGHTGY,1,"10,098","10,098","8,078","8,078",500,,500,,,,,"8,078.00","8,078.00",0.00,,"8,078.00",,,,,,,,,,,,,,,,,,,,
 ,WU B3P,,,,1,Add all to cart using this link,,,"Galaxy Buds3 Pro, Silver",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-R630NZAATGY&&products[0].quantity=1&&products[1].productCode=SM-L705FDAATGY&&products[1].quantity=1,SM-R630NZAATGY,SPP,"
@@ -77,15 +77,15 @@ Automated,MX Critcal  Bundle,,,,,May 1 - 31,,,,,,SPP,"
 ,,,,,2,SPP Cart Link,,,"Galaxy A56 5G, 12GB + 256GB, Awesome Graphite",,SM-A5660ZKDTGY,SPP,"
 ",SM-A5660ZKDTGY,1,"3,698","3,698","3,254","3,254",200,,200,,,,,"3,254.00","3,254.00",0.00,,"3,254.00",,,,,,,,,,,,,,,,,,,,
 ,Non-A Fit3,,,,1,Add all to cart using this link,,,Galaxy Fit3,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-R390NZAATGY&&products[0].quantity=1&&products[1].productCode=SM-S9370ZSGTGY&&products[1].quantity=1,SM-R390NZAATGY,SPP,"
-",SM-R390NZAATGY,1,498,498,423,423,,,0,200.00,,,,423.00,423.00,423.00,423.00,223.00,150.00,"8,231.00",,,,,,-,,,,,,,,,,,,
+",SM-R390NZAATGY,1,498,498,423,423,,,0,200.00,,,,423.00,423.00,423.00,423.00,223.00,150.00,"8,343.00",,,,,,-,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"Galaxy S25 Edge, 512GB+12GB, Titanium Silver",,SM-S9370ZSGTGY,SPP,"
-",SM-S9370ZSGTGY,1,"9,398","9,398","8,158","8,158",200,,200,,,,,"8,158.00","8,158.00",0.00,,"8,158.00",,,,,,,,,,,,,,,,,,,,
+",SM-S9370ZSGTGY,1,"9,398","9,398","8,270","8,270",200,,200,,,,,"8,270.00","8,270.00",0.00,,"8,270.00",,,,,,,,,,,,,,,,,,,,
 ,S25 Tab S10FE+,,,,1,Add all to cart using this link,,,"Galaxy S25 Ultra, 1TB+16GB, Titanium Silverblue",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-S9380ZBWTGY&&products[0].quantity=1&&products[1].productCode=SM-X626BZAETGY&&products[1].quantity=1,SM-S9380ZBWTGY,SPP,"
 ",SM-S9380ZBWTGY,1,"13,398","13,398","11,120","11,120",350,,350,"1,430.00",,,,"11,120.00","11,120.00",0.00,0.00,"11,120.00",150.00,"15,889.00",,,,,,-,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"Galaxy Tab S10 FE+, Gray, 12GB, 256GB",,SM-X626BZAETGY,SPP,"
 ",SM-X626BZAETGY,1,"6,388","6,388","4,919","4,919","1,080",,"1,080",,800,RRP,"4,919.00","4,919.00","4,919.00",0.00,,"4,919.00",,,,,,,,,,,,,,,,,,,,
 ,S25 Tab S10FE+,,,,1,Add all to cart using this link,,,"Galaxy S25 Edge, 512GB+12GB, Titanium Jetblack",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-S9370ZKGTGY&&products[0].quantity=1&&products[1].productCode=SM-X620NLBETGY&&products[1].quantity=1,SM-S9370ZKGTGY,SPP,"
-",SM-S9370ZKGTGY,1,"9,398","9,398","8,158","8,158",200,,200,"1,280.00",,,,"8,158.00","8,158.00",0.00,0.00,"8,158.00",150.00,"12,311.00",,,,,,-,,,,,,,,,,,,
+",SM-S9370ZKGTGY,1,"9,398","9,398","8,270","8,270",200,,200,"1,280.00",,,,"8,270.00","8,270.00",0.00,0.00,"8,270.00",150.00,"12,423.00",,,,,,-,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"Galaxy Tab S10 FE+, Light Blue, 12GB, 256GB",,SM-X620NLBETGY,SPP,"
 ",SM-X620NLBETGY,1,"5,588","5,588","4,303","4,303","1,080",,"1,080",,800,RRP,"4,303.00","4,303.00","4,303.00",0.00,,"4,303.00",,,,,,,,,,,,,,,,,,,,
 ,S25 Tab S10FE,,,,1,Add all to cart using this link,,,"Galaxy S25+, 512GB+12GB, Navy",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-S9360DBGTGY&&products[0].quantity=1&&products[1].productCode=SM-X526BZAETGY&&products[1].quantity=1,SM-S9360DBGTGY,SPP,"
@@ -93,7 +93,7 @@ Automated,MX Critcal  Bundle,,,,,May 1 - 31,,,,,,SPP,"
 ,,,,,2,SPP Cart Link,,,"Galaxy Tab S10 FE, Gray, 12GB, 256GB",,SM-X526BZAETGY,SPP,"
 ",SM-X526BZAETGY,1,"5,388","5,388","4,149","4,149","1,080",,"1,080",,600,RRP,"4,149.00","4,149.00","4,149.00",0.00,,"4,149.00",,,,,,,,,,,,,,,,,,,,
 ,S25 Tab S10FE,,,,1,Add all to cart using this link,,,"Galaxy S25, 512GB+8GB, Blueblack, exclusive",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-S9310ZKHTGY&&products[0].quantity=1&&products[1].productCode=SM-X520NZAATGY&&products[1].quantity=1,SM-S9310ZKHTGY,SPP,"
-",SM-S9310ZKHTGY,1,"6,898","6,898","5,863","5,863",300,,300,"1,380.00",,,,"5,863.00","5,863.00",0.00,0.00,"5,863.00",150.00,"8,630.00",,,,,,-,,,,,,,,,,,,
+0",SM-S9310ZKHTGY,1,"6,898","6,898","5,863","5,863",300,,300,"1,380.00",,,,"5,863.00","5,863.00",0.00,0.00,"5,863.00",150.00,"8,630.00",,,,,,-,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"Galaxy Tab S10 FE, Gray, 8GB, 128GB",,SM-X520NZAATGY,SPP,"
 ",SM-X520NZAATGY,1,"3,788","3,788","2,917","2,917","1,080",,"1,080",,600,RRP,"2,917.00","2,917.00","2,917.00",0.00,,"2,917.00",,,,,,,,,,,,,,,,,,,,
 ,Tab S10U accy,,,,1,Add all to cart using this link,,,Galaxy Tab S10U Book Cover Keyboard - AI Key White,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=EF-DX925UWEGWW&&products[0].quantity=1&&products[1].productCode=SM-X920NZAITGY&&products[1].quantity=1,EF-DX925UWEGWW,SPP,"
@@ -113,15 +113,15 @@ Automated,MX Critcal  Bundle,,,,,May 1 - 31,,,,,,SPP,"
 ,,,,,2,SPP Cart Link,,,"Galaxy Tab S10 FE, Light Blue, 12GB, 256GB",,SM-X520NLBETGY,SPP,"
 ",SM-X520NLBETGY,1,"4,588","4,588","3,533","3,533","1,080",,"1,080",,,,,"3,533.00","3,533.00",0.00,,"3,533.00",,,,,,,,,,,,,,,,,,,,
 ,S25 AVDA Offer - <10000,,,,1,Add all to cart using this link,,,"Galaxy S25+, 512GB+12GB, Silver Shadow",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-S9360ZSGTGY&&products[0].quantity=1&&products[1].productCode=LS27FG816SCXXK&&products[1].quantity=1,SM-S9360ZSGTGY,SPP,"
-",SM-S9360ZSGTGY,1,"8,598","8,598","7,136","7,136",300,,300,300.00,,,,"7,136.00","7,136.00",0.00,0.00,"7,136.00",150.00,"15,068.00",1 x  Z-AVDAVOUCHER,,,,,-,,,,,,,,,,,,
+0",SM-S9360ZSGTGY,1,"8,598","8,598","7,136","7,136",300,,300,300.00,,,,"7,136.00","7,136.00",0.00,0.00,"7,136.00",150.00,"15,068.00",1 x  Z-AVDAVOUCHER,,,,,-,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"27"" Odyssey OLED G8 G81SF Gaming Monitor (240Hz)",,LS27FG816SCXXK,SPP,"
 ",LS27FG816SCXXK,1,"8,980","8,980","8,082","8,082",,,0,,,,,"8,082.00","8,082.00",0.00,,"8,082.00",,,,,,,,,,,,,,,,,,,,
 ,S25 AVDA Offer - 10000-19999,,,,1,Add all to cart using this link,,,"Galaxy S25+, 512GB+12GB, Silver Shadow",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-S9360ZSGTGY&&products[0].quantity=1&&products[1].productCode=QA48S90FAEXZK&&products[1].quantity=1,SM-S9360ZSGTGY,SPP,"
-",SM-S9360ZSGTGY,1,"8,598","8,598","7,136","7,136",300,,300,300.00,,,,"7,136.00","7,136.00",0.00,0.00,"7,136.00",150.00,"17,789.00",,,,,,-,,,,,,,,,,,,
+0",SM-S9360ZSGTGY,1,"8,598","8,598","7,136","7,136",300,,300,300.00,,,,"7,136.00","7,136.00",0.00,0.00,"7,136.00",150.00,"17,789.00",,,,,,-,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"48"" OLED S90F (2025)",,QA48S90FAEXZK,SPP,"
 ",QA48S90FAEXZK,1,"13,980","13,980","11,603","11,603",,,0,,800,NRP,"10,803.00","10,803.00","10,803.00",0.00,,"10,803.00",,,,,,,,,,,,,,,,,,,,
 ,S25 AVDA Offer - >=20000,,,,1,Add all to cart using this link,,,"Galaxy S25+, 512GB+12GB, Silver Shadow",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-S9360ZSGTGY&&products[0].quantity=1&&products[1].productCode=QA65QN900FJXZK&&products[1].quantity=1,SM-S9360ZSGTGY,SPP,"
-",SM-S9360ZSGTGY,1,"8,598","8,598","7,136","7,136",300,,300,300.00,,,,"7,136.00","7,136.00",0.00,0.00,"7,136.00",150.00,"35,088.00",,,,,,-,,,,,,,,,,,,
+0",SM-S9360ZSGTGY,1,"8,598","8,598","7,136","7,136",300,,300,300.00,,,,"7,136.00","7,136.00",0.00,0.00,"7,136.00",150.00,"35,088.00",,,,,,-,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"65"" Neo QLED 8K QN990 (2025)",,QA65QN900FJXZK,SPP,"
 ",QA65QN900FJXZK,1,"33,980","33,980","29,902","29,902",,,0,,"1,800",NRP,"28,102.00","28,102.00","28,102.00",0.00,,"28,102.00",,,,,,,,,,,,,,,,,,,,
 ,S25 social campaign til (til Jun 27),,,,1,Add all to cart using this link,Add code: Free TA for S25 series + S25 Edge - web - 1,FJ3-XSAD-8BP8-EC78,"Galaxy S25 Ultra, 1TB+16GB, Titanium Black",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-S9380ZKWTGY&&products[0].quantity=1&&products[1].productCode=SM-S9360LBDTGY&&products[1].quantity=1,SM-S9380ZKWTGY,SPP,"
@@ -129,9 +129,9 @@ Automated,MX Critcal  Bundle,,,,,May 1 - 31,,,,,,SPP,"
 ,,,,,2,SPP Cart Link,,,"Galaxy S25+, 256GB+12GB, Icyblue",,SM-S9360LBDTGY,SPP,"
 ",SM-S9360LBDTGY,1,"7,598","7,598","6,458","6,458",300,,300,,,,,"6,458.00","6,458.00",0.00,,"6,458.00",,,,,,,,,,,,,,,,,,,,
 ,S25 social campaign til (til Jun 27),,,,1,Add all to cart using this link,Add code: Free TA for S25 series + S25 Edge - sprinklr - 1,881-PTN4-ZTRN-2C4C,"Galaxy S25, 256GB+8GB, Blueblack, exclusive",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-S9310ZKGTGY&&products[0].quantity=1&&products[1].productCode=SM-S9370LBGTGY&&products[1].quantity=1,SM-S9310ZKGTGY,SPP,"
-",SM-S9310ZKGTGY,1,"5,898","5,898","4,718","4,718",300,,300,500.00,,,,"4,718.00","4,718.00",0.00,0.00,"4,718.00",150.00,"12,726.00",2 x   Z-ITFITPW03,,,,,-,,,,,,,,,,,,
+",SM-S9310ZKGTGY,1,"5,898","5,898","4,718","4,718",300,,300,500.00,,,,"4,718.00","4,718.00",0.00,0.00,"4,718.00",150.00,"12,838.00",2 x   Z-ITFITPW03,,,,,-,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"Galaxy S25 Edge, 512GB+12GB, Titanium Icyblue",,SM-S9370LBGTGY,SPP,"
-",SM-S9370LBGTGY,1,"9,398","9,398","8,158","8,158",200,,200,,,,,"8,158.00","8,158.00",0.00,,"8,158.00",,,,,,,,,,,,,,,,,,,,
+",SM-S9370LBGTGY,1,"9,398","9,398","8,270","8,270",200,,200,,,,,"8,270.00","8,270.00",0.00,,"8,270.00",,,,,,,,,,,,,,,,,,,,
 ,Father Day CRM Fold6 S24 (Jun 2-17),,,,1,Add all to cart using this link,Add code: DTC Father's Day CRM campaign - eDM - 1,AJ0-RMXW-6715-H3HR,"Galaxy Z Fold6, 256GB+12GB, Crafted Black (eStore)",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-F9560AKDTGY&&products[0].quantity=1&&products[1].productCode=SM-S9280ZTGTGY&&products[1].quantity=1,SM-F9560AKDTGY,SPP,"
 ",SM-F9560AKDTGY,1,"14,398","14,398","11,086","11,086",500,,500,"1,000.00",15%,RRP,"11,086.00","11,086.00","11,086.00",0.00,0.00,"11,086.00",150.00,"18,214.00",,,,,,-,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"Galaxy S24 Ultra, 256GB, Titanium Gray",,SM-S9280ZTGTGY,SPP,"
@@ -141,17 +141,9 @@ Automated,MX Critcal  Bundle,,,,,May 1 - 31,,,,,,SPP,"
 ,,,,,2,SPP Cart Link,,,"Galaxy Book4 Pro 16""/i7/32GB/1TB",,NP960XGK-KG5HK,SPP,"
 ",NP960XGK-KG5HK,1,"15,680","15,680","10,976","10,976",,,0,,25%,RRP,"10,976.00","10,976.00","10,976.00",0.00,,"10,976.00",,,,,,,,,,,,,,,,,,,,
 ,Father Day CRM Ring S9FE+ (Jun 2-17),,,,1,Add all to cart using this link,Add code: DTC Father's Day CRM campaign - Sprinklr,AJ9-BTCM-ATK6-YZA3,"Galaxy Ring, Titanium Silver / 12",https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=SM-Q502NZSATGY&&products[0].quantity=1&&products[1].productCode=SM-X610NLGATGY&&products[1].quantity=1,SM-Q502NZSATGY,EPP,"
-",SM-Q502NZSATGY,1,"3,298","3,298","1,979","1,979",,,0,200.00,40%,RRP,"1,978.80","1,978.80","1,978.80",0.00,0.00,"1,978.80",150.00,"5,119.80",1 x  Z-EJ-B3400UBEGWW-M,,,,,-,,,,,,,,,,,,
+0",SM-Q502NZSATGY,1,"3,298","3,298","1,979","1,979",,,0,200.00,40%,RRP,"1,978.80","1,978.80","1,978.80",0.00,0.00,"1,978.80",150.00,"5,119.80",1 x  Z-EJ-B3400UBEGWW-M,,,,,-,,,,,,,,,,,,
 ,,,,,2,EPP Cart Link,,,"Galaxy Tab S9 FE+, Wi-Fi, MINT",,SM-X610NLGATGY,EPP,"
 ",SM-X610NLGATGY,1,"4,388","4,388",,"4,388",200,,200,,25%,RRP,"3,291.00","3,291.00","3,291.00",0.00,,"3,291.00",,,,,,,,,,,,,,,,,,,,
-,Clearance til May 31 (expired),,,,1,Add all to cart using this link,Add code: Aging Clearance Offer - PN - 1,HF4-S3T4-3CB2-7CLC,"Galaxy Z Flip6, 256GB+12GB, Blue",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-F7410LBATGY&&products[0].quantity=1&&products[1].productCode=SM-S9280LBHTGY&&products[1].quantity=1,SM-F7410LBATGY,SPP,"
-",SM-F7410LBATGY,1,"8,698","8,698","6,697","6,697",500,,500,"1,000.00",,,,"6,697.00","6,697.00",0.00,0.00,"6,697.00",150.00,"14,625.00",,,,,,-,,,,,,,,,,,,
-,,,,,2,SPP Cart Link,,,"Galaxy S24 Ultra, 512GB, Titanium Blue (eStore)",,SM-S9280LBHTGY,SPP,"
-",SM-S9280LBHTGY,1,"10,098","10,098","8,078","8,078",500,,500,,,,,"8,078.00","8,078.00",0.00,,"8,078.00",,,,,,,,,,,,,,,,,,,,
-,Clearance til May 31 (expired),,,,1,Add all to cart using this link,Add code: Aging Clearance Offer - PN - 1,HF4-S3T4-3CB2-7CLC,"Galaxy Book4 Edge, 14""/X1E-80/16GB/512GB, Sapphire Blue",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=NP940XMA-KB1HK&&products[0].quantity=1&&products[1].productCode=SM-Q505NZKATGY&&products[1].quantity=1,NP940XMA-KB1HK,SPP,"
-",NP940XMA-KB1HK,1,"11,980","11,980","8,985","8,985",,,0,0.00,,,,"8,985.00","8,985.00",0.00,0.00,"8,985.00",150.00,"10,814.00",,,,,,-,,,,,,,,,,,,
-,,,,,2,SPP Cart Link,,,"Galaxy Ring, Titanium Black / 5",,SM-Q505NZKATGY,SPP,"
-",SM-Q505NZKATGY,1,"3,298","3,298","1,979","1,979",,,0,,,,,"1,979.00","1,979.00",0.00,,"1,979.00",,,,,,,,,,,,,,,,,,,,
 ,,,,,1,Add all to cart using this link,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1&&products[1].productCode=&&products[1].quantity=1,,SPP,"
 ",,1,,,,,,,0,0.00,,,,,0.00,,0.00,0.00,0.00,0.00,,,,,,-,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,,,,SPP,"
@@ -173,11 +165,19 @@ Automated,MX Critcal  Bundle,,,,,May 1 - 31,,,,,,SPP,"
 ,,,,,2,SPP Cart Link,,,,,,SPP,"
 ",,1,,,,,,,0,,,,,,0.00,,,0.00,,,,,,,,,,,,,,,,,,,,
 ,,,,,1,Add all to cart using this link,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1&&products[1].productCode=&&products[1].quantity=1,,SPP,"
-",,1,,,,,,,0,0.00,,,,,0.00,,,0.00,0.00,0.00,,,,,,,,,,,,,,,,,,
+",,1,,,,,,,0,0.00,,,,,0.00,,0.00,0.00,0.00,0.00,,,,,,-,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,,,,SPP,"
 ",,1,,,,,,,0,,,,,,0.00,,,0.00,,,,,,,,,,,,,,,,,,,,
 ,,,,,1,Add all to cart using this link,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1&&products[1].productCode=&&products[1].quantity=1,,SPP,"
-",,1,,,,,,,0,0.00,,,,,0.00,,,0.00,0.00,0.00,,,,,,,,,,,,,,,,,,
+",,1,,,,,,,0,0.00,,,,,0.00,,0.00,0.00,0.00,0.00,,,,,,-,,,,,,,,,,,,
+,,,,,2,SPP Cart Link,,,,,,SPP,"
+",,1,,,,,,,0,,,,,,0.00,,,0.00,,,,,,,,,,,,,,,,,,,,
+,,,,,1,Add all to cart using this link,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1&&products[1].productCode=&&products[1].quantity=1,,SPP,"
+",,1,,,,,,,0,0.00,,,,,0.00,,0.00,0.00,0.00,0.00,,,,,,,,,,,,,,,,,,
+,,,,,2,SPP Cart Link,,,,,,SPP,"
+",,1,,,,,,,0,,,,,,0.00,,,0.00,,,,,,,,,,,,,,,,,,,,
+,,,,,1,Add all to cart using this link,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1&&products[1].productCode=&&products[1].quantity=1,,SPP,"
+",,1,,,,,,,0,0.00,,,,,0.00,,0.00,0.00,0.00,0.00,,,,,,,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,,,,SPP,"
 ",,1,,,,,,,0,,,,,,0.00,,,0.00,,,,,,,,,,,,,,,,,,,,
 ,,,,,1,Add all to cart using this link,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1&&products[1].productCode=&&products[1].quantity=1,,SPP,"
@@ -189,14 +189,14 @@ Automated,MX Critcal  Bundle,,,,,May 1 - 31,,,,,,SPP,"
 ,,,,,2,SPP Cart Link,,,,,,SPP,"
 ",,1,,,,,,,0,,,,,,0.00,,,0.00,,,,,,,,,,,,,,,,,,,,
 ,,,,,,Add all to cart using this link,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1&&products[1].productCode=&&products[1].quantity=1,,SPP,"
-",,1,,,,,,,0,0.00,,,,,0.00,,,0.00,0.00,0.00,,,,,,,,,,,,,,,,,,
+",,1,,,,,,,0,0.00,,,,,0.00,,0.00,0.00,0.00,0.00,,,,,,,,,,,,,,,,,,
 ,,,,,,SPP Cart Link,,,,,,SPP,"
 ",,1,,,,,,,0,,,,,,0.00,,,0.00,,,,,,,,,,,,,,,,,,,,
 ,,,,,,Add all to cart using this link,,,,https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1&&products[1].productCode=&&products[1].quantity=1,,SPP,"
-",,1,,,,,,,0,0.00,,,,,0.00,,,0.00,0.00,0.00,,,,,,,,,,,,,,,,,,
+",,1,,,,,,,0,0.00,,,,,0.00,,0.00,0.00,0.00,0.00,,,,,,,,,,,,,,,,,,
 ,,,,,,SPP Cart Link,,,,,,SPP,"
 ",,1,,,,,,,0,,,,,,0.00,,,0.00,,,,,,,,,,,,,,,,,,,,
-MAY27TH,SMP ME Bundle,,,,,May 15 - Jun 30,,,,,,SPP,"
+MAY27TH,ME Bundle,,,,,May 15 - Jun 30,,,,,,SPP,"
 ",,,,,,,,,0,,,,,,0.00,,,,,,,,,,,,,,,,,,,,,,,
 ME-01,Watch Ultra + Buds3 Pro + Buds3,,,Passed,1,Add all to cart using this link,Add code: Aging Clearance Offer - eDM - 1,,"Galaxy Watch Ultra, Titanium Gray",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-L705FDAATGY&&products[0].quantity=1&&products[1].productCode=SM-R630NZAATGY&&products[1].quantity=1&&products[2].productCode=SM-R530NZAATGY&&products[2].quantity=1&&products[3].productCode=&&products[3].quantity=,SM-L705FDAATGY,SPP,"
 ",SM-L705FDAATGY,1,"5,098","5,098","3,824","3,824",,,0,0.00,1300,RRP,"3,798.00","3,798.00","3,798.00","3,798.00","5,297.00","3,798.00",150.00,"6,196.00",,,,,,,,,,,,,,,,,,
@@ -244,8 +244,15 @@ ME-06,Fold6 + Watch Ultra + Buds3 Pro + Buds3,,,Passed,1,Add all to cart using t
 ",SM-R530NZAATGY,1,"1,398","1,398","1,049","1,049",0,,0,,500,RRP,898.00,898.00,898.00,0.00,,898.00,,,,,,,,,,,,,,,,,,,,
 MAY27TH,SMP ME Bundle,,,,,May 15 - Jun 30,,,,,,SPP,"
 ",,,,,,,,,0,,,,,,0.00,,,,,,,,,,,,,,,,,,,,,,,
+ME-01,Watch Ultra + Buds3 + S25,,,Passed,1,Add all to cart using this link,Add code: Aging Clearance Offer - eDM - 1,,"Galaxy Watch Ultra, Titanium Gray",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-L705FDAATGY&&products[0].quantity=1&&products[1].productCode=SM-R530NZAATGY&&products[1].quantity=1&&products[2].productCode=SM-S9380ZGWTGY&&products[2].quantity=1&&products[3].productCode=&&products[3].quantity=,SM-L705FDAATGY,SPP,"
+",SM-L705FDAATGY,1,"5,098","5,098","3,824","3,824",,,0,350.00,10%,NRP,"3,441.60","3,441.60","3,441.60","3,441.60","3,441.60","3,091.60",150.00,"14,560.60",,,,,,,,,,,,,,,,,,
+,,,,,2,SPP Cart Link,,,"Galaxy Buds3, Silver",,SM-R530NZAATGY,SPP,"
+",SM-R530NZAATGY,1,"1,398","1,398","1,049","1,049",0,,0,,899,RRP,499.00,499.00,499.00,0.00,,499.00,,,,,,,,,,,,,,,,,,,,
+,,,,,3,Verify bundle & total prices,,,"Galaxy S25 Ultra, 1TB+16GB, Titanium Jadegreen, exclusive",,SM-S9380ZGWTGY,SPP,"
+",SM-S9380ZGWTGY,1,"13,398","13,398","11,120","11,120",350,,350,,,,,"11,120.00","11,120.00",0.00,,"11,120.00",,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,SPP,,,,,,,,,,0,,,,,,0.00,,,0.00,,,,,,,,,,,,,,,,,,,,
 ME-07,"S25 series
-ME Bundle scenario 1",,,Failed,1,Add all to cart using this link,Add code: Aging Clearance Offer - eDM - 1,,"Galaxy S25 Ultra, 1TB+16GB, Titanium Jadegreen, exclusive",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-S9380ZGWTGY&&products[0].quantity=1&&products[1].productCode=SM-L705FDAATGY&&products[1].quantity=1&&products[2].productCode=SM-L300NZGATGY&&products[2].quantity=1&&products[3].productCode=SM-R630NZAATGY&&products[3].quantity=1&&products[4].productCode=SM-R530NZAATGY&&products[4].quantity=1&&products[5].productCode=SM-Q505NZKATGY&&products[5].quantity=1&&products[6].productCode=SM-R390NZAATGY&&products[6].quantity=1,SM-S9380ZGWTGY,SPP,"
+ME Bundle scenario 1",,,Passed,1,Add all to cart using this link,,,"Galaxy S25 Ultra, 1TB+16GB, Titanium Jadegreen, exclusive",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-S9380ZGWTGY&&products[0].quantity=1&&products[1].productCode=SM-L705FDAATGY&&products[1].quantity=1&&products[2].productCode=SM-L300NZGATGY&&products[2].quantity=1&&products[3].productCode=SM-R630NZAATGY&&products[3].quantity=1&&products[4].productCode=SM-R530NZAATGY&&products[4].quantity=1&&products[5].productCode=SM-Q505NZKATGY&&products[5].quantity=1&&products[6].productCode=SM-R390NZAATGY&&products[6].quantity=1,SM-S9380ZGWTGY,SPP,"
 ",SM-S9380ZGWTGY,1,"13,398","13,398","11,120","11,120",350,,350,350.00,,,,"11,120.00","11,120.00",0.00,"7,518.00","11,120.00",150.00,"20,616.00",,,,,,,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"Galaxy Watch Ultra, Titanium Gray",,SM-L705FDAATGY,SPP,"
 ",SM-L705FDAATGY,1,"5,098","5,098","3,824","3,824",,,0,,1300,RRP,"3,798.00","3,798.00","3,798.00","3,798.00",,"3,621.18",,,,,,,,,,,,,,,,,,,,
@@ -259,22 +266,31 @@ ME Bundle scenario 1",,,Failed,1,Add all to cart using this link,Add code: Aging
 ",SM-Q505NZKATGY,1,"3,298","3,298","1,979","1,979",,,0,,,,,"1,979.00","1,979.00",0.00,,"1,979.00",,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,Galaxy Fit3,,SM-R390NZAATGY,SPP,"
 ",SM-R390NZAATGY,1,498,498,423,423,,,0,,,,,423.00,423.00,423.00,,403.31,,,,,,,,,,,,,,,,,,,,
-ME-08,"S25 series
-ME Bundle scenario 2",,,Passed,1,Add all to cart using this link,Add code: Aging Clearance Offer - eDM - 1,,"Galaxy S25 Ultra, 1TB+16GB, Titanium Jadegreen, exclusive",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-S9380ZGWTGY&&products[0].quantity=1&&products[1].productCode=SM-L705FDAATGY&&products[1].quantity=1&&products[2].productCode=SM-L300NZGATGY&&products[2].quantity=1&&products[3].productCode=SM-Q505NZKATGY&&products[3].quantity=1&&products[4].productCode=SM-R390NZAATGY&&products[4].quantity=1,SM-S9380ZGWTGY,SPP,"
-",SM-S9380ZGWTGY,1,"13,398","13,398","11,120","11,120",350,,350,350.00,,,,"11,120.00","11,120.00",0.00,"6,045.00","11,120.00",150.00,"18,644.00",,,,,,,,,,,,,,,,,,
+ME-08,Flagship ME Bundle scenario 2,,,Passed,1,Add all to cart using this link,,,"Galaxy S25 Ultra, 1TB+16GB, Titanium Jadegreen, exclusive",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-S9380ZGWTGY&&products[0].quantity=1&&products[1].productCode=SM-L705FDAATGY&&products[1].quantity=1&&products[2].productCode=SM-L300NZGATGY&&products[2].quantity=1&&products[3].productCode=SM-Q505NZKATGY&&products[3].quantity=1&&products[4].productCode=SM-R390NZAATGY&&products[4].quantity=1,SM-S9380ZGWTGY,SPP,"
+",SM-S9380ZGWTGY,1,"13,398","13,398","11,120","11,120",350,,350,350.00,,,,"11,120.00","11,120.00",0.00,"5,663.60","11,120.00",150.00,"18,262.60",,,,,,,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"Galaxy Watch Ultra, Titanium Gray",,SM-L705FDAATGY,SPP,"
-",SM-L705FDAATGY,1,"5,098","5,098","3,824","3,824",,,0,,800,RRP,"3,824.00","3,824.00","3,824.00","3,824.00",,"3,602.59",,,,,,,,,,,,,,,,,,,,
+",SM-L705FDAATGY,1,"5,098","5,098","3,824","3,824",,,0,,10%,NRP,"3,441.60","3,441.60","3,441.60","3,441.60",,"3,228.92",,,,,,,,,,,,,,,,,,,,
 ,,,,,3,Verify bundle & total prices,,,"Galaxy Watch7 40mm (BT), Green",,SM-L300NZGATGY,SPP,"
-",SM-L300NZGATGY,1,"2,398","2,398","1,799","1,799",,,0,,600,RRP,"1,798.00","1,798.00","1,798.00","1,798.00",,"1,693.90",,,,,,,,,,,,,,,,,,,,
+",SM-L300NZGATGY,1,"2,398","2,398","1,799","1,799",,,0,,,,,"1,799.00","1,799.00","1,799.00",,"1,687.83",,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,"Galaxy Ring, Titanium Black / 5",,SM-Q505NZKATGY,SPP,"
 ",SM-Q505NZKATGY,1,"3,298","3,298","1,979","1,979",,,0,,,,,"1,979.00","1,979.00",0.00,,"1,979.00",,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,Galaxy Fit3,,SM-R390NZAATGY,SPP,"
-",SM-R390NZAATGY,1,498,498,423,423,,,0,,,,,423.00,423.00,423.00,,398.51,,,,,,,,,,,,,,,,,,,,
+",SM-R390NZAATGY,1,498,498,423,423,,,0,,,,,423.00,423.00,423.00,,396.86,,,,,,,,,,,,,,,,,,,,
+ME-08,A-series ME Bundle scenario 2,,,Passed,1,Add all to cart using this link,,,"Galaxy A56 5G, 12GB + 256GB, Awesome Graphite",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-A5660ZKDTGY&&products[0].quantity=1&&products[1].productCode=SM-L705FDAATGY&&products[1].quantity=1&&products[2].productCode=SM-L300NZGATGY&&products[2].quantity=1&&products[3].productCode=SM-Q505NZKATGY&&products[3].quantity=1&&products[4].productCode=SM-R390NZAATGY&&products[4].quantity=1,SM-A5660ZKDTGY,SPP,"
+",SM-A5660ZKDTGY,1,"3,698","3,698","3,254","3,254",200,,200,200.00,,,,"3,254.00","3,254.00",0.00,"5,638.60","3,254.00",150.00,"10,521.60",,,,,,,,,,,,,,,,,,
+,,,,,2,SPP Cart Link,,,"Galaxy Watch Ultra, Titanium Gray",,SM-L705FDAATGY,SPP,"
+",SM-L705FDAATGY,1,"5,098","5,098","3,824","3,824",,,0,,10%,NRP,"3,441.60","3,441.60","3,441.60","3,441.60",,"3,319.53",,,,,,,,,,,,,,,,,,,,
+,,,,,3,Verify bundle & total prices,,,"Galaxy Watch7 40mm (BT), Green",,SM-L300NZGATGY,SPP,"
+",SM-L300NZGATGY,1,"2,398","2,398","1,799","1,799",,,0,,,,,"1,799.00","1,799.00","1,799.00",,"1,735.19",,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,"Galaxy Ring, Titanium Black / 5",,SM-Q505NZKATGY,SPP,"
+",SM-Q505NZKATGY,1,"3,298","3,298","1,979","1,979",,,0,,,,,"1,979.00","1,979.00",0.00,,"1,979.00",,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,Galaxy Fit3,,SM-R390NZAATGY,SPP,"
+",SM-R390NZAATGY,1,498,498,423,423,,,0,,100,RRP,398.00,398.00,398.00,398.00,,383.88,,,,,,,,,,,,,,,,,,,,
 ME-09,"S25 series
-ME Bundle scenario 3",,,Passed,1,Add all to cart using this link,Add code: Aging Clearance Offer - eDM - 1,,"Galaxy S25 Ultra, 1TB+16GB, Titanium Jadegreen, exclusive",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-S9380ZGWTGY&&products[0].quantity=1&&products[1].productCode=SM-S9370ZSGTGY&&products[1].quantity=1&&products[2].productCode=SM-L705FDAATGY&&products[2].quantity=1&&products[3].productCode=SM-L300NZGATGY&&products[3].quantity=1&&products[4].productCode=SM-R630NZAATGY&&products[4].quantity=2&&products[5].productCode=SM-R530NZAATGY&&products[5].quantity=0&&products[6].productCode=SM-Q505NZKATGY&&products[6].quantity=1,SM-S9380ZGWTGY,SPP,"
-",SM-S9380ZGWTGY,1,"13,398","13,398","11,120","11,120",350,,350,550.00,,,,"11,120.00","11,120.00",0.00,"8,593.00","11,120.00",150.00,"29,150.00",,,,,,,,,,,,,,,,,,
+ME Bundle scenario 3",,,Passed,1,Add all to cart using this link,,,"Galaxy S25 Ultra, 1TB+16GB, Titanium Jadegreen, exclusive",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-S9380ZGWTGY&&products[0].quantity=1&&products[1].productCode=SM-S9370ZSGTGY&&products[1].quantity=1&&products[2].productCode=SM-L705FDAATGY&&products[2].quantity=1&&products[3].productCode=SM-L300NZGATGY&&products[3].quantity=1&&products[4].productCode=SM-R630NZAATGY&&products[4].quantity=2&&products[5].productCode=SM-R530NZAATGY&&products[5].quantity=0&&products[6].productCode=SM-Q505NZKATGY&&products[6].quantity=1,SM-S9380ZGWTGY,SPP,"
+",SM-S9380ZGWTGY,1,"13,398","13,398","11,120","11,120",350,,350,550.00,,,,"11,120.00","11,120.00",0.00,"8,593.00","11,120.00",150.00,"29,262.00",,,,,,,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"Galaxy S25 Edge, 512GB+12GB, Titanium Silver",,SM-S9370ZSGTGY,SPP,"
-",SM-S9370ZSGTGY,1,"9,398","9,398","8,158","8,158",200,,200,,,,,"8,158.00","8,158.00",0.00,,"8,158.00",,,,,,,,,,,,,,,,,,,,
+",SM-S9370ZSGTGY,1,"9,398","9,398","8,270","8,270",200,,200,,,,,"8,270.00","8,270.00",0.00,,"8,270.00",,,,,,,,,,,,,,,,,,,,
 ,,,,,3,Verify bundle & total prices,,,"Galaxy Watch Ultra, Titanium Gray",,SM-L705FDAATGY,SPP,"
 ",SM-L705FDAATGY,1,"5,098","5,098","3,824","3,824",,,0,,1300,RRP,"3,798.00","3,798.00","3,798.00","3,798.00",,"3,554.91",,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,"Galaxy Watch7 40mm (BT), Green",,SM-L300NZGATGY,SPP,"
@@ -289,7 +305,7 @@ MAY10TH,SPP YXC,,,,,May 10 - Jun 30,,,,,,SPP,"
 ",,1,,,,,,,0,,,,,,0.00,,,,,,,,,,,,,,,,,,,,,,,
 YXC-01,"SPP YXC
 Spent $7000 get $300 off  - invalid",,,,1,Add all to cart using this link,Add code: Education Store - YXC,,"Galaxy S25 Edge, 512GB+12GB, Titanium Silver",https://shop.samsung.com/hk/multistore/hkedu/hkeducation/ng/p4v1/addToCart?products[0].productCode=SM-S9370ZSGTGY&&products[0].quantity=1&&products[1].productCode=EF-PS937CBEGWW&&products[1].quantity=1,SM-S9370ZSGTGY,SPP,"
-",SM-S9370ZSGTGY,1,"9,398","9,398","8,158","8,158",200,,200,200.00,1300,RRP,"8,098.00","8,098.00","8,098.00",0.00,179.00,"8,098.00",300.00,"7,798.00",,Passed,,,,,,,,,,,,,,,,
+",SM-S9370ZSGTGY,1,"9,398","9,398","8,270","8,270",200,,200,200.00,1300,RRP,"8,098.00","8,098.00","8,098.00",0.00,179.00,"8,098.00",300.00,"7,798.00",,Passed,,,,,,,,,,,,,,,,
 ,,,,,2,SPP Cart Link,,,"Galaxy S25 Edge Silicone Case, Black",,EF-PS937CBEGWW,SPP,"
 ",EF-PS937CBEGWW,1,238,238,179,179,,,0,,,,,179.00,179.00,179.00,,0.00,,,,Passed,,,,,,,,,,,,,,,,
 YXC-01,"SPP YXC
