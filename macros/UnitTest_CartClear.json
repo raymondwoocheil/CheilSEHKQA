@@ -191,7 +191,7 @@
     },
     {
       "Command": "executeScript_Sandbox",
-      "Target": "return ${RemoveIconCount}+1",
+      "Target": "return ${RemoveIconCount}+2",
       "Value": "RemoveIconCount",
       "Description": ""
     },
@@ -208,8 +208,20 @@
       "Description": ""
     },
     {
+      "Command": "executeScript_Sandbox",
+      "Target": "return 300*(${RemoveIconCount}-${!times}+2)",
+      "Value": "waitTime",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "waitTime : ${waitTime}",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "pause",
-      "Target": "800",
+      "Target": "${waitTime}",
       "Value": "",
       "Description": ""
     },

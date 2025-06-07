@@ -1,0 +1,619 @@
+{
+  "Name": "UnitTest_CartCheckingByPremium",
+  "CreationDate": "2025-6-7",
+  "Commands":
+  [
+    {
+      "Command": "store",
+      "Target": "fast",
+      "Value": "!replayspeed",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!errorIgnore",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Dummy Test Data",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // CE",
+      "Value": "TestCat",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // QA65QN900DJXZK",
+      "Value": "SKU",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // Yes",
+      "Value": "TradeUp",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // Yes",
+      "Value": "globalAddTradeUpCart",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // No",
+      "Value": "globalSkipTradeUp",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "executeScript // return 0",
+      "Value": "ExpectedTradeInRebate",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // Yes",
+      "Value": "TradeUp",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "executeScript // return 100",
+      "Value": "ExpectedTradeUpDiscount",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // Yes",
+      "Value": "SCPlus",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // Yes",
+      "Value": "globalAddSCPlusCart",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // No",
+      "Value": "globalSkipSCPlus",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "executeScript // return 0",
+      "Value": "ExpectedSCPlusPrice",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "store // QA65QN900DJXZK,Z-SM-S9280ZTGT-CTV,Z-WMN-B16FB/XY",
+      "Value": "ExpectedPremiumStrings",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "executeScript // return ${ExpectedPremiumStrings}.split(',')",
+      "Value": "ExpectedPremiumArray",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "executeScript // return Number(3)",
+      "Value": "ItemCount",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Dummy Test Data",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start of Cart Page Testing**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementVisible",
+      "Target": "xpath=//cx-page-layout[contains(@class,\"CartPageTemplateV2\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start of Empty Cart Checking**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementNotPresent",
+      "Target": "xpath=section[contains(@class,\"cart-details__empty\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End of Empty Cart Checking**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Empty Cart - Log Result as OOS (Blocked)**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "4",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "OOS (Blocked)",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Empty Cart - Log Result as OOS (Blocked)**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Non-Empty Cart**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Unit Task - Add Promo Code**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${PromoCode}!=\"\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_AddPromoCode",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Unit Task - Add Promo Code**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Unit Test - Check Extra Premium**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${ExpectedPremiumSKU}==\"\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "No need to check premiums",
+      "Value": "blue",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "CheckPremium",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "2",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "CheckPremium",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "ExpectedPremiumSKU: ${ExpectedPremiumSKU} - Qty ${ExpectedPremiumQty}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "0",
+      "Value": "MainSKUCount",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "MainSKUsStrings",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "0",
+      "Value": "PremiumQty",
+      "Description": ""
+    },
+    {
+      "Command": "storeXpathCount",
+      "Target": "xpath=//div[contains(@class,\"cart-item-list\")]",
+      "Value": "ItemCount",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "${ItemCount}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//div[contains(@class,\"cart-item-list\")][${!times}]//div[contains(@class,\"cart-item__sku\")]",
+      "Value": "ThisSKU",
+      "Description": ""
+    },
+    {
+      "Command": "storeAttribute",
+      "Target": "xpath=//div[contains(@class,\"cart-item-list\")][${!times}]//cart-item-counter//button[contains(@class,\"btn-qty-plus\")]@data-modelunit",
+      "Value": "ThisQty",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "echo // Item ${!times}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(${ThisQty})",
+      "Value": "ThisQty",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "${ThisSKU}: ${ThisQty}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${ExpectedMainSKUsString}.lastIndexOf(${ThisSKU}) > -1",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "${ThisSKU} is one of the Expected Main SKU",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(Number(${MainSKUCount})+1);",
+      "Value": "MainSKUCount",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return ${MainSKUsStrings}+${ThisSKU}+', ';",
+      "Value": "MainSKUsStrings",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
+      "Target": "${ExpectedPremiumSKU}==${ThisSKU}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "${ThisSKU} is the Expected Premium",
+      "Value": "green",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(${ThisQty})",
+      "Value": "PremiumQty",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "${ThisSKU} does not need to be checked",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Unit Test - Check Extra Premium**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start - Record Results**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${ExpectedPremiumSKU}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${PremiumQty}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Main SKU Count",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${MainSKUCount}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${MainSKUsStrings}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Failed",
+      "Value": "CheckPremium",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${ExpectedPremiumQty}==${PremiumQty}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Qty: ${ExpectedPremiumQty} is correct",
+      "Value": "green",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "CheckPremium",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
+      "Target": "${MainSKUCount}==${PremiumQty}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Qty: ${PremiumQty} is incorrect but matching Main SKU count. Expected Qty (${ExpectedPremiumQty})",
+      "Value": "green",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "CheckPremium",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Qty: ${PremiumQty} is incorrect. Expected Qty (${ExpectedPremiumQty})",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${CheckPremium}",
+      "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${TestResult}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End - Record Results**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Screencap Cart Page**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "executeScript // document.querySelector('app-sticky-cart-totals-v2 > div > div').classList.remove('sticky-cart-totals__wrapper')",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "document.querySelector('app-sticky-cart-totals-v2 > div > div').style.display = \"none\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "document.querySelector('#spr-live-chat-app').style.display = \"none\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "document.querySelector('app-back-to-top').style.display = \"none\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${skipScreenshot} != \"true\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "captureEntirePageScreenshot",
+      "Target": "${TestCat}${TestSite} ${!csvReadLineNumber} ${CaseID} CartPage ${SKUwithoutSlash} ${DateTimeNow} ${TestResult}.png",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "captureEntirePageScreenshot // Test",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End of Cart Page Testing**",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

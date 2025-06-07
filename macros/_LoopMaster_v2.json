@@ -1,10 +1,11 @@
 {
   "Name": "_LoopMaster_v2",
-  "CreationDate": "2025-6-1",
-  "Commands": [
+  "CreationDate": "2025-6-7",
+  "Commands":
+  [
     {
       "Command": "executeScript_Sandbox",
-      "Target": "var targetDate = new Date('2025-06-01T00:01:00+08:00'); var now = new Date(); var diff = targetDate - now; return diff > 0 ? diff : 0;",
+      "Target": "var targetDate = new Date('2025-06-08T00:03:00+08:00'); var now = new Date(); var diff = targetDate - now; return diff > 0 ? diff : 0;",
       "Value": "waitTime",
       "Description": "Calculate milliseconds until timestamp"
     },
@@ -58,13 +59,13 @@
     },
     {
       "Command": "store",
-      "Target": "10",
+      "Target": "1",
       "Value": "startLoopStream",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "11",
+      "Target": "8",
       "Value": "endLoopStream",
       "Description": ""
     },
@@ -82,7 +83,7 @@
     },
     {
       "Command": "store",
-      "Target": "CE-B2C-223-300",
+      "Target": "CE-B2C-6-300",
       "Value": "loop3",
       "Description": ""
     },
@@ -144,6 +145,18 @@
       "Command": "store",
       "Target": "MX-Event-6-150",
       "Value": "loop13",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "MXPremium-B2C-6-100",
+      "Value": "loop14",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "CEPremium-B2C-6-100",
+      "Value": "loop15",
       "Description": ""
     },
     {
@@ -395,6 +408,30 @@
     {
       "Command": "store",
       "Target": "TestBundle",
+      "Value": "TestMacro",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
+      "Target": "${TestCatOriginal}==\"MXPremium\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "TestPremium",
+      "Value": "TestMacro",
+      "Description": ""
+    },
+    {
+      "Command": "elseif",
+      "Target": "${TestCatOriginal}==\"CEPremium\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "TestPremium",
       "Value": "TestMacro",
       "Description": ""
     },

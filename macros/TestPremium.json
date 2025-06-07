@@ -1,5 +1,5 @@
 {
-  "Name": "TestBundle",
+  "Name": "TestPremium",
   "CreationDate": "2025-5-23",
   "Commands":
   [
@@ -42,12 +42,6 @@
     {
       "Command": "comment",
       "Target": "**Open URL and Start Timer**",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "open",
-      "Target": "https://www.samsung.com/hk/",
       "Value": "",
       "Description": ""
     },
@@ -113,56 +107,32 @@
     },
     {
       "Command": "store",
-      "Target": "${!COL11}",
+      "Target": "${!COL4}",
       "Value": "AddToCartURL",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "${!COL9}",
+      "Target": "",
       "Value": "PromoCode",
       "Description": ""
     },
     {
-      "Command": "executeScript_Sandbox",
-      "Target": "return Number(${!COL34}.replace(/[^0-9.-]+/g,\"\")) || 0;",
-      "Value": "ExpectedTotalPriceCart",
-      "Description": ""
-    },
-    {
       "Command": "store",
-      "Target": "${!COL35}",
-      "Value": "ExpectedExtraPremium",
+      "Target": "${!COL2}",
+      "Value": "ExpectedPremiumSKU",
       "Description": ""
     },
     {
       "Command": "executeScript_Sandbox",
-      "Target": "return ${!COL35}.split(\"x\")[1].trim();",
-      "Value": "ExpectedExtraPremiumSKU",
-      "Description": ""
-    },
-    {
-      "Command": "executeScript_Sandbox",
-      "Target": "return Number(${!COL35}.split(\"x\")[0]);",
-      "Value": "ExpectedExtraPremiumQty",
+      "Target": "return Number(${!COL7});",
+      "Value": "ExpectedPremiumQty",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "",
-      "Value": "ProductName",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "",
-      "Value": "SKU",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "",
-      "Value": "SKUwithoutSlash",
+      "Target": "${!COL8};",
+      "Value": "ExpectedMainSKUsString",
       "Description": ""
     },
     {
@@ -173,7 +143,55 @@
     },
     {
       "Command": "comment",
-      "Target": "echo // [${CaseID}] Starting Bundle Test Case",
+      "Target": "**Start of Empty Cart Checking to Clear Carr**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_CartOpen",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=section[contains(@class,\"cart-details__empty\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_CartClear",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End of Empty Cart Checking to Clear Carr**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "echo // [${CaseID}] Starting Premium Rule Test Case",
       "Value": "blue",
       "Description": ""
     },
@@ -281,7 +299,7 @@
     },
     {
       "Command": "run",
-      "Target": "UnitTest_CartCheckingBundle",
+      "Target": "UnitTest_CartCheckingByPremium",
       "Value": "",
       "Description": ""
     },
@@ -294,6 +312,48 @@
     {
       "Command": "run",
       "Target": "UnitTest_CartClear",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start of Empty Cart Checking to Clear Carr**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "!statusOK",
+      "Description": ""
+    },
+    {
+      "Command": "verifyElementPresent",
+      "Target": "xpath=section[contains(@class,\"cart-details__empty\")]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!statusOK}!=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_CartClear",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End of Empty Cart Checking to Clear Carr**",
       "Value": "",
       "Description": ""
     },

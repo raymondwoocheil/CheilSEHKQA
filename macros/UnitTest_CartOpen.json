@@ -1,8 +1,7 @@
 {
   "Name": "UnitTest_CartOpen",
-  "CreationDate": "2024-10-13",
-  "Commands":
-  [
+  "CreationDate": "2025-6-7",
+  "Commands": [
     {
       "Command": "store",
       "Target": "fast",
@@ -40,9 +39,10 @@
       "Description": ""
     },
     {
-      "Command": "executeScript_Sandbox",
-      "Target": "return (window.location.href)",
-      "Value": "currentURL"
+      "Command": "executeScript",
+      "Target": "return window.location.href;",
+      "Value": "currentURL",
+      "Description": ""
     },
     {
       "Command": "if_v2",
@@ -123,12 +123,6 @@
       "Description": ""
     },
     {
-      "Command": "elseif",
-      "Target": "${TestSite}==\"Secret\"",
-      "Value": "",
-      "Description": ""
-    },
-    {
       "Command": "if_v2",
       "Target": "${currentURL}!=\"https://shop.samsung.com/hk/multistore/hk_event_channel/hkevent/cart\"",
       "Value": "",
@@ -173,6 +167,12 @@
     {
       "Command": "end",
       "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "pause // 99999999999999",
       "Value": "",
       "Description": ""
     }
