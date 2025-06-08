@@ -1,4 +1,4 @@
-MX EA,,,,,,Go to EA Cart Page,,,,,Via add-to-cart link,,,Go to SPP Cart Page,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,,,,136
+MX EA,,,,,,Go to EA Cart Page,,,,,Via buy page,,,Go to SPP Cart Page,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,,,,136
 Assigned,Test Case,,,,,,,,,,44,Price,,Step >>,Step >>,Verify >>,Step >>,,Verify >>,Step >>,,Verify >>,Step >>,,,Verify >>,Step >>,,Special >>,Step >>,Verify >>,Verify >>,Mass premiums,,,,,,,,,,,Total,Verify >>,,Cart Page Result >>,,,Step >>,Step >>,Verify >>,Step >>,Verify >>,Verify >>,Verify >>,Checkout Page Result >> END OF TEST,,,,,,,,Automated Tests by UI Visions,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Automated Test Result,Test duration (s),,Auto Cart,Last Updated,,,,,
 Tester,ID,Auto Cart,Price Status,Premiunm Qty,Auto Checkout,Model,BASE SKU,Active / BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-in,Trade-in-type,Verify extra trade-in rebate,SC+,SC-type,"Verify SC+ 
 in Cart",Galaxy Credits ,GC-type,GC discount,Verify GC discount,Add Promo Code 1,Add Promo Code 2,Special discount after adding to cart,Add to Cart,Verify Product Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass - Jun 1-30,Mass - Jun 1-30,Mass - Jun 1-30,Mass - Jun 1-30,Mass - Jun 1-30,Father  - Jun 2-18,,,"No-trade-in
@@ -6,12 +6,12 @@ offer","No-trade-in
 offer",Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)","Verify Expired Premiums 
 NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,"Guest or login, proceed to delivery option",Verify these Delivery Option available,Delivery method action,Verify these criteria,,Verify Expected Delivery Date,Checkout Page Result,Screencap of Step 2 Delivery Option,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,Line No.,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,GC in cart,GC cart captured,GC cart result,Extra Trade-In Rebate label,Trade-In Rebate captured,Trade-In Rebate result,SC+ label,SC+ captured,SC+ result,Premium SKU count,Premium Count captured,Premium SKU count result,Failed reason,Items in Cart,SKU 1,Qty,,SKU 2,Qty,,SKU 3,Qty,,SKU 4,Qty,,SKU 5,Qty,,SKU 6,Qty,,SKU 7,Qty,,SKU 8,Qty,,SKU 9,Qty,,SKU 10,Qty,,Qty Total,Qty Total Result,Premium Array,Final Result,Test duration (s),,Cart Page Result,Last Updated,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,, ,,,"ARRAY_CONSTRAIN(ARRAYFORMULA(IFERROR(MX!AO4:AO,"""")),150,1)",,," ,ARRAY_CONSTRAIN(ARRAYFORMULA(IFERROR(MX!AO4:AO,"""")),150,1)",,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,, ,,,"ARRAY_CONSTRAIN(ARRAYFORMULA(IFERROR(MX!AO4:AO,"""")),150,1)",,," ,ARRAY_CONSTRAIN(ARRAYFORMULA(IFERROR(MX!AO4:AO,"""")),150,1)",,"
 ",#REF!,,,,,,,,,,#REF!,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,"
 
 
 "
-,EA:SMP,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,EA:SMP,,,,,,,-,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 Key,EA:SMP-01,,inStock,,,"Galaxy S25 Ultra, 1TB+16GB, Titanium Jadegreen, exclusive","SM-S9380, 1TB",N,SM-S9380ZGWTGY,https://www.samsung.com/hk/multistore/hkses/buy.SM-S9380ZGWTGY,SM-S9380ZGWTGY,"13,398","12,598",,,"12,598",Yes,S25 Ultra,0,Yes,S25 Series,998,Use GC,S25 Ultra,350,350,,,,Add to Cart,"12,598.00",,EF-VS938PBEGWW / EF-VS938PJEGWW / EF-VS938PLEGWW / EF-VS938PFEGWW,,,,,,Z-AVDAVOUCHER,,,,"EF-VS938PBEGWW / EF-VS938PJEGWW / EF-VS938PLEGWW / EF-VS938PFEGWW,Z-AVDAVOUCHER",2,"
 ●  1 x  Galaxy S25 Ultra, Kindsuit Case (pick 1) [EF-VS938PBEGWW / EF-VS938PJEGWW / EF-VS938PLEGWW / EF-VS938PFEGWW]
@@ -176,7 +176,7 @@ Key,EA:SMP-35,,inStock,,,Galaxy A16 5G (6GB + 128GB) Blue Black (Main Color),"SM
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,EA:SMP-39,,,,,Galaxy XCover6 Pro,"SM-G736B/DS, 128GB",EOL,SM-G736BZKDTGY,https://www.samsung.com/hk/multistore/hkses/buy.SM-G736BZKDTGY,SM-G736BZKDTGY,0,0,,,0,No,0,0,No,0,0,N/A,0,0,0,,,,Add to Cart,0.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,EA:TAB,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,0.08,,0.00,,,,,,,,,,,,,0,"
+,EA:TAB,,,,,,,-,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,0.08,,0.00,,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 Key,EA:TAB-01,,inStock,,,"Galaxy Tab S10+ Wifi, 12GB+256GB, Moonstone Gray","SM-X820, 256GB",N,SM-X820NZAATGY,https://www.samsung.com/hk/multistore/hkses/buy.SM-X820NZAATGY,SM-X820NZAATGY,"7,888","7,088",,,"7,088",No,Tab S10+ 256GB,0,No,Tab S10+,0,Use GC,Tab S10 series,500,500,,,,Add to Cart,"7,088.00",,Z-EF-DX820UBEGWW-M,,,,,Z-ITFITPW28-M,,,,,"Z-EF-DX820UBEGWW-M,Z-ITFITPW28-M",2,"
 ●  1 x  Galaxy Tab S10+  Book Cover Keyboard Slim - AI Key Black [Z-EF-DX820UBEGWW-M]
@@ -274,7 +274,7 @@ Key,EA:TAB-28,,OOS (Blocked),,,"Galaxy Tab A9+, 64GB 4GB Wi-Fi Gray","SM-X210, "
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 Key,EA:TAB-33,,inStock,,,Galaxy Tab S6 Lite (2024) Wi-Fi Oxford Gray,"SM-P620, 128GB",N,SM-P620NZAETGY,https://www.samsung.com/hk/multistore/hkses/buy.SM-P620NZAETGY,SM-P620NZAETGY,"2,588","2,288",,,"2,288",No,Tab S6 Lite (2024 edition),0,No,Tab S6 Lite (2024),0,N/A,,0,0,,,,Add to Cart,"2,288.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,EA:NPC,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,EA:NPC,,,,,,,-,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 Key,EA:NPC-01,,inStock,,,"Galaxy Book5 Pro 360, 16""/i7/32GB/1TB, Gray",NP960QHAA-EXP,N,NP960QHA-KG1HK,https://www.samsung.com/hk/multistore/hkses/buy.NP960QHA-KG1HK,NP960QHA-KG1HK,"16,180","14,180",,,"14,180",No,Book5 Pro 360,0,No,Book Tier 4: Premium (RRP >=$15000),0,Use GC,Book5 Pro 360,780,780,,,,Add to Cart,"14,180.00",,Z-EF-LPUN6PBEGWW,,,,,,,,,,Z-EF-LPUN6PBEGWW,1,"
 ●  1 x  Galaxy Book Slim Pouch 16"" [Z-EF-LPUN6PBEGWW]
@@ -354,7 +354,7 @@ Key,EA:NPC-32,,Unavailable,,,"Galaxy Book4 15.6""/i5/8GB/512GB",NP750XGKA-EXP,N,
 ",45602,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,EA:NPC-34,,,,,"Galaxy Book3 Pro 360, i7/16G/1TB/Shared, Beige",NP960QFGA-EXP,EOL,NP960QFG-KB1HK,https://www.samsung.com/hk/multistore/hkses/buy.NP960QFG-KB1HK,NP960QFG-KB1HK,0,0,,,0,No,0,0,No,Book Tier 4: Premium (RRP >=$15000),0,N/A,0,0,0,,,,Add to Cart,0.00,,,,,,,,,,,,,0,"
 ",45611,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,EA:ME,,,,,,,-,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,EA:ME,,,,,,,-,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",45611,,,,End of Test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 Key,EA:ME-01,,inStock,,,"Galaxy Watch7 40mm (BT), Green","SM-L300, ",N,SM-L300NZGATGY,https://www.samsung.com/hk/multistore/hkses/buy.SM-L300NZGATGY,SM-L300NZGATGY,"2,398","1,798",,,"1,798",No,Watch7,0,No,Watch B1 (RRP <=$2700),0,N/A,,0,0,,,,Add to Cart,"1,798.00",,Z-ET-SVL31LNEGWW-M / Z-ET-SVL30SWEGWW-M,,,,,,,,,,Z-ET-SVL31LNEGWW-M / Z-ET-SVL30SWEGWW-M,1,"
 ●  1 x  Fabric Band [Z-ET-SVL31LNEGWW-M / Z-ET-SVL30SWEGWW-M]
@@ -408,39 +408,39 @@ Key,EA:ME-14,,inStock,,,"Galaxy Ring, Titanium Black / 5","SM-Q505, ",N,SM-Q505N
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,EA:ME-22,,OOS (Blocked),,,"Galaxy Ring, Titanium Gold / 13","SM-Q503, ",N,SM-Q503NZDATGY,https://www.samsung.com/hk/multistore/hkses/buy.SM-Q503NZDATGY,SM-Q503NZDATGY,"3,298",,,,"3,298",No,Ring,0,No,Ring,0,N/A,,0,0,,,,Add to Cart,"3,298.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
-,,,,,,,,,,,https://shop.samsung.com/hk/multistore/hkepp/samsunghkem/ng/p4v1/addToCart?products[0].productCode=&&products[0].quantity=1,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
+,,,,,,,,,,,,0,0,,,0,,0,0,,0,0,N/A,0,0,0,,,,,0.00,,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
