@@ -1,11 +1,10 @@
 {
   "Name": "_LoopMaster_v2",
-  "CreationDate": "2025-6-7",
-  "Commands":
-  [
+  "CreationDate": "2025-6-14",
+  "Commands": [
     {
       "Command": "executeScript_Sandbox",
-      "Target": "var targetDate = new Date('2025-06-08T00:03:00+08:00'); var now = new Date(); var diff = targetDate - now; return diff > 0 ? diff : 0;",
+      "Target": "var targetDate = new Date('2025-06-08T03:00:00+08:00'); var now = new Date(); var diff = targetDate - now; return diff > 0 ? diff : 0;",
       "Value": "waitTime",
       "Description": "Calculate milliseconds until timestamp"
     },
@@ -40,8 +39,8 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "true",
+      "Command": "comment",
+      "Target": "store // true",
       "Value": "runTesterLinesOnly",
       "Description": ""
     },
@@ -52,8 +51,8 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "true",
+      "Command": "comment",
+      "Target": "store // true",
       "Value": "skipScreenshot",
       "Description": ""
     },
@@ -65,55 +64,55 @@
     },
     {
       "Command": "store",
-      "Target": "8",
+      "Target": "1",
       "Value": "endLoopStream",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "MX-B2C-6-150",
+      "Target": "MX-SPP-80-80",
       "Value": "loop1",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "Bundle-B2C-6-200",
+      "Target": "MX-EPP-6-150",
       "Value": "loop2",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "CE-B2C-6-300",
+      "Target": "MX-B2C-6-150",
       "Value": "loop3",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "MX-SPP-6-150",
+      "Target": "Bundle-B2C-6-200",
       "Value": "loop4",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "Bundle-SPP-6-99",
+      "Target": "CE-B2C-6-300",
       "Value": "loop5",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "MX-EPP-6-150",
+      "Target": "Bundle-SPP-6-99",
       "Value": "loop6",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "CE-EPP-6-300",
+      "Target": "CE-SPP-6-300",
       "Value": "loop7",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "CE-SPP-6-300",
+      "Target": "CE-EPP-169-300",
       "Value": "loop8",
       "Description": ""
     },

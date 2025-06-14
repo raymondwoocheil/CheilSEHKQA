@@ -3,7 +3,7 @@ Assigned,Test Case,,,,,,,,,,96,Price,,Step >>,Step >>,Verify >>,Step >>,,Verify 
 Tester,ID,Auto Cart,Price Status,Manual Checkout,Auto Checkout,Model,FAMILY,BC-Buy,SKU,Link,SKU + Link,RRP,NRP,Login,Password,Verify Price before Discount,Trade-up,Trade-up-discount,Verify trade-up discount,,,,,,,,Add Promo Code 1,Add Promo Code 2,Special discount after adding to cart,Add to Cart,Verify Price in Cart after Discount,Verify pre-order or back-order delivery date,Mass,Mass,Mass,Mass,Mass,Mass,Warrenty,,,,Array,Total,"Verify Free Premiums in Cart (SKU)
 (Exact Match)","Verify Expired Premiums 
 NOT SHOWING in Cart",Cart Page Result,Screencap,Reason of fail,Proceed to Chckout,"Guest or login, proceed to delivery option",Verify these Delivery Option available,Delivery method action,Verify these criteria,,Verify Expected Delivery Date,Checkout Page Result,Screencap of Step 2 Delivery Option,Reason of fail,,Fix Status,eStore reply,CPT eStore team PIC,,Time of Test,Line No.,ID,SKU,Model,SKU Price label,SKU Price captured,SKU result,GC label,GC captured,GC result,SKU price in cart,SKU price captured,SKU price result,GC in cart,GC cart captured,GC cart result,Extra Trade-In Rebate label,Trade-In Rebate captured,Trade-In Rebate result,SC+ label,SC+ captured,SC+ result,Premium SKU count,Premium Count captured,Premium SKU count result,Failed reason,Items in Cart,SKU 1,Qty,,SKU 2,Qty,,SKU 3,Qty,,SKU 4,Qty,,SKU 5,Qty,,SKU 6,Qty,,SKU 7,Qty,,SKU 8,Qty,,SKU 9,Qty,,SKU 10,Qty,,Qty Total,Qty Total Result,Premium Array,Final Result,Test duration (s),,Cart Page Result,Last Updated,,,,,
-,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,"ARRAY_CONSTRAIN(ARRAYFORMULA(IFERROR(XLOOKUP($L4:$L,CE!$L:$L,CE!AO:AO),)),400,1)","ARRAY_CONSTRAIN(ARRAYFORMULA(IFERROR(XLOOKUP($L4:$L,CE!$L:$L,CE!AP:AP),)),400,1)\",,"ARRAY_CONSTRAIN(ARRAYFORMULA(IFERROR(XLOOKUP($L4:$L,CE!$L:$L,CE!AO:AO),)),400,1),ARRAY_CONSTRAIN(ARRAYFORMULA(IFERROR(XLOOKUP($L4:$L,CE!$L:$L,CE!AP:AP),)),400,1)\",,"
+,,,,,,,,,,,,,,,,,,0,0,,,,,,,,,,,,0.00,,,,,,,,,,"ARRAY_CONSTRAIN(ARRAYFORMULA(IFERROR(XLOOKUP($L4:$L,CE!$L:$L,CE!AP:AP),)),400,1)\",,"ARRAY_CONSTRAIN(ARRAYFORMULA(IFERROR(XLOOKUP($L4:$L,CE!$L:$L,CE!AP:AP),)),400,1)\",,"
 ",,,,,,,,,,,#REF!,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,#REF!,,,,,,,,,,,,"
 
 
@@ -143,7 +143,7 @@ Auto,EA=CTV-O-08,,inStock,,,"48"" OLED S90DAE",,N,QA48S90DAEXZK,https://www.sams
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV-L-10,,Unavailable,,,"43"" Lifestyle Frame LS03D",,UN,QA43LS03DAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA43LS03DAJXZK,QA43LS03DAJXZK,"7,980",,,,"7,980",No,0,0,,,,,,,,,,,Add to Cart,"7,980.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV-L-11,,inStock,,,"32"" The Frame LS03C",,N,QA32LS03CBJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA32LS03CBJXZK,QA32LS03CBJXZK,"4,880","4,380",,,"4,380",No,0,0,,,,,,,,,,,Add to Cart,"4,380.00",,,,,,,,ZG-SLIMFITINCL,,,,ZG-SLIMFITINCL,1,"
+Auto,EA=CTV-L-11,,inStock,,,"32"" The Frame LS03C",,N,QA32LS03CBJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA32LS03CBJXZK,QA32LS03CBJXZK,"4,880","3,580",,,"3,580",No,0,0,,,,,,,,,,,Add to Cart,"3,580.00",,,,,,,,ZG-SLIMFITINCL,,,,ZG-SLIMFITINCL,1,"
 ●  1 x  Slim Fit Wall Mount included with The Frame [ZG-SLIMFITINCL]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV-L-12,,Unavailable,,,"43"" The Sero LS05B White",,UN,QA43LS05BBJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA43LS05BBJXZK,QA43LS05BBJXZK,"12,980",,,,12980,No,0,0,,,,,,,,,,,Add to Cart,"12,980.00",,,,,,,,,,,,,0,"
@@ -214,8 +214,9 @@ Auto,EA=CTV25-O-01,,inStock,,,"77"" OLED S95F (2025)",,N,QA77S95FAJXZK,https://w
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-O-02,,inStock,,,"65"" OLED S95F (2025)",,N,QA65S95FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65S95FAJXZK,QA65S95FAJXZK,"33,480","33,480",,,"33,480",No,0,0,,,,,,,,,,,Add to Cart,"33,480.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
+Auto,EA=CTV25-O-02,,inStock,,,"65"" OLED S95F (2025)",,N,QA65S95FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65S95FAJXZK,QA65S95FAJXZK,"33,480","33,480",,,"33,480",No,0,0,,,,,,,,,,,Add to Cart,"33,480.00",,Z-WMN-B16FB/XY,,,,,,,ZG-GALAXYTI2000,,,"Z-WMN-B16FB/XY,ZG-GALAXYTI2000",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  HK$2,000 PARKnSHOP supermarket coupon from Samsung Galaxy mobile Trade In [ZG-GALAXYTI2000]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=CTV25-O-03,,inStock,,,"55"" OLED S95F (2025)",,N,QA55S95FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55S95FAJXZK,QA55S95FAJXZK,"23,480","23,480",,,"23,480",No,0,0,,,,,,,,,,,Add to Cart,"23,480.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -223,24 +224,28 @@ Auto,EA=CTV25-O-04,,inStock,,,"83"" OLED S90F (2025)",,N,QA83S90FAEXZK,https://w
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-O-05,,inStock,,,"77"" OLED S90F (2025)",,N,QA77S90FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA77S90FAEXZK,QA77S90FAEXZK,"49,980","49,980",,,"49,980",No,0,0,,,,,,,,,,,Add to Cart,"49,980.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
+Auto,EA=CTV25-O-05,,inStock,,,"77"" OLED S90F (2025)",,N,QA77S90FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA77S90FAEXZK,QA77S90FAEXZK,"49,980","49,980",,,"49,980",No,0,0,,,,,,,,,,,Add to Cart,"49,980.00",,Z-WMN-B16FB/XY,,,,,,,ZG-GALAXYTI2000,,,"Z-WMN-B16FB/XY,ZG-GALAXYTI2000",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  HK$2,000 PARKnSHOP supermarket coupon from Samsung Galaxy mobile Trade In [ZG-GALAXYTI2000]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-O-06,,inStock,,,"65"" OLED S90F (2025)",,N,QA65S90FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65S90FAEXZK,QA65S90FAEXZK,"25,280","25,280",,,"25,280",No,0,0,,,,,,,,,,,Add to Cart,"25,280.00",,Z-WMN-B05FB/XY,,,,,,,,,,Z-WMN-B05FB/XY,1,"
+Auto,EA=CTV25-O-06,,inStock,,,"65"" OLED S90F (2025)",,N,QA65S90FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65S90FAEXZK,QA65S90FAEXZK,"25,280","25,280",,,"25,280",No,0,0,,,,,,,,,,,Add to Cart,"25,280.00",,Z-WMN-B05FB/XY,,,,,,,ZG-GALAXYTI2000,,,"Z-WMN-B05FB/XY,ZG-GALAXYTI2000",2,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
+●  1 x  HK$2,000 PARKnSHOP supermarket coupon from Samsung Galaxy mobile Trade In [ZG-GALAXYTI2000]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=CTV25-O-07,,inStock,,,"55"" OLED S90F (2025)",,N,QA55S90FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55S90FAJXZK,QA55S90FAJXZK,"19,280","19,280",,,"19,280",No,0,0,,,,,,,,,,,Add to Cart,"19,280.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=CTV25-O-08,,inStock,,,"48"" OLED S90F (2025)",,N,QA48S90FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA48S90FAEXZK,QA48S90FAEXZK,"13,980","13,980",,,"13,980",No,0,0,,,,,,,,,,,Add to Cart,"13,980.00",,,,,,,,,,,,,0,"
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-O-09,,inStock,,,"42"" OLED S90F (2025)",,N,QA42S90FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA42S90FAEXZK,QA42S90FAEXZK,"11,380","11,380",,,11380,No,0,0,,,,,,,,,,,Add to Cart,"11,380.00",,,,,,,,,,,,,0,"
+Auto,EA=CTV25-O-09,,inStock,,,"42"" OLED S90F (2025)",,N,QA42S90FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA42S90FAEXZK,QA42S90FAEXZK,"11,380","11,380",,,11380,No,0,0,,,,,,,,,,,Add to Cart,"11,380.00",,,,,,,,,ZG-GALAXYTI2000,,,ZG-GALAXYTI2000,1,"
+●  1 x  HK$2,000 PARKnSHOP supermarket coupon from Samsung Galaxy mobile Trade In [ZG-GALAXYTI2000]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=CTV25-QN-07,,inStock,,,"98"" Neo QLED 4K QN90F (2025)",,N,QA98QN90FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA98QN90FAJXZK,QA98QN90FAJXZK,"119,980","119,980",,,119980,No,0,0,,,,,,,,,,,Add to Cart,"119,980.00",,Z-WMN8000SX/XY,Z-HW-Q930D/ZK,,,,,,,,,"Z-WMN8000SX/XY,Z-HW-Q930D/ZK",2,"
 ●  1 x  TV Wall mount (WMN8000SX) [Z-WMN8000SX/XY]
 ●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-QN-08,,inStock,,,"65"" Neo QLED 4K QN90F (2025)",,N,QA65QN90FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65QN90FAJXZK,QA65QN90FAJXZK,"24,280","24,280",,,24280,No,0,0,,,,,,,,,,,Add to Cart,"24,280.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
+Auto,EA=CTV25-QN-08,,inStock,,,"65"" Neo QLED 4K QN90F (2025)",,N,QA65QN90FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65QN90FAJXZK,QA65QN90FAJXZK,"24,280","24,280",,,24280,No,0,0,,,,,,,,,,,Add to Cart,"24,280.00",,Z-WMN-B16FB/XY,,,,,,,ZG-GALAXYTI2000,,,"Z-WMN-B16FB/XY,ZG-GALAXYTI2000",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  HK$2,000 PARKnSHOP supermarket coupon from Samsung Galaxy mobile Trade In [ZG-GALAXYTI2000]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=CTV25-QN-09,,inStock,,,"55"" Neo QLED 4K QN90F (2025)",,N,QA55QN90FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55QN90FAJXZK,QA55QN90FAJXZK,"18,280","18,280",,,18280,No,0,0,,,,,,,,,,,Add to Cart,"18,280.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -252,11 +257,13 @@ Auto,EA=CTV25-QN-12,,inStock,,,"83"" OLED S85F (2025)",,N,QA83S85FAEXZK,https://
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
 ●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-QN-13,,inStock,,,"77"" OLED S85F (2025)",,N,QA77S85FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA77S85FAEXZK,QA77S85FAEXZK,"42,480","42,480",,,42480,No,0,0,,,,,,,,,,,Add to Cart,"42,480.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
+Auto,EA=CTV25-QN-13,,inStock,,,"77"" OLED S85F (2025)",,N,QA77S85FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA77S85FAEXZK,QA77S85FAEXZK,"42,480","42,480",,,42480,No,0,0,,,,,,,,,,,Add to Cart,"42,480.00",,Z-WMN-B16FB/XY,,,,,,,ZG-GALAXYTI2000,,,"Z-WMN-B16FB/XY,ZG-GALAXYTI2000",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  HK$2,000 PARKnSHOP supermarket coupon from Samsung Galaxy mobile Trade In [ZG-GALAXYTI2000]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-QN-14,,inStock,,,"65"" OLED S85F (2025)",,N,QA65S85FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65S85FAEXZK,QA65S85FAEXZK,"21,980","21,980",,,"21,980",No,0,0,,,,,,,,,,,Add to Cart,"21,980.00",,Z-WMN-B05FB/XY,,,,,,,,,,Z-WMN-B05FB/XY,1,"
+Auto,EA=CTV25-QN-14,,inStock,,,"65"" OLED S85F (2025)",,N,QA65S85FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65S85FAEXZK,QA65S85FAEXZK,"21,980","21,980",,,"21,980",No,0,0,,,,,,,,,,,Add to Cart,"21,980.00",,Z-WMN-B05FB/XY,,,,,,,ZG-GALAXYTI2000,,,"Z-WMN-B05FB/XY,ZG-GALAXYTI2000",2,"
 ●  1 x  Full Motion Slim Fit Wall Mount WMN-B05FB (2023) [Z-WMN-B05FB/XY]
+●  1 x  HK$2,000 PARKnSHOP supermarket coupon from Samsung Galaxy mobile Trade In [ZG-GALAXYTI2000]
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=CTV25-QN-15,,inStock,,,"55"" OLED S85F (2025)",,N,QA55S85FAEXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA55S85FAEXZK,QA55S85FAEXZK,"15,980","15,980",,,"15,980",No,0,0,,,,,,,,,,,Add to Cart,"15,980.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -280,8 +287,9 @@ Auto,EA=CTV25-QN-22,,inStock,,,"85"" Neo QLED 4K QN70F (2025)",,N,QA85QN70FAJXZK
 ●  1 x  Full Motion Slim Fit TV Wallmount with installation [Z-WMN-B30FB/RU]
 ●  1 x  Q-series Soundbar HW-Q930D [Z-HW-Q930D/ZK]
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Auto,EA=CTV25-QN-23,,inStock,,,"75"" Neo QLED 4K QN70F (2025)",,N,QA75QN70FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA75QN70FAJXZK,QA75QN70FAJXZK,"24,980","24,980",,,"24,980",No,0,0,,,,,,,,,,,Add to Cart,"24,980.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
+Auto,EA=CTV25-QN-23,,inStock,,,"75"" Neo QLED 4K QN70F (2025)",,N,QA75QN70FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA75QN70FAJXZK,QA75QN70FAJXZK,"24,980","24,980",,,"24,980",No,0,0,,,,,,,,,,,Add to Cart,"24,980.00",,Z-WMN-B16FB/XY,,,,,,,ZG-GALAXYTI2000,,,"Z-WMN-B16FB/XY,ZG-GALAXYTI2000",2,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
+●  1 x  HK$2,000 PARKnSHOP supermarket coupon from Samsung Galaxy mobile Trade In [ZG-GALAXYTI2000]
 ",,,,,,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Auto,EA=CTV25-QN-24,,inStock,,,"65"" Neo QLED 4K QN70F (2025)",,N,QA65QN70FAJXZK,https://www.samsung.com/hk/multistore/hkses/buy.QA65QN70FAJXZK,QA65QN70FAJXZK,"14,480","14,480",,,"14,480",No,0,0,,,,,,,,,,,Add to Cart,"14,480.00",,Z-WMN-B16FB/XY,,,,,,,,,,Z-WMN-B16FB/XY,1,"
 ●  1 x  Full Motion Slim Wall Mount WMN-B16FB (2023) [Z-WMN-B16FB/XY]
@@ -328,7 +336,7 @@ Auto,EA=CTV25-QN-37,,inStock,,,"75"" QLED Q7FA (2025)",,N,QA75Q7FAAJXZK,https://
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV25-U-02,,inStock,,,"65"" UHD 8500 (2025)",,N,UA65U8500FJXZK,https://www.samsung.com/hk/multistore/hkses/buy.UA65U8500FJXZK,UA65U8500FJXZK,"9,480","9,480",,,"9,480",No,0,0,,,,,,,,,,,Add to Cart,"9,480.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,EA=CTV25-U-03,,OOS (Blocked),,,"55"" UHD 8500 (2025)",,N,UA55U8500FJXZK,https://www.samsung.com/hk/multistore/hkses/buy.UA55U8500FJXZK,UA55U8500FJXZK,"5,680","5,680",,,"5,680",No,0,0,,,,,,,,,,,Add to Cart,"5,680.00",,,,,,,,,,,,,0,"
+,EA=CTV25-U-03,,inStock,,,"55"" UHD 8500 (2025)",,N,UA55U8500FJXZK,https://www.samsung.com/hk/multistore/hkses/buy.UA55U8500FJXZK,UA55U8500FJXZK,"5,680","5,680",,,"5,680",No,0,0,,,,,,,,,,,Add to Cart,"5,680.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=CTV25-U-04,,inStock,,,"50"" UHD 8500 (2025)",,N,UA50U8500FJXZK,https://www.samsung.com/hk/multistore/hkses/buy.UA50U8500FJXZK,UA50U8500FJXZK,"4,980","4,980",,,"4,980",No,0,0,,,,,,,,,,,Add to Cart,"4,980.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -742,7 +750,7 @@ Auto,EA=VC-03,,,,,VS20B958F3NSP Bespoke Jet Plus 210W Woody Green,,UN,VS20B958F3
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=VC-05,,,,,VS20C852FTBSHJet85 Stick VC Midnight Blue,,N,VS20C852FTB/SH,https://www.samsung.com/hk/multistore/hkses/buy.VS20C852FTBSH,VS20C852FTB/SH,"4,990","3,990",,,"3,990",No,100,0,,,,,,,,,,,Add to Cart,"3,990.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,EA=VC-06,,,,,VS20C852CTNSH Jet85 Stick VC Woody Green1,,N,VS20C852CTN/SH,https://www.samsung.com/hk/multistore/hkses/buy.VS20C852CTNSH,VS20C852CTN/SH,"4,590","3,490",,,"3,490",No,100,0,,,,,,,,,,,Add to Cart,"3,490.00",,,,,,,,,,,,,0,"
+,EA=VC-06,,,,,VS20C852CTNSH Jet85 Stick VC Woody Green1,,UN,VS20C852CTN/SH,https://www.samsung.com/hk/multistore/hkses/buy.VS20C852CTNSH,VS20C852CTN/SH,"4,590","3,490",,,"3,490",No,100,0,,,,,,,,,,,Add to Cart,"3,490.00",,,,,,,,,,,,,0,"
 ",,,,,End of Test,,,,,0,,,,,,,,,-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,EA=VC-07,,,,,Bespoke Jet™ AI premium extra 280 W Exceptionally Powerful Cleaning Performance Satin Black,,EOL,VS28C979FQK/SP,https://www.samsung.com/hk/multistore/hkses/buy.VS28C979FQKSP,VS28C979FQK/SP,"9,990","7,990",,,"7,990",No,0,0,,,,,,,,,,,Add to Cart,"7,990.00",,Z-VCA-ADB952,Z-VCA-TABC97/GL,Z-VCA-SAK95K/GL,,,,,,,,"Z-VCA-ADB952,Z-VCA-TABC97/GL,Z-VCA-SAK95K/GL",3,"
 ●  1 x  BESPOKE Jet™ Clean Station Antibacterial Dust Bag (5ea) [Z-VCA-ADB952]
