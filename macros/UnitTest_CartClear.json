@@ -191,7 +191,7 @@
     },
     {
       "Command": "executeScript_Sandbox",
-      "Target": "return ${RemoveIconCount}+2",
+      "Target": "return ${RemoveIconCount}+1",
       "Value": "RemoveIconCount",
       "Description": ""
     },
