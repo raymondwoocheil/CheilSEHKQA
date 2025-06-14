@@ -39,8 +39,8 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "store // true",
+      "Command": "store",
+      "Target": "true",
       "Value": "runTesterLinesOnly",
       "Description": ""
     },
@@ -58,103 +58,97 @@
     },
     {
       "Command": "store",
-      "Target": "1",
-      "Value": "startLoopStream",
+      "Target": "1-2",
+      "Value": "loopToStream",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "1",
-      "Value": "endLoopStream",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "MX-SPP-80-80",
+      "Target": "B2C-MX-6-150",
       "Value": "loop1",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "MX-EPP-6-150",
+      "Target": "B2C-Bundle-6-200",
       "Value": "loop2",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "MX-B2C-6-150",
+      "Target": "B2C-CE-6-300",
       "Value": "loop3",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "Bundle-B2C-6-200",
+      "Target": "SPP-MX-6-150",
       "Value": "loop4",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "CE-B2C-6-300",
+      "Target": "SPP-Bundle-6-99",
       "Value": "loop5",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "Bundle-SPP-6-99",
+      "Target": "SPP-CE-6-300",
       "Value": "loop6",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "CE-SPP-6-300",
+      "Target": "EPP-MX-6-150",
       "Value": "loop7",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "CE-EPP-169-300",
+      "Target": "EPP-CE-6-300",
       "Value": "loop8",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "CE-EA-6-300",
+      "Target": "EA-CE-6-300",
       "Value": "loop9",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "Bundle-EA-6-100",
+      "Target": "EA-Bundle-6-100",
       "Value": "loop10",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "MX-EA-6-150",
+      "Target": "EA-MX-6-150",
       "Value": "loop11",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "CE-Event-6-150",
+      "Target": "Event-MX-6-150",
       "Value": "loop12",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "MX-Event-6-150",
+      "Target": "Event-CE-6-150",
       "Value": "loop13",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "MXPremium-B2C-6-100",
+      "Target": "B2C-MXPremium-6-100",
       "Value": "loop14",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "CEPremium-B2C-6-100",
+      "Target": "B2C-CEPremium-6-100",
       "Value": "loop15",
       "Description": ""
     },
@@ -166,14 +160,14 @@
     },
     {
       "Command": "executeScript_Sandbox",
-      "Target": "return Number(${endLoopStream})",
-      "Value": "endLoopStream",
+      "Target": "return Number(${loopToStream}.split(\"-\")[0]);",
+      "Value": "startLoopStream",
       "Description": ""
     },
     {
       "Command": "executeScript_Sandbox",
-      "Target": "return Number(${startLoopStream})",
-      "Value": "startLoopStream",
+      "Target": "return Number(${loopToStream}.split(\"-\")[1]);",
+      "Value": "endLoopStream",
       "Description": ""
     },
     {
@@ -263,13 +257,13 @@
     {
       "Command": "executeScript_Sandbox",
       "Target": "return ${loopStreamConfig}.split(\"-\")[0];",
-      "Value": "TestCatOriginal",
+      "Value": "TestSite",
       "Description": ""
     },
     {
       "Command": "executeScript_Sandbox",
       "Target": "return ${loopStreamConfig}.split(\"-\")[1];",
-      "Value": "TestSite",
+      "Value": "TestCatOriginal",
       "Description": ""
     },
     {
