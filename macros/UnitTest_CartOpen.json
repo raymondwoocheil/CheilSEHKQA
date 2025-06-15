@@ -1,7 +1,8 @@
 {
   "Name": "UnitTest_CartOpen",
   "CreationDate": "2025-6-7",
-  "Commands": [
+  "Commands":
+  [
     {
       "Command": "store",
       "Target": "fast",
@@ -118,7 +119,7 @@
     },
     {
       "Command": "elseif",
-      "Target": "${TestSite}==\"Secret\"",
+      "Target": "${TestSite}==\"Event\"",
       "Value": "",
       "Description": ""
     },

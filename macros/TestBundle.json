@@ -125,25 +125,25 @@
     },
     {
       "Command": "executeScript_Sandbox",
-      "Target": "return Number(${!COL34}.replace(/[^0-9.-]+/g,\"\")) || 0;",
+      "Target": "return Number(${!COL38}.replace(/[^0-9.-]+/g,\"\")) || 0;",
       "Value": "ExpectedTotalPriceCart",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "${!COL35}",
+      "Target": "${!COL39}",
       "Value": "ExpectedExtraPremium",
       "Description": ""
     },
     {
       "Command": "executeScript_Sandbox",
-      "Target": "return ${!COL35}.split(\"x\")[1].trim();",
+      "Target": "return ${!COL39}.split(\"x\")[1].trim();",
       "Value": "ExpectedExtraPremiumSKU",
       "Description": ""
     },
     {
       "Command": "executeScript_Sandbox",
-      "Target": "return Number(${!COL35}.split(\"x\")[0]);",
+      "Target": "return Number(${!COL39}.split(\"x\")[0]);",
       "Value": "ExpectedExtraPremiumQty",
       "Description": ""
     },
