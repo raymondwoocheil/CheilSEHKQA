@@ -58,6 +58,12 @@
       "Description": ""
     },
     {
+      "Command": "store",
+      "Target": "",
+      "Value": "FailReasons",
+      "Description": ""
+    },
+    {
       "Command": "executeScript_Sandbox",
       "Target": "var today = new Date();\nvar date = today.getFullYear() + \"-\" + (today.getMonth() + 1) + \"-\" + today.getDate()\nreturn date;",
       "Value": "DateToday",

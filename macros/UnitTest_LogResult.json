@@ -118,6 +118,18 @@
       "Description": ""
     },
     {
+      "Command": "store",
+      "Target": "${FailReasons}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Fail Reasons : ${FailReasons}",
+      "Value": "red",
+      "Description": ""
+    },
+    {
       "Command": "comment",
       "Target": "**Start Save CSV**",
       "Value": "",

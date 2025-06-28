@@ -16,8 +16,8 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "URL contains /cart: ${isCartPage}",
+      "Command": "comment",
+      "Target": "echo //Start clearing cart - URL contains /cart: ${isCartPage}",
       "Value": "",
       "Description": ""
     },
@@ -214,8 +214,8 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "waitTime : ${waitTime}",
+      "Command": "comment",
+      "Target": "echo // waitTime : ${waitTime}",
       "Value": "",
       "Description": ""
     },

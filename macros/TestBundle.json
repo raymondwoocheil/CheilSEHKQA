@@ -1,6 +1,6 @@
 {
   "Name": "TestBundle",
-  "CreationDate": "2025-5-23",
+  "CreationDate": "2025-6-28",
   "Commands":
   [
     {
@@ -55,6 +55,12 @@
       "Command": "store",
       "Target": "Passed",
       "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "FailReasons",
       "Description": ""
     },
     {
@@ -118,6 +124,66 @@
       "Description": ""
     },
     {
+      "Command": "if_v2",
+      "Target": "${CartAction} == \"Persist\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "false",
+      "Value": "RunAddtoCartURL",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "true",
+      "Value": "RunAddtoCartURL",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${!COL40} != \"\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${!COL40}",
+      "Value": "CartAction",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Clear",
+      "Value": "CartAction",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "store",
       "Target": "${!COL9}",
       "Value": "PromoCode",
@@ -137,14 +203,50 @@
     },
     {
       "Command": "executeScript_Sandbox",
-      "Target": "return ${!COL39}.split(\"x\")[1].trim();",
-      "Value": "ExpectedExtraPremiumSKU",
+      "Target": "return ${!COL39}.split(/\\r?\\n/);",
+      "Value": "ExpectedExtraPremiumArray",
       "Description": ""
     },
     {
       "Command": "executeScript_Sandbox",
-      "Target": "return Number(${!COL39}.split(\"x\")[0]);",
-      "Value": "ExpectedExtraPremiumQty",
+      "Target": "return ${ExpectedExtraPremiumArray}.length+1",
+      "Value": "ExpectedExtraPremiumItemCount",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return ${ExpectedExtraPremiumArray}[0].split(\"x\")[1].trim();",
+      "Value": "ExpectedExtraPremiumSKU1",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(${ExpectedExtraPremiumArray}[0].split(\"x\")[0]);",
+      "Value": "ExpectedExtraPremiumQty1",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return ${ExpectedExtraPremiumArray}[1].split(\"x\")[1].trim();",
+      "Value": "ExpectedExtraPremiumSKU2",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(${ExpectedExtraPremiumArray}[1].split(\"x\")[0]);",
+      "Value": "ExpectedExtraPremiumQty2",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return ${ExpectedExtraPremiumArray}[2].split(\"x\")[1].trim();",
+      "Value": "ExpectedExtraPremiumSKU3",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(${ExpectedExtraPremiumArray}[2].split(\"x\")[0]);",
+      "Value": "ExpectedExtraPremiumQty3",
       "Description": ""
     },
     {
@@ -172,8 +274,8 @@
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "echo // [${CaseID}] Starting Bundle Test Case",
+      "Command": "echo",
+      "Target": "[${CaseID}] Starting Bundle Test Case",
       "Value": "blue",
       "Description": ""
     },
@@ -232,8 +334,20 @@
       "Description": ""
     },
     {
+      "Command": "if_v2",
+      "Target": "${RunAddtoCartURL} == \"true\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "open",
       "Target": "${AddToCartURL}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
       "Value": "",
       "Description": ""
     },
@@ -274,8 +388,32 @@
       "Description": ""
     },
     {
+      "Command": "if_v2",
+      "Target": "${RunAddtoCartURL} == \"true\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "run",
       "Target": "UnitTest_CartTabOpen",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_CartOpen",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
       "Value": "",
       "Description": ""
     },
@@ -292,8 +430,38 @@
       "Description": ""
     },
     {
+      "Command": "if_v2",
+      "Target": "${CartAction} == \"Clear\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "run",
       "Target": "UnitTest_CartClear",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_CartClear",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_CartClear",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_CartClear",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
       "Value": "",
       "Description": ""
     },

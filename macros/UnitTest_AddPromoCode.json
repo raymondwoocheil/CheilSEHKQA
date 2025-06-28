@@ -1,7 +1,8 @@
 {
   "Name": "UnitTest_AddPromoCode",
-  "CreationDate": "2025-2-5",
-  "Commands": [
+  "CreationDate": "2025-6-28",
+  "Commands":
+  [
     {
       "Command": "comment",
       "Target": "store // Y3W-SBE5-RGWY-B7ER",
@@ -10,13 +11,13 @@
     },
     {
       "Command": "click",
-      "Target": "id=mat-input-0",
+      "Target": "id=mat-input-serverApp0",
       "Value": "",
       "Description": ""
     },
     {
       "Command": "type",
-      "Target": "id=mat-input-0",
+      "Target": "id=mat-input-serverApp0",
       "Value": "${PromoCode}",
       "Description": ""
     },
@@ -48,6 +49,12 @@
       "Command": "echo",
       "Target": "[${SKU}] Promo Code: Failed - Cannot apply code",
       "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${FailReasons} Cannot apply code /",
+      "Value": "FailReasons",
       "Description": ""
     },
     {

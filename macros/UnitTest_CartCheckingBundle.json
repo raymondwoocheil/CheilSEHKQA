@@ -1,7 +1,8 @@
 {
-  "Name": "_UnitTest_CartCheckingBundle",
-  "CreationDate": "2025-5-23",
-  "Commands": [
+  "Name": "UnitTest_CartCheckingBundle",
+  "CreationDate": "2025-6-28",
+  "Commands":
+  [
     {
       "Command": "store",
       "Target": "fast",
@@ -120,6 +121,12 @@
       "Command": "comment",
       "Target": "**Start of Cart Page Testing**",
       "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "FullItemList",
       "Description": ""
     },
     {
@@ -279,6 +286,12 @@
       "Description": ""
     },
     {
+      "Command": "echo",
+      "Target": "Expected price ${ExpectedTotalPriceCart} = Actual ${TotalPriceCart} is correct",
+      "Value": "green",
+      "Description": ""
+    },
+    {
       "Command": "else",
       "Target": "",
       "Value": "",
@@ -294,6 +307,12 @@
       "Command": "store",
       "Target": "Failed",
       "Value": "TestResult",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Expected price ${ExpectedTotalPriceCart} = Actual ${TotalPriceCart} is incorrect",
+      "Value": "red",
       "Description": ""
     },
     {
@@ -327,21 +346,15 @@
       "Description": ""
     },
     {
-      "Command": "echo",
-      "Target": "No need to check premiums",
+      "Command": "comment",
+      "Target": "echo // No need to check premiums",
       "Value": "blue",
       "Description": ""
     },
     {
       "Command": "times",
-      "Target": "3",
+      "Target": "9",
       "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "store",
-      "Target": "Passed",
-      "Value": "CheckExtraPremium",
       "Description": ""
     },
     {
@@ -357,6 +370,12 @@
       "Description": ""
     },
     {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "CheckExtraPremium",
+      "Description": ""
+    },
+    {
       "Command": "else",
       "Target": "",
       "Value": "",
@@ -369,9 +388,9 @@
       "Description": ""
     },
     {
-      "Command": "store",
-      "Target": "${ExpectedExtraPremium}",
-      "Value": "!csvLine",
+      "Command": "executeScript_Sandbox",
+      "Target": "return Number(0)",
+      "Value": "CorrectExtraPremiumItemCount",
       "Description": ""
     },
     {
@@ -399,6 +418,18 @@
       "Description": ""
     },
     {
+      "Command": "store",
+      "Target": "${FullItemList} ${ThisQty} x ${ThisSKU},",
+      "Value": "FullItemList",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "echo // ${FullItemList}",
+      "Value": "",
+      "Description": ""
+    },
+    {
       "Command": "comment",
       "Target": "echo // Item ${!times}",
       "Value": "",
@@ -411,15 +442,21 @@
       "Description": ""
     },
     {
-      "Command": "executeScript_Sandbox",
-      "Target": "return false",
+      "Command": "comment",
+      "Target": "executeScript_Sandbox // return false",
       "Value": "VerifyThisSKU",
       "Description": ""
     },
     {
       "Command": "if_v2",
-      "Target": "${ExpectedExtraPremiumSKU}==${ThisSKU}",
+      "Target": "${ExpectedExtraPremiumSKU1}==${ThisSKU}",
       "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${ThisSKU}",
+      "Value": "!csvLine",
       "Description": ""
     },
     {
@@ -435,6 +472,12 @@
       "Description": ""
     },
     {
+      "Command": "executeScript_Sandbox",
+      "Target": "return ${CorrectExtraPremiumItemCount}+1",
+      "Value": "CorrectExtraPremiumItemCount",
+      "Description": ""
+    },
+    {
       "Command": "store",
       "Target": "${ThisQty}",
       "Value": "!csvLine",
@@ -442,7 +485,7 @@
     },
     {
       "Command": "if_v2",
-      "Target": "${ExpectedExtraPremiumQty}==${ThisQty}",
+      "Target": "${ExpectedExtraPremiumQty1}==${ThisQty}",
       "Value": "",
       "Description": ""
     },
@@ -472,7 +515,7 @@
     },
     {
       "Command": "echo",
-      "Target": "Qty ${ThisQty} is incorrect. Expected Qty (${ExpectedExtraPremiumQty})",
+      "Target": "Qty ${ThisQty} is incorrect. Expected Qty (${ExpectedExtraPremiumQty1})",
       "Value": "red",
       "Description": ""
     },
@@ -486,6 +529,252 @@
       "Command": "end",
       "Target": "",
       "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "** End checking Premium 1",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "** Start checking Premium 2",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${ExpectedExtraPremiumSKU2}!=\"\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${ExpectedExtraPremiumSKU2}==${ThisSKU}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${ThisSKU}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "echo // ${ThisSKU}: ${ThisQty}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "${ThisSKU} is Expected",
+      "Value": "green",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return ${CorrectExtraPremiumItemCount}+1",
+      "Value": "CorrectExtraPremiumItemCount",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${ThisQty}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${ExpectedExtraPremiumQty2}==${ThisQty}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Qty ${ThisQty} is Expected",
+      "Value": "green",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "CheckExtraPremium",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Qty ${ThisQty} is incorrect. Expected Qty (${ExpectedExtraPremiumQty2})",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "** End checking Premium 2",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "** Start checking Premium 3",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${ExpectedExtraPremiumSKU3}!=\"\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${ExpectedExtraPremiumSKU3}==${ThisSKU}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "echo // ${ThisSKU}: ${ThisQty}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "${ThisSKU} is Expected",
+      "Value": "green",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return ${CorrectExtraPremiumItemCount}+1",
+      "Value": "CorrectExtraPremiumItemCount",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "${ThisQty}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${ExpectedExtraPremiumQty3}==${ThisQty}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Qty ${ThisQty} is Expected",
+      "Value": "green",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "CheckExtraPremium",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "Passed",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "echo",
+      "Target": "Qty ${ThisQty} is incorrect. Expected Qty (${ExpectedExtraPremiumQty3})",
+      "Value": "red",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "** End checking Premium 3",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return 3*(3-${CorrectExtraPremiumItemCount})",
+      "Value": "ExtraColumms",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "pause // 9999999999999999",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "times",
+      "Target": "${ExtraColumms}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "store",
+      "Target": "",
+      "Value": "!csvLine",
       "Description": ""
     },
     {
@@ -537,8 +826,44 @@
       "Description": ""
     },
     {
+      "Command": "store",
+      "Target": "${FullItemList}",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
       "Command": "end",
       "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**Start Remove Promo Code**",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "if_v2",
+      "Target": "${PromoCode}!=\"\"",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "UnitTest_RemovePromoCode",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "**End Remove Promo Code**",
       "Value": "",
       "Description": ""
     },
