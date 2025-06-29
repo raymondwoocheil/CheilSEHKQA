@@ -353,7 +353,7 @@
     },
     {
       "Command": "store",
-      "Target": "EP-T6530NBEGGB",
+      "Target": "EB-P4520XUEGWW",
       "Value": "GcSKU",
       "Description": ""
     },
@@ -365,13 +365,13 @@
     },
     {
       "Command": "executeScript_Sandbox",
-      "Target": "return Number('478')",
+      "Target": "return Number('428')",
       "Value": "GcSKUPriceB2C",
       "Description": ""
     },
     {
       "Command": "executeScript_Sandbox",
-      "Target": "return Number('359')",
+      "Target": "return Number('321')",
       "Value": "GcSKUPriceEPP",
       "Description": ""
     },
