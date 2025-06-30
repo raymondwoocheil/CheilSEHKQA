@@ -46,12 +46,6 @@
       "Description": ""
     },
     {
-      "Command": "open",
-      "Target": "https://www.samsung.com/hk/",
-      "Value": "",
-      "Description": ""
-    },
-    {
       "Command": "store",
       "Target": "Passed",
       "Value": "TestResult",
@@ -145,6 +139,12 @@
       "Command": "store",
       "Target": "true",
       "Value": "RunAddtoCartURL",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "open // https://www.samsung.com/hk/",
+      "Value": "",
       "Description": ""
     },
     {
