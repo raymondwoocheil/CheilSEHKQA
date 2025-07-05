@@ -1,10 +1,10 @@
 {
   "Name": "_LoopMaster_v2",
-  "CreationDate": "2025-6-30",
+  "CreationDate": "2025-7-6",
   "Commands": [
     {
       "Command": "executeScript_Sandbox",
-      "Target": "var targetDate = new Date('2025-06-29T03:00:00+08:00'); var now = new Date(); var diff = targetDate - now; return diff > 0 ? diff : 0;",
+      "Target": "var targetDate = new Date('2025-07-06T03:00:00+08:00'); var now = new Date(); var diff = targetDate - now; return diff > 0 ? diff : 0;",
       "Value": "waitTime",
       "Description": "Calculate milliseconds until timestamp"
     },
@@ -64,19 +64,19 @@
     },
     {
       "Command": "store",
-      "Target": "B2C-Bundle-6-345",
+      "Target": "B2C-MX-6-150",
       "Value": "loop1",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "B2C-MX-6-150",
+      "Target": "B2C-CE-6-300",
       "Value": "loop2",
       "Description": ""
     },
     {
       "Command": "store",
-      "Target": "B2C-CE-6-300",
+      "Target": "B2C-Bundle-6-350",
       "Value": "loop3",
       "Description": ""
     },
